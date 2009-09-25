@@ -1,0 +1,2446 @@
+# Producing OSS - Translating project.
+# Andrés Maneiro <andres.maneiro@gmail.com>, 2009.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Producing OSS\n"
+"Report-Msgid-Bugs-To: producingoss@listas.ghandalf.org\n"
+"POT-Creation-Date: 2009-07-11 15:32+0000\n"
+"PO-Revision-Date: 2009-09-09 23:44+0200\n"
+"Last-Translator: Andrés Maneiro <andres.maneiro@gmail.com>\n"
+"Language-Team: Galician <producingoss@listas.ghandalf.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#: ch02.xml:3
+#, no-c-format
+msgid "Getting Started"
+msgstr "Primeiros pasos"
+
+#. Tag: para
+#: ch02.xml:7
+#, no-c-format
+msgid ""
+"The classic model of how free software projects get started was supplied by "
+"Eric Raymond, in a now-famous paper on open source processes entitled "
+"<citetitle>The Cathedral and the Bazaar</citetitle>. He wrote:"
+msgstr ""
+"O modelo clásico de cómo os proxectos de software libre son iniciados foi "
+"proposto por Eric Raymond, nun artigo xa famoso sobre procesos no software "
+"libre titulado <citetitle>A catedral e o bazar<citetitle>. Raymond escribiu:"
+
+#. Tag: emphasis
+#: ch02.xml:13
+#, fuzzy, no-c-format
+msgid ""
+"Every good work of software starts by scratching a developer's personal itch."
+msgstr ""
+"Tódolos bos proxectos de software comezan satisfacendo as necesidades dun "
+"desenvolvedor."
+
+#. Tag: para
+#: ch02.xml:16
+#, no-c-format
+msgid ""
+"(from <emphasis role=\"bold\"><ulink url=\"http://www.catb.org/~esr/writings/"
+"cathedral-bazaar/\"></ulink> </emphasis>)"
+msgstr ""
+"(de <emphasis role=\"bold\"><ulink url=\"http://www.catb.org/~esr/writings/"
+"cathedral-bazaar/\"></ulink> </emphasis>)"
+
+#. Tag: para
+#: ch02.xml:20
+#, no-c-format
+msgid ""
+"Note that Raymond wasn't saying that open source projects happen only when "
+"some individual gets an itch. Rather, he was saying that <emphasis>good</"
+"emphasis> software results when the programmer has a personal interest in "
+"seeing the problem solved; the relevance of this to free software was that a "
+"personal itch happened to be the most frequent motivation for starting a "
+"free software project."
+msgstr ""
+"Obsérvese que Raymond non está dicindo que os proxectos de software libre "
+"únicamente xurden cando un individuo ten unha necesidade. Máis ben, está "
+"dicindo que os <emphasis>bos</emphasis> programas son resultado de que un "
+"programador teña un interese persoal en ver o problema resolto; a relevancia "
+"disto para o software libre foi que un desexo persoal sexa a motivación máis "
+"frecuente para comezar un proxecto de software libre."
+
+#. Tag: para
+#: ch02.xml:27
+#, no-c-format
+msgid ""
+"This is still how most free software projects are started, but less so now "
+"than in 1997, when Raymond wrote those words. Today, we have the phenomenon "
+"of organizations&mdash;including for-profit corporations&mdash;starting "
+"large, centrally-managed open source projects from scratch. The lone "
+"programmer, banging out some code to solve a local problem and then "
+"realizing the result has wider applicability, is still the source of much "
+"new free software, but is not the only story."
+msgstr ""
+"Esto segue sendo a maneira cómo moitos proxectos de software libre comezan, "
+"mais menos agora do que era en 1997, cando Raymond escribiu esas palabras. "
+"Hoxe en día, temos o fenómeno de organizacións &mdash;incluíndo as "
+"organizacións con ánimo de lucro&mdash; inician grandes proxectos de "
+"software libre dende cero. O programador solitario, tecleando algún código "
+"para resolver un problema local y logo dándose conta de que o seu traballo "
+"ten unha aplicación meirando, é aínda a fonte de moito do software libre "
+"realizado, pero non a única."
+
+#. Tag: para
+#: ch02.xml:36
+#, no-c-format
+msgid ""
+"Raymond's point is still insightful, however. The essential condition is "
+"that the producers of the software have a direct interest in its success, "
+"because they use it themselves. If the software doesn't do what it's "
+"supposed to do, the person or organization producing it will feel the "
+"dissatisfaction in their daily work. For example, the OpenAdapter project "
+"(<ulink url=\"http://www.openadapter.org/\"></ulink>), which was started by "
+"investment bank Dresdner Kleinwort Wasserstein as an open source framework "
+"for integrating disparate financial information systems, can hardly be said "
+"to scratch any individual programmer's personal itch. It scratches an "
+"institutional itch. But that itch arises directly from the experiences of "
+"the institution and its partners, and therefore if the project fails to "
+"relieve them, they will know. This arrangement produces good software "
+"because the feedback loop flows in the right direction. The program isn't "
+"being written to be sold to someone else so they can solve <emphasis>their</"
+"emphasis> problem. It's being written to solve one's <emphasis>own</"
+"emphasis> problem, and then shared with everyone, much as though the problem "
+"were a disease and the software were medicine whose distribution is meant to "
+"completely eradicate the epidemic."
+msgstr ""
+"Porén, o argumento de Raymond é aínda válido. A condición esencial é que os "
+"produtores do software teñan un interese directo no seu éxito, xa que eles "
+"mesmos o utilizan. Si o programa non se comporta como debería, a persoa ou "
+"organización que o levan a cabo sentirá a insatisfacción no seu día a día. "
+"Por exemplo, o proxecto OpenAdapter (<ulink url=\"http://www.openadapter.org/"
+"\"></ulink>), que foi comezado polo banco de inversións Dresdner Kleinwort "
+"Wasserstein como unha ferramenta de traballo de software libre para integrar "
+"sistemas de información financieira dispares, difícilmente pode ser dito que "
+"resolva a necesidade persoal dun desenvolvedor. En particular este problema "
+"xurde da experiencia da institución e os seus socios, co cal si o programa "
+"non o resolve, eles o saberán. Esta situación provoca que se produza bo "
+"software xa que a retroalimentación flúe na dirección correcta. O software "
+"non está sendo escrito para venderllo a un terceiro, senón para resolver as "
+"<emphasis>propias</emphasis> necesidades. Comparten o programa como si o "
+"problema fose unha enfermidade e o software o medicamento, que debe ser "
+"distribuido para erradica-la pandemida."
+
+#. Tag: para
+#: ch02.xml:56
+#, no-c-format
+msgid ""
+"This chapter is about how to introduce a new free software project to the "
+"world, but many of its recommendations would sound familiar to a health "
+"organization distributing medicine. The goals are very similar: you want to "
+"make it clear what the medicine does, get it into the hands of the right "
+"people, and make sure that those who receive it know how to use it. But with "
+"software, you also want to entice some of the recipients into joining the "
+"ongoing research effort to improve the medicine."
+msgstr ""
+"Este capítulo versa sobre cómo introducir un novo proxecto de software libre "
+"ó mundo, pero moitas das súas recomendacións sonarían familiares a unha "
+"organización sanitaria que distribúa medicamentos. Os obxectivos son moi "
+"similares: desexas deixar claro qué fai o medicamento, facelo chegar ás mans "
+"da xente correcta e asegurarte de que esos que o reciben saben cómo usalo. "
+"Pero co software, tamén desexas atraer a algúns dos receptores para que se "
+"unan ó actual esforzo de investigación para mellorar o medicamento."
+
+#. Tag: para
+#: ch02.xml:65
+#, no-c-format
+msgid ""
+"Free software distribution is a twofold task. The software needs to acquire "
+"users, and to acquire developers. These two needs are not necessarily in "
+"conflict, but they do add some complexity to a project's initial "
+"presentation. Some information is useful for both audiences, some is useful "
+"only for one or the other. Both kinds of information should subscribe to the "
+"principle of scaled presentation; that is, the degree of detail presented at "
+"each stage should correspond directly to the amount of time and effort put "
+"in by the reader. More effort should always equal more reward. When the two "
+"do not correlate tightly, people may quickly lose faith and stop investing "
+"effort."
+msgstr ""
+"A distribución de software libre é unha tarefa a dúas bandas: o software "
+"precisa usuarios e desenvolvedores. Estas necesidades non están "
+"necesariamente en conflito, mais engaden algunha complexidade á presentación "
+"inicial do proxecto. Algunha información é útil para ambas audiencias, outra "
+"únicamente para unha delas. Toda esa información debería seguir o principio "
+"de presentación escalada: o grado de detalle presentado en cada etapa debe "
+"ser proporcional á cantidade de tempo e esforzo posto polo lector. Máis "
+"esforzo debería conlevar maior recompensa. Cando non se relacionan ambos, as "
+"persoas poden perder rápidamente a fe e perde-lo impulso."
+
+#. Tag: para
+#: ch02.xml:77
+#, no-c-format
+msgid ""
+"The corollary to this is that <emphasis>appearances matter</emphasis>. "
+"Programmers, in particular, often don't like to believe this. Their love of "
+"substance over form is almost a point of professional pride. It's no "
+"accident that so many programmers exhibit an antipathy for marketing and "
+"public relations work, nor that professional graphic designers are often "
+"horrified at what programmers come up with on their own."
+msgstr ""
+"O corolario disto é que <emphasis>as apariencias importan</emphasis>. Os "
+"desenvolvedores, en particular, habitualmente non desexan crer nisto. O seu "
+"amor pola sustancia sobre a forma é case un punto de orgullo profesional. "
+"Non é casualidade que tantos programadores exhiban unha antipatía pola "
+"publicidade e as relacións públicas, nin que os deseñadores gráficos "
+"profesionais habitualmente se horroricen co que os programadores propoñen."
+
+#. Tag: para
+#: ch02.xml:85
+#, no-c-format
+msgid ""
+"This is a pity, because there are situations where form <emphasis>is</"
+"emphasis> substance, and project presentation is one of them. For example, "
+"the very first thing a visitor learns about a project is what its web site "
+"looks like. This information is absorbed before any of the actual content on "
+"the site is comprehended&mdash;before any of the text has been read or links "
+"clicked on. However unjust it may be, people cannot stop themselves from "
+"forming an immediate first impression. The site's appearance signals whether "
+"care was taken in organizing the project's presentation. Humans have "
+"extremely sensitive antennae for detecting the investment of care. Most of "
+"us can tell in one glance whether a web site was thrown together quickly or "
+"was given serious thought. This is the first piece of information your "
+"project puts out, and the impression it creates will carry over to the rest "
+"of the project by association."
+msgstr ""
+"Esto é unha pena, xa que existen situación onde a forma <emphasis>é</"
+"emphasis> a sustancia, e a presentación do proxecto é unha delas. Por "
+"exemplo, a primeira cousa que unha persoa descubre sobre un proxecto é a "
+"apariencia da súa páxina web. Esta información absórvese antes de que "
+"calquera contido sexa comprendido &mdash; antes de que calquera texto sexa "
+"lido ou os enlaces pulsados. Aínda que poida parecer inxusto, xente non "
+"poden evitar unha primeira impresión. A apariencia da web sinala si se "
+"dedicaron esforzos á organización da presentación do proxecto. Os seres "
+"humanos temos unha antena extremadamente sensible para detectar o empeño "
+"dedicado. Moitos de nós podemos decir dun único vistazo si un sitio web foi "
+"publicado rápidamente ou foi pensado con mimo. Ésta é a primeira peza de "
+"información que o proxecto amosa, e a impresión que crea será traspasada ó "
+"resto do proxecto por asociación."
+
+#. Tag: para
+#: ch02.xml:101
+#, no-c-format
+msgid ""
+"Thus, while much of this chapter talks about the content your project should "
+"start out with, remember that its look and feel matter too. Because the "
+"project web site has to work for two different types of visitors&mdash;users "
+"and developers&mdash;special attention must be paid to clarity and "
+"directedness. Although this is not the place for a general treatise on web "
+"design, one principle is important enough to deserve mention, particularly "
+"when the site serves multiple (if overlapping) audiences: people should have "
+"a rough idea where a link goes before clicking on it. For example, it should "
+"be obvious <emphasis>from looking at the links</emphasis> to user "
+"documentation that they lead to user documentation, and not to, say, "
+"developer documentation. Running a project is partly about supplying "
+"information, but it's also about supplying comfort. The mere presence of "
+"certain standard offerings, in expected places, reassures users and "
+"developers who are deciding whether they want to get involved. It says that "
+"this project has its act together, has anticipated the questions people will "
+"ask, and has made an effort to answer them in a way that requires minimal "
+"exertion on the part of the asker. By giving off this aura of preparedness, "
+"the project sends out a message: \"Your time will not be wasted if you get "
+"involved,\" which is exactly what people need to hear."
+msgstr ""
+"Así, aínda que a maioría deste capítulo fala sobre o contido co que se "
+"debería iniciar o teu proxecto, recorda que a súa apariencia tamén importa. "
+"Debido a que a páxina web ten que abarcar dous tipos de visitantes distintos "
+"&dash; usuarios e desenvolvedores&dash; debe ser posta especial atención na "
+"claridade e concisión. Aínda que éste non é lugar para un tratado xeral "
+"sobre deseño web, existe un principio o suficientemente importante como para "
+"prestarlle atención, particularmente cando a web informa a múltiples (é "
+"decir, solapadas) audiencias: a xente debería ter unha vaga idea de a onde "
+"leva un enlace antes de pulsalo. Por exemplo, <emphasis>con só ver o enlace</"
+"emphasis> á documentación de usuario que leva á documentación de usuario e "
+"non, por exemplo, á de desenvolvedor. Dirixir un proxecto básase "
+"parcialmente en suministrar información, pero tamén consiste en ofrecer "
+"comodidade. A mera presencia de ofrecer estándares, nos lugares esperados, "
+"tranquiliza a usuarios e desenvolvedores que están decidindo si involucrarse "
+"ou non no proxecto. Comunica que o proxecto actúa como un todo, que "
+"anticipou as cuestións que a xente preguntará e respondeunas de maneira que "
+"o visitante teña que realizar o mínimo esforzo. Dando este halo de "
+"preparación, o proxecto envía a seguinte mensaxe: \"O teu tempo non será "
+"desperdiciado si participas\", o que resulta ser exactamente o que a xente "
+"necesita escoitar."
+
+#. Tag: title
+#: ch02.xml:126
+#, fuzzy, no-c-format
+msgid "But First, Look Around"
+msgstr "Primeiro bota un ollo ó teu arredor"
+
+#. Tag: para
+#: ch02.xml:128
+#, no-c-format
+msgid "Before starting an open source project, there is one important caveat:"
+msgstr ""
+"Antes de comezar un proxecto de software libre, hai unha advertencia "
+"importante:"
+
+#. Tag: para
+#: ch02.xml:131
+#, no-c-format
+msgid ""
+"Always look around to see if there's an existing project that does what you "
+"want. The chances are pretty good that whatever problem you want solved now, "
+"someone else wanted solved before you. If they did solve it, and released "
+"their code under a free license, then there's no reason for you to reinvent "
+"the wheel today. There are exceptions, of course: if you want to start a "
+"project as an educational experience, pre-existing code won't help; or maybe "
+"the project you have in mind is so specialized that you know there is zero "
+"chance anyone else has done it. But generally, there's no point not looking, "
+"and the payoff can be huge. If the usual Internet search engines don't turn "
+"up anything, try searching on <ulink url=\"http://freshmeat.net/\"></ulink> "
+"(an open source project news site, about which more will be said later), on "
+"<ulink url=\"http://www.sourceforge.net/\"></ulink>, and in the Free "
+"Software Foundation's directory of free software at <ulink url=\"http://"
+"directory.fsf.org/\"></ulink>."
+msgstr ""
+"Mira sempre ó teu arredor para ver si existe un proxecto que fai o que "
+"desexas. Son grandes as posibilidades de que calquera problema que desexas "
+"resolver agora, xa o desexase resolver alguén máis anteriormente. Se o "
+"resolveron e publicaron o código baixo unha licencia libre, non hai razón "
+"algunha para que reinventes a roda. Por suposto que hai excepcións: si "
+"desexas iniciar un proxecto como unha experiencia educativa, o código "
+"existente non é de axuda ou cecáis o proxecto que tes en mente é tan "
+"especializado que sabes que non existe a posibilidade de que alguén o teña "
+"feito xa. Mais en xeral, non hai excusa para non investigar e a recompensa "
+"pode ser grande. Si os buscadores habituais de internet non mostran nada, "
+"trata de buscar en <ulink url=\"http://freshmeat.net/\"></ulink> (unha web "
+"sobre noticias de proxectos de software libre, sobre o cal se falará máis "
+"tarde), en<ulink url=\"http://www.sourceforge.net/\"></ulink> e no "
+"directorio de proxectos de software libre da Free Software Foundation <ulink "
+"url=\"http://directory.fsf.org/\"></ulink>."
+
+#. Tag: para
+#: ch02.xml:148
+#, no-c-format
+msgid ""
+"Even if you don't find exactly what you were looking for, you might find "
+"something so close that it makes more sense to join that project and add "
+"functionality than to start from scratch yourself."
+msgstr ""
+"Incluso se non atopas exactamente o que estás buscando, podes atopar algo "
+"tan parecido que ten máis senso unirse a ese proxecto e engadir a "
+"funcionalidade desexada que empezar un novo pola túa conta."
+
+#. Tag: title
+#: ch02.xml:160
+#, no-c-format
+msgid "Starting From What You Have"
+msgstr "Empeza co que teñas"
+
+#. Tag: para
+#: ch02.xml:162
+#, no-c-format
+msgid ""
+"You've looked around, found that nothing out there really fits your needs, "
+"and decided to start a new project."
+msgstr ""
+"Tes investigado, sen atopar nada que encaixe coas túas necesidades e "
+"decidiches comezar un novo proxecto."
+
+#. Tag: para
+#: ch02.xml:165
+#, no-c-format
+msgid "What now?"
+msgstr "E agora que?"
+
+#. Tag: para
+#: ch02.xml:167
+#, no-c-format
+msgid ""
+"The hardest part about launching a free software project is transforming a "
+"private vision into a public one. You or your organization may know "
+"perfectly well what you want, but expressing that goal comprehensibly to the "
+"world is a fair amount of work. It is essential, however, that you take the "
+"time to do it. You and the other founders must decide what the project is "
+"really about&mdash;that is, decide its limitations, what it <emphasis>won't</"
+"emphasis> do as well as what it will&mdash;and write up a mission statement. "
+"This part is usually not too hard, though it can sometimes reveal unspoken "
+"assumptions and even disagreements about the nature of the project, which is "
+"fine: better to resolve those now than later. The next step is to package up "
+"the project for public consumption, and this is, basically, pure drudgery."
+msgstr ""
+"O máis complexo sobre lanzar un proxecto de software libre é transformar "
+"unha visión privada nunha pública. Ti ou a túa organización pode coñecer "
+"perfectamente que desexades, pero expresar ese obxectivo dunha maneira "
+"comprensible ó mundo é unha boa cantidade de traballo. porén, é esencial que "
+"te tomes o teu tempo para facelo. Ti e os outros fundadores debedes decidir "
+"de qué vai en verdade o proxecto &dash; é dicir, decidir as súas "
+"limitacións, que fará e que <emphasis>non</emphasis>&mdash; e escribir unha "
+"declaración de intencións. Esta parte non acostuma a ser moi complexa aínda "
+"que algunhas veces pode revelar asuncións implícitas e incluso desacordos "
+"sobre a natureza do proxecto, o que está ben: é mellor resolvelas agora que "
+"máis tarde. O seguinte paso é empaquetar o proxecto para o consumo do "
+"público, e esto é, básicamente, unha verdadeira pesadez."
+
+#. Tag: para
+#: ch02.xml:181
+#, no-c-format
+msgid ""
+"What makes it so laborious is that it consists mainly of organizing and "
+"documenting things everyone already knows&mdash;\"everyone\", that is, who's "
+"been involved in the project so far. Thus, for the people doing the work, "
+"there is no immediate benefit. They do not need a <filename>README</"
+"filename> file giving an overview of the project, nor a design document or "
+"user manual. They do not need a carefully arranged code tree conforming to "
+"the informal but widespread standards of software source distributions. "
+"Whatever way the source code is arranged is fine for them, because they're "
+"already accustomed to it anyway, and if the code runs at all, they know how "
+"to use it. It doesn't even matter, for them, if the fundamental "
+"architectural assumptions of the project remain undocumented; they're "
+"already familiar with that too."
+msgstr ""
+"O que o fai tan laborioso é que consiste principalmente en organizar e "
+"documentar as cousas que xa todo o mundo sabe&mdash; \"todo o mundo\", é "
+"dicir, todos aqueles que teñen participado no proxecto ata o de agora. Así "
+"que, para a xente que fai o traballo non hai beneficio directo por realizar "
+"esta tarefa. Eles non precisan un arquivo chamado <filename>README</"
+"filename> que resuma o proxecto, nin un documento de deseño ou manual de "
+"usuario. Non precisan unha árbore de código meticulasamente ordeada conforme "
+"a informais pero ampliamente difundidos estándares de distribución de código "
+"fonte. Sexa cal sexa a maneira en que o código fonte esté organizado está "
+"ben para eles, xa que están afeitos a el e si o código funciona, saben cómo "
+"usalo. Nen sequera importa si as asuncións fundamentais da arquitectura do "
+"proxecto están sen documentar, xa están familiarizados con iso tamén."
+
+#. Tag: para
+#: ch02.xml:195
+#, no-c-format
+msgid ""
+"Newcomers, on the other hand, need these things. Fortunately, they don't "
+"need them all at once. It's not necessary for you to provide every possible "
+"resource before taking a project public. In a perfect world, perhaps, every "
+"new open source project would start out life with a thorough design "
+"document, a complete user manual (with special markings for features planned "
+"but not yet implemented), beautifully and portably packaged code, capable of "
+"running on any computing platform, and so on. In reality, taking care of all "
+"these loose ends would be prohibitively time-consuming, and anyway, it's "
+"work that one can reasonably hope volunteers will help with once the project "
+"is under way."
+msgstr ""
+"Por outra banda, os recén chegados, precisan esas cousas. Afortunadamente, "
+"non as precisan todas á vez. Non é necesario que proporcionar tódolos "
+"recursos posibles antes de facer un proxecto público. Cecáis nun mundo "
+"perfecto, cada novo proxecto de software libre comezaría a súa vida cun "
+"exhaustivo documento de deseño, un manual de usuario completo (con marcas "
+"especiais para funcionalidades planeadas pero aínda sen implementar), código "
+"bonito e portable, capaz de executarse en calquera plataforma e así. En "
+"verdade, preocuparse de todos esos flecos consumiría demasiado tempo e, de "
+"calquera forma, é traballo que un pode confiar en que fagan os voluntarios "
+"unhas vez o proxecto esté en marcha."
+
+#. Tag: para
+#: ch02.xml:207
+#, no-c-format
+msgid ""
+"What <emphasis>is</emphasis> necessary, however, is that enough investment "
+"be put into presentation that newcomers can get past the initial obstacle of "
+"unfamiliarity. Think of it as the first step in a bootstrapping process, to "
+"bring the project to a kind of minimum activation energy. I've heard this "
+"threshold called the <firstterm>hacktivation energy</firstterm>: the amount "
+"of energy a newcomer must put in before she starts getting something back. "
+"The lower a project's hacktivation energy, the better. Your first task is "
+"bring the hacktivation energy down to a level that encourages people to get "
+"involved."
+msgstr ""
+"Porén, o que <emphasis>sí</emphasis> é necesario, é invertir suficiente "
+"esforzo na presentación do proxecto, de modo que os recén chegados poidan "
+"superar o obstáculo inicial de non estar familiarizados co proxecto. Pensa "
+"nisto como o primeiro paso no proceso de arranque, para levar ó proxecto a "
+"un punto de mínima activación de enerxía. Teño oído chamarlle a este umbral "
+"<firstterm>enerxía de hacktivación</firsterm>: a cantidade de enerxía que "
+"debe aportar un recén chegado antes de recibir algo a cambio. Canto menor "
+"sexa o punto de hacktivación, mellor. A túa primera tarefa é baixar este "
+"umbral ata un nivel que anime á xente a participar."
+
+#. Tag: para
+#: ch02.xml:218
+#, no-c-format
+msgid ""
+"Each of the following subsections describes one important aspect of starting "
+"a new project. They are presented roughly in the order that a new visitor "
+"would encounter them, though of course the order in which you actually "
+"implement them might be different. You can treat them as a checklist. When "
+"starting a project, just go down the list and make sure you've got each item "
+"covered, or at least that you're comfortable with the potential consequences "
+"if you've left one out."
+msgstr ""
+"Cada unha das seguintes subseccións describe un aspecto importante de "
+"comezar un novo proxecto. Son presentadas aproximadamente no orde que un "
+"novo visitante as atoparía, aínda que a orde en que sexan implementadas pode "
+"ser diferente. Poden ser tomadas como unha lista de tarefas. Cando inicies "
+"un proxecto, revisa a lista e asegúrate de que cada unha das partes foron "
+"consideradas, ou polo menos que estés cómodo coas potenciais consecuencias "
+"de deixar algunha sen realizar."
+
+#. Tag: title
+#: ch02.xml:229
+#, no-c-format
+msgid "Choose a Good Name"
+msgstr "Elixe un bo nome"
+
+#. Tag: para
+#: ch02.xml:231
+#, no-c-format
+msgid ""
+"Put yourself in the shoes of someone who's just heard about your project, "
+"perhaps by having stumbled across it while searching for software to solve "
+"some problem. The first thing they'll encounter is the project's name."
+msgstr ""
+"Ponte na posición de alguén que acaba de oir sobre o proxecto, cecáis porque "
+"topouse fortuitamente con el mentres buscaba por software para resolver "
+"algún problema. A primeira cousa que atopará é o nome do proxecto."
+
+#. Tag: para
+#: ch02.xml:236
+#, no-c-format
+msgid ""
+"A good name will not automatically make your project successful, and a bad "
+"name will not doom it&mdash;well, a <emphasis>really</emphasis> bad name "
+"probably could do that, but we start from the assumption that no one here is "
+"actively trying to make their project fail. However, a bad name can slow "
+"down adoption of the project, either because people don't take it seriously, "
+"or because they simply have trouble remembering it."
+msgstr ""
+"Un bo nome non fará o proxecto existoso de modo automático, e un mal nome "
+"non o condeará ó fracaso;mdash; ben, un nome "
+"<emphasis>verdadeiramente<emphasis> malo podería facelo, pero asumiremos que "
+"ninguén trata de que o seu proxecto fracase. Porén, un mal nome pode "
+"retrasar a adopción, ben sexa porque a xente non o toma en serio ou porque "
+"simplemente lle coste recordalo."
+
+#. Tag: para
+#: ch02.xml:244
+#, no-c-format
+msgid "A good name:"
+msgstr "Un bo nome:"
+
+#. Tag: para
+#: ch02.xml:247
+#, no-c-format
+msgid ""
+"Gives some idea what the project does, or at least is related in an obvious "
+"way, such that if one knows the name and knows what the project does, the "
+"name will come quickly to mind thereafter."
+msgstr ""
+"Da certa idea do que fai o proxecto, ou está polo menos relacionado dunha "
+"maneira obvia, tal que si coñece o nome e coñece qué fai, recordarao "
+"rápidamente."
+
+#. Tag: para
+#: ch02.xml:252
+#, no-c-format
+msgid ""
+"Is easy to remember. Here, there is no getting around the fact that English "
+"has become the default language of the Internet: \"easy to remember\" means "
+"\"easy for someone who can read English to remember.\" Names that are puns "
+"dependent on native-speaker pronounciation, for example, will be opaque to "
+"the many non-native English readers out there. If the pun is particularly "
+"compelling and memorable, it may still be worth it; just keep in mind that "
+"many people seeing the name will not hear it in their head the way a native "
+"speaker would."
+msgstr ""
+"É sinxelo de recordar. Aquí, non evitaremos o feito de que o ingĺés se "
+"convertiu no idioma france de internet: \"sinxelo de recordar\" significa "
+"\"sinxelo de recordar para alguén que poida ler inglés\". Os nomes que son "
+"xogos de palabras dependentes da pronunciación do falante, por exemplo, "
+"serán opacos para moitos lectores non nativos. Se o xogo de palabras é "
+"particularmente chamativo e memorable, pode valer a pena; únicamente ten en "
+"mente que moita xente que le o nome non o oirá na súa cabeza da mesma "
+"maneira que un nativo."
+
+#. Tag: para
+#: ch02.xml:263
+#, no-c-format
+msgid ""
+"Is not the same as some other project's name, and does not infringe on any "
+"trademarks. This is just good manners, as well as good legal sense. You "
+"don't want to create identity confusion. It's hard enough to keep track of "
+"everything that's available on the Net already, without different things "
+"having the same name."
+msgstr ""
+"Non ten o mesmo nome que outro proxecto existente e non infrinxe ningunha "
+"marca comercial. Esto son únicamente bos modales así como cumplir a "
+"legalidade. Non desexas crear confusión ó respecto da marca. Xa é "
+"suficientemente complexo manterse ó día de todo o que está dispoñible na "
+"rede, sen necesidade de que proxectos distintos teñan o mesmo nome."
+
+#. Tag: para
+#: ch02.xml:270
+#, no-c-format
+msgid ""
+"The resources mentioned earlier in <xref linkend=\"look-around\"/> are "
+"useful in discovering whether another project already has the name you're "
+"thinking of. Free trademark searches are available at <ulink url=\"http://"
+"www.nameprotect.org/\"></ulink> and <ulink url=\"http://www.uspto.gov/\"></"
+"ulink>."
+msgstr ""
+"Os recursos mencionados anteriormente <xref linkend=\"look-around\"/> son "
+"útiles para saber si outro proxecto xa posúe o nome que estás pensando. "
+"Pódense consultar buscadores gratuitos de marcas rexistradas en <ulink url="
+"\"http://www.nameprotect.org/\"></ulink> e <ulink url=\"http://www.uspto.gov/"
+"\"></ulink>."
+
+#. Tag: para
+#: ch02.xml:277
+#, no-c-format
+msgid ""
+"If possible, is available as a domain name in the <systemitem>.com</"
+"systemitem>, <systemitem>.net</systemitem>, and <systemitem>.org</"
+"systemitem> top-level domains. You should pick one, probably <systemitem>."
+"org</systemitem>, to advertise as the official home site for the project; "
+"the other two should forward there and are simply to prevent third parties "
+"from creating identity confusion around the project's name. Even if you "
+"intend to host the project at some other site (see <xref linkend=\"starting-"
+"with-canned-hosting\"/>), you can still register project-specific domains "
+"and forward them to the hosting site. It helps users a lot to have a simple "
+"URL to remember."
+msgstr ""
+"Si é posible, que esté dispoñible como un nome de dominio nos dominios de "
+"primeiro nivel <systemitem>.com</systemitem>, <systemitem>.net</systemitem> "
+"e <systemitem>.org</systemitem>. Deberías elexir, probablemente o "
+"<systemitem>.org</systemitem> para promocionalo como o sitio principal do "
+"proxecto; os outros dous deberían ser redirixidos a éste, son únicamente "
+"para evitar que terceiras partes creen unha confusión da marca sobre o nome "
+"do proxecto. Incluso se tes a intención de aloxar o proxecto en algún outro "
+"lugar (ver <xref linkend=\"starting-with-canned-hosting\"/>), podes "
+"rexistrar os dominios e redirixilos ó lugar onde o proxecto é aloxado. É de "
+"utilidade para os usuarios ter que recordar únicamente unha URL sinxela."
+
+#. Tag: title
+#: ch02.xml:300
+#, no-c-format
+msgid "Have a Clear Mission Statement"
+msgstr "Ten unha clara declaración de intencións"
+
+#. Tag: para
+#: ch02.xml:302
+#, no-c-format
+msgid ""
+"Once they've found the project's web site, the next thing people will look "
+"for is a quick description, a mission statement, so they can decide (within "
+"30 seconds) whether or not they're interested in learning more. This should "
+"be prominently placed on the front page, preferably right under the "
+"project's name."
+msgstr ""
+"Unha vez que se atopa a web do proxecto, o seguinte que a xente fai é buscar "
+"por unha descripción rápida, unha declaración de intencións para poder "
+"decidir (en menos de 30 segundos) si están interesados ou non en saber máis. "
+"Ésta debe ser colocada nun lugar prioritario da portada, preferiblemente "
+"xusto debaixo do nome do proxecto."
+
+#. Tag: para
+#: ch02.xml:308
+#, no-c-format
+msgid ""
+"The mission statement should be concrete, limiting, and above all, short. "
+"Here's an example of a good one, from <ulink url=\"http://www.openoffice.org/"
+"\"></ulink>:"
+msgstr ""
+"A declaración de intencións debe ser concreta, restrictiva e sobre todo, "
+"corta. Aquí un bo exemplo, a de <ulink url=\"http://www.openoffice.org/\"></"
+"ulink>:"
+
+#. Tag: emphasis
+#: ch02.xml:312
+#, no-c-format
+msgid ""
+"To create, as a community, the leading international office suite that will "
+"run on all major platforms and provide access to all functionality and data "
+"through open-component based APIs and an XML-based file format."
+msgstr ""
+"Crear, como unha comunidade, a ferramenta ofimática lider a nivel "
+"internacional, que funcione nas principais plataformas e proporcionar acceso "
+"a toda funcionalidade e datos a través de API's basadas en compoñentes "
+"abertos e un formato de ficheiros basado en XML."
+
+#. Tag: para
+#: ch02.xml:318
+#, no-c-format
+msgid ""
+"In just a few words, they've hit all the high points, largely by drawing on "
+"the reader's prior knowledge. By saying \"<emphasis>as a community</emphasis>"
+"\", they signal that no one corporation will dominate development; "
+"\"<emphasis>international</emphasis>\" means that the software will allow "
+"people to work in multiple languages and locales; \"<emphasis>all major "
+"platforms</emphasis>\" means it will be portable to Unix, Macintosh, and "
+"Windows. The rest signals that open interfaces and easily understandable "
+"file formats are an important part of the goal. They don't come right out "
+"and say that they're trying to be a free alternative to Microsoft Office, "
+"but most people can probably read between the lines. Although this mission "
+"statement looks broad at first glance, in fact it is quite circumscribed: "
+"the words \"<emphasis>office suite</emphasis>\" mean something very concrete "
+"to those familiar with such software. Again, the reader's presumed prior "
+"knowledge (in this case probably from MS Office) is used to keep the mission "
+"statement concise."
+msgstr ""
+"En poucas palabras, teñen tocado os puntos relevantes, principalmente por "
+"explicalo tendo en conta os coñecementos previos do lector. Ó dicir, "
+"\"<emphasis>como unha comunidade</emphasis>\", sinalan que ningunha "
+"corporación dominará o desenvolvemento; \"<emphasis>internacional</emphasis>"
+"\" significa que o programa estará dispoñible en diversos linguaxes e "
+"codificacións; \"<emphasis>nas principais plataformas</emphasis>\" quere "
+"dicir que funcionará en UNIX, Macintosh e Windows. O resto comunica que as "
+"interfaces abertas e os formatos de arquivo fácilmente lexibles son un "
+"aspecto importante dos obxectivos. De boas a primeiras non din que están "
+"tratando de ser unha alternativa libre a Microsoft Office, pero a maioría da "
+"xente pode ler entre liñas. Aínda que esta declaración de intencións parece "
+"amplia a primeira vista, a verdade é que está bastante circunscrita: as "
+"palabras \"<emphasis>ferramenta ofimática</emphasis>\" indican algo moi "
+"concreto a todos aqueles familiarizados con este tipo de programas. De novo, "
+"asumir os coñecementos previos do lector (neste caso probablemente de MS "
+"Office) permite obter unha declaración de intencións concisa."
+
+#. Tag: para
+#: ch02.xml:335
+#, no-c-format
+msgid ""
+"The nature of a mission statement depends partly on who is writing it, not "
+"just on the software it describes. For example, it makes sense for "
+"OpenOffice.org to use the words \"<emphasis>as a community</emphasis>\", "
+"because the project was started, and is still largely sponsored, by Sun "
+"Microsystems. By including those words, Sun indicates its sensitivity to "
+"worries that it might try to dominate the development process. With this "
+"sort of thing, merely demonstrating awareness of the <emphasis>potential</"
+"emphasis> for a problem goes a long way toward avoiding the problem "
+"entirely. On the other hand, projects that aren't sponsored by a single "
+"corporation probably don't need such language; after all, development by "
+"community is the norm, so there would ordinarily be no reason to list it as "
+"part of the mission."
+msgstr ""
+"A natureza da declaración de intención depende parcialmente de quen a "
+"escriba, non só do programa que intenta describir. Por exemplo, ten sentido "
+"que OpenOffice.orf use as palabras \"<emphasis>como unha comunidade</"
+"emphasis>\" xa que o proxecto foi iniciado, e aínda é ampliamente "
+"patrocinado, por Sun Microsystems. Incluindo esas palabras, Sun amosa unha "
+"sensibilidade hacia aqueles que poden pensar que intentará controlar o "
+"proceso de desenvolvemento. Con esta clase de cousas, amosando preocupación "
+"por problemas potenciais, avánzase moito no camiño de evitar o problema por "
+"completo. Por outra parte, os proxectos que non están patrocinados por unha "
+"única corporación probablemente non necesiten tal linguaxe; despois de todo, "
+"o desenvolvemento feito pola comunidade é a norma, co cal non existiría "
+"razón algunha para listalo como parte dos obxectivos."
+
+#. Tag: title
+#: ch02.xml:353
+#, no-c-format
+msgid "State That the Project is Free"
+msgstr "Declara que o proxecto é libre"
+
+#. Tag: para
+#: ch02.xml:355
+#, no-c-format
+msgid ""
+"Those who remain interested after reading the mission statement will next "
+"want to see more details, perhaps some user or developer documentation, and "
+"eventually will want to download something. But before any of that, they'll "
+"need to be sure it's open source."
+msgstr ""
+"Aqueles que manteñan o interese logo de ler a declaración de obxectivos "
+"desexarán coñecer máis detalles, cecáis a documentación de usuario ou a de "
+"desenvolvedor, incluso poden desexar descargar algo. Mais antes de todo iso, "
+"necesitarán saber que é software libre."
+
+#. Tag: para
+#: ch02.xml:360
+#, no-c-format
+msgid ""
+"<emphasis>The front page must make it unambiguously clear that the project "
+"is open source.</emphasis> This may seem obvious, but you would be surprised "
+"how many projects forget to do it. I have seen free software project web "
+"sites where the front page not only did not say which particular free "
+"license the software was distributed under, but did not even state outright "
+"that the software was free at all. Sometimes the crucial bit of information "
+"was relegated to the Downloads page, or the Developers page, or some other "
+"place that required one more mouse click to get to. In extreme cases, the "
+"license was not given anywhere on the web site at all&mdash;the only way to "
+"find it was to download the software and look inside."
+msgstr ""
+"<emphasis>A portada debe deixar claro, sen ambiguidades, que o proxecto é "
+"software libre.</emphasis> Aínda que poida parecer obvio, sorprenderíaste de "
+"cantos proxectos o olvidan. Teño visto webs de proxectos de software libre "
+"que non só non indican a licencia particular que usan, senón que nin sequera "
+"indica que o proxecto é libre. Algunhas veces, esta información crucial foi "
+"relegada á páxina de descargas, á de desenvolvedores ou a algún outro lugar "
+"que require un click para chegar a el. En casos extremos, a licencia non se "
+"indicou en ningún lugar do sitio web &mdash; a única maneira de atopala era "
+"descargar o programa e mirar dentro."
+
+#. Tag: para
+#: ch02.xml:372
+#, no-c-format
+msgid ""
+"Don't make this mistake. Such an omission can lose many potential developers "
+"and users. State up front, right below the mission statement, that the "
+"project is \"free software\" or \"open source software\", and give the exact "
+"license. A quick guide to choosing a license is given in <xref linkend="
+"\"license-quickstart\"/><phrase output=\"printed\"> later in this chapter</"
+"phrase>, and licensing issues are discussed in detail in <xref linkend="
+"\"legal\"/>."
+msgstr ""
+"Non cometas este erro. Tal omisión pode provocar a perda de moitos usuarios "
+"e desenvolvedores potenciais. Indícao dende o principio, xusto debaixo da "
+"declaración de obxectivos, que o proxecto é software libre, mostrando a "
+"licencia particular elexida. Pódese ver unha guía rápida para elexir "
+"licencia en <xref linkend=\"license-quickstart\"/><phrase output=\"printed"
+"\">máis adiante neste mesmo capítulo</phrase>, e algún aspecto concretos "
+"sobre o licenciamento son discutidos en detalle en <xref linkend=\"legal\"/>."
+
+#. Tag: para
+#: ch02.xml:382
+#, no-c-format
+msgid ""
+"At this point, our hypothetical visitor has determined&mdash;probably in a "
+"minute or less&mdash;that she's interested in spending, say, at least five "
+"more minutes investigating this project. The next sections describe what she "
+"should encounter in that five minutes."
+msgstr ""
+"Chegados a este punto, un hipotético visitante da web, ten decidido&mdash; "
+"probablemente nun minuto ou menos&mdash; que está interesado en invertir "
+"outros cinco minutos informándose sobre o proxecto. As seguintes seccións "
+"describen qué debería atopar nos seguintes 5 minutos."
+
+#. Tag: title
+#: ch02.xml:392
+#, no-c-format
+msgid "Features and Requirements List"
+msgstr "Lista de funcionalidades e requerementos"
+
+#. Tag: para
+#: ch02.xml:394
+#, no-c-format
+msgid ""
+"There should be a brief list of the features the software supports (if "
+"something isn't completed yet, you can still list it, but put "
+"\"<emphasis>planned</emphasis>\" or \"<emphasis>in&nbsp;progress</emphasis>"
+"\" next to it), and the kind of computing environment required to run the "
+"software. Think of the features/requirements list as what you would give to "
+"someone asking for a quick summary of the software. It is often just a "
+"logical expansion of the mission statement. For example, the mission "
+"statement might say:"
+msgstr ""
+"Debería existir unha breve lista de funcionalidades que o programa soporta "
+"(si algo aínda non está completo, podes listalo, pero pon "
+"\"<emphasis>planeado<emphasis>\" ou \"<emphasis>en &nbsp; progreso</emphasis>"
+"\" cerca da funcionalidade), así como o entorno necesario para que o "
+"programa funcione. Pensa na lista de funcionalidades/requerementos como o "
+"que lle darías a alguén se preguntase por un resumo do proxecto. "
+"Habitualmente é unha expansión da declaración de obxectivos. Por exemplo, a "
+"declaración de obxectivos podería dicir:"
+
+#. Tag: sect2
+#: ch02.xml:402
+#, no-c-format
+msgid ""
+"<blockquote> <para><emphasis>To create a full-text indexer and search engine "
+"with a rich API, for use by programmers in providing search services for "
+"large collections of text files.</emphasis></para> </blockquote> <para>The "
+"features and requirements list would give the details, clarifying the "
+"mission statement's scope:</para> <blockquote> <para><emphasis>Features:</"
+"emphasis></para> <itemizedlist> <listitem><para><emphasis>Searches plain "
+"text, HTML, and XML</emphasis></para> </listitem> "
+"<listitem><para><emphasis>Word or phrase searching</emphasis></para> </"
+"listitem> <listitem><para><emphasis>(planned) Fuzzy matching</emphasis></"
+"para> </listitem> <listitem><para><emphasis>(planned) Incremental updating "
+"of indexes</emphasis></para> </listitem> <listitem><para><emphasis>(planned) "
+"Indexing of remote web sites</emphasis></para> </listitem> </itemizedlist> "
+"<para><emphasis>Requirements:</emphasis></para> <itemizedlist> "
+"<listitem><para><emphasis>Python 2.2 or higher</emphasis></para> </listitem> "
+"<listitem><para><emphasis>Enough disk space to hold the indexes "
+"(approximately 2x original data size)</emphasis></para> </listitem> </"
+"itemizedlist> </blockquote>"
+msgstr ""
+"<blockquote> <para><emphasis>Crear un completo indexador de texto e motor de "
+"busca cunha API usable por programadores, que permita suministrar servizos "
+"de busca para grandes coleccións de ficheiros.</emphasis></para> </"
+"blockquote> <para>A lista de funcionalidades e requerementos daría os "
+"detalles, restrinxindo o ámbito da declaración de obxectivos:</para> "
+"<blockquote> <para><emphasis>Funcionalidades:</emphasis></para> "
+"<itemizedlist> <listitem><para><emphasis>Buscas en texto plano, HTML, e XML</"
+"emphasis></para> </listitem> <listitem><para><emphasis>Busca de palabras ou "
+"frases</emphasis></para> </listitem> <listitem><para><emphasis>(planeada) "
+"Coincidencias aproximadas (Fuzzy matching)</emphasis></para> </listitem> "
+"<listitem><para><emphasis>(planeada) Actualziación incremental de índices</"
+"emphasis></para> </listitem> <listitem><para><emphasis>(planeada) Indexación "
+"de sitios webs remotos</emphasis></para> </listitem> </itemizedlist> "
+"<para><emphasis>Requerementos:</emphasis></para> <itemizedlist> "
+"<listitem><para><emphasis>Python 2.2 ou superior</emphasis></para> </"
+"listitem> <listitem><para><emphasis>Espacio en disco suficiente para "
+"almacenar os índices (aproximadamente 2x o tamaño orixinal do conxunto de "
+"datos)</emphasis></para> </listitem> </itemizedlist> </blockquote>"
+
+#. Tag: para
+#: ch02.xml:440
+#, no-c-format
+msgid ""
+"With this information, readers can quickly get a feel for whether this "
+"software has any hope of working for them, and they can consider getting "
+"involved as developers too."
+msgstr ""
+"Con esta información, os lectores poden ter unha idea de si este programa é "
+"o que necesitan e valorar a súa implicación no proxecto como desenvolvedores."
+
+#. Tag: title
+#: ch02.xml:448
+#, no-c-format
+msgid "Development Status"
+msgstr "Estado do desenvolvemento"
+
+#. Tag: para
+#: ch02.xml:450
+#, no-c-format
+msgid ""
+"People always want to know how a project is doing. For new projects, they "
+"want to know the gap between the project's promise and current reality. For "
+"mature projects, they want to know how actively it is maintained, how often "
+"it puts out new releases, how responsive it is likely to be to bug reports, "
+"etc."
+msgstr ""
+"Á xente gústalle saber cómo está evoluíndo un proxecto. Para proxectos "
+"novos, desexan saber a distancia existentes entre as palabras e a realidade. "
+"Para proxectos maduros, desexan saber cómo de activo é o mantemento, con qué "
+"frecuencia se publican novas versións, cómo de receptivo é o proxecto para "
+"recibir bugs, etc"
+
+#. Tag: para
+#: ch02.xml:456
+#, no-c-format
+msgid ""
+"To answer these questions, you should provide a development status page, "
+"listing the project's near-term goals and needs (for example, it might be "
+"looking for developers with a particular kind of expertise). The page can "
+"also give a history of past releases, with feature lists, so visitors can "
+"get an idea of how the project defines \"progress\" and how quickly it makes "
+"progress according to that definition."
+msgstr ""
+"Para responder a estas cuestións, deberías unha sección da web para "
+"desenvolvedores, listando os obxectivos a corto plazo do proxecto e as "
+"necesidades (por exemplo, si se están buscando desenvolvedores expertos nun "
+"tema en particular). A páxina pode tamén mostrar as anteriores publicacións "
+"do programa con listas de funcionalidades, de cara a que os visitantes "
+"poidan ter unha idea de cómo se define \"progreso\" neste proxecto e cómo de "
+"rápido se avanza dacordo a esa definición."
+
+#. Tag: para
+#: ch02.xml:464
+#, no-c-format
+msgid ""
+"Don't be afraid of looking unready, and don't give in to the temptation to "
+"hype the development status. Everyone knows that software evolves by stages; "
+"there's no shame in saying \"This is alpha software with known bugs. It "
+"runs, and works at least some of the time, but use at your own risk.\" Such "
+"language won't scare away the kinds of developers you need at that stage. As "
+"for users, one of the worst things a project can do is attract users before "
+"the software is ready for them. A reputation for instability or bugginess is "
+"very hard to shake, once acquired. Conservativism pays off in the long run; "
+"it's always better for the software to be <emphasis>more</emphasis> stable "
+"than the user expected than less, and pleasant surprises produce the best "
+"kind of word-of-mouth."
+msgstr ""
+"Non te preocupes por parecer que das a sensación de non estar preparado,  e "
+"non caias na tentación de inflar o estado do desenvolvemento. Todo o mundo "
+"sabe que o software evolúe por etapas; non hai que avergonzarse por dicir "
+"\"Esto é un programa en estado alpha con erros coñecidos. Funciona algunhas "
+"veces, polo que úsao baixo a túa propia responsabilidade\". Este tipo de "
+"linguaxe non asustará ó tipo de desenvolvedor que precisas nese momento. Por "
+"outra banda, de cara ó usuario, unha das peores cousas que pode facer un "
+"proxecto é atraer a usuarios antes de que o programa esté listo para eles. "
+"Unha mala reputación en canto a estabilidade e erros é difícil de eliminar, "
+"unha vez adquirida. Ser conservador vale a pena a longo plazo; sempre é "
+"mellor que o software sexa <emphasis>máis</emphasis> estable do que o "
+"usuario espera, que o caso contrario. E sorpresas agradables producen o "
+"mellor boca a boca."
+
+#. Tag: title
+#: ch02.xml:478
+#, no-c-format
+msgid "Alpha and Beta"
+msgstr "Alpha e Beta"
+
+#. Tag: para
+#: ch02.xml:479
+#, no-c-format
+msgid ""
+"The term <firstterm>alpha</firstterm> usually means a first release, with "
+"which users can get real work done and which has all the intended "
+"functionality, but which also has known bugs. The main purpose of alpha "
+"software is to generate feedback, so the developers know what to work on. "
+"The next stage, <firstterm>beta</firstterm>, means the software has had all "
+"the serious bugs fixed, but has not yet been tested enough to certify for "
+"release. The purpose of beta software is to either become the official "
+"release, assuming no bugs are found, or provide detailed feedback to the "
+"developers so they can reach the official release quickly. The difference "
+"between alpha and beta is very much a matter of judgement."
+msgstr ""
+"O termo <firstterm>alpha</firstterm> soe significar unha primeira "
+"publicación na cal os usuarios poden usalo e ten toda a funcionalidade "
+"esperada, pero tamén ten bugs coñecidos. A principal razón de publicar "
+"programas en alpha é generar feedback, de maneira que os desenvolvedores "
+"sepan onde concentrar o traballo. A seguinte etapa, <firstterm>beta</"
+"firstterm>, significa que o software ten todos os erros serios resoltos mais "
+"non está suficientemente probado para publicalo como estable. O propósito "
+"dos programas beta é convertirse nunha publicación estable, asumindo que non "
+"se atoparon erros, ou aportar feedback suficiente ós desenvolvedores para "
+"que se poida obter a estable rápidamente. A diferencia entre alpha e beta é "
+"unha cuestión de xuízo."
+
+#. Tag: title
+#: ch02.xml:496
+#, no-c-format
+msgid "Downloads"
+msgstr "Descargas"
+
+#. Tag: para
+#: ch02.xml:498
+#, no-c-format
+msgid ""
+"The software should be downloadable as source code in standard formats. When "
+"a project is first getting started, binary (executable) packages are not "
+"necessary, unless the software has such complicated build requirements or "
+"dependencies that merely getting it to run would be a lot of work for most "
+"people. (But if this is the case, the project is going to have a hard time "
+"attracting developers anyway!)"
+msgstr ""
+"O código fonte do programa debería poderse descargar en formatos estándar. "
+"Cando se lanza un proxecto, os arquivos binarios (executables) non son "
+"precisos a menos que o proxecto teña requerementos ou dependencias moi "
+"complexas de compilación que simplemente facelo funcionar sería un montón de "
+"traballo para a maioría da xente. (Mais si éste é o caso, o proxecto vai a "
+"telo complicado para atraer a desenvolvedores!)"
+
+#. Tag: para
+#: ch02.xml:506
+#, no-c-format
+msgid ""
+"The distribution mechanism should be as convenient, standard, and low-"
+"overhead as possible. If you were trying to eradicate a disease, you "
+"wouldn't distribute the medicine in such a way that it requires a non-"
+"standard syringe size to administer. Likewise, software should conform to "
+"standard build and installation methods; the more it deviates from the "
+"standards, the more potential users and developers will give up and go away "
+"confused."
+msgstr ""
+"O mecanismo de distribución debería ser o máis estándar e sinxelo posible. "
+"Si estás intentando erradicar un virus, non distribuirías o medicamento de "
+"tal modo que requerise unha agulla especial para ser administrada. De igual "
+"modo, o software debería acomodarse a métodos de instalación e compilación "
+"estándar; canto máis se desvíe do estándar, máis usuarios e desenvolvedores "
+"se darán por vencidos e abandoarán o proxeco."
+
+#. Tag: para
+#: ch02.xml:514
+#, no-c-format
+msgid ""
+"That sounds obvious, but many projects don't bother to standardize their "
+"installation procedures until very late in the game, telling themselves they "
+"can do it any time: <emphasis>\"We'll sort all that stuff out when the code "
+"is closer to being ready.\"</emphasis> What they don't realize is that by "
+"putting off the boring work of finishing the build and installation "
+"procedures, they are actually making the code take longer to get ready&mdash;"
+"because they discourage developers who might otherwise have contributed to "
+"the code. Most insidiously, they don't <emphasis>know</emphasis> they're "
+"losing all those developers, because the process is an accumulation of non-"
+"events: someone visits a web site, downloads the software, tries to build "
+"it, fails, gives up and goes away. Who will ever know it happened, except "
+"the person themselves? No one working on the project will realize that "
+"someone's interest and good will have been silently squandered."
+msgstr ""
+
+#. Tag: para
+#: ch02.xml:530
+#, no-c-format
+msgid ""
+"Boring work with a high payoff should always be done early, and "
+"significantly lowering the project's barrier to entry through good packaging "
+"brings a very high payoff."
+msgstr ""
+
+#. Tag: para
+#: ch02.xml:534
+#, no-c-format
+msgid ""
+"When you release a downloadable package, it is vital that you give a unique "
+"version number to the release, so that people can compare any two releases "
+"and know which supersedes the other. A detailed discussion of version "
+"numbering can be found in <xref linkend=\"release-numbering\"/>, and the "
+"details of standardizing build and installation procedures are covered in "
+"<xref linkend=\"packaging\"/><phrase output=\"printed\">, both in <xref "
+"linkend=\"development-cycle\"/></phrase>."
+msgstr ""
+
+#. Tag: title
+#: ch02.xml:547
+#, no-c-format
+msgid "Version Control and Bug Tracker Access"
+msgstr ""
+
+#. Tag: para
+#: ch02.xml:549
+#, no-c-format
+msgid ""
+"Downloading source packages is fine for those who just want to install and "
+"use the software, but it's not enough for those who want to debug or add new "
+"features. Nightly source snapshots can help, but they're still not fine-"
+"grained enough for a thriving development community. People need real-time "
+"access to the latest sources, and the way to give them that is to use a "
+"version control system. The presence of anonymously accessible version "
+"controlled sources is a sign&mdash;to both users and developers&mdash;that "
+"this project is making an effort to give people what they need to "
+"participate. If you can't offer version control right away, then put up a "
+"sign saying you intend to set it up soon. Version control infrastructure is "
+"discussed in detail in <xref linkend=\"vc\"/><phrase output=\"printed\"> in "
+"<xref linkend=\"technical-infrastructure\"/></phrase>."
+msgstr ""
+
+#. Tag: para
+#: ch02.xml:563
+#, no-c-format
+msgid ""
+"The same goes for the project's bug tracker. The importance of a bug "
+"tracking system lies not only in its usefulness to developers, but in what "
+"it signifies for project observers. For many people, an accessible bug "
+"database is one of the strongest signs that a project should be taken "
+"seriously. Furthermore, the higher the number of bugs in the database, the "
+"better the project looks. This might seem counterintuitive, but remember "
+"that the number of bugs recorded really depends on three things: the "
+"absolute number of bugs present in the software, the number of users using "
+"the software, and the convenience with which those users can register new "
+"bugs. Of these three factors, the latter two are more significant than the "
+"first. Any software of sufficient size and complexity has an essentially "
+"arbitrary number of bugs waiting to be discovered. The real question is, how "
+"well will the project do at recording and prioritizing those bugs? A project "
+"with a large and well-maintained bug database (meaning bugs are responded to "
+"promptly, duplicate bugs are unified, etc.) therefore makes a better "
+"impression than a project with no bug database, or a nearly empty database."
+msgstr ""
+
+#. Tag: para
+#: ch02.xml:582
+#, no-c-format
+msgid ""
+"Of course, if your project is just getting started, then the bug database "
+"will contain very few bugs, and there's not much you can do about that. But "
+"if the status page emphasizes the project's youth, and if people looking at "
+"the bug database can see that most filings have taken place recently, they "
+"can extrapolate from that that the project still has a healthy "
+"<emphasis>rate</emphasis> of filings, and they will not be unduly alarmed by "
+"the low absolute number of bugs recorded."
+msgstr ""
+
+#. Tag: para
+#: ch02.xml:591
+#, no-c-format
+msgid ""
+"Note that bug trackers are often used to track not only software bugs, but "
+"enhancement requests, documentation changes, pending tasks, and more. The "
+"details of running a bug tracker are covered in <xref linkend=\"bug-tracker"
+"\"/><phrase output=\"printed\"> in <xref linkend=\"technical-infrastructure"
+"\"/></phrase>, so I won't go into them here. The important thing from a "
+"presentation point of view is just to <emphasis>have</emphasis> a bug "
+"tracker, and to make sure that fact is visible from the front page of the "
+"project."
+msgstr ""
+
+#. Tag: title
+#: ch02.xml:604
+#, no-c-format
+msgid "Communications Channels"
+msgstr ""
+
+#. Tag: para
+#: ch02.xml:606
+#, no-c-format
+msgid ""
+"Visitors usually want to know how to reach the human beings involved with "
+"the project. Provide the addresses of mailing lists, chat rooms, and IRC "
+"channels, and any other forums where others involved with the software can "
+"be reached. Make it clear that you and the other authors of the project are "
+"subscribed to these mailing lists, so people see there's a way to give "
+"feedback that will reach the developers. Your presence on the lists does not "
+"imply a committment to answer all questions or implement all feature "
+"requests. In the long run, most users will probably never join the forums "
+"anyway, but they will be comforted to know that they <emphasis>could</"
+"emphasis> if they ever needed to."
+msgstr ""
+
+#. Tag: para
+#: ch02.xml:618
+#, no-c-format
+msgid ""
+"In the early stages of a project, there's no need to have separate user and "
+"developer forums. It's much better to have everyone involved with the "
+"software talking together, in one \"room.\" Among early adopters, the "
+"distinction between developer and user is often fuzzy; to the extent that "
+"the distinction can be made, the ratio of developers to users is usually "
+"much higher in the early days of the project than later on. While you can't "
+"assume that every early adopter is a programmer who wants to hack on the "
+"software, you can assume that they are at least interested in following "
+"development discussions and in getting a sense of the project's direction."
+msgstr ""
+
+#. Tag: para
+#: ch02.xml:629
+#, no-c-format
+msgid ""
+"As this chapter is only about getting a project started, it's enough merely "
+"to say that these communications forums need to exist. Later, in <xref "
+"linkend=\"growth\"/><phrase output=\"printed\"> in <xref linkend="
+"\"communications\"/></phrase>, we'll examine where and how to set up such "
+"forums, the ways in which they might need moderation or other management, "
+"and how to separate user forums from developer forums, when the time comes, "
+"without creating an unbridgeable gulf."
+msgstr ""
+
+#. Tag: title
+#: ch02.xml:642
+#, no-c-format
+msgid "Developer Guidelines"
+msgstr ""
+
+#. Tag: para
+#: ch02.xml:644
+#, no-c-format
+msgid ""
+"If someone is considering contributing to the project, she'll look for "
+"developer guidelines. Developer guidelines are not so much technical as "
+"social: they explain how the developers interact with each other and with "
+"the users, and ultimately how things get done."
+msgstr ""
+
+#. Tag: para
+#: ch02.xml:650
+#, no-c-format
+msgid ""
+"This topic is covered in detail in <xref linkend=\"written-rules\"/><phrase "
+"output=\"printed\"> in <xref linkend=\"social-infrastructure\"/></phrase>, "
+"but the basic elements of developer guidelines are: <itemizedlist> "
+"<listitem><para>pointers to forums for interaction with other developers</"
+"para> </listitem> <listitem><para>instructions on how to report bugs and "
+"submit patches</para> </listitem> <listitem><para>some indication of "
+"<emphasis>how</emphasis> development is usually done&mdash;is the project a "
+"benevolent dictatorship, a democracy, or something else</para> </listitem> </"
+"itemizedlist> No pejorative sense is intended by \"dictatorship\", by the "
+"way. It's perfectly okay to run a tyranny where one particular developer has "
+"veto power over all changes. Many successful projects work this way. The "
+"important thing is that the project come right out and say so. A tyranny "
+"pretending to be a democracy will turn people off; a tyranny that says it's "
+"a tyranny will do fine as long as the tyrant is competent and trusted."
+msgstr ""
+
+#. Tag: para
+#: ch02.xml:677
+#, no-c-format
+msgid ""
+"See <ulink url=\"http://svn.collab.net/repos/svn/trunk/www/hacking.html\"></"
+"ulink> for an example of particularly thorough developer guidelines, or "
+"<ulink url=\"http://www.openoffice.org/dev_docs/guidelines.html\"></ulink> "
+"for broader guidelines that focus more on governance and the spirit of "
+"participation and less on technical matters."
+msgstr ""
+
+#. Tag: para
+#: ch02.xml:683
+#, no-c-format
+msgid ""
+"The separate issue of providing a programmer's introduction to the software "
+"is discussed in <xref linkend=\"developer-documentation\"/><phrase output="
+"\"printed\"> later in this chapter</phrase>."
+msgstr ""
+
+#. Tag: title
+#: ch02.xml:692
+#, no-c-format
+msgid "Documentation"
+msgstr ""
+
+#. Tag: para
+#: ch02.xml:694
+#, no-c-format
+msgid ""
+"Documentation is essential. There needs to be <emphasis>something</emphasis> "
+"for people to read, even if it's rudimentary and incomplete. This falls "
+"squarely into the \"drudgery\" category referred to earlier, and is often "
+"the first area where a new open source project falls down. Coming up with a "
+"mission statement and feature list, choosing a license, summarizing "
+"development status&mdash;these are all relatively small tasks, which can be "
+"definitively completed and usually need not be returned to once done. "
+"Documentation, on the other hand, is never really finished, which may be one "
+"reason people sometimes delay starting it at all."
+msgstr ""
+
+#. Tag: para
+#: ch02.xml:705
+#, no-c-format
+msgid ""
+"The most insidious thing is that documentation's utility to those writing it "
+"is the reverse of its utility to those who will read it. The most important "
+"documentation for initial users is the basics: how to quickly set up the "
+"software, an overview of how it works, perhaps some guides to doing common "
+"tasks. Yet these are exactly the things the <emphasis>writers</emphasis> of "
+"the documentation know all too well&mdash;so well that it can be difficult "
+"for them to see things from the reader's point of view, and to laboriously "
+"spell out the steps that (to the writers) seem so obvious as to be unworthy "
+"of mention."
+msgstr ""
+
+#. Tag: para
+#: ch02.xml:716
+#, no-c-format
+msgid ""
+"There's no magic solution to this problem. Someone just needs to sit down "
+"and write the stuff, and then run it by typical new users to test its "
+"quality. Use a simple, easy-to-edit format such as HTML, plain text, "
+"Texinfo, or some variant of XML&mdash;something that's convenient for "
+"lightweight, quick improvements on the spur of the moment. This is not only "
+"to remove any overhead that might impede the original writers from making "
+"incremental improvements, but also for those who join the project later and "
+"want to work on the documentation."
+msgstr ""
+
+#. Tag: para
+#: ch02.xml:726
+#, no-c-format
+msgid ""
+"One way to ensure basic initial documentation gets done is to limit its "
+"scope in advance. That way, writing it at least won't feel like an open-"
+"ended task. A good rule of thumb is that it should meet the following "
+"minimal criteria:"
+msgstr ""
+
+#. Tag: para
+#: ch02.xml:732
+#, no-c-format
+msgid ""
+"Tell the reader clearly how much technical expertise they're expected to "
+"have."
+msgstr ""
+
+#. Tag: para
+#: ch02.xml:735
+#, no-c-format
+msgid ""
+"Describe clearly and thoroughly how to set up the software, and somewhere "
+"near the beginning of the documentation, tell the user how to run some sort "
+"of diagnostic test or simple command to confirm that they've set things up "
+"correctly. Startup documentation is in some ways more important than actual "
+"usage documentation. The more effort someone has invested in installing and "
+"getting started with the software, the more persistent she'll be in figuring "
+"out advanced functionality that's not well-documented. When people abandon, "
+"they abandon early; therefore, it's the earliest stages, like installation, "
+"that need the most support."
+msgstr ""
+
+#. Tag: para
+#: ch02.xml:749
+#, no-c-format
+msgid ""
+"Give one tutorial-style example of how to do a common task. Obviously, many "
+"examples for many tasks would be even better, but if time is limited, pick "
+"one task and walk through it thoroughly. Once someone sees that the software "
+"<emphasis>can</emphasis> be used for one thing, they'll start to explore "
+"what else it can do on their own&mdash;and, if you're lucky, start filling "
+"in the documentation themselves. Which brings us to the next point..."
+msgstr ""
+
+#. Tag: para
+#: ch02.xml:759
+#, no-c-format
+msgid ""
+"Label the areas where the documentation is known to be incomplete. By "
+"showing the readers that you are aware of its deficiencies, you align "
+"yourself with their point of view. Your empathy reassures them that they "
+"don't face a struggle to convince the project of what's important. These "
+"labels needn't represent promises to fill in the gaps by any particular date "
+"&mdash;it's equally legitimate to treat them as open requests for volunteer "
+"help."
+msgstr ""
+
+#. Tag: para
+#: ch02.xml:771
+#, no-c-format
+msgid ""
+"The last point is of wider importance, actually, and can be applied to the "
+"entire project, not just the documentation. An accurate accounting of known "
+"deficiencies is the norm in the open source world. You don't have to "
+"exaggerate the project's shortcomings, just identify them scrupulously and "
+"dispassionately when the context calls for it (whether in the documentation, "
+"in the bug tracking database, or on a mailing list discussion). No one will "
+"treat this as defeatism on the part of the project, nor as a commitment to "
+"solve the problems by a certain date, unless the project makes such a "
+"commitment explicitly. Since anyone who uses the software will discover the "
+"deficiencies for themselves, it's much better for them to be psychologically "
+"prepared&mdash;then the project will look like it has a solid knowledge of "
+"how it's doing."
+msgstr ""
+
+#. Tag: title
+#: ch02.xml:787
+#, no-c-format
+msgid "Maintaining a FAQ"
+msgstr ""
+
+#. Tag: para
+#: ch02.xml:789
+#, no-c-format
+msgid ""
+"A <firstterm>FAQ</firstterm> (\"Frequently Asked Questions\" document) can "
+"be one of the best investments a project makes in terms of educational "
+"payoff. FAQs are highly tuned to the questions users and developers actually "
+"ask&mdash;as opposed to the questions you might have <emphasis>expected</"
+"emphasis> them to ask&mdash;and therefore, a well-maintained FAQ tends to "
+"give those who consult it exactly what they're looking for. The FAQ is often "
+"the first place users look when they encounter a problem, often even in "
+"preference to the official manual, and it's probably the document in your "
+"project most likely to be linked to from other sites."
+msgstr ""
+
+#. Tag: para
+#: ch02.xml:800
+#, no-c-format
+msgid ""
+"Unfortunately, you cannot make the FAQ at the start of the project. Good "
+"FAQs are not written, they are grown. They are by definition reactive "
+"documents, evolving over time in response to people's day-to-day usage of "
+"the software. Since it's impossible to correctly anticipate the questions "
+"people will ask, it is impossible to sit down and write a useful FAQ from "
+"scratch."
+msgstr ""
+
+#. Tag: para
+#: ch02.xml:807
+#, no-c-format
+msgid ""
+"Therefore, don't waste your time trying to. You may, however, find it useful "
+"to set up a mostly blank FAQ template, so there will be an obvious place for "
+"people to contribute questions and answers after the project is under way. "
+"At this stage, the most important property is not completeness, but "
+"convenience: if the FAQ is easy to add to, people will add to it. (Proper "
+"FAQ maintenance is a non-trivial and intriguing problem, and is discussed "
+"more in <xref linkend=\"faq-manager\"/><phrase output=\"printed\"> in <xref "
+"linkend=\"managing-volunteers\"/></phrase>.)"
+msgstr ""
+
+#. Tag: title
+#: ch02.xml:819
+#, no-c-format
+msgid "Availability of documentation"
+msgstr ""
+
+#. Tag: para
+#: ch02.xml:821
+#, no-c-format
+msgid ""
+"Documentation should be available from two places: online (directly from the "
+"web site), <emphasis>and</emphasis> in the downloadable distribution of the "
+"software (see <xref linkend=\"packaging\"/><phrase output=\"printed\"> in "
+"<xref linkend=\"development-cycle\"/></phrase>). It needs to be online, in "
+"browsable form, because people often read documentation <emphasis>before</"
+"emphasis> downloading software for the first time, as a way of helping them "
+"decide whether to download at all. But it should also accompany the "
+"software, on the principle that downloading should supply (i.e., make "
+"locally accessible) everything one needs to use the package."
+msgstr ""
+
+#. Tag: para
+#: ch02.xml:833
+#, no-c-format
+msgid ""
+"For online documentation, make sure that there is a link that brings up the "
+"<emphasis>entire</emphasis> documentation in one HTML page (put a note like "
+"\"monolithic\" or \"all-in-one\" or \"single large page\" next to the link, "
+"so people know that it might take a while to load). This is useful because "
+"people often want to search for a specific word or phrase across the entire "
+"documentation. Generally, they already know what they're looking for; they "
+"just can't remember what section it's in. For such people, nothing is more "
+"frustrating than encountering one HTML page for the table of contents, then "
+"a different page for the introduction, then a different page for "
+"installation instructions, etc. When the pages are broken up like that, "
+"their browser's search function is useless. The separate-page style is "
+"useful for those who already know what section they need, or who want to "
+"read the entire documentation from front to back in sequence. But this is "
+"<emphasis>not</emphasis> the most common way documentation is accessed. Far "
+"more often, someone who is basically familiar with the software is coming "
+"back to search for a specific word or phrase. To fail to provide them with a "
+"single, searchable document would only make their lives harder."
+msgstr ""
+
+#. Tag: title
+#: ch02.xml:856
+#, no-c-format
+msgid "Developer documentation"
+msgstr ""
+
+#. Tag: para
+#: ch02.xml:858
+#, no-c-format
+msgid ""
+"Developer documentation is written to help programmers understand the code, "
+"so they can repair and extend it. This is somewhat different from the "
+"<emphasis>developer guidelines</emphasis> discussed earlier, which are more "
+"social than technical. Developer guidelines tell programmers how to get "
+"along with each other; developer documentation tells them how to get along "
+"with the code itself. The two are often packaged together in one document "
+"for convenience (as with the <ulink url=\"http://svn.collab.net/repos/svn/"
+"trunk/www/hacking.html\"></ulink> example given earlier), but they don't "
+"have to be."
+msgstr ""
+
+#. Tag: para
+#: ch02.xml:868
+#, no-c-format
+msgid ""
+"Although developer documentation can be very helpful, there's no reason to "
+"delay a release to do it. As long as the original authors are available (and "
+"willing) to answer questions about the code, that's enough to start with. In "
+"fact, having to answer the same questions over and over is a common "
+"motivation for writing documentation. But even before it's written, "
+"determined contributors will still manage to find their way around the code. "
+"The force that drives people to spend time learning a code base is that the "
+"code does something useful for them. If people have faith in that, they will "
+"take the time to figure things out; if they don't have that faith, no amount "
+"of developer documentation will get or keep them."
+msgstr ""
+
+#. Tag: para
+#: ch02.xml:880
+#, no-c-format
+msgid ""
+"So if you have time to write documentation for only one audience, write it "
+"for users. All user documentation is, in effect, developer documentation as "
+"well; any programmer who's going to work on a piece of software will need to "
+"be familiar with how to use it. Later, when you see programmers asking the "
+"same questions over and over, take the time to write up some separate "
+"documents just for them."
+msgstr ""
+
+#. Tag: para
+#: ch02.xml:888
+#, no-c-format
+msgid ""
+"Some projects use wikis for their initial documentation, or even as their "
+"primary documentation. In my experience, this really only works if the wiki "
+"is actively edited by a few people who agree on how the documentation is to "
+"be organized and what sort of \"voice\" it should have. See <xref linkend="
+"\"wikis\"/><phrase output=\"printed\"> in <xref linkend=\"technical-"
+"infrastructure\"/></phrase> for more."
+msgstr ""
+
+#. Tag: title
+#: ch02.xml:903
+#, no-c-format
+msgid "Example Output and Screenshots"
+msgstr ""
+
+#. Tag: para
+#: ch02.xml:905
+#, no-c-format
+msgid ""
+"If the project involves a graphical user interface, or if it produces "
+"graphical or otherwise distinctive output, put some samples up on the "
+"project web site. In the case of interface, this means screenshots; for "
+"output, it might be screenshots or just files. Both cater to people's need "
+"for instant gratification: a single screenshot can be more convincing than "
+"paragraphs of descriptive text and mailing list chatter, because a "
+"screenshot is inarguable proof that the software <emphasis>works</emphasis>. "
+"It may be buggy, it may be hard to install, it may be incompletely "
+"documented, but that screenshot is still proof that if one puts in enough "
+"effort, one can get it to run."
+msgstr ""
+
+#. Tag: title
+#: ch02.xml:918
+#, no-c-format
+msgid "Screenshots"
+msgstr ""
+
+#. Tag: para
+#: ch02.xml:919
+#, no-c-format
+msgid ""
+"Since screenshots can be daunting until you've actually made a few, here are "
+"basic instructions for making them. Using the Gimp (<ulink url=\"http://www."
+"gimp.org/\"></ulink>), open <guimenu>File</guimenu>-&gt;<guimenu>Acquire</"
+"guimenu>-&gt;<guimenu>Screenshot</guimenu>, choose <guimenuitem>Single&nbsp;"
+"Window</guimenuitem> or <guimenuitem>Whole&nbsp;Screen</guimenuitem>, then "
+"click <guimenuitem>OK</guimenuitem>. Now your next mouse click will capture "
+"the window or screen clicked on as an image in the Gimp. Crop and resize the "
+"image as necessary, using the instructions at <ulink url=\"http://www.gimp."
+"org/tutorials/Lite_Quickies/#crop\"></ulink>."
+msgstr ""
+
+#. Tag: para
+#: ch02.xml:933
+#, no-c-format
+msgid ""
+"There are many other things you could put on the project web site, if you "
+"have the time, or if for one reason or another they are especially "
+"appropriate: a news page, a project history page, a related links page, a "
+"site-search feature, a donations link, etc. None of these are necessities at "
+"startup time, but keep them in mind for the future."
+msgstr ""
+
+#. Tag: title
+#: ch02.xml:941
+#, no-c-format
+msgid "Canned Hosting"
+msgstr ""
+
+#. Tag: para
+#: ch02.xml:943
+#, no-c-format
+msgid ""
+"There are a few sites that provide free hosting and infrastructure for open "
+"source projects: a web area, version control, a bug tracker, a download "
+"area, chat forums, regular backups, etc. The details vary from site to site, "
+"but the same basic services are offered at all of them. By using one of "
+"these sites, you get a lot for free; what you give up, obviously, is fine-"
+"grained control over the user experience. The hosting service decides what "
+"software the site runs, and may control or at least influence the look and "
+"feel of the project's web pages."
+msgstr ""
+
+#. Tag: para
+#: ch02.xml:953
+#, no-c-format
+msgid ""
+"See <xref linkend=\"canned-hosting\"/><phrase output=\"printed\"> in <xref "
+"linkend=\"technical-infrastructure\"/></phrase> for a more detailed "
+"discussion of the advantages and disadvantages of canned hosting, and a list "
+"of sites that offer it."
+msgstr ""
+
+#. Tag: title
+#: ch02.xml:966
+#, no-c-format
+msgid "Choosing a License and Applying It"
+msgstr ""
+
+#. Tag: para
+#: ch02.xml:968
+#, no-c-format
+msgid ""
+"This section is intended to be a very quick, very rough guide to choosing a "
+"license. Read <xref linkend=\"legal\"/> to understand the detailed legal "
+"implications of the different licenses, and how the license you choose can "
+"affect people's ability to mix your software with other free software."
+msgstr ""
+
+#. Tag: para
+#: ch02.xml:974
+#, no-c-format
+msgid ""
+"There are a great many free software licenses to choose from. Most of them "
+"we needn't consider here, as they were written to satisfy the particular "
+"legal needs of some corporation or person, and wouldn't be appropriate for "
+"your project. We will restrict ourselves to just the most commonly used "
+"licenses; in most cases, you will want to choose one of them."
+msgstr ""
+
+#. Tag: title
+#: ch02.xml:983
+#, no-c-format
+msgid "The \"Do Anything\" Licenses"
+msgstr ""
+
+#. Tag: para
+#: ch02.xml:985
+#, no-c-format
+msgid ""
+"If you're comfortable with your project's code potentially being used in "
+"proprietary programs, then use an <firstterm>MIT/X-style</firstterm> "
+"license. It is the simplest of several minimal licenses that do little more "
+"than assert nominal copyright (without actually restricting copying) and "
+"specify that the code comes with no warranty. See <xref linkend=\"license-"
+"choosing-mit-x\"/> for details."
+msgstr ""
+
+#. Tag: title
+#: ch02.xml:997
+#, no-c-format
+msgid "The GPL"
+msgstr ""
+
+#. Tag: para
+#: ch02.xml:999
+#, no-c-format
+msgid ""
+"If you don't want your code to be used in proprietary programs, use the GNU "
+"General Public License (<ulink url=\"http://www.gnu.org/licenses/gpl.html"
+"\"></ulink>). The GPL is probably the most widely recognized free software "
+"license in the world today. This is in itself a big advantage, since many "
+"potential users and contributors will already be familiar with it, and "
+"therefore won't have to spend extra time to read and understand your "
+"license. See <xref linkend=\"license-choosing-gpl\"/><phrase output=\"printed"
+"\"> in <xref linkend=\"legal\"/></phrase> for details."
+msgstr ""
+
+#. Tag: para
+#: ch02.xml:1010
+#, no-c-format
+msgid ""
+"If users interact with your code primarily over a network&mdash;that is, the "
+"software is usually part of a hosted service&mdash;then consider using the "
+"<firstterm>GNU Affero GPL</firstterm> instead. See <xref linkend=\"gnu-"
+"affero-gpl\"/><phrase output=\"printed\"> in <xref linkend=\"legal\"/></"
+"phrase> for more."
+msgstr ""
+
+#. Tag: title
+#: ch02.xml:1022
+#, no-c-format
+msgid "How to Apply a License to Your Software"
+msgstr ""
+
+#. Tag: para
+#: ch02.xml:1024
+#, no-c-format
+msgid ""
+"Once you've chosen a license, you should state it on the project's front "
+"page. You don't need to include the actual text of the license there; just "
+"give the name of the license, and make it link to the full license text on "
+"another page."
+msgstr ""
+
+#. Tag: para
+#: ch02.xml:1029
+#, no-c-format
+msgid ""
+"This tells the public what license you <emphasis>intend</emphasis> the "
+"software to be released under, but it's not sufficient for legal purposes. "
+"For that, the software itself must contain the license. The standard way to "
+"do this is to put the full license text in a file called <filename>COPYING</"
+"filename> (or <filename>LICENSE</filename>), and then put a short notice at "
+"the top of each source file, naming the copyright date, holder, and license, "
+"and saying where to find the full text of the license."
+msgstr ""
+
+#. Tag: para
+#: ch02.xml:1038
+#, no-c-format
+msgid ""
+"There are many variations on this pattern, so we'll look at just one example "
+"here. The GNU GPL says to put a notice like this at the top of each source "
+"file:"
+msgstr ""
+
+#. Tag: screen
+#: ch02.xml:1042
+#, no-c-format
+msgid ""
+"Copyright (C) &lt;year&gt;  &lt;name of author&gt;\n"
+"\n"
+"This program is free software: you can redistribute it and/or modify\n"
+"it under the terms of the GNU General Public License as published by\n"
+"the Free Software Foundation, either version 3 of the License, or\n"
+"(at your option) any later version.\n"
+"\n"
+"This program is distributed in the hope that it will be useful,\n"
+"but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+"MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
+"GNU General Public License for more details.\n"
+"\n"
+"You should have received a copy of the GNU General Public License\n"
+"along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;"
+msgstr ""
+
+#. Tag: para
+#: ch02.xml:1044
+#, no-c-format
+msgid ""
+"It does not say specifically that the copy of the license you received along "
+"with the program is in the file <filename>COPYING</filename>, but that's "
+"where it's usually put. (You could change the above notice to state that "
+"directly.) This template also gives a geographical address from which to "
+"request a copy of the license. Another common method is to give a link to a "
+"web page containing the license. Just use your judgement and point to "
+"wherever you feel the most permanent copy of the license is maintained, "
+"which might simply be somewhere on your project's web site. In general, the "
+"notice you put in each source file does not have to look exactly like the "
+"one above, as long as it starts with the same notice of copyright holder and "
+"date, states the name of the license, and makes it clear where to view the "
+"full license."
+msgstr ""
+
+#. Tag: title
+#: ch02.xml:1064
+#, no-c-format
+msgid "Setting the Tone"
+msgstr ""
+
+#. Tag: para
+#: ch02.xml:1066
+#, no-c-format
+msgid ""
+"So far we've covered one-time tasks you do during project setup: picking a "
+"license, arranging the initial web site, etc. But the most important aspects "
+"of starting a new project are dynamic. Choosing a mailing list address is "
+"easy; ensuring that the list's conversations remain on-topic and productive "
+"is another matter entirely. If the project is being opened up after years of "
+"closed, in-house development, its development processes will change, and you "
+"will have to prepare the existing developers for that change."
+msgstr ""
+
+#. Tag: para
+#: ch02.xml:1075
+#, no-c-format
+msgid ""
+"The first steps are the hardest, because precedents and expectations for "
+"future conduct have not yet been set. Stability in a project does not come "
+"from formal policies, but from a shared, hard-to-pin-down collective wisdom "
+"that develops over time. There are often written rules as well, but they "
+"tend to be essentially a distillation of the intangible, ever-evolving "
+"agreements that really guide the project. The written policies do not define "
+"the project's culture so much as describe it, and even then only "
+"approximately."
+msgstr ""
+
+#. Tag: para
+#: ch02.xml:1085
+#, no-c-format
+msgid ""
+"There are a few reasons why things work out this way. Growth and high "
+"turnover are not as damaging to the accumulation of social norms as one "
+"might think. As long as change does not happen <emphasis>too</emphasis> "
+"quickly, there is time for new arrivals to learn how things are done, and "
+"after they learn, they will help reinforce those ways themselves. Consider "
+"how children's songs survive the centuries. There are children today singing "
+"roughly the same rhymes as children did hundreds of years ago, even though "
+"there are no children alive now who were alive then. Younger children hear "
+"the songs sung by older ones, and when they are older, they in turn will "
+"sing them in front of other younger ones. The children are not engaging in a "
+"conscious program of transmission, of course, but the reason the songs "
+"survive is nonetheless that they are transmitted regularly and repeatedly. "
+"The time scale of free software projects may not be measured in centuries "
+"(we don't know yet), but the dynamics of transmission are much the same. The "
+"turnover rate is faster, however, and must be compensated for by a more "
+"active and deliberate transmission effort."
+msgstr ""
+
+#. Tag: para
+#: ch02.xml:1104
+#, no-c-format
+msgid ""
+"This effort is aided by the fact that people generally show up expecting and "
+"looking for social norms. That's just how humans are built. In any group "
+"unified by a common endeavor, people who join instinctively search for "
+"behaviors that will mark them as part of the group. The goal of setting "
+"precedents early is to make those \"in-group\" behaviors be ones that are "
+"useful to the project; for once established, they will be largely self-"
+"perpetuating."
+msgstr ""
+
+#. Tag: para
+#: ch02.xml:1123
+#, no-c-format
+msgid ""
+"Following are some examples of specific things you can do to set good "
+"precedents. They're not meant as an exhaustive list, just as illustrations "
+"of the idea that setting a collaborative mood early helps a project "
+"tremendously. Physically, every developer may be working alone in a room by "
+"themselves, but you can do a lot to make them <emphasis>feel</emphasis> like "
+"they're all working together in the same room. The more they feel this way, "
+"the more time they'll want to spend on the project. I chose these particular "
+"examples because they came up in the Subversion project (<ulink url=\"http://"
+"subversion.tigris.org/\"></ulink>), which I participated in and observed "
+"from its very beginning. But they're not unique to Subversion; situations "
+"like these will come up in most open source projects, and should be seen as "
+"opportunities to start things off on the right foot."
+msgstr ""
+
+#. Tag: title
+#: ch02.xml:1139
+#, no-c-format
+msgid "Avoid Private Discussions"
+msgstr ""
+
+#. Tag: para
+#: ch02.xml:1141
+#, no-c-format
+msgid ""
+"Even after you've taken the project public, you and the other founders will "
+"often find yourselves wanting to settle difficult questions by private "
+"communications among an inner circle. This is especially true in the early "
+"days of the project, when there are so many important decisions to make, "
+"and, usually, few volunteers qualified to make them. All the obvious "
+"disadvantages of public list discussions will loom palpably in front of you: "
+"the delay inherent in email conversations, the need to leave sufficient time "
+"for consensus to form, the hassle of dealing with naive volunteers who think "
+"they understand all the issues but actually don't (every project has these; "
+"sometimes they're next year's star contributors, sometimes they stay naive "
+"forever), the person who can't understand why you only want to solve problem "
+"X when it's obviously a subset of larger problem Y, and so on. The "
+"temptation to make decisions behind closed doors and present them as "
+"<foreignphrase>faits accomplis</foreignphrase>, or at least as the firm "
+"recommendations of a united and influential voting block, will be great "
+"indeed."
+msgstr ""
+
+#. Tag: para
+#: ch02.xml:1159
+#, no-c-format
+msgid "Don't do it."
+msgstr ""
+
+#. Tag: para
+#: ch02.xml:1161
+#, no-c-format
+msgid ""
+"As slow and cumbersome as public discussions can be, they're almost always "
+"preferable in the long run. Making important decisions in private is like "
+"spraying contributor repellant on your project. No serious volunteer would "
+"stick around for long in an environment where a secret council makes all the "
+"big decisions. Furthermore, public discussion has beneficial side effects "
+"that will last beyond whatever ephemeral technical question was at issue:"
+msgstr ""
+
+#. Tag: para
+#: ch02.xml:1171
+#, no-c-format
+msgid ""
+"The discussion will help train and educate new developers. You never know "
+"how many eyes are watching the conversation; even if most people don't "
+"participate, many may be tracking silently, gleaning information about the "
+"software."
+msgstr ""
+
+#. Tag: para
+#: ch02.xml:1177
+#, no-c-format
+msgid ""
+"The discussion will train <emphasis>you</emphasis> in the art of explaining "
+"technical issues to people who are not as familiar with the software as you "
+"are. This is a skill that requires practice, and you can't get that practice "
+"by talking to people who already know what you know."
+msgstr ""
+
+#. Tag: para
+#: ch02.xml:1184
+#, no-c-format
+msgid ""
+"The discussion and its conclusions will be available in public archives "
+"forever after, enabling future discussions to avoid retracing the same "
+"steps. See <xref linkend=\"using-archives\"/><phrase output=\"printed\"> in "
+"<xref linkend=\"communications\"/></phrase>."
+msgstr ""
+
+#. Tag: para
+#: ch02.xml:1194
+#, no-c-format
+msgid ""
+"Finally, there is the possibility that someone on the list may make a real "
+"contribution to the conversation, by coming up with an idea you never "
+"anticipated. It's hard to say how likely this is; it just depends on the "
+"complexity of the code and degree of specialization required. But if "
+"anecdotal evidence may be permitted, I would hazard that this is more likely "
+"than one would intuitively expect. In the Subversion project, we (the "
+"founders) believed we faced a deep and complex set of problems, which we had "
+"been thinking about hard for several months, and we frankly doubted that "
+"anyone on the newly created mailing list was likely to make a real "
+"contribution to the discussion. So we took the lazy route and started "
+"batting some technical ideas back and forth in private emails, until an "
+"observer of the project<footnote><para>We haven't gotten to the section on "
+"crediting yet, but just to practice what I'll later preach: the observer's "
+"name was Brian Behlendorf, and it was he who pointed out the general "
+"importance of keeping all discussions public unless there was a specific "
+"need for privacy.</para></footnote> caught wind of what was happening and "
+"asked for the discussion to be moved to the public list. Rolling our eyes a "
+"bit, we did&mdash;and were stunned by the number of insightful comments and "
+"suggestions that quickly resulted. In many cases people offered ideas that "
+"had never even occurred to us. It turned out there were some <emphasis>very</"
+"emphasis> smart people on that list; they'd just been waiting for the right "
+"bait. It's true that the ensuing discussions took longer than they would "
+"have if we had kept the conversation private, but they were so much more "
+"productive that it was well worth the extra time."
+msgstr ""
+
+#. Tag: para
+#: ch02.xml:1221
+#, no-c-format
+msgid ""
+"Without descending into hand-waving generalizations like \"the group is "
+"always smarter than the individual\" (we've all met enough groups to know "
+"better), it must be acknowledged that there are certain activities at which "
+"groups excel. Massive peer review is one of them; generating large numbers "
+"of ideas quickly is another. The quality of the ideas depends on the quality "
+"of the thinking that went into them, of course, but you won't know what "
+"kinds of thinkers are out there until you stimulate them with a challenging "
+"problem."
+msgstr ""
+
+#. Tag: para
+#: ch02.xml:1230
+#, no-c-format
+msgid ""
+"Naturally, there are some discussions that must be had privately; throughout "
+"this book we'll see examples of those. But the guiding principle should "
+"always be: <emphasis>If there's no reason for it to be private, it should be "
+"public.</emphasis>"
+msgstr ""
+
+#. Tag: para
+#: ch02.xml:1235
+#, no-c-format
+msgid ""
+"Making this happen requires action. It's not enough merely to ensure that "
+"all your own posts go to the public list. You also have to nudge other "
+"people's unnecessarily private conversations to the list too. If someone "
+"tries to start a private discussion, and there's no reason for it to be "
+"private, then it is incumbent on you to open the appropriate meta-discussion "
+"immediately. Don't even comment on the original topic until you've either "
+"successfully steered the conversation to a public place, or ascertained that "
+"privacy really was needed. If you do this consistently, people will catch on "
+"pretty quickly and start to use the public forums by default."
+msgstr ""
+
+#. Tag: title
+#: ch02.xml:1250
+#, no-c-format
+msgid "Nip Rudeness in the Bud"
+msgstr ""
+
+#. Tag: para
+#: ch02.xml:1252
+#, no-c-format
+msgid ""
+"From the very start of your project's public existence, you should maintain "
+"a zero-tolerance policy toward rude or insulting behavior in its forums. "
+"Zero-tolerance does not mean technical enforcement per se. You don't have to "
+"remove people from the mailing list when they flame another subscriber, or "
+"take away their commit access because they made derogatory comments. (In "
+"theory, you might eventually have to resort to such actions, but only after "
+"all other avenues have failed&mdash;which, by definition, isn't the case at "
+"the start of the project.) Zero-tolerance simply means never letting bad "
+"behavior slide by unnoticed. For example, when someone posts a technical "
+"comment mixed together with an <foreignphrase>ad hominem</foreignphrase> "
+"attack on some other developer in the project, it is imperative that your "
+"response address the <foreignphrase>ad hominem</foreignphrase> attack "
+"<emphasis>first</emphasis>, as a separate issue unto itself, and only "
+"afterward move on to the technical content."
+msgstr ""
+
+#. Tag: para
+#: ch02.xml:1269
+#, no-c-format
+msgid ""
+"It is unfortunately very easy, and all too typical, for constructive "
+"discussions to lapse into destructive flame wars. People will say things in "
+"email that they would never say face-to-face. The topics of discussion only "
+"amplify this effect: in technical issues, people often feel there is a "
+"single right answer to most questions, and that disagreement with that "
+"answer can only be explained by ignorance or stupidity. It's a short "
+"distance from calling someone's technical proposal stupid to calling the "
+"person themselves stupid. In fact, it's often hard to tell where technical "
+"debate leaves off and character attack begins, which is one reason why "
+"drastic responses or punishments are not a good idea. Instead, when you "
+"think you see it happening, make a post that stresses the importance of "
+"keeping the discussion friendly, without accusing anyone of being "
+"deliberately poisonous. Such \"Nice Police\" posts do have an unfortunate "
+"tendency to sound like a kindergarten teacher lecturing a class on good "
+"behavior:"
+msgstr ""
+
+#. Tag: emphasis
+#: ch02.xml:1287
+#, no-c-format
+msgid ""
+"First, let's please cut down on the (potentially) ad hominem comments; for "
+"example, calling J's design for the security layer \"naive and ignorant of "
+"the basic principles of computer security.\" That may be true or it may not, "
+"but in either case it's no way to have the discussion. J made his proposal "
+"in good faith. If it has deficiencies, point them out, and we'll fix them or "
+"get a new design. I'm sure M meant no personal insult to J, but the phrasing "
+"was unfortunate, and we try to keep things constructive around here."
+msgstr ""
+
+#. Tag: emphasis
+#: ch02.xml:1298
+#, no-c-format
+msgid "Now, on to the proposal. I think M was right in saying that..."
+msgstr ""
+
+#. Tag: para
+#: ch02.xml:1302
+#, no-c-format
+msgid ""
+"As stilted as such responses sound, they have a noticeable effect. If you "
+"consistently call out bad behavior, but don't demand an apology or "
+"acknowledgment from the offending party, then you leave people free to cool "
+"down and show their better side by behaving more decorously next time&mdash;"
+"and they will. One of the secrets of doing this successfully is to never "
+"make the meta-discussion the main topic. It should always be an aside, a "
+"brief preface to the main portion of your response. Point out in passing "
+"that \"we don't do things that way around here,\" but then move on to the "
+"real content, so that you're giving people something on-topic to respond to. "
+"If someone protests that they didn't deserve your rebuke, simply refuse to "
+"be drawn into an argument about it. Either don't respond (if you think "
+"they're just letting off steam and don't require a response), or say you're "
+"sorry if you overreacted and that it's hard to detect nuance in email, then "
+"get back to the main topic. Never, ever insist on an acknowledgment, whether "
+"public or private, from someone that they behaved inappropriately. If they "
+"choose of their own volition to post an apology, that's great, but demanding "
+"that they do so will only cause resentment."
+msgstr ""
+
+#. Tag: para
+#: ch02.xml:1322
+#, no-c-format
+msgid ""
+"The overall goal is to make good etiquette be seen as one of the \"in-group"
+"\" behaviors. This helps the project, because developers can be driven away "
+"(even from projects they like and want to support) by flame wars. You may "
+"not even know that they were driven away; someone might lurk on the mailing "
+"list, see that it takes a thick skin to participate in the project, and "
+"decide against getting involved at all. Keeping forums friendly is a long-"
+"term survival strategy, and it's easier to do when the project is still "
+"small. Once it's part of the culture, you won't have to be the only person "
+"promoting it. It will be maintained by everyone."
+msgstr ""
+
+#. Tag: title
+#: ch02.xml:1337
+#, no-c-format
+msgid "Practice Conspicuous Code Review"
+msgstr ""
+
+#. Tag: para
+#: ch02.xml:1339
+#, no-c-format
+msgid ""
+"One of the best ways to foster a productive development community is to get "
+"people looking at each others' code. Some technical infrastructure is "
+"required to do this effectively&mdash;in particular, commit emails must be "
+"turned on; see <xref linkend=\"commit-emails\"/> for more details. The "
+"effect of commit emails is that every time someone commits a change to the "
+"source code, an email goes out showing the log message and diffs for the "
+"change (see <xref linkend=\"vc-vocabulary-diff\"/>, in <xref linkend=\"vc-"
+"vocabulary\"/>). <firstterm>Code review</firstterm> is the practice of "
+"reviewing commit emails as they come in, looking for bugs and possible "
+"improvements."
+msgstr ""
+
+#. Tag: para
+#: ch02.xml:1349
+#, no-c-format
+msgid ""
+"This is how code review is usually done in open source projects, at any "
+"rate. In more centralized projects, \"code review\" can also mean multiple "
+"people sitting down together and going over printouts of source code, "
+"looking for specific problems and patterns."
+msgstr ""
+
+#. Tag: para
+#: ch02.xml:1355
+#, no-c-format
+msgid ""
+"Code review serves several purposes simultaneously. It's the most obvious "
+"example of peer review in the open source world, and directly helps to "
+"maintain software quality. Every bug that ships in a piece of software got "
+"there by being committed and not detected; therefore, the more eyes watch "
+"commits, the fewer bugs will ship. But code review also serves an indirect "
+"purpose: it confirms to people that what they do matters, because one "
+"obviously wouldn't take time to review a commit unless one cared about its "
+"effect. People do their best work when they know that others will take the "
+"time to evaluate it."
+msgstr ""
+
+#. Tag: para
+#: ch02.xml:1366
+#, no-c-format
+msgid ""
+"Reviews should be public. Even on occasions when I have been sitting in the "
+"same physical room with developers, and one of us has made a commit, we take "
+"care not to do the review verbally in the room, but to send it to the "
+"development mailing list instead. Everyone benefits from seeing the review "
+"happen. People follow the commentary and sometimes find flaws in it, and "
+"even when they don't, it still reminds them that review is an expected, "
+"regular activity, like washing the dishes or mowing the lawn."
+msgstr ""
+
+#. Tag: para
+#: ch02.xml:1375
+#, no-c-format
+msgid ""
+"In the Subversion project, we did not at first make a regular practice of "
+"code review. There was no guarantee that every commit would be reviewed, "
+"though one might sometimes look over a change if one was particularly "
+"interested in that area of the code. Bugs slipped in that really could and "
+"should have been caught. A developer named Greg Stein, who knew the value of "
+"code review from past work, decided that he was going to set an example by "
+"reviewing every line of <emphasis>every single commit</emphasis> that went "
+"into the code repository. Each commit anyone made was soon followed by an "
+"email to the developer's list from Greg, dissecting the commit, analyzing "
+"possible problems, and occasionally praising a clever bit of code. Right "
+"away, he was catching bugs and non-optimal coding practices that would "
+"otherwise have slipped by without ever being noticed. Pointedly, he never "
+"complained about being the only person reviewing every commit, even though "
+"it took a fair amount of his time, but he did sing the praises of code "
+"review whenever he had the chance. Pretty soon, other people, myself "
+"included, started reviewing commits regularly too. What was our motivation? "
+"It wasn't that Greg had consciously shamed us into it. But he had proven "
+"that reviewing code was a valuable way to spend time, and that one could "
+"contribute as much to the project by reviewing others' changes as by writing "
+"new code. Once he demonstrated that, it became expected behavior, to the "
+"point where any commit that didn't get some reaction would cause the "
+"committer to worry, and even ask on the list whether anyone had had a chance "
+"to review it yet. Later, Greg got a job that didn't leave him as much time "
+"for Subversion, and had to stop doing regular reviews. But by then, the "
+"habit was so ingrained for the rest of us as to seem that it had been going "
+"on since time immemorial."
+msgstr ""
+
+#. Tag: para
+#: ch02.xml:1404
+#, no-c-format
+msgid ""
+"Start doing reviews from very first commit. The sorts of problems that are "
+"easiest to catch by reviewing diffs are security vulnerabilities, memory "
+"leaks, insufficient comments or API documentation, off-by-one errors, caller/"
+"callee discipline mismatches, and other problems that require a minimum of "
+"surrounding context to spot. However, even larger-scale issues such as "
+"failure to abstract repeated patterns to a single location become spottable "
+"after one has been doing reviews regularly, because the memory of past diffs "
+"informs the review of present diffs."
+msgstr ""
+
+#. Tag: para
+#: ch02.xml:1417
+#, no-c-format
+msgid ""
+"Don't worry that you might not find anything to comment on, or that you "
+"don't know enough about every area of the code. There will usually be "
+"something to say about almost every commit; even where you don't find "
+"anything to question, you may find something to praise. The important thing "
+"is to make it clear to every committer that what they do is seen and "
+"understood. Of course, code review does not absolve programmers of the "
+"responsibility to review and test their changes before committing; no one "
+"should depend on code review to catch things he ought to have caught on his "
+"own."
+msgstr ""
+
+#. Tag: title
+#: ch02.xml:1431
+#, no-c-format
+msgid ""
+"When Opening a Formerly Closed Project, be Sensitive to the Magnitude of the "
+"Change"
+msgstr ""
+
+#. Tag: para
+#: ch02.xml:1434
+#, no-c-format
+msgid ""
+"If you're opening up an existing project, one that already has active "
+"developers accustomed to working in a closed-source environment, make sure "
+"everyone understands that a big change is coming&mdash;and make sure that "
+"you understand how it's going to feel from their point of view."
+msgstr ""
+
+#. Tag: para
+#: ch02.xml:1440
+#, no-c-format
+msgid ""
+"Try to imagine how the situation looks to them: formerly, all code and "
+"design decisions were made with a group of other programmers who knew the "
+"software more or less equally well, who all received the same pressures from "
+"the same management, and who all know each others' strengths and weaknesses. "
+"Now you're asking them to expose their code to the scrutiny of random "
+"strangers, who will form judgements based only on the code, with no "
+"awareness of what business pressures may have forced certain decisions. "
+"These strangers will ask lots of questions, questions that jolt the existing "
+"developers into realizing that the documentation they slaved so hard over is "
+"<emphasis>still</emphasis> inadequate (this is inevitable). To top it all "
+"off, the newcomers are unknown, faceless entities. If one of your developers "
+"already feels insecure about his skills, imagine how that will be "
+"exacerbated when newcomers point out flaws in code he wrote, and worse, do "
+"so in front of his colleagues. Unless you have a team of perfect coders, "
+"this is unavoidable&mdash;in fact, it will probably happen to all of them at "
+"first. This is not because they're bad programmers; it's just that any "
+"program above a certain size has bugs, and peer review will spot some of "
+"those bugs (see <xref linkend=\"code-review\"/><phrase output=\"printed\"> "
+"earlier in this chapter</phrase>). At the same time, the newcomers "
+"themselves won't be subject to much peer review at first, since they can't "
+"contribute code until they're more familiar with the project. To your "
+"developers, it may feel like all the criticism is incoming, never outgoing. "
+"Thus, there is the danger of a siege mentality taking hold among the old "
+"hands."
+msgstr ""
+
+#. Tag: para
+#: ch02.xml:1467
+#, no-c-format
+msgid ""
+"The best way to prevent this is to warn everyone about what's coming, "
+"explain it, tell them that the initial discomfort is perfectly normal, and "
+"reassure them that it's going to get better. Some of these warnings should "
+"take place privately, before the project is opened. But you may also find it "
+"helpful to remind people on the public lists that this is a new way of "
+"development for the project, and that it will take some time to adjust. The "
+"very best thing you can do is lead by example. If you don't see your "
+"developers answering enough newbie questions, then just telling them to "
+"answer more isn't going to help. They may not have a good sense of what "
+"warrants a response and what doesn't yet, or it could be that they don't "
+"have a feel for how to prioritize coding work against the new burden of "
+"external communications. The way to get them to participate is to "
+"participate yourself. Be on the public mailing lists, and make sure to "
+"answer some questions there. When you don't have the expertise to field a "
+"question, then visibly hand it off to a developer who does&mdash;and watch "
+"to make sure he follows up with an answer, or at least a response. It will "
+"naturally be tempting for the longtime developers to lapse into private "
+"discussions, since that's what they're used to. Make sure you're subscribed "
+"to the internal mailing lists on which this might happen, so you can ask "
+"that such discussions be moved to the public lists right away."
+msgstr ""
+
+#. Tag: para
+#: ch02.xml:1490
+#, no-c-format
+msgid ""
+"There are other, longer-term concerns with opening up formerly closed "
+"projects. <xref linkend=\"money\"/> explores techniques for mixing paid and "
+"unpaid developers successfully, and <xref linkend=\"legal\"/> discusses the "
+"necessity of legal diligence when opening up a private code base that may "
+"contain software written or \"owned\" by other parties."
+msgstr ""
+
+#. Tag: title
+#: ch02.xml:1504
+#, no-c-format
+msgid "Announcing"
+msgstr ""
+
+#. Tag: para
+#: ch02.xml:1506
+#, no-c-format
+msgid ""
+"Once the project is presentable&mdash;not perfect, just presentable&mdash;"
+"you're ready to announce it to the world. This is actually a very simple "
+"process: go to <ulink url=\"http://freshmeat.net/\"></ulink>, click on "
+"<guimenuitem>Submit</guimenuitem> in the top navigation bar, and fill out a "
+"form announcing your new project. Freshmeat is the place everyone watches "
+"for new project announcements. You only have to catch a few eyes there for "
+"news of your project to spread by word of mouth."
+msgstr ""
+
+#. Tag: para
+#: ch02.xml:1515
+#, no-c-format
+msgid ""
+"If you know of mailing lists or newsgroups where an announcement of your "
+"project would be on-topic and of interest, then post there, but be careful "
+"to make exactly <emphasis>one</emphasis> post per forum, and to direct "
+"people to your project's own forums for follow-up discussion (by setting the "
+"<systemitem>Reply-to</systemitem> header). The posts should be short and get "
+"right to the point:"
+msgstr ""
+
+#. Tag: screen
+#: ch02.xml:1522
+#, no-c-format
+msgid ""
+"To: discuss@lists.example.org\n"
+"Subject: [ANN] Scanley full-text indexer project\n"
+"Reply-to: dev@scanley.org\n"
+"\n"
+"This is a one-time post to announce the creation of the Scanley\n"
+"project, an open source full-text indexer and search engine with a\n"
+"rich API, for use by programmers in providing search services for\n"
+"large collections of text files.  Scanley is now running code, is\n"
+"under active development, and is looking for both developers and\n"
+"testers.\n"
+"\n"
+"Home page: http://www.scanley.org/\n"
+"\n"
+"Features:\n"
+"   - Searches plain text, HTML, and XML\n"
+"   - Word or phrase searching\n"
+"   - (planned) Fuzzy matching\n"
+"   - (planned) Incremental updating of indexes\n"
+"   - (planned) Indexing of remote web sites\n"
+"\n"
+"Requirements:\n"
+"   - Python 2.2 or higher\n"
+"   - Enough disk space to hold the indexes (approximately 2x\n"
+"     original data size)\n"
+"\n"
+"For more information, please come to scanley.org.\n"
+"\n"
+"Thank you,\n"
+"-J. Random"
+msgstr ""
+
+#. Tag: para
+#: ch02.xml:1524
+#, no-c-format
+msgid ""
+"(See <xref linkend=\"publicity\"/><phrase output=\"printed\"> in <xref "
+"linkend=\"communications\"/></phrase> for advice on announcing further "
+"releases and other project events.)"
+msgstr ""
+
+#. Tag: para
+#: ch02.xml:1528
+#, no-c-format
+msgid ""
+"There is an ongoing debate in the free software world about whether it is "
+"necessary to begin with running code, or whether a project can benefit from "
+"being opened even during the design/discussion stage. I used to think "
+"starting with running code was the most important factor, that it was what "
+"separated successful projects from toys, and that serious developers would "
+"only be attracted to software that did something concrete already."
+msgstr ""
+
+#. Tag: para
+#: ch02.xml:1536
+#, no-c-format
+msgid ""
+"This turned out not to be the case. In the Subversion project, we started "
+"with a design document, a core of interested and well-connected developers, "
+"a lot of fanfare, and <emphasis>no</emphasis> running code at all. To my "
+"complete surprise, the project acquired active participants right from the "
+"beginning, and by the time we did have something running, there were quite a "
+"few volunteer developers already deeply involved. Subversion is not the only "
+"example; the Mozilla project was also launched without running code, and is "
+"now a successful and popular web browser."
+msgstr ""
+
+#. Tag: para
+#: ch02.xml:1546
+#, no-c-format
+msgid ""
+"In the face of such evidence, I have to back away from the assertion that "
+"running code is absolutely necessary for launching a project. Running code "
+"is still the best foundation for success, and a good rule of thumb would be "
+"to wait until you have it before announcing your project. However, there may "
+"be circumstances where announcing earlier makes sense. I do think that at "
+"least a well-developed design document, or else some sort of code framework, "
+"is necessary&mdash;of course it may be revised based on public feedback, but "
+"there has to be something concrete, something more tangible than just good "
+"intentions, for people to sink their teeth into."
+msgstr ""
+
+#. Tag: para
+#: ch02.xml:1558
+#, no-c-format
+msgid ""
+"Whenever you announce, don't expect a horde of volunteers to join the "
+"project immediately afterward. Usually, the result of announcing is that you "
+"get a few casual inquiries, a few more people join your mailing lists, and "
+"aside from that, everything continues pretty much as before. But over time, "
+"you will notice a gradual increase in participation from both new code "
+"contributors and users. Announcement is merely the planting of a seed. It "
+"can take a long time for the news to spread. If the project consistently "
+"rewards those who get involved, the news <emphasis>will</emphasis> spread, "
+"though, because people want to share when they've found something good. If "
+"all goes well, the dynamics of exponential communications networks will "
+"slowly transform the project into a complex community, where you don't "
+"necessarily know everyone's name and can no longer follow every single "
+"conversation. The next chapters are about working in that environment."
+msgstr ""
