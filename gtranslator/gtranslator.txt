@@ -1,0 +1,4 @@
+Tasks:
+* [DONE] Port for gtranslator to work on Windows platforms, by Fran Puga
+* [DONE] Doc about how to configure a new translator profile on
+  gtranslator, by Andrés Maneiro
