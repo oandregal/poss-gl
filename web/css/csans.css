@@ -1,0 +1,252 @@
+/**
+* cSans v0.6.2
+* 2009 Copyright A navalla suíza http://anavallasuiza.com
+* cSans is released under the GNU Affero GPL version 3 - more information at http://www.fsf.org/licensing/licenses/agpl-3.0.html
+*/
+
+/* 1. RESET */
+html,body,div,span,object,iframe,
+h1,h2,h3,h4,h5,h6,p,blockquote,pre,
+a,abbr,acronym,address,code,
+del,dfn,em,img,q,dl,dt,dd,ol,ul,li,
+fieldset,form,label,legend,textarea,
+table,caption,tbody,tfoot,thead,tr,th,td {
+	margin:0;
+	padding:0;
+	border:0;
+	}
+textarea,select,input { font-size:1em; }
+html,body { height:100%; }
+body {
+	font-family:Arial,sans-serif;
+	font-size: 12pt;
+	line-height:1.25em;
+	text-align:center;
+	background:#fff;
+	color:#000;
+	}
+.page { text-align:left; }
+
+/* 2. DEBUG: Show borders to stress an element */
+.omg-red,.omg-yellow,.omg-blue,.omg-green,.omg-black,.omg-white {
+	border-top:dotted 3px;
+	border-bottom:dotted 3px;
+	}
+.omg-red { border-color:red; }
+.omg-yellow { border-color:yellow; }
+.omg-blue { border-color:blue; }
+.omg-green { border-color:green; }
+.omg-black { border-color:black; }
+.omg-white { border-color:white; }
+
+/* 3. BASIC STYLES */
+/* 3.1. Titles */
+h1,h2,h3,h4,h5,h6 {
+	font-weight:bold;
+	line-height:1em;
+	margin:1em 0 0.5em 0;
+	}
+h1 { font-size:2em; }
+h2 { font-size:1.75em; }
+h3 { font-size:1.5em; }
+h4 { font-size:1.125em; }
+h5 { font-size:1em; }
+h6 { font-size:1em; font-weight:normal; }
+
+/* 3.2. Lists */
+ul,dd { margin-left:1em; }
+ol { list-style-type:decimal; margin-left:1.5em; }
+dl dt { font-weight:bold; }
+
+/* 3.3. Tables */
+table { border-collapse:collapse; border-spacing:0; }
+caption,th { font-weight:bold; }
+th,td { text-align:left; padding:0; border:1px solid #ccc; }
+tfoot { font-style:italic; }
+
+/* 3.4. Images */
+a img { border:none; }
+img.right { margin-left:1em; }
+img.left { margin-right:1em; }
+
+/* 3.5. Forms */
+fieldset { border:1px solid #ccc; }
+legend { font-weight:bold; font-size:1.2em; }
+input { margin:0; }
+input.text { overflow-y:visible; }
+textarea { font-family:Arial,sans-serif; width:400px; height:100px; border:1px solid #ccc; overflow-y: auto; }
+select { margin:0; font-size:1em; }
+
+/* 3.6. Monospace elements */
+pre,code,tt { font-family:"Courier New", Courier, monospace; line-height:1.5; }
+pre,code { white-space:pre; }
+tt { display:block; line-height:1.5; }
+
+/* 3.7. Block elements */
+p,form,table,address,blockquote,pre,code,tt,ul,ol,dl { margin-bottom:1em; }
+
+/* 3.8. Inline elements */
+em,dfn { font-style:italic; }
+
+/* 3.9. HR element */
+hr {
+	background:none;
+	visibility:hidden;
+	clear:both;
+	float:none;
+	width:100%;
+	height:1px;
+	border:none;
+	margin:-1px 0;
+	}
+
+/* 3.10. Flash objects */
+object { outline:none; }
+
+/* 4. UTILS */
+/* 4.1. Images with link and without link must overwrite background, width and height properties in your css */
+.image a,.image li,.image {
+	background-repeat:no-repeat;
+	background-color:transparent;
+	margin:0;
+	padding:0;
+	outline:none;
+	font-size:0px;
+	line-height:0em;
+	letter-spacing:-20px;
+	text-indent: -2px;
+	display:block;
+	overflow:hidden;
+	text-align:left;
+	border: none;
+	}
+.image a {
+	display:block;
+	width:100%;
+	height:100%;
+	height:inherit;
+	}
+ol.image,ul.image {
+	background:none;
+	width:100%;
+	height:auto;
+	float:left;
+	}
+.image li {
+	float:left;
+	}
+span.image,strong.image,em.image,a.image {
+	display:inline-block;
+	vertical-align:bottom;
+	}
+input.image { cursor:pointer; }
+
+/* 4.2. Simple tabs system. You can overwrite background and text styles */
+.tabs {
+	list-style:none;
+	padding:0;
+	margin:0;
+	float:left;
+	width:100%;
+	border-bottom: solid 1px #ddd;
+	}
+.tabs li {
+	float:left;
+	margin:0 1px 0 0;
+	}
+.tabs li span,
+.tabs li a {
+	float: left;
+	padding:2px 5px;
+	white-space:nowrap;
+	text-align:center;
+	cursor:pointer;
+	outline:0;
+	text-decoration:none;
+	}
+.tabs li span { cursor:default; }
+.tabs .select a,.tabs a:hover {
+	background:#ddd;
+	}
+.tabs .select a {
+	position:relative;
+	padding-bottom: 3px;
+	margin-bottom: -1px;
+	}
+
+/* 4.3. Convert a block element (like a fieldset) into a inline element */
+.inline {
+	border:none;
+	margin:0;
+	padding:0;
+	display:inline;
+	}
+fieldset.inline {
+	float:left;
+	width: 100%;
+	}
+	
+/* 4.4. Inline-block element must content any element inside (div, p, etc) for the correct visualization in FF<3 */
+.inline-block-top,.inline-block-middle,.inline-block-bottom {
+	float:none !important;
+	display:inline-block;
+	}
+.inline-block-top { vertical-align:top; }
+.inline-block-middle { vertical-align:middle; }
+.inline-block-bottom { vertical-align:bottom; }
+
+/* 4.5. Float elements */
+.left { float:left !important; }
+.right,.right-right { float:right !important; }
+.right-right { text-align:right !important; }
+
+/* 4.6. Clear */
+.clear,.content,.page { display:block; }
+.clear:after,.tabs:after,.content:after,.page:after {
+	content:" ";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+	font-size:0;
+	}
+
+/* 4.7. Destroy margin collapse */
+.no-collapse { padding-top:1px; }
+
+/* 4.8. Hide an element */
+.hide { display:none; }
+
+/* 5. LAYOUT */
+/* 5.1. Row */
+.row {
+	float:left;
+	width:100%;
+	margin:0;
+	padding:0;
+	border:none;
+	}
+
+/* 5.2. Last column in a row */
+.last { margin-right:0 !important; }
+
+/* 5.3. Content */
+.content {
+	padding:0;
+	margin:0;
+	}
+
+/* 6. HACKS */
+img	{ -ms-interpolation-mode:bicubic; } /* IE */
+.clear,.tabs,.content,.page {
+	*overflow-y:auto; /* IE7 */
+	*overflow-x:hidden; /* IE7 */
+	_height:1%; /* IE6 */
+	_overflow-y:visible; /* IE6 */
+	_overflow-x:visible; /* IE6 */
+	}
+a.image,span.image,strong.image,em.image,.inline-block-top,.inline-block-middle,.inline-block-bottom {
+	display:-moz-inline-box; /* FF<3 */
+	-moz-box-orient:vertical; /* FF<3 */
+	*display:inline; /* IE */
+	}

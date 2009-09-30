@@ -1,0 +1,126 @@
+/**
+* cSans Grid 940-12-20 v0.4
+* 2009 Copyright A navalla suíza http://anavallasuiza.com
+* cSans is released under the GNU Affero GPL version 3 - more information at http://www.fsf.org/licensing/licenses/agpl-3.0.html
+*/
+
+/* 1. PAGE */
+.page {
+	width:960px;
+	text-align:left;
+	margin:0 auto;
+	}
+
+/* 2. DEBUG */
+.grid { background-image:url(csans-grid-940-12-20.png); }
+
+/* 3. LAYOUT */
+/* 3.1. Columns */
+.col1 { width:60px; }
+.col2 { width:140px; }
+.col3 { width:220px; }
+.col4 { width:300px; }
+.col5 { width:380px; }
+.col5c { width:172px; }
+.col6 { width:460px; }
+.col7 { width:540px; }
+.col8 { width:620px; }
+.col9 { width:700px; }
+.col10 { width:780px; }
+.col11 { width:860px; }
+.col12 { width:940px; }
+
+.col,.col1,.col2,.col3,.col4,.col5,.col5c,.col6,.col7,.col8,.col9,.col10,.col11,.col12 {
+	float:left;
+	margin-right:20px;
+	}
+
+.col12 { margin-right:0; }
+
+/* 3.2. Space columns: Right */
+.r-1 { margin-right:-60px; }
+.r-2 { margin-right:-140px; }
+.r-3 { margin-right:-220px; }
+.r-4 { margin-right:-300px; }
+.r-5 { margin-right:-380px; }
+.r-6 { margin-right:-460px; }
+.r-7 { margin-right:-540px; }
+.r-8 { margin-right:-620px; }
+.r-9 { margin-right:-700px; }
+.r-10 { margin-right:-780px; }
+.r-11 { margin-right:-860px; }
+
+.r-1,.r-2,.r-3,.r-4,.r-5,.r-6,.r-7,.r-8,.r-9,.r-10,.r-11 { position:relative; }
+
+.r05 { margin-right:40px; }
+.r1 { margin-right:100px; }
+.r2 { margin-right:180px; }
+.r3 { margin-right:260px; }
+.r4 { margin-right:340px; }
+.r5 { margin-right:420px; }
+.r6 { margin-right:500px; }
+.r7 { margin-right:580px; }
+.r8 { margin-right:660px; }
+.r9 { margin-right:740px; }
+.r10 { margin-right:820px; }
+
+/* 3.3. Space columns: Left */
+.l-1 { margin-left:-80px; }
+.l-2 { margin-left:-160px; }
+.l-3 { margin-left:-240px; }
+.l-4 { margin-left:-320px; }
+.l-5 { margin-left:-400px; }
+.l-6 { margin-left:-480px; }
+.l-7 { margin-left:-560px; }
+.l-8 { margin-left:-640px; }
+.l-9 { margin-left:-720px; }
+.l-10 { margin-left:-800px; }
+.l-11 { margin-left:-880px; }
+
+.l05{ margin-left:40px; }
+.l1 { margin-left:80px; }
+.l2 { margin-left:160px; }
+.l3 { margin-left:240px; }
+.l4 { margin-left:320px; }
+.l5 { margin-left:400px; }
+.l6 { margin-left:480px; }
+.l7 { margin-left:560px; }
+.l8 { margin-left:640px; }
+.l9 { margin-left:720px; }
+.l10 { margin-left:800px; }
+.l11 { margin-left:880px; }
+
+/* 3.4. Space columns: top */
+.t1 { margin-top:10px; }
+.t2 { margin-top:20px; }
+.t3 { margin-top:30px; }
+.t4 { margin-top:40px; }
+.t5 { margin-top:50px; }
+.t6 { margin-top:60px; }
+.t7 { margin-top:70px; }
+.t8 { margin-top:80px; }
+.t9 { margin-top:90px; }
+.t10 { margin-top:100px; }
+
+/* 3.5. Space columns: bottom */
+.b1 { padding-bottom:10px; }
+.b2 { padding-bottom:20px; }
+.b3 { padding-bottom:30px; }
+.b4 { padding-bottom:40px; }
+.b5 { padding-bottom:50px; }
+.b6 { padding-bottom:60px; }
+.b7 { padding-bottom:70px; }
+.b8 { padding-bottom:80px; }
+.b9 { padding-bottom:90px; }
+.b10 { padding-bottom:100px; }
+
+/* 3.6. Paddings */
+.p05 { padding:5px; }
+.p1 { padding:10px; }
+.p2 { padding:20px; }
+
+/* 4. HACKS */
+.col,.col1,.col2,.col3,.col4,.col5,.col5c,.col6,.col7,.col8,.col9,.col10,.col11,.col12,
+.con1,.con2,.con3,.con4,.con5,.con6,.con7,.con8,.con9,.con10,.con11,.con12 { _display:inline; } /* IE5-6 */
+
+.l-1,.l-2,.l-3,.l-4,.l-5,.l-6,.l-7,.l-8,.l-9,.l-10,.l-11 { *position:relative; } /* IE */
