@@ -59,3 +59,24 @@ ul {
 #pedepaxina a{ 
               color: #fff;
 }
+
+#seccion-sidebar { 
+           background-color: #e3d185;
+           -moz-border-radius: 5px;
+           -webkit-border-radius: 5px;
+           padding-left: 2em;
+           padding-right: 0em;
+           padding-bottom: 2em;
+           margin-top: 1em;
+           }
+
+#seccion-contido { 
+           background-color: #e3d185;
+           -moz-border-radius: 5px;
+           -webkit-border-radius: 5px;
+           padding-left: 2em;
+           padding-right: 0em;
+           padding-left: 3em;
+           padding-bottom: 2em;
+           margin-top: 1em;                   
+ }
