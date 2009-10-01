@@ -1,82 +1,85 @@
 body { 
-        background-color: #f1f1f1;
+       background-color: #f1f1f1;
        color: #1a1a1a;
-}
-/*
-a { 
-        color: #ccc;
-}
- */
+       }
 
 ul { 
-       list-style-type: square;
- }
+     list-style-type: square;
+     }
 
 #logo {
         background-image: url('../img/ghandalf.png');
         width:  842px;
         height: 595px;
- }
+        }
 
 #presentacion {
                 background-color: #9ab54f;
-                -moz-border-radius: 5px;
-                -moz-border-radius: 5px;
                 }
 
 #presentacion h1 { 
                    text-align: center;
- }
+                   }
 
 #presentacion p{ 
                  padding-left: 2em;
                  padding-right: 2em;
- }
+                 }
+
+
+#aviso {
+         margin-top: 1em;
+         background-color: red;
+         }
+
+#aviso p{
+          padding-left: 2em;
+          padding-right: 2em;
+          padding-top: 1em;
+          text-align: center;
+          }
 
 #menu { 
         background-color: #e3d185;
-        -moz-border-radius: 5px;
-        -webkit-border-radius: 5px;
         padding-left: 3em;
         padding-right: 2em;
         padding-bottom: 2em;
         margin-top: 1em;
-}
+        }
 
 #pedepaxina { 
               background-color: #1c1c1c;
+              font-size: medium;
               color: #ccc;
-        -moz-border-radius: 5px;
-        -webkit-border-radius: 5px;
-
- }
+              }
 
 #pedepaxina p{ 
                padding-top: 1em;
                text-align: center;
- }
+               }
 
 #pedepaxina a{ 
-              color: #fff;
-}
+               color: #fff;
+               }
 
 #seccion-sidebar { 
-           background-color: #e3d185;
-           -moz-border-radius: 5px;
-           -webkit-border-radius: 5px;
-           padding-left: 2em;
-           padding-right: 0em;
-           padding-bottom: 2em;
-           margin-top: 1em;
-           }
+                   background-color: #e3d185;
+                   padding-left: 2em;
+                   padding-right: 0em;
+                   padding-bottom: 2em;
+                   margin-top: 1em;
+                   }
 
 #seccion-contido { 
-           background-color: #e3d185;
+                   background-color: #e3d185;
+                   padding-left: 2em;
+                   padding-right: 0em;
+                   padding-left: 3em;
+                   padding-bottom: 2em;
+                   margin-top: 1em;
+                   }
+
+.bordred {
            -moz-border-radius: 5px;
            -webkit-border-radius: 5px;
-           padding-left: 2em;
-           padding-right: 0em;
-           padding-left: 3em;
-           padding-bottom: 2em;
-           margin-top: 1em;                   
  }
