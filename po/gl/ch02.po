@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: Producing OSS\n"
 "Report-Msgid-Bugs-To: producingoss@listas.ghandalf.org\n"
 "POT-Creation-Date: 2009-07-11 15:32+0000\n"
-"PO-Revision-Date: 2009-10-03 17:58+0200\n"
+"PO-Revision-Date: 2009-10-03 20:21+0200\n"
 "Last-Translator: Andrés Maneiro <andres.maneiro@gmail.com>\n"
 "Language-Team: Galician <producingoss@listas.ghandalf.org>\n"
 "MIME-Version: 1.0\n"
@@ -1124,7 +1124,17 @@ msgid ""
 msgstr ""
 "Descargar paquetes co código fonte é suficiente para aqueles que únicamente "
 "desexan instalar e usar o software, pero non o é para os que desexan depurar "
-"o código ou engadir novas funcionalidades."
+"o código ou engadir novas funcionalidades. Capturas de código diarias poden "
+"axudar pero non son suficientes para unha comunidade de desenvolvedores "
+"saludable. A xente precisa acceso en tempo real ó código fonte, e o modo de "
+"darllo é usar un sistema de control de versións. A presencia de código fonte "
+"baixo control de versión accesible anónimamente é un signo, tanto para "
+"usuarios como desenvolvedores, de que o proxectos está facendo un esforzo "
+"por darlle á xente o que precisa para participar. Se non podes ofrecer "
+"control de versións neste momento, indica que estás montando a "
+"infraestrutura en breve. A infraestrutura de control de versións estúdiase "
+"en detalle en <xref linkend=\"vc\"/><phrase output=\"printed\"> dentro de "
+"<xref linkend=\"technical-infrastructure\"/></phrase>."
 
 #. Tag: para
 #: ch02.xml:563
@@ -1147,6 +1157,22 @@ msgid ""
 "promptly, duplicate bugs are unified, etc.) therefore makes a better "
 "impression than a project with no bug database, or a nearly empty database."
 msgstr ""
+"O mesmo é aplicable para o sistema de notificación de erros do proxecto. A "
+"importancia deste sistema non só reside na utilidade para os "
+"desenvolvedores, senón o que esto significa para a xente que ve o proxecto. "
+"Para moita xente, unha base de datos de erros accesible é un dos signos máis "
+"fortes de que o proxectos debe ser tomado en serio. Ademáis, cantos máis "
+"erros rexistrados mellor. Aínda que poida parecer contraintuitivo, é preciso "
+"recordar que o número de erros almacenado depende de 3 claves: o número "
+"absoluto de erros presentes no programa, o número de usuarios que o usan e a "
+"facilidades coa que os usuarios poden rexistrar os erros. Deses 3 factores, "
+"os últimos 2 son máis significativos que o primeiro. Calquera aplicación de "
+"tamaño e complexidades suficiente ten unha cantidade arbitraria de erros "
+"esperando para ser descubertos. A verdadeira cuestión é o ben que o proxecto "
+"almanece e priorice eses erros. Un proxectos cunha base de datos de erros "
+"grande e ben mantida (é dicir, os erros aténdense sen demoras, os duplicados "
+"son unificados, etc) da unha mellor impresión que un proxecto sen base de "
+"datos ou cunha case inexistente."
 
 #. Tag: para
 #: ch02.xml:582
@@ -1160,6 +1186,12 @@ msgid ""
 "<emphasis>rate</emphasis> of filings, and they will not be unduly alarmed by "
 "the low absolute number of bugs recorded."
 msgstr ""
+"Dende logo, si o proxecto acaba de comezar, a base de datos de erros conterá "
+"poucos, non hai moito que facer ó respecto. mais si a páxina do proxecto "
+"indica a súa xuventude e si a xente que usa a base de datos pode ver que a "
+"maioría dos erros foron notificados recentemente, é posible extrapolar que o "
+"proxecto ten ratio de rexistros saudable e os visitantes non se alarmarán "
+"polo baixo número total de erros rexistrados."
 
 #. Tag: para
 #: ch02.xml:591
@@ -1174,12 +1206,21 @@ msgid ""
 "tracker, and to make sure that fact is visible from the front page of the "
 "project."
 msgstr ""
+"É preciso sinalar que os sistemas de notificación de erros son habitualmente "
+"usados non só para manter un rexistro de erros no software, senón tamén para "
+"indicar peticións de funcionalidades, cambios na documentación, tarefas "
+"pendentes, etc. Os detalles sobre a xestión dun sistema de notificación de "
+"erros son cubertos en <xref linkend=\"bug-tracker\"/><phrase output=\"printed"
+"\"> dentro de <xref linkend=\"technical-infrastructure\"/></phrase>, polo "
+"que non entrarei en detalle aquí. Dende o punto de vista da presentación, a "
+"importancia radica en <emphasis>ter</emphasis> un sistema de notificación e "
+"asegurarse que é visible dende a páxina principal do proxecto."
 
 #. Tag: title
 #: ch02.xml:604
 #, no-c-format
 msgid "Communications Channels"
-msgstr ""
+msgstr "Canles de comunicación"
 
 #. Tag: para
 #: ch02.xml:606
@@ -1196,6 +1237,16 @@ msgid ""
 "anyway, but they will be comforted to know that they <emphasis>could</"
 "emphasis> if they ever needed to."
 msgstr ""
+"Os visitantes da web usualmente desexan saber cómo porse en contato coa "
+"xente implicada no proxecto. Proporciona a dirección das roldas de correo, "
+"salas de chat, canles de IRC e calquera outro foro onde a comunidade "
+"interactúe. Deixa claro que tanto ti como outros participantes do proxecto "
+"estades suscritos a estas roldas de correo, para que a xente vexa que existe "
+"un modo de enviar feedback ós desenvolvedores. A presencia nas roldas de "
+"correo non implica a obligación de responder tódalas preguntas nin "
+"implementar todas las peticións de funcinoalidades. A longo plazo, moitos "
+"usuarios non se darán de alta nos foros, gustaralle saber que poderían si "
+"algunha vez o precisasen."
 
 #. Tag: para
 #: ch02.xml:618
@@ -1211,6 +1262,15 @@ msgid ""
 "software, you can assume that they are at least interested in following "
 "development discussions and in getting a sense of the project's direction."
 msgstr ""
+"En etapas tempranas do proxeto, non hai necesidade de ter foros separados "
+"para usuarios e desenvolvedores. É mellor ter a todo o mundo falando xuntos, "
+"nunha única sala. Entre os primeiros participantes do proxecto, a distinción "
+"entre usuario e desenvolvedor é confusa; mais si a distinción tivese que ser "
+"feita, o ratio entre desenvolvedores e usuarios é habitualmente máis alta no "
+"comezo. Aínda que non é posible asumir que cada precursor sexa un "
+"programador que desexa hackear o programa, é posible asumir que están polo "
+"menos interesados en seguir os debates sobre o desenvolvemento e obter unha "
+"visión de cara onde camiñá o proxecto."
 
 #. Tag: para
 #: ch02.xml:629
@@ -1224,12 +1284,19 @@ msgid ""
 "and how to separate user forums from developer forums, when the time comes, "
 "without creating an unbridgeable gulf."
 msgstr ""
+"Xa que este capítulo únicamente versa sobre cómo iniciar un proxecto, baste "
+"dicir que os foros de comunicacións teén que existir. Máis adiante, en <xref "
+"linkend=\"growth\"/><phrase output=\"printed\"> dentro de <xref linkend="
+"\"communications\"/></phrase>, examinarase onde e cómo establecelos, os "
+"modos en que poden ser xestionados e moderados e cómo separar foros de "
+"usuarios de foros de desenvolvedores, cando sexa preciso, sen crear un "
+"abismo infranqueable."
 
 #. Tag: title
 #: ch02.xml:642
 #, no-c-format
 msgid "Developer Guidelines"
-msgstr ""
+msgstr "Pautas de desenvolvemento"
 
 #. Tag: para
 #: ch02.xml:644
@@ -1240,6 +1307,10 @@ msgid ""
 "social: they explain how the developers interact with each other and with "
 "the users, and ultimately how things get done."
 msgstr ""
+"Se alguén está pensando en contribuir a un proxecto, buscará as pautas de "
+"desenvolvemento. Estas pautas non son tanto técnicas como sociais: explican "
+"cómo os desenvolvedores interactúan entre sí e cos usuarios ou cómo se "
+"realizan as cousas."
 
 #. Tag: para
 #: ch02.xml:650
@@ -1260,6 +1331,21 @@ msgid ""
 "pretending to be a democracy will turn people off; a tyranny that says it's "
 "a tyranny will do fine as long as the tyrant is competent and trusted."
 msgstr ""
+"Este tema cúbrese en detalle en <xref linkend=\"written-rules\"/><phrase "
+"output=\"printed\"> dentro de <xref linkend=\"social-infrastructure\"/></"
+"phrase>, mais os elementos básicos das pautas de desenvolvemento son: "
+"<itemizedlist> <listitem><para>enlaces ós foros onde interactuar con outros "
+"desenvolvedores</listitem> <listitem><para>instruccións sobre cómo notificar "
+"erros e enviar parches</listitem> <listitem><para>indicacións sobre cómo o "
+"desenvolvemente se realiza habitualmente &mdash;é o proxecto unha dictadura "
+"benevolente? unha democracia? calquera outra cousa? </para> </listitem> </"
+"itemizedlist>. O temo \"dictadura\" non pretende ter sentido pexorativo. É "
+"perfectamente válido xestionar un proxecto como si de unha tiranía se "
+"tratase, onde único desenvolvedor teña poder de veto sobre todos os cambios. "
+"Moitos proxectos de éxito funcionan deste xeito. O importante é que o "
+"proxecto sexa consciente de iso e o comunique. Unha tiranía que pretenda ser "
+"unha democracia desalentará ás persoas a particiapr; unha tiranía que diga "
+"que é tal, funcionará ben sempre que sexa competente e de confianza."
 
 #. Tag: para
 #: ch02.xml:677
@@ -1271,6 +1357,11 @@ msgid ""
 "for broader guidelines that focus more on governance and the spirit of "
 "participation and less on technical matters."
 msgstr ""
+"Pódese obserar aquí <ulink url=\"http://svn.collab.net/repos/svn/trunk/www/"
+"hacking.html\"></ulink> un exemplo de pautas de desenvolvemento, ou <ulink "
+"url=\"http://www.openoffice.org/dev_docs/guidelines.html\"></ulink> para "
+"pautas máis enfocadas na gonvernanza e espírito de participación e menos en "
+"aspectos técnicos."
 
 #. Tag: para
 #: ch02.xml:683
@@ -1280,6 +1371,9 @@ msgid ""
 "is discussed in <xref linkend=\"developer-documentation\"/><phrase output="
 "\"printed\"> later in this chapter</phrase>."
 msgstr ""
+"Proporcionar unha introdución á aplicación para o programador discutirase "
+"máis adiante neste mesmo capítulo<xref linkend=\"developer-documentation\"/"
+"><phrase output=\"printed\"></phrase>"
 
 #. Tag: title
 #: ch02.xml:692
