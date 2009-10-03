@@ -1,0 +1,1 @@
+[] Debug xml2po script to allow us to split other strings apart from paragraphs into po strings (i.e.: listitem, emphasis, etc)
