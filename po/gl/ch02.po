@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: Producing OSS\n"
 "Report-Msgid-Bugs-To: producingoss@listas.ghandalf.org\n"
 "POT-Creation-Date: 2009-07-11 15:32+0000\n"
-"PO-Revision-Date: 2009-09-09 23:44+0200\n"
+"PO-Revision-Date: 2009-10-03 17:58+0200\n"
 "Last-Translator: Andrés Maneiro <andres.maneiro@gmail.com>\n"
 "Language-Team: Galician <producingoss@listas.ghandalf.org>\n"
 "MIME-Version: 1.0\n"
@@ -1053,6 +1053,19 @@ msgid ""
 "the person themselves? No one working on the project will realize that "
 "someone's interest and good will have been silently squandered."
 msgstr ""
+"Esto parece obvio, pero moitos proxectos non se molestan en estandarizar o "
+"proceso de instalación ata moi tarde, dicíndose a si mesmos que teñen tempo "
+"a facelo máis tarde: <emphasis>\"Enfrontarémonos a esas cuestións cando o "
+"código esté casi listo.\"</emphasis> Mais non se dan conta que deixando para "
+"o final os aburridos procesos de construción e instalación do código, están "
+"facendo que ó proxecto lle tome máis tempo estar listo&mdash; xa que "
+"desalentan a desenvolvedores que de outro modo poderían ter contribuido ó "
+"proxecto. O peor de todo é que <emphasis>non saben</emphasis> que están "
+"perdendo desenvolvedores, xa que o proceso é unha acumulación de non-"
+"eventos: alguén visita a web, descarga o proxecto, intenta constriur o "
+"programa, non o consegue, abandoa e baise. Quen saberá o que ocorreu excepto "
+"a mesma persoa? Ninguén do proxecto se dará conta de que o interese de "
+"alguén foi desaproveitado."
 
 #. Tag: para
 #: ch02.xml:530
@@ -1062,6 +1075,9 @@ msgid ""
 "significantly lowering the project's barrier to entry through good packaging "
 "brings a very high payoff."
 msgstr ""
+"Tarefas aburridas cun alto beneficio deberían ser sempre feitas en etapas "
+"tempranas. E baixar a barreira de entrada utilizando un bo sistema de "
+"paquetización brinda un gran beneficio."
 
 #. Tag: para
 #: ch02.xml:534
@@ -1075,12 +1091,19 @@ msgid ""
 "<xref linkend=\"packaging\"/><phrase output=\"printed\">, both in <xref "
 "linkend=\"development-cycle\"/></phrase>."
 msgstr ""
+"Cando se publica un paquete descargable, é vital asignar un número único de "
+"versión á publicación, para que a xente poida comprar as entre 2 diferentes "
+"publicacións e saber cal reemplaza a cal. Información detallada sobre a "
+"numeración de versións pode ser atopado en <xref linkend=\"release-numbering"
+"\"/>, e os detalles de estandarización dos procesos de construción e "
+"instalación son cubertos en <xref linkend=\"packaging\"/><phrase output="
+"\"printed\">, ambos en <xref linkend=\"development-cycle\"/></phrase>."
 
 #. Tag: title
 #: ch02.xml:547
 #, no-c-format
 msgid "Version Control and Bug Tracker Access"
-msgstr ""
+msgstr "Control de versión e acceso ó Sistema de notificación de erros"
 
 #. Tag: para
 #: ch02.xml:549
@@ -1099,6 +1122,9 @@ msgid ""
 "discussed in detail in <xref linkend=\"vc\"/><phrase output=\"printed\"> in "
 "<xref linkend=\"technical-infrastructure\"/></phrase>."
 msgstr ""
+"Descargar paquetes co código fonte é suficiente para aqueles que únicamente "
+"desexan instalar e usar o software, pero non o é para os que desexan depurar "
+"o código ou engadir novas funcionalidades."
 
 #. Tag: para
 #: ch02.xml:563
