@@ -1,0 +1,14 @@
+K 10
+svn:ignore
+V 67
+*.html
+producingoss.ps
+producingoss.pdf
+producingoss.fo
+styles.css
+
+K 13
+svn:mergeinfo
+V 13
+/trunk/en:757
+END

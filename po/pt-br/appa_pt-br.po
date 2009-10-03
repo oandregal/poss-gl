@@ -1,0 +1,280 @@
+# Producing OSS - Translating project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Producing OSS\n"
+"Report-Msgid-Bugs-To: producingoss@listas.ghandalf.org\n"
+"POT-Creation-Date: 2009-07-11 15:35+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Galician <producingoss@listas.ghandalf.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: application/x-xml2pot; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#: appa.xml:2
+#, no-c-format
+msgid "Free Version Control Systems"
+msgstr "Sistemas de Controle de Versão Livres"
+
+#. Tag: para
+#: appa.xml:6
+#, no-c-format
+msgid "These are all the open source version control systems I was aware of as of mid-2007. The only one I use on a regular basis is Subversion. I have little or no experience with most of these systems, except for Subversion and CVS; the information here is taken from their web sites. See also <ulink url=\"http://en.wikipedia.org/wiki/List_of_revision_control_software\"></ulink>."
+msgstr "Este são todos os sistemas de controle de versão dos quais tinha conhecimento até o meio do ano de 2007. O único que uso regularmente é o Subversion. Exceto pelo Subversion e CVS, tenho pouca ou nenhuma experiência com a maioria desses sistemas; as informações colocadas aqui foram retiradas dos seus respectivos sites. Veja também <ulink url=\"http://en.wikipedia.org/wiki/List_of_revision_control_software\"></ulink>."
+
+#. Tag: title
+#: appa.xml:16
+#, no-c-format
+msgid "<emphasis role=\"bold\">CVS</emphasis>&nbsp;&mdash;&nbsp;<ulink url=\"http://www.nongnu.org/cvs/\"></ulink>"
+msgstr "<emphasis role=\"bold\">CVS</emphasis>&nbsp;&mdash;&nbsp;<ulink url=\"http://www.nongnu.org/cvs/\"></ulink>"
+
+#. Tag: para
+#: appa.xml:18
+#, no-c-format
+msgid "CVS has been around for a long time, and many developers are already familiar with it. In its day it was revolutionary: it was the first open source version control system with wide-area network access for developers (as far as I know), and the first to offer anonymous read-only checkouts, which gave new developers an easy way to get involved in projects. CVS versions files only, not directories; it offers branching, tagging, and good client-side performance, but doesn't handle large files or binary files very well. It also does not support atomic commits.<emphasis>[Disclaimer: I was active in CVS development for about five years, before helping to start the Subversion project to replace it.]</emphasis>"
+msgstr "CVS has been around for a long time, and many developers are already familiar with it. In its day it was revolutionary: it was the first open source version control system with wide-area network access for developers (as far as I know), and the first to offer anonymous read-only checkouts, which gave new developers an easy way to get involved in projects. CVS versions files only, not directories; it offers branching, tagging, and good client-side performance, but doesn't handle large files or binary files very well. It also does not support atomic commits.<emphasis>[Disclaimer: I was active in CVS development for about five years, before helping to start the Subversion project to replace it.]</emphasis>"
+
+#. Tag: title
+#: appa.xml:34
+#, no-c-format
+msgid "<emphasis role=\"bold\">Subversion</emphasis>&nbsp;&mdash;&nbsp;<ulink url=\"http://subversion.tigris.org/\"></ulink>"
+msgstr "<emphasis role=\"bold\">Subversion</emphasis>&nbsp;&mdash;&nbsp;<ulink url=\"http://subversion.tigris.org/\"></ulink>"
+
+#. Tag: para
+#: appa.xml:36
+#, no-c-format
+msgid "Subversion was written first and foremost to be a replacement for CVS&mdash;that is, to approach version control in roughly the same way CVS does, but without the problems and feature omissions that most frequently annoy users of CVS. One of Subversion's goals is for people already accustomed to CVS to find the transition to Subversion relatively smooth. There is not space here to go into detail about Subversion's features; see its web site for more information. <emphasis>[Disclaimer: I am involved in Subversion development, and it is the only one of these systems that I use on a regular basis.]</emphasis>"
+msgstr "Subversion was written first and foremost to be a replacement for CVS&mdash;that is, to approach version control in roughly the same way CVS does, but without the problems and feature omissions that most frequently annoy users of CVS. One of Subversion's goals is for people already accustomed to CVS to find the transition to Subversion relatively smooth. There is not space here to go into detail about Subversion's features; see its web site for more information. <emphasis>[Disclaimer: I am involved in Subversion development, and it is the only one of these systems that I use on a regular basis.]</emphasis>"
+
+#. Tag: title
+#: appa.xml:51
+#, no-c-format
+msgid "<emphasis role=\"bold\">SVK</emphasis>&nbsp;&mdash;&nbsp;<ulink url=\"http://svk.elixus.org/\"></ulink>"
+msgstr "<emphasis role=\"bold\">SVK</emphasis>&nbsp;&mdash;&nbsp;<ulink url=\"http://svk.elixus.org/\"></ulink>"
+
+#. Tag: para
+#: appa.xml:53
+#, no-c-format
+msgid "Although it is built on top of Subversion, SVK probably resembles some of the decentralized systems below more than it does Subversion. SVK supports distributed development, local commits, sophisticated change merging, and the ability to mirror trees from non-SVK version control systems. See its web site for details."
+msgstr "Although it is built on top of Subversion, SVK probably resembles some of the decentralized systems below more than it does Subversion. SVK supports distributed development, local commits, sophisticated change merging, and the ability to mirror trees from non-SVK version control systems. See its web site for details."
+
+#. Tag: title
+#: appa.xml:63
+#, no-c-format
+msgid "<emphasis role=\"bold\">Mercurial</emphasis>&nbsp;&mdash;&nbsp;<ulink url=\"http://www.selenic.com/mercurial/\"></ulink>"
+msgstr "<emphasis role=\"bold\">Mercurial</emphasis>&nbsp;&mdash;&nbsp;<ulink url=\"http://www.selenic.com/mercurial/\"></ulink>"
+
+#. Tag: para
+#: appa.xml:65
+#, no-c-format
+msgid "Mercurial is a distributed version control system that offers, among other things, \"complete cross-indexing of files and changesets; bandwidth and CPU efficient HTTP and SSH sync protocols; arbitrary merging between developer branches; integrated stand-alone web interface; [portability to] UNIX, MacOS X, and Windows\" and more (the preceding feature list was paraphrased from the Mercurial web site)."
+msgstr "Mercurial is a distributed version control system that offers, among other things, \"complete cross-indexing of files and changesets; bandwidth and CPU efficient HTTP and SSH sync protocols; arbitrary merging between developer branches; integrated stand-alone web interface; [portability to] UNIX, MacOS X, and Windows\" and more (the preceding feature list was paraphrased from the Mercurial web site)."
+
+#. Tag: title
+#: appa.xml:77
+#, no-c-format
+msgid "<emphasis role=\"bold\">GIT</emphasis>&nbsp;&mdash;&nbsp;<ulink url=\"http://git.or.cz/\"></ulink>"
+msgstr "<emphasis role=\"bold\">GIT</emphasis>&nbsp;&mdash;&nbsp;<ulink url=\"http://git.or.cz/\"></ulink>"
+
+#. Tag: para
+#: appa.xml:79
+#, no-c-format
+msgid "GIT is a project started by Linus Torvalds to manage the Linux kernel source tree. At first GIT was rather narrowly focused on the needs of kernel development, but it has expanded beyond that and is now used by projects other than the Linux kernel. Its home page says it is \"...designed to handle very large projects with speed and efficiency; it is used mainly for various open source projects, most notably the Linux kernel. Git falls in the category of distributed source code management tools, similar to e.g. GNU Arch or Monotone (or BitKeeper in the proprietary world). Every Git working directory is a full-fledged repository with full revision tracking capabilities, not dependent on network access or a central server.\""
+msgstr "GIT is a project started by Linus Torvalds to manage the Linux kernel source tree. At first GIT was rather narrowly focused on the needs of kernel development, but it has expanded beyond that and is now used by projects other than the Linux kernel. Its home page says it is \"...designed to handle very large projects with speed and efficiency; it is used mainly for various open source projects, most notably the Linux kernel. Git falls in the category of distributed source code management tools, similar to e.g. GNU Arch or Monotone (or BitKeeper in the proprietary world). Every Git working directory is a full-fledged repository with full revision tracking capabilities, not dependent on network access or a central server.\""
+
+#. Tag: title
+#: appa.xml:95
+#, no-c-format
+msgid "<emphasis role=\"bold\">Bazaar</emphasis>&nbsp;&mdash;&nbsp;<ulink url=\"http://bazaar-vcs.org/\"></ulink>"
+msgstr "<emphasis role=\"bold\">Bazaar</emphasis>&nbsp;&mdash;&nbsp;<ulink url=\"http://bazaar.canonical.com/\"></ulink>"
+
+#. Tag: para
+#: appa.xml:97
+#, no-c-format
+msgid "Bazaar (or bzr) is a distributed version control system that concentrates on ease-of-use and having a flexible data model. It is an official GNU project, and is the native version control system for the free software project-hosting site Launchpad.net. Bazaar does fully distributed version control: all work takes place in branches, and every developer typically has a full copy of the branch history. Branches can be merged into one another in a decentralized manner, but Bazaar can also be configured to work in a centralized way. Bazaar started out as a fork of GNU Arch, but was rewritten from scratch and now has no direct relation to GNU Arch."
+msgstr "Bazaar is still under development. It will be an implementation of the GNU Arch protocol, will retain compatability with the GNU Arch protocol as it evolves, and work with the GNU Arch community process for any protocol changes that might be required for user friendliness."
+
+#. Tag: title
+#: appa.xml:112
+#, no-c-format
+msgid "<emphasis role=\"bold\">Darcs</emphasis>&nbsp;&mdash;&nbsp;<ulink url=\"http://darcs.net\"></ulink>"
+msgstr "<emphasis role=\"bold\">Bazaar-NG</emphasis>&nbsp;&mdash;&nbsp;<ulink url=\"http://bazaar-ng.org/\"></ulink>"
+
+#. Tag: para
+#: appa.xml:114
+#, no-c-format
+msgid "\"David's Advanced Revision Control System is yet another replacement for CVS. It is written in Haskell, and has been used on Linux, MacOS X, FreeBSD, OpenBSD and Microsoft Windows. Darcs includes a cgi script, which can be used to view the contents of your repository.\""
+msgstr "Bazaar-NG (or bzr) is currently under development by Canonical (<ulink url=\"http://canonical.com/\"></ulink>). It offers a choice between centralized and decentralized work within a single project. For example, when in the office, you can work on a shared central branch; for experimental changes or offline work, you can make a branch on your laptop and merge back in later."
+
+#. Tag: title
+#: appa.xml:124
+#, no-c-format
+msgid "<emphasis role=\"bold\">Arch</emphasis>&nbsp;&mdash;&nbsp;<ulink url=\"http://www.gnu.org/software/gnu-arch/\"></ulink>"
+msgstr "<emphasis role=\"bold\">Darcs</emphasis>&nbsp;&mdash;&nbsp;<ulink url=\"http://abridgegame.org/darcs/\"></ulink>"
+
+#. Tag: para
+#: appa.xml:126
+#, no-c-format
+msgid "GNU Arch supports both distributed and centralized development. Developers commit their changes to an \"archive\", which may be local, and the changes can be pushed and pulled to other archives as the managers of those archives see fit. As such a methodology implies, Arch has more sophisticated merge support than CVS. Arch also allows one to easily make branches of archives to which one does not have commit access. This is only a brief summary; see the Arch web pages for details."
+msgstr "\"David's Advanced Revision Control System is yet another replacement for CVS. It is written in Haskell, and has been used on Linux, MacOS X, FreeBSD, OpenBSD and Microsoft Windows. Darcs includes a cgi script, which can be used to view the contents of your repository.\""
+
+#. Tag: title
+#: appa.xml:139
+#, no-c-format
+msgid "<emphasis role=\"bold\">monotone</emphasis>&nbsp;&mdash;&nbsp;<ulink url=\"http://www.venge.net/monotone/\"></ulink>"
+msgstr "<emphasis role=\"bold\">Arch</emphasis>&nbsp;&mdash;&nbsp;<ulink url=\"http://www.gnu.org/software/gnu-arch/\"></ulink>"
+
+#. Tag: para
+#: appa.xml:141
+#, no-c-format
+msgid "\"monotone is a free distributed version control system. it provides a simple, single-file transactional version store, with fully disconnected operation and an efficient peer-to-peer synchronization protocol. it understands history-sensitive merging, lightweight branches, integrated code review and 3rd party testing. it uses cryptographic version naming and client-side RSA certificates. it has good internationalization support, has no external dependencies, runs on linux, solaris, OSX, and windows, and is licensed under the GNU GPL.\""
+msgstr "GNU Arch supports both distributed and centralized development. Developers commit their changes to an \"archive\", which may be local, and the changes can be pushed and pulled to other archives as the managers of those archives see fit. As such a methodology implies, Arch has more sophisticated merge support than CVS. Arch also allows one to easily make branches of archives to which one does not have commit access. This is only a brief summary; see the Arch web pages for details."
+
+#. Tag: title
+#: appa.xml:155
+#, no-c-format
+msgid "<emphasis role=\"bold\">Codeville</emphasis>&nbsp;&mdash;&nbsp;<ulink url=\"http://codeville.org/\"></ulink>"
+msgstr "<emphasis role=\"bold\">monotone</emphasis>&nbsp;&mdash;&nbsp;<ulink url=\"http://www.venge.net/monotone/\"></ulink>"
+
+#. Tag: para
+#: appa.xml:157
+#, no-c-format
+msgid "\"Why yet another version control system? All other version control systems require that you keep careful track of the relationships between branches so as not have to repeatedly merge the same conflicts. Codeville is much more anarchic. It allows you to update from or commit to any repository at any time with no unnecessary re-merges.\""
+msgstr "\"monotone is a free distributed version control system. it provides a simple, single-file transactional version store, with fully disconnected operation and an efficient peer-to-peer synchronization protocol. it understands history-sensitive merging, lightweight branches, integrated code review and 3rd party testing. it uses cryptographic version naming and client-side RSA certificates. it has good internationalization support, has no external dependencies, runs on linux, solaris, OSX, and windows, and is licensed under the GNU GPL.\""
+
+#. Tag: para
+#: appa.xml:164
+#, no-c-format
+msgid "\"Codeville works by creating an identifier for each change which is done, and remembering the list of all changes which have been applied to each file and the last change which modified each line in each file. When there's a conflict, it checks to see if one of the two sides has already been applied to the other one, and if so makes the other side win automatically. When there's an actual not automatically mergeable version conflict, Codeville behaves in almost exactly the same way as CVS.\""
+msgstr "<emphasis role=\"bold\">Codeville</emphasis>&nbsp;&mdash;&nbsp;<ulink url=\"http://codeville.org/\"></ulink>"
+
+#. Tag: title
+#: appa.xml:177
+#, no-c-format
+msgid "<emphasis role=\"bold\">Vesta</emphasis>&nbsp;&mdash;&nbsp;<ulink url=\"http://www.vestasys.org/\"></ulink>"
+msgstr "\"Why yet another version control system? All other version control systems require that you keep careful track of the relationships between branches so as not have to repeatedly merge the same conflicts. Codeville is much more anarchic. It allows you to update from or commit to any repository at any time with no unnecessary re-merges.\""
+
+#. Tag: para
+#: appa.xml:179
+#, no-c-format
+msgid "\"Vesta is a portable SCM [Software Configuration Management] system targeted at supporting development of software systems of almost any size, from fairly small (under 10,000 source lines) to very large (10,000,000 source lines).\""
+msgstr "\"Codeville works by creating an identifier for each change which is done, and remembering the list of all changes which have been applied to each file and the last change which modified each line in each file. When there's a conflict, it checks to see if one of the two sides has already been applied to the other one, and if so makes the other side win automatically. When there's an actual not automatically mergeable version conflict, Codeville behaves in almost exactly the same way as CVS.\""
+
+#. Tag: para
+#: appa.xml:184
+#, no-c-format
+msgid "\"Vesta is a mature system. It is the result of over 10 years of research and development at the Compaq/Digital Systems Research Center, and it was in production use by Compaq's Alpha microprocessor group for over two and a half years. The Alpha group had over 150 active developers at two sites thousands of miles apart, on the east and west coasts of the United States. The group used Vesta to manage builds with as much as 130 MB of source data, each producing 1.5 GB of derived data. The builds done at the eastern site in an average day produced about 10-15 GB of derived data, all managed by Vesta. Although Vesta was designed with software development in mind, the Alpha group demonstrated the system's flexibility by using it for hardware development, checking their hardware description language files into Vesta's source code control facility and building simulators and other derived objects with Vesta's builder. The members of the former Alpha group, now a part of Intel, are continuing to use Vesta today in a new microprocessor project.\""
+msgstr "<emphasis role=\"bold\">Vesta</emphasis>&nbsp;&mdash;&nbsp;<ulink url=\"http://www.vestasys.org/\"></ulink>"
+
+#. Tag: title
+#: appa.xml:205
+#, no-c-format
+msgid "<emphasis role=\"bold\">Aegis</emphasis>&nbsp;&mdash;&nbsp;<ulink url=\"http://aegis.sourceforge.net/\"></ulink>"
+msgstr "\"Vesta is a portable SCM [Software Configuration Management] system targeted at supporting development of software systems of almost any size, from fairly small (under 10,000 source lines) to very large (10,000,000 source lines).\""
+
+#. Tag: para
+#: appa.xml:207
+#, no-c-format
+msgid "\"Aegis is a transaction-based software configuration management system. It provides a framework within which a team of developers may work on many changes to a program independently, and Aegis coordinates integrating these changes back into the master source of the program, with as little disruption as possible.\""
+msgstr "\"Vesta is a mature system. It is the result of over 10 years of research and development at the Compaq/Digital Systems Research Center, and it was in production use by Compaq's Alpha microprocessor group for over two and a half years. The Alpha group had over 150 active developers at two sites thousands of miles apart, on the east and west coasts of the United States. The group used Vesta to manage builds with as much as 130 MB of source data, each producing 1.5 GB of derived data. The builds done at the eastern site in an average day produced about 10-15 GB of derived data, all managed by Vesta. Although Vesta was designed with software development in mind, the Alpha group demonstrated the system's flexibility by using it for hardware development, checking their hardware description language files into Vesta's source code control facility and building simulators and other derived objects with Vesta's builder. The members of the former Alpha group, now a part of Intel, are continuing to use Vesta today in a new microprocessor project.\""
+
+#. Tag: title
+#: appa.xml:217
+#, no-c-format
+msgid "<emphasis role=\"bold\">CVSNT</emphasis>&nbsp;&mdash;&nbsp;<ulink url=\"http://cvsnt.org/\"></ulink>"
+msgstr "<emphasis role=\"bold\">Aegis</emphasis>&nbsp;&mdash;&nbsp;<ulink url=\"http://aegis.sourceforge.net/\"></ulink>"
+
+#. Tag: para
+#: appa.xml:219
+#, no-c-format
+msgid "\"CVSNT is an advanced multiplatform version control system. Compatible with the industry standard CVS protocol it now supports many more features. ... CVSNT is Open Source, Free software licensed under the GNU General Public License.\" Its feature list includes authentication via all standard CVS protocols, plus Windows specific SSPI and Active Directory; secure transport support, via sserver or encrypted SSPI; cross platform (runs in Windows or Unix environments); NT version is fully integrated with Win32 system; MergePoint processing means no more tagging to merge; under active development."
+msgstr "\"Aegis is a transaction-based software configuration management system. It provides a framework within which a team of developers may work on many changes to a program independently, and Aegis coordinates integrating these changes back into the master source of the program, with as little disruption as possible.\""
+
+#. Tag: title
+#: appa.xml:234
+#, no-c-format
+msgid "<emphasis role=\"bold\">META-CVS</emphasis>&nbsp;&mdash;&nbsp;<ulink url=\"http://common-lisp.net/project/meta-cvs/\"></ulink>"
+msgstr "<emphasis role=\"bold\">CVSNT</emphasis>&nbsp;&mdash;&nbsp;<ulink url=\"http://cvsnt.org/\"></ulink>"
+
+#. Tag: para
+#: appa.xml:236
+#, no-c-format
+msgid "\"Meta-CVS is a version control system built around CVS. Although it retains most of the features of CVS, including all of the networking support, it is more capable than CVS, and easier to use.\" The features listed on META-CVS's web site include: directory structure versioning, improved file type handling, simpler and more user-friendly branching and merging, support for symbolic links, property lists attached to versioned data, improved third-party data importing, and easy upgrading from stock CVS."
+msgstr "\"CVSNT is an advanced multiplatform version control system. Compatible with the industry standard CVS protocol it now supports many more features. ... CVSNT is Open Source, Free software licensed under the GNU General Public License.\" Its feature list includes authentication via all standard CVS protocols, plus Windows specific SSPI and Active Directory; secure transport support, via sserver or encrypted SSPI; cross platform (runs in Windows or Unix environments); NT version is fully integrated with Win32 system; MergePoint processing means no more tagging to merge; under active development."
+
+#. Tag: title
+#: appa.xml:249
+#, no-c-format
+msgid "<emphasis role=\"bold\">OpenCM</emphasis>&nbsp;&mdash;&nbsp;<ulink url=\"http://www.opencm.org/\"></ulink>"
+msgstr "<emphasis role=\"bold\">META-CVS</emphasis>&nbsp;&mdash;&nbsp;<ulink url=\"http://users.footprints.net/~kaz/mcvs.html\"></ulink>"
+
+#. Tag: para
+#: appa.xml:251
+#, no-c-format
+msgid "\"OpenCM is designed as a secure, high-integrity replacement for CVS. A list of the key features can be found on the features page. While not as 'feature rich' as CVS, it supports some useful things that CVS lacks. Briefly, OpenCM provides first-class support for renames and configuration, cryptographic authentication and access control, and first-class branches.\""
+msgstr "\"Meta-CVS is a version control system built around CVS. Although it retains most of the features of CVS, including all of the networking support, it is more capable than CVS, and easier to use.\" The features listed on META-CVS's web site include: directory structure versioning, improved file type handling, simpler and more user-friendly branching and merging, support for symbolic links, property lists attached to versioned data, improved third-party data importing, and easy upgrading from stock CVS."
+
+#. Tag: title
+#: appa.xml:262
+#, no-c-format
+msgid "<emphasis role=\"bold\">PRCS</emphasis>&nbsp;&mdash;&nbsp;<ulink url=\"http://prcs.sourceforge.net/\"></ulink>"
+msgstr "<emphasis role=\"bold\">OpenCM</emphasis>&nbsp;&mdash;&nbsp;<ulink url=\"http://www.opencm.org/\"></ulink>"
+
+#. Tag: para
+#: appa.xml:264
+#, no-c-format
+msgid "\"PRCS, the Project Revision Control System, is the front end to a set of tools that (like CVS) provide a way to deal with sets of files and directories as an entity, preserving coherent versions of the entire set. ... Its purpose is similar to that of SCCS, RCS, and CVS, but (according to its authors, at least), it is much simpler than any of those systems.\""
+msgstr "\"OpenCM is designed as a secure, high-integrity replacement for CVS. A list of the key features can be found on the features page. While not as 'feature rich' as CVS, it supports some useful things that CVS lacks. Briefly, OpenCM provides first-class support for renames and configuration, cryptographic authentication and access control, and first-class branches.\""
+
+#. Tag: title
+#: appa.xml:275
+#, no-c-format
+msgid "<emphasis role=\"bold\">ArX</emphasis>&nbsp;&mdash;&nbsp;<ulink url=\"http://www.nongnu.org/arx/\"></ulink>"
+msgstr "<emphasis role=\"bold\">Stellation</emphasis>&nbsp;&mdash;&nbsp;<ulink url=\"http://www.eclipse.org/stellation/\"></ulink>"
+
+#. Tag: para
+#: appa.xml:277
+#, no-c-format
+msgid "ArX is a distributed version control system offering branching and merging features, cryptographic data integrity verification, and the ability to publish archives easily on any HTTP server."
+msgstr "\"Stellation is an advanced, extensible software configuration management system, originally developed at IBM Research. While Stellation provides all of the standard functions available in any SCM system, it is distinguished by a number of advanced features, such as task-oriented change management, consistent project versioning and lightweight branching, intended to ease the development of software systems by large groups of loosely coordinated developers.\""
+
+#. Tag: title
+#: appa.xml:285
+#, no-c-format
+msgid "<emphasis role=\"bold\">SourceJammer</emphasis>&nbsp;&mdash;&nbsp;<ulink url=\"http://www.sourcejammer.org/\"></ulink>"
+msgstr "<emphasis role=\"bold\">PRCS</emphasis>&nbsp;&mdash;&nbsp;<ulink url=\"http://prcs.sourceforge.net/\"></ulink>"
+
+#. Tag: para
+#: appa.xml:287
+#, no-c-format
+msgid "\"SourceJammer is a source control and versioning system written in Java. It consists of a server-side component that maintains the files and version history, and handles check-in, check-out, etc. and other commands; and a client-side component that makes requests of the server and manages the files on the client-side file system.\""
+msgstr "\"PRCS, the Project Revision Control System, is the front end to a set of tools that (like CVS) provide a way to deal with sets of files and directories as an entity, preserving coherent versions of the entire set. ... Its purpose is similar to that of SCCS, RCS, and CVS, but (according to its authors, at least), it is much simpler than any of those systems.\""
+
+#. Tag: title
+#: appa.xml:297
+#, no-c-format
+msgid "<emphasis role=\"bold\">FastCST</emphasis>&nbsp;&mdash;&nbsp;<ulink url=\"http://www.zedshaw.com/projects/fastcst/index.html\"></ulink>"
+msgstr "<emphasis role=\"bold\">ArX</emphasis>&nbsp;&mdash;&nbsp;<ulink url=\"http://www.nongnu.org/arx/\"></ulink>"
+
+#. Tag: para
+#: appa.xml:299
+#, no-c-format
+msgid "\"A 'modern' system that uses changesets over file revisions and distributed operation rather than centralized control. As long as you have an e-mail account you can use FastCST. For larger distribution you only need an FTP server and/or an HTTP server or use the built in 'serve' command to serve your stuff up directly. All changesets are universally unique and have tons of meta-data so you can reject anything you don't [want] before you try it. Merging is done by comparing a merged changeset against the current directory contents, rather than trying to merge it with another changeset.\""
+msgstr "ArX is a distributed version control system offering branching and merging features, cryptographic data integrity verification, and the ability to publish archives easily on any HTTP server."
+
+#. Tag: title
+#: appa.xml:313
+#, no-c-format
+msgid "<emphasis role=\"bold\">Superversion</emphasis>&nbsp;&mdash;&nbsp;<ulink url=\"http://www.superversion.org/\"></ulink>"
+msgstr "<emphasis role=\"bold\">SourceJammer</emphasis>&nbsp;&mdash;&nbsp;<ulink url=\"http://sourcejammer.org/\"></ulink>"
+
+#. Tag: para
+#: appa.xml:315
+#, no-c-format
+msgid "\"Superversion is a multi-user distributed version control system based on change sets. It aims to be an industrial-strength, open source alternative to commercial solutions that is equally easy to use (or even easier) and similarly powerful. In fact, intuitive and efficient usability has been one of the top priorities in Superversion's development from the very beginning.\""
+msgstr "\"SourceJammer is a source control and versioning system written in Java. It consists of a server-side component that maintains the files and version history, and handles check-in, check-out, etc. and other commands; and a client-side component that makes requests of the server and manages the files on the client-side file system.\""
+
