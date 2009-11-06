@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: Producing OSS\n"
 "Report-Msgid-Bugs-To: producingoss@listas.ghandalf.org\n"
 "POT-Creation-Date: 2009-07-11 15:32+0000\n"
-"PO-Revision-Date: 2009-10-03 20:21+0200\n"
+"PO-Revision-Date: 2009-11-06 21:11+0100\n"
 "Last-Translator: Andrés Maneiro <andres.maneiro@gmail.com>\n"
 "Language-Team: Galician <producingoss@listas.ghandalf.org>\n"
 "MIME-Version: 1.0\n"
@@ -1379,7 +1379,7 @@ msgstr ""
 #: ch02.xml:692
 #, no-c-format
 msgid "Documentation"
-msgstr ""
+msgstr "Documentación"
 
 #. Tag: para
 #: ch02.xml:694
@@ -1395,6 +1395,15 @@ msgid ""
 "Documentation, on the other hand, is never really finished, which may be one "
 "reason people sometimes delay starting it at all."
 msgstr ""
+"A documentación é esencial. É preciso que exista<emphasis>algo</emphasis> "
+"que a xente poida ler, aínda que sexa rudimentario e incompleto. Esta tarefa "
+"cae de cheo na categoría \"drudgery\" antes citada e habitualmente é a "
+"primeiras das áreas nas que un proxecto de software libre fracasa. Ter unha "
+"declaración de intencións e lista de funcionalidades, elexir unha licencia, "
+"resumir o estado do desenvolvemento&mdash; son pequenas tarefas que polo "
+"xeral son realizadas e habitualmente non precisan ser revisadas unha vez "
+"feitas. Pola outra banda, a documentación é algo que nunca remata, o que "
+"pode ser unha das razóns polas que sempre se retrasa ou non se realiza."
 
 #. Tag: para
 #: ch02.xml:705
@@ -1410,6 +1419,15 @@ msgid ""
 "spell out the steps that (to the writers) seem so obvious as to be unworthy "
 "of mention."
 msgstr ""
+"O máis insidioso da documentación é que a utilidade para quen o escribe é "
+"inversamente proporcional da utilidade para quen o lerá. A documentación "
+"máis importante para usuarios iniciais é o básico: cómo configura-la "
+"aplicación, unha introdución a cómo funciona e cecáis algunhas indicacións "
+"sobre cómo facer tarefas comúns. E xusto esas son as cousas que os "
+"<emphasis>escritores</emphasis> da documentación coñecen demasiado ben."
+"&mdash; polo que pode ser difícil para eles poñerse no punto de vista do "
+"lector para listar os pasos que (para o escritor) parecen tan obvios que non "
+"vale a pena mencionar."
 
 #. Tag: para
 #: ch02.xml:716
@@ -1424,6 +1442,14 @@ msgid ""
 "incremental improvements, but also for those who join the project later and "
 "want to work on the documentation."
 msgstr ""
+"Non hai unha solución máxica a este problema. Alguén ten que sentarse e "
+"escribila para logo presentarllo a un usuario novato e comproba-la calidade. "
+"Usa un formato sinxelo, fácil de editar como HTML, texto plano, Texingo ou "
+"algunha variante do XML&mdash; algo que sexa conveniente para realizar "
+"rápidamente os cambios. Isto non é só unha política para eliminarlle ó "
+"escritor calquera traballo innecesario e facilitar as melloras incrementais, "
+"senón que tamén facilitará que aqueles que se unan máis tarde ó proxecto "
+"desexen traballar sobre a documentación."
 
 #. Tag: para
 #: ch02.xml:726
@@ -1434,6 +1460,9 @@ msgid ""
 "ended task. A good rule of thumb is that it should meet the following "
 "minimal criteria:"
 msgstr ""
+"Un modo de asegurarse que a documetnación se fai é limitar o seu alcance por "
+"adiantado. Desta forma, escribila non parecerá unha tarefa sen fin. Unha boa "
+"regla xeral é seguir uns critorios mínimos:"
 
 #. Tag: para
 #: ch02.xml:732
@@ -1441,7 +1470,7 @@ msgstr ""
 msgid ""
 "Tell the reader clearly how much technical expertise they're expected to "
 "have."
-msgstr ""
+msgstr "Indicar ó lector claramente o nivel técnico que precisa ter."
 
 #. Tag: para
 #: ch02.xml:735
@@ -1457,6 +1486,15 @@ msgid ""
 "they abandon early; therefore, it's the earliest stages, like installation, "
 "that need the most support."
 msgstr ""
+"Describir clara e extensivamente cómo configura-la aplicación e, nalgunha "
+"parte ó principio da documentación, indicar cómo executar algún tipo de "
+"proba ou comando que confirme que todo funciona correctamente. A "
+"documentación sobre cómo comezar é ás veces mais importante que a "
+"documentación de uso. Canto máis esforzo teña invertido unha persoa en "
+"instalar e ter funcionando a aplicación, máis persistente será en descubrir "
+"funcionalidades que non están ben documentadas. Cando a xente abandoa, "
+"abandoan ó comezo; por iso, son as etapas iniciais, como a instalación, as "
+"que precisan máis soporte."
 
 #. Tag: para
 #: ch02.xml:749
@@ -1469,6 +1507,12 @@ msgid ""
 "what else it can do on their own&mdash;and, if you're lucky, start filling "
 "in the documentation themselves. Which brings us to the next point..."
 msgstr ""
+"Dar un exemplo estilo tutorial sobre cómo levar a cabo unha tarefa común. "
+"Obviamente, cantos máis exemplos mellor, mais si o tempo é limitado, escolle "
+"unha e descríbea a fondo. Unha vez unha persoa vexa que a aplicación pode "
+"ser utilizada para unha cousa, comezará a explorar qué máis se pode facer;"
+"&mdash; e, si tes sorte, comezar a xerar documentación por el mesmo. O que "
+"nos leva ó seguinte punto."
 
 #. Tag: para
 #: ch02.xml:759
@@ -1482,6 +1526,12 @@ msgid ""
 "&mdash;it's equally legitimate to treat them as open requests for volunteer "
 "help."
 msgstr ""
+"Indica qué áreas da documentación están incompletas. Mostrando ós lectores "
+"que te preocupas das deficiencias, estaste aliñando co seu punto de vista. A "
+"túa empatía dilles ós lectores que non terán que loitar por convencer ó "
+"proxecto do que é importante. Esas indicacións non teñen por que ser "
+"entendidas como algo a facer&mdash; senón que poden verse como tarefas "
+"abertas a voluntarios."
 
 #. Tag: para
 #: ch02.xml:771
@@ -1500,12 +1550,22 @@ msgid ""
 "prepared&mdash;then the project will look like it has a solid knowledge of "
 "how it's doing."
 msgstr ""
+"O último punto é de maior importancia e pode ser aplicado ó proxecto "
+"completo, non únicamente á documentación. Unha detallada explicación das "
+"deficiencias do proxecto é a norma no mundo do software libre. Non esaxeres "
+"nos defectos do proxecto, únicamente identifícaos escrupulosa e "
+"desapaixoadamente cando sexa necesario (na documentación, na base de datos "
+"de erros ou na rolda de correo). Ninguén o verá como derrotismo nin como un "
+"compromiso para resolvelos no futuro, a menos que se faga esa promesa "
+"explícita. Xa que calquera que uso a aplicación descubrirá as deficiencias "
+"por si mismos, é mellor que estén psicolóxicamente preparados&mdash; entón o "
+"proxecto mostrará ter un sólido coñecemento de cómo está progresando."
 
 #. Tag: title
 #: ch02.xml:787
 #, no-c-format
 msgid "Maintaining a FAQ"
-msgstr ""
+msgstr "Mantendo unha FAQ (Preguntas Frecuentes)"
 
 #. Tag: para
 #: ch02.xml:789
@@ -1521,6 +1581,15 @@ msgid ""
 "preference to the official manual, and it's probably the document in your "
 "project most likely to be linked to from other sites."
 msgstr ""
+"Unha <firsttem>FAQ</firsttem> (un documento de preguntas frecuentes) pode "
+"ser unha das mellores inversións que un proxecto faga en termos de "
+"documentación. As FAQs están altamente enfocadas ás preguntas que os "
+"usuarios e desenvolvedores preguntan de verdade&mdash; e que pode ser o "
+"oposto ás preguntas que ti <emphasis>esperabas</emphasis> que fixeran, así, "
+"unha FAQ detallada soe dar a esos que buscan a resposta exacta que estaban "
+"esperando. A FAQ é habitualmente o primeiro lugar onde os usuarios miran "
+"cando atopan un problema, incluso antes do manual oficial e é o documento do "
+"proxecto que probablemente máis se enlazará dende outros lugares."
 
 #. Tag: para
 #: ch02.xml:800
@@ -1533,6 +1602,11 @@ msgid ""
 "people will ask, it is impossible to sit down and write a useful FAQ from "
 "scratch."
 msgstr ""
+"Desafortunadamente, a FAQ non se pode realizar ó principio do proxecto. As "
+"boas FAQ non están escritas, crecen. Son documentos reactivos, que evolúen a "
+"través do tempo es resposta ó uso diarios da aplicación. Xa que é imposible "
+"anticipar correctametne as preguntas que serán realizadas, é imposible "
+"sentarse e escribir unha FAQ útil dende cero."
 
 #. Tag: para
 #: ch02.xml:807
@@ -1547,12 +1621,20 @@ msgid ""
 "more in <xref linkend=\"faq-manager\"/><phrase output=\"printed\"> in <xref "
 "linkend=\"managing-volunteers\"/></phrase>.)"
 msgstr ""
+"Polo tanto, non malgastes o tempo facéndoo. Porén, pode ser útil crear unha "
+"plantilla FAQ inicial, de maneira que exista un lugar obvio onde as persoas "
+"contribúan con preguntas e respostas cnado o proxecto bote a andar. Nesta "
+"etapa, a propiedade máis importante non é a completitude, senón a "
+"conveniencia: si é sinxelo engadir contido á FAQ, a xente farao. O "
+"mantemento correcto da FAQ non é un problema trivial e será comentado máis a "
+"fondo en <xref linkend=\"faq-manager\"/><phrase output=\"printed\"> en <xref "
+"linkend=\"managing-volunteers\"/></phrase>."
 
 #. Tag: title
 #: ch02.xml:819
 #, no-c-format
 msgid "Availability of documentation"
-msgstr ""
+msgstr "Dispoñibilidade da documentación"
 
 #. Tag: para
 #: ch02.xml:821
@@ -1568,6 +1650,15 @@ msgid ""
 "software, on the principle that downloading should supply (i.e., make "
 "locally accessible) everything one needs to use the package."
 msgstr ""
+"A documentación debería estar dispoñibles dende 2 lugares: online "
+"(directamente dende a páxina web) <emphasis>e<emphasis> na distribución "
+"descargable da aplicación (ver <xref linkend=\"packaging\"/><phrase output="
+"\"printed\"> in <xref linkend=\"development-cycle\"/></phrase>). É preciso "
+"que esté online, de modo navegable, xa que a xente habitualmente le a "
+"documentación <emphasis>antes</emphasis> de descargar o programa por "
+"primeira vez, para decidir si vale a pena descargalo. Pero tamén debería ir "
+"acompañando ó programa, baixo o principio de que a aplicación debería facer "
+"accesible todo aquilo que alguén necesite para usar o programa."
 
 #. Tag: para
 #: ch02.xml:833
@@ -1591,12 +1682,28 @@ msgid ""
 "back to search for a specific word or phrase. To fail to provide them with a "
 "single, searchable document would only make their lives harder."
 msgstr ""
+"Para a documentación en liña, asegúrat de que hai un enlace que amosa a "
+"documentación nunha única páxina HTML (pon unha nota como \"monolítico ou "
+"\"todo en un\" ou \"un único ficheiro\" para que a xente sepa que pode levar "
+"un tempo que o documento se cargue). Esto é útil porque a xente "
+"habitualmente desexa realizar unha busca sobre unha palabra ou frase "
+"específica en todo o documento. Xeralmente, saben o que están buscando; só "
+"que non recordan en que sección está. Para esta xente, nada será máis "
+"frustante que atopar unha páxina HTML para a tabla de contidos, outra páxina "
+"para a introdución, outra para as instruccións de instalación, etc. Cando as "
+"páxinas se dividen dese modo, a función de busca do navegador é inútil. O "
+"estilo de páxinas separadas por sección é útil para aqueles que saben que "
+"sección precisan ou desexan ler a documentación enteira. Mais ésta non é a "
+"maneira máis habitual en que se accede á documentación. É de lonxe máis "
+"habitua que alguén que é familiar co programa evña a buscar unha palabra ou "
+"frase específica. Non darlles un único documento sobre o que realiar as "
+"búsquedas faríalles a vida un pouco máis dura."
 
 #. Tag: title
 #: ch02.xml:856
 #, no-c-format
 msgid "Developer documentation"
-msgstr ""
+msgstr "Documentación para desenvolvedores"
 
 #. Tag: para
 #: ch02.xml:858
@@ -1612,6 +1719,16 @@ msgid ""
 "trunk/www/hacking.html\"></ulink> example given earlier), but they don't "
 "have to be."
 msgstr ""
+"A documentación para desenvolvedores está escrita para axudar ós "
+"programadores a entender o código, para que poidan reparalo ou amplialo. "
+"Esto é diferente das guías de <emphasis>desenvolvemento</emphasis> "
+"comentadas anteriormente, as cales son máis sociais que técnicas. As pautas "
+"de desenvolvemento dinlle ós programadores cómo interactuar cos outros; a "
+"documentación para programadores dilles cómo interactuar co código. Ambas "
+"son habitualmente empaquetadas xunta nun único documento por conveniencia "
+"(como co <ulink url=\"http://svn.collab.net/repos/svn/trunk/www/hacking.html"
+"\"></ulink> exemplo aportado anteriormente), mais non ten que ocorrer dese "
+"modo."
 
 #. Tag: para
 #: ch02.xml:868
@@ -1628,6 +1745,16 @@ msgid ""
 "take the time to figure things out; if they don't have that faith, no amount "
 "of developer documentation will get or keep them."
 msgstr ""
+"Aínda que a documentación para programadores pode ser moi útil, non hai "
+"razón para retrasar unha publicación debido a aquela. Para empezar, é "
+"suficiente que os autores orixinais están dispoñibles (e dispostos) a "
+"contestar cuestións sobre o código. De feito, ter que responder ás mesmas "
+"preguntas unha e outra vez, é unha gran motivación para escribir "
+"documentación. Mais antes de que sexa escrita, os contribuidores dispostos "
+"atoparán o modo de colaborar. A forza que conduce á xente a invertir o seu "
+"tempo na aprendizaxe do código é que éste fai algo útil para eles. Se a "
+"xente ten fe, tomaralles o seu tempo, si non teñen fe, ningunha "
+"documentación fará que se queden."
 
 #. Tag: para
 #: ch02.xml:880
@@ -1640,6 +1767,12 @@ msgid ""
 "same questions over and over, take the time to write up some separate "
 "documents just for them."
 msgstr ""
+"Así que si únicamente tes tempo de escribir documentación para unha única "
+"audiencia, escríbea para os usuarios. Toda documentación de usuario é á súa "
+"vez documentación para programadores. calquera programador que desexe usar "
+"unha peza de software terá que familializarse co seu uso. Máis tarde, cando "
+"os programadores estén preguntando as mesmas cuestións unha e outra vez, "
+"tómate o teu tempo para escribir documentación específica para eles."
 
 #. Tag: para
 #: ch02.xml:888
@@ -1652,12 +1785,18 @@ msgid ""
 "\"wikis\"/><phrase output=\"printed\"> in <xref linkend=\"technical-"
 "infrastructure\"/></phrase> for more."
 msgstr ""
+"Algúns proxectos usan wikis para a súa documentación inicial e incluso como "
+"primeira fonte de documentación. Pola miña experiencia, ésto únicamente "
+"funciona si o wiki é editado activamente por unha pouca xente que acordan "
+"cómo a documentación ten que ser organizada e que clase de \"voz\" debe ter. "
+"Ver <xref linkend=\"wikis\"/><phrase output=\"printed\"> in <xref linkend="
+"\"technical-infrastructure\"/></phrase> para máis información."
 
 #. Tag: title
 #: ch02.xml:903
 #, no-c-format
 msgid "Example Output and Screenshots"
-msgstr ""
+msgstr "Exemplos de saidas e capturas de pantalla"
 
 #. Tag: para
 #: ch02.xml:905
@@ -1674,12 +1813,22 @@ msgid ""
 "documented, but that screenshot is still proof that if one puts in enough "
 "effort, one can get it to run."
 msgstr ""
+"Si o proxecto implica o uso dunha interfaz de usuario gráfica ou si produce "
+"saídas gráficas ou distintiva de algunha outra forma, pon algúns exemplos na "
+"páxina web do proxecto. No caso de interfaces, esto significa capturas de "
+"pantalla; para o resultado, esto pode ser capturas de pantallas ou arquivos. "
+"Ambas satisfacen ó usuario: unha simple captura de pantalla pode ser máis "
+"convincente que párrafos de texto descriptivo e cháchara nas roldas de "
+"correo, xa que a captura de pantalla e unha proba irrefutable de que a "
+"aplicación funciona. Pode ter erros, ser complicada de instalar ou ter "
+"documentación incompleta, pero esa captura de pantalla é unha proba de que "
+"si un pon esforzo suficiente, é posible facelo funcionar."
 
 #. Tag: title
 #: ch02.xml:918
 #, no-c-format
 msgid "Screenshots"
-msgstr ""
+msgstr "Capturas de pantalla"
 
 #. Tag: para
 #: ch02.xml:919
@@ -1695,6 +1844,17 @@ msgid ""
 "image as necessary, using the instructions at <ulink url=\"http://www.gimp."
 "org/tutorials/Lite_Quickies/#crop\"></ulink>."
 msgstr ""
+"Debido a que as capturas de pantalla poden ser desalentadoras ata que "
+"realizas unhas cuantas, aquí unhas instruccións básicas para facelas. "
+"Utilizando Gimp (<ulink url=\"http://www.gimp.org/\"></ulink>), abrindo o "
+"menú <guimenu>Arquivo</guimenu>-&gt;<guimenu>Tomar</guimenu>-&gt;"
+"<guimenu>Captura de pantalla</guimenu>, elexir <guimenuitem>Unha&nbsp;"
+"única&nbsp;xanela</guimenuitem> ou <guimenuitem>Xanela&nbsp;completa</"
+"guimenuitem>, entón pincha en  <guimenuitem>Capturar</guimenuitem>. A "
+"seguinte vez que pinches unha ventana ou pantalla será capturada como unha "
+"imaxe no Gimp. Recorta e redimensiona a imaxe tanto como sexa necesario, "
+"usando as instrucción que podes atopar en <ulink url=\"http://www.gimp.org/"
+"tutorials/Lite_Quickies/#crop\"></ulink>."
 
 #. Tag: para
 #: ch02.xml:933
@@ -1706,12 +1866,18 @@ msgid ""
 "site-search feature, a donations link, etc. None of these are necessities at "
 "startup time, but keep them in mind for the future."
 msgstr ""
+"Hai moitas máis cousas que se poden poñer na páxina web do proxecto, se tes "
+"tempo ou si por unha razón ou outra son especialmente apropiadas: unha "
+"páxina de noticias, outra sobre a historia do proxecto, unha con enlaces "
+"relacionados, un buscador da web completa, enlaces para facer donacións, "
+"etc. Ningunah desas son necesidades ó comezo, pero mantenas en mente para o "
+"futuro."
 
 #. Tag: title
 #: ch02.xml:941
 #, no-c-format
 msgid "Canned Hosting"
-msgstr ""
+msgstr "Aloxamento enlatado"
 
 #. Tag: para
 #: ch02.xml:943
@@ -1726,6 +1892,14 @@ msgid ""
 "software the site runs, and may control or at least influence the look and "
 "feel of the project's web pages."
 msgstr ""
+"Existen algúns lugares que facilitan aloxamento gratuito e infraestructura "
+"para proxectos de software libre: unha páxina web, control de versións, "
+"xestor de erros, área de descargas, salas de chat, backups regulares, etc. "
+"Os detalles varían entre sitio e sitio, pero os mesmos servicios básicos son "
+"ofertados en todos eles. Usando un destes servizos, obtense moito por nada; "
+"porén, cédese control sobre a experiencia do usuario. O servizo de "
+"aloxamento decide sobre qué aplicacións funciona o sitio e pode controlar ou "
+"influir no look&feel das páxinas dos proxectos."
 
 #. Tag: para
 #: ch02.xml:953
@@ -1736,12 +1910,16 @@ msgid ""
 "discussion of the advantages and disadvantages of canned hosting, and a list "
 "of sites that offer it."
 msgstr ""
+"Ver <xref linkend=\"canned-hosting\"/><phrase output=\"printed\"> en <xref "
+"linkend=\"technical-infrastructure\"/></phrase> para obter máis detalles das "
+"vantaxes e desvantaxes de usar aloxamento enlatado e para obter unha lista "
+"de sitios que o ofrecen."
 
 #. Tag: title
 #: ch02.xml:966
 #, no-c-format
 msgid "Choosing a License and Applying It"
-msgstr ""
+msgstr "Elexir unha licenza e aplicala"
 
 #. Tag: para
 #: ch02.xml:968
@@ -1752,6 +1930,10 @@ msgid ""
 "implications of the different licenses, and how the license you choose can "
 "affect people's ability to mix your software with other free software."
 msgstr ""
+"Esta sección pretende ser unha rápida guía sobre cómo elexir licencia. Lee "
+"<xref linkend=\"legal\"/> para comprender as implicacións legais das "
+"diferentes licenzas, e cómo a licenza que escollas podo afectar a cómo a "
+"xente podo integrar o teu programa con outros."
 
 #. Tag: para
 #: ch02.xml:974
@@ -1763,12 +1945,17 @@ msgid ""
 "your project. We will restrict ourselves to just the most commonly used "
 "licenses; in most cases, you will want to choose one of them."
 msgstr ""
+"Existen moitas e moi boas licenzas de software libre onde escoller. A "
+"maioría delas non precisan ser consideradas aquí, xa que foron escritas para "
+"satisfacer as necesidades legais dalgunha corporación ou persoa, e non "
+"serían apropiadas para o teu proxecto. Restrinxirémonos ás máis comunmente "
+"usadas; na maioría dos casos, desexarás escoller unha delas."
 
 #. Tag: title
 #: ch02.xml:983
 #, no-c-format
 msgid "The \"Do Anything\" Licenses"
-msgstr ""
+msgstr "As licenzas \"Fai o que desexes\""
 
 #. Tag: para
 #: ch02.xml:985
@@ -1781,12 +1968,17 @@ msgid ""
 "specify that the code comes with no warranty. See <xref linkend=\"license-"
 "choosing-mit-x\"/> for details."
 msgstr ""
+"Se te sintes cómodo con que o código do teu proxecto poida ser usado en "
+"programas propietarios, entón usa una licenza estilo <firstterm>MIT/X</"
+"firstterm>. É a máis sinxela de moitas licenzas que únicamente declaran un "
+"copyright nominal (sen restrinxir a copia) e especifica que o código ven sen "
+"garantía. Ver <xref linkend=\"license-choosing-mit-x\"/> para os detalles."
 
 #. Tag: title
 #: ch02.xml:997
 #, no-c-format
 msgid "The GPL"
-msgstr ""
+msgstr "A licenza GPL"
 
 #. Tag: para
 #: ch02.xml:999
@@ -1801,6 +1993,14 @@ msgid ""
 "license. See <xref linkend=\"license-choosing-gpl\"/><phrase output=\"printed"
 "\"> in <xref linkend=\"legal\"/></phrase> for details."
 msgstr ""
+"Se non desexas que o teu código poida ser usado en programas propietarios, "
+"usa a GNU General Public License (<ulink url=\"http://www.gnu.org/licenses/"
+"gpl.html\"></ulink>). A GPL é probablemente a licenza máis coñecida e "
+"extendida no mundo a día de hoxe. Esto en si mesmo é unha vantaxe, xa que "
+"moitos usuarios potenciais e contribuidores serán familiares con ela, polo "
+"que non terán que invertir tempo extra en comprender qué licenza usas. Ver "
+"<xref linkend=\"license-choosing-gpl\"/><phrase output=\"printed\"> in <xref "
+"linkend=\"legal\"/></phrase> para máis detalles."
 
 #. Tag: para
 #: ch02.xml:1010
@@ -1812,12 +2012,17 @@ msgid ""
 "affero-gpl\"/><phrase output=\"printed\"> in <xref linkend=\"legal\"/></"
 "phrase> for more."
 msgstr ""
+"Si os usuarios interactúan co teu código a través da rede&mdash; esto é, si "
+"o programa é parte dun servizo aloxado&mdash; podes considerar o uso da "
+"<firstterm>GNU Affero GPL</firstterm>. Ver <xref linkend=\"gnu-affero-gpl\"/"
+"><phrase output=\"printed\"> in <xref linkend=\"legal\"/></phrase> para máis "
+"información."
 
 #. Tag: title
 #: ch02.xml:1022
 #, no-c-format
 msgid "How to Apply a License to Your Software"
-msgstr ""
+msgstr "Cómo aplicar unha licenza ó teu código"
 
 #. Tag: para
 #: ch02.xml:1024
@@ -1828,6 +2033,9 @@ msgid ""
 "give the name of the license, and make it link to the full license text on "
 "another page."
 msgstr ""
+"Unha vez escollas unha licenza, debes indicalo na páxina principal do "
+"proxecto. Non precisas incluir o texto completo da licenza ahí, únicamente "
+"dar o seu nome e pór un enlace ó texto completo."
 
 #. Tag: para
 #: ch02.xml:1029
@@ -1841,6 +2049,13 @@ msgid ""
 "the top of each source file, naming the copyright date, holder, and license, "
 "and saying where to find the full text of the license."
 msgstr ""
+"Esto dille ó público baixo qué licenza será publicado o software, máis non é "
+"suficiente para propósitos legais. Para iso, o software en si mesmo debe "
+"conter a licenza. A maneira estándar de facer é poñendo o texto da licenza "
+"completa nun arquivo chamado <filename>COPYING</filename> ou "
+"<filename>LICENSE</filename>, así como poñer un aviso na cabeceira de cada "
+"arquivo de código fonte, indicando a data do copyright, mantedor e licenza "
+"usada e indicando onde atopar o texto completo."
 
 #. Tag: para
 #: ch02.xml:1038
@@ -1850,6 +2065,9 @@ msgid ""
 "here. The GNU GPL says to put a notice like this at the top of each source "
 "file:"
 msgstr ""
+"Existen moitas variacións deste patrón, así que únicamente se verá un. A GNU "
+"GPL di que se debe poñer un aviso como este na cabeceira de cada arquivo de "
+"código fonte:"
 
 #. Tag: screen
 #: ch02.xml:1042
@@ -1870,6 +2088,20 @@ msgid ""
 "You should have received a copy of the GNU General Public License\n"
 "along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;"
 msgstr ""
+"Copyright (C) &lt;year&gt;  &lt;name of author&gt;\n"
+"\n"
+"This program is free software: you can redistribute it and/or modify\n"
+"it under the terms of the GNU General Public License as published by\n"
+"the Free Software Foundation, either version 3 of the License, or\n"
+"(at your option) any later version.\n"
+"\n"
+"This program is distributed in the hope that it will be useful,\n"
+"but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+"MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
+"GNU General Public License for more details.\n"
+"\n"
+"You should have received a copy of the GNU General Public License\n"
+"along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;"
 
 #. Tag: para
 #: ch02.xml:1044
@@ -1888,6 +2120,17 @@ msgid ""
 "date, states the name of the license, and makes it clear where to view the "
 "full license."
 msgstr ""
+"O texto non indica específicamente que a copia da licencia se pode atopar no "
+"arquivo <filename>COPYING<filename>, mais é alí onde habitualmente se pon. É "
+"posible cambiar o aviso anterior para indicalo explícitamente. Esta "
+"plantilla tamén da unha dirección postal onde pedir unha copia da licencia. "
+"Outro método común é dar un enlace a unha páxina web que a conteña. usa o "
+"teu xuízo para apuntar a onde consideres que se mantén a copia máis "
+"permanente da licencia, que pode ser algún lugar da páxina web do teu "
+"proxecto. En xeral, o aviso que poñas en cada arquivo de código fonte non "
+"ter por que ser igual ó anterior, sempre e cando comece co mesmo aviso de "
+"data e mantedor do copyright, indique o nome da licenza e deixe claro onde "
+"obtela por completo."
 
 #. Tag: title
 #: ch02.xml:1064
