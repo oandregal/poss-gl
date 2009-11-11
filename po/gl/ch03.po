@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Producing OSS\n"
 "Report-Msgid-Bugs-To: producingoss@listas.ghandalf.org\n"
 "POT-Creation-Date: 2009-07-11 15:32+0000\n"
-"PO-Revision-Date: 2009-10-17 19:53+0200\n"
+"PO-Revision-Date: 2009-11-09 20:17+0100\n"
 "Last-Translator: Pedro A. González <pedro.gonzalez@ghandalf.org>\n"
 "Language-Team: Galician <producingoss@listas.ghandalf.org>\n"
 "MIME-Version: 1.0\n"
@@ -1659,12 +1659,16 @@ msgid ""
 "the software that's running the list, and are beyond the scope of this book. "
 "When choosing or configuring an archiver, consider these qualities:"
 msgstr ""
+"Os detalles técnicos acerca da configuración do arquivado de listas de "
+"correo son específicos do software que xestiona a lista, e sobrepasan o "
+"ámbito de este libro. Cando elixas ou configures un arquivador, ten en conta "
+"as seguintes cualidades:"
 
 #. Tag: term
 #: ch03.xml:802
 #, no-c-format
 msgid "Prompt updating"
-msgstr ""
+msgstr "Actualización áxil"
 
 #. Tag: para
 #: ch03.xml:804
@@ -1678,12 +1682,20 @@ msgid ""
 "default, some archivers run their update processes once per night, but in "
 "practice that's far too much lag time for an active mailing list.)"
 msgstr ""
+"Frecuentemente a xente vai querer referirse a unha mensaxe enviada durante "
+"as últimas duas horas. Si fora posible, o arquivador debería almacenar cada "
+"mensaxe instantáneamente, de xeito que en canto aparece na lista de correo "
+"estea xa dispoñible nos arquivos da mesma. Si esa opción non está "
+"dispoñible, entón intenta cando menos configurar o arquivador para que se "
+"actualice cada hora. Por defecto, algúns arquivadores lanzan os seus "
+"procesos de actualización unha vez cada noite, pero iso supón unha demora "
+"craramente inasumible para unha lista de correo medianamente activa."
 
 #. Tag: term
 #: ch03.xml:816
 #, no-c-format
 msgid "Referential stability"
-msgstr ""
+msgstr "Estabilidade referencial"
 
 #. Tag: para
 #: ch03.xml:818
@@ -1700,6 +1712,18 @@ msgid ""
 "><phrase output=\"printed\"> later in this chapter</phrase>) or from other "
 "project documents."
 msgstr ""
+"En canto que unha mensaxe é arquivada nunha URL dada, debería permanecer "
+"accesible para sempre nesa mesma dirección, ou tan \"para sempre\" como se "
+"poida. Incluso si os arquivos son reconstruídos, restaurados dende un "
+"ficheiro de respaldo (backup), ou reparado de calqueira outra maneira, as "
+"URL que foran públicamente accesibles nun momento dado deben permanecer "
+"accesibles. As referencias estables fan posible que os motores de búsqueda "
+"en Internet indexen correctamente os arquivos, o que supón unha ventaxa "
+"considerable para usuarios que buscan respostas a preguntas concretas. As "
+"estabilidade das referencias é tamén importante porque as mensaxes e fíos "
+"das listas de correo adoitan estar enlazadas ao xestor de erros (bug "
+"tracker) (véxase <xref linkend=\"bug-tracker\"/><phrase output=\"printed\"> "
+"máis adiante neste capítuo</phrase>) ou a outros documentos do proxecto."
 
 #. Tag: para
 #: ch03.xml:834
@@ -1716,12 +1740,23 @@ msgid ""
 "for (or, if you write mailing list software, it's a feature to consider "
 "implementing, please)."
 msgstr ""
+"Idealmente, o software de listas de correo debería incluir a URL do arquivo "
+"de mensaxes, ou cando menos a parte especica da URL que se refire á mensaxe, "
+"nunha cabeceira cando distribúa as mensaxes aos seus destinatarios. De este "
+"xeito a xente que ten unha copia da mensaxe coñecerá a localización do seu "
+"arquivo sin ter que vistar realmente os arquivos, o que é moi útil porque "
+"calquera operación que implica o uso do navegador de Internet supón "
+"necesariamente un certo consumo de tempo. Non sei si todo o software de "
+"listas de correo ofrece esta característica; desafortunadamente, os que eu "
+"teño usado non o fan. Nembargantes, é algo sobre o que pesquisar (ou, si tí "
+"escribes software para listas de correo, é unha característica que deberías "
+"considerar implementar, por favor)"
 
 #. Tag: term
 #: ch03.xml:850
 #, no-c-format
 msgid "Backups"
-msgstr ""
+msgstr "Copias de respaldo (Backups)"
 
 #. Tag: para
 #: ch03.xml:852
@@ -1735,12 +1770,20 @@ msgid ""
 "archives are precious data&mdash;a project that loses them loses a good part "
 "of its collective memory."
 msgstr ""
+"Como facer copias de respaldo dos arquivos debería ser razoablemente obvio, "
+"e a receita de restauración non debería ser moi difícil. En outras palabras, "
+"non trates ao teu arquivador como a unha caixa negra. Tí (ou alguén o teu "
+"proxecto) deberías saber onde se almacenan as mensaxes, e como rexenerar as "
+"páxinas de arquivado desde o almacén de mensaxes no caso de que nalgún "
+"momento fora necesario. Eses arquivos conteñen datos preciosos&mdash;un "
+"proxecto que os perde, perde tamén un ha parte considerable da súa memoria "
+"colectiva."
 
 #. Tag: term
 #: ch03.xml:864
 #, no-c-format
 msgid "Thread support"
-msgstr ""
+msgstr "Soporte aos fíos (Threads)"
 
 #. Tag: para
 #: ch03.xml:866
@@ -1751,12 +1794,16 @@ msgid ""
 "message is part of. Each thread should have its own URL too, separate from "
 "the URLs of the individual messages in the thread."
 msgstr ""
+"Debería ser posible ir dunha mensaxe dada ao correspondente <firstterm>fío</"
+"firstterm> (grupo de mensaxes relacionadas entre si) ao que pertence esa "
+"mensaxe en particular. Cada fío debería tamén ter a súa propia URL, distinta "
+"das correspondentes ás mensaxes que compoñen o fío."
 
 #. Tag: term
 #: ch03.xml:874
 #, no-c-format
 msgid "Searchability"
-msgstr ""
+msgstr "Búsquedas"
 
 #. Tag: para
 #: ch03.xml:876
@@ -1770,6 +1817,13 @@ msgid ""
 "because it allows the searcher to specify that the match must appear in a "
 "subject line versus the body, for example."
 msgstr ""
+"Un arquivador que non soporta búsquedas&mdash;sobre os corpos das mensaxes, "
+"e sobre os seus autores ou asuntos&mdash;é case que inútil. Ten en conta que "
+"algúns arquivadores soportan búsquedas simplemente derivándoas a un motor "
+"externo tal como <ulink url=\"http://www.google.com/\">Google</ulink>. Isto "
+"é aceptable, pero o soporte a búsquedas directas normalmente permite un "
+"mellor afinado, xa que deixa que o buscador especifique que o resultado debe "
+"buscarse na línea de asunto e non no corpo, por exemplo."
 
 #. Tag: para
 #: ch03.xml:891
@@ -1780,12 +1834,16 @@ msgid ""
 "to the project's advantage is discussed in later chapters, in particular "
 "<xref linkend=\"using-archives\"/>."
 msgstr ""
+"O que antecede é simplesmente unha lista de control para axudarte a avaliar "
+"e configurar un arquivador. Conseguir que a xente faga un <emphasis>uso</"
+"emphasis> real do arquivador en beneficio do proxecto se discute en "
+"capítulos posteriores, nomeadamente en <xref linkend=\"usando-arquivos\"/>."
 
 #. Tag: title
 #: ch03.xml:901
 #, no-c-format
 msgid "Software"
-msgstr ""
+msgstr "Software"
 
 #. Tag: para
 #: ch03.xml:903
@@ -1799,12 +1857,20 @@ msgid ""
 "aren't good too (and of course, there are probably other tools out there "
 "that I just didn't happen to find, so don't take this as a complete list)."
 msgstr ""
+"De seguido se comentan algunhas ferramentas de sftware libre para a xestión "
+"e o arquivado de listas de correo. Si o sitio no que tés o teu proxecto "
+"alonxado ten xa unha configuración por defecto, non vas ter que escoller "
+"ningunha ferramenta en particular. Pero si vas ter que instalar unha por tí "
+"mesmo, estas son algunhas das posibles. As que eu teño usado son Mailman, "
+"Ezmlm, MHonArc, e Hypermail, pero iso non quere decir non haxa outras igual "
+"de boas ( e seguro que existen por ahí adiante outras ferramentas que eu nin "
+"siqueira din atopado, así que non penses que esta é unha lista completa)."
 
 #. Tag: para
 #: ch03.xml:913
 #, no-c-format
 msgid "Mailing list management software:"
-msgstr ""
+msgstr "Software de xestión de listas de correo:"
 
 #. Tag: para
 #: ch03.xml:917
@@ -1813,12 +1879,16 @@ msgid ""
 "<emphasis role=\"bold\">Mailman</emphasis>&nbsp;&mdash;&nbsp;<ulink url="
 "\"http://www.list.org/\"></ulink>"
 msgstr ""
+"<emphasis role=\"bold\">Mailman</emphasis>&nbsp;&mdash;&nbsp;<ulink url="
+"\"http://www.list.org/\"></ulink>"
 
 #. Tag: para
 #: ch03.xml:918
 #, no-c-format
 msgid "(Has built-in archiver, and hooks for plugging in external archivers.)"
 msgstr ""
+"(Ten un arquivador incorporado, así como conexións para arquivadores "
+"externos)"
 
 #. Tag: para
 #: ch03.xml:922
@@ -1827,12 +1897,16 @@ msgid ""
 "<emphasis role=\"bold\">SmartList</emphasis>&nbsp;&mdash;&nbsp;<ulink url="
 "\"http://www.procmail.org/\"></ulink>"
 msgstr ""
+"<emphasis role=\"bold\">SmartList</emphasis>&nbsp;&mdash;&nbsp;<ulink url="
+"\"http://www.procmail.org/\"></ulink>"
 
 #. Tag: para
 #: ch03.xml:923
 #, no-c-format
 msgid "(Meant to be used with the Procmail mail processing system.)"
 msgstr ""
+"(Deseñado para ser usado có sistema de procesado de correo electrónico "
+"Procmail)"
 
 #. Tag: para
 #: ch03.xml:926
@@ -1841,6 +1915,8 @@ msgid ""
 "<emphasis role=\"bold\">Ecartis</emphasis>&nbsp;&mdash;&nbsp;<ulink url="
 "\"http://www.ecartis.org/\"></ulink>"
 msgstr ""
+"<emphasis role=\"bold\">Ecartis</emphasis>&nbsp;&mdash;&nbsp;<ulink url="
+"\"http://www.ecartis.org/\"></ulink>"
 
 #. Tag: para
 #: ch03.xml:929
@@ -1849,6 +1925,8 @@ msgid ""
 "<emphasis role=\"bold\">ListProc</emphasis>&nbsp;&mdash;&nbsp;<ulink url="
 "\"http://listproc.sourceforge.net/\"></ulink>"
 msgstr ""
+"<emphasis role=\"bold\">ListProc</emphasis>&nbsp;&mdash;&nbsp;<ulink url="
+"\"http://listproc.sourceforge.net/\"></ulink>"
 
 #. Tag: para
 #: ch03.xml:932
@@ -1857,6 +1935,8 @@ msgid ""
 "<emphasis role=\"bold\">Ezmlm</emphasis>&nbsp;&mdash;&nbsp;<ulink url="
 "\"http://cr.yp.to/ezmlm.html\"></ulink>"
 msgstr ""
+"<emphasis role=\"bold\">Ezmlm</emphasis>&nbsp;&mdash;&nbsp;<ulink url="
+"\"http://cr.yp.to/ezmlm.html\"></ulink>"
 
 #. Tag: para
 #: ch03.xml:933
@@ -1865,6 +1945,8 @@ msgid ""
 "(Designed to work with the <ulink url=\"http://cr.yp.to/qmail.html\">Qmail</"
 "ulink> mail delivery system.)"
 msgstr ""
+"(Deseñado para traballar có sistema de distribución de correo  <ulink url="
+"\"http://cr.yp.to/qmail.html\">Qmail</ulink>)"
 
 #. Tag: para
 #: ch03.xml:938
@@ -1873,6 +1955,8 @@ msgid ""
 "<emphasis role=\"bold\">Dada</emphasis>&nbsp;&mdash;&nbsp;<ulink url="
 "\"http://mojo.skazat.com/\"></ulink>"
 msgstr ""
+"<emphasis role=\"bold\">Dada</emphasis>&nbsp;&mdash;&nbsp;<ulink url="
+"\"http://mojo.skazat.com/\"></ulink>"
 
 #. Tag: para
 #: ch03.xml:939
@@ -1882,12 +1966,14 @@ msgid ""
 "software, released under the GNU General Public License. It also has a built-"
 "in archiver.)"
 msgstr ""
+"(A pesares dos insistentes esforzos da súa web para ocultalo, é software "
+"libre, liberado baixo a licencia GNU. Tamén inclúe un arquivador)"
 
 #. Tag: para
 #: ch03.xml:945
 #, no-c-format
 msgid "Mailing list archiving software:"
-msgstr ""
+msgstr "Sosftware de arquivado de listas de correo:"
 
 #. Tag: para
 #: ch03.xml:949
@@ -1896,6 +1982,8 @@ msgid ""
 "<emphasis role=\"bold\">MHonArc</emphasis>&nbsp;&mdash;&nbsp;<ulink url="
 "\"http://www.mhonarc.org/\"></ulink>"
 msgstr ""
+"<emphasis role=\"bold\">MHonArc</emphasis>&nbsp;&mdash;&nbsp;<ulink url="
+"\"http://www.mhonarc.org/\"></ulink>"
 
 #. Tag: para
 #: ch03.xml:952
@@ -1904,6 +1992,8 @@ msgid ""
 "<emphasis role=\"bold\">Hypermail</emphasis>&nbsp;&mdash;&nbsp;<ulink url="
 "\"http://www.hypermail.org/\"></ulink>"
 msgstr ""
+"<emphasis role=\"bold\">Hypermail</emphasis>&nbsp;&mdash;&nbsp;<ulink url="
+"\"http://www.hypermail.org/\"></ulink>"
 
 #. Tag: para
 #: ch03.xml:955
@@ -1912,6 +2002,8 @@ msgid ""
 "<emphasis role=\"bold\">Lurker</emphasis>&nbsp;&mdash;&nbsp;<ulink url="
 "\"http://sourceforge.net/projects/lurker/\"></ulink>"
 msgstr ""
+"<emphasis role=\"bold\">Lurker</emphasis>&nbsp;&mdash;&nbsp;<ulink url="
+"\"http://sourceforge.net/projects/lurker/\"></ulink>"
 
 #. Tag: para
 #: ch03.xml:958
@@ -1920,6 +2012,8 @@ msgid ""
 "<emphasis role=\"bold\">Procmail</emphasis>&nbsp;&mdash;&nbsp;<ulink url="
 "\"http://www.procmail.org/\"></ulink>"
 msgstr ""
+"<emphasis role=\"bold\">Procmail</emphasis>&nbsp;&mdash;&nbsp;<ulink url="
+"\"http://www.procmail.org/\"></ulink>"
 
 #. Tag: para
 #: ch03.xml:959
@@ -1928,12 +2022,14 @@ msgid ""
 "(Companion software to SmartList, this is a general mail processing system "
 "that can, apparently, be configured as an archiver.)"
 msgstr ""
+"(Software de acompañamento de Smartlistk, é un sistema procesador de correo "
+"que pode, aparentemente, ser configurado como arquivador)"
 
 #. Tag: title
 #: ch03.xml:972
 #, no-c-format
 msgid "Version Control"
-msgstr ""
+msgstr "Control de versións"
 
 #. Tag: para
 #: ch03.xml:974
@@ -1949,6 +2045,16 @@ msgid ""
 "not take the project seriously if it doesn't use version control with at "
 "least minimal competence."
 msgstr ""
+"Un <firstterm>sistema de control de versións</firstterm> (ou "
+"<firstterm>sistema de control de revisións</firstterm>) é unha combinación "
+"de tecnoloxías e prácticas para facer seguimento e control dos cambios que "
+"se van producindo nos ficheiros dun proxecto, nomeadamente nos de código "
+"fonte, documentación e páxinas web. Si nunca antes usaches control de "
+"versións, o primeiro que deberías facer é buscar a alguén que sí o teña "
+"usado e fichalo para o teu proxecto. Hoxe en día, todo o mundo espera que "
+"cando menos o código fonte do teu proxecto estea subido a un sistema de "
+"control de versións, e seguramente non se tomará o proxecto en serio si non "
+"se utiliza este sistema cun mínimo de solvencia."
 
 #. Tag: para
 #: ch03.xml:985
@@ -1966,6 +2072,18 @@ msgid ""
 "they ask. It is a communications mechanism where a change is the basic unit "
 "of information."
 msgstr ""
+"A razón pola que o control de versións é tan universal é que axuda a "
+"prácticamente todos e cada un dos aspectos relacionados coa xestión dun "
+"proxecto: comunicacións entre desenvolvedores, xestión de liberacóns, "
+"seguimento de erros (bug tracking), estabilidade do código e esforzos de "
+"desenvolvemento experimental, e atribución e autorización de cambios por "
+"certos desevolvedores. O sitema de control de versións ofrece un centro de "
+"mando para todas estas tarefas. O núcleo do control de versións reside na "
+"<firstterm>xestión de cambios</firstterm>: identificando cada cambio "
+"discreto realizado aos ficheiros do proxecto, anotando cada cambio con "
+"metadatos tales como a súa data e o seu autor, e repetindo estes procesos "
+"para quen quera que o solicite, sin importar como o solicite. É un mecanismo "
+"de comunicación no que o cambio é a unidade básica de información."
 
 #. Tag: para
 #: ch03.xml:998
@@ -1976,12 +2094,17 @@ msgid ""
 "book. Here, we will concentrate on choosing and setting up a version control "
 "system in a way that will foster cooperative development down the road."
 msgstr ""
+"Esta sección non vai revisar a totalidade dos aspectos derivados do uso dun "
+"sistema de control de versións. É tan transversal que vai ser comentado ao "
+"longo do libro. Eiquí, nos concentraremos na elección e a configuración dun "
+"sstema de control de versións de xeito que facilite o desenvolvemento "
+"coperativo para que vaia costa abaixo."
 
 #. Tag: title
 #: ch03.xml:1006
 #, no-c-format
 msgid "Version Control Vocabulary"
-msgstr ""
+msgstr "Vocabulario de Control de Versións"
 
 #. Tag: para
 #: ch03.xml:1008
@@ -1996,12 +2119,21 @@ msgid ""
 "problem of change management would remain, and these words give us a "
 "language for talking about that problem concisely."
 msgstr ""
+"Este libro non pode aprenderte a usar o control de versións si nunca antes o "
+"usaches, pero sería imposible falar sobre a materia sin definir primeiro "
+"algúns conceptos chave. Estes termos son útiles independentemente de cal "
+"sexa o sistema  de control de versións seleccionado: son os verbos e "
+"sustantivos básicos cara a colaboración en rede, e serán usados dexeito "
+"xenérico ao longo do resto do libro. Aínda que non existiran sistemas de "
+"control de versións, permanecería o problema da xestión de cambios, e estes "
+"termos nos van fornecer dunha linguaxe para falar concisamente deste "
+"problema."
 
 #. Tag: firstterm
 #: ch03.xml:1021
 #, no-c-format
 msgid "commit"
-msgstr ""
+msgstr "commit"
 
 #. Tag: para
 #: ch03.xml:1022
@@ -2015,12 +2147,21 @@ msgid ""
 "Mac OS X. Jay, could you please review the commit and check that I'm not "
 "misusing the allocator there?\""
 msgstr ""
+"Facer un cambio ao proxecto; máis formalmente, almacenar un cambio na base "
+"de datos de control de versións de tal xeito que poida ser incorporado en "
+"futuras versións do proxecto. En inglés, \"Commit\" pode ser usado como "
+"sustantivo ou como verbo. Como sustantivo, pode ser considerado como "
+"sinónimo de \"cambio\". En galego a forma verbal pode ser sustituída por "
+"\"facer un commit\". Por exemplo: \"Acabo de facer o commit dun parche para "
+"o fallo de servidores en Mac OS X que a xente de xestión de erros viña "
+"comentando. Jay, poderías revisar o cambio e comprobar que non estou facendo "
+"mal uso do localizador (allocator) eiquí?\""
 
 #. Tag: firstterm
 #: ch03.xml:1033
 #, no-c-format
 msgid "log&nbsp;message"
-msgstr ""
+msgstr "mensaxe de log&nbsp;"
 
 #. Tag: para
 #: ch03.xml:1034
@@ -2036,12 +2177,22 @@ msgid ""
 "\"communications\"/></phrase> discusses ways to encourage contributors to "
 "write concise and useful log messages."
 msgstr ""
+"Un pequeno comentario engadido a cad commit, describindo a natureza e o "
+"propósito do cambio. As mensaxes de log contanse entre os documentos máis "
+"importantes dun proxecto: constitñuen a ponte entre a linguaxe altamente "
+"técnica dos cambios no código e a máis orientada aos usuarios de "
+"características, parcheado de erros e progreso do proxecto. Máis adiante "
+"nesta sección, falaremos de como distribuir as mensaxes de log ás audiencias "
+"apropiadas; tamén, <xref linkend=\"codifying-tradition\"/><phrase output="
+"\"printed\"> en <xref linkend=\"communications\"/></phrase> se discuten "
+"acerca dos modos en que os contribuíntes deben escrbir mensaxes de log "
+"sinxelos e útiles."
 
 #. Tag: firstterm
 #: ch03.xml:1048
 #, no-c-format
 msgid "update"
-msgstr ""
+msgstr "actualizar (update)"
 
 #. Tag: para
 #: ch03.xml:1049
@@ -2056,12 +2207,22 @@ msgid ""
 "is always dropping the last byte. Is this a new bug?\" \"Yes, but it was "
 "fixed last week&mdash;try updating, it should go away.\""
 msgstr ""
+"Solicitar que os cambios (commits) feitos por outros se incorporen á túa "
+"copia local do proxecto; isto é, actualizar a túa copia. É unha operación "
+"moi frecuente; os máis dos desenvolvedores actualizan o seu código varias "
+"veces ao longo do día, de xeito que están seguros de estar traballando sobre "
+"case que o mesmo código sobre o que están a traballar os outros "
+"colaboradores, e si eles atopan un erro, poden estar bastante seguros de que "
+"aínda non foi reparado. Por exemplo: \"Hey, dinme de conta de que o código "
+"de indexación está todo o tempo perdendo o último byte. Trátase dun novo "
+"erro?\" \"Sí, pero foi correxido hai unha semán&mdash;tenta facer unah "
+"actualización, debería solucionarse.\""
 
 #. Tag: firstterm
 #: ch03.xml:1062
 #, no-c-format
 msgid "repository"
-msgstr ""
+msgstr "repositorio"
 
 #. Tag: para
 #: ch03.xml:1062
@@ -2078,12 +2239,23 @@ msgid ""
 "development; try not to fall into the trap of arguing about it on your "
 "project lists."
 msgstr ""
+"Unha base de datos na que se almacenan os cambios. Algúns sistemas de "
+"control de versións están centralizados: hai un único repositorio no que se "
+"almacenan tódolos cambios do proxecto. Outros son descentralizados: cada "
+"desenvolvedor garda o seu propio repositorio, e os cambios poden ser "
+"transmitidos adiante e atrás entre repositorios arbitrariamente. O sistema "
+"de control de versións mantén o seguimento das dependencias entre cambios, e "
+"cando chega o tempo de liberar unha nova versión, un conxunto concreto de "
+"cambios é aprovado para a dita versión. A cuestión sobre si é mellor a "
+"centralización ou a descentralización é unha das guerras santas máis "
+"duradeiras do desenvolvemento de software; tenta non caer na trampa de "
+"discutir sobre este asunto nas lsitas de correo do teu proxecto."
 
 #. Tag: firstterm
 #: ch03.xml:1077
 #, no-c-format
 msgid "checkout"
-msgstr ""
+msgstr "checkout"
 
 #. Tag: para
 #: ch03.xml:1078
@@ -2096,12 +2268,19 @@ msgid ""
 "repository, and changes can be pushed out to (or pulled into) any repository "
 "that's willing to accept them."
 msgstr ""
+"O proceso de descargar unha copia do proxecto desde un repositorio. Un "
+"checkout xenera normalmente una árbol de directorios chamado \"copia de "
+"traballo\" (véxase abaixo), desde o que os cambios poden ser enviados "
+"novamente ao repositorio orixinal. Nalgúns sistemas de control de versións "
+"descentralizados, cada copia de traballo é ao tempo un repositorio, e os "
+"cambios poden ser enviados (ou traídos de) calquera outro repositorio que os "
+"acepte."
 
 #. Tag: firstterm
 #: ch03.xml:1088
 #, no-c-format
 msgid "working copy"
-msgstr ""
+msgstr "copia de traballo"
 
 #. Tag: para
 #: ch03.xml:1089
@@ -2115,6 +2294,13 @@ msgid ""
 "his own working copy, in which he makes and tests changes, and from which he "
 "commits."
 msgstr ""
+"O árbol de directorios dun desenvolvedor que contén os ficheiros de código "
+"fonte e, posiblemente, as súas páxinas web ou outros documentos. Unha copia "
+"de traballo contén tamén un certo número de metadatos xestionados polo "
+"sistema de control de versións, que lle din de que repositorio ven, que "
+"\"revisións\" (ver máis abaixo) contén, etc. Xeralmente, cada desenvolvedor "
+"mantén a súa propia copia de traballo, na que fai e comproba os cambios, e "
+"desde a que fai os commits."
 
 #. Tag: term
 #: ch03.xml:1100
@@ -2123,6 +2309,8 @@ msgid ""
 "<firstterm>revision</firstterm>, <firstterm>change</firstterm>, "
 "<firstterm>changeset</firstterm>"
 msgstr ""
+"<firstterm>conxunto de cambios(changeset) </firstterm>, <firstterm>cambio</"
+"firstterm>, <firstterm>revisión</firstterm>"
 
 #. Tag: para
 #: ch03.xml:1103
@@ -2134,6 +2322,12 @@ msgid ""
 "systems also use \"revision\", \"change\", or \"changeset\" to refer to a "
 "set of changes committed together as one conceptual unit."
 msgstr ""
+"Unha \"revisión\" é xeralmente a encarnación dun ficheiro ou directorio en "
+"particular. Por exemplo, si o proxecto empeza coa revisión 6 do ficheiro F, "
+"e despois alguén fai un commit cun cambio a F, isto produce a revisión 7 de "
+"F. Algúns sistemas usan tamén \"revisión\", \"cambio\" o \"changeset\" para "
+"referirse a un conxunto de cambios subidos todos xuntos nun único commit "
+"como unha unidade conceptual"
 
 #. Tag: para
 #: ch03.xml:1110
@@ -2146,6 +2340,13 @@ msgid ""
 "example: \"Oh yes, she fixed that in revision 10\" or \"She fixed that in "
 "revision 10 of foo.c.\""
 msgstr ""
+"Estes termos teñen ocasionalmente diferentes significados técnicos en "
+"diferentes sistemas de control de versións, pero a idea máis extendida é "
+"sempre a mesma: son a maneira de falar con precisión acerca de puntos "
+"concretos no tempo da historia dun ficheiro ou un conxunto de ficheiros "
+"(digamos, inmediatamente antes y después de que un error es reparado). Por "
+"exemplo: \"Oh sí, reparou ese problema na revisión 10\" ou \"Reparou iso na "
+"revisión 10 de foo.c\""
 
 #. Tag: para
 #: ch03.xml:1118
