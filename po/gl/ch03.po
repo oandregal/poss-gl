@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Producing OSS\n"
 "Report-Msgid-Bugs-To: producingoss@listas.ghandalf.org\n"
 "POT-Creation-Date: 2009-07-11 15:32+0000\n"
-"PO-Revision-Date: 2009-11-09 20:17+0100\n"
+"PO-Revision-Date: 2009-11-18 20:11+0100\n"
 "Last-Translator: Pedro A. González <pedro.gonzalez@ghandalf.org>\n"
 "Language-Team: Galician <producingoss@listas.ghandalf.org>\n"
 "MIME-Version: 1.0\n"
@@ -2356,12 +2356,15 @@ msgid ""
 "particular revision, it is generally assumed that one means the most recent "
 "revision(s) available."
 msgstr ""
+"Cando un fala sobre un ficheiro ou colección de ficheiros sen especificar "
+"unha revisión en particular, xeralmente se asume que se está a referir a(s) "
+"revisión(s) máis recentes."
 
 #. Tag: title
 #: ch03.xml:1124
 #, no-c-format
 msgid "\"Version\" Versus \"Revision\""
-msgstr ""
+msgstr "\"Versión\" fronte a \"Revisión\""
 
 #. Tag: para
 #: ch03.xml:1125
@@ -2375,12 +2378,19 @@ msgid ""
 "will continue to use it as a synonym for \"revision control\" and \"change "
 "control\"."
 msgstr ""
+"A palabra <firstterm>versión</firstterm> ás veces é usada como sinónimo de "
+"\"revisión\", pero eu non o vou usar nese sentido neste libro, porque é "
+"demasiado fácil confundilo co termo \"versión\" tal como cando se fala de "
+"versións dun software&mdash;isto é, o número de liberación ou distribución, "
+"como en \"Versión 1.0\". De tódolos xeitos, como a expresión \"control de "
+"versións\" é de feito estándar, eu vou continuar a empregala como sinónimo "
+"de \"control de revisión\" y \"control de cambios\"."
 
 #. Tag: firstterm
 #: ch03.xml:1135
 #, no-c-format
 msgid "diff"
-msgstr ""
+msgstr "diff"
 
 #. Tag: para
 #: ch03.xml:1136
@@ -2391,12 +2401,17 @@ msgid ""
 "who is already familiar with some code can usually read a diff against that "
 "code and understand what the change did, and even spot bugs."
 msgstr ""
+"Representación textual dun cambio. Un \"diff\" amosa que liñas foron "
+"cambiadas e como, ademáis de unhas poucas liñas de contextualización da dita "
+"información. Un desenvolvedor que estea familiarizado cun código dado, "
+"poderá ler o diff contra o dito código e entender que foi o que se cambiou, "
+"e incluso localizar erros."
 
 #. Tag: firstterm
 #: ch03.xml:1144
 #, no-c-format
 msgid "<firstterm>tag</firstterm>"
-msgstr ""
+msgstr "<firstterm>etiqueta (tag)</firstterm>"
 
 #. Tag: para
 #: ch03.xml:1145
@@ -2409,12 +2424,20 @@ msgid ""
 "revisions comprising that release. Common tag names are things like "
 "<literal>Release_1_0</literal>, <literal>Delivery_00456</literal>, etc."
 msgstr ""
+"Designan coleccións particulares de ficheiros pertencentes a unha revisión "
+"específica. As etiquetas xeralmente son usadas para preservar fitos "
+"interesantes dun proxecto. Por exemplo, fercuentemente se lle adxudica unha "
+"etiqueta a cada versión liberada ao público, de tal xeito que se poida "
+"obter, directamente dende o sistema de control de versións, o conxunto "
+"exacto de ficheiros que compoñen esa versión. Os nomes que se adoitan "
+"empregar para as etiquetas poden ser do estilo de: <literal>Versión_1_0</"
+"literal>, <literal>Distribución_00456</literal>, etc."
 
 #. Tag: firstterm
 #: ch03.xml:1156
 #, no-c-format
 msgid "branch"
-msgstr ""
+msgstr "rama (branch)"
 
 #. Tag: para
 #: ch03.xml:1157
@@ -2428,6 +2451,14 @@ msgid ""
 "happening on the \"main branch\", also known as the \"main line\" or "
 "\"<firstterm>trunk</firstterm>\"."
 msgstr ""
+"Cada copia do proxecto, baixo o control de versións pero individualizada, "
+"tal que os cambios feitos á rama non afectan ao resto do proxecto, e "
+"viceversa, excepto cando os cambios son refundidos (merged) dende unha rama "
+"a outra (véxase abaixo). As ramas son tambén coñecidas como \"liñas de "
+"desenvolvemento\". Incluso cando un proxecto non ten ramas, se considera que "
+"o desenvovemento se está a facer na \"rama principal (main branch)\", tamén "
+"coñecida como \"liña principal (main line)\" ou\" <firstterm>tronco (trunk)</"
+"firstterm>\"."
 
 #. Tag: para
 #: ch03.xml:1166
@@ -2444,12 +2475,22 @@ msgid ""
 "><phrase output=\"printed\"> later in this chapter</phrase> for a more "
 "detailed discussion of branching."
 msgstr ""
+"As ramas ofrecen unha maneira de aillar entre si diferentes liñas de "
+"desenvolvemento que poderían desestabilizar o tronco principal. Ou "
+"alternativamente, unha rama pode ser empregada para estabilizar unha nova "
+"versión. Durante o proceso de liberación, o desenvolvemento normal do "
+"proxecto pode continuar na rama principal do repositorio; mentres tanto, na "
+"rama da liberación, non se permite introducir novos cambios distintos dos "
+"aprovados polos xestores da liberación. Así, facer unha liberación non ter "
+"por que interferir cós traballos de desenvolvemento. Podes consultar <xref "
+"linkend=\"ramas (branches)\"/><phrase output=\"printed\"> máis adiante neste "
+"capítulo</phrase> si precisas mási detalles sobre a creación de ramas."
 
 #. Tag: firstterm
 #: ch03.xml:1181
 #, no-c-format
 msgid "merge (a.k.a. port)"
-msgstr ""
+msgstr "refundir (\"merge\", ou \"port\")"
 
 #. Tag: para
 #: ch03.xml:1182
@@ -2461,6 +2502,11 @@ msgid ""
 "branches. See <xref linkend=\"vc-singularity\"/> for more about this kind of "
 "merging."
 msgstr ""
+"Trasladar un cambio entre ramas. Inclúe refundir dende o tronco principal a "
+"unha rama ou viceversa. De feito, estes son precisamente os refundidos mási "
+"frecuentes; é raro facer refundidos entre ramas secundarias do proxecto. "
+"Podes ver máis información sobre este  tema en <xref linkend=\"vc-singularity"
+"\"/>."
 
 #. Tag: para
 #: ch03.xml:1189
@@ -2475,12 +2521,21 @@ msgid ""
 "multiple people are hacking on the same code. When two different changes "
 "<emphasis>do</emphasis> overlap, the result is a \"conflict\"; see below."
 msgstr ""
+"\"Refundir (merge)\" ten un segundo significado, relacionado có anterior: é "
+"o que fai o sistema de control de versións cando detecta que dúas persoas "
+"fixeron cambios a un mesmo ficheiro, pero en aspectos que non solapan. Dado "
+"que os dous cambios non interfiren entre si, cando un dos desenvolvedores "
+"actualiza a súa copia do ficheiro (contendo aínda os seus propios cambios), "
+"os cambios feitos polo segundo desenvolvedor se refunden automáticamente cós "
+"anteriores. Isto é moi frecuente, especialmente en proxectos nos que moitas "
+"persoas están traballando sobre o mesmo código. Cando dous cambios "
+"diferentes <emphasis>interfiren</emphasis>, o resultado é un \"conflicto\"."
 
 #. Tag: firstterm
 #: ch03.xml:1202
 #, no-c-format
 msgid "conflict"
-msgstr ""
+msgstr "conflicto"
 
 #. Tag: para
 #: ch03.xml:1203
@@ -2493,12 +2548,18 @@ msgid ""
 "firstterm> the conflict, and to communicate that resolution to the version "
 "control system."
 msgstr ""
+"É o que sucede cando dúas persoas tratan de facer cambios diferentes sobre a "
+"mesma porción de código. Todos os sistemas de control de versións detectan "
+"automáticamente os conflictos, e lle notifican a cando menos un dos "
+"desenvolvedores implicados que os seus cambios entran en conflicto cós de "
+"alguén máis. <firstterm>Resolver</firstterm> o conflicto e comunicarllo ao "
+"sistema queda entón na man desa persoa."
 
 #. Tag: firstterm
 #: ch03.xml:1213
 #, no-c-format
 msgid "lock"
-msgstr ""
+msgstr "bloquear (lock)"
 
 #. Tag: para
 #: ch03.xml:1214
@@ -2512,6 +2573,14 @@ msgid ""
 "is because parallel, simultaneous development is the norm, and locking "
 "people out of files is (usually) contrary to this ideal."
 msgstr ""
+"É unha maneira de declarar un intento de introducir cambios en exclusiva nun "
+"ficheiro ou directorio dado. Por exemplo: \"Non poido subir ningún cambio ás "
+"páxinas web neste momento. Alfredo as ten bloqueado mentres corrixe as "
+"imáxenes do fondo\". Non todos os sistemas de control de versións ofrecen a "
+"posibilidade de facer bloqueos, e entre os que sí o fan, non todos esixen "
+"que se empregue o bloqueo. Isto é así porque o desenvolvemento simultáneo e "
+"en paralelo é a norma, e bloquear á xebte que pretende traballar sobre os "
+"ficheiros é (xeralmente) contrario a este ideal."
 
 #. Tag: para
 #: ch03.xml:1223
@@ -2526,12 +2595,21 @@ msgid ""
 "and all the version control systems discussed in this book support that "
 "model."
 msgstr ""
+"Os sistemas de control de versións que requiren do uso do bloqueo para poder "
+"subir cambios son coñecidos como modelos do tipo <firstterm>bloqueo-"
+"modificación-desbloqueo</firstterm>. Os que non, son denominados modelos "
+"<firstterm>copia-modificación-refundido</firstterm>. Unha comparación "
+"excelente entre os dous modelos pode ser consutada en <ulink url=\"http://"
+"svnbook.red-bean.com/svnbook-1.0/ch02s02.html\"></ulink>. En xeral, o modelo "
+"copia-modificación-refundido se considera mellor para o desenvolvemento de "
+"software libre, e todos os sistemas de control de versions que se comentan "
+"neste libro soportan o dito modelo."
 
 #. Tag: title
 #: ch03.xml:1243
 #, no-c-format
 msgid "Choosing a Version Control System"
-msgstr ""
+msgstr "Selccionando un Sistema de Control de Versións"
 
 #. Tag: para
 #: ch03.xml:1245
@@ -2543,6 +2621,12 @@ msgid ""
 "ulink>) and <firstterm>Subversion</firstterm> (<firstterm>SVN</firstterm>, "
 "<ulink url=\"http://subversion.tigris.org/\"></ulink>)."
 msgstr ""
+"Cando este libro foi escrito, os dous sistemas de control de versións máis "
+"populares no mundo do software libre son <firstterm>Concurrent Versions "
+"System</firstterm> (<firstterm>CVS</firstterm>, <ulink url=\"http://www."
+"cvshome.org/\"></ulink>) e <firstterm>Subversion</firstterm> "
+"(<firstterm>SVN</firstterm>, <ulink url=\"http://subversion.tigris.org/\"></"
+"ulink>)."
 
 #. Tag: para
 #: ch03.xml:1252
@@ -2559,6 +2643,18 @@ msgid ""
 "files very well; and some operations are slow when large numbers of files "
 "are involved."
 msgstr ""
+"CVS está dispoñible dende hai moito tempo. Os desenvolvedores máis "
+"experimentados están familiarizados dabondo con él, fai máis ou menos o que "
+"precisas, e como é popular dende hai tempo, probablemente non teñas que "
+"enredarte en longas discusións sobre si é ou non a opción máis axeitada. "
+"Nembargantes, CVS tamén ten algunhas desventaxas. Non suministra unha "
+"maneira doada de tratar cin cambios multi-ficheiro; non che deixa renomear "
+"ou copiar os ficheiros dentro do sistema de control (así que intentar "
+"reorganizar a árbore do código do teu proxecto, unha vez xa iniciado, pode "
+"convertirse nun auténtico pesadelo); o seu soporte aos refundidos é moi "
+"pobre; non manexa nada ben os ficheiros moi grandes ou os binarios; e "
+"algunhas operacións son moi lentas cando se fan sobre un número grande de "
+"ficheiros."
 
 #. Tag: para
 #: ch03.xml:1264
@@ -2571,6 +2667,13 @@ msgid ""
 "securityspace-survey.html\"></ulink> for evidence of this growth.</para></"
 "footnote>. If you're starting a new project, I recommend Subversion."
 msgstr ""
+"Ningún dos fallos de CVS é fatal, e aínda é moi popular. Nembargantes, nos "
+"últimos anos o máis recente Subversion está a gañar terreo, especialmente "
+"nos proxectos máis novos. <footnote><para>Véxase <ulink url=\"http://cia.vc/"
+"stats/vcs\"></ulink> e <ulink url=\"http://subversion.tigris.org/svn-dav-"
+"securityspace-survey.html\"></ulink> onde se comentan probas deste "
+"crecemento.</para></footnote>. Si estás iniciando un proxecto novo, eu che  "
+"recomendo Subversion"
 
 #. Tag: para
 #: ch03.xml:1272
@@ -2590,12 +2693,28 @@ msgid ""
 "your mind, then go with Subversion. It's fairly easy to learn, and is likely "
 "to remain a standard for at least a few years."
 msgstr ""
+"Pola contra, dado que eu estou participando no proxecto Subversion, a miña "
+"obxectividade pode ser razoableente discutida. E nos últimos anos teñen "
+"xurdido un certo número de novos sistemas de control de versións en software "
+"libre. En <xref linkend=\"vc-systems\"/>,presento unha listaxe , ordeadas "
+"máis ou menos por orde de popularidade. Como a listaxe deixa claro, "
+"decidirse por un sistema de control de versions podería convertirse nun "
+"proxecto vitalicio en si mesmo. Posiblemente te verás liberado desta "
+"decisión porque o fará por tí o sitio no que teñas hospedado o teu proxecto. "
+"Pero si és tí quen ten que tomar a decisión, consúltao có resto dos "
+"desenvolvedores, averigua qué experiencia teñen ao respecto, e despois elixe "
+"un sistema e trabala con él. Calquera sistema de control de versións estable "
+"e listo para a producción cumplirá as túas necesidades; non deberías "
+"preocuparte moito sobre si tomaches unha decsión radicalmente errónea. Si "
+"simplemente non dás tomado unha decisión, entón elixe Subversion. É moi "
+"doado de aprender, e seguramente vai seguir sendo un estándar por moitos "
+"anos."
 
 #. Tag: title
 #: ch03.xml:1293
 #, no-c-format
 msgid "Using the Version Control System"
-msgstr ""
+msgstr "Usando o Sistema de Control de Versións"
 
 #. Tag: para
 #: ch03.xml:1295
@@ -2605,12 +2724,16 @@ msgid ""
 "version control system, and should be simple to implement in any of them. "
 "Consult your specific system's documentation for details."
 msgstr ""
+"As recomendacións desta sección non se dirixen a un sistema de control de "
+"versións en particular, e deberían ser doadas de poñer en práctica en "
+"calquera deles. Consulta a documentación do teu sistema esecífico si "
+"precisas máis detalles."
 
 #. Tag: title
 #: ch03.xml:1301
 #, no-c-format
 msgid "Version everything"
-msgstr ""
+msgstr "Versionea todo."
 
 #. Tag: para
 #: ch03.xml:1303
@@ -2625,6 +2748,17 @@ msgid ""
 "once posted, does not change; therefore, versioning it wouldn't make sense "
 "(unless it becomes part of some larger, evolving document)."
 msgstr ""
+"Debes manter no teu sistema de control de versions non só o código fonte do "
+"teu proxecto, si non tamén as súas páxinas web, documentación, FAQ, notas de "
+"deseño, e calquera outra cousa que a xente poida querer editar. Mantenas "
+"xusto á carón do código, na mesma árbore do repositorio. Calquera peza de "
+"información que pague a pena de ser escrita, paga igualmente a pena de ser "
+"versioneada&mdash;isto é, calquera peza de información que poida ser "
+"modificada. As cousas que non están sometidas a cambios deberían ser "
+"arquivadas, non versioneadas. Por exemplo, un email, unha vez enviado, non "
+"vai cambiar; polo tanto, non tería sentido pensar en que pode ser "
+"versioneado (a non ser que forme parte dun documento máis longo e que sí "
+"evolva no tempo)."
 
 #. Tag: para
 #: ch03.xml:1313
@@ -2639,6 +2773,16 @@ msgid ""
 "can be committed together with their documentation updates, that branching "
 "the code will branch the documentation too, etc."
 msgstr ""
+"A razón pola que é importante versionear todo nun único sitio é que diste "
+"xeito a xente somentes terá qu eaprender un mecanismo para incorporar "
+"cambios. Frecuentemente, un colaborador vai comenzar por enviar cambios ás "
+"páxinas web ou á documentación, e comenzará máis tarde a facer pequenas "
+"contribucións ao código, por exemplo. Cando o proxecto emprega o mesmo "
+"sistema para todos os tipos de contribucións, a xebte só terá que afacerse a "
+"él unha vez. Manter todas as versións xuntas significa tamén que as novas "
+"características poden ser incorporadas xunto coa súa documentación, e que "
+"distribuir o código por varias ramas vai supor que a documentación tamén se "
+"distribúe, etc."
 
 #. Tag: para
 #: ch03.xml:1323
@@ -2655,6 +2799,19 @@ msgid ""
 "will inevitably forget to regenerate when they commit a change to a "
 "template, and the resulting inconsistencies will cause no end of confusion."
 msgstr ""
+"Non manteñas <firstterm>os ficheiros xenerados</firstterm> no sistema de "
+"control de versións. Non osn propiamente datos editables, xa que son xerados "
+"automáticamente a partires de outros ficheiros. Por exemplo, algúns sistemas "
+"de montaxe (build) crean o ficheiro <filename>configure</filename> a "
+"partires da plantilla <filename>configure.in</filename>. Para facer un "
+"cambio a <filename>configure</filename>, terías que editar "
+"<filename>configure.in</filename> e posteriormente rexenerar o primeiro; "
+"así, tan só a plantilla <filename>configure.in</filename> é un ficheiro "
+"\"editable\". Polo tanto, mantén no control de versións tan só as "
+"plantillas&mdash;si inclúes os ficheiros resultantes, a xente vai "
+"inevvitablemente esquecer rexeneralos cando incorporan un cambio a unha "
+"plantilla, e a correspondente inconsistencia non vai causar máis que "
+"confusión."
 
 #. Tag: para
 #: ch03.xml:1334
@@ -2665,6 +2822,11 @@ msgid ""
 "version control</citetitle>\" at <ulink url=\"http://versioncontrolblog."
 "com/2007/01/08/configurein-and-version-control/\"></ulink>."
 msgstr ""
+"Pero si queres ler unha segunda opinión acerca da cuestión dos ficheiros "
+"<filename>configure</filename>,podes revisar o comentario de Alexey "
+"Makhotkin \"<citetitle>configure.in and version control</citetitle>\" en "
+"<ulink url=\"http://versioncontrolblog.com/2007/01/08/configurein-and-"
+"version-control/\"></ulink>."
 
 #. Tag: para
 #: ch03.xml:1340
@@ -2677,12 +2839,20 @@ msgid ""
 "features of their own, however, independent of the project's main "
 "repository.)"
 msgstr ""
+"A regla de que todo dato editable debe ser mantido nun sistema de control de "
+"versións tén desafortunadamente unha excepción: o xestor de erros (bug "
+"tracker). As bases de datos de erros conteñen multitude de datos editables, "
+"pero por cuestións técnicas non se pode, xeralmente, ter ises datos "
+"almacenados nun sistema de control de versións. (Algúns xestores de erros "
+"incorporan de seu algunhas funcionalidades moi primitivas de control de "
+"versións, pero en calquera caso independentes do repositorio principal do "
+"proxecto)."
 
 #. Tag: title
 #: ch03.xml:1350
 #, no-c-format
 msgid "Browsability"
-msgstr ""
+msgstr "Navegabilidade"
 
 #. Tag: para
 #: ch03.xml:1352
@@ -2693,6 +2863,11 @@ msgid ""
 "back in time and look at earlier revisions, view the differences between "
 "revisions, read log messages for selected changes, etc."
 msgstr ""
+"O repositorio do proxecto debe ser navegable dende a web. Isto inclúe non só "
+"a habilidade para ver a última revisión dos ficheiros do proxecto, se non "
+"tamén poder ir atrás no tempo e vistar revisións anteriores, ver as "
+"diferencias entre elas, ler as mensaxes de seguimento (log) de cambios "
+"concretos, etc."
 
 #. Tag: para
 #: ch03.xml:1358
@@ -2705,6 +2880,13 @@ msgid ""
 "software locally, which could turn their simple query from a two-minute task "
 "into a half-hour or longer task."
 msgstr ""
+"A navegabilidade é importante porque supón o uso dun portal lixeiro de "
+"acceso aos datos do proxecto. Si o repositorio non pode ser visitado dende "
+"un navegador web, entón alguén que pretenda ver un ficheiro en particular "
+"(nomeadamente: comprobar si unha corrección dun erro foi xa incorporada ao "
+"código), primeiro tería que instalar localmente un cliente do sistema de "
+"control de versións, o que podería transformar a súa tarefa inicial de un "
+"par de minutos nun traballo de a lo menos media hora."
 
 #. Tag: para
 #: ch03.xml:1366
@@ -2721,6 +2903,18 @@ msgid ""
 "The URL is better because it is completely unambiguous, and avoids the "
 "question of whether the addressee has an up-to-date working copy."
 msgstr ""
+"Implica tamén a existencia de URL normalizadas para acceder a revisións "
+"específicas dos ficheiros, e para visitar a última revisión nun momento "
+"dado. Isto pode ser moi útil cara a discusións técnicas ou cando se trata de "
+"dirixir á xente hacia a documentación. Por exemplo, en vez de decir \"Para "
+"informarse sobre instruccións para reparar o servidor, diríxase ao ficheiro "
+"www/hacking.html na súa copia local\", podería decirse\"Para informarse "
+"sobre instruccións para reparar o servidor, visite <emphasis>http://svn."
+"collab.net/repos/svn/trunk/www/hacking.html</emphasis>,\" proporcionando "
+"unha URL que vai dirixir sempre á última revisión do ficheiro "
+"<filename>hacking.html</filename>. A URL é mellor xa que carece totamente de "
+"ambigüidade, e evita o problema de si o destinatario ten unha copia de "
+"traballo completamente actualizada."
 
 #. Tag: para
 #: ch03.xml:1378
@@ -2734,12 +2928,20 @@ msgid ""
 "url=\"http://websvn.tigris.org/\"></ulink>). The first works with both CVS "
 "and Subversion, the second with CVS only, and the third with Subversion only."
 msgstr ""
+"Algúns sistemas de control de versións incorporan mecanismos internos de "
+"navegación polo repositorio, mentres que outros empregan ferramentas de "
+"terceiros. Estas ferramentas son:<firstterm>ViewVC</firstterm> (<ulink url="
+"\"http://viewvc.org/\"></ulink>), <firstterm>CVSWeb</firstterm> (<ulink url="
+"\"http://www.freebsd.org/projects/cvsweb.html\"></ulink>), e "
+"<firstterm>WebSVN</firstterm> (<ulink url=\"http://websvn.tigris.org/\"></"
+"ulink>). A primeira traballa sobre CVS e Subversion, a segunda só sobre CVS, "
+"e a terceira só sobre Subversion."
 
 #. Tag: title
 #: ch03.xml:1389
 #, no-c-format
 msgid "Commit emails"
-msgstr ""
+msgstr "Mensaxes de incorporación de cambios (Commit emails)"
 
 #. Tag: para
 #: ch03.xml:1391
@@ -2757,6 +2959,19 @@ msgid ""
 "people can react to events (commits) that they know are visible to others as "
 "well."
 msgstr ""
+"Toda incorporaciñon de cambios ao repositorio (commit) debería xerar unha "
+"mensaxe na que consten quen fixo o cambio, cando o fixo, que ficheiros e "
+"directorios cambiou, e en que consistiron os cambios. A mensaxe debería ser "
+"enviada a unha lista de correo específica, distinta das empregadas para "
+"xestionar as mensaxes dos colaboradores. Se debería recomendar aos "
+"desenvolvedores e outras persoas interesadas que se deran de alta na lista "
+"de mensaxes de cambios, xa que este é o modo máis efectivo de manter o "
+"coñecemento sobre que é o que se está a facer no proxecto no tanto ao "
+"código. Máis aló das evidentes ventaxas técnicas da revisión por colegas "
+"(véxase <xref linkend=\"revisión-do-código\"/>), as mensaxes de ncorporación "
+"de cambios axudan a crear o espírito de comunidade, xa que proveen ao "
+"proxecto dun contorno común onde a xente pode reaccionar ante os eventos "
+"(incorporación de cambios) que saben que están visbkes tamén para os demáis."
 
 #. Tag: para
 #: ch03.xml:1404
@@ -2773,6 +2988,17 @@ msgid ""
 "free to use that information to do anything&mdash;for example, to send out "
 "an email."
 msgstr ""
+"As cuestións específicas sobre a confguración de mensaxes de incorporación "
+"de cambios varían dependendo de cal sexa o teu sistema de control de "
+"versións, pero xeralmente hai un script ou outra clase de utilidade para "
+"facelo. Si tés problemas para atopala, intenta buscar na documentación por "
+"<firstterm>hooks</firstterm>, e especialmente <firstterm>post-commit hook</"
+"firstterm>, tamén chamado <firstterm>loginfo hook</firstterm> en CVS. Os "
+"\"post-commit hooks\" constitúen un modo xeral de lanzar tarefas "
+"automatizadas en resposta á incorporación de cambios. O \"hook\" se dispara "
+"ante á incorporación dun cambio en concreto, se alimenta da información "
+"acerca dise cambio, e é logo libre de usar esa información para realizar "
+"calquera outra operación&mdash; por exemplo, enviar un correo electrónico."
 
 #. Tag: para
 #: ch03.xml:1416
