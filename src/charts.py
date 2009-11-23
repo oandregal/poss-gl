@@ -17,6 +17,7 @@ def stacked_horizontal(chapter):
                                       x_range=(0, 100))
 #     chart.set_bar_width(100)
     chart.set_colours(['00ff00', 'ff0000'])
+    chart.fill_solid('bg', 'e3d185')
     chart.set_zero_line(0, 0)
     chart.add_data([chapter[0]])
     chart.add_data([chapter[1]])
