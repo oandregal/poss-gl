@@ -7,6 +7,16 @@ ul {
      list-style-type: square;
      }
 
+table, th, td { 
+                border: 0px;
+ }
+
+th { 
+     padding: 5px;
+     text-align: center;
+     text-font: bold;
+ }
+
 #logo {
         background-image: url('../img/ghandalf.png');
         width:  842px;
