@@ -702,13 +702,13 @@ msgstr "Esto informa al público bajo cual licencia se <emphasis>pretende</empha
 #: ch02.xml:1029
 #, no-c-format
 msgid "This tells the public what license you <emphasis>intend</emphasis> the software to be released under, but it's not sufficient for legal purposes. For that, the software itself must contain the license. The standard way to do this is to put the full license text in a file called <filename>COPYING</filename> (or <filename>LICENSE</filename>), and then put a short notice at the top of each source file, naming the copyright date, holder, and license, and saying where to find the full text of the license."
-msgstr "Hay muchas variaciones de éste patrón, así que miraremos a un sólo ejemplo. La GPL de GNU indica que se debe colocar un aviso como éste al principio de cada fichero con código fuente:"
+msgstr ""
 
 #. Tag: para
 #: ch02.xml:1038
 #, no-c-format
 msgid "There are many variations on this pattern, so we'll look at just one example here. The GNU GPL says to put a notice like this at the top of each source file:"
-msgstr ""
+msgstr "Hay muchas variaciones de éste patrón, así que miraremos a un sólo ejemplo. La GPL de GNU indica que se debe colocar un aviso como éste al principio de cada fichero con código fuente:"
 
 #. Tag: screen
 #: ch02.xml:1042
@@ -734,12 +734,14 @@ msgstr "No específica que una copia de la licencia adjuntada al programa está 
 #: ch02.xml:1044
 #, no-c-format
 msgid "It does not say specifically that the copy of the license you received along with the program is in the file <filename>COPYING</filename>, but that's where it's usually put. (You could change the above notice to state that directly.) This template also gives a geographical address from which to request a copy of the license. Another common method is to give a link to a web page containing the license. Just use your judgement and point to wherever you feel the most permanent copy of the license is maintained, which might simply be somewhere on your project's web site. In general, the notice you put in each source file does not have to look exactly like the one above, as long as it starts with the same notice of copyright holder and date, states the name of the license, and makes it clear where to view the full license."
-msgstr "Ajustar el tono"
+msgstr ""
 
 #. Tag: title
 #: ch02.xml:1064
 #, no-c-format
 msgid "Setting the Tone"
+msgstr "Ajustar el tono"
+
 msgstr "Hasta ahora hemos cubierto tareas que se hacen sólo una vez durante el proyecto: escoger la licencia, acomodar el sitio web inicial, etc. Pero los aspectos más importantes al empezar un nuevo proyecto son dinámicos. Escoger la dirección para la lista de correos es fácil; asegurarse de que las conversaciones en ésta se mantengan en contexto y sean productivas es otro tema. Si el proyecto es abierto después de años de desarrollo cerrado propio, sus procesos de desarrollo cambiaran y habrá que preparar a los desarrolladores existentes para éste cambio."
 
 #. Tag: para
