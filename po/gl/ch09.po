@@ -8,7 +8,8 @@ msgstr ""
 "Project-Id-Version: Producing OSS\n"
 "Report-Msgid-Bugs-To: producingoss@listas.ghandalf.org\n"
 "POT-Creation-Date: 2009-07-11 15:33+0000\n"
-"PO-Revision-Date: 2009-11-01 18:20Romancl���\n"
+"PO-Revision-Date: 2009-11-08 12:55Hora el�4l\n"
+"\n"
 "Last-Translator: Roberto Vieito Raña <roberto.vieito@ghandalf.org>\n"
 "Language-Team: Galego <producingoss@listas.ghandalf.org>\n"
 "MIME-Version: 1.0\n"
@@ -868,6 +869,9 @@ msgid ""
 "existing license instead of making up a new one. There are two reasons why "
 "existing licenses are better:"
 msgstr ""
+"Cando escolles unha licenza para o teu proxecto, se é posible emprega unha "
+"licenza xa existente en lugar de crear unha nova. Hai dúas razóns polas "
+"que as licenzas existentes son mellores:"
 
 #. Tag: para
 #: ch09.xml:452
@@ -877,6 +881,10 @@ msgid ""
 "people won't feel they have to read the legalese in order to use your code, "
 "because they'll have already done so for that license a long time ago."
 msgstr ""
+"Familiaridade. Se empregas unha das tres ou catro licenzas máis populares, "
+"a xente non vai percibir a necesidade de ler os textos legais para poder "
+"empregar o teu código, xa que ese estudo legal para a licenza xa foi feito "
+"moito tempo atrás."
 
 #. Tag: para
 #: ch09.xml:457
@@ -887,6 +895,11 @@ msgid ""
 "here are the products of much thought and experience; unless your project "
 "has truly unusual needs, it is unlikely you would do better."
 msgstr ""
+"Calidade. A non ser que teñas un equipo de abogados á túa disposición, "
+"é pouco probable que enxendres unha licenza legalmente sólida. As licenzas "
+"mencionadas neste capítulo son o producto de moito traballo e experiencia; "
+"salvo que o teu proxecto teña necesidades realmente inusuaism, non é "
+"probable que o fagas mellor."
 
 #. Tag: para
 #: ch09.xml:465
@@ -896,12 +909,15 @@ msgid ""
 "quickstart-applying\"/><phrase output=\"printed\"> in <xref linkend="
 "\"getting-started\"/></phrase>."
 msgstr ""
+"Para aplicar unha destas licenzas ao teu proxecto, bótalle unha ollada a "
+"<xref linkend=\"license-quickstart-applying\"/><phrase output=\"printed\"> "
+"in <xref linkend=\"getting-started\"/></phrase>."
 
 #. Tag: title
 #: ch09.xml:470
 #, no-c-format
 msgid "The MIT / X Window System License"
-msgstr ""
+msgstr "A MIT / X Window Systema License"
 
 #. Tag: para
 #: ch09.xml:472
@@ -915,6 +931,16 @@ msgid ""
 "message is \"You are free to use this code however you want.\" It is "
 "compatible with the GNU GPL, and it is short, simple, and easy to understand:"
 msgstr ""
+"Se o teu obxectivo é que o teu código sexa accesible pola maior cantidade "
+"posible de desenvolvedores e de traballos derivados, e non che importa que o "
+"código sexa empregado en programas propietarios, entón escolle a MIT / X "
+"Window System license (así chamada debido a que é a licenza baixo a que o "
+"Instituto de Tecnoloxía de Massachusetts publicou o código do sistema X "
+"Windows orixinal). A mensaxe básica desta licenza é: \"Eres libre para "
+"empregar este código como queiras\". Esta licenza é incompatible coa GNU "
+"GPL, e é curta, sinxela e fácil de entender (NOTA: a continuación a "
+"licenza reprodúcese no seu idioma nativo, dado que para a mesma non existe "
+"tradución legalmente válida a outros idiomas):"
 
 #. Tag: screen
 #: ch09.xml:481
@@ -941,6 +967,26 @@ msgid ""
 "OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\n"
 "WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
 msgstr ""
+"Copyright (c) &lt;year&gt; &lt;copyright holders&gt;\n"
+"\n"
+"Permission is hereby granted, free of charge, to any person obtaining\n"
+"a copy of this software and associated documentation files (the\n"
+"\"Software\"), to deal in the Software without restriction, including\n"
+"without limitation the rights to use, copy, modify, merge, publish,\n"
+"distribute, sublicense, and/or sell copies of the Software, and to\n"
+"permit persons to whom the Software is furnished to do so, subject to\n"
+"the following conditions:\n"
+"\n"
+"The above copyright notice and this permission notice shall be\n"
+"included in all copies or substantial portions of the Software.\n"
+"\n"
+"THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\n"
+"EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\n"
+"MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\n"
+"NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\n"
+"LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\n"
+"OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\n"
+"WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
 
 #. Tag: para
 #: ch09.xml:483
@@ -949,12 +995,14 @@ msgid ""
 "(Taken from <ulink url=\"http://www.opensource.org/licenses/mit-license.php"
 "\"></ulink>.)"
 msgstr ""
+"(Tomada de <ulink url=\"http://www.opensource.org/licenses/mit-license.php"
+"\"></ulink>.)"
 
 #. Tag: title
 #: ch09.xml:488
 #, no-c-format
 msgid "The GNU General Public License"
-msgstr ""
+msgstr "A GNU General Public License"
 
 #. Tag: para
 #: ch09.xml:490
@@ -967,6 +1015,13 @@ msgid ""
 "widely-used free software license in the world today; this instant "
 "recognizability is itself one of the GPL's major advantages."
 msgstr ""
+"Se prefires que o código do teu proxecto non sexa empregado en programas "
+"propietarios, ou se cando menos non che importa que se poida ou non empregar "
+"en programas propietarios, escolle a GNU General Public License (<ulink url="
+"\"http://www.fsf.org/licensing/licenses/gpl.html\"></ulink>). A GPL "
+"probablemente sexa a licenza de Software Libre máis amplamente empregada no "
+"mundo hoxe en día; esta recoñecibilidade é en si mesma unha das maiores "
+"ventaxas da GPL."
 
 #. Tag: para
 #: ch09.xml:499
@@ -987,12 +1042,28 @@ msgid ""
 "understand, so if you're not going to use the GPL, I recommend just using "
 "the MIT/X-style license."
 msgstr ""
+"Cando programes unha biblioteca de código destinada principalmente a ser "
+"usada como parte doutros programas, pensa coidadosamente se as restricións "
+"impostas pola GPL están aliñadas cos obxectivos do teu proxecto. Nalgúns "
+"casos&mdash;por exemplo cando tentas desbancar unha biblioteca propietaria "
+"que fai o mesmo&mdash; é estratexicamente máis asisado licenciar o teu "
+"código de tal xeito que poida ser mezclado en programas propietarios, aí"
+"nda que esta non fora a situación que desexaras.A Free Software Foundation "
+"preparou unha alternativa á GPL precisamente para estas circunstancias: a "
+"<firstterm>GNU Library GPL</firstterm>, máis tarde renomeada como "
+"<firstterm>GNU Lesser GPL</firstterm> (de todos modos, a maioría da xente "
+"simplemente emprega o acrónimo <firstterm>LGPL</firstterm>). A LGPL ten "
+"unhas restricións menores que a GPL, e pode mezclarse dun xeito máis "
+"sinxelo con código non libre. Sen embargo, trátase dunha licenza complexa "
+"e leva algún tempo entendela, polo que se non vas empregar a GPL, recomé"
+"ndoche empregar licenzas estilo MIT/X."
 
 #. Tag: title
 #: ch09.xml:517
 #, no-c-format
 msgid "The GNU Affero GPL: A Version of the GNU GPL for Server-Side Code"
 msgstr ""
+"A GNU Affero GPL; unha Versión da GNU GPL para Código Executado en Servidor"
 
 #. Tag: para
 #: ch09.xml:519
@@ -1018,6 +1089,29 @@ msgid ""
 "have to share their changes with the world because they weren't distributing "
 "any code."
 msgstr ""
+"En 2007, a Free Software Foundation publicou unha variante da GPL chamada "
+"<firstterm>GNU Affero GPL</firstterm> (<ulink url=\"http://www.fsf.org/"
+"licensing/licenses/agpl.html\"></ulink>)<footnote><para> A historia desta "
+"licenza e do seu nome é un pouco complicada. A primeira versión da licenza "
+"foi orixinalmente publicada pola empresa Affero Inc. baseándose na versión "
+"2 da GNU GPL. Coñecíase habitualmente como a AGPL. Máis tarde, a Free "
+"Software Foundation decidiu adoptar a idea, pero por aquel entón tiñan "
+"liberada a version 3 da súa licenza GNU GPL, polo que basaron a súa "
+"licenza \"Afferizada\" na GPL v3 e chamáronlle \"GNU AGPL\". A vella "
+"licenza Affero está máis ou menos obsoleta a día de hoxe. Se queres "
+"aseguramentos e seguridades ao estilo dos que che ofrece Affero, deberías "
+"empregar a versión GNU. Para eliminar a ambigüidade, chámalle \"AGPLv3\", "
+"\"GNU AGPL\", ou con máxima precisión \"GNU AGPLv3\".</para></footnote>. O "
+"seu obxectivo é fortalecer a seguridade e garantía de que se comparte o "
+"código nesta contorna actual dun crecente número de empresas que ofrecen "
+"os seus servizos dende servidor&mdash; é dicir, software que corre nos seus "
+"servidores, co que os usuarios interactuan unicamente sobre a rede, e que "
+"nunca se distribúe directamente aos usuarios nin como código executable "
+"nin  código fonte. Un número enorme de servizos estiveron empregando "
+"software GPL, habitualmente con modificacións, sen ter que compartir os "
+"seus cambios co mundo debido a que non estaban distribuíndo ningún código "
+"(xa que o código en cuestión se executa nos seus servidores e non nos "
+"equipos dos usuarios)."
 
 #. Tag: para
 #: ch09.xml:541
@@ -1034,6 +1128,15 @@ msgid ""
 "that the GNU AGPLv3 be used for any software that will commonly be run over "
 "a network."
 msgstr ""
+"A solución aportada a isto pola GNU AGPLv3 foi coller a GPL e engadirlle "
+"unha cláusula de \"Interacción Remota por Rede\" plantexando "
+"\"<emphasis>...se ti modificas o Programa, a túa versión modificada debe "
+"ofrecerlle claramente a todos os usuarios que interactúen con el "
+"remotamente a través dunha rede de computadores... a oportunidade de "
+"recibir o Código Fonte Correspondente á túa versión... sen cargo, a "
+"través dalgún medio estándar ou personalizado para facilitar a copia de "
+"software </emphasis>\". Esta cláusula expande os poderes de potenciación "
+"da GPL no novo mundo dos fornecedores de servizos e aplicacións pola rede."
 
 #. Tag: para
 #: ch09.xml:553
@@ -1046,6 +1149,13 @@ msgid ""
 "if you need to mix with programs licensed strictly under the GPLv2 (that is, "
 "without the \"or any later version\" clause), then the AGPLv3 won't work."
 msgstr ""
+"Ten en conta que a AGPLv3 non é directamente compatible coa GPLv2 (aínda "
+"que si que é compatible coa GPLv3, por suposto). Aínda así, a maioría do "
+"software licenciado baixo a GPLv2 inclúe a cláusula \"ou calquera versión "
+"posterior\", co cal podes simplemente promocionalo á GPLv3 cando precises "
+"mezclalo con código AGPLv3. Porén, se precisas mezclar código con "
+"programas licenciados estrictamente baixo a GPLv2 (esto é, sen a cláusula "
+"\"ou calquera versión posterior\"), entón a AGPLv3 non che vai valer."
 
 #. Tag: para
 #: ch09.xml:562
@@ -1056,12 +1166,17 @@ msgid ""
 "interaction. The Wikipedia article on the AGPLv3 is excellent: <ulink url="
 "\"http://en.wikipedia.org/wiki/Affero_General_Public_License\"></ulink>"
 msgstr ""
+"Aínda que a historia da AGPLv3 é un pouco complicada, a licenza en si "
+"mesma é sinxela: é simplemente unha GPLv3 con unha cláusula extra que "
+"trata a interacción a través da rede. O artigo da Wikipedia sobre a AGPLv3 "
+"é excelente: <ulink url=\"http://en.wikipedia.org/wiki/"
+"Affero_General_Public_License\"></ulink>"
 
 #. Tag: title
 #: ch09.xml:570
 #, no-c-format
 msgid "Is the GPL free or not free?"
-msgstr ""
+msgstr "É a GPL unha licenza libre?"
 
 #. Tag: para
 #: ch09.xml:572
@@ -1078,6 +1193,17 @@ msgid ""
 "than \"less free\" (after all, who's not in favor of freedom?), it follows "
 "that those licenses are better than the GPL."
 msgstr ""
+"Unha consecuencia de escoller a GPL é a posibilidade &mdash;pequena, pero "
+"non infinitesimal&mdash; de atoparte a ti mesmo ou ao teu proxecto inmerso "
+"nunha disputa sobre se a GPL é verdadeiramente \"libre\" ou non, dado que "
+"establece algunhas restricións sobre o que podes facer co código&mdash;"
+"nomeadamente, a restrición de que o código non poida ser distribuído "
+"baixo ningunha outra licenza. Para algunha xente, a existencia desta "
+"restrición significa que a GPL é \"menos libre\" que outras licenzas máis "
+"permisivas como as licenzas tipo MIT/X. Esta argumentación normalmente "
+"apunta, por suposto, a que \"máis libre\" debe ser mellor que \"menos libre"
+"\" (despois de todo, quen non está a favor da liberdade?), ao que lle segue "
+"que esas outras licenzas son mellores que a GPL."
 
 #. Tag: para
 #: ch09.xml:584
@@ -1095,6 +1221,17 @@ msgid ""
 "little point talking about it if terminology is going to be used as a "
 "stalking horse for substance."
 msgstr ""
+"Este debate é outra popular guerra santa (bótalle unha ollada a <xref "
+"linkend=\"holy-wars\"/><phrase output=\"printed\"> in <xref linkend="
+"\"communications\"/></phrase>). Evita participar nela, cando menos nos foros "
+"do proxecto. Non intentes probar que a GPL é menos libre, tan libre ou má"
+"is libre que outras licenzas. En lugar diso, fai énfase nas razóns especí"
+"ficas polas que o teu proxecto escolleu a GPL. Se a recoñecibilidade da "
+"licenza foi unha razón, dío. Se a obriga de licenzamento libre dos "
+"traballos derivados tamén foi unha razón, dío, pero evita mezclarte en "
+"disputas sobre se esto fai o código máis ou menos \"libre\". A liberdade "
+"é un tema complexo, e é unha perda de tempo falar dela se a terminología "
+"vai ser o cabalo de batalla principal."
 
 #. Tag: para
 #: ch09.xml:597
@@ -1107,6 +1244,13 @@ msgid ""
 "freedom has always seemed to me like saying that outlawing slavery reduces "
 "freedom, because it prevents some people from owning slaves."
 msgstr ""
+"Aínda que esto é un libro e non un fío dunha rolda de correo, teño que "
+"admitir que nunca entendín o argumento \"a GPL non é libre\". A única "
+"restrición que a GPL impón é evitar que a xente impoña "
+"<emphasis>maiores</emphasis> restricións. Dicir que esto significa ter "
+"menos liberdade sempre me pareceu o mesmo que dicir que a abolición da "
+"esclavitude reduciu a liberdade porque evitou que algunha xente puidera ter "
+"esclavos."
 
 #. Tag: para
 #: ch09.xml:605
@@ -1115,12 +1259,14 @@ msgid ""
 "(Oh, and if you do get drawn into a debate about it, don't raise the stakes "
 "by making inflammatory analogies.)"
 msgstr ""
+"(Ah, e se te ves sumerxido nun debate sobre isto, non subas a aposta facendo "
+"analoxías incendiarias)."
 
 #. Tag: title
 #: ch09.xml:613
 #, no-c-format
 msgid "What About The BSD License?"
-msgstr ""
+msgstr "Que tal a Licenza BSD?"
 
 #. Tag: para
 #: ch09.xml:615
@@ -1135,6 +1281,15 @@ msgid ""
 "html#6\"></ulink>) was similar in spirit to the MIT/X license, except for "
 "one clause:"
 msgstr ""
+"Unha gran cantidade de Software Libre distribúese baixo a "
+"<firstterm>licenza BSD</firstterm> (ou algunhas veces baixo unha "
+"<firstterm>licenza estilo BSD</firstterm>). A licenza BSD orixinal foi "
+"empregada pola Berkeley Software Distribution, na que a Universidade de "
+"California publicou partes importantes dunha implementación de Unix. Esta "
+"licenza (cuxo texto exacto pode verse na sección 2.2.2 de <ulink url="
+"\"http://www.xfree86.org/3.3.6/COPYRIGHT2.html#6\"></ulink>) era similar en "
+"esencia á licenza MIT/X, excepto por unha claúsula (da que a continuación "
+"se fai unha tradución libre):"
 
 #. Tag: sect2
 #: ch09.xml:624
@@ -1165,6 +1320,30 @@ msgid ""
 "this software without specific prior written permission.</emphasis></para> </"
 "blockquote>"
 msgstr ""
+"<blockquote> <para><emphasis>Todo material publicitado que mencione "
+"características ou empregue este software debe mostrar a siguiente "
+"advertencia: \"Este produto contén software desarrollado pola Universidade "
+"de California, Lawrence Berkeley Laboratory\". </emphasis></para> </"
+"blockquote> <para>A presencia desta claúsula no só fai que a BSD sexa "
+"incompatible coa GPL, senón que tamén senta un peligroso precedente: "
+"mentras outras organizacións poñan claúsulas publicitarias similares no "
+"<emphasis>seu</emphasis> Software Libre &mdash;sustituíndo o seu propio "
+"nome en lugar de \"a Universidade de California, Lawrence Berkeley Laboratory"
+"\"&mdash; os redistribuidores do software enfréntanse a unha crecente carga "
+"en canto ao que se lles requerire a amosar. Afortunadamente, moitos dos "
+"proxectos que empregaron esta licenza déronse conta do problema, e "
+"simplemente eliminaron esta claúsula. En 1999, incluso a Universidade de "
+"California fixo esto mesmo.</para> <para>O resultado é a licenza BSD "
+"revisada, que simplemente é a licenza BSD original sen a claúsula "
+"publicitaria. Sen embargo, esta historia fai que a expresión \"licenza BSD"
+"\" sexa un pouco ambigua: refírese á orixinal, ou á versión revisada? "
+"Esto é polo que prefiro a licenza MIT/X, a cal é equivalente en esencia, e "
+"non está suxeita a ningunha ambigüidade. Sen embargo, pode que si que haxa "
+"unha razón para preferir a BSD revisada fronte á licenza MIT/X, que é que "
+"a BSD inclúe esta claúsula: </para> <blockquote> <para><emphasis>Nin o "
+"nome da &lt;ORGANIZACIÓN&gt; nin os nomes dos seus contribuíntes debe "
+"empregarse para apoiar ou promocionar produtos derivados deste software sen "
+"permiso previo explícito por escrito.</emphasis></para> </blockquote>"
 
 #. Tag: para
 #: ch09.xml:660
@@ -1178,6 +1357,14 @@ msgid ""
 "have any right to use or dilute your trademarks &mdash; copyright law and "
 "trademark law are two different beasts."
 msgstr ""
+"Non está claro que sen unha cláusula coma esta un receptor do software "
+"puidera ter o dereito de empregar o nome do autor, pero a cláusula borra "
+"calquera posible dúbida. Para organizacións preocupadas polo control das "
+"marcas comerciais, polo tanto, a licenza BSD revisada pode ser lixeiramente "
+"preferible á MIT/X. En xeral, sen embargo, unha licenza liberal de cara aos "
+"dereitos de autor non implica que os receptores teñan ningún dereito ao "
+"uso ou diluimento das túas marcas comerciais &mdash; a lexislación dos "
+"dereitos de autor e das marcas comerciais son dúas lexislacións distintas."
 
 #. Tag: para
 #: ch09.xml:669
@@ -1186,12 +1373,14 @@ msgid ""
 "If you wish to use the revised BSD license, a template is available at "
 "<ulink url=\"http://www.opensource.org/licenses/bsd-license.php\"></ulink>."
 msgstr ""
+"Se queres empregar a licenza BSD revisada, tes dispoñible unha plantilla en "
+"<ulink url=\"http://www.opensource.org/licenses/bsd-license.php\"></ulink>."
 
 #. Tag: title
 #: ch09.xml:678
 #, no-c-format
 msgid "Copyright Assignment and Ownership"
-msgstr ""
+msgstr "Asignación e Propiedade dos Dereitos de Autor (Copyright)"
 
 #. Tag: para
 #: ch09.xml:680
@@ -1210,6 +1399,22 @@ msgid ""
 "owner for everything. This is the most legally airtight way, but it's also "
 "the most burdensome for contributors; only a few projects insist on it."
 msgstr ""
+"Hai tres xeitos de manexar a propiedade dos dereitos de autor para o código "
+"e documentación libres contribuídos por varias persoas. O primeiro é "
+"ignorando complemente a cuestión dos dereitos de autor (non o recomendo), O "
+"segundo xeito é recollendo un <firstterm>acordo de licenza do contribuí"
+"nte</firstterm> (<firstterm>CLA</firstterm> en inglés, xa que provén de "
+"<firstterm>contributor license agreement</firstterm>) por parte de cada "
+"persoa que traballa no proxecto, no cal se garanta explicitamente o dereito "
+"do proxecto a empregar a contribución desa persoa. Esto normalmente é "
+"suficiente para a maioría dos proxectos, e o positivo é que en varias "
+"xurisdiccións, os CLAs poden enviarse por correo electrónico. O terceiro "
+"xeito é obter asignacións de dereitos de autor por parte dos contribuí"
+"ntes, de forma que o proxecto (por exemplo, unha entidade legal, "
+"habitualmente sen ánimo de lucro) sexa o propietario dos dereitos de autor. "
+"Este é o xeito legalmente máis hermético, pero tamén é o xeito máis "
+"traballoso/gravoso para os contribuíntes; só uns pouco proxectos insiten "
+"neste xeito."
 
 #. Tag: para
 #: ch09.xml:693
@@ -1219,6 +1424,10 @@ msgid ""
 "designed for the United States may encounter problems elsewhere (e.g., in "
 "Germany, where it's apparently not possible to transfer copyright)."
 msgstr ""
+"Hai que ter en conta que a transferencia dos dereitos de autor está suxeita "
+"ás leis nacionais, e que as licenzas deseñadas para os Estados Unidos "
+"poden atopar problemas noutros lugares (por exemplo, en Alemaña, onde "
+"aparentemente non é posible transferir os dereitos de autor)."
 
 #. Tag: para
 #: ch09.xml:698
@@ -1236,12 +1445,25 @@ msgid ""
 "Because they know they can do this, most contributors cooperate when asked "
 "to sign a CLA or an assignment of copyright."
 msgstr ""
+"Hai que ter presente que incluso baixo unha propiedade centralizada dos "
+"dereitos de autor, o código <footnote><para>vou empregar \"código\" para "
+"referirme tanto ao código fonte como á documentación, a partir de agora.</"
+"para></footnote> permanece libre, xa que as licenzas de Software Libre non "
+"lle dan ao titular dos dereitos de autor o dereito de apropiarse "
+"retroactivamente de todas as copias do código. Debido a isto, incluso se o "
+"proxecto, como entidade legal, de repente dera un xiro e comezase a "
+"distribuír todo o código baixo unha licenza restritiva, esto non lle "
+"causaría un problema á comunidade pública. Os outros desenvolvedores "
+"comezarían unha bifurcación/fork baseándose na última copia libre do "
+"código, e continuarían como se nada pasase. Como os desenvolvedores saben "
+"que poden facelo, a maioría dos contribuíntes cooperan cando se lles pide "
+"que asinen un CLA ou que fagan unha transferencia dos dereitos de autor."
 
 #. Tag: title
 #: ch09.xml:712
 #, no-c-format
 msgid "Doing Nothing"
-msgstr ""
+msgstr "Non facer nada"
 
 #. Tag: para
 #: ch09.xml:714
@@ -1251,6 +1473,10 @@ msgid ""
 "contributors. Instead, they accept code whenever it seems reasonably clear "
 "that the contributor intended it to be incorporated into the project."
 msgstr ""
+"Moitos proxectos nunha recollen CLAs ou transferencias de dereitos de autor "
+"dos seus contribuíntes. En lugar disto, simplemente aceptan código cando "
+"pareza razonablemente claro que o contribuínte ten a intención de que se "
+"inclúa no proxecto."
 
 #. Tag: para
 #: ch09.xml:719
@@ -1266,12 +1492,22 @@ msgid ""
 "that the contributor formally granted the right to use the code, which could "
 "make some legal defenses more difficult."
 msgstr ""
+"Baixo circunstancias normais, esto é suficiente. Pero de cando en cando, "
+"alguén pode decidir demandar por infrinximento dos seus dereitos de autor, "
+"alegando que é o auténtico propietario do código en cuestión, e que "
+"nunca estivo dacordo en que fose distribuído polo proxecto baixo unha "
+"licenza Software Libre. Por exemplo, o Grupo SCO fíxolle algo similar ao "
+"proxecto Linux, bótalle unha ollada a <ulink url=\"http://en.wikipedia.org/"
+"wiki/SCO-Linux_controversies\"></ulink> para coñecer os detalles. Cando "
+"esto pase, o proxecto non vai ter documentación na que se observe que o "
+"contribuínte formalmente concedeu o dereito de uso do código, o que vai "
+"dificultar a defensa legal."
 
 #. Tag: title
 #: ch09.xml:734
 #, no-c-format
 msgid "Contributor License Agreements"
-msgstr ""
+msgstr "Acordos de Licenza do Contribuínte (Contributor License Agreements)"
 
 #. Tag: para
 #: ch09.xml:736
@@ -1283,6 +1519,12 @@ msgid ""
 "digital signature may or may not be required; consult a lawyer to find out "
 "what method would be best for your project."
 msgstr ""
+"Os CLAs probablemente afrezan o mellor compromiso entre seguridade e "
+"conveniencia. Un CLA adoita ser un formulario electrónico que un "
+"desenvolvedor cubre e lle envía ao proxecto. En moitas xurisdiccións, o "
+"envío vía correo electrónico é suficiente. Unha sinatura dixital segura "
+"pode ou non ser precisa; consulta a un abogado para atopar que método é o "
+"mellor para o teu proxecto."
 
 #. Tag: para
 #: ch09.xml:743
@@ -1297,6 +1539,15 @@ msgid ""
 "derivative works.\"</emphasis> Again, you should have a lawyer approve any "
 "CLA, but if you get all those adjectives into it, you're probably fine."
 msgstr ""
+"Moitos proxectos empregan dous tipos lixeiramente distintos de CLAs, un para "
+"individuos e outro para contribuíntes corporativos. Aínda así, en ambos "
+"casos o linguaxe central é o mesmo: o contribuínte garántelle ao proxecto "
+"<emphasis>\"perpetuo, mundial, non exclusivo, sen cargo, libre de regalías "
+"por dereitos de autor, licenza de copyright irrevogable para reproducir, "
+"facer traballos derivados, mostrar publicamente, executar publicamente, "
+"sublicenzar, e distribuir as contribucións e os traballos derivados.\"</"
+"emphasis>. Unha vez máis, debes ter un abogado para aprobar calquera CLA, "
+"pero se introduces todos estes adxectivos no mesmo, probablemente vai ben."
 
 #. Tag: para
 #: ch09.xml:754
@@ -1306,6 +1557,10 @@ msgid ""
 "<emphasis>not</emphasis> asking for actual copyright assignment. In fact, "
 "many CLAs start out by reminding the reader of this:"
 msgstr ""
+"Cando solicites CLAs por parte dos teus contribuíntes, asegúrate de "
+"resaltar que ti <emphasis>non</emphasis> estás solicitando unha "
+"transferencia/asignación de dereitos de autor. De feito, moitos CLAs "
+"comezan recordándolle ao lector o seguinte:"
 
 #. Tag: emphasis
 #: ch09.xml:760
@@ -1315,30 +1570,33 @@ msgid ""
 "and does not change your rights to use your own Contributions for any other "
 "purpose."
 msgstr ""
+"Esto só é un acordo de licenza; non transfire a propiedade dos dereitos de "
+"autor e non cambia os teus dereitos de empregar a túa propia Contribución "
+"para calquera propósito."
 
 #. Tag: para
 #: ch09.xml:765
 #, no-c-format
 msgid "Here are some examples:"
-msgstr ""
+msgstr "Aquí van algúns exemplos:"
 
 #. Tag: para
 #: ch09.xml:768
 #, no-c-format
 msgid "Individual contributor CLAs:"
-msgstr ""
+msgstr "CLA para contribuínte individual:"
 
 #. Tag: para
 #: ch09.xml:778
 #, no-c-format
 msgid "Corporate contributor CLAs:"
-msgstr ""
+msgstr "CLA para contribuínte Corporativo:"
 
 #. Tag: title
 #: ch09.xml:793
 #, no-c-format
 msgid "Transfer of Copyright"
-msgstr ""
+msgstr "Transferencia dos Dereitos de Autor"
 
 #. Tag: para
 #: ch09.xml:795
@@ -1348,6 +1606,10 @@ msgid ""
 "copyright ownership on her contributions. Ideally, this is done on paper and "
 "either faxed or snail-mailed to the project."
 msgstr ""
+"A transferencia dos dereitos de autor significa que o contribuínte lle "
+"asigna ao proxecto a titularidade e propiedade dos dereitos de autor sobre "
+"as súas contribucións. Idealmente, esto faise en papel e envíaselle por "
+"fax ou correo postal ao proxecto."
 
 #. Tag: para
 #: ch09.xml:799
@@ -1359,6 +1621,13 @@ msgid ""
 "has the right to do it, all the contributors might have to cooperate, but "
 "some might not have time or even be reachable when the issue arises."
 msgstr ""
+"Algúns proxectos insisten na asignación completa debido a que ter unha ú"
+"nica entidade legal como propietaria dos dereitos de autor de todo o código "
+"fonte pode ser útil se os termos da licenza Software Libre algunha vez "
+"deben facerse valer nun xulgado. Se non existe unha entidade única que "
+"teña o dereito de facelo, todos os contribuíntes deberían cooperar, pero "
+"algúns poderían non ter o tempo preciso, ou ser imposible contactar con "
+"eles cando xurda a cuestión."
 
 #. Tag: para
 #: ch09.xml:806
@@ -1379,6 +1648,23 @@ msgid ""
 "one contribution, sometimes for current and future contributions. If the "
 "developer is employed, the FSF asks that the employer sign it too."
 msgstr ""
+"Distintas organizacións aplican un grao de rigor diferente na tarefa da "
+"recolección das asignacións. Algunha simplemente obteñen un manifesto "
+"informal do contribuínte nunha rolda de correo pública &mdash; algo na "
+"liña de \"Po-la presente asígnolle os dereitos de autor deste código ao "
+"proxecto, para que sexa licenciado baixo os mesmo termos que o resto do "
+"código\". Cando menos un dos avogados cos que falei dixo que esto é "
+"suficiente, presumiblemente porque sucede nun contexto no que as "
+"asignacións dos dereitos de autor son normais e esperadas, así como porque "
+"representa un esforzo de boa fe por parte do proxecto para averiguar as "
+"intencións reais do desenvolvedor. Por outra banda, a Free Software "
+"Foundation está no outro extremo: requírelle aos contribuíntes a sinatura "
+"e envío físico por correo postal dun anaco de papel que conteña unha "
+"manifestación formal da transferencia dos dereitos de autor, ás veces só "
+"por unha contribución, ás veces para todas as contribucións presentes e "
+"futuras. Se o desenvolvedor é empregado seu, a FSF pídelle que o asine "
+"igu\n"
+"almente."
 
 #. Tag: para
 #: ch09.xml:823
@@ -1394,12 +1680,16 @@ msgid ""
 "specific reason why your project needs full copyright assignment, just go "
 "with CLAs; they're easier for everyone."
 msgstr ""
+"A paranoia da FSF é comprensible. Se alguén viola os termos da GPL "
+"incorporando algún do seu software nun programa propietario, a FSF vai ter "
+"que ir a xuizo, e van querer ter os seus dereitos de autor tan blindados "
+"como sexa posible cando esto suceda."
 
 #. Tag: title
 #: ch09.xml:840
 #, no-c-format
 msgid "Dual Licensing Schemes"
-msgstr ""
+msgstr "Esquemas de Licenzamento Dual"
 
 #. Tag: para
 #: ch09.xml:842
@@ -1419,6 +1709,21 @@ msgid ""
 "licensing strategy, described at <ulink url=\"http://www.oracle.com/"
 "technology/software/products/berkeley-db/htdocs/licensing.html\"></ulink>."
 msgstr ""
+"Algúns proxectos tentan financiarse empregando un esquema de licenzamento "
+"dual no cal os traballos derivados propietarios deben pagarlle ao "
+"propietario dos dereitos de autor para ter o dereito de usar o código, pero "
+"o código segue sendo libre para o seu uso por proxectos software libre. "
+"Esto tende a funcionar mellor con bibliotecas de código que con "
+"aplicacións de escritorio, naturalmente. Os termos exactos difiren entre os "
+"distintos casos. A GNU GPL adoita ser a licenza para o lado libre, dado que "
+"evita que terceiros poidan incorporar o código cuberto dentro de produtos "
+"propietarios sen o permiso do titular dos dereitos de autor, pero ás veces "
+"emprégase unha licenza personalizada que ten o mesmo efecto. Un exemplo do "
+"primeiro é a licenza de MySQL, descrita en <ulink url=\"http://www.mysql."
+"com/company/legal/licensing/\"></ulink>; un exemplo do segundo é a "
+"estratexia de licenzamento do Software de Sleepycat, descrita en <ulink url="
+"\"http://www.oracle.com/technology/software/products/berkeley-db/htdocs/"
+"licensing.html\"></ulink>."
 
 #. Tag: para
 #: ch09.xml:858
@@ -1436,6 +1741,18 @@ msgid ""
 "right to do this is not tied to the GPL or any other open source license; it "
 "is simply a power granted by copyright law."
 msgstr ""
+"Estaraste preguntando: como pode o titular dos dereitos de autor ofrecer "
+"licenzas propietarias a cambio dun pago obrigatorio se os termos da GNU GPL "
+"estipulan que o código debe esar dispoñible baixo termos menos "
+"restrictivos? A resposta é que os termos da GPL son algo que o titular dos "
+"dereitos de autor lle impón ao resto da xente; polo cal o propietario é "
+"libre de decidir <emphasis>non</emphasis> aplicarse esos termos a si mesmo. "
+"Un bo xeito de pensalo é imaxinando que o titular dos dereitos de autor ten "
+"un número infinito de copias do software gardadas nunha artesa. Cada vez "
+"que saca unha da artesa para darlla ao mundo, pode decidir que licenza lle "
+"pon: GPL, propietaria ou calquera outra. O seu dereito a facelo non está "
+"restrinxido pola GPL ou por ningunha outra licenza Software Libre: "
+"simplemente é un poder que lle vén garantido pola lei de dereitos de autor."
 
 #. Tag: para
 #: ch09.xml:871
@@ -1457,6 +1774,22 @@ msgid ""
 "that contributors are starkly confronted with the fact that they are doing "
 "work that makes money for someone else."
 msgstr ""
+"O atractivo do licenzamento dual é que, no mellor caso, fornece un medio "
+"para obter un caudal de ingresos fiable para un proxecto de Software Libre. "
+"Desafortunadamente, á súa vez tamén pode interferir coas dinámicas "
+"normais dos proxectos de Software Libre. O problema está en que calquera "
+"voluntario que faga unha contribución de código está a contribuír cara "
+"dúas entidades distintas: a versión libre do código e maila versión "
+"propietaria. Mentras que o contribuínte se vai sentir cómodo contribuíndo "
+"á versión libre, pode non sentirse cómodo de contribuír á fonte de "
+"ingresos semi-propietaria dun terceiro. A incomodidade exacérbase polo "
+"feito de que no licenzamento dual, o titular dos dereitos de autor realmente "
+"precisa obter formalmente unha tranferencia asinada de dereitos de autor por "
+"parte de tódolos contribuíntes, coa fin de protexerse a si mesmo dun "
+"contribuínte disgustado reclamando un porcentaxe das regalías obtidas da "
+"fonte de ingresos propietaria. O proceso de recollida destas transferencias "
+"implica que os contribuíntes se enfrenten ao feito de que están a facer "
+"traballo que redunda en cartos para un terceiro alleo a eles mesmos."
 
 #. Tag: para
 #: ch09.xml:888
@@ -1469,6 +1802,13 @@ msgid ""
 "have, and is thus bound to raise tensions at some point, at least with some "
 "volunteers."
 msgstr ""
+"Non todos os voluntarios se van sentir molestos por isto; despois de todo, "
+"as súas contribucións tamén se incorporan na edición Software Libre, e "
+"aí é onde reside o seu principal interese. Non obstante, o licenzamento "
+"dual é un exemplo do titular dos dereitos de autor asignándose a si mesmo "
+"un dereito especial que o resto dos integrantes do proxecto non teñen, e "
+"esto pode provocar o xurdimento de tensións nalgúns momentos, cando menos "
+"con algúns voluntarios."
 
 #. Tag: para
 #: ch09.xml:895
@@ -1488,12 +1828,26 @@ msgid ""
 "rate, MySQL does not seem to be having acceptance problems either in the "
 "open source world or beyond."
 msgstr ""
+"O que parece ocorrer na práctica é que as empresas baseadas en software "
+"con licenzamento dual realmente non teñen comunidades de desenvolvemento "
+"igualitarias. Obteñen correccións de erros a pequena escala e parches de "
+"limpeza dende recursos externos, pero rematan por facer a maior parte do "
+"traballo duro mediante recursos internos. Por exemplo, Zack Urlocker, "
+"vicepresidente de marketing en MySQL, díxome que a empresa de todos xeitos "
+"xeralmente remata por contratar os voluntarios máis activos. Así, aínda "
+"que o produto en si mesmo é Sofware Libre, licenciado baixo a GPL, o seu "
+"desenvolvemento é máis ou menos controlado dende a empresa, aínda que coa "
+"posibilidade (extremadamente pouco probable) de que alguén realmente "
+"insatisfeito coa xestión da empresa decida facer un fork do proxecto. "
+"Descoñécese cómo as políticas da empresa se amoldan a esta amenaza, pero "
+"en calquera caso, MySQL non parece ter problemas de aceptación ni no mundo "
+"do Software Libre nin máis alá deste."
 
 #. Tag: title
 #: ch09.xml:914
 #, no-c-format
 msgid "Patents"
-msgstr ""
+msgstr "Patentes"
 
 #. Tag: para
 #: ch09.xml:916
@@ -1509,6 +1863,16 @@ msgid ""
 "inconvenience, it wouldn't matter in the long run, since the code itself "
 "would still do what it always did."
 msgstr ""
+"As patentes do software son a vareada da momento ao Software Libre, porque "
+"supoñen a única ameaza contra a que a comunidade do Software Libre non se "
+"pode defender por si mesma. Os problemas dos dereitos de autor e das marcas "
+"comerciais sempre poden ser evitarse .Se unha parte do teu código parece "
+"que pode infrinxir os dereitos de autor dun terceiro, ti podes simplemente "
+"reescribir esa parte. Se resulta que alguén ten rexistrado como marca "
+"comercial o nome do teu proxecto, no peor caso podes simplemente renomear o "
+"proxecto. A pesar de que o cambio de nome poida supoñer temporalmente un "
+"contratempo, non vai importar no largo prazo, dado que o código en si mesmo "
+"vai seguir facendo o que sempre fixo."
 
 #. Tag: para
 #: ch09.xml:927
@@ -1528,6 +1892,21 @@ msgid ""
 "starting to code defensively, avoiding patented algorithms in advance even "
 "when they are the best or only available solution to a programming problem."
 msgstr ""
+"Pero unha patente é un mandamento global contra a implementación de "
+"determinada ideas. Non lle importa quen escribira o código, nin que "
+"linguaxe de programación fora empregada. Unha vez que alguén teña acusado "
+"a un proxecto de Software Libre do infrinximento dunha patente, o proxecto "
+"debe ou ben parar de implementar esa característica particular, ou ben "
+"enfrentarse a un caro e longo proceso xudicial. Dado que os intigadores "
+"destes xuízos adoitan ser corporacións con grandes bolsillos&mdash;"
+"precisamente son eles quen teñen os recursos e afinidades precisas para "
+"patentar nun primeiro termo&mdash;a maioría dos proxectos de Software Libre "
+"non poden afrontar a segunda opción, polo que se rinden inmediatamente aí"
+"nda que pensen que a patente podería inutilizarse nun xuízo. Para evitar "
+"chegar a esta situación nun primeiro lugar, os proxectos de Software Libre "
+"están comezando a codificar defensivamente, eliminando algoritmos "
+"patentados xa de primeiras, incluso cando son a mellor ou única solución "
+"para un problema de programación."
 
 #. Tag: para
 #: ch09.xml:941
@@ -1541,6 +1920,14 @@ msgid ""
 "the grants make them truly free for use by any open source project, it would "
 "still be only a drop in the bucket."
 msgstr ""
+"Sun Microsystems e IBM polo menos teñen feito un xesto cara este problema "
+"dende a outra dirección, mediante a liberación dun gran número de "
+"patentes de software&mdash;1600 e 500 respectivamente&mdash;para o uso pola "
+"comunidade de Software Libre. Non son un avogado e por iso non podo evaluar "
+"a utilidade real destas concesións, pero incluso se todas elas son patentes "
+"importantes, e os termos das concesións permiten que realmente sexan de uso "
+"libre por calquera proxecto de Software Libre, non deixaría de ser unha lá"
+"grima no océano."
 
 #. Tag: para
 #: ch09.xml:950
@@ -1560,6 +1947,21 @@ msgid ""
 "infringement suit against your organization. This is not only the right "
 "thing to do, it's also good open source public relations."
 msgstr ""
+"Tanto as enquisas, como a evidencia anecdótica, amosan que non só a "
+"inmensa maioría dos programadores de software libre, senón que a maioría "
+"de <emphasis>todos</emphasis> os programadores pensan que as patentes de "
+"software deberían ser totalmente abolidas. <footnote><para>Bótalle unha "
+"ollada a <ulink url=\"http://groups.csail.mit.edu/mac/projects/lpf/Whatsnew/"
+"survey.html\"></ulink> para ver unha esquisa deste estilo.</para></footnote> "
+"Os programadores de Software Libre están moi convencidos disto, e poderían "
+"rexeitar traballar en proxectos que están demasiado proximamente asociados "
+"coa recolección ou fomento das patentes do software. Se a túa "
+"organización recolecta patentes de software, fai público dun xeito "
+"irrevogable que as patentes nunca se aplicarían contra proxectos de "
+"software libre, e que unicamente se empregarían como defensa en caso de que "
+"outra parte comezara un proceso de infrinximento de patentes contra a túa "
+"organización. Esto non é soamente o máis correcto que podes facer, tamén "
+"é algo bo para as túas relacións co Software Libre."
 
 #. Tag: para
 #: ch09.xml:964
@@ -1569,6 +1971,9 @@ msgid ""
 "patents, see <ulink url=\"http://www.redhat.com/legal/patent_policy.html\"></"
 "ulink>."
 msgstr ""
+"Por exemplo, Red Hat prometeu que os proxectos de Software Libre están "
+"seguros fronte ás súas patentes, tal como podes ver en <ulink url=\"http://"
+"www.redhat.com/legal/patent_policy.html\"></ulink>."
 
 #. Tag: para
 #: ch09.xml:969
@@ -1583,6 +1988,15 @@ msgid ""
 "cross-licensing deal so that neither of them has to pay anything, except to "
 "their intellectual property lawyers of course."
 msgstr ""
+"Desafortunadamente, a recolección de patentes por propósitos defensivos é "
+"unha acción racional. O sistema de patentes actual, cando menos nos Estados "
+"Unidos, é por natureza unha carreira armamentística: se a túa competencia "
+"adquireu unha morea de patentes, entón a túa mellor defensa é que ti tamé"
+"n adquiras outra morea de patentes, de xeito que se ten encausan por "
+"infrinxir unha patente ti poidas responder con unha ameaza similar&mdash;"
+"neste caso as dúas partes adoitan sentarse e traballar nun acordo de cruce "
+"de patentes para que ningunha das dúas partes teña que pagar nada, excepto "
+"aos seus avogados especialistas en propiedade intelectual, por suposto."
 
 #. Tag: para
 #: ch09.xml:979
@@ -1612,6 +2026,32 @@ msgid ""
 "written admission from a primary source that it is going on; I learned it "
 "through a personal communication.)"
 msgstr ""
+"O dano feito ao Software Libre polas patentes do software é máis insidioso "
+"que unicamente as ameazas directas ao desenvolvemento de software. As "
+"patentes de software fomentan unha atmósfera de secretismo entre os "
+"deseñadores de <foreignphrase>firmware</foreignphrase>, os cales están "
+"(xustificadamente) preocupados de publicar detalles das súas interfaces que "
+"lle dean axuda técnica á súa competencia na súa procura de golpealos con "
+"xuízos de infrinximento de patentes. Esto non é só un perigo teórico: "
+"aparentemente está sucedendo dende fai tempo na industria das tarxetas grá"
+"ficas, por exemplo. Moitos fabricantes de tarxetas gráficas son reticentes "
+"a publicar as especificacións programáticas precisas para producir drivers "
+"de fontes abertas de alto rendementos para as tarxetas, provocando que sexa "
+"imposible para os sistemas operativos libres darlle soporte a esas tarxetas "
+"para desplegar completamente o seu potencial. Por que farían esto os "
+"fabricantes? Para eles non ten sentido traballar <emphasis>contra</emphasis> "
+"o soporte software; despois de todo, a compatibilidade con máis sistemas "
+"operativos só pode supor unha maior venta de tarxetas. Pero resulta que "
+"tras da porta de deseño, estos fabricantes están violando patentes de "
+"outros, algunhas veces deliberadamente e outras veces accidentalmente. As "
+"patentes son tan impredecibles e potencialmente tan extensas que ningún "
+"fabricante de tarxetas nunca pode estar seguro, incluso despois de ter feita "
+"unha procura de patentes. Debido a isto, os fabricantes non se atreven a "
+"publicar a especificación completa de interfaces, dado que podería "
+"facerlle máis sinxelo á competencia supor se algunha patente está sendo "
+"infrinxida. (Por suposto, a natureza desta situación é tal que non vas "
+"atopar ningunha declaración escrita de ningunha fonte primaria acerca do "
+"que está a ocorrer: esto seino a través de comunicacións persoais)."
 
 #. Tag: para
 #: ch09.xml:1005
@@ -1621,6 +2061,15 @@ msgid ""
 "discourage, software patents. The GNU GPL, for example, contains this "
 "language:"
 msgstr ""
+"Algunhas licenzas Software Libre teñen cláusulas especiais para combatir, "
+"ou cando menos frenar, as patentes de software. A GNU GPL, por exemplo, "
+"contén o seguinte (Ten en conta que a continuación faise unha traducción "
+"NON oficial da \"GNU General Public License\" ao galego. Esta tradución non "
+"foi publicada po-la \"FSF Free Software Foundation\", e non respalda "
+"legalmente os termos de distribución do software que empregue a \"GNU GPL"
+"\", só o fai o texto orixinal en inglés. Sen embargo esperamos que esta "
+"tradución lle axude ás persoas galegofalantes a entender mellor a \" GNU "
+"GPL\".):"
 
 #. Tag: screen
 #: ch09.xml:1009
@@ -1652,6 +2101,39 @@ msgid ""
 "to distribute software through any other system and a licensee cannot\n"
 "impose that choice."
 msgstr ""
+"7. Se como consecuencia dun veredicto dun xulgado \n"
+"ou polo alegato de infrinxir unha patente ou por calquera \n"
+"outra razón (non limitada unicamente a cuestións de patentes) \n"
+"se impoñen condicións sobre vostede que contradigan os \n"
+"termos e condicións desta Licenza, estas non lle \n"
+"excusan dos termos e condicións aquí descritos. \n"
+"Se vostede non puede distribuír o produto cumprindo \n"
+"totalmente coas obrigas concernintes á \n"
+"resolución oficial e ao mesmo tempo coas obrigas\n"
+"que se describen neste contrato de Licenza, entón \n"
+"non poderá distribuír máis este produto. Por exemplo, se \n"
+"unha licenza de patente non permitira a distribución do \n"
+"Programa de forma libre de regalías (sen pago de regalías)\n"
+"por parte de quen os reciban directa o indirectamente, \n"
+"entón a única forma de cumprir con ambas obrigas \n"
+"é renunciar á distribución do mesmo.\n"
+"\n"
+"[...]\n"
+"\n"
+"A intención desta sección non é l de inducilo a \n"
+"infrinxir ningunha lei de patentes, nin tampoco infrinxir \n"
+"algún reclamo de dereitos, nin discutir a validez de \n"
+"tales reclamos; esta sección ten o único propósito \n"
+"de protexer a integridade do sistema de distribución \n"
+"do Software Libre, que está implementado por prácticas \n"
+"de licenza pública. Moita xente ten feito xenerosas \n"
+"contribucións á ampla gama de software distribuído \n"
+"baixo este sistema favorecendo así a constante aplicación \n"
+"deste sistema de distribución; é decisión do \n"
+"autor/donante se o seu Programa será distribuído empregando \n"
+"este ou outro sistema de distribución, e la persoa que \n"
+"recibe o software non pode obligalo a facer ningunha \n"
+"elección en particular."
 
 #. Tag: para
 #: ch09.xml:1011
@@ -1666,6 +2148,16 @@ msgid ""
 "automatically terminating their implicit patent license the moment such a "
 "claim is made:"
 msgstr ""
+"A Apache License, Versión 2.0 (<ulink url=\"http://www.apache.org/licenses/"
+"LICENSE-2.0\"></ulink>) tamén contén requisitos anti-patentes. Primeiro, "
+"estipula que calquera que distribúa código baixo esta licenza debe "
+"implicitamente incluír unha licenza libre de regalías para calquera "
+"patente que puidera ostentar e que se puidera aplicar ao código. Segundo, e "
+"máis inxenioso, castiga a calquera que comece un proceso por infrinximento "
+"de patentes sobre o código cuberto, rematando automáticamente a súa "
+"licenza de patente implícita no momento no que se faga a devandita "
+"reclamación (a continuación transcríbese en idioma orixinal a cláusula "
+"en cuestión, posto que é a única versión con validez legal):"
 
 #. Tag: screen
 #: ch09.xml:1021
@@ -1687,6 +2179,21 @@ msgid ""
 "License for that Work shall terminate as of the date such litigation\n"
 "is filed."
 msgstr ""
+"3. Grant of Patent License. Subject to the terms and conditions of\n"
+"this License, each Contributor hereby grants to You a perpetual,\n"
+"worldwide, non-exclusive, no-charge, royalty-free, irrevocable (except\n"
+"as stated in this section) patent license to make, have made, use,\n"
+"offer to sell, sell, import, and otherwise transfer the Work, where\n"
+"such license applies only to those patent claims licensable by such\n"
+"Contributor that are necessarily infringed by their Contribution(s)\n"
+"alone or by combination of their Contribution(s) with the Work to\n"
+"which such Contribution(s) was submitted. If You institute patent\n"
+"litigation against any entity (including a cross-claim or counterclaim\n"
+"in a lawsuit) alleging that the Work or a Contribution incorporated\n"
+"within the Work constitutes direct or contributory patent\n"
+"infringement, then any patent licenses granted to You under this\n"
+"License for that Work shall terminate as of the date such litigation\n"
+"is filed."
 
 #. Tag: para
 #: ch09.xml:1023
@@ -1704,12 +2211,25 @@ msgid ""
 "the arguments against software patents, at <ulink url=\"http://www.rants."
 "org/2007/05/01/how-to-tell-that-software-patents-are-a-bad-idea/\"></ulink>."
 msgstr ""
+"Aínda que é util, tanto legal como politicamente, contruír defensas "
+"contras as patentes para as licenzas de software libre, ao final estos pasos "
+"non son suficientes para anular os efectos nocivos que a ameaza das patentes "
+"ten sobre o Software Libre. Só cambios na substancia ou interpretación da "
+"lei internacional de patentes poderían facer isto. Para aprender máis "
+"sobre este problema, e como se está combatindo, diríxite a <ulink url="
+"\"http://www.nosoftwarepatents.com/\"></ulink>. O artigo da Wikipedia "
+"inglesa <ulink url=\"http://en.wikipedia.org/wiki/Software_patent\"></"
+"ulink>, así como os respectivos artigos noutros idiomas como o galego, tamé"
+"n teñen moita información útil sobre patentes de software. Escribín unha "
+"entrada no meu blog resumindo os argumentos en contra das patentes de "
+"software en <ulink url=\"http://www.rants.org/2007/05/01/how-to-tell-that-"
+"software-patents-are-a-bad-idea/\"></ulink>."
 
 #. Tag: title
 #: ch09.xml:1040
 #, no-c-format
 msgid "Further Resources"
-msgstr ""
+msgstr "Recursos Adicionais"
 
 #. Tag: para
 #: ch09.xml:1042
@@ -1721,6 +2241,12 @@ msgid ""
 "will quickly exhaust what this book can provide. Here is a list of further "
 "resources on open source licensing:"
 msgstr ""
+"Este capítulo só foi unha introducción ás cuestións do licenzamento do "
+"Software Libre. Aínda así, espero que conteña información abondo para "
+"que poidas comezar o teu propio proxecto de Software Libre. Calquera "
+"investigación seria sobre cuestións de licenzamento pode facilmente "
+"aumentar a información que este libro pode fornecer. Aquí vai unha lista "
+"de recursos adicionais sobre licenzamento de Software Libre:"
 
 #. Tag: para
 #: ch09.xml:1050
@@ -1730,6 +2256,9 @@ msgid ""
 "by Andrew M. St. Laurent. Published by O'Reilly Media, first edition August "
 "2004, ISBN:&nbsp;0-596-00581-4."
 msgstr ""
+"<citetitle>Understanding Open Source and Free Software Licensing</citetitle> "
+"por Andrew M. St. Laurent. Publicado por O'Reilly Media, primeira edición "
+"en Agosto de 2004, ISBN:&nbsp;0-596-00581-4."
 
 #. Tag: para
 #: ch09.xml:1055
@@ -1739,6 +2268,10 @@ msgid ""
 "including many topics omitted from this chapter. See <ulink url=\"http://www."
 "oreilly.com/catalog/osfreesoft/\"></ulink> for details."
 msgstr ""
+"Este é un libro completo sobre licenciamiento de software libre en toda a "
+"súa complexidade, incluíndo moitos temas omitidos neste capítulo. "
+"Bótalle unha ollada a <ulink url=\"http://www.oreilly.com/catalog/"
+"osfreesoft/\"></ulink> para máis detalles."
 
 #. Tag: para
 #: ch09.xml:1062
@@ -1748,6 +2281,9 @@ msgid ""
 "citetitle> by David A. Wheeler, at <ulink url=\"http://www.dwheeler.com/"
 "essays/gpl-compatible.html\"></ulink>."
 msgstr ""
+"<citetitle>Make Your Open Source Software GPL-Compatible. Or Else.</"
+"citetitle> por David A. Wheeler, en <ulink url=\"http://www.dwheeler.com/"
+"essays/gpl-compatible.html\"></ulink>."
 
 #. Tag: para
 #: ch09.xml:1067
@@ -1758,6 +2294,10 @@ msgid ""
 "also touches on many other licensing questions, and has a high density of "
 "excellent links."
 msgstr ""
+"Este é un artigo detallado e ben escrito sobre a importancia de empregar "
+"unha licenza GPL compatible incluso se non empregas a GPL en si mesma. O "
+"artigo tamén toca moitas outras cuestións relativas ao licenzamento, e ten "
+"unha alta densidade de enlaces excelentes."
 
 #. Tag: para
 #: ch09.xml:1076
@@ -1773,3 +2313,13 @@ msgid ""
 "had to pick one site to demonstrate the broader philosophical implications "
 "of the free software movement, this would be it."
 msgstr ""
+"Creative Commons é unha organización que fomenta unha familia de dereitos "
+"de autor máis flexibles e liberais que os potenciados polos dereitos de "
+"autor tradicionais. Ofrecen licenzas non só para software, senón tamén "
+"para texto, arte, e música, todas accesibles mediante selectores amigables "
+"de licenza; algunha das licenzas son copyleft, algunhas non son copyleft "
+"pero son libres, outras son simplemente licenzas tradicionais con algunhas "
+"restricións aminoradas. O sitio web de Creative Commons dá unhas "
+"explicacións extremadamente claras sobre o que tratan. Se tivera que elixir "
+"un sitio para demostrar as extensas implicacións filosóficas do movemento "
+"do Software Libre, escollería este."
