@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: Producing OSS\n"
 "Report-Msgid-Bugs-To: producingoss@listas.ghandalf.org\n"
 "POT-Creation-Date: 2009-07-11 15:32+0000\n"
-"PO-Revision-Date: 2009-11-24 23:16+0100\n"
+"PO-Revision-Date: 2009-11-29 19:29+0100\n"
 "Last-Translator: Andrés Maneiro <andres.maneiro@gmail.com>\n"
 "Language-Team: Galician <producingoss@listas.ghandalf.org>\n"
 "MIME-Version: 1.0\n"
@@ -2276,11 +2276,11 @@ msgstr ""
 #: ch02.xml:1139
 #, no-c-format
 msgid "Avoid Private Discussions"
-msgstr ""
+msgstr "Evita os debates en privado"
 
 #. Tag: para
 #: ch02.xml:1141
-#, no-c-format
+#, fuzzy, no-c-format
 msgid ""
 "Even after you've taken the project public, you and the other founders will "
 "often find yourselves wanting to settle difficult questions by private "
@@ -2299,16 +2299,31 @@ msgid ""
 "recommendations of a united and influential voting block, will be great "
 "indeed."
 msgstr ""
+"Incluso despois de que o proxeto sexa público, ti e os demáis fundadores "
+"habitualmente desexaredes xestionar en privado temas difíciles. Esto é "
+"especialmente certo nos primeiros momentos do proxecto, cando hai moitas "
+"decisións importantes que tomar, e poucos voluntarios cualificados para "
+"tomalas. Tódalas desvantaxes dos debates en roldas de correo públicas "
+"estouparán notoriamente en fronte de ti: os retrasos inherentes a debates "
+"por correo-e, a necesidade de deixar tempo suficiente para que se forme o "
+"consenso, lidiar con voluntarios naive que pensan que comprenden todo pero "
+"non o fan (tódolos proxectos os teñen; algunhas veces se convirten nos "
+"mellores contribuidores do proxecto, outras veces simplemente permanecen "
+"naive), a persoa que non comprende que só desexes resolver o problema X "
+"cando éste é obviamente unha pequena parte do maior Y, etc. A tentación de "
+"tomar decisións a porta cerrada e presentalas como <foreignphrase>faits "
+"accomplis</foreignphrase>, ou como as firmes recomendacións de un unido e "
+"influente bloque de votatnes, será moi grande."
 
 #. Tag: para
 #: ch02.xml:1159
 #, no-c-format
 msgid "Don't do it."
-msgstr ""
+msgstr "Non o fagas."
 
 #. Tag: para
 #: ch02.xml:1161
-#, no-c-format
+#, fuzzy, no-c-format
 msgid ""
 "As slow and cumbersome as public discussions can be, they're almost always "
 "preferable in the long run. Making important decisions in private is like "
@@ -2317,16 +2332,26 @@ msgid ""
 "big decisions. Furthermore, public discussion has beneficial side effects "
 "that will last beyond whatever ephemeral technical question was at issue:"
 msgstr ""
+"Tan lentas e cumbersome como os debates públicos poden ser, case sempre son "
+"preferibles a longo plazo. Tomar as decisións en privado é spraying "
+"contributir repellant sobre o proxecto. Ningún voluntario serio permanecerá "
+"moito tempo nun entorno onde un consello secreto toma todas as grandes "
+"decisións. Ademáis, os debates públicos teñen efectos positivos que "
+"permanecerán máis alá que calquera cuestión tecnolóxica efímera:"
 
 #. Tag: para
 #: ch02.xml:1171
-#, no-c-format
+#, fuzzy, no-c-format
 msgid ""
 "The discussion will help train and educate new developers. You never know "
 "how many eyes are watching the conversation; even if most people don't "
 "participate, many may be tracking silently, gleaning information about the "
 "software."
 msgstr ""
+"O debate facilitará o entrenamento e a educación dos novos desenvolvedores. "
+"Nunca sabes cantos ollos hai vendo a conversa; aínda que a maioría da xente "
+"non participe, moitos poden estar observando en silencio, gleaning "
+"información sobre o programa."
 
 #. Tag: para
 #: ch02.xml:1177
@@ -2337,6 +2362,9 @@ msgid ""
 "are. This is a skill that requires practice, and you can't get that practice "
 "by talking to people who already know what you know."
 msgstr ""
+"O debate formarache no arte de explicar cuestións técnicas a xente que non é "
+"tan familiar co programa como o eres ti mesmo. Ésta é unha capacidade que "
+"require práctica e non podes practicala con xente que xa sabe o que ti sabes."
 
 #. Tag: para
 #: ch02.xml:1184
@@ -2347,10 +2375,14 @@ msgid ""
 "steps. See <xref linkend=\"using-archives\"/><phrase output=\"printed\"> in "
 "<xref linkend=\"communications\"/></phrase>."
 msgstr ""
+"O debate e as súas conclusións estarán dispoñibles en arquivos públicos, "
+"favorecendo que futuros debates reincidan sobre os mesmos pasos. Ver <xref "
+"linkend=\"using-archives\"/><phrase output=\"printed\"> en <xref linkend="
+"\"communications\"/></phrase>."
 
 #. Tag: para
 #: ch02.xml:1194
-#, no-c-format
+#, fuzzy, no-c-format
 msgid ""
 "Finally, there is the possibility that someone on the list may make a real "
 "contribution to the conversation, by coming up with an idea you never "
@@ -2377,6 +2409,29 @@ msgid ""
 "have if we had kept the conversation private, but they were so much more "
 "productive that it was well worth the extra time."
 msgstr ""
+"Finalmente, existe a posibilidade de que alguén na lista faga unha "
+"contribución á conversa, propoñendo unha idea que nunca se che ocorrería. É "
+"difícil decir cómo de probable é isto, dependerá da complexidade do código e "
+"do grado de especialización requerido. Mais si se me permite una pequena "
+"anécdota, apostaría a que esto é máis probable do que intuitivamente parece. "
+"No proxecto Subversion, os fundadores creíamos que nos enfrontabamos a un "
+"complexo conxunto de problemas, sobre os cales tíñamos pensado moito durante "
+"algúns meses e -francamente- dudabamos de que alguén na rolda de correo "
+"recén creada aportase algunha idea nova ó debate. Así, tomamos o camiño máis "
+"sinxelo e comezamos a compàrtir algunhas ideas en privado, ata que un "
+"observador do proxecto <footnote><para>We haven't gotten to the section on "
+"crediting yet, but just to practice what I'll later preach: the observer's "
+"name was Brian Behlendorf, and it was he who pointed out the general "
+"importance of keeping all discussions public unless there was a specific "
+"need for privacy.</para></footnote> notou o que ocorria e pediu que o debate "
+"se movese á rolda pública. Rolling our eyes a bit, fixémolo&mdash;e quedamos "
+"abraiados poolo número de comentarios e suxerencias brillantes que pronto "
+"xurdiron. En moitos casos, a xente aportou ideas que nunca se nos terían "
+"ocorrido. Isto demostrou que había <emphasis>moita</emphasis> xente "
+"intelixente nesa rolda de correo; únicamente estaban esperando polo right "
+"bait. Si ben é certo que os debates foron máis longos do que serían si fosen "
+"mantidos en privado, sen dúbida foron máis produtivos en aberto que o tempo "
+"extra valeu a pena."
 
 #. Tag: para
 #: ch02.xml:1221
@@ -2391,6 +2446,14 @@ msgid ""
 "kinds of thinkers are out there until you stimulate them with a challenging "
 "problem."
 msgstr ""
+"Sen deixarnos levar por xeralizacións como \"o grupo sempre é máis "
+"intelixente que o individuo\" (todos temos coñecido bastantes grupos como "
+"para saber que isto non é certo), hai que recoñecer que en certas "
+"actividades os grupos son excelentes. A revisión entre pares masiva é unha "
+"delas; xerar un número de ideas grande en corto tempo é outra. A calidade "
+"das ideas dependerá da calidade dos pensadores que están detrás delas, dende "
+"logo, mais non saberás qué clase de pensadores rondan o proxecto ata que os "
+"estimules cun problema retador."
 
 #. Tag: para
 #: ch02.xml:1230
@@ -2401,6 +2464,9 @@ msgid ""
 "always be: <emphasis>If there's no reason for it to be private, it should be "
 "public.</emphasis>"
 msgstr ""
+"Naturalmente, hai certos debates que deben ser mantidos en privado; máis "
+"adiante veremos exemplos. Mais a política debería ser sempre: <emphasis>si "
+"non hai razón para que sexa privado, debe ser público</emphasis>."
 
 #. Tag: para
 #: ch02.xml:1235
@@ -2416,12 +2482,20 @@ msgid ""
 "privacy really was needed. If you do this consistently, people will catch on "
 "pretty quickly and start to use the public forums by default."
 msgstr ""
+"Esto non se fai sólo. Non é suficiente con que te asegures de que tódalas "
+"túas mensaxes van á rolda pública. Debes tamén facer que os demáis eviten as "
+"conversas privadas. Si alguén trata de comezar un debate privado, e non hai "
+"razón para que sexa privado, é a túa obligación abrir o meta-debate de "
+"inmediato. Nin sequera comentes no tema orixinal ata que a conversa se teña "
+"movido a un foro público ou convencerte de que a privacidade do caso era "
+"realmente precisa. Si fas isto de modo consistente, a xente rápidamente "
+"seguirá esta política e empezará a usar os foros públicos por defecto."
 
 #. Tag: title
 #: ch02.xml:1250
-#, no-c-format
+#, fuzzy, no-c-format
 msgid "Nip Rudeness in the Bud"
-msgstr ""
+msgstr "Nip Rudeness in the Bud"
 
 #. Tag: para
 #: ch02.xml:1252
@@ -2442,10 +2516,24 @@ msgid ""
 "<emphasis>first</emphasis>, as a separate issue unto itself, and only "
 "afterward move on to the technical content."
 msgstr ""
+"Dende o primeiro momento en que o proxecto sexa público, debes manter "
+"tolerancia cero cos comportamentos rudos ou insultantes nos foros de debate. "
+"Tolerancia cero non significa technical enforcement per se. Non tes que "
+"eliminar á xente da rolda de correo cando flame another subscriber ou "
+"quitarlle o dereito de enviar commits debido a que fixeron derogatory "
+"comments. (En teoría, podes ter que levar a cabo esas accións, mais "
+"únicamente cando todos os outros intentos teñen fallado&mdash; o que, por "
+"definición, non soe ser o caso ó principio do proxecto). Tolerancia cero "
+"únicamente significa que nunca deixes que malos comportamentos pasen "
+"inadvertidos. Por exemplo, cando alguén publica un comentario ténico "
+"mezclado con un ataque <foreignphrase>ad hominen</foreignphrase> sobre outro "
+"desenvolvedor do proxecto, é necesario que primeiro afrontes o ataque "
+"<foreignphrase>ad hominen</foreignphrase>, como unha cuestión separada e "
+"únicamente despois diso debatir o contido técnico."
 
 #. Tag: para
 #: ch02.xml:1269
-#, no-c-format
+#, fuzzy, no-c-format
 msgid ""
 "It is unfortunately very easy, and all too typical, for constructive "
 "discussions to lapse into destructive flame wars. People will say things in "
@@ -2463,10 +2551,24 @@ msgid ""
 "tendency to sound like a kindergarten teacher lecturing a class on good "
 "behavior:"
 msgstr ""
+"Desafortunadamente, é moi sinxelo e demasiado típico, que debates "
+"constructivos se convirtan en destructivos flames. A xente dirá cousas por "
+"mail que nunca dirán cara a cara. Os temas de debate amplificarán este "
+"efecto: en cuestións técnicas, a xente habitualmente pensa que hai unha "
+"resposta única para a maioría das preguntas e que estar en desacordo sólo "
+"pode ser signo de ignorancia ou estupidez. Hai unha distancia moi pequena "
+"entre chamar estúpida a unha proposta técnica a chamarl estúpida á persoa "
+"que a propón. De feito, habitualmente é complexo de dicir onde remata o "
+"debate técnico e comeza o persoal; o cal é unha das razóns polas que "
+"respostas drásticas ou castigos non son unha boa idea. En vez diso, cando o "
+"vexas pasar, publica un mensaxe que remarque a importancia de manter o "
+"debate amigable, sen acusar a ninguén en particular de ser dañino. "
+"Desafortunadamente, tales mensaxes soen ser vistos como os de unha profesora "
+"de gardería dando unha clase de bo comportamento:"
 
 #. Tag: emphasis
 #: ch02.xml:1287
-#, no-c-format
+#, fuzzy, no-c-format
 msgid ""
 "First, let's please cut down on the (potentially) ad hominem comments; for "
 "example, calling J's design for the security layer \"naive and ignorant of "
@@ -2476,16 +2578,24 @@ msgid ""
 "get a new design. I'm sure M meant no personal insult to J, but the phrasing "
 "was unfortunate, and we try to keep things constructive around here."
 msgstr ""
+"Primeiramente, cut down os comentarios que sexan persoais; como por exemplo, "
+"decir que o deseño de J para a capa de seguridade é \"naive e ignorante dos "
+"principios básicos da seguridade dos ordenadores\". Pode ser certo ou non, "
+"mais en calquera caso non é modo de manter o debate. J fixo a súa proposta "
+"de boa fé. Si ten deficiencias, que sexan sinaladas e resolvámolas ou "
+"obteñamos un novo deseño. Estou seguro de que M non quixo facer un insulto "
+"persoal a J, mais a frase foi desafortunada e aquí tratarmos de manter os "
+"debates constructivos."
 
 #. Tag: emphasis
 #: ch02.xml:1298
 #, no-c-format
 msgid "Now, on to the proposal. I think M was right in saying that..."
-msgstr ""
+msgstr "Agora, sobre a proposta. Creo que M estaba no certo cando dixo que ..."
 
 #. Tag: para
 #: ch02.xml:1302
-#, no-c-format
+#, fuzzy, no-c-format
 msgid ""
 "As stilted as such responses sound, they have a noticeable effect. If you "
 "consistently call out bad behavior, but don't demand an apology or "
@@ -2505,10 +2615,26 @@ msgid ""
 "choose of their own volition to post an apology, that's great, but demanding "
 "that they do so will only cause resentment."
 msgstr ""
+"As stilted as such responses sound, teñen un notable efecto. Si call out os "
+"malos comportamentos pero non esixes unha desculpa pola parte que ofende, "
+"facilitas que a xente se calme e a seguinte vez amose un mellor "
+"comportamento&mdash; e farano. Un dos secretos para facer isto con éxito "
+"consiste en nunca deixar que o meta-debate se convirta no tema principal. A "
+"resposta debería ser colateral, un breve prefacio ó mensaxe completo. "
+"Sinalando que \"as cousas non se fan así nesta comunidade\" e continuando o "
+"debate sobre contido real, facilitas un tema sobre o que a xente pode seguir "
+"falando deixando detrás a mala contestación. Se alguén che recrimina que non "
+"merecían tal reprimenda, non entres nese debate. Ou non respondas (si "
+"consideras que simplemente precisan desestresarse) ou responde dicindo que "
+"sintes si tes sobrereaccionado pero que é difícil detectar nuance nun email. "
+"E volve o contido principal da conversación. Nunca reclames unha desculpa, "
+"sexa pública ou privada, de alguén que se ten comportada de modo "
+"inapropiado. Si elixen por si mesmos escribila, estupendo, mais esixirlla só "
+"causará resentemento."
 
 #. Tag: para
 #: ch02.xml:1322
-#, no-c-format
+#, fuzzy, no-c-format
 msgid ""
 "The overall goal is to make good etiquette be seen as one of the \"in-group"
 "\" behaviors. This helps the project, because developers can be driven away "
@@ -2520,12 +2646,22 @@ msgid ""
 "small. Once it's part of the culture, you won't have to be the only person "
 "promoting it. It will be maintained by everyone."
 msgstr ""
+"O obxectivo xeral é facer ver que a netiquetta é unha das políticas de "
+"comportamento do grupo. Esto axudará ó proxecto xa que os desenvolvedores "
+"poden decidir non contribuir (incluso en proxectos que lles gustan e nos "
+"desexan participar) debido ás continuas flame wars. É probable que non te "
+"des nin conta; alguén está únicamente lendo a rolda de correo, ve que hai "
+"que ter a thick skin para participar no proxecto e decide non facelo. Mante-"
+"la netiquetta nos foros é unha estratexia de longo recorrido e é máis "
+"sinxela de implementar cando o proxecto é pequeno. Unha vez é parte da "
+"cultura, non serás a única persoa en promocionalo. Será mantida por todo o "
+"mundo."
 
 #. Tag: title
 #: ch02.xml:1337
 #, no-c-format
 msgid "Practice Conspicuous Code Review"
-msgstr ""
+msgstr "Practica unha revisión de código exhaustiva"
 
 #. Tag: para
 #: ch02.xml:1339
@@ -2542,6 +2678,16 @@ msgid ""
 "reviewing commit emails as they come in, looking for bugs and possible "
 "improvements."
 msgstr ""
+"Unha dos mellores modos de favorecer unha comunidade de desenvolvemento "
+"productiva é facer que a xente revise o código de outros. Para facelo de "
+"modo efectivo é preciso certa infraestructura técnica&mdash; en particular, "
+"o aviso de novos commits por email debe ser activado; ver <xref linkend="
+"\"commit-emails\"/> para máis detalles. O efecto de activar o aviso por "
+"email dos commits é que cada vez que alguén faga un commit sobre o proxecto "
+"un email será enviado amosado o log do mensaxe e os cambios introducidos "
+"(ver <xref linkend=\"vc-vocabulary-diff\"/>, en <xref linkend=\"vc-vocabulary"
+"\"/>). A <firstitem>revisión de código</firstitem> é a práctica de revisar "
+"os emails de commit que chegan, buscando erros e posibles melloras."
 
 #. Tag: para
 #: ch02.xml:1349
@@ -2552,6 +2698,10 @@ msgid ""
 "people sitting down together and going over printouts of source code, "
 "looking for specific problems and patterns."
 msgstr ""
+"Así é como habitualmente se fai a revisión de código en proxectos de "
+"software libre. En proxectos máis centralizados, a \"revisión do código\" "
+"pode incluso significar que hai grupos de persoas que se sentan xuntos co "
+"código impreso buscando problemas e patróns."
 
 #. Tag: para
 #: ch02.xml:1355
@@ -2567,10 +2717,19 @@ msgid ""
 "effect. People do their best work when they know that others will take the "
 "time to evaluate it."
 msgstr ""
+"A revisión de código ten varias vantaxes. A máis obvia é que é un exemplo de "
+"revisión entre pares no mundo do software libre e axuda directamente a "
+"manter a calidade do software. Cada erro que se empaqueta nunha aplicación "
+"foi commiteado e non detectado; por iso, cantos máis ollos miren, menos "
+"erros se colarán. Pero a revisión de código tamén ten unha vantaxe "
+"indirecta: fai que a xente sepa que o que fan serve para algo, xa que un "
+"desenvolvedor non revisaría un commit se non estivese interesado polos seus "
+"efectos. A xente pón o mellor de sí cando saben que os demáis se tomarán un "
+"tempo para avaliar o seu traballo."
 
 #. Tag: para
 #: ch02.xml:1366
-#, no-c-format
+#, fuzzy, no-c-format
 msgid ""
 "Reviews should be public. Even on occasions when I have been sitting in the "
 "same physical room with developers, and one of us has made a commit, we take "
@@ -2580,10 +2739,17 @@ msgid ""
 "even when they don't, it still reminds them that review is an expected, "
 "regular activity, like washing the dishes or mowing the lawn."
 msgstr ""
+"As revisións dedeberían ser públicas. Incluso cando teño estado na mesma "
+"habitación que outro desenvolvedor e un de nós fixo un commit, procuramos "
+"non facer a revisión verbalmente na habitación, senón enviala á rolda de "
+"correo. Todo o mundo se beneficia de ver a revisión. A xente verá os "
+"comentarios e algunhas veces atopará flaws nel, e incluso se non o fan, iso "
+"recórdalles que a revisión é unha actividade que se espera do grupo, como "
+"lava-los platos ou mowing the lawn."
 
 #. Tag: para
 #: ch02.xml:1375
-#, no-c-format
+#, fuzzy, no-c-format
 msgid ""
 "In the Subversion project, we did not at first make a regular practice of "
 "code review. There was no guarantee that every commit would be reviewed, "
@@ -2612,10 +2778,36 @@ msgid ""
 "habit was so ingrained for the rest of us as to seem that it had been going "
 "on since time immemorial."
 msgstr ""
+"No proxecto Subversion, non fixemos a revisión de código dende o inicio. Non "
+"había garantía algunha de que un commit fose revisado, aínda que a veces "
+"alguén podía revisar un cambio si estaba especialmente interesado nesa parte "
+"do código. Os erros incluidos puideron e deberían ter sido collidos. Un "
+"desenvolvedor chamado Greg Stein, quen coñecía a importancia da revisión de "
+"código por traballos anteriores, decidiu que iba a sentar exemplo mediante a "
+"revisión de cada liña de <emphasis>cada commit</emphasis> realizado sobre o "
+"repositorio. Así, cada commit realizado era seguido por un email de Greg á "
+"rolda de correo dos desenvolvedores, diseccionándoo, analizando posibles "
+"problemas e ocasionalmente praising un trozo de código brillante. Dende o "
+"primeiro momento, empezou a a coller erros e prácticas de código non óptimas "
+"que doutro modo teríanse colado sen que ninguén se dese conta. Pointedly, "
+"nunca se queixou sobre ser a única persona que revisaba cada commit, aínda "
+"tendo en conta que lle levaba unha gran cantidade de tempo, mais alababa as "
+"vantaxes da revisión de código cada vez que tiña ocasión. Moi pronto, máis "
+"xente, incluido eu mesmo, comezamos a revisar commit regularmente. Cal foi a "
+"nosa motivación? Non foi que Greg tivese concenciudamente shamed us into it. "
+"Senón que tiña probado que a revisión de código era unha actividade que "
+"valía a pena e que un podía contribuir tanto ó proxecto mediante a revisión "
+"dos cambios de outros como por escribir novo código. Unha vez o demostrou, "
+"convertiuse en comportamento esperado, ata o punto que cada commit que non "
+"tiña algunha rección provocaría que o desenvolvedor se preocupase e incluso "
+"preguntar na rolda de correo si alguén tivera a oportunidade de revisalo. "
+"Máis tarde, Greg comezou un traballo que non lle deixou moito tempo para "
+"Subversion e tivo que parar de facer revisións. Para entón, o hábito estaba "
+"tan interiorizado para cada un de nós como si tivese sido sempre así."
 
 #. Tag: para
 #: ch02.xml:1404
-#, no-c-format
+#, fuzzy, no-c-format
 msgid ""
 "Start doing reviews from very first commit. The sorts of problems that are "
 "easiest to catch by reviewing diffs are security vulnerabilities, memory "
@@ -2626,6 +2818,15 @@ msgid ""
 "after one has been doing reviews regularly, because the memory of past diffs "
 "informs the review of present diffs."
 msgstr ""
+"Comeza a facer revisións dende o primeiro commit. A clase de problemas que "
+"son máis sinxelos de coller mediante a revisión de diffs son as "
+"vulnerabilidades de seguridade, fugas de memoria, insuficientes comentarios "
+"ou documentación da API, erros off-by-one, caller/callee discipline "
+"mismatches e outros problemas que requiren un mínimo de contexto para ser "
+"vistos. Porén, incluso meirandes problemas tales como failure to abstract "
+"repeated patterns to a single location poden ser vistos despois de que un "
+"teña feito revisións regularmente, xa que a memoria ddos pasados diffs dalle "
+"forma á revisión dos presentes."
 
 #. Tag: para
 #: ch02.xml:1417
@@ -2641,6 +2842,14 @@ msgid ""
 "should depend on code review to catch things he ought to have caught on his "
 "own."
 msgstr ""
+"Non te preocupes de que non poidas atopar nada sobre o que comentar, ou que "
+"non coñezas o suficiente sobre cada área do código. Habitualmente hai cousas "
+"que dicir sobre cada commit; incluso onde non atopes nada que cuestionar, "
+"podes atopar algo que gabar. O importante é deixar claro a cada commiter que "
+"o que fan é visto e comprendido. Dende logo, a revisión de código non "
+"absolve ós programadores da responsabilidade de revisar e testear os seus "
+"cambios antes de subilos ó repositorio; ninguén debería deixar que a "
+"revisión de código faga o traballo que un debera ter feito por si mesmo."
 
 #. Tag: title
 #: ch02.xml:1431
@@ -2649,6 +2858,8 @@ msgid ""
 "When Opening a Formerly Closed Project, be Sensitive to the Magnitude of the "
 "Change"
 msgstr ""
+"Cando publiques un proxecto ata o momento cerrado, ten presente a magnitude "
+"do cambio"
 
 #. Tag: para
 #: ch02.xml:1434
@@ -2659,10 +2870,14 @@ msgid ""
 "everyone understands that a big change is coming&mdash;and make sure that "
 "you understand how it's going to feel from their point of view."
 msgstr ""
+"Se estás publicando un proxecto existente, un que xa ten desenvolvedores "
+"activos acostumados a traballar nun ambiente cerrado, asegúrate de que todo "
+"o mundo comprende que a apertura supón un gran cambio&mdash; e que ti "
+"comprendes cómo se van a sentir con el."
 
 #. Tag: para
 #: ch02.xml:1440
-#, no-c-format
+#, fuzzy, no-c-format
 msgid ""
 "Try to imagine how the situation looks to them: formerly, all code and "
 "design decisions were made with a group of other programmers who knew the "
@@ -2689,10 +2904,35 @@ msgid ""
 "Thus, there is the danger of a siege mentality taking hold among the old "
 "hands."
 msgstr ""
+"Trata de imaxinar cómo é a situación para eles: formalmente, tódalas "
+"decisións de deseño e código foron feitas por un grupo de programadores que "
+"coñecían o software máis ou menos igual, que recibiron as mesmas presións "
+"dende o mesmo equipo de xestión e que todos coñecen as debilidades e "
+"fortalezas dos seus compañeiros. A apertura do proxecto supón abrir o código "
+"ó escrutinio de extraños, que se formarán xuízos de valor basados únicamente "
+"no código, sen preocuparse de qué presións de negocio poden ter forzado a "
+"tomar certas decisións. Esos extraños preguntarán un montón de preguntas, "
+"preguntas que farán que os desenvolvedores se den conta de que a "
+"documentación na que tan duramente traballaron é <emphasis>aínda</emphasis> "
+"inadecuada (esto é inevitable). To top it all off, os recén chegados son "
+"descoñecidos, entidades sen cara. Si un dos teus desenvolvedores xa se sinte "
+"inseguro sobre as súas capacidades, imaxina cómo ese sentimento será "
+"exacerbado cando os recén chegados sinalen flaws no código que escribiu, e "
+"aínda peor, facelo diante dos seus colegas. A menos que teñas un equipo de "
+"perfectos programadores, esto é inevitable&mdash; de feito, probablemente "
+"lle ocorrerá a todos eles ó principio. Isto non se debe a que sexan malos "
+"programadores; é sólo que todo programa cunhas certas dimensións ten erros e "
+"a revisión entre pares botará luz sobre algúns deles (ver <xref linkend="
+"\"code-review\"/><phrase output=\"printed\"> anteriormente neste capítulo</"
+"phrase>). Ó mesmo tempo, os recén chegados non están baixo o mesmo nivel de "
+"revisión ó principio, xa que non poden contribuir código ata que sexan máis "
+"familiares co proxecto. Os teus desenvolvedores poden sentir como que "
+"tódalas críticas entran, pero ningunha sae. Así, existe o perigo de que  "
+"siege mentality taking hold among the old hands."
 
 #. Tag: para
 #: ch02.xml:1467
-#, no-c-format
+#, fuzzy, no-c-format
 msgid ""
 "The best way to prevent this is to warn everyone about what's coming, "
 "explain it, tell them that the initial discomfort is perfectly normal, and "
@@ -2715,6 +2955,26 @@ msgid ""
 "to the internal mailing lists on which this might happen, so you can ask "
 "that such discussions be moved to the public lists right away."
 msgstr ""
+"O mellor modo de evitar esta sensación é procurar que todo o mundo sepa qué "
+"implica o cambio, explicarllo, decirlles que o incomodo inicial é "
+"perfectamente normal e asegurarlles que o que está por vir será mellor. "
+"Algunhas desas recomendacións deben ser feitas en privado antes de que o "
+"proxecto sexa aberto. Pero pode ser incluso útil recordarlle á xente a "
+"través das roldas públicas que hai un novo modo de desenvolver o proxecto e "
+"que os axustes tomarán un tempo. O mellor que podes facer é liderar mediante "
+"o exemplo. Se non ves ós teus desenvolvedores responder a cuestións dos "
+"recén chegados, decirlles que o fagan non será suficiente. Poden aínda non "
+"ter un bo sentido do que se debe responder e cómo ou poden non ter claro "
+"cómo priorizar o traballo de codificación contra as novas tarefas de "
+"relacións externas. A maneira de que participen é que participes ti mesmo. "
+"Estar presentes nas roldas de correo públicas, e asegúrate de responder a "
+"algunhas preguntas. Cando non teñas a experiencia para responder algunha, "
+"pásalla a un desenvolvedor que sí a teña &mdash; e asegúrate de que aporte "
+"unha solución ou polo menos responda. De modo natural, os teus "
+"desenvolvedores realizarán moitos dos seus comentarios en privado, entre "
+"eles, xa que é o modo que acostumaban a facelo. Suscríbete ás toldas de "
+"correo interno na que esto poida ocorrer e suxire que tales debates se movan "
+"á rolda pública."
 
 #. Tag: para
 #: ch02.xml:1490
@@ -2726,12 +2986,17 @@ msgid ""
 "necessity of legal diligence when opening up a private code base that may "
 "contain software written or \"owned\" by other parties."
 msgstr ""
+"Hai outras cuestións de longo recorrido que un debe ter en conta cando "
+"decide abrir un proxecto. <xref linkend=\"money\"/> explora as técnicas para "
+"mezclar de un modo exitoso desenvolvedores pagados e voluntarios, e <xref "
+"linkend=\"legal\"/> debate as necesarias dilixencias legais cando un abre un "
+"código que pode ter partes \"propiedade\" de terceiros."
 
 #. Tag: title
 #: ch02.xml:1504
 #, no-c-format
 msgid "Announcing"
-msgstr ""
+msgstr "Anunciando o proxecto"
 
 #. Tag: para
 #: ch02.xml:1506
@@ -2745,6 +3010,13 @@ msgid ""
 "for new project announcements. You only have to catch a few eyes there for "
 "news of your project to spread by word of mouth."
 msgstr ""
+"Unha vez o proxecto é presentable&mdash; non perfecto, só presentable&mdasH; "
+"estás listo para anuncialo ó mundo. Esto é un proceso sinxelo: vas a <ulink "
+"url=\"http://freshmeat.net/\"></ulink>, pinchas sobre <guimenuitem>Enviar</"
+"guimenuitem> na barra de navegación superior e cubres un formulario coas "
+"características do teu proxecto. Freshmeat é o lugar onde todo o mundo mira "
+"por novos proxectos. Únicamente tes que facer que uns poucos ollos se fixen "
+"para que a noticia sobre o teu proxecto se expanda."
 
 #. Tag: para
 #: ch02.xml:1515
@@ -2757,10 +3029,16 @@ msgid ""
 "<systemitem>Reply-to</systemitem> header). The posts should be short and get "
 "right to the point:"
 msgstr ""
+"Se coñeces roldas de correo ou foros onde a publicación do proxecto pode ser "
+"de interese, faino tamén ahí, pero cóidate de facer exactamente "
+"<emphasis>un</emphasis> mensaxe por foro e dirixir á xente ós teus propios "
+"canles de comunicación para continuar a conversa (configurando a cabeceira "
+"<sistemitem>Reply-to</sistemitem>). Os mensaxes debería ser curtos e "
+"directos:"
 
 #. Tag: screen
 #: ch02.xml:1522
-#, no-c-format
+#, fuzzy, no-c-format
 msgid ""
 "To: discuss@lists.example.org\n"
 "Subject: [ANN] Scanley full-text indexer project\n"
@@ -2792,6 +3070,36 @@ msgid ""
 "Thank you,\n"
 "-J. Random"
 msgstr ""
+"To: discuss@lists.example.org\n"
+"Asunto: [ANN] Proxecto Scanley: indexador de texto completo\n"
+"Reply-to: dev@scanley.org\n"
+"\n"
+"Esta mensaxes é para anunciar a creación do proxecto Scanley\n"
+", un motor de indexado e búsqueda de texto completo open sourcer cunha\n"
+"API moi rica, para ser usado por programadores que desexen proveer servizos "
+"de busca\n"
+"de amplias coleccións de arquivos de texto. Scanley é funcional, está\n"
+"baixo desenvolvemento activo e está buscando por desenvolvedores e "
+"testeadores.\n"
+"\n"
+"Páxina web: http://www.scanley.org/\n"
+"\n"
+"Funcionalidades:\n"
+"   - Buscas de texto plano, HTML e XML\n"
+"   - Busca de palabras e/ou frases\n"
+"   - (planeada) Fuzzy matching\n"
+"   - (planeada) Actualización incremental dos índices\n"
+"   - (planeada) Indexación de sitios web remotos\n"
+"\n"
+"Requerementos:\n"
+"   - Python 2.2 ou superior\n"
+"   - Espacio en disco suficiente para manter os índices (aproximadamente 2x\n"
+"     o tamaño orixinal)\n"
+"\n"
+"Para máis información, ver scanley.org.\n"
+"\n"
+"Gracias,\n"
+"-J. Random"
 
 #. Tag: para
 #: ch02.xml:1524
@@ -2801,6 +3109,9 @@ msgid ""
 "linkend=\"communications\"/></phrase> for advice on announcing further "
 "releases and other project events.)"
 msgstr ""
+"(Ver <xref linkend=\"publicity\"/><phrase output=\"printed\"> en <xref "
+"linkend=\"communications\"/></phrase> para consellos sobre cómo anunciar "
+"futuras libreacións do proxecto e outros eventos.)"
 
 #. Tag: para
 #: ch02.xml:1528
@@ -2813,6 +3124,12 @@ msgid ""
 "separated successful projects from toys, and that serious developers would "
 "only be attracted to software that did something concrete already."
 msgstr ""
+"Hai un debate non cerrado no mundo do software libre sobre si é preciso "
+"comezar con código que funcione ou si un proxecto se pode beneficiar das "
+"vantaxes da apertura nas etapas de deseño e debate. Eu solía pensar que "
+"comezar con código que funcione era o factor máis importante, que isto era o "
+"que separaba os proxecto exitosos dos xoguetes e que os desenvolvedores "
+"serios sólo serían atraidos a software que xa facía algo concreto."
 
 #. Tag: para
 #: ch02.xml:1536
@@ -2827,6 +3144,14 @@ msgid ""
 "example; the Mozilla project was also launched without running code, and is "
 "now a successful and popular web browser."
 msgstr ""
+"Esto demostrouse erróneo. No proxecto Subversion, comezamos cun documento de "
+"deseño, un core de desenvolvedores interesados e ben conectados, moito "
+"fanfare e <emphasis>ningún</emphasis> código funcionando. Para a miña "
+"sorpresa, o proxecto adquiriu participantes activos ben dende o comezo e "
+"para cando tíñamos algo funcional, había uns cantos desenvolvedores "
+"voluntarios profundamente implicados no proxecto. Subversion non é o único "
+"exemplo; o proxecto Mozilla foi tamén lanzado sen código que funcionase e "
+"agora é un navegador web de éxito."
 
 #. Tag: para
 #: ch02.xml:1546
@@ -2842,6 +3167,14 @@ msgid ""
 "there has to be something concrete, something more tangible than just good "
 "intentions, for people to sink their teeth into."
 msgstr ""
+"Ante tales evidencias, teño que retractarme das miñas palabras. Código que "
+"funcione é unha das mellores formas para obter o éxito e unha boa regla "
+"sería esperar ata que teñas algo para anunciar o proxecto. Porén, poden "
+"existir ocasións onde anunciar o proxecto en fases máis tempranas teña "
+"sentido. Creo firmemente que polo menos un bo documento de deseño ou algunha "
+"clase de código framework é preciso&mdash; dende logo, pode ser revisado en "
+"público, pero ten que existir algo concreto, algo máis tanxible que só boas "
+"intencións para que a xente lle interese participar."
 
 #. Tag: para
 #: ch02.xml:1558
@@ -2861,3 +3194,16 @@ msgid ""
 "necessarily know everyone's name and can no longer follow every single "
 "conversation. The next chapters are about working in that environment."
 msgstr ""
+"Cando realices o anuncio, non esperes que unha horda de voluntarios se unan "
+"ó proxecto de modo inmediato. Habitualmente, o resultado da publicación é "
+"que tes unhas poucas preguntas, algunha xente se unirá ás roldas de correo e "
+"todo continuará case coma sempre. Mais a medida que pase o tempo, observarás "
+"de un modo gradual incrementos na participación tanto de usuarios como de "
+"desenvolvedores. O anuncio pode ser considerado meramente unha semilla. Pode "
+"tomar un tempo que a noticia se expanda. Si o proxecto rewards a esos qeu se "
+"involucran, as noticias se expandirán rápidamente xa que á xente gústalle "
+"compartir que atoparon algo que vale a pena. Se todo vai ben, as dinámicas "
+"de redes de comunicacións exponenciais transformaranse lentamente nunha "
+"comunidade complexa, onde non necesariamente coñecerñas a todo o mundo nin "
+"poderás seguir cada conversa. Os seguintes capítulos versan sobre cómo "
+"traballar nese entorno."
