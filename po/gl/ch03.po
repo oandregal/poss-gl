@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Producing OSS\n"
 "Report-Msgid-Bugs-To: producingoss@listas.ghandalf.org\n"
 "POT-Creation-Date: 2009-07-11 15:32+0000\n"
-"PO-Revision-Date: 2009-11-18 20:11+0100\n"
+"PO-Revision-Date: 2009-12-01 21:04+0100\n"
 "Last-Translator: Pedro A. González <pedro.gonzalez@ghandalf.org>\n"
 "Language-Team: Galician <producingoss@listas.ghandalf.org>\n"
 "MIME-Version: 1.0\n"
@@ -3007,6 +3007,8 @@ msgid ""
 "With pre-packaged commit email systems, you may want to modify some of the "
 "default behaviors:"
 msgstr ""
+"No caso dos sistemas de envío de mensaxes de actualización pre-empaquetados, "
+"poida que queiras modificar algúns dos comportamentos por defecto:"
 
 #. Tag: para
 #: ch03.xml:1422
@@ -3026,6 +3028,20 @@ msgid ""
 "simply annotate the quoted diff than it is to visit a web page and "
 "laboriously cut-and-paste parts of the diff from web browser to email client."
 msgstr ""
+"Algúns de estes sistemas non inclúen os \"diff\" no email, pero inclúen unha "
+"URL na que explorar os cambios no repositorio a través do navegador web. "
+"Aínda que aportar a URL está ben, de xeito que se pode facer referencia ao "
+"cambio máis tarde, é tamén <emphasis>moi</emphasis> importante que a mensaxe "
+"de envío do cambio inclúa os propios diff. A leitura dos emails é parte da "
+"rutina da xente, así que si o contido dos cambios é visible xusto no mesmo "
+"email de cambios, os desenvolvedores revisarán o cambio sobre a marcha, sin "
+"abandoar o seu leitor de emails. Si teñen que facer click nunha ligazón para "
+"poder revisalo, os máis non o farán, xa que  isto require unha nova acción "
+"en troques da continuación do que xa estaban a facer. Aínda máis, si o "
+"revisor quere preguntar algo sobre o cambio feito, é considerablemente máis "
+"sinxelo replicar á mensaxe e incluir os comentarios sobre o rexistro de "
+"diferencias directamente sobre o propio texto do que é visitar a páxina web "
+"e cortar e pegar partes do rexistro no cliente de email."
 
 #. Tag: para
 #: ch03.xml:1439
@@ -3039,6 +3055,15 @@ msgid ""
 "Convenient reviewing and commenting is a cornerstone of cooperative "
 "development, much too important to do without.)"
 msgstr ""
+"(Dende logo, si o reporte de diferencias é moi grande, como no caso de que "
+"se teña engadido ao repositorio un corpo de texto completamente novo, terá "
+"sentido omitir a información do \"diff\" e aportar tan só a URL. Os máis dos "
+"programas de envío de correos de actualización poden facer este tipo de "
+"discriminación automática. Si o teu non pode, o mellor será manter a "
+"inclusión dos \"diff\" e pencar con mensaxes ocasionalmente enormes, que "
+"eliminalos por completo. A facilidade para facer revisións e comentarios é "
+"de vital importancia para o desenvolvemento colaborativo, demasiado para "
+"deixalos de lado)"
 
 #. Tag: para
 #: ch03.xml:1449
@@ -3062,6 +3087,25 @@ msgid ""
 "are prepared to handle consistently-formatted commit emails, but not "
 "inconsistent human-written mails."
 msgstr ""
+"Os correos de subida de cambios deberían ter a súa cabeceira Reply-to "
+"dirixida á lista normal de desenvolvemento, non á de cambios. É decir, cando "
+"alguén revisa un cambio e remite un comentario ao mesmo, a súa resposta "
+"debería ser automáticamente redirixida á lista dos desenvolvedores humanos, "
+"na que normalmente se discuten os asuntos técnicos. hai unhas cantas razóns "
+"para facelo así. Primeiro, todas as discusións técnicas deben facerse nunha "
+"única lista xa que iso é o que a xente espera que ocurra, e porque dise "
+"xeito hai un só arquivo no que facer búsquedas. En segundo lugar, poida que "
+"haxa colaboradores que non estean suscritos á lista de cambios. Terceiro, a "
+"lista de correo de cambios se autopublicita como un servizo para facer "
+"seguimento dos cambios, non para facer seguimento dos cambios <emphasis>e</"
+"emphasis> de discusións técnicas ocasionáis. Cando un se suscribe á lista de "
+"correo de cambios, non se está suscribindo ademáis a ningunha outra lista; "
+"enviiarlles outros materiáis ao traveso da lista violaría un contrato "
+"implícito. En cuarto lugar, a xente escrbe frecuentemente pequenos programas "
+"que lén a lista de cambios e procesan os resultados (cara á súa publicación "
+"nunha páxina web, por exemplo). Eses programas están preparados para "
+"manipular mensaxes de correo-e formateadas de forma consistente, pero non "
+"mensaxes escritas inconsistentemente por humanos."
 
 #. Tag: para
 #: ch03.xml:1469
@@ -3075,12 +3119,20 @@ msgid ""
 "that the appropriate place for replies is the development mailing list, not "
 "the commit list."
 msgstr ""
+"Ten en conta que esta recomendación acerca da configuración da cabeceira "
+"Reply-to non se contradice có comentado anteriormente neste capítulo acerca "
+"do <xref linkend=\"reply-to\"/><phrase output=\"printed\"> </phrase>. "
+"Normalmente o <emphasis>remitente</emphasis> dunha mensaxe vai considerar "
+"correcto establecer o Reply-to. Neste caso, o remitente e o propio sistema "
+"de control de versións, e configura o Reply-to para indicar que o lugar "
+"apropiado para respostar ás súas mensaxes é a lista de desenvolvemento, non "
+"a de cambios."
 
 #. Tag: title
 #: ch03.xml:1484
 #, no-c-format
 msgid "CIA: Another Change Publication Mechanism"
-msgstr ""
+msgstr "CIA: Outro Mecanismo de Publicación de Cambios"
 
 #. Tag: para
 #: ch03.xml:1486
@@ -3098,6 +3150,18 @@ msgid ""
 "active, and feel that they can see progress being made right before their "
 "eyes."
 msgstr ""
+"As mensaxes de cambios non son a única maneira de propagar as novas sobre os "
+"cambios feitos. Recentemente desenvolveuse un novo mecanismo denominado CIA "
+"(<ulink url=\"http://cia.navi.cx/\"></ulink>). CIA é un agregador e "
+"distrbuidor en tempo real de estadísticas sobre cambios. O uso máis popular "
+"de CIA é o de enviar notificacións de agregación de cambios a canles IRC, de "
+"xeito que a xente que está conectada a esas canles pode ver a incorporación "
+"do scambios en tempo real. Aínda que menos útil técnicamente que as mensaxes "
+"de cambios, xa que os observadores poden estar conectados á canle ou non "
+"cando aparece no IRC unha nova sobre un cambio, esta técnica ten unha "
+"inmensa utilidade <emphasis>social</emphasis>. A xente terá a sensación de "
+"formar parte de algo vivo e activo, e sentirá que se progresa xusto ante os "
+"seus ollos."
 
 #. Tag: para
 #: ch03.xml:1498
@@ -3109,6 +3173,11 @@ msgid ""
 "literal>). That server then distributes the commit information to other "
 "forums."
 msgstr ""
+"A maneira en que traballa consiste en que tí invocas o programa CIA de "
+"notificación desde gancho (hook) do teu sistema de publicación de cambios. O "
+"notificador formatea a XML a información do cambio, e o envía como mensaxe a "
+"un servidor central (típicamente cia.navi.cx</literal>). A continuación, ese "
+"servidor distribúe a información sobre o cambio a outros foros."
 
 #. Tag: para
 #: ch03.xml:1504
@@ -3118,6 +3187,10 @@ msgid ""
 "a/2002/12/18/dive-into-xml.html\">RSS</ulink> feeds. See the documentation "
 "at <ulink url=\"http://cia.navi.cx/\"></ulink> for details."
 msgstr ""
+"CIA pode ser configurado tamén para enviar comunicacións <ulink url=\"http://"
+"www.xml.com/pub/a/2002/12/18/dive-into-xml.html\">RSS</ulink>. Podes "
+"consultar os detalles na documentación do proxecto en <ulink url=\"http://"
+"cia.navi.cx/\"></ulink>."
 
 #. Tag: para
 #: ch03.xml:1509
@@ -3126,12 +3199,14 @@ msgid ""
 "To see an example of CIA in action, point your IRC client at <literal>irc."
 "freenode.net</literal>, channel <literal>#commits</literal>."
 msgstr ""
+"Para ver un exemplo de CIA en acción, accede dende o teu cliente IRC a "
+"<literal>irc.freenode.net</literal>, channel <literal>#commits</literal>."
 
 #. Tag: title
 #: ch03.xml:1518
 #, no-c-format
 msgid "Use branches to avoid bottlenecks"
-msgstr ""
+msgstr "Usa as ramas para evitar colos de botella"
 
 #. Tag: para
 #: ch03.xml:1520
@@ -3142,6 +3217,11 @@ msgid ""
 "for branching and merging is somewhat counterintuitive, so many people have "
 "learned to avoid those operations entirely."
 msgstr ""
+"Os usuarios non expertos dos sistemas de control de versións ás veces lles "
+"teñen un certo medo á creación de ramas (branching)e o posterior refundido "
+"(merging). trátase probablemente dun efecto colateral da popularidade dos "
+"CVS: a súa interfaz de creación de ramas e refundido é pouco intuitiva, de "
+"xeito que moita xente aprendeu a evitar esas operacións por completo."
 
 #. Tag: para
 #: ch03.xml:1526
@@ -3152,6 +3232,11 @@ msgid ""
 "are not difficult operations, once you get used to them, and they become "
 "increasingly important as a project acquires more developers."
 msgstr ""
+"Si tí és unha destas persoas, toma a resolución xa mesmo de superar eses "
+"medos e tómate o tempo preciso para aprender como facer a creación de ramas "
+"e o refundido. Non son operacións difíciles, unha vez que estás afeito a "
+"elas, e convértense en máis e máis importantes egún o proxecto vai "
+"incorporando máis desenvolvedores."
 
 #. Tag: para
 #: ch03.xml:1532
@@ -3167,6 +3252,17 @@ msgid ""
 "is good, they can tell the version control system to move (\"merge\") the "
 "drawbridge from the branch castle over to the main castle."
 msgstr ""
+"As ramas son valiosas xa que convirten un recurso escaso &mdash;espazos de "
+"traballo no código do proxecto&mdash; nun considerablemente máis abundante. "
+"Normalmente todos os desenvolvedores traballan conxuntamente sobre unha "
+"mesma versión do software, construíndo un único castelo. Cando alguén quere "
+"engadir unha nova torreta, pero non é quen de convencer ao resto de que se "
+"debería facer iso, a creaión dunha rama vaille dar a oportunidade de facelo "
+"nunha esquiniña. Si o esforzo ten éxito, pode invitar aos outros "
+"desenvolvedores a examinar os resultados. Si todos están de acordo en que o "
+"resultado paga a pena, entón poden decirlle ao sistema de control de "
+"versións que mova (refunda -merge) a torreta dende a rama ao castelo "
+"principal."
 
 #. Tag: para
 #: ch03.xml:1544
@@ -3181,6 +3277,14 @@ msgid ""
 "linkend=\"development-cycle\"/></phrase>) without worrying about tracking a "
 "moving target."
 msgstr ""
+"É doado ver como esta habilidade axuda ao desenvolvemento colaborativo. A "
+"xent eprecisa da liberdade de probar novas cousas sen sentir que están a "
+"interferir có traballo dos demáis. Igualmente importante, hai momentos en "
+"que o código recisa ser aillado do quefacer habitual, cara a correxir un "
+"erro ou estabilizar unha versión a liberar(véxase <xref linkend="
+"\"stabilizing-a-release\"/> e <xref linkend=\"release-lines\"/><phrase "
+"output=\"printed\"> en <xref linkend=\"development-cycle\"/></phrase>) sin "
+"ter que se preocupar acerca de manter controlada unha diana móbil."
 
 #. Tag: para
 #: ch03.xml:1554
@@ -3196,12 +3300,23 @@ msgid ""
 "community. With rare exceptions, the eventual goal of most branches should "
 "be to merge their changes back into the main line and disappear."
 msgstr ""
+"Usa as ramas con liberalidade, e aconsella aos demáis a que tamén o fagan. "
+"Pero tamén debes estar seguro de que cada rama vai permanecer activa "
+"exactamente polo tempo estrictamente necesario. Cada rama é unha pequena "
+"fuga na atención da comunidade. Incluso os que non están a traballar na rama "
+"manteñen un interés periférico sobre que é o que está a acontecer nela. Ese "
+"interés é desexable, por suposto, e se deberían enviar correos de "
+"incorporación de cambios excatamente igual que no caso dos correspondentes "
+"ao corpo principal do proxecto. Pero as ramas non se deben converter nun "
+"mecanismo de división da comunidade de desenvolvemento. Salvo raras "
+"excepcións, o obxectivo final das máis das ramas debería ser o de que os "
+"seus cambios sexan reintegrados á liña principal e que a rama desapareza."
 
 #. Tag: title
 #: ch03.xml:1568
 #, no-c-format
 msgid "Singularity of information"
-msgstr ""
+msgstr "Singularidade da información"
 
 #. Tag: para
 #: ch03.xml:1570
@@ -3216,6 +3331,16 @@ msgid ""
 "textually identical change, which would have the same effect in the code, "
 "but would make accurate bookkeeping and release management impossible."
 msgstr ""
+"O refundido (merging) ten un corolario importante: nunca envíes un mesmo "
+"cambio dúas veces. Isto é, cada cambio dado debería ser incorporado ao "
+"sistema de control de vesións exactamente unha soa vez. A revisión (ou "
+"conxunto de revisións) na que o cambio foi incorporado será o seu "
+"identificador único de ahí en adiante. Si é necesario incorporalo a outras "
+"ramas distintas daquela na que tivo a sua orixe, entón debería ser refundido "
+"(merged) dende o seu punto de entrada orixinal hacia eses outros "
+"destinos&mdash;en oposición á integración dun cambio textualmente idéntico, "
+"que tería o mesmo efecto sobre o código, pero que faría imposibles o "
+"arquivado preciso e a xestión de liberacións."
 
 #. Tag: para
 #: ch03.xml:1580
@@ -3232,6 +3357,19 @@ msgid ""
 "with at most a one-sentence summary of its effect. If someone wants to see "
 "the full log message, she should consult the original revision."
 msgstr ""
+"Os efectos prácticos deste consello van diferir dun sistema de control ed "
+"versións a outro. Nalgúns sistemas, os refundidos son acontecimentos "
+"especiáis, fundamentalmente diferentes da incorporación de cambios, e "
+"conlevan o seu propio conxnto de metadatos. En outros, o resultado dos "
+"refundidos é incorporado exactamente igual que calquera outro cambio de "
+"xeito que o medio fundamental para distinguir unha \"incorporación dun "
+"refundido\" de unha \"incorporación dun cambio\" estará nos contidos da "
+"mensaxe de rexistro. En unha mensaxe de rexistro dun refundido, nunca debes "
+"repetir a mensaxe de rexistro do cambio orixinal. Pola contra, debes indicar "
+"tan só que se trata dun refundido, e asígnalle o identificador de revisión "
+"do cambio orixinal, engadindo como moito un breve resumo dos seus efectos. "
+"Si alguén quere ver a mensaxe ded rexistro completa, deberá consultar a "
+"revisión orixinal."
 
 #. Tag: para
 #: ch03.xml:1592
@@ -3243,6 +3381,11 @@ msgid ""
 "edited the original message, she'd still leave all the repeats "
 "uncorrected&mdash;which would only cause confusion down the road."
 msgstr ""
+"A razón pola que a repetición das mensaxes de rexistro é importante é que ás "
+"veces son editadas despois de enviado o cambio. Si a mensaxe de rexistro de "
+"cada cambio fora repetida en cada destino de refundido, entón si alguén "
+"editara a mensaxe orixinal, quedarían sin correxir as distintas "
+"repeticións&mdash;o que simplemente causaría confusión no futuro."
 
 #. Tag: para
 #: ch03.xml:1599
@@ -3258,6 +3401,17 @@ msgid ""
 "anything from the original change's log message. If possible, go back and "
 "edit the original change's log message to point out that it was reverted."
 msgstr ""
+"O mesmo principio pode ser aplicado cando se revirte un cambio. No caso de "
+"que un cambio sexa descartado do código, a única mensaxe de rexistro que "
+"debería engadirse debería tan só especificar que unha revisión concreta está "
+"a ser descartada, <emphasis>nunca</emphasis> se debería describir o cambio "
+"resultante desa operación, xa que a semántica do cambio pode derivarse "
+"mediante a simple leitura da mensaxe de rexistro do cambio orixinal. Por "
+"suposto, a mensaxe de rexistro do descarte debería igualmente deixar claro "
+"por que se decide ese descarte, pero non debería duplicar ningunha "
+"información procedente da mensaxe orixinal de rexistro. Sepre que sexa "
+"posible, o que sí se debe facer é editar esa mensaxe orixinal para explicar "
+"nela que o cambio ao que se refire foi finalmente descartado."
 
 #. Tag: para
 #: ch03.xml:1610
@@ -3277,6 +3431,22 @@ msgid ""
 "> and <xref linkend=\"development-cycle\"/>), and since a lot of the "
 "bookkeeping will be done by volunteers, it needs to be as easy as possible."
 msgstr ""
+"Todo o que antecede implica que se debería empregar unha sintase consistente "
+"para referirse ás revisións. Isto non é só importante para as mensaxes ded "
+"rexistro, si non tamén nas de correo electrónico, o xestor de erros "
+"(bugtracker), e en toda a documentación do proxecto. Si está a usar CVS, "
+"suxírote \"<literal>path/to/file/in/project/tree:REV</literal>\", na que REV "
+"é un número de revisión concreto do CVS tal como \"1.76\". Si estás a "
+"empregar Subversion, a sintase estándar para as revisión 1729 é \"r1729"
+"\" (as rutas dos arquivos non son precisas xa que Subversion emprega números "
+"de revisión globáis). En outros sistemas, normalmente hai tamén unha sintase "
+"estándar para denominar ao conxunto de cambios. Calquera que sexa a sintase "
+"axeitada para o teu sistema, alecciona á xente a usala para referirse aos "
+"cambios. A expresón consistente dos nomes de cambios axuda a facer máis "
+"doado o arquivado do proxecto (como veremos en <xref linkend=\"communicacións"
+"\"/> and <xref linkend=\"ciclo-de-desenvolvemento\"/>) e como unha boa chea "
+"do traballo de arquivado vai ser feita por voluntarios, mellor mantelo tan "
+"sinxelo como sexa posible."
 
 #. Tag: para
 #: ch03.xml:1626
@@ -3285,12 +3455,15 @@ msgid ""
 "See also <xref linkend=\"releases-and-daily-development\"/><phrase output="
 "\"printed\"> in <xref linkend=\"development-cycle\"/></phrase>."
 msgstr ""
+"Podes ver tamén <xref linkend=\"liberacións-e-desenvolvemento-diario\"/"
+"><phrase output=\"printed\"> en <xref linkend=\"ciclo-de-desenvolvemento\"/"
+"></phrase>."
 
 #. Tag: title
 #: ch03.xml:1635
 #, no-c-format
 msgid "Authorization"
-msgstr ""
+msgstr "Autorización"
 
 #. Tag: para
 #: ch03.xml:1637
@@ -3306,6 +3479,17 @@ msgid ""
 "\"managing-volunteers\"/></phrase> for how projects decide who can commit "
 "where.)"
 msgstr ""
+"Os máis dos sistemas de control de versións ofrecen unha característica pola "
+"cal determinadas persoas poden ser autorizadas ou non a introducir cambios "
+"en sub-áreas concretas do repositorio do proxecto. Seguindo o principio de "
+"que cando agarras un martelo, a xente comeza a mirar ao redor en busca de "
+"cravos, moitos proxectos empregan esta característica con abondono, "
+"garantizando coidadosamente que a xente ten acceso a xusto aquelas áreas "
+"para as que están autorizados a subir cambios, e que non poden facelo en "
+"ningunha outra parte. (podes consultar <xref linkend=\"committers\"/><phrase "
+"output=\"printed\"> en <xref linkend=\"xestionando-voluntarios\"/></phrase> "
+"para entender como se decide quen vai poder introducir cambios en que partes "
+"do proxecto)"
 
 #. Tag: para
 #: ch03.xml:1648
@@ -3322,6 +3506,19 @@ msgid ""
 "be undone, that's simple enough&mdash;everything's under version control "
 "anyway, so just revert."
 msgstr ""
+"Probablemente hai pouco risco de danos por exercer un control tan estricto, "
+"pero unha política máis relaxada é tamén viable. Algúns proxectos "
+"simplemente usan un sistema hoonorífico: cando alguén recibe autorización "
+"para acceder ao sistema de control de cambios, incluso para unha sub-área do "
+"repositorio, o que en realidade están a recibir é un pasaporte para poder "
+"introducir cambios en calquera parte do proxecto. Simplemente se lles suxire "
+"que manteñan oso seus cambios na súa área. Tén en conta que non existe "
+"ningún risco real en facelo así: nun proxecto activo, todos so cambios "
+"integrados osn revisados por alguén. Si un colaborador introduce cambios "
+"nunha área na que non está autorizado a traballar, outros vanse dar conta e "
+"o van comentar. Si é preciso desfacer un cambio, chega con iso&mdash;todo "
+"está sometido ao sistema de control de versións, así que simplemente terás "
+"que revertir o cambio."
 
 #. Tag: para
 #: ch03.xml:1660
@@ -3333,6 +3530,12 @@ msgid ""
 "privileges. Once the decision is made, the person can just start committing "
 "in the new area right away."
 msgstr ""
+"Hai moitas vantaxes na aproximación relaxada. Primeiro, según os "
+"desenvolvedores van expandíndose por outras áreas (o que con seguridade vai "
+"ocurrir, si é que se manteñen no proxecto), non hai ningunha dificultade "
+"administrativa en ampliarlles os privilexios de acceso. Unha vez que se toma "
+"a decisión, a persoa en cuestión pode comezar inmediatamente a traballar na "
+"nova área."
 
 #. Tag: para
 #: ch03.xml:1666
@@ -3347,6 +3550,15 @@ msgid ""
 "person who actually wrote the change, which is preferable from both an "
 "information management standpoint and from a crediting standpoint."
 msgstr ""
+"Segundo, a expansión pode ser feita dun xeito máis granular. Xeralmente, un "
+"desenvolvedor da área X que queira expandir o seu interese á área Y, "
+"comezará a publicar aportacións a Y e solicitar que sexan revisadas. Si "
+"alguén que xa tiña privilexios de acceso a Y ve unha das ditas aportacións e "
+"a aproba, simplemente poden indicarlle ao desenvolvedor que incorpore o "
+"cambio directamente ao repositorio (mencionando o nome do revisor na mensaxe "
+"de rexistro ,por suposto). Así, a incorporación do cambio vai ser feita por "
+"quen escribiu o cambio, o que máis axeitado tanto desde o punto de vista da "
+"xestión da información como desde o de acreditación de autorías."
 
 #. Tag: para
 #: ch03.xml:1676
@@ -3364,6 +3576,19 @@ msgid ""
 "A good way to do that is to give them more power than they're supposed to "
 "use, then inform them that it's up to them to stay within the stated limits."
 msgstr ""
+"Por último, e poida que mái simportante, empregar un sistema meritocrático "
+"crea unha atmósfera de confianza e respeto mutuos. Darlle a alguén acceso a "
+"un subdominio é unha manifestación acerca da súa preparación técnica&mdash;é "
+"como decir: \"Ei, xa vemos que tes experiencia como para incorporar cambios "
+"neste dominio, así que adiante\". Pola contra, establecer un sistema moi "
+"estrcto de control de accesos é como decir: \"Non só estamos poñendo en "
+"dúbida a túa experiencia, tamén temos sospeitas sobre as túas "
+"<emphasis>intencións</emphasis>.\" E ese é o tipo de frases que non che "
+"gustaría empregar , si é que podes evitalo. Incorporar a alguén ao proxecto "
+"como desenvolvedor é unha oportunidade para inicialo no círculo de confianza "
+"mutua. Unha boa maneira de facelo é concederlle máis poder do que que se lle "
+"supón que vai usar, e despois informarlles que está nas súas mans manterse "
+"dentro dos límites acordados."
 
 #. Tag: para
 #: ch03.xml:1690
