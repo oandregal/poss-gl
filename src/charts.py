@@ -25,7 +25,7 @@ def stacked_horizontal(chapter):
 
 def main():
     chapters = [
-        [35, 65, 'libro'],
+        [45, 55, 'libro'],
         [0, 100, 'book'],
         [100, 0, 'ch00'],
         [100, 0, 'ch01'],
