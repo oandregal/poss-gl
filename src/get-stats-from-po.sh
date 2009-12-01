@@ -45,4 +45,4 @@ if [ $DEBUG = 'True' ] ; then
     echo "Total : $totalTraducidas - $totalFuzzy - $totalNoTraducidas"
 fi;
 
-python $SCRIPT_PYTHON $totalTraducidas $totalFuzzy $totalNoTraducidas 'total.po'
+python $SCRIPT_PYTHON $totalTraducidas $totalFuzzy $totalNoTraducidas 'libro.po'
