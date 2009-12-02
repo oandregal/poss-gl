@@ -47,9 +47,15 @@ for file in `find $DIR -iname '*.po'` ; do
     nameFile=`basename $file`
     cadena=`msgfmt --statistics -o /dev/null $file 2>&1 `
 
-    traducidas=`echo $cadena | egrep '[0-9]+ translated message[s]*' -o | egrep '[0-9]+' -o`
-    fuzzy=`echo $cadena | egrep '[0-9]+ fuzzy translation[s]*' -o | egrep '[0-9]+' -o`
-    noTraducidas=`echo $cadena | egrep '[0-9]+ untranslated message[s]*' -o | egrep '[0-9]+' -o `
+    if [ $LANG = 'es_ES.UTF-8' ] ; then
+        traducidas=`echo $cadena | egrep '[0-9]+ mensaje[s]* traducidos' -o | egrep '[0-9]+' -o`
+        fuzzy=`echo $cadena | egrep '[0-9]+ traducci.* difusa[s]*' -o | egrep '[0-9]+' -o`
+        noTraducidas=`echo $cadena | egrep '[0-9]+ mensaje[s]* sin traducir' -o | egrep '[0-9]+' -o`
+    else
+        traducidas=`echo $cadena | egrep '[0-9]+ translated message[s]*' -o | egrep '[0-9]+' -o`
+        fuzzy=`echo $cadena | egrep '[0-9]+ fuzzy translation[s]*' -o | egrep '[0-9]+' -o`
+        noTraducidas=`echo $cadena | egrep '[0-9]+ untranslated message[s]*' -o | egrep '[0-9]+' -o `
+    fi
 
     if [ -z $traducidas ] ; then traducidas=0 ; fi
     if [ -z $fuzzy ] ; then fuzzy=0 ; fi
