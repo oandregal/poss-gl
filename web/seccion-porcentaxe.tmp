@@ -199,6 +199,7 @@
       <th>COPY_TRADUCIDAS / COPY_TOTAIS</th>
       <th>copy
         <a href="http://gitorious.org/poss-gl/poss-gl/blobs/master/zip/copy.zip">[ZIP]</a>
+      </th>
       <th>Francisco Puga</th>
     </tr>
 
@@ -207,7 +208,8 @@
       <th>DEDICATION_TRADUCIDAS / DEDICATION_TOTAIS</th>
       <th>Dedication
         <a href="http://gitorious.org/poss-gl/poss-gl/blobs/master/zip/dedication.zip">[ZIP]</a>
-      <th>-</th>
+      </th>
+      <th>Nacho Varela</th>
     </tr>
 
   </table>
