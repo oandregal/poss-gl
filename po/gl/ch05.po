@@ -14,8 +14,8 @@ msgstr ""
 "Last-Translator: Roberto Vieito Raña <roberto.vieito@ghandalf.org>\n"
 "Language-Team: Galego <producingoss@listas.ghandalf.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=8bit\n"
-"Content-Transfer-Encoding: UTF-8\n"
+"Content-Type: application/x-xml2pot; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
 
 #. Tag: title
 #: ch05.xml:3
