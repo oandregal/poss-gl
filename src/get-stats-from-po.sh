@@ -44,7 +44,9 @@ fi
 
 for file in `find $DIR -iname '*.po'` ; do
 
-    nameFile=`basename $file`
+    #Be aware: This will not work if the file have points in its filename
+    pngPathFile=$IMG_DIR`basename $file | cut -d'.' -f1`.png
+
     cadena=`msgfmt --statistics -o /dev/null $file 2>&1 `
 
     if [ $LANG = 'es_ES.UTF-8' ] ; then
@@ -69,7 +71,8 @@ for file in `find $DIR -iname '*.po'` ; do
     totalFuzzy=`echo $((fuzzy + totalFuzzy))`
     totalNoTraducidas=`echo $((noTraducidas + totalNoTraducidas))`
 
-    python $SCRIPT_PYTHON $traducidas $fuzzy $noTraducidas $nameFile
+    python $SCRIPT_PYTHON $traducidas $fuzzy $noTraducidas $pngPathFile
+    convert $pngPathFile -crop 100x35+2-2 +repage $pngPathFile
 
     if ! [ -z $PASS ] ; then
         curl -T $pngPathFile -u $USER:$PASS ftp://producingoss.ghandalf.org/img/

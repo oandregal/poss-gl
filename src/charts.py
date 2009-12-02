@@ -39,7 +39,7 @@ def main(argv):
     chart.set_zero_line(0, 0)
     chart.add_data([pTraducidas])
     chart.add_data([pNoTraducidas])
-    chart.download('../web/img/' +  changeExtension(argv[3], 'png'))
+    chart.download(argv[3])
 
 if __name__ == '__main__':
     main(sys.argv[1:])
