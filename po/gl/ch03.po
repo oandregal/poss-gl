@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Producing OSS\n"
 "Report-Msgid-Bugs-To: producingoss@listas.ghandalf.org\n"
 "POT-Creation-Date: 2009-07-11 15:32+0000\n"
-"PO-Revision-Date: 2009-12-01 21:04+0100\n"
+"PO-Revision-Date: 2009-12-02 20:04+0100\n"
 "Last-Translator: Pedro A. González <pedro.gonzalez@ghandalf.org>\n"
 "Language-Team: Galician <producingoss@listas.ghandalf.org>\n"
 "MIME-Version: 1.0\n"
@@ -3603,6 +3603,15 @@ msgid ""
 "extent of someone's commit privileges, but it's always been resolved quickly "
 "and amiably."
 msgstr ""
+"O proxecto Subversion ven traballando có sistema meirotcrático dende hai "
+"máis de catro anos, con 33 colaboradores sobra a totalidade do proxecto e 43 "
+"sobre partes do mesmo cando isto foi escrito. A única distinción que o "
+"sistema mantén realmente por si mesmo é entre quen poden subir cambios e "
+"quen non; as restantes divisións son mantidas exclusivamente por humanos. A "
+"día de hoxe non tivemos ningún problema con alguén que pretendera incorporar "
+"cambios fora do seu dominio deliberadamente. Unha vez ou dúas houbo algunha "
+"falta de entendimento acerca de atá onde chegan exactamente os privilexios "
+"de alguén, pero sempre foron resoltas rápida e amigablemente."
 
 #. Tag: para
 #: ch03.xml:1700
@@ -3617,6 +3626,16 @@ msgid ""
 "then the project has bigger problems to deal with than the authorization "
 "system anyway."
 msgstr ""
+"Obviamente, en situacións nas que o autocontrol non é práctico, deberás "
+"establecer controis de autenticación severos. Pero estas situacións son "
+"pouco frecuentes. Incluso cando se está a falr de millóns de liñas de código "
+"e centos ou milleiros de desenvolvedores, a incorporación dun cambio a un "
+"módulo de código concreto debería ser revisado por quen traballa nese módulo "
+"preciso, e son eles quen pode recoñecer si alguén que non debería está a "
+"enviar cambios. Si a revisión regular de cambios a incorporar <emphasis>non</"
+"emphasis> está a funcionar axeitadamente, entón é que o proxecto ten "
+"problemas máis importantes que resolver que os relativos ao sistema de "
+"autenticacións."
 
 #. Tag: para
 #: ch03.xml:1710
@@ -3627,6 +3646,10 @@ msgid ""
 "bring much tangible benefit, and there are advantages to relying on human "
 "controls instead."
 msgstr ""
+"En resumen, non pases moito tempo chafullando no sistema de autenticación do "
+"control de versións, non sendo que teñas unha razón específica para facelo. "
+"Xeralmente non vai producir ningún beneficio tanxible, e sin embargo "
+"atoparás moitas avantaxes en deixar o control en mans dos humanos."
 
 #. Tag: para
 #: ch03.xml:1715
@@ -3640,12 +3663,21 @@ msgid ""
 "discussed more in <xref linkend=\"electorate\"/><phrase output=\"printed\"> "
 "in <xref linkend=\"social-infrastructure\"/></phrase>."
 msgstr ""
+"Nada do que antecede debe ser tomado no sentido de que as restriccións "
+"carecen de importancia en si mesmas, por suposto. Pode ser desastroso para "
+"un proxecto deixar que a xente incorpore cambios en áreas para as que non "
+"están cualificados. Aínda máis, en moitos proxectos, o acceso completo (sin "
+"restriccións) responde a un estatus especial: implica gozar do dereito a "
+"votar en cuestións que afecten a calquera das partes do proxecto. Este "
+"aspecto político dos accesos á incorporación de cambios é discutido máis a "
+"fondo en <xref linkend=\"electorado\"/><phrase output=\"printed\"> e en "
+"<xref linkend=\"infrastrutura-social\"/></phrase>."
 
 #. Tag: title
 #: ch03.xml:1733
 #, no-c-format
 msgid "Bug Tracker"
-msgstr ""
+msgstr "Xestor de Erros (Bug Tracker)"
 
 #. Tag: para
 #: ch03.xml:1735
@@ -3657,6 +3689,11 @@ msgid ""
 "policy question: exactly what kind of information should be kept in a bug "
 "tracker?"
 msgstr ""
+"A xestión de erros é unha cuestión moi ampla; varios dos aspectos que lle "
+"afectan son discutidos ao longo deste libro. Eiquí eu vou tratar de "
+"concentrarme principalmente na súa configuración e máis en consideracións "
+"técnicas, pero antes de chegar a ese punto, temos que comezar cunha cuestión "
+"política: exactamente que información debe ser mantida nun xestor de erros?"
 
 #. Tag: para
 #: ch03.xml:1741
@@ -3672,6 +3709,19 @@ msgid ""
 "trackers</firstterm>, <firstterm>trouble ticket systems</firstterm>, etc. "
 "See <xref linkend=\"bug-trackers\"/> for a list of software."
 msgstr ""
+"O termo <firstterm>bug tracker</firstterm> é confuso. Os sistemas de xestión "
+"de erros son usados frecuentemente para facer seguimento de requerimentos de "
+"novas características, tarefas unitarias, parches non solicitados&mdash;en "
+"realidade calquera cousa que presenta distintos estados de comezo e de fin, "
+"con estados opcionáis de transición no medio, o qu efai incrementar a "
+"información asociada ao longo do tempo. Por esta razón os xestores de erros "
+"son tamén denominados <firstterm>xestores de asuntos (issue trackers)</"
+"firstterm>, <firstterm>xestores de deffectos (defect trackers)</firstterm>, "
+"<firstterm>xestores de artefactos (artifact trackers)</firstterm>, "
+"<firstterm>xestores de requisitos (request trackers)</firstterm>, "
+"<firstterm>sitemas de tickets de errores (trouble ticket systems)</"
+"firstterm>, etc. Podes consultar unha lista de software en<xref linkend="
+"\"bug-trackers\"/>."
 
 #. Tag: para
 #: ch03.xml:1753
@@ -3686,12 +3736,22 @@ msgid ""
 "resolution. Keep in mind that although most issues are about actual bugs, "
 "issues can be used to track other kinds of tasks too."
 msgstr ""
+"En este libro, eu vou continuar a falar de \"xestor de erros (bug tracker)\" "
+"cando me refira ao software que fai o seguimento, xa que é así como a "
+"maioría da xente lle chama, pero empregaré <firstterm>asunto (issue)</"
+"firstterm> para referirme a unha instancia individual na base de datos do "
+"xestor de erros. Isto nos vai permitir distinguir entre o comportamento ou "
+"fallo que o usuario ten atopado (isto é, o error ou \"bug\" en sí mesmo), e "
+"os <emphasis>rexistros</emphasis> referidos ao descubrimento, diagnosis e "
+"eventual resolución do erro. Ten en conta que aínda que moitos asuntos se "
+"refiren a erros reais, tamén poden referirse igualmente ao seguimento de "
+"outros tipos de tarefas."
 
 #. Tag: para
 #: ch03.xml:1763
 #, no-c-format
 msgid "The classic issue life cycle looks like this:"
-msgstr ""
+msgstr "O clásico ciclo de vida dun asunto é semellante a:"
 
 #. Tag: para
 #: ch03.xml:1766
@@ -3705,6 +3765,16 @@ msgid ""
 "be totally unknown to the project&mdash;bug reports and feature requests are "
 "as likely to come from the user community as from the developers."
 msgstr ""
+"Alguén detecta o erro. Suministra un resumo, unha breve descripción do mesmo "
+"(incluíndo unha receta para reproducir o fallo, no seu caso; bótalle unha "
+"ollada a <xref linkend=\"de-usuarios-a-voluntarios\"/><phrase output="
+"\"printed\"> en <xref linkend=\"xestionando-voluntarios\"/></phrase> para "
+"entender como se debe pedir á xente que faga bós informes de erros), así "
+"como calquera outra información que o xestor de erros demande. A persoa que "
+"detecta o asunto pode ser totalmente descoñecida para o proxecto&mdash;os "
+"informes sobre erros e o requerimento de novas funcionalidades terán as "
+"mesmas probabilidades de seren plantexados por usuarios como polos "
+"desenvolvedores."
 
 #. Tag: para
 #: ch03.xml:1779
@@ -3718,6 +3788,14 @@ msgid ""
 "holding area: the issue has been recorded, but not yet integrated into the "
 "project's consciousness."
 msgstr ""
+"Unha vez reportado, o asunto queda rexistrado no estado coñecido como "
+"<firstterm>aberto</firstterm>. Como de momento non se realizou ningunha "
+"operación sobre el, algúns xestores de erros o denominan <firstterm>non "
+"verificado</firstterm> e/ou <firstterm>sin iniciar</firstterm>. Non está "
+"aínda asignado a ninguén; ou, en algúns xestores, se lle asigna a un usuario "
+"ficticio, o que ven a representar a ausencia de asignación. Neste punto, "
+"está nun espazo de espera: o asunto foi arquivado, pero aínda non está "
+"integrado na conciencia activa do proxecto."
 
 #. Tag: para
 #: ch03.xml:1790
@@ -3726,6 +3804,9 @@ msgid ""
 "Others read the issue, add comments to it, and perhaps ask the original "
 "filer for clarification on some points."
 msgstr ""
+"Outra xente vai ler o asunto, engadirlle comentarios, e poida que "
+"preguntarlle ao remitente orixinal sobre detalles que clarifiquen algún "
+"punto escuro."
 
 #. Tag: para
 #: ch03.xml:1794
@@ -3738,6 +3819,11 @@ msgid ""
 "original filer that they've contributed to the project by reporting a real "
 "bug."
 msgstr ""
+"O erro e entón <firstterm>reproducido</firstterm>. Este pode ser o momento "
+"máis importante no seu ciclo de vida. Aínda que o erro non está correxido, o "
+"feito de que alguén ademáis do remitente orixinal sexa quen de reproducilo "
+"vai probar que é auténtico, e , non menos importante, vai confirmar a quen o "
+"detectou por primeira vez que ten contribuido ao proxecto con un erro real."
 
 #. Tag: para
 #: ch03.xml:1802
@@ -3750,6 +3836,12 @@ msgid ""
 "with volunteer developers), someone else should be able to pick up where she "
 "left off."
 msgstr ""
+"O erro en entón <firstterm>diagnosticado</firstterm>: identifícase a causa "
+"que o produce, e si é posible, se estima o esforzo requerido para correxilo. "
+"Estes procesos deben quedar gravados no sistema; si a persoa que fai o "
+"diagnóstico desaparece repentinamente do proxecto por un tempo (o que vai "
+"suceder frecuentemente cós desenvolvedores voluntarios), caquera outro "
+"deberá ser quen de retomar a xestión do erro onde o outro o deixou."
 
 #. Tag: para
 #: ch03.xml:1811
@@ -3764,6 +3856,14 @@ msgid ""
 "delay the next release, that fact needs to be identified early, and the "
 "tracker should have some way of noting it."
 msgstr ""
+"Neste paso, ou ás veces no anterior, un desenvolvedor vai \"apropiarse\" do "
+"asunto e <firstterm>auto asignarseo</firstterm>  (<xref linkend=\"asignación-"
+"de-delegacións\"/><phrase output=\"printed\"> en <xref linkend=\"xestionando-"
+"voluntarios\"/></phrase> examina o proceso con máis detalle). A "
+"<firstterm>prioridade</firstterm> pode tamén ser establecida neste paso. Por "
+"exemplo, si é tan severo que podería retrasar a seguinte liberación, ese "
+"asunto precisa ser identificado pronto, e o xestor debería proporcionar "
+"algunha maneira de notificalo."
 
 #. Tag: para
 #: ch03.xml:1824
@@ -3775,6 +3875,12 @@ msgid ""
 "by, or deciding that it need not block any particular release. Scheduling "
 "may also be dispensed with, if the bug is quick to fix."
 msgstr ""
+"O asunto é entón programado para ser resolto. A programación on ter por que "
+"incluir a determinación dunha data límite para a súa corrección. Ás veces "
+"implica simplemente determinar en que liberación futura (non necesariamente "
+"a seguinte) o erro debería estar solucionado, ou decidir que non é preciso "
+"bloquear ningunha liberación en particular. A programación pode tamén ser "
+"ignorada, si o erro é doado de resolver."
 
 #. Tag: para
 #: ch03.xml:1832
@@ -3785,6 +3891,10 @@ msgid ""
 "a comment in the issue, after which the issue is <firstterm>closed</"
 "firstterm> and/or marked as <firstterm>resolved</firstterm>."
 msgstr ""
+"O erro é resolto (ou a tarefa completada, ou o parche aplicado, ou o que "
+"sexa). O cambio ou conxunto de cambios resultantes da súa resolución deberán "
+"ser gravados nun comentario, e posteriormente o asunto é <firstterm>pechado</"
+"firstterm> e/ou marcado como <firstterm>resolto</firstterm>."
 
 #. Tag: para
 #: ch03.xml:1843
@@ -3807,6 +3917,24 @@ msgid ""
 "database; see <xref linkend=\"issue-manager\"/><phrase output=\"printed\"> "
 "in <xref linkend=\"managing-volunteers\"/></phrase>."
 msgstr ""
+"Hai algunhas variacións frecuentes sobre este ciclo de vida. Ás veces un "
+"asunto é pechado moi cedo tras ser comunicado, porque resulta non ser "
+"realmente un erro, si non un fallo de utilización por parte do usuario. "
+"Según o proxecto vai tendo máis usuarios, máis de estes falsos erros van ser "
+"comunicados, e os desenvolvedores van proceder a pechalos con comentarios "
+"cada vez máis intempestivos. Tenta evitar esta última  tendencia. Non lle "
+"fai ningñun ben a ninguén, xa que o usuario que comunica o erro en cada caso "
+"non é responsable do todas as comunicacións previas; a tendencia estatística "
+"é visible só dende o punto de vista dos desenvolvedores, non do dos usuarios."
+"(Máis adiante neste capítulo, en <xref linkend=\"filtrado-de-erros\"/"
+"><phrase output=\"printed\"> </phrase>, veremos algunhas técnicas destinadas "
+"a reducir o número de falsos erros). Igualmente, si diferentes usuarios "
+"estána cometer o mesmo fallo de operación unha e outra vez, s epodería "
+"pensar que esa parte do software precisa ser redeseñada. Este tipo de "
+"patróns é máis doado de detectar cando hai un xestor de asuntos "
+"monitorizando a base de datos de erros; véxase <xref linkend=\"xestor-de-"
+"asuntos\"/><phrase output=\"printed\"> en <xref linkend=\"xestionando-"
+"voluntarios\"/></phrase>."
 
 #. Tag: para
 #: ch03.xml:1863
@@ -3823,6 +3951,17 @@ msgid ""
 "reproduction information in the duplicates is available to the original "
 "issue, and vice versa."
 msgstr ""
+"Outra variación frecuente do ciclo de vida consiste en pechar o asunto como "
+"<firstterm>duplicado</firstterm> xusto despois do Paso 1. Un duplicado é un "
+"asunto que xa é coñecido polos responsables do proxecto. Os duplicados non "
+"afectan exclusivamente a asuntos abertos: é posible que un erro volva a "
+"manifestarse incluso despois de ter sido resolto (isto é coñecido como "
+"<firstterm>regresión</firstterm>), en cuxo caso o procedimento preferido "
+"consiste en reabrir o asunto orixinal e pechar calquera nova notificación do "
+"mesmo como duplicados do anterior. O sistema de xestión de erros debería "
+"facer seguimento bidireccional desta relación, de xeito que a información "
+"sobre reproducción contida nos duplicados esté dispoñible para o orixinal, e "
+"viceversa."
 
 #. Tag: para
 #: ch03.xml:1875
@@ -3834,6 +3973,12 @@ msgid ""
 "environment necessary to reproduce the bug, or because they didn't test the "
 "fix using the exact same reproduction recipe as the reporter."
 msgstr ""
+"Unha terceira variación consiste en que os desenvolvedores pechen o asunto, "
+"pensando que o resolveron, e ver que o informante orixinal rexeita a "
+"solución e o reabre. Isto xeralmente ocurre porque os desenvolvedores "
+"simplemente non teñen acceso ao entorno necesario para reproducir o fallo, "
+"ou porque non o reproduciron seguindo exactamente a mesma receta aportada "
+"polo informante para a súa reproducción."
 
 #. Tag: para
 #: ch03.xml:1882
@@ -3845,6 +3990,11 @@ msgid ""
 "software, it has implications for how open source projects use their bug "
 "trackers."
 msgstr ""
+"Máis aló destas varacións, poden darse outros aspectos do xestor de erros  "
+"que poden variar dependendo do software empregado. Pero o aspecto básico é o "
+"mesmo, e mentres o ciclo de vida en sí mesmo non é especifico do software de "
+"fontes abertas, ten implicacións concretas en como os proxectos de software "
+"aberto usan os seus xestores de erros."
 
 #. Tag: para
 #: ch03.xml:1888
@@ -3865,12 +4015,28 @@ msgid ""
 "lookout for other instances of the issue, can talk about it with other "
 "developers, etc."
 msgstr ""
+"Tal como se deduce do Paso 1, o xestor é tan \"fachada pública\" do proxceto "
+"como poidan selo as listas de correo ou as páxinas web. Calquera pode "
+"rexistrar un asunto, calquera pode facer seguimento dun asunto, e calquera "
+"pode explorar a lista de asuntos actualmente abertos. Ocurre que non podes "
+"coñecer canta xente está pendente de como se resolve un asunto. Mentres que "
+"o tamaño e a habilidade da comunidade van reducir o plazo en que os asuntos "
+"son resoltos, o proxecto debería en todo caso ser quen de tomar coñecemento "
+"de cada asunto xusto no momento en que é detectado. Incluso si un asunto "
+"flota durante un tempo, unha resposta vai favorecer que o informante "
+"permaneza interesado, xa que vai notar que alguén tomou nota do que el "
+"reportou (lembra que encher un formulario de alta dun asunto leva máis tempo "
+"que, por exemplo, escribir un correo electrónico). Aínda máis, unha vez que "
+"un asunto é revisado por un desenvolvedor, pasa a formar parta do "
+"\"consciente\" do proxecto, no senso de que ese desenvolvedor pode estar xa "
+"analizando outras instancias do asunto, pode falar sobre o tema con outros "
+"colegas, etc."
 
 #. Tag: para
 #: ch03.xml:1904
 #, no-c-format
 msgid "The need for timely reactions implies two things:"
-msgstr ""
+msgstr "A necesidade de reaccionar a tempo implica dúas cousas:"
 
 #. Tag: para
 #: ch03.xml:1908
@@ -3883,6 +4049,13 @@ msgid ""
 "mails, but (just as with commit mails) the Reply-to header should be set to "
 "the development mailing list."
 msgstr ""
+"O xestor debe estar conectado a unha lista de correo, de xeito que cada "
+"cambio sobre un asunto, incluíndo a súa notificación inicial, debe producir "
+"unha mensaxe de correo que describa o que aconteceu. Esta lista de correo é "
+"xeralmente distinta da de desenvolvemento, xa que non todos os "
+"desenvolvedores poden querer recibir mensaxes automatizadas referidas a "
+"erros, pero (igual que nas mensaxes de inserción de cambios) a cabeceira de "
+"Reply-to debería ser dirixida á lista xeral de desenvolvemento."
 
 #. Tag: para
 #: ch03.xml:1917
@@ -3895,12 +4068,19 @@ msgid ""
 "><phrase output=\"printed\"> later in this chapter</phrase> for more on the "
 "importance of anonymity.)"
 msgstr ""
+"O formulario de notificación de asuntos debería capturar a dirección de "
+"correo do remitente, de xeito que poida ser contactado para requerirlle máis "
+"información. (Nembargantes, non debería <emphasis>requerir</emphasis> esa "
+"dirección, dado que hai xente que prefire notificar erros de xeito anónimo. "
+"Véxase <xref linkend=\"confidencialidade\"/><phrase output=\"printed\"> máis "
+"adiante neste capítulo</phrase> para ler información adicional sobre a "
+"importancia de poder manter o anónimo.)"
 
 #. Tag: title
 #: ch03.xml:1931
 #, no-c-format
 msgid "Interaction with Mailing Lists"
-msgstr ""
+msgstr "Interacción con Listas de Correo"
 
 #. Tag: para
 #: ch03.xml:1933
@@ -3912,6 +4092,11 @@ msgid ""
 "archiver, a way to organize facts and references to other discussions, "
 "primarily those that take place on mailing lists."
 msgstr ""
+"Asegúrate de que o xestor de erros non se convirte nun foro de discusión. "
+"Aínda que é importante manter a presencia humana no sistema, non está "
+"preparado para soportar discusións en tempo real. Máis ben debes pensar nel "
+"como un arquivador, un xeito de organizar feitos e referencias cara a outras "
+"discusións, básicamente aquelas que teñen lugar nas listas de correo."
 
 #. Tag: para
 #: ch03.xml:1940
@@ -3932,6 +4117,21 @@ msgid ""
 "we'll look at ways to make sure people don't accidentally siphon discussions "
 "out of appropriate forums and into the bug tracker."
 msgstr ""
+"Hai dúas razóns para facer esta distinción. Primeiro, o xestor de erros e "
+"máis complicado de usar que as listas de correo (ou que os chats en tempo "
+"real). Isto non é así debido a que o xestor teña unha interface de usuario "
+"mal deseñada, se non a que as súas interfaces foron diseñadas para capturar "
+"e presentar estados discretos, non discusións libres. En segundo lugar, non "
+"tood o mundo que está a seguir unha determinada dicusión sobre un asunto ten "
+"por que estar conectado ao xestor de erros. En parte a boa xestión de "
+"asuntos (véxase <xref linkend=\"xestión-compartida\"/><phrase output="
+"\"printed\"> en <xref linkend=\"xestionando-voluntarios\"/></phrase>) ten "
+"que ver con asegurar que a información correcta está sendo posta ao dispor "
+"da xente axeitada, máis que con pretender que todos os desenvolvedores "
+"estean pendentes de todos os asuntos. En <xref linkend=\"uso-do-xestor-de-"
+"erros\"/><phrase output=\"printed\"> en <xref linkend=\"comunicacións\"/>,</"
+"phrase> veremos algunhas maneiras de asegurar que a xente non lanza "
+"discusións fora dos foros apropiados e no xestor de erros."
 
 #. Tag: para
 #: ch03.xml:1956
@@ -3947,12 +4147,20 @@ msgid ""
 "tracker has it, make sure both to turn it on and to remind people to take "
 "advantage of it."
 msgstr ""
+"Algúns xestores de erros poden monitorizar as listas de correo e rexistrar "
+"automáticamente todas as mensaxes que teñen que ver cun asunto coñecid. "
+"Típicamente fan isto mediante o recoñecimento do identificador do erro na "
+"liña de \"asunto\" das mensaxes para atraer a atención do xestor. Éste ou "
+"ben salvará toda a mensaxe, ou (aínda mellor) gravará unha ligazón á mensaxe "
+"gardada nos arquivos da lista de correo. En calquera caso, esta é unha "
+"característica moi útil; si o teu xestor dispón dela, asegúrate de activala "
+"e de recomendar á xente que a use."
 
 #. Tag: title
 #: ch03.xml:1970
 #, no-c-format
 msgid "Pre-Filtering the Bug Tracker"
-msgstr ""
+msgstr "Pre-filtrando o xestor de erros"
 
 #. Tag: para
 #: ch03.xml:1972
@@ -3966,6 +4174,14 @@ msgid ""
 "filed, and finally, how to effectively report it if one still thinks it's a "
 "new bug."
 msgstr ""
+"As máis das bases de datos de asuntos sufren de cando en vez o mesmo "
+"problema: unha cantidade crítica de asuntos duplicados ou inválidos "
+"procedentes de usuarios ben intencionados pero inexpertos ou mal informados. "
+"O primeiro paso para combatir esta tendencia consiste en colgar un aviso ben "
+"visible na páxina de entrada ao xestor de erros no que se explique como "
+"saber si un erro é realmente un erro, como buscar si xa foi notif¡cado e, "
+"finalmente, como facer correctamente a notificación si se segue a pensar que "
+"se trata realmente dun erro novo."
 
 #. Tag: para
 #: ch03.xml:1980
