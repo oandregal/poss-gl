@@ -3,6 +3,7 @@
 DIR='../po/gl/'
 IMG_DIR='../web/img/'
 PORCENTAXE_FILE='../web/seccion-porcentaxe.html'
+TEMPLATE_PORCENTAXE_FILE='../web/seccion-porcentaxe.tmp'
 
 SCRIPT_PYTHON='charts.py'
 PASS=''
@@ -42,11 +43,15 @@ if [ $DEBUG == 'True' ] ; then
     echo "fichero : traducidos : fuzzy : notraducidos"
 fi
 
+cp -f $TEMPLATE_PORCENTAXE_FILE $PORCENTAXE_FILE
+
 for file in `find $DIR -iname '*.po'` ; do
 
     #Be aware: This will not work if the file have points in its filename
+    code=`basename $file | cut -d'.' -f1 | tr '[:lower:]' '[:upper:]'` #used for identify the strings to substitute on TEMPLATE_PORCENTAXE_FILE
     pngPathFile=$IMG_DIR`basename $file | cut -d'.' -f1`.png
 
+    
     cadena=`msgfmt --statistics -o /dev/null $file 2>&1 `
 
     if [ $LANG = 'es_ES.UTF-8' ] ; then
@@ -62,6 +67,11 @@ for file in `find $DIR -iname '*.po'` ; do
     if [ -z $traducidas ] ; then traducidas=0 ; fi
     if [ -z $fuzzy ] ; then fuzzy=0 ; fi
     if [ -z $noTraducidas ] ; then noTraducidas=0 ; fi
+
+    totalCadenas=$((traducidas + fuzzy + noTraducidas))
+
+    sed -i "s/${code}_TRADUCIDAS/$traducidas/  " $PORCENTAXE_FILE
+    sed -i "s/${code}_TOTAIS/$totalCadenas/" $PORCENTAXE_FILE
 
     if [ $DEBUG = 'True' ] ; then
         echo -e "\n$file : $traducidas - $fuzzy - $noTraducidas"
@@ -84,6 +94,9 @@ if [ $DEBUG = 'True' ] ; then
 fi;
 
 # Processing the statistics for the whole book
+sed -i "s/LIBRO_TRADUCIDAS/$totalTraducidas/ " $PORCENTAXE_FILE
+totalCadenas=$((totalTraducidas + totalFuzzy + totalNoTraducidas))
+sed -i "s/LIBRO_TOTAIS/$totalCadenas/" $PORCENTAXE_FILE
 pngPathFile="${IMG_DIR}libro.png"
 python $SCRIPT_PYTHON $totalTraducidas $totalFuzzy $totalNoTraducidas $pngPathFile
 convert $pngPathFile -crop 100x35+2-2 +repage $pngPathFile
