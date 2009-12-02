@@ -51,7 +51,7 @@ for file in `find $DIR -iname '*.po'` ; do
     code=`basename $file | cut -d'.' -f1 | tr '[:lower:]' '[:upper:]'` #used for identify the strings to substitute on TEMPLATE_PORCENTAXE_FILE
     pngPathFile=$IMG_DIR`basename $file | cut -d'.' -f1`.png
 
-    
+
     cadena=`msgfmt --statistics -o /dev/null $file 2>&1 `
 
     if [ $LANG = 'es_ES.UTF-8' ] ; then
@@ -77,7 +77,7 @@ for file in `find $DIR -iname '*.po'` ; do
         "CH01" )
             traducidas=58 ; fuzzy=0; noTraducidas=0 ;;
     esac
-    
+
     totalCadenas=$((traducidas + fuzzy + noTraducidas))
 
     sed -i "s/${code}_TRADUCIDAS/$traducidas/  " $PORCENTAXE_FILE
