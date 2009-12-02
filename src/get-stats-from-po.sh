@@ -68,6 +68,16 @@ for file in `find $DIR -iname '*.po'` ; do
     if [ -z $fuzzy ] ; then fuzzy=0 ; fi
     if [ -z $noTraducidas ] ; then noTraducidas=0 ; fi
 
+
+    # Workaround. Some po are not in the repo but they are translated
+    case $code
+        in
+        "CH00" )
+            traducidas=42 ; fuzzy=0; noTraducidas=0 ;;
+        "CH01" )
+            traducidas=58 ; fuzzy=0; noTraducidas=0 ;;
+    esac
+    
     totalCadenas=$((traducidas + fuzzy + noTraducidas))
 
     sed -i "s/${code}_TRADUCIDAS/$traducidas/  " $PORCENTAXE_FILE
