@@ -1,13 +1,41 @@
 #!/bin/bash
 
 DIR='../po/gl/'
+IMG_DIR='../web/img/'
+PORCENTAXE_FILE='../web/seccion-porcentaxe.html'
 
 SCRIPT_PYTHON='charts.py'
+PASS=''
+USER='producingoss@outrafoto.net'
 DEBUG='True'
 
 totalTraducidas=0
 totalFuzzy=0
 totalNoTraducidas=0
+
+
+usage() {
+    echo -e "\n`basename $0` [-p password] [-h]\n"
+    echo "-p password: Optional parameter. If it's specified, the script uploads the images and seccion-porcentaxe.html to the ftp"
+    echo "-h : This message"
+    exit -1
+}
+
+
+
+# Process input arguments
+while [ $# -gt 0 ] ; do
+    case $1
+        in
+        -p)
+           PASS=$2
+            shift 2 ;;
+
+        *)
+            usage ;;
+    esac
+done
+
 
 
 if [ $DEBUG == 'True' ] ; then
@@ -28,7 +56,7 @@ for file in `find $DIR -iname '*.po'` ; do
     if [ -z $noTraducidas ] ; then noTraducidas=0 ; fi
 
     if [ $DEBUG = 'True' ] ; then
-        echo "$nameFile : $traducidas - $fuzzy - $noTraducidas"
+        echo -e "\n$file : $traducidas - $fuzzy - $noTraducidas"
     fi;
 
     totalTraducidas=`echo $((traducidas + totalTraducidas))`
@@ -37,12 +65,22 @@ for file in `find $DIR -iname '*.po'` ; do
 
     python $SCRIPT_PYTHON $traducidas $fuzzy $noTraducidas $nameFile
 
+    if ! [ -z $PASS ] ; then
+        curl -T $pngPathFile -u $USER:$PASS ftp://producingoss.ghandalf.org/img/
+    fi
+
 done
 
-
-
 if [ $DEBUG = 'True' ] ; then
-    echo "Total : $totalTraducidas - $totalFuzzy - $totalNoTraducidas"
+    echo -e "\nTotal : $totalTraducidas - $totalFuzzy - $totalNoTraducidas"
 fi;
 
-python $SCRIPT_PYTHON $totalTraducidas $totalFuzzy $totalNoTraducidas 'libro.po'
+# Processing the statistics for the whole book
+pngPathFile="${IMG_DIR}libro.png"
+python $SCRIPT_PYTHON $totalTraducidas $totalFuzzy $totalNoTraducidas $pngPathFile
+convert $pngPathFile -crop 100x35+2-2 +repage $pngPathFile
+
+if ! [ -z $PASS ] ; then
+    curl -T $pngPathFile -u $USER:$PASS ftp://producingoss.ghandalf.org/img/
+    curl -T $PORCENTAXE_FILE -u $USER:$PASS ftp://producingoss.ghandalf.org/
+fi
