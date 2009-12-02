@@ -77,7 +77,6 @@ for file in `find $DIR -iname '*.po'` ; do
     if ! [ -z $PASS ] ; then
         curl -T $pngPathFile -u $USER:$PASS ftp://producingoss.ghandalf.org/img/
     fi
-
 done
 
 if [ $DEBUG = 'True' ] ; then
