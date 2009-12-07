@@ -1,0 +1,67 @@
+- Cap 00  : Preface
+  Tradutor: Juan
+  Estado  : DONE
+
+- Cap 01  : Introduction
+  Tradutor: Juan
+  Estado  : DONE
+
+- Cap 02  : Getting started
+  Tradutor: Andrés
+  Estado  : WIP
+
+- Cap 03  : Technical Infraestructure
+  Tradutor: Pedro
+  Estado  : WIP
+
+- Cap 04  : Social and Political Infraestructure
+  Tradutor: José Puente
+  Estado  : WIP
+
+- Cap 05  : Money
+  Tradutor: Roberto
+  Estado  : DONE
+
+- Cap 06  : Communications
+  Tradutor: non asignado
+  Estado  : ToDo
+
+- Cap 07  : Packaging, Releasing and Daily Development
+  Tradutor: Pablo
+  Estado  : WIP
+
+- Cap 08  : Managing Volunteers
+  Tradutor: Iolanda Mato
+  Estado  : WIP
+
+- Cap 09  : Licenses, Copyright, Patents
+  Tradutor: Roberto Vieito
+  Estado  : DONE
+
+- App A   : Free Version Control Systems
+  Tradutor: Roberto Vieito
+  Estado  : WIP
+
+- App B   : Free Bug Trackers
+  Tradutor: non asignado
+  Estado  : ToDo
+
+- App C   : Why Should I Care What Color the Bikeshed is?
+  Tradutor: Francisco Puga
+  Estado  : WIP
+
+- App D   : Example instructions for Reporting Bugs
+  Tradutor: Francisco Puga
+  Estado  : WIP
+
+- App E   : Copyright
+  Tradutor: Francisco Puga
+  Estado  : WIP
+
+- Cover
+  Tradutor: Nacho Varela
+  Estado  : DONE
+
+- Dedication
+  Tradutor: Nacho Varela
+  Estado  : DONE
