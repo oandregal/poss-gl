@@ -8,7 +8,7 @@
 
 - Cap 02  : Getting started
   Tradutor: Andrés
-  Estado  : WIP
+  Estado  : DONE
 
 - Cap 03  : Technical Infraestructure
   Tradutor: Pedro
@@ -56,7 +56,7 @@
 
 - App E   : Copyright
   Tradutor: Francisco Puga
-  Estado  : WIP
+  Estado  : DONE
 
 - Cover
   Tradutor: Nacho Varela
