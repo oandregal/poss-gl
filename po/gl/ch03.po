@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Producing OSS\n"
 "Report-Msgid-Bugs-To: producingoss@listas.ghandalf.org\n"
 "POT-Creation-Date: 2009-07-11 15:32+0000\n"
-"PO-Revision-Date: 2009-12-02 20:04+0100\n"
+"PO-Revision-Date: 2009-12-09 21:00+0100\n"
 "Last-Translator: Pedro A. González <pedro.gonzalez@ghandalf.org>\n"
 "Language-Team: Galician <producingoss@listas.ghandalf.org>\n"
 "MIME-Version: 1.0\n"
@@ -4195,6 +4195,13 @@ msgid ""
 "meantime, though, the project needs to keep the issue database as free of "
 "junk as possible."
 msgstr ""
+"Ese sistema reduciría o nivel de ruído por un tempo, pero según crece o "
+"número de usuarios, o problema vai retornar. Ningún usuario individual pode "
+"ser culpado de élo. Cad un deles está pretendendo contribuir ao benestar do "
+"proxecto, e incluso si a primeira notificación do erro non é útil, deberás "
+"continuar animándoos a permanecer involucrados e a que fagan mellores "
+"contribucións no futuro. Mentres tanto, nembargantes, o proxecto vai "
+"precisar manter a base de datos de asuntos o máis libre de basura posible."
 
 #. Tag: para
 #: ch03.xml:1989
@@ -4206,6 +4213,12 @@ msgid ""
 "(or strongly encouraging) users to confirm their bugs with other people "
 "before filing them in the tracker."
 msgstr ""
+"As dúas cousas que mellor van contribuir a prevenir este problema son: estar "
+"seguro de que vai haber xente suficientemente capacitada controlando o que "
+"está a ocorrer no sistema de xestión de erros como para ser quen de pechar "
+"notificacións inválidas ou duplicadas no momento xusto en que entran, e "
+"requerir (ou recomendar fortemente) que os usuarios confirmen con outros "
+"usuario os erros detectados por eles antes de reportalos ao sistema."
 
 #. Tag: para
 #: ch03.xml:1995
@@ -4225,6 +4238,24 @@ msgid ""
 "issue watching is still distributed more or less evenly among the "
 "developers, so each issue is able to receive a timely response."
 msgstr ""
+"Semella que a primeira das técnicas mencionadas está a ser usada "
+"universalmente. Incluso proxectos con bases de datos inmensas (nomeadamente, "
+"o xestor de erros de Debian en <ulink url=\"http://bugs.debian.org/\"></"
+"ulink>, que no momento de escribir este texto contiña 315.929 asuntos "
+"<footnote><para>N. do T.: máis de 500.000 no momento de facer esta "
+"traducción</para></footnote> aínda organizan as cousas de xeito que "
+"<emphasis>alguén</emphasis> ve os asuntos que van chegando ao sistema. Pode "
+"ser unha persoa diferente para cada categoría de asuntos. Por exemplo, o "
+"proxecto Debian é unha colección de paquetes de software, así que Debian "
+"redirixe automáticamente cada novo asunto aos mantenedores do correspondente "
+"paquete. Por suposto, os usuarios poden as veces trabucarse na "
+"identificación das categorías ás que corresponden oa erros detectados, có "
+"resultado de que o erro é enviado inicialmente á persoa incorrecta, quen "
+"deberá encargarse de redirixilo novamente. De calquer modo, o importante é "
+"que a carga de traballo é compartida, de todos modos&mdash;si o usuario ten "
+"dúbidas no momento de reportar un asunto, a vixiancia sobre a entrada de "
+"asuntos está mellor ou peor distribuida entre os desenvolvedores, de xeito "
+"que cada asunto vai recbir sempre unha resposta a tempo."
 
 #. Tag: para
 #: ch03.xml:2011
@@ -4244,6 +4275,20 @@ msgid ""
 "think of that, yet are happy to do the search once they know someone's "
 "<emphasis>expecting</emphasis> them to."
 msgstr ""
+"A segunda técnica está menos extendida, probablemente porque é máis difícil "
+"de automatizar. A idea esencial é que cada asunto novo é \"coleguizada\" na "
+"base de datos. Cando un usuario pensa que localizou un problema, se lle "
+"solicita que o describa nunha lista de correo, ou nun canal IRC, e recibe a "
+"confirmación por parte de alguén que lle dí que efectivamente é un erro. "
+"Dispoñer cedo deste segundo par de ollos pode prevenir unha chea de reportes "
+"falsos. Ás veces, o segundo implicado é quen de identficar que o "
+"comportamento reportado non é un erro, ou que xa está corexido nalgunha "
+"versión recente. Ou pode estar familiarizado cós síntomasdun asunto "
+"anterior, e evitar unha segunda incorporación do erro dirixindo ao usuario "
+"hacia o asunto orixinal. A miudo abonda con preguntarlle ao usuario: "
+"\"Buscaches no sistema de xestión de erros si xa se ten comunicado?\". Moita "
+"xente simplemente nin pensa nesa posibilidade, aínda que estarán felices de "
+"facer a búsqueda si saben que alguén <emphasis>espera</emphasis> que o faga."
 
 #. Tag: para
 #: ch03.xml:2026
@@ -4262,6 +4307,19 @@ msgid ""
 "people who understand the issue-filtering system. On seeing an unbuddied "
 "issue, the ideal steps are:"
 msgstr ""
+"O sistema de colegas pode manter a base de datos de asuntos realmente limpa, "
+"pero tamén ten algunhas desvantaxes. Moita xente vai reportar en solitario, "
+"de todas maneiras, ben por non ter atopado, ou por ignorar deliberadamente, "
+"as instruccións sobre búsqueda de un colega para reportar asuntos novos. Así "
+"que aínda vai ser necesario que haxa voluntarios revisando a base de datos. "
+"Aínda máis, como os máis dos remtentes novos non van ser conscientes da "
+"dificultade de manter a base de datos de asuntos, non é axeitado botarlles "
+"demasiada bronca por ter ignorado as instruccións. Así que os voluntarios "
+"van ter que permanecer vixiantes, e controlar cómo lles van devolver os "
+"asuntos non \"colegueados\" aos seus remitentes. O obxectivo é entrenar a "
+"cada remitente no uso do sistema de colegas, de tal xeito que haxa sempre "
+"unha reserva crecente de xente que entende o sistema de filtrado. Cando se "
+"detecta un asunto non revisado por un colega, os pasos ideais son:"
 
 #. Tag: para
 #: ch03.xml:2042
@@ -4271,6 +4329,9 @@ msgid ""
 "pointing them to the buddying guidelines (which should, of course, be "
 "prominently posted on the web site)."
 msgstr ""
+"Respostar inmediatamente ao asunto, agradecendo amablemente ao usuario por "
+"telo remitido, pero dirixíndoos as instruccións sobre revisión por terceiros "
+"(que, por suposto, deberán estar ben visibles na web do proxecto)."
 
 #. Tag: para
 #: ch03.xml:2048
@@ -4281,6 +4342,10 @@ msgid ""
 "informed about buddying, so there's no point wasting the work done so far by "
 "closing a valid issue."
 msgstr ""
+"Si o asunto é claramente válido e non está duplicado, aprovádeo de todas "
+"todas, e iniciade o seu ciclo de vida normal. Despois de todo, o remitente "
+"xa estará informado sobre o sistema de revisión, e non ten sentido perder o "
+"tempo e o trabalo feito pola vía de pechar un asunto perfectamente válido."
 
 #. Tag: para
 #: ch03.xml:2055
@@ -4291,6 +4356,10 @@ msgid ""
 "should put a reference to the confirmation thread (e.g., a URL into the "
 "mailing list archives)."
 msgstr ""
+"Pola contra, si o asunto non é claramente válido péchao, pero pídelle ao "
+"remitente que o reabra si recibe confirmación dun colega. Cando a reciban, "
+"deberán facer mención ao fío de confirmación (p.e.: perante unha URL dos "
+"arquivos da lista)."
 
 #. Tag: para
 #: ch03.xml:2063
@@ -4304,6 +4373,14 @@ msgid ""
 "be part of the project's routine maintenance, and to try to get as many "
 "people as possible to help."
 msgstr ""
+"Lembra que aìnda que este sistema vai mellorar có tempo o ratio sinal/ruído "
+"na base de datos, non vai ser quen de evitar completamente a introducción de "
+"asuntos incorrectos. A única maneira de prevenir totalmente este problema é "
+"pechar o xestor de erros para todo o mundo salvo para os "
+"desenvolvedores&mdash;un remedio que é case sempre peor que a enfermidade. É "
+"mellor aceptar que a limpeza de asuntos inválidos vai constituir sempre unha "
+"tarefa máis da rutina de mantenemento do proxecto, e tratar de contar có "
+"máximo número de persoas botando unha man."
 
 #. Tag: para
 #: ch03.xml:2072
@@ -4312,12 +4389,15 @@ msgid ""
 "See also <xref linkend=\"issue-manager\"/><phrase output=\"printed\"> in "
 "<xref linkend=\"managing-volunteers\"/></phrase>."
 msgstr ""
+"Podes ver máis sobre este tema en  <xref linkend=\"xestor-de-asuntos\"/"
+"><phrase output=\"printed\"> en <xref linkend=\"xestionando-voluntarios\"/></"
+"phrase>."
 
 #. Tag: title
 #: ch03.xml:2082
 #, no-c-format
 msgid "IRC / Real-Time Chat Systems"
-msgstr ""
+msgstr "IRC / Sistema de comunicacións en tempo real"
 
 #. Tag: para
 #: ch03.xml:2084
@@ -4337,6 +4417,18 @@ msgid ""
 "sparing you the not-insignificant trouble of maintaining an IRC server "
 "yourself."
 msgstr ""
+"Moitos proxectos ofrecen salas de conversación en tempo real usando foros "
+"<firstterm>Internet Relay Chat</firstterm>(<firstterm>IRC</firstterm>) nos "
+"que usuario e desenvolvedores poden respostar ás preguntas dos demáis e "
+"obter respostas instantáneas. Aínda que <emphasis>poidas</emphasis> manter "
+"un servidor IRC na túa propia sede web, normalmente non paga a pena facelo. "
+"Pola contra, fai o que fai todo o mundo: establece os teus canales IRC en "
+"Freenode(<ulink url=\"http://freenode.net/\"></ulink>). Freenode ofréceche o "
+"control que precisas para administrar os canales IRC do teu proxecto, "
+"<footnote><para>Non hai obriga nin se espera qe fagas unha doación a "
+"Freenode, pero si tí ou o teu proxecto podedes afrontalo, por favor pensa en "
+"contribuir económicamente. estñan exentos de impostos nos EE.UU, e están a "
+"proveer un servizo realmente valioso.</para></footnote>"
 
 #. Tag: para
 #: ch03.xml:2099
@@ -4350,6 +4442,13 @@ msgid ""
 "away. For example, this appears in a prominently placed box at the top of "
 "Subversion's home page:"
 msgstr ""
+"A primeira tarefa é a de buscar un nome para o canal. A elección máis obvia "
+"é a do nome do teu proxecto&mdash;si está dispoñible en Freenode, úsao. Si "
+"non , intenta dar con algo que se lle pareza o máis posible, e que sexa o "
+"máis doado de recordar. Anuncia a disponibilidade do canal na páxina do "
+"proxecto, de xeito que un visitante que teñanecesidade de plantexar unha "
+"pregunta urxente o atope á primeira. Por exemplo, esta mensaxe aparece nunha "
+"caixa moi ben situada na páxina de Subversion:"
 
 #. Tag: sect1
 #: ch03.xml:2106
@@ -4414,12 +4513,74 @@ msgid ""
 "\"http://extraball.sunsite.dk/notepad.php\"></ulink>, and <ulink url="
 "\"http://www.pastebin.com/\"></ulink>.</para> </sidebar>"
 msgstr ""
+"<blockquote> <para><emphasis>Si estña a empregar Subversion, "
+"recomendámosteue te unas á lista</emphasis> <literal>users@subversion.tigris."
+"org</literal> <emphasis>, e que leas o <ulink url=\"http://svnbook.red-bean."
+"com/\">Subversion Book</ulink> e as <ulink url=\"http://subversion.tigris."
+"org/faq.html\">FAQ</ulink>. Podes tamén plantexar preguntas no IRC en </"
+"emphasis> <literal>irc.freenode.net</literal> <emphasis>canal</"
+"emphasis>&nbsp;<literal>#svn</literal>.</para> </blockquote> <para>Algúns "
+"proxectos pfrecen varios canáis, un por subtópico. Por exemplo, un canal "
+"para problemas de instalación, outro para cuestión ssobr eo uso, outro para "
+"conversas sobre desenvolvemento, etc. (<xref linkend=\"growth\"/><phrase "
+"output=\"printed\"> en <xref linkend=\"comunicacións\"/></phrase> trata "
+"sobre como subdividir en múltiples canales). Mentres o teu proxecto sexa "
+"novo, debería haber un só canal, con todo o mundo charlando nel. Máis tarde, "
+"cando o ratio usuario-desenvolvedor crece, a separación de canáis pode "
+"volverse necesaria.</para> <para>Como vai saber a xente cal son os canáis "
+"dispoñibles, e en cal canal charlar? E cando falen un canal, como van saber "
+"cal son as convencións locáis?</para> <para>A resposta está en decirllo pola "
+"vía de establecer o  <firstterm>tópico do canal</firstterm>."
+"<footnote><para>Para facelo, usa o comando <literal>/topic</literal>. Todos "
+"os comandos no IRC comezan polo caracter \"<literal>/</literal>\". Bótalle "
+"unha ollada a  <ulink url=\"http://www.irchelp.org/\"></ulink> si non estás "
+"familiarizado có uso e administración do IRC; en particular, <ulink url="
+"\"http://www.irchelp.org/irchelp/irctutorial.html\"></ulink> é un excelente "
+"tutorial.</para></footnote> O tópico do canal é unha mensaxe breve que cada "
+"usuario ve no momento de entrar no canal. Inclúe instruccións para os "
+"novatos e ligazóns a máis informaciónIt gives . Por examplo:</para> "
+"<screen>\n"
+"Estás charlando en #svn\n"
+"\n"
+"O tópico para #svn é o Foro para as cuestións dos usuarios de Subversion, "
+"podes vistar tamén\n"
+"http://subversion.tigris.org/. || As discusión sobre desenvovemento teñen "
+"lugar en\n"
+"#svn-dev. || Por favor non pegues transcripcións largas aquí, pola contra "
+"usa un sitio como http://pastebin.ca/. || NOVAS: Subversion 1.1.0\n"
+"foi liberado, máis detalles en ttp://svn110.notlong.com/.\n"
+"</screen> <para>Xa sei que é pesado, pero lles informa aos novatos sobre "
+"todo o que precisan saber. Dí exactamente para que é o canal, facilita a "
+"dirección da páxina do proxecto (para o caso de que alguén se pasee polo "
+"canal sin ter visitado antes o sitio web do proxecto), menciona un canal "
+"relacionado e da algúns consello sobre o pegado de textos.</para> <sidebar "
+"id=\"sitios-de-pegado\"> <title>Sitios de pegado</title> <para>Un canal IRC "
+"é un espazo compartido: todo o mundo pode ver o que calquera outro está a "
+"escribir. Normalmente isto é bon, xa que permite que a xente se meta nunha "
+"conversa cando cré que ten algo có que contribuir, e permite que os "
+"observadores aprendan mirando. pero empeza a ser un problema cando alguén "
+"ten in ha chea de información que compartir dunha vez, tal como a "
+"transcrición dunha sesión de corrección de erros, xa que pegar demasiadas "
+"liñas no canal vai entorpecer outras conversas.</para> <para>A solución está "
+"en usar un dos sitios <firstterm>pastebin</firstterm> ou "
+"<firstterm>pastebot</firstterm>. Cando se precise que alguén aporte uha "
+"cantidade grande de datos, non lle pidas que os pegue no chat, si non que "
+"vaia (por exemplo) a <ulink url=\"http://pastebin.ca/\"></ulink>, pegue os "
+"seus datos no formulario da páxina, e comunique a URL resultante no canal. "
+"Calquera poderá visitar a URL e ver os datos. </para> <para> Hai uns cantos "
+"sitios gratuítos para pegado de datos na web, demasiados para unha lista "
+"entendible, pero estes son alguns dos que eu teño usado: <ulink url=\"http://"
+"www.nomorepasting.com/\"></ulink>, <ulink url=\"http://pastebin.ca/\"></"
+"ulink>, <ulink url=\"http://nopaste.php.cd/\"></ulink> <ulink url=\"http://"
+"rafb.net/paste/\"></ulink> <ulink url=\"http://sourcepost.sytes.net/\"></"
+"ulink>, <ulink url=\"http://extraball.sunsite.dk/notepad.php\"></ulink>, e "
+"<ulink url=\"http://www.pastebin.com/\"></ulink>.</para> </sidebar>"
 
 #. Tag: title
 #: ch03.xml:2187
 #, no-c-format
 msgid "Bots"
-msgstr ""
+msgstr "Bots"
 
 #. Tag: para
 #: ch03.xml:2189
@@ -4431,6 +4592,12 @@ msgid ""
 "addressed just like any other member of the channel, that is, the commands "
 "are delivered by \"speaking to\" the bot. For example:"
 msgstr ""
+"Moitos canales IRC orientados a asuntos técnicos inclúen un membro non "
+"humano, chamado <firstterm>bot</firstterm>, que é quen de almacenar e "
+"devolver información en respuesta a certos comandos. Típicamente, a "
+"comunicación co bot faise de xeito exactamente igual que con calquera outro "
+"membro do canal, é decir, os comandos se executan pola vía de \"decirllo\" "
+"ao bot. Por exemplo:"
 
 #. Tag: screen
 #: ch03.xml:2196
@@ -4440,6 +4607,9 @@ msgid ""
 "html#diff-cmd\n"
 "&lt;ayita&gt;  Thanks!"
 msgstr ""
+"&lt;kfogel&gt; ayita: learn diff-cmd = http://subversion.tigris.org/faq."
+"html#diff-cmd\n"
+"&lt;ayita&gt;  Grazas!"
 
 #. Tag: para
 #: ch03.xml:2198
@@ -4449,6 +4619,9 @@ msgid ""
 "certain URL as the answer to the query \"diff-cmd\". Now we can address "
 "ayita, asking the bot to tell another user about diff-cmd:"
 msgstr ""
+"Así se lle dixo ao bot (que está rexistrado no canal como ayita) que lembre "
+"unha certa URL como resposta á consulta \"diff.cmd\". Agora poderemos "
+"dirixirnos a ayita para que informe a outro usuario acerca de diff-cmd:"
 
 #. Tag: screen
 #: ch03.xml:2203
@@ -4457,12 +4630,14 @@ msgid ""
 "&lt;kfogel&gt; ayita: tell jrandom about diff-cmd\n"
 "&lt;ayita&gt;  jrandom: http://subversion.tigris.org/faq.html#diff-cmd"
 msgstr ""
+"&lt;kfogel&gt; ayita: tell jrandom about diff-cmd\n"
+"&lt;ayita&gt;  jrandom: http://subversion.tigris.org/faq.html#diff-cmd"
 
 #. Tag: para
 #: ch03.xml:2205
 #, no-c-format
 msgid "The same thing can be accomplished via a convenient shorthand:"
-msgstr ""
+msgstr "O mesmo pode facerse mediante un atallo axeitado:"
 
 #. Tag: screen
 #: ch03.xml:2207
@@ -4471,6 +4646,8 @@ msgid ""
 "&lt;kfogel&gt; !a jrandom diff-cmd\n"
 "&lt;ayita&gt;  jrandom: http://subversion.tigris.org/faq.html#diff-cmd"
 msgstr ""
+"&lt;kfogel&gt; !a jrandom diff-cmd\n"
+"&lt;ayita&gt;  jrandom: http://subversion.tigris.org/faq.html#diff-cmd"
 
 #. Tag: para
 #: ch03.xml:2209
@@ -4485,6 +4662,15 @@ msgid ""
 "privileges are required to run a bot. A bot is a client program; anyone can "
 "set one up and direct it to listen to a particular server/channel."
 msgstr ""
+"A configuración exacta do comando e os comportamentos varían dun bot a "
+"aoutro. O exemplo anterior é para <literal>ayita</literal> (<ulink url="
+"\"http://hix.nu/svn-public/alexis/trunk/\"></ulink>do que normalmente hai "
+"unha instancia funcionando no canal <literal>#svn</literal> en freenode. "
+"Outros bots son Dancer (<ulink url=\"http://dancer.sourceforge.net/\"></"
+"ulink>) e Supybot (<ulink url=\"http://supybot.com/\"></ulink>). Non son "
+"precisos privilexios especiáis para executar un bot. Un bot é un programa "
+"cliente; calquera pode por un en marcha e dirixilo para que escoite un "
+"determinado servidor/canal."
 
 #. Tag: para
 #: ch03.xml:2220
@@ -4496,6 +4682,12 @@ msgid ""
 "answer a disproportionately high percentage of questions, because the bot "
 "enables them to respond so much more efficiently."
 msgstr ""
+"Si no teu canal se tende a repetir as mesmas preguntas unha e outra vez, eu "
+"recoméndoche implementar un bot. Tan só un número pequeno de usuarios de "
+"canal vai adquirir a experiencia necesaria para manipular o bot, pero son os "
+"mesmos usuarios que van respostar a un número desproporcionadamente grande "
+"de cuestións, xa que o bot vailles permitir facelo de xeito moito máis "
+"eficiente."
 
 #. Tag: title
 #: ch03.xml:2230
