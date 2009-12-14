@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: Producing OSS\n"
 "Report-Msgid-Bugs-To: producingoss@listas.ghandalf.org\n"
 "POT-Creation-Date: 2009-07-11 15:33+0000\n"
-"PO-Revision-Date: 2009-12-08 14:53+0100\n"
+"PO-Revision-Date: 2009-12-08 17:46+0100\n"
 "Last-Translator: Pablo Sanxiao <psanxiao@gnome.org>\n"
 "Language-Team: Galician <producingoss@listas.ghandalf.org>\n"
 "MIME-Version: 1.0\n"
@@ -155,6 +155,9 @@ msgid ""
 "releases, which requires knowing what releases actually mean to users. A "
 "release means that:"
 msgstr ""
+"Antes de falar acerca de como facer unha versión, imos ver como nomear as "
+"versións, o cal require coñecer o que as versións significan para os "
+"usuarios. Unha versión significa que:"
 
 #. Tag: para
 #: ch07.xml:81
@@ -163,6 +166,8 @@ msgid ""
 "Old bugs have been fixed. This is probably the one thing users can count on "
 "being true of every release."
 msgstr ""
+"Vellos erros foron resoltos. Isto é probablemente unha das cousas coas que "
+"os usuarios contan con que se certo en cada versión."
 
 #. Tag: para
 #: ch07.xml:85
@@ -173,12 +178,16 @@ msgid ""
 "linkend=\"security-releases\"/><phrase output=\"printed\"> later in this "
 "chapter</phrase>)."
 msgstr ""
+"Novos erros forno engadidos. Con isto sóese contar tamén, excepto algunhas "
+"veces no caso de versións de seguridade ou outras que só saen unha vez (ver "
+"<xref linkend=\"security-releases\"/><phrase output=\"printed\"> máis "
+"adiante neste capítulo</phrase>)."
 
 #. Tag: para
 #: ch07.xml:92
 #, no-c-format
 msgid "New features may have been added."
-msgstr ""
+msgstr "Novas funcionalidades puideron ser engadidas."
 
 #. Tag: para
 #: ch07.xml:95
@@ -188,6 +197,10 @@ msgid ""
 "options may have changed subtly. The installation procedures may have "
 "changed slightly since the last release too, though one always hopes not."
 msgstr ""
+"Novas opcións de configuración puideron ser engadidas, ou o significado de "
+"vellas opcións puido cambiar sutilmente. A instalación de procedementos "
+"puido cambiar lixeiramente dende a última versión tamén, ainda que sempre se "
+"espera que non."
 
 #. Tag: para
 #: ch07.xml:101
@@ -197,6 +210,9 @@ msgid ""
 "used by older versions of the software are no longer useable without "
 "undergoing some sort of (possibly manual) one-way conversion step."
 msgstr ""
+"Cambios incompatibles poden ser introducidos, por exemplo o formato dos "
+"datos usados por versións anteriores do software xa non son usables sen "
+"algún tipo de conversión (posiblemente manual)."
 
 #. Tag: para
 #: ch07.xml:109
@@ -208,6 +224,12 @@ msgid ""
 "they wanted). Even the arrival of new features is a mixed blessing, in that "
 "it may mean the software will now behave in unexpected ways."
 msgstr ""
+"Como se pode ver, non todas estas cousas son boas. Isto é polo que os "
+"usuarios experimentados solicitan novas versións con algo de inquietude, "
+"especialmente cando o software é maduro e xa fai case todo o que eles queren "
+"(ou pensan que queren). Incluso a chegada de novas funcionalidades ú unha "
+"bendición a medias, xa que pode significar que o software se vaia comportar "
+"agora de xeito inexperado. "
 
 #. Tag: para
 #: ch07.xml:116
@@ -219,6 +241,11 @@ msgid ""
 "also they should indicate as compactly as possible the degree and nature of "
 "the changes in the release."
 msgstr ""
+"O propósito da numeración de versións, polo tanto, é doble: obviamente os "
+"números deben comunicar sen ambigüedade a orden das versións (por exemplo, "
+"mirando os números de dúas versións, un debe poder saber cal ven despois), "
+"pero ademáis deben indicar do xeito máis compacto posible o nivel e natureza "
+"dos cambios na versión."
 
 #. Tag: para
 #: ch07.xml:122
@@ -236,9 +263,9 @@ msgstr ""
 
 #. Tag: title
 #: ch07.xml:134
-#, no-c-format
+#, fuzzy, no-c-format
 msgid "Release Number Components"
-msgstr ""
+msgstr "Componentes numéricos da versión"
 
 #. Tag: para
 #: ch07.xml:136
@@ -249,12 +276,16 @@ msgid ""
 "reference. If you're already familiar with these conventions, you can skip "
 "this section."
 msgstr ""
+"Esta sección describe as convencións formais da numeración das versións en "
+"detalle, e asume un pouco de coñecemento previo. Está prevista "
+"principalmente coma unha referenza. Se xa estás familiarizado con estas "
+"convencións, podes saltar esta sección."
 
 #. Tag: para
 #: ch07.xml:141
 #, no-c-format
 msgid "Release numbers are groups of digits separated by dots:"
-msgstr ""
+msgstr "A numeración de versións son grupos de díxitos separados por puntos:"
 
 #. Tag: literallayout
 #: ch07.xml:144
@@ -288,6 +319,9 @@ msgid ""
 "descriptive label such as \"Alpha\" or \"Beta\" (see <xref linkend=\"alpha-"
 "and-beta\"/>), for example:"
 msgstr ""
+"Ademáis dos compoñentes numéricos, os proxectos as veces engaden unha "
+"etiqueta descriptiva como \"Alpha\" ou \"Beta\" (ver <xref linkend=\"alpha-"
+"and-beta\"/>), por exemplo:"
 
 #. Tag: literallayout
 #: ch07.xml:162
