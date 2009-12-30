@@ -1,0 +1,5 @@
+capítulo e cadea en formato po; frase orixinal ; frase traducida; nota ao pe
+appd.xml:14; If the bug is in your rug, please give it a hug and keep it snug;Si o erro está no teu tellado, colle un par de tellas e ponte a reparalo;Nota do traductor: Tradución libre do orixinal en inglés "If the bug is in your rug, please give it a hug and
+keep it snug", sin equivalente exacto en galego por tratarse dunha rima popular.
+copy.xml:14;Copyrigth;Copyrigth;Nota do tradutor: O texto orixinal da licencia atópase en http://creativecommons.org/licenses/by-sa/3.0/". Esta tradución engádese soamente a título informativo.
+
