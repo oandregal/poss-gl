@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: Producing OSS\n"
 "Report-Msgid-Bugs-To: producingoss@listas.ghandalf.org\n"
 "POT-Creation-Date: 2009-07-11 15:34+0000\n"
-"PO-Revision-Date: 2009-12-07 17:51+0100\n"
+"PO-Revision-Date: 2009-12-25 13:30+0100\n"
 "Last-Translator: Francisco Puga <francisco.puga@ghandalf.org>\n"
 "Language-Team: Galego <producingoss@listas.ghandalf.org>\n"
 "MIME-Version: 1.0\n"
@@ -17,7 +17,11 @@ msgstr ""
 #: copy.xml:14
 #, no-c-format
 msgid "Copyright"
-msgstr "Copyrigth"
+msgstr ""
+"Copyrigth <footnote><para>Nota do tradutor: O texto orixinal da licencia "
+"atópase en http://creativecommons.org/licenses/by-sa/3.0/\". Esta tradución "
+"engádese soamente a título informativo.\n"
+"</para></footnote>"
 
 #. Tag: programlisting
 #: copy.xml:17
