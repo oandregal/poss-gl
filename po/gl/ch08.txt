@@ -1,0 +1,12 @@
+tradutor; subseccion; cadea inicio; cadea fin; nro cadeas
+ToDo; inicio; 1; 11; 10
+ToDo; delegation; 12; 27; 15
+ToDo; praise & criticism; 28; 33; 5
+ToDo; prevent territoriality; 34; 40; 6
+ToDo; the automation ratio; 41; 58; 17
+ToDo; Treat Every User as a Potential Volunteer; 59; 126; 67
+ToDo; Choosing commiters; 127; 130; 3
+ToDo; revoking commit access; 131; 134; 3
+ToDo; partial committers; 135; 140; 5
+ToDo; dormant committers; 141; 144; 3
+ToDo; avoid mystery; 145; 175; 20
