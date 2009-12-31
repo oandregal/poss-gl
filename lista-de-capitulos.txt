@@ -23,16 +23,16 @@
   Estado  : DONE
 
 - Cap 06  : Communications
-  Tradutor: non asignado
-  Estado  : Lucía Martínez
+  Tradutor: Lucía Martínez
+  Estado  : WIP
 
 - Cap 07  : Packaging, Releasing and Daily Development
   Tradutor: Pablo
   Estado  : WIP
 
 - Cap 08  : Managing Volunteers
-  Tradutor: Por asignar
-  Estado  : ToDo
+  Tradutor: varios
+  Estado  : WIP
 
 - Cap 09  : Licenses, Copyright, Patents
   Tradutor: Roberto Vieito
