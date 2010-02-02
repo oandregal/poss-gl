@@ -1,13 +1,13 @@
 # Producing OSS - Translating project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# Nacho Varela <nachouve@gmail.com>, 2009.
+# Nacho Varela <nachouve@gmail.com>, 2009, 2010.
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Producing OSS\n"
 "Report-Msgid-Bugs-To: producingoss@listas.ghandalf.org\n"
 "POT-Creation-Date: 2009-07-11 15:35+0000\n"
-"PO-Revision-Date: 2009-12-13 22:02+0100\n"
+"PO-Revision-Date: 2010-01-04 10:54+0100\n"
 "Last-Translator: Nacho Varela <nachouve@gmail.com>\n"
 "Language-Team: galego <producingoss@listas.ghandalf.org>\n"
 "MIME-Version: 1.0\n"
@@ -52,7 +52,7 @@ msgid ""
 "terminology, in which the corresponding term might be \"artifact\" or \"bug"
 "\" or something else."
 msgstr ""
-"Ao longo dos seguintes listaxes a palabra \"cuestión\" (en inglés \"issue\") "
+"Ao longo dos seguintes listaxes a palabra \"problema\" (en inglés \"issue\") "
 "é empregada para referirse aos elementos que o sistema de notificación de "
 "erros rexistra. Hai que recordar que cada sistema pode ter a súa propia "
 "terminoloxía sendo sinónimos \"artefacto\" ou \"erro\" (en inglés \"artifact"
@@ -111,6 +111,13 @@ msgid ""
 "issues based on patterns in the email headers, which makes logging user/"
 "developer conversations very easy."
 msgstr ""
+"GNU GNATS é un dos máis vellos sistemas de reporte de bugs e se emprega "
+"ampliamente. Unha das súas maiores fortalezas é a diversidade de interfaces "
+"(pode ser usado mediante un navegador web, pero tamén a través do correo "
+"electrónico ou con ferramentas de liña de comandos) e almacena os error en "
+"texto plano. O feito de ter todos os erros en texto plano no disco fai "
+"sinxelo escribir ferramentas adaptadas para ?????? e parsear os datos (por "
+"exemplo, para xerar informes estadísticos). GNATS pode tamén "
 
 #. Tag: title
 #: appb.xml:59
@@ -119,6 +126,8 @@ msgid ""
 "<emphasis role=\"bold\">RequestTracker (RT)</emphasis>&nbsp;&mdash;&nbsp;"
 "<ulink url=\"http://www.bestpractical.com/rt/\"></ulink>"
 msgstr ""
+"<emphasis role=\"bold\">RequestTracker (RT)</emphasis>&nbsp;&mdash;&nbsp;"
+"<ulink url=\"http://www.bestpractical.com/rt/\"></ulink>"
 
 #. Tag: para
 #: appb.xml:61
@@ -132,6 +141,14 @@ msgid ""
 "that becomes less distracting as you get used to it. RT is licenced under "
 "the GNU GPL (for some reason, their web site doesn't make this clear)."
 msgstr ""
+"A páxina web de RT di \"RT é un sistema de tickets de nivel profesional que "
+"permite a un grupo de persoas manexar eficientemente e de forma intelixente "
+"tarefas, problemas e peticións enviadas por unha comunidade de usuarios,\"."
+"e, en resumo, iso é o que fai. RT posúe unha interface web bastante pulida e "
+"parece ter unha amplia base de instalacións. O seu aspecto visual é algo "
+"complexo, pero resulta menos molesto cando estás afeito a empregalo. RT está "
+"licenciado baixo a GNU GPL (por algunha razón, o seu sitio web non deixa "
+"esto claro)."
 
 #. Tag: title
 #: appb.xml:73
@@ -152,6 +169,11 @@ msgid ""
 "control changesets, and plain wiki pages. It's fairly simple to set up, and "
 "integrates with Subversion (see <xref linkend=\"vc-systems\"/>)."
 msgstr ""
+"Trac é máis que un sistema de reporte de bugs: realmente é un sistema que "
+"integra wiki e un bug tracker. Emprega wiki links para conectar erros, "
+"arquivos, grupos de cambios de control de versións e páxinas wiki simples. É "
+"bastante sinxelo de configurar e integrar con Subversion (ver <xref linkend="
+"\"vc-systems\"/>)."
 
 #. Tag: title
 #: appb.xml:84
@@ -172,6 +194,10 @@ msgid ""
 "data templates and web interface are customizable, as is some of its state-"
 "transition logic."
 msgstr ""
+"Roundup é bastante sinxelo de instalar (só é necesario un Python 2.1 o "
+"superior) e fácil de usar. Ten tanto interface web, coma interface email ou "
+"en liña de comandos. O modelo (plantilla) de datos do bug e a interface web "
+"son adaptables, así coma a lóxica de transición de estados."
 
 #. Tag: title
 #: appb.xml:94
@@ -191,6 +217,10 @@ msgid ""
 "database for storage. It has the features you'd expect. Personally, I find "
 "the web interface clean, intuitive, and easy on the eyes."
 msgstr ""
+"Mantis é un sistema de reporte de bugs en web, escrito en PHP e que emprega "
+"MySQL como base de datos de almacenaxe. Conta cas características que se "
+"poden esperar. Persoalmente, encontro a súa interface web limpa, intuitiva e "
+"fácil para a vista."
 
 #. Tag: title
 #: appb.xml:104
@@ -273,6 +303,10 @@ msgid ""
 "address. The DBTS scales pretty well: <ulink url=\"http://bugs.debian.org/"
 "\"></ulink> has 277,741 issues, for example."
 msgstr ""
+"O Debian Bug Tracking System é inusual en tanto que todo o ingreso e "
+"manipulación de erros se fai vía e-mail: cada erro obtén o seu propio "
+"enderezo de e-mail. O DBTS escala bastante ben: por exemplo. <ulink url="
+"\"http://bugs.debian.org/\"></ulink> ten 277.741 erros."
 
 #. Tag: para
 #: appb.xml:144
@@ -304,7 +338,7 @@ msgstr ""
 #: appb.xml:164
 #, no-c-format
 msgid "Trouble-Ticket Trackers"
-msgstr ""
+msgstr "<emphasis role=\"bold\">Trouble-Ticket Trackers</emphasis>"
 
 #. Tag: para
 #: appb.xml:166
@@ -324,6 +358,8 @@ msgid ""
 "<emphasis role=\"bold\">WebCall</emphasis>&nbsp;&mdash;&nbsp;<ulink url="
 "\"http://myrapid.com/webcall/\"></ulink>"
 msgstr ""
+"<emphasis role=\"bold\">WebCall</emphasis>&nbsp;&mdash;&nbsp;<ulink url="
+"\"http://myrapid.com/webcall/\"></ulink>"
 
 #. Tag: title
 #: appb.xml:183
