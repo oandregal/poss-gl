@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: Producing OSS\n"
 "Report-Msgid-Bugs-To: producingoss@listas.ghandalf.org\n"
 "POT-Creation-Date: 2009-07-11 15:33+0000\n"
-"PO-Revision-Date: 2010-01-06 20:34+0100\n"
+"PO-Revision-Date: 2010-01-24 21:11+0100\n"
 "Last-Translator: Pablo Sanxiao <psanxiao@gnome.org>\n"
 "Language-Team: Galician <producingoss@listas.ghandalf.org>\n"
 "MIME-Version: 1.0\n"
@@ -673,6 +673,11 @@ msgid ""
 "downgrade, but you wouldn't lose any features, except insofar as the "
 "restored bugs prevent the use of some existing features."
 msgstr ""
+"Isto é polo que as micro versións son esencialmente para arranxar erros. "
+"Deben manter a compatibilidade en ambas direccións: se actualizas da 2.5.3 a "
+"2.5.4, despois cambias de opinión en volves a 2.5.3, non deberías perder "
+"ningunha funcionalidade, agás no caso de que ao restaurar os erros non "
+"posibiliten o uso de algunhas funcionalidades existentes."
 
 #. Tag: para
 #: ch07.xml:310
@@ -691,6 +696,19 @@ msgid ""
 "or not it's safe to upgrade in place. She will be able to look at the "
 "numbers and know instantly."
 msgstr ""
+"Os protocolos cliente/servidor son un dos moitos posibles dominios. Outro é "
+"o formato dos datos: o software escribe os datos nun almacenamento "
+"permanente? Se o fai, os formatos de lectura e escritura precisan seguir as "
+"liñas de compatibilidade prometidas pola política de numeración das "
+"versións. A versión 2.6.0 precisa ser capaz de leer os ficheiros escritos "
+"coa versión 2.5.4, pero pode silenciosamente actualizar o formato a algo que "
+"a 2.5.4 non pode ler, porque a habilidade de volver a unha versión anterior "
+"non é requerida máis alá do límite que marca o número menor. Se o teu "
+"proxecto distribue bibliotecas de código para que usen outros programas, "
+"entón as APIs son un dominio compatible tamén: debes asegurarte de que as "
+"regras de compatibilidade de código e binaria son explicadas de forma que o "
+"usuario non precise preguntarse se a actualización vai ser segura ou non. "
+"Deberá ser capaz de ver os números de versións e sabelo ao instante."
 
 #. Tag: para
 #: ch07.xml:324
@@ -708,6 +726,18 @@ msgid ""
 "partly because it's already quite widespread, but also because it's easy to "
 "explain and to remember, even for those not already familiar with it."
 msgstr ""
+"Neste sistema, non tes unha oportunidade de partir de cero ata que "
+"incrementas o número maior. Isto pode a miudo ser un inconvinte: pode haber "
+"funcionalidades que desexas engadir, ou protocolos que desexes rediseñar, "
+"que simplemente non poden ser feitos mentres se matén a compatibilidade. Non "
+"hai unha solución máxica para isto, agás tentar deseñar as cousas de xeito "
+"extensible ao principio (un tema que fácilmente vale para o noso libro, e "
+"certamente se escapa do ámbito deste). Pero publicar unha versión "
+"compatible, política, e adherirse a ela, e unha parte inescapable da "
+"distribución de software. Unha desagradable sorpresa pode distanciar a un "
+"montón de usuarios. A política descrita é boa parcialmente porque está "
+"bastante extendida, pero tamén porque é facil de explicar e recordar, "
+"incluso para aqueles que ainda non está familiarizados con ela."
 
 #. Tag: para
 #: ch07.xml:338
@@ -725,6 +755,18 @@ msgid ""
 "compatibility constraints would hamper early development too much, and "
 "because early adopters tend to be forgiving anyway."
 msgstr ""
+"É xeralmente comprendido que estas regras non se aplican as versións previas "
+"a 1.0 (ainda que a tua política de versións debería probablemente ser "
+"explícita, simplemente para ser clara). Un proxecto que está ainda nun "
+"desenvolvemento inicial pode ter versións 0.1, 0.2, 0.3, e así en secuencia, "
+"ata que esté lista para a 1.0, e as diferencias entre esas versións poden "
+"ser arbitrariamente grandes. Os micro números en versións anteriores a 1.0 "
+"son opcionais. Dependendo da natureza do proxecto e das diferencias entre as "
+"versións, podes atopar útil ter 0.1.0, 0.1.1, etc, ou pode que non. As "
+"convencións para as versións anteriores a 1.0 están bastante perdidas, "
+"probablemente porque a xente entende que manter unha forte compatibilidade "
+"pode comprometer demasiado o desenvolvemento inicial do proxecto, e porque "
+"os que as adoptan tenden a esquecelas de calquera xeito."
 
 #. Tag: para
 #: ch07.xml:351
@@ -736,12 +778,18 @@ msgid ""
 "use a two-component system instead. The important thing is to decide early, "
 "publish exactly what the components mean, and stick to it."
 msgstr ""
+"Lembra que todos estes mandamentos son aplicables só a este particular "
+"sistema do terceiro compoñente. O teu proxecto podería fácilmente xurdir cun "
+"sistema diferente de tres compoñentes, ou incluso decidir que non precisa "
+"tanta granuralidade e empregar un sistema con dous compoñentes. O importante "
+"é decidir cedo, publicar exáctamente o que os compoñentes queren dicir, e "
+"aguantalo."
 
 #. Tag: title
 #: ch07.xml:362
 #, no-c-format
 msgid "The Even/Odd Strategy"
-msgstr ""
+msgstr "A estratexia Par/Impar"
 
 #. Tag: para
 #: ch07.xml:364
@@ -754,6 +802,12 @@ msgid ""
 "and increments in the major number still indicate big changes, new feature "
 "sets, etc."
 msgstr ""
+"Algúns proxectos usan a paridade do número menor para indicar a estabilidade "
+"do software: par quere dicir estable, impar inestable. Isto aplícase só ao "
+"número menor, non ao maior e ao micro. Os incrementos no número micro "
+"indican todavía erros arranxados (non novas funcionalidades), e incrementos "
+"no número maior indican todavía grandes cambios, novos xogos de "
+"funcionalidades, etc."
 
 #. Tag: para
 #: ch07.xml:371
@@ -770,6 +824,16 @@ msgid ""
 "series, they increment the minor number (thus making it even), reset the "
 "micro number back to \"0\", and release a presumably stable package."
 msgstr ""
+"As vantaxes do sistema par/impar, o cal he empregado polo kernel de Linux "
+"entre outros, ofrece unha forma de sacar versións con novas funcionalidades "
+"para testear sen que os usuarios teñan que empregar codigo inestable. A "
+"xente pode ver polos números que \"2.4.21\" está ben para instalar no seu "
+"servidor web, pero a \"2.5.1\" debería probablemente permanecer confinada "
+"para os seus experimentos locais. O equipo de desenvolvemento manexa os "
+"informes de erros que veñen das series inestable (a que ten o número menor "
+"impar), e cando as cousas empezan a calmarse despois de varias micro "
+"versións nesas series, incrementan o número menor, resetean o número micro a "
+"\"0\", e sacan a versión presumiblemente estable do paquete."
 
 #. Tag: para
 #: ch07.xml:383
@@ -788,12 +852,25 @@ msgid ""
 "potentially unstable code to the public, marked so that people have an idea "
 "of the risk/benefit trade-offs immediately on seeing the release's name."
 msgstr ""
+"Este sistema preserva, ou polo menos, non entra en conflicto con, as liñas "
+"de compatibilidade dadas anteriormente. Simplemente sobrecarga o número "
+"menor con algo de información extra. Isto forza a incrementar o número menor "
+"dúas veces tan amiudo como por otra parte sería necesario, pero non hai "
+"maior dano en iso. O sistema par/impar é probablemente mellor para proxectos "
+"que teñen ciclos de versións moi longos, os cales pola súa natureza teñen "
+"unha alta proporción de usuarios fixos quenes valoran máis a estabilidade "
+"que as novas funcionalidades. Esta non é a única forma de ter nova "
+"funcionalidade probada durante o proceso, sen embargo <xref linkend="
+"\"stabilizing-a-release\"/><phrase output=\"printed\"> máis tarde neste "
+"capitulo</phrase> describe outra forma, quizais máis común, un método de "
+"sacar versións potencialmente inestables ao público, avisando a xente para "
+"que saiban o risco/beneficio inmediatamente ao ver o nome da versión."
 
 #. Tag: title
 #: ch07.xml:404
 #, no-c-format
 msgid "Release Branches"
-msgstr ""
+msgstr "Organización das versión en ramas"
 
 #. Tag: para
 #: ch07.xml:406
@@ -807,6 +884,14 @@ msgid ""
 "sometimes more than once a day, and when they check in a change, they can "
 "reasonably expect that every other developer will have it within 24 hours."
 msgstr ""
+"Dende o punto de vista do desenvolvedor, un proxecto de software libre está "
+"sempre nun estado constante de sacar novas versións. Os desenvolvedores "
+"normalmente executan sempre a última versión do código, porque eles queren "
+"descubrir erros, e porque eles seguen o proxecto o bastante de preto para "
+"ser capaces de manterse alexados das areas inestables comúnmente. Eles a "
+"miudo actualizan a súa copia do software todos os dias varias veces, e cando "
+"chequean un cambio , esperan que razoablemente todos os demais "
+"desenvolvedores o teñan en 24 horas."
 
 #. Tag: para
 #: ch07.xml:415
@@ -824,6 +909,18 @@ msgid ""
 "meantime, and then you'd have wait for <emphasis>that</emphasis> one to end "
 "too. This process is not guaranteed to halt."
 msgstr ""
+"Como debería entón o proxecto facer unha nova versión formal? Debería "
+"simplemente tomar o estado da árbore nun determinado momento, empaquetalo, e "
+"entregalo ao mundo, como, por exemplo, versión \"3.5.0\"? O sentido común dí "
+"que non. Primeiro, pode non ser o momento no que o estado da árbore do "
+"desenvolvemento esté limpo e preparado para a versión. Funcionalidades novas "
+"que se están desenvolvendo poden estar en diferentes estados de "
+"desenvolvemento. Alguén pode haber feito un cambio grande para arranxar un "
+"erro, pero o cambio podería ser controvertido e estar baixo debate no "
+"momento de sacar a versión. Se fose así, deberíase simplemente retrasar a "
+"versión ata que o debate remate, porque outro debate non relacionado podería "
+"comezar ao mesmo tempo, e entón esperar a que <emphasis>ese </emphasis> "
+"debate remate tamén. Este proceso non se garante que pare."
 
 #. Tag: para
 #: ch07.xml:428
@@ -842,6 +939,19 @@ msgid ""
 "things they're not interested in, just because the project's release "
 "processes demand that the development tree remain unnaturally quiescent."
 msgstr ""
+"En calquera caso, empregar a árbore compreta para facer as versións "
+"interferiría no proceso de desenvolvemento en marcha, incluso se a árbore "
+"estivese nun punto adecuado para sacar a versión. Dicir este estado será a "
+"versión \"3.5.0·; presumiblemente, a proxima sería a \"3.5.1\", e tería a "
+"maior parte dos erros atopados na 3.5.0 arranxados. Pero se ambos estados da "
+"mesma árbore, que se supón que debería facer un desenvolvedor no periodo "
+"entre as dúas versións? Eles non poden engadir novas funcionalidades; as "
+"guías de compatibilidade preveñen iso. Pero non todo o mundo estará "
+"entusiasmado con arranxar erros no código da 3.5.0. Algunha xente pode ter "
+"novas funcionalidades que está tentando completar, e enfadaránse se os "
+"forzan a elexir entre non facer nada e traballar en cousas nas que non están "
+"interesados, só porque o proceso de lanzamento de versións do proxecto "
+"demande que a árbore de desenvolvemento permaneza inactiva."
 
 #. Tag: para
 #: ch07.xml:443
@@ -857,6 +967,17 @@ msgid ""
 "\"best practice\" that can, in the heat of a major deadline, be dispensed "
 "with while everyone on the team scrambles to stabilize the main tree."
 msgstr ""
+"A solución a estes problemas é empregar sempre unha <firstterm>rama para "
+"sacar as versións</firstterm>. Unha rama para sacar as versións é "
+"simplemente unha rama no sistema de control de versións (ver <xref linkend="
+"\"vc-vocabulary-branch\"/>), na cal o código destinado para esta versión "
+"pode estar illado do desenvolvemento principal. O cocepto de unha rama para "
+"as versións certamente non é orixinal do software libre; moitas "
+"organizacións comerciais de desenvolvemento a empregan tamén. Sen embargo, "
+"en entornos comerciais, as ramas para as versións son as veces consideradas "
+"un luxo&mdash; un tipo de \"boa práctica\" formal que pode, baixo presión "
+"por unha data límite, ser prescindible mentras todo o mundo do equipo está "
+"traballando para estabilizar a árbore principal."
 
 #. Tag: para
 #: ch07.xml:455
@@ -879,12 +1000,28 @@ msgid ""
 "work on the release today, or work on that new feature I've been developing "
 "in the mainline code?\""
 msgstr ""
+"As ramas para as versións son moito máis requeridas nos proxectos de "
+"software libre, sen embargo teño visto proxectos sacar versións sen elas, "
+"pero sempre resulta haber algúns desenvolvedores sen facer nada mentras "
+"outros&mdash;normalmente unha minoría&mdash; traballa para sacar a versión. "
+"O resultado soe ser malo en varias formas. Primeiro, o desenvolvemento xeral "
+"é relantizado. Segundo, a versión ten menos calidades da que precisa ter, "
+"porque só un número pequeno de xente traballa nela, e eles están apurando "
+"para que o resto poida volver ao traballo. Terceiro, divide o equipo de "
+"desenvolvemento sicoloxicamente, creando una situación onde diferentes tipos "
+"de traballo interfiren con outros innecesariamente. Os desenvolvedores "
+"parados probablemente estarían máis contentos contribuíndo <emphasis>con "
+"algo</emphasis> da súa atención a rama da versión, siempre que fuera una "
+"elección acorde con su propio horario e intereses. Pero sen a rama, a súa "
+"elección convírtese en \"Participo no proxecto hoxe ou non?\" no canto de "
+"\"Traballo na nova versión hoxe ou nunha nova funcionalidade que estou a "
+"desenvolver no código princiapl?\""
 
 #. Tag: title
 #: ch07.xml:476
 #, no-c-format
 msgid "Mechanics of Release Branches"
-msgstr ""
+msgstr "Mecanismos das Ramas para as Versións"
 
 #. Tag: para
 #: ch07.xml:478
@@ -898,6 +1035,13 @@ msgid ""
 "\"1.0\" release, sprouts off the trunk. In CVS, the branch command would be "
 "something like this"
 msgstr ""
+"Os mecanismos exactos para a creación da rama para as versións dependen do "
+"teu sistema de control de versións, por suposto, pero en xeral os conceptos "
+"son iguais na maioría dos sistemas. Unha rama, normalmente brota de outra "
+"rama ou do trunk. Tradicionalmente, o trunk é onde se fai o desenvolvemento "
+"principal, sen as limitacións da versión. A primeira rama para as versións, "
+"a guidada a ser a \"1.0\", brota do trunk. En CVS, o comando branch sería "
+"algo coma isto"
 
 #. Tag: screen
 #: ch07.xml:486
@@ -930,6 +1074,10 @@ msgid ""
 "examples in CVS and Subversion and hope that the corresponding commands in "
 "other systems can be deduced from those two.)"
 msgstr ""
+"(Todos estes exemplos asumen un sistema de numeración das versións de tres "
+"compoñentes. Ainda que non podo mostrar os comando exactos para cada sistema "
+"de control de versións, dareí exemplos en CVS e Subversion e espero que os "
+"correspondentes comandos en outros sistemas poidan ser deducidos destes dous."
 
 #. Tag: para
 #: ch07.xml:498
@@ -944,6 +1092,14 @@ msgid ""
 "the version control system and the release process. When the release branch "
 "is stabilized and ready, it is time to tag a snapshot from the branch:"
 msgstr ""
+"Nótese que creamos a rama \"1.0.x\" (con un literal \"x\") no canto de "
+"\"1.0.0\". Isto é porque a mesma liña menor&mdash;i.e., a mesma rama&mdash; "
+"será empregada por todas as micro versións nesa liña. O proceso actual de "
+"estabilizar a rama para as versións esta cuberto en <xref linkend="
+"\"stabilizing-a-release\"/><phrase output=\"printed\"> máis tarde neste "
+"capítulo</phrase>. Aquí preocuparemonos coa interacción entre o sistema de "
+"control de versións e o proceso de sacar a versión. Cando a rama das "
+"versións está estabilizada e preparada, é hora de etiquetar o estado da rama:"
 
 #. Tag: screen
 #: ch07.xml:509
@@ -979,6 +1135,13 @@ msgid ""
 "for 1.0.2, and so on. When it's time to start thinking about a 1.1.x "
 "release, make a new branch from trunk:"
 msgstr ""
+"Esa tag representa agora exáctamente o estado da árbore de código do "
+"proxecto na versión 1.0.0 (isto é útil no caso de que alguén precise obter "
+"unha versión vella despois de que os paquetes e binarios foran eliminados). "
+"A seguinte micro versión na mesma liña é asimesmo preparada na rama 1.0, e "
+"cando esté preparada, faise unha etiqueta para a 1.0.1. Enxabonar, enjuagar, "
+"repetir para a 1.0.2, e continuar. Cando sexa tempo de empezar a pensar "
+"sobre a serie 1.1.x, crear unha nova rama dende o trunk:"
 
 #. Tag: screen
 #: ch07.xml:524
@@ -1009,6 +1172,14 @@ msgid ""
 "the highest line, to make sure they're getting the latest features, even at "
 "the risk of greater instability."
 msgstr ""
+"O mantemento pode continuar en paralelo sobre a 1.0.x e a 1.1.x, e as "
+"versións poden ser feitas independentemente dende as dúas liñas de feito, "
+"non é inusual publicar casi simultáneamente dende dúas liñas diferentes. As "
+"vellas series están recomendadas para os administradores máis conservadores, "
+"os cales poden non querer dar o salto a 1.1 sen unha cuidadosa preparación. "
+"Mentras tanto, a xente máis aventureira normalmente collen a versión máis "
+"recente da maior liña, para estar seguros the ter as últimas "
+"funcionalidades, incluso co risco da maior inestabilidade."
 
 #. Tag: para
 #: ch07.xml:542
