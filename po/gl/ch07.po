@@ -1,12 +1,12 @@
 # Producing OSS - Translating project.
-# Pablo Sanxiao <psanxiao@gnome.org>, 2009.
+# Pablo Sanxiao <psanxiao@gnome.org>, 2009, 2010.
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Producing OSS\n"
 "Report-Msgid-Bugs-To: producingoss@listas.ghandalf.org\n"
 "POT-Creation-Date: 2009-07-11 15:33+0000\n"
-"PO-Revision-Date: 2009-12-08 17:46+0100\n"
+"PO-Revision-Date: 2010-01-06 20:34+0100\n"
 "Last-Translator: Pablo Sanxiao <psanxiao@gnome.org>\n"
 "Language-Team: Galician <producingoss@listas.ghandalf.org>\n"
 "MIME-Version: 1.0\n"
@@ -121,6 +121,23 @@ msgid ""
 "inefficient but boring, and therefore dangerous, in that a bored developer "
 "is likely to soon be an ex-developer."
 msgstr ""
+"O modelo que posibilita isto xeneralízase a algo máis que só a liberación de "
+"versións. É o principio de paralelización de tarefas que non son "
+"interdependentes&mdash; un principio que de ningún modo é exclusivo para o "
+"desenvolvemento de software libre, por suposto, pero que é implementado no "
+"software libre dun xeito particular. Non se pode asumir o molestar demasiado "
+"aos homes que traballan na estrada nin á circulación, pero tampouco se pode "
+"permitir ter xente dedicada a estar tras os conos laranxas dirixindo o "
+"tráfico con bandeiras. Así gravitan en torno a procesos que teñen niveles "
+"planos e constantes de esforzo de administración en lugar de altos e baixos. "
+"Os voluntarios xeralmente están dispostos a traballar con cantidades "
+"pequenas pero consistentes de inconvintes; a predicibilidade lles permite ir "
+"e vir sen preocuparse acerca de se as súas planificacións entran en "
+"conflicto co que ocurre no proxecto. Pero se o proxecto estibese suxeito a "
+"unha planificación maestra na cal unhas actividades exclúen a outras, o "
+"resultado sería desenvolvedores perdento tempo &mdash; que sería, non só "
+"ineficiente, senón aburrido, e por tanto perigoso, xa que un desenvolvedor "
+"aburrido está cerca de se converter nun ex-desenvolvedor."
 
 #. Tag: para
 #: ch07.xml:61
@@ -143,7 +160,7 @@ msgstr ""
 
 #. Tag: title
 #: ch07.xml:73
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Release Numbering"
 msgstr "Numeración de Versións"
 
@@ -260,12 +277,19 @@ msgid ""
 "emphasis>. Pick a numbering scheme, document it, and stick with it. Your "
 "users will thank you."
 msgstr ""
+"Todo iso nun número? Bueno, máis ou menos, si. As estratéxias de numeración "
+"de versións son unha das vellas discusións (ver <xref linkend=\"bikeshed\"/"
+"><phrase output=\"printed\"> en <xref linkend=\"communications\"/></"
+"phrase>), e é pouco probable que se atope unha sinxela, completa e estándar "
+"solución. Sen embargo, unhas poucas boas estratéxias emerxeron, xunto con un "
+"universal principio: <emphasis>ser consistente</emphasis>. Elixir un esquema "
+"numérico, documentalo e mantelo. Os usuarios agradecerano."
 
 #. Tag: title
 #: ch07.xml:134
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Release Number Components"
-msgstr "Componentes numéricos da versión"
+msgstr "Compoñentes numéricos da versión"
 
 #. Tag: para
 #: ch07.xml:136
@@ -310,6 +334,15 @@ msgid ""
 "components (digit portions containing no dots), but most projects do not go "
 "beyond three or four. The reasons why will become clear later."
 msgstr ""
+"...continuando. Os puntos <emphasis>non</emphasis> significan decimáis, son "
+"meros separadores; \"5.3.9\" iria seguido de \"5.3.10\". Uns poucos "
+"proxectos son etiquetados de forma diferente, o máis famoso é o kernel de "
+"Linux coas súas secuencias \"0.95\", \"0.96\"... \"0.99\" ata Linux 1.0, "
+"pero a convención de que eses puntos non son decimáis é ahora firmemente "
+"establecida e debería ser considerada estándar. Non hai límites sobre o "
+"número de compoñentes (porción de díxitos que non conteñen puntos), pero a "
+"maioría dos proxectos non teñen máis de tres ou catro. A razón é para que "
+"sexan máis comprensibles."
 
 #. Tag: para
 #: ch07.xml:157
@@ -344,6 +377,12 @@ msgid ""
 "themselves can have meta-qualifiers. For example, here is a series of "
 "releases in the order that they would be made available to the public:"
 msgstr ""
+"Unha calificación Alpha ou Beta quere dicir que esta versión "
+"<emphasis>precede</emphasis> a unha futura versión que terá o mesmo número "
+"pero sen o cualificador. De este modo, \"2.3.0&nbsp;(Alpha)\" lleva "
+"finalmente a \"2.3.0\". Para permitir tanta cantidade de versións distintas, "
+"os cualificadores teñen eles mismos meta-cualificadores. Por exemplo, aqui "
+"hai unha serie de versións que estarían dispoñibles para o público:"
 
 #. Tag: literallayout
 #: ch07.xml:174
@@ -373,6 +412,11 @@ msgid ""
 "present, brevity is out the window anyway, so one might as well go for "
 "completeness instead."
 msgstr ""
+"Nótese que cando ten o cualificador \"Alpha\", Scanley \"2.3\" escribese "
+"como \"2.3.0\". Os dous números son equivalentes&mdas; os compoñentes que "
+"son ceros poden ser eliminados por brevedade&mdash; pero cando un "
+"cualificador está presente, a brevedade non serve para nada, polo que debe "
+"poñerse completo."
 
 #. Tag: para
 #: ch07.xml:183
@@ -385,6 +429,12 @@ msgid ""
 "That is, you don't release \"Scanley&nbsp;2.3.0&nbsp;(RC)\", you release "
 "\"Scanley&nbsp;2.3.0&nbsp;(RC&nbsp;1)\", followed by RC2, etc."
 msgstr ""
+"Outros cualificadores que soen ser empregados son \"Estable\", \"Inestable"
+"\", \"Desenvolvemento\", e \"RC\" (para \"Versión Candidata\"). Os máis "
+"comunmente empregados son \"Alpha\" e \"Beta\", con \"RC\" moi cerca no "
+"terceiro posto, pero nótese que \"RC\" sempre inclúe un meta-cualificador "
+"numérico. Isto é, nos sacas a versión \"Scanley&nbsp;2.3.0&nbsp;(RC)\" sacas "
+"\"Scanley&nbsp;2.3.0&nbsp;(RC&nbsp;1)\"), seguido da RC\", etc."
 
 #. Tag: para
 #: ch07.xml:191
@@ -397,6 +447,12 @@ msgid ""
 "familiar with the big three, and there's no reason to do things gratuitously "
 "differently from the way everyone else does them."
 msgstr ""
+"Esas tres etiquetas, \"Alpha\", \"Beta\", e \"RC\", son bastante máis "
+"coñecidas agora, e non recomendo usar ningunha outra, incluso pensando que "
+"as outras poden parecer mellor elección a primeira vista porque son palabras "
+"normais, non xerga. Pero a xente que instala software dende versións está xa "
+"familiarizado coas tres, e non hai razón para facer as cousas gratuitamente "
+"diferentes da forma que a xente coñece."
 
 #. Tag: para
 #: ch07.xml:199
@@ -408,6 +464,11 @@ msgid ""
 "precedes \"3.14.159\", and non-immediately precedes \"3.14.160\" as well as "
 "\"3.15.anything\", and so."
 msgstr ""
+"Ainda que os puntos nos números da versión non son puntos decimais, a súa "
+"poscición ten significado. Todas as versións \"0.X.Y\" preceden a \"1.0\" (a "
+"cal equivale a \"1.0.0\", por suposto). \"3.14.158\" inmediatamente preceden "
+"a \"3.14.159\", e non inmediatamente precede a \"3.14.160\" así como tamén a "
+"\"3.15.algo\", e así."
 
 #. Tag: para
 #: ch07.xml:205
@@ -430,6 +491,22 @@ msgid ""
 "the same minor line, though they are not adjacent if \"2.4.1\" was released "
 "between them."
 msgstr ""
+"Unha consistente política de numeración de versións permite ao usuario mirar "
+"dous números de versión para a mesma peza de software e decir, polos "
+"números, as importantes diferencias entre esas duas versións. En un típico "
+"sistema de tres compoñentes, o primeiro é o número <firstterm>maior&nbsp;</"
+"firstterm>, o segundo e o número <firstterm>menor&nbsp;</firstterm>, e o "
+"terceiro é o número <firstterm>micro&nbsp</firstterm>. Por exemplo, a "
+"versión \"2.10.17\" é a décimo séptima micro versión na décima liña de "
+"versión menor dentro da segunda serie de versións maiores. As palabras \"liña"
+"\" e \"series\" son empregadas informálmente aquí, pero teñen o significado "
+"que un esperaría. A serie maior é simplemente todas as versión que comparten "
+"o mesmo número maior, e a serie menor (ou liña menor) componse de todas as "
+"versións que comparten o número menor <emphasis>e</emphasis> número maior. "
+"Isto é, \"2.4.0\" e \"3.4.1\" non están na mesma serie menor ainda que "
+"comparten o \"4\" como número menor; por outra banda, \"2.4.0\" e \"2.4.2\" "
+"están na memsma liña menor, pensando que non son adxacentes se a \"2.4.1\" "
+"foi lanzada entre elas."
 
 #. Tag: para
 #: ch07.xml:223
@@ -449,6 +526,19 @@ msgid ""
 "probably most useful when binary packages are the default method of "
 "distribution."
 msgstr ""
+"O significados de estes números son exactamente o que se esperaría: un "
+"incremento do número maior indica que ocorreron cambios maiores; un "
+"incremento do número menor indica cambios menores; e un incremento do número "
+"micro indica cambios realmente triviais. Algúns proxectos engaden un cuarto "
+"compoñente, chamado habitualmente o <firstterm>patch&nbsp;número</"
+"firstterm>, para un control moi especializado sobre as diferencias entre as "
+"súas versións (confunsamente, outros proxectos usan \"patch\" coma un "
+"sinónimo para \"micro\" nun sistema de tres compoñentes). Hai tamén "
+"proxectos que usan a última compoñente como <firstterm>build&nbsp;número</"
+"firstterm>, incrementado cada vez que o software é compilado e sen "
+"representar ningún outro cambio. Isto axuda ao proxecto a enlazar calquera "
+"erro atopado cunha compilación específica, e é probablemente máis útil cando "
+"os paquetes binarios son o método por defecto de distribución."
 
 #. Tag: para
 #: ch07.xml:238
@@ -459,6 +549,10 @@ msgid ""
 "you get a little leeway, but not a lot. The next two sections discuss some "
 "of the most widely used conventions."
 msgstr ""
+"Ainda que hay moitas convencións diferentes sobre cantos compoñentes "
+"empregar, e sobre o que os compoñentes significan, as diferenzas tenden a "
+"ser pequenas&mdash; podes ter un pouco de flexibilidade, pero non moita. As "
+"próximas duas seccións tratan sobre as convencións máis empregadas."
 
 #. Tag: title
 #: ch07.xml:247
@@ -480,6 +574,16 @@ msgid ""
 "adapted from the numbering system used by the APR project, see <ulink url="
 "\"http://apr.apache.org/versioning.html\"></ulink>."
 msgstr ""
+"A maioría dos proxectos theñen reglas sobre que tipo de cambios son "
+"permitidos nunha versión se só se incrementa o micro número, reglas "
+"diferentes para o número menor, e diferentes tamén para o número maior. Non "
+"hai un estándar para estas reglas ainda, pero aqui farei unha descripción da "
+"política que foi adoptada con éxito por moitos proxectos. Ti podes querer "
+"simplemente adoptar esta política no teu propio proxecto, pero incluso "
+"senón, é un bo exemplo de que tipo de información deberían dar os números de "
+"versións. Esta política está adaptada dende o sistema de numeración usado "
+"polo proxecto APR, ver <ulink url=\"http://apr.apache.org/versioning.html"
+"\"></ulink>."
 
 #. Tag: para
 #: ch07.xml:262
@@ -490,6 +594,11 @@ msgid ""
 "should be bug fixes only, or very small enhancements to existing features. "
 "New features should not be introduced in a micro release."
 msgstr ""
+"Cambiar o número micro só (isto é, cambios na menor liña) deben implicar "
+"compatibilidade tanto cara adiante coma cara atrás. Isto é, os cambios "
+"deberían resolver erros soamente, ou moi pequenas melloras en "
+"funcionalidades existentes. Novas funcionalidades non deberían ser "
+"introducidads nunha micro versión."
 
 #. Tag: para
 #: ch07.xml:270
@@ -500,6 +609,10 @@ msgid ""
 "introduce new features in a minor release, but usually not too many new "
 "features at once."
 msgstr ""
+"Cambios no número menor (isto é, dentro da mesma liña maior) deben ser "
+"compatibles cara atrás, pero non necesáriamente cara adiante. É normal "
+"introducir novas funcionalidades nunha versión menor, pero xeralmente non "
+"moitas ao mesmo tempo."
 
 #. Tag: para
 #: ch07.xml:277
@@ -509,6 +622,10 @@ msgid ""
 "release can be forward- and backward-incompatible. A major release is "
 "expected to have new features, and may even have entire new feature sets."
 msgstr ""
+"Cambios no número maior marca unha fronteira na compatibilidade. Unha "
+"versión maior pode ser incompatible cara adiante e cara atrás. Nunha versión "
+"maior espérase que teña novas funcionalidades, e pode incluso ter un novo "
+"xogo de funcionalidades."
 
 #. Tag: para
 #: ch07.xml:286
@@ -529,6 +646,21 @@ msgid ""
 "keep all the functionality it had at 2.6.0, since some of that functionality "
 "was new in 2.6.0."
 msgstr ""
+"O que quere dicir ser <firstterm>compatible cara atrás</firstterm> e "
+"<firstterm>compatible cara adiante</firstterm> depende do que o software "
+"faga, pero en contexto xeralmente non están abertas a moita interpretación. "
+"Por exemplo, se o teu proxecto é unha aplicación tipo cliente/servidor, "
+"entón \"compatibilidade cara atrás\" significa que actualizando o servidor a "
+"versión 2.6.0 non debería causar perda de funcionalidade ou comportamento "
+"diferente en clientes existentes 2.5.4 (excepto para os erros que foron "
+"resoltos, por suposto). Por outra banda, actualizar un dos clientes a "
+"versión 2.6.0, xunto co servidor, poden ter <emphasis>novas</emphasis> "
+"funcionalidades dispoñibles para ese cliente, funcionalidades que os "
+"clientes 2.5.4 no saben como sacar partido delas. Se esto sucede, entón a "
+"actualización <emphasis>non</emphasis> é \"compatible cara adiante\": "
+"claramente ti non podes agora desactualizar o cliente de novo a 2.5.4 e "
+"manter toda a funcionalidade que tiña coa 2.6.9, xa que algúnhas desas "
+"funcionalidades eran novas na 2.6.0."
 
 #. Tag: para
 #: ch07.xml:302
