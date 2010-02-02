@@ -1,14 +1,14 @@
 # Producing OSS - Translating project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-# Roberto Vieito Raña <roberto.vieito@ghandalf.org>, 2009.
+# Roberto Vieito Raña <roberto.vieito@ghandalf.org>, 200, 2010.
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Producing OSS\n"
 "Report-Msgid-Bugs-To: producingoss@listas.ghandalf.org\n"
 "POT-Creation-Date: 2009-07-11 15:35+0000\n"
-"PO-Revision-Date: 2009-12-13 16:57Romanc\n"
+"PO-Revision-Date: 2010-01-10 12:45Romanc\n"
 "Last-Translator: Roberto Vieito Raña <roberto.vieito@ghandalf.org>\n"
 "Language-Team: Galego <producingoss@listas.ghandalf.org>\n"
 "MIME-Version: 1.0\n"
@@ -67,14 +67,14 @@ msgstr ""
 "n familiarizados con el. No seu día foi revolucionario: foi o primeiro "
 "sistema de control de versións libre con acceso para desenvolvedores dende "
 "redes de área extensa (ata onde eu sei), e mailo primeiro en ofrecer "
-"\"checkouts\" anónimos de só lectura, funcionalidades que lle daban aos "
-"novos desenvolvedores un xeito sinxelo de involucrarse nos proxectos. CVS "
-"só versiona ficheiros, non directorios; ofrece ramificacións, etiquetado, "
-"e bo rendimento no lado cliente, pero non manexa demasiado ben ficheiros "
-"grandes ou binarios. A maiores, tampouco soporta commits atómicos. "
-"<emphasis>[Nota: estiven activo no desenvolvemento de CVS durante cinco "
-"anos, antes de axudar a comezar o proxecto Subversion para reemplazalo.]</"
-"emphasis>"
+"\"checkouts\" (descargas) anónimos de só lectura, funcionalidades que lle "
+"daban aos novos desenvolvedores un xeito sinxelo de involucrarse nos "
+"proxectos. CVS só versiona ficheiros, non directorios; ofrece "
+"ramificacións (\"branching\"), etiquetado (\"tagging\"), e bo rendemento no "
+"lado cliente, pero non manexa demasiado ben ficheiros grandes ou binarios. A "
+"maiores, tampouco soporta commits atómicos. <emphasis>[Nota: estiven activo "
+"no desenvolvemento de CVS durante cinco anos, antes de axudar a comezar o "
+"proxecto Subversion para reemplazalo.]</emphasis>"
 
 #. Tag: title
 #: appa.xml:34
@@ -102,8 +102,8 @@ msgid ""
 msgstr ""
 "Subversion escribiuse sobre e ante todo para ser o reemplazo de CVS&mdash;é "
 "dicir, para aproximarse ao control de versións do mesmo xeito que o fai "
-"CVS, pero sen os problemas e carencias de funcionalidades que adoitaban "
-"anoxar aos usuarios de CVS. Un dos obxectivos de Subversion é fornecer unha "
+"CVS, pero sen os problemas e eivas de funcionalidades que adoitaban anoxar "
+"aos usuarios de CVS. Un dos obxectivos de Subversion é fornecer unha "
 "transición suave para a xente xa acostumada a CVS. Non hai espazo aquí "
 "para entrar no detalle das funcionalidades de Subversion; bótalle unha "
 "ollada ao seu sitio web para obter máis información. <emphasis>[Nota: "
@@ -131,9 +131,9 @@ msgid ""
 "web site for details."
 msgstr ""
 "Aínda que está construído porriba de Subversion, SVK probablemente se "
-"pareza máis a algúns dos anteriores sistemas descentralizados que ao "
+"pareza máis a algúns dos posteriores sistemas descentralizados que ao "
 "propio Subversion. SVK soporta desenvolvemento distribuído, commits locais, "
-"mezclas sofisticadas de cambios, e a habilidade de facer espellos de á"
+"mesturas sofisticadas de cambios, e a habilidade de facer espellos de á"
 "rbores de desenvolvemento provintes de sistemas de control de versións que "
 "non sexan o propio SVK. Bótalle unha ollada ao seu sitio web para máis "
 "detalles."
@@ -193,7 +193,7 @@ msgid ""
 "working directory is a full-fledged repository with full revision tracking "
 "capabilities, not dependent on network access or a central server.\""
 msgstr ""
-"GIT é un proxecto comezado por Linus Torvalds para manexar a árbore de "
+"GIT é un proxecto comezado por Linus Torvalds para xestionar a árbore de "
 "desenvolvemento do código fonte do Kernel de Linux. Ao comezo GIT estaba "
 "claramente enfocado nas necesidades do desenvolvemento do kernel, pero tense "
 "expandido máis alá e agora mesmo é empregado por outros proxectos "
@@ -201,7 +201,7 @@ msgstr ""
 "para manexar proxectos moi grandes con velocidade e eficiencia; está sendo "
 "empregado principalmente por varios proxectos de Software Libre, entre os "
 "que destaca o kernel de Linux. GIT atópase na categoría das ferramentas de "
-"manexo distribuído do código fonte, da mesma maneira que por exemplo GNU "
+"xestión distribuída do código fonte, da mesma maneira que por exemplo GNU "
 "Arch ou Monotone (ou BitKeeper no mundo propietario). Cada directorio de "
 "traballo de GIT é un repositorio completo con capacidades completas de "
 "xestión de revisións, independente do acceso á rede ou dun servidor "
@@ -240,7 +240,7 @@ msgstr ""
 "historia da rama. As ramas poden fusionarse dentro doutras dun xeito "
 "descentralizado, pero Bazaar tamén pode configurarse para traballar dun "
 "xeito centralizado. Bazaar botou a andar como un fork de GNU Arch, pero foi "
-"reescrito dende certo e agora no ten relación directa con GNU Arch."
+"reescrito dende cero e agora no ten relación directa con GNU Arch."
 
 #. Tag: title
 #: appa.xml:112
@@ -293,11 +293,10 @@ msgstr ""
 "desenvolvedores fan commit dos seus cambios a un \"ficheiro\", o cal pode "
 "ser local, e os cambios poden ser introducidos ou retirados cara outros "
 "ficheiros segundo os administradores deses ficheiros o vexan convinte. Como "
-"toda metodoloxía implica, Arch ten un soporte de fusións/mezclas máis "
-"sofisticado que CVS. Arch tamén che permite facer ramas dun xeito sinxelo "
-"para aqueles ficheiros dos que non tes acceso para facer commit. Este é só "
-"un breve resumo; bótalle unha ollada ao sitio de de Arch para máis "
-"detalles."
+"esta metodoloxía implica, Arch ten un soporte de mesturas máis sofisticado "
+"que CVS. Arch tamén che permite facer ramas dun xeito sinxelo para aqueles "
+"ficheiros dos que non tes acceso para facer commit. Este é só un breve "
+"resumo; bótalle unha ollada ao sitio web de Arch para máis detalles."
 
 #. Tag: title
 #: appa.xml:139
@@ -322,7 +321,7 @@ msgid ""
 "no external dependencies, runs on linux, solaris, OSX, and windows, and is "
 "licensed under the GNU GPL.\""
 msgstr ""
-"\"monotone é un sistema distribuído de control de versións libre. Fornece "
+"\"monotone é un sistema distribuído libre de control de versións. Fornece "
 "un almacenamento de versións sinxelo e transaccional a nivel de ficheiros "
 "individuais, con total operatividade baixo desconexión, e cun protocolo "
 "eficiente de sincronización entre pares. Comprende a fusión sensible ao "
@@ -352,11 +351,11 @@ msgid ""
 "anarchic. It allows you to update from or commit to any repository at any "
 "time with no unnecessary re-merges.\""
 msgstr ""
-"Por que outro sistema de control de versión? Todos os demais sistemas de "
-"control de versión requiren que manteñas unha xestión coidadosa das "
-"relacións entre as ramas para que non mezcles repetidamente os mesmos "
+"\"Por que outro sistema de control de versións? Todos os demais sistemas de "
+"control de versións requiren que manteñas unha xestión coidadosa das "
+"relacións entre as ramas para que non mestures repetidamente os mesmos "
 "conflictos. Codeville é moito máis anárquico. Permíteche actualizar ou "
-"facer commits a calquera repositorio en calquera momento sen re-mezclas "
+"facer commits a calquera repositorio en calquera momento sen re-mesturas "
 "innecesarias\"."
 
 #. Tag: para
@@ -374,9 +373,9 @@ msgstr ""
 "\"Codeville funciona creando un identificador para cada cambio feito, e "
 "recordando a lista de todos os cambios que teñen sido aplicados a cada "
 "ficheiro e o último cambio que modificou cada liña en cada ficheiro. Cando "
-"hai un conflicto, comproba se unh das dúas partes ten sido xa aplicada á "
+"hai un conflicto, comproba se unha das dúas partes ten sido xa aplicada á "
 "outra, e se é así entón fai que esa parte automaticamente sexa a "
-"ganadora. Cando hai un conflicto de versións real que non se pode mezclar "
+"ganadora. Cando hai un conflicto de versións real que non se pode mesturar "
 "automaticamente, Codeville compórtase case do mesmo xeito exacto que CVS.\""
 
 #. Tag: title
@@ -386,6 +385,8 @@ msgid ""
 "<emphasis role=\"bold\">Vesta</emphasis>&nbsp;&mdash;&nbsp;<ulink url="
 "\"http://www.vestasys.org/\"></ulink>"
 msgstr ""
+"<emphasis role=\"bold\">Vesta</emphasis>&nbsp;&mdash;&nbsp;<ulink url="
+"\"http://www.vestasys.org/\"></ulink>"
 
 #. Tag: para
 #: appa.xml:179
@@ -396,6 +397,11 @@ msgid ""
 "from fairly small (under 10,000 source lines) to very large (10,000,000 "
 "source lines).\""
 msgstr ""
+"\"Vesta é un sistema portable de SCM [Xestión de Configuración de "
+"Software ou \"Software Configuration Management\" en inglés] orientado a "
+"dar soporte ao desenvolvemento de sistemas de software de case calquera "
+"tamaño, dende bastante pequenos (menos de 10.000 liñas de código fonte) "
+"ata moi grandes (10.000.000 de liñas de código fonte).\""
 
 #. Tag: para
 #: appa.xml:184
@@ -417,6 +423,23 @@ msgid ""
 "part of Intel, are continuing to use Vesta today in a new microprocessor "
 "project.\""
 msgstr ""
+"\"Vesta é un sistema maduro. É o resultado de máis de 10 anos de "
+"investigación e desenvolvemento no Centro de Desenvolvemento de Sistemas de "
+"Compaq/Digital, e ten sido empregado en producción polo grupo de "
+"microprocesadores Alpha de Compaq durante máis de dous anos e medio. O "
+"grupo Alpha tivo máis de 150 desenvolvedores activos en dúas ubicacións a "
+"miles de kilómetros de distancia a unha da outra, na costa este e na costa "
+"oeste dos Estados Unidos. O grupo empregou Vesta para xestionar \"builds\" "
+"con ao sumo 130 MB de datos fonte, cada un producindo 1,5 GB de datos "
+"derivados. Os \"builds\" feitos na parte oeste nun día medio producían 10-"
+"15 GB de datos derivados, todos administrados por Vesta. Aínda que Vesta "
+"foi diseñado tendo en mente o desenvolvemento de software, o grupo Alpha "
+"demostrou a flexibilidade do sistema usándoo para desenvolvemento de "
+"hardware, comprobando os seus ficheiros de linguaxe de descrición de "
+"hardware dentro da funcionalidade de control de código fonte de Vesta e "
+"contruíndo simuladores e outros obxectos derivados co \"constructor\" de "
+"Vesta. Os membros do ex-grupo Alpha, agora parte de Intel, continúan hoxe "
+"en día empregando Vesta no proxecto dun novo microprocesador.\""
 
 #. Tag: title
 #: appa.xml:205
@@ -425,6 +448,8 @@ msgid ""
 "<emphasis role=\"bold\">Aegis</emphasis>&nbsp;&mdash;&nbsp;<ulink url="
 "\"http://aegis.sourceforge.net/\"></ulink>"
 msgstr ""
+"<emphasis role=\"bold\">Aegis</emphasis>&nbsp;&mdash;&nbsp;<ulink url="
+"\"http://aegis.sourceforge.net/\"></ulink>"
 
 #. Tag: para
 #: appa.xml:207
@@ -436,6 +461,11 @@ msgid ""
 "changes back into the master source of the program, with as little "
 "disruption as possible.\""
 msgstr ""
+"\"Aegis é un sistema de xestión da configuración de software baseado en "
+"transaccións. Proporciona un marco dentro do que un equipo de "
+"desenvolvedores pode traballar independentemente en moitos cambios dun "
+"programa, e Aegis coordina a integración desos cambios dentro do código "
+"fonte mestre do programa, co menor transtorno posible.\""
 
 #. Tag: title
 #: appa.xml:217
@@ -444,6 +474,8 @@ msgid ""
 "<emphasis role=\"bold\">CVSNT</emphasis>&nbsp;&mdash;&nbsp;<ulink url="
 "\"http://cvsnt.org/\"></ulink>"
 msgstr ""
+"<emphasis role=\"bold\">CVSNT</emphasis>&nbsp;&mdash;&nbsp;<ulink url="
+"\"http://cvsnt.org/\"></ulink>"
 
 #. Tag: para
 #: appa.xml:219
@@ -459,6 +491,16 @@ msgid ""
 "MergePoint processing means no more tagging to merge; under active "
 "development."
 msgstr ""
+"\"CVSNT é un sistema avanzado e multiplataforma de control de versións. "
+"Compatible co protocolo estándar da industria CVS, agora soporta moitas má"
+"is funcionalidades... CVSNT é Código de Fontes Abiertas, Software Libre "
+"licenciado baixo a Licenza Pública Xeral GNU.\" A súa lista de "
+"funcionalidades inclúe autenticación mediante todos os protocolos está"
+"ndar de CVS, máis os SSPI e Directorio Activo específicos de Windows; "
+"soporte de transporte seguro, vía sserver ou SSPI cifrada; multiplataforma "
+"(corre en entornos Windows ou Unix); a versión NT está totalmente "
+"integrada co sistema Win32; MergePoint, cuxo procesado permite non ter máis "
+"etiquetado a fusionar nas mesturas; baixo desenvolvemento activo."
 
 #. Tag: title
 #: appa.xml:234
@@ -467,6 +509,8 @@ msgid ""
 "<emphasis role=\"bold\">META-CVS</emphasis>&nbsp;&mdash;&nbsp;<ulink url="
 "\"http://common-lisp.net/project/meta-cvs/\"></ulink>"
 msgstr ""
+"<emphasis role=\"bold\">META-CVS</emphasis>&nbsp;&mdash;&nbsp;<ulink url="
+"\"http://common-lisp.net/project/meta-cvs/\"></ulink>"
 
 #. Tag: para
 #: appa.xml:236
@@ -480,6 +524,15 @@ msgid ""
 "symbolic links, property lists attached to versioned data, improved third-"
 "party data importing, and easy upgrading from stock CVS."
 msgstr ""
+"\"Meta-CVS é un sistema de control de versións construído arredor de CVS. "
+"Aínda que conserva a maioría das funcionalidades de CVS, incluíndo todo o "
+"soporte ao traballo en rede, ten maior capacidade que CVS, e é máis fácil "
+"de empregar.\" A funcionalidades listadas no sitio web de META-CVS inclúen: "
+"versionado da estructura de directorios, manexo de tipos de ficheiro "
+"mellorado, mesturado (\"merging\") e ramificado (\"branching\") máis simple "
+"e máis amigable, soporte para enlaces simbólicos, listas de propiedade "
+"adxuntadas aos datos versionados, importación mellorada de datos de "
+"terceiros, e unha sinxela actualización dende CVS."
 
 #. Tag: title
 #: appa.xml:249
@@ -488,6 +541,8 @@ msgid ""
 "<emphasis role=\"bold\">OpenCM</emphasis>&nbsp;&mdash;&nbsp;<ulink url="
 "\"http://www.opencm.org/\"></ulink>"
 msgstr ""
+"<emphasis role=\"bold\">OpenCM</emphasis>&nbsp;&mdash;&nbsp;<ulink url="
+"\"http://www.opencm.org/\"></ulink>"
 
 #. Tag: para
 #: appa.xml:251
@@ -499,6 +554,13 @@ msgid ""
 "provides first-class support for renames and configuration, cryptographic "
 "authentication and access control, and first-class branches.\""
 msgstr ""
+"\"OpenCM está deseñado como un reemplazo seguro e de alta integridade de "
+"CVS. Pódese atopar una lista das súas funcionalidades clave na páxina de "
+"características. Aínda non sendo tan  'rico en funcionalidades' como CVS, "
+"soporta algunhas cousas útiles das que carece CVS. En poucas palabras, "
+"OpenCM proporciona soporte de primera clase para renomeado e configuración, "
+"autentificación criptográfica e control de acceso, e ramas de primera "
+"clase.\""
 
 #. Tag: title
 #: appa.xml:262
@@ -507,6 +569,8 @@ msgid ""
 "<emphasis role=\"bold\">PRCS</emphasis>&nbsp;&mdash;&nbsp;<ulink url="
 "\"http://prcs.sourceforge.net/\"></ulink>"
 msgstr ""
+"<emphasis role=\"bold\">PRCS</emphasis>&nbsp;&mdash;&nbsp;<ulink url="
+"\"http://prcs.sourceforge.net/\"></ulink>"
 
 #. Tag: para
 #: appa.xml:264
@@ -519,6 +583,12 @@ msgid ""
 "(according to its authors, at least), it is much simpler than any of those "
 "systems.\""
 msgstr ""
+"\"PRCS, o Sistema de Control de Revisión de Proxecto (Project Revision "
+"Control System), é a interface dun conxunto de ferramentas que (como CVS) "
+"fornece un xeito de tratar con conxuntos de ficheiros e directorios como "
+"unha entidade, preservando versións coherentes do conxunto enteiro... O seu "
+"propósito é similar ao de SCCS, RCS, e CVS, pero (cando menos segundo os "
+"seus autores), é moito máis sinxelo que calquera deses sistemas.\""
 
 #. Tag: title
 #: appa.xml:275
@@ -527,6 +597,8 @@ msgid ""
 "<emphasis role=\"bold\">ArX</emphasis>&nbsp;&mdash;&nbsp;<ulink url=\"http://"
 "www.nongnu.org/arx/\"></ulink>"
 msgstr ""
+"<emphasis role=\"bold\">ArX</emphasis>&nbsp;&mdash;&nbsp;<ulink url=\"http://"
+"www.nongnu.org/arx/\"></ulink>"
 
 #. Tag: para
 #: appa.xml:277
@@ -536,6 +608,10 @@ msgid ""
 "features, cryptographic data integrity verification, and the ability to "
 "publish archives easily on any HTTP server."
 msgstr ""
+"ArX é un sistema de control de versións distribuído que ofrece "
+"funcionalidades de ramificación e mestura, verificarión criptográfica da "
+"integridade dos datos, e a capacidade de publicar ficheiros facilmente en "
+"calquera servidor HTTP."
 
 #. Tag: title
 #: appa.xml:285
@@ -544,6 +620,8 @@ msgid ""
 "<emphasis role=\"bold\">SourceJammer</emphasis>&nbsp;&mdash;&nbsp;<ulink url="
 "\"http://www.sourcejammer.org/\"></ulink>"
 msgstr ""
+"<emphasis role=\"bold\">SourceJammer</emphasis>&nbsp;&mdash;&nbsp;<ulink url="
+"\"http://www.sourcejammer.org/\"></ulink>"
 
 #. Tag: para
 #: appa.xml:287
@@ -555,6 +633,11 @@ msgid ""
 "client-side component that makes requests of the server and manages the "
 "files on the client-side file system.\""
 msgstr ""
+"\"SourceJammer é un sistema de versionado e control de código fonte "
+"escrito en Java. Consiste nun compoñente na parte servidor que mantén os "
+"ficheiros maila historia das versións, e manexa subidas, descargas, etc. e "
+"outros comandos; e nun compoñente na parte cliente que fai peticións ao "
+"servidor e xestiona os ficheiros no sistema de ficheiros do lado cliente.\""
 
 #. Tag: title
 #: appa.xml:297
@@ -563,6 +646,8 @@ msgid ""
 "<emphasis role=\"bold\">FastCST</emphasis>&nbsp;&mdash;&nbsp;<ulink url="
 "\"http://www.zedshaw.com/projects/fastcst/index.html\"></ulink>"
 msgstr ""
+"<emphasis role=\"bold\">FastCST</emphasis>&nbsp;&mdash;&nbsp;<ulink url="
+"\"http://www.zedshaw.com/projects/fastcst/index.html\"></ulink>"
 
 #. Tag: para
 #: appa.xml:299
@@ -577,6 +662,16 @@ msgid ""
 "Merging is done by comparing a merged changeset against the current "
 "directory contents, rather than trying to merge it with another changeset.\""
 msgstr ""
+"\"Un sistema 'moderno' que emprega conxuntos de cambios sobre revisións dos "
+"ficheiros, e operabilidade distribuída fronte a control centralizado. Se "
+"contas con un enderezo de correo electrónico, podes empregar FastCST. Para "
+"unha distribución maior só precisas un servidor FTP e/ou un servidor HTTP "
+"ou empregar o comando 'serve' empotrado para servir directamente o teu "
+"contido. Todos os conxuntos de cambios son universalmente únicos e teñen "
+"toneladas de metadatos co que podes rexeitar calquera cousa que non queiras "
+"antes de probalo. O mesturado faise comparando un conxunto de cambios "
+"mesturado fronte aos contidos actuais do directorio, en lugar de tentar "
+"mesturalo con outro conxunto de cambios.\""
 
 #. Tag: title
 #: appa.xml:313
@@ -585,6 +680,8 @@ msgid ""
 "<emphasis role=\"bold\">Superversion</emphasis>&nbsp;&mdash;&nbsp;<ulink url="
 "\"http://www.superversion.org/\"></ulink>"
 msgstr ""
+"<emphasis role=\"bold\">Superversion</emphasis>&nbsp;&mdash;&nbsp;<ulink url="
+"\"http://www.superversion.org/\"></ulink>"
 
 #. Tag: para
 #: appa.xml:315
@@ -597,3 +694,10 @@ msgid ""
 "of the top priorities in Superversion's development from the very beginning."
 "\""
 msgstr ""
+"\"Superversion é un sistema de control de versións distribuído e "
+"multiusuario baseado en conxuntos de cambios. Pretende ser unha alternativa "
+"Software Libre e con fortaleza industrial ás solucións privativas sendo "
+"igualmente sinxelo de usar (ou aínda máis sinxelo) e cunha potencia "
+"similar. De feito, intuitividade e eficiencia na usabilidade teñen sido as "
+"principais prioridades no desenvolvemento de Superversion dende a súa orixe."
+"\""
