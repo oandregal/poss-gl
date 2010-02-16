@@ -9,14 +9,14 @@ msgstr ""
 "Project-Id-Version: Producing OSS\n"
 "Report-Msgid-Bugs-To: producingoss@listas.ghandalf.org\n"
 "POT-Creation-Date: 2009-07-11 15:33+0000\n"
-"PO-Revision-Date: 2010-02-16 20:54+0100\n"
+"PO-Revision-Date: 2010-02-16 22:57+0100\n"
 "\n"
 "\n"
-"Last-Translator: Andrés Maneiro <andres.maneiro@gmail.com>\n"
-"Language-Team: Galician <producingoss@listas.ghandalf.org>\n"
+"Last-Translator: Jorge López Fernández <lopez.fernandez.jorge@gmail.com>\n"
+"Language-Team: Galego <producingoss@listas.ghandalf.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=8bit\n"
+"Content-Transfer-Encoding: UTF-8\n"
 
 #. Tag: title
 #: ch08.xml:3
@@ -2732,7 +2732,7 @@ msgstr ""
 #: ch08.xml:1614
 #, no-c-format
 msgid "Avoid Mystery"
-msgstr ""
+msgstr "Evita-lo misterio"
 
 #. Tag: para
 #: ch08.xml:1616
@@ -2747,7 +2747,7 @@ msgid ""
 "right in the developer guidelines document, since the people most likely to "
 "be interested in how commit access is granted are those thinking of "
 "contributing code to the project."
-msgstr ""
+msgstr "Aínda que as discusión acerca de aceptar novos comitters deben ser confidenciales, as propias regras e procedementos non deben selo. De feito, é mellor publicalos, de modo que a xente comprenda que os committers non son ningunha Cámara Celestial pechada aos meros mortais, senón que calquera pode unirse simplemente posteando bós parches e sabendo como manexarse na comunidade. No proxecto Subversion poñemos esta información directamente no documento coas pautas para os desenvolvedores, xa que a xente máis interesada en coñecer como se outorgan permisos para commits é aquela que pensa en contribuir co proxecto."
 
 #. Tag: para
 #: ch08.xml:1627
@@ -2762,7 +2762,7 @@ msgid ""
 "address, though the address can be encoded to prevent spam (see <xref "
 "linkend=\"address-hiding\"/><phrase output=\"printed\"> in <xref linkend="
 "\"technical-infrastructure\"/></phrase>) if the person prefers that."
-msgstr ""
+msgstr "Ademáis de publica-los procedementos, publicar a <emphasis>lista</emphasis> completa e actualizada de committers. O lugar onde se adoita facer é o arquivo <filename>MAINTAINERS</filename>, ou <filename>COMMITTERS</filename> no nivel máis alto da árbore de código fonte do proxecto. Debería ser unha lista que inclúa en primeiro lugar os committers globais, seguidos dos diferentes dominios de commit parciais e os membros de cada un deles. Cada persoa debe ser listada co nome e a dirección de email, inda que a dirección se pode encriptar para previr spam (véxase <xref linkend=\"address-hiding\"/><phrase output=\"printed\"> en <xref linkend=\"technical-infrastructure\"/></phrase>) se a persoa o prefire."
 
 #. Tag: para
 #: ch08.xml:1639
@@ -2775,13 +2775,13 @@ msgid ""
 "influential and how. It is a public record, not an acknowledgments file. "
 "List committers either in alphabetical order, or in the order in which they "
 "arrived."
-msgstr ""
+msgstr "Xa que a distinción entre acceso como committer global e parcial é obvia e ben definida, é aconsellable indicala na lista tamén. Amais disto, a lista non debe tratar de indica-las diferencias informais que inevitablemente surxen en cada proxecto, como quen son as persoas máis influentes, e de que modo. Trátase dun rexistro público, non dun ficheiro de recoñecementos. Os committers se listan en orde alfabética ou na orde en que se uniron ao proxecto."
 
 #. Tag: title
 #: ch08.xml:1654
 #, no-c-format
 msgid "Credit"
-msgstr ""
+msgstr "Recoñecemento"
 
 #. Tag: para
 #: ch08.xml:1656
@@ -2798,7 +2798,7 @@ msgid ""
 "and instinctively look for signs that their work was recognized by others. "
 "The promise of credit is therefore one of best motivators the project has. "
 "When small contributions are acknowledged, people come back to do more."
-msgstr ""
+msgstr "O recoñecemento é a principal moeda no mundo do software libre. A pesar de todo o que a xente diga sobre as súas motivacións para traballar nun proxecto, non coñezo a ningún desenvolvedor que se sentera feliz facendo o seu traballo de maneira anónima ou co nome doutra persoa. Existen razóns tanxibles para isto: a reputación de cada un nun proxecto determina claramente a súa influencia, e a participación nun proxecto de software libre tamén pode indirectamente proporcionar beneficios económicos, porque actualmente algúns empregadores os buscan nos currículums. Hai tamén razóns intanxibles, quizáis máis poderosas: a xente simplemente quere ser apreciada, e instintitvamente buscan sinais de que o seu traballo é recoñecido por outros. A promesa do recoñecemento está aí e constitúe un dos maiores motivadores que un proxecto ten Cando as pequenas contribución son recoñecidas, dita xente volta para facer máis."
 
 #. Tag: para
 #: ch08.xml:1670
@@ -2812,7 +2812,7 @@ msgid ""
 "J. Random &lt;jrandom@example.com&gt;\" if instead you can write \"Thanks to "
 "J. Random &lt;jrandom@example.com&gt; for the bug report and reproduction "
 "recipe\" in a log message."
-msgstr ""
+msgstr "Unha das características máis importantes do desenvolvemento colaborativo de software (véxase <xref linkend=\"technical-infrastructure\"/>) é que conserva rexistros precisos sobre quen fixo que e cando. Sempre que sexa posible, débense empregar estes mecanismos existentes para asegurar que o mérito é distribuido correctamente, sendo específicos na natureza da contribución. Non escribir simplemente \"Gracias a X. Aleatorio &lt;xaleatorio@exemplo.gl&gt;\" se podemos poñer \"Gracias a X. Aleatorio &lt;xaleatorio@exemplo.gl&gt; polo informe do erro e o método para repetilo\" nun mensaxe de log."
 
 #. Tag: para
 #: ch08.xml:1679
@@ -2831,7 +2831,7 @@ msgid ""
 "themselves. This does not, of course, prove that being credited was a factor "
 "in their continued involvement, but it at least sets up an atmosphere in "
 "which people know they can count on their contributions being acknowledged."
-msgstr ""
+msgstr "En Subversion temos unha política informal pero consistente de acreditación de informes de erros, ben nun ficheiro de problemas, se existe, ou no mensaxe de log do commit que soluciona o erro. Unha inspeción rápida do log de commits de Subversion ata o número 14525 amosa que preto do 10% dos commits acreditan a alguén polo nome e a direción de correo electrónico, normalmente a persoa que informou ou analizou o erro solucionado nese commit. Nótese que esta persoa é diferente do desenvolvedor que realmente fixo o commit, cuxo nome xa é rexistrado automáticamente no sistema de control de versións. Dos oitenta e tantos committers globais e parciais, cincuenta e cinco foron acreditados en logs de commit (normalmente múltiples veces) antes de ser committers. Isto non proba, evidentemente, que estar acreditado fora un factor na súa colaboración continua no proxecto, pero polo menos crea unha atmósfera na cal a xente sabe que poden contar con que as súas contribucións sexan recoñecidas."
 
 #. Tag: para
 #: ch08.xml:1695
@@ -2852,7 +2852,7 @@ msgid ""
 "favorable comment going on all the time. This does not mean, of course, that "
 "you should never thank people. Just make sure to do it in ways that tend not "
 "to lead to credit inflation. Following these guidelines will help:"
-msgstr ""
+msgstr "É importante distinguir entre a rutina de recoñecemento e os agradecementos especiais. Cando se discute un fragmento particular de código, ou calquera outra contribución, sempre é correcto recoñecer o traballo feito. Por exemplo, dicir \"Os cambios recentes de Xan sobre o código delta significan que agora podemos implementar a funcionalidade X\" simultáneamente axudan á xente a identificar de que cambio se está a falar e recoñece o traballo de Xan. Por outra banda, darlle as gracias nun post individual a Xan non ten ningunha utilidade inmediata. Non engade información, xa que o sistema de control de versións e outros mecanismos xa rexistraron o feito de que el fixo os cambios. Agradecer a todos por todo sería unha distración e carente de toda información, debido a que o agradecemento resulta efectivo na medida en que se aparta dos comentarios favorables que se ven habitualmente. Isto non significa, por suposto, que nunca se deba agradecer á xente. Só se debe estar seguro de que non se fai de maneira que conduza ao inflado de recoñecemento. As seguintes líneas xerais son de axuda niso:"
 
 #. Tag: para
 #: ch08.xml:1714
@@ -2867,7 +2867,7 @@ msgid ""
 "clear when or where to stop. And <emphasis>never</emphasis> put thanks into "
 "comments in the code; that would only be a distraction from the primary "
 "purpose of comments, which is to help the reader understand the code."
-msgstr ""
+msgstr "Canto máis efémero sexa o foro, con máis libertade se poden dar gracias nel. Por exemplo, agradecer a alguén por arranxar un erro durante unha conversa de IRC é correcto, así como facelo nun correo centrado principalmente noutros temas. Pero non se debe mandar un correo únicamente para agradecer a alguén, a non ser que sexa por algunha labor realmente inusual. Do mesmo xeito, non se deben chear as páxinas do proxecto con expresións de gratitude. Unha vez que se empeza, nunca estará claro onde ou cando deterser. E <emphasis>nunca</emphasis> pór agradecementos no código; iso sería únicamente unha distración sobre o obxectivo principal dos comentarios, que é axudar ao lector a comprende-lo código."
 
 #. Tag: para
 #: ch08.xml:1728
@@ -2880,7 +2880,7 @@ msgid ""
 "constantly thank regular contributors for doing what they normally do would "
 "be to express a lower expectation of them than they have of themselves. If "
 "anything, you want to aim for the opposite effect!"
-msgstr ""
+msgstr "Canto menos involucrado estea alguén nun proxecto, máis apropiado é agradecerlle o traballo feito. Isto pode parecer un sinsentido, pero encaixa coa atitude de que dar as gracias é algo que se fai cando alguén contribúe máis do que era de  esperar. Polo tanto, agradecer continuamente á xente que contribúe habitualmente por un traballo que xa farían en condicións normais significaría que esperamos deles menos que eles mesmos, e está claro que se algo nos interesa é o efecto contrario."
 
 #. Tag: para
 #: ch08.xml:1738
@@ -2892,7 +2892,7 @@ msgid ""
 "manager, who goes into high gear around the time of each release, but "
 "otherwise lies dormant (dormant as a release manager, in any case&mdash;he "
 "may also be an active developer, but that's a different matter)."
-msgstr ""
+msgstr "Existen algunhas excepción a esta norma. Resulta aceptable agradecer a alguén por cumpri-lo seu rol cando dito traballo require esforzos importantes de tanto en tanto. O exemplo por excelencia é o xestor das releases, o cal realiza un traballo importante preto de cada release, mentres que o resto do tempo permanece inactivo (inactivo como xestor das releases, xa que por outra banda pode ser un desenvolvedor activo, pero iso é outro asunto)."
 
 #. Tag: para
 #: ch08.xml:1748
@@ -2902,7 +2902,7 @@ msgid ""
 "people just for being great, even if they are. Thank them for something they "
 "did that was out of the ordinary, and for bonus points, say exactly why what "
 "they did was so great."
-msgstr ""
+msgstr "Igual que coas críticas e o recoñecemento, o agradecemento debe ser específico. Non se debe agradecer á xente simplemente por ser excelentes, incluso se realmente o son. Os agradecementos se farán por algo feito fóra do ordinario, e por puntos adicionais, aclarando por que o traballo feito foi tan destacable."
 
 #. Tag: para
 #: ch08.xml:1756
@@ -2913,13 +2913,13 @@ msgid ""
 "group effort rather than a collection of individual glories. Just remain "
 "aware of this tension and try to err on the side of group, and things won't "
 "get out of hand."
-msgstr ""
+msgstr "En xeral, sempre hai tensión entre asegurarse de que as contribucións individuais da xente son recoñecidas e que o proxecto resulta máis un esforzo de grupo que una colección de logros individuais. Simplemente hay que ser conscientes desta tensión e tratar de inclina-la balanza no lado do grupo, e dese modo estará baixo control."
 
 #. Tag: title
 #: ch08.xml:1766
 #, no-c-format
 msgid "Forks"
-msgstr ""
+msgstr "Ramas"
 
 #. Tag: para
 #: ch08.xml:1768
@@ -2931,7 +2931,7 @@ msgid ""
 "are governed. But what happens when a fork actually occurs? How should you "
 "handle it, and what effects can you expect it to have? Conversely, when "
 "should you <emphasis>initiate</emphasis> a fork?"
-msgstr ""
+msgstr "En <xref linkend=\"forkability\"/><phrase output=\"printed\"> en <xref linkend=\"social-infrastructure\"/></phrase> vimos como o <emphasis>potencial</emphasis> de crear ramas ten importantes efectos en como se gobernan os proxectos. Pero, ¿que ocurre cando realmente se crea unha nova rama? ¿Como se debe manexar, e que efectos podemos esperar dela? No extremo contrario, ¿cando se debe <emphasis>iniciar</emphasis> unha nova rama?"
 
 #. Tag: para
 #: ch08.xml:1776
@@ -2945,7 +2945,7 @@ msgid ""
 "elements as well. What all forks have in common is that one group of "
 "developers (or sometimes even just one developer) has decided that the costs "
 "of working with some or all of the others now outweigh the benefits."
-msgstr ""
+msgstr "A resposta depende da clase de rama que sexa. Algunhas débense a desacordos amigables mais irreconciliables sobre a dirección do proxecto; quizáis haxa máis debidos tanto a diverxencias técnicas e conflictos persoais. Por suposto, non sempre é posible diferenciar ambos, xa que argumentos técnicos poden tamén implicar elementos persoais. O que tódalas ramas teñen en común é que un grupo de desenvolvedores (nalgunhas ocasión incluso un só deles) decidiu que o coste de traballar con algúns ou con tódolos demáis supera aos beneficios."
 
 #. Tag: para
 #: ch08.xml:1786
@@ -2963,7 +2963,7 @@ msgid ""
 "<emphasis>are</emphasis> the objective truth, since ultimately a "
 "project&mdash;or a fork&mdash;is an entity that exists only in people's "
 "minds anyway."
-msgstr ""
+msgstr "Unha vez que un proxecto se ramifica, non hai unha resposta segura sobre a pregunta de cal é o proxecto \"verdadeiro\" ou \"orixinal\". A xente falará de maneira coloquial acerca de unha rama R que sae dun proxecto P, de maneira que P segue o seu rumbo natural mentres que R se adentra nun novo territorio, pero isto é, realmente, unha declaración de como ese observadore en concreto percibe a situación. Trátase fundamentalmente dun asunto de percepción: cando un porcentaxe suficientemente grande de observadores está de acordo, dita afirmación comeza a ser certa. Non se trata de que exista unha verdade obxectiva, unha que simplemente non somos capaces de percibir dende o principio, senón de que as percepción <emphasis>son</emphasis> a verdade obxectiva, simplemente porque un proxecto&mdash;ou unha rama&mdash;é unha entidade abstracta na nosa mente."
 
 #. Tag: para
 #: ch08.xml:1800
@@ -2983,7 +2983,7 @@ msgid ""
 "public relations war. Naturally, things rarely get that far: since everyone "
 "already knows what the power dynamics are, they will avoid fighting a battle "
 "whose outcome is known in advance, and just jump straight to the end."
-msgstr ""
+msgstr "Se a xente que crea unha nova rama sinte que están indo nun camiño diferente ao do proxecto principal, a cuestión queda resolta inmediata e sinxelamente. Todos, tanto desenvolvedores coma usuarios, tratarán á rama coma un novo proxecto, cun novo nome (pode que basado no antigo, pero facilmente distinguible del), un sitio web diferente e unha filosofía de traballo ou obxectivo distinto. En cambio, as cousas se complican cando ambos lados cren ser os guardiáns lexítimos do proxecto orixinal e por tanto teñen dereito a continuar co antigo nome. Se existe algunha organización con dereitos sobre o nome, ou control legal sobre o dominio ou páxinas web, o problema se resolve habitualmente segundo o seu criterio: a organización decidirá quen é o proxecto e quen a rama, porque ten tódalas de gañar nunha guerra de relacións públicas. Naturalmente, rara vez as cousas chegan tan lonxe: como todos coñecen as dinámicas de poder, evitan unha guerra cuxo resultado xa saben de antemán, e prefiren ir directamente á solución."
 
 #. Tag: para
 #: ch08.xml:1817
@@ -2998,13 +2998,13 @@ msgid ""
 "developers are in favor, the fork is a clearly minority rebellion, and both "
 "courtesy and common sense indicate that it should think of itself as the "
 "divergent branch rather than the main line."
-msgstr ""
+msgstr "Por sorte, na maioría dos casos hai pocas dúbidas sobre cal é o proxecto e cal a rama, porque a rama é, en esencia, un voto de confianza. Se máis da metade dos desenvolvedores están a favor de calqueira rumbo que a rama propón tomar, habitualmente non hai motivos para ramificar; o proxecto simplemente vai por ese camino por si mesmo, a non ser que este controlado por un dictador especialmente teimoso. Por outra banda, se están a favor menos da metade dos desenvolvedores, a rama é claramente unha rebelión minoritaria, e tanto a cortesía coma o sentido común dinnos que eles mesmos deberían considerarse unha rama diverxente mais que a tendencia principal."
 
 #. Tag: title
 #: ch08.xml:1829
 #, no-c-format
 msgid "Handling a Fork"
-msgstr ""
+msgstr "Manexar unha rama"
 
 #. Tag: para
 #: ch08.xml:1831
@@ -3032,7 +3032,7 @@ msgid ""
 "Ask them if there's anything else they need, and provide it if you can. Bend "
 "over backward to show that you are not standing in the way, and that you "
 "want the fork to succeed or fail on its own merits and nothing else."
-msgstr ""
+msgstr "Se alguén ameaza con crear unha rama no teu proxecto, mantén a calma e recorda os teus obxectivos a longo prazo. A simple <emphasis>existencia</emphasis> da rama non perxudica ao proxecto, senón a perda de desenvolvedores e usuarios. Polo tanto o teu verdadeiro obxectivo non é esmagar esa rama, senón minimizar eses efectos dañinos. Podes estar fóra das túas casillas, pensar que a rama é inxusta e ninguén a pedía, pero expresalo en público só servirá para alienar a desenvolvedores indecisos. En lugar diso, non forces á xente a tomar decisiones excluentes, e sé tan cooperativo coa rama como sexa posible. Para comezar, non revoques permisos de commit no teu proxecto a alguén simplemente porque decidiu traballar na rama. Traballar nela non significa que esa persoa perdera de repente a súa competencia para traballar no proxecto orixinal; os committers anteriores deberían seguir séndoo. Aparte disto, deberías expresar o teu desexo de ter toda a compatibilidade posible coa rama, e afirmar que desexas que os desenvolvedores adaptarán cambios entre ambos sempre que sexa apropiado. Se tes acceso como administrador aos servidores do proxecto, ofrece públicamente as túas infraestructuras para os seus inicios. Por exemplo, ofrécelles unha copia completa do repositorio de control de versións, se non teñen outra maneira de conseguilo, de modo que non teñan que comezar sen ningún dato histórico (isto pode non ser necesario segundo o sistema de control de versións empregado). Pregúntalles se precisan algunha outra cousa, e proporciónalla na medida do posible. Móstrate cordial e amistoso con eles, sen estorbarlles no seu camiño, demostrando que queres que a rama teña un futuro basado nos seus propios méritos, nin máis nin menos."
 
 #. Tag: para
 #: ch08.xml:1857
@@ -3048,7 +3048,7 @@ msgid ""
 "the fork. They allow your project to benefit from interesting new features "
 "in the fork (yes, the fork may have things you want), and also increase the "
 "chances of a merger down the road."
-msgstr ""
+msgstr "A razón de facer todo isto&mdash;e de facelo publicamente&mdash;non é axudar realmente á rama, senón persuadir aos desenvolvedores de que o teu lado é unha aposta segura, semellando o menos vingativo posible. Na guerra ás veces ten sentido (sentido estratéxico, non ético) forzar á xente a escoller bando, pero no software libre rara vez é así. De feito, tras unha rama é habitual que algúns desenvolvedores colaboren públicamente en ambos proxectos e fagan todo o posible por manteñelos compatibles. Estes desenvolvedores axudan a mante-las líneas de comunicación abertas despois de que se crea a rama. Tamén permiten ao teu proxecto beneficiarse de novas características interesantes na rama (sí, é posible que a rama teña cousas que che interesen) e incrementan as posibilidades dunha fusión máis adiante."
 
 #. Tag: para
 #: ch08.xml:1869
@@ -3076,7 +3076,7 @@ msgid ""
 "everyone with a needless name change, yet do nothing to prevent the "
 "switchover. So GCC adopted the EGCS codebase, and there is once again a "
 "single GCC, but greatly improved because of the fork."
-msgstr ""
+msgstr "Nalgunhas ocasión unha rama vólvese tan exitosa que, incluso se foi considerada polos seus creadores como unha rama diverxente, se volve a versión preferida por todos, e chega un momento en que supera á orixinal en demanda popular. O exemplo por excelence disto é a rama GCC/EGCS. A <firstterm>GNU Compiler Collection</firstterm> (<firstterm>GCC</firstterm>, antigamente o <firstterm>GNU C Compiler</firstterm>) é o compilador de código fonte libre máis popular, e tamén uno dos compiladores máis portables do mundo Debido a desacordos entre os mantedores oficiais de GCC e Cygnus Software<footnote><para>Agora parte de RedHat (<ulink url=\"http://www.redhat.com/\"></ulink>).</para></footnote>, un dos grupos de desenvolvedores de GCC máis activos, Cygnus creou unha rama de GCC chamada <firstterm>EGCS</firstterm>. A rama foi deliberadamente amistosa: os desenvolvedores de EGCS non tentaron, en ningún momento, implantar a súa versión de GCC como unha nova versión oficial. No seu lugar, concentráronse en facer EGCS o mellor posible, incorporando parches a un maior ritmo que os mantedores oficiais de GCC. EGCS gañou popularidade, e finalmente algunhas distribucións decidiron sustituir GCC por EGCS como o seu compilador por defecto. Chegado este punto, fíxose evidente para os mantedores de GCC que manter o nome \"GCC\" mentres que todo o mundo migraba a EGCS simplemente serviría para que todo o mundo sufrira un cambio de nome sen motivo algún. Por iso GCC adoptou o código base de EGCS, e así temos de novo un único GCC, pero inmensamente mellorado debido á rama."
 
 #. Tag: para
 #: ch08.xml:1894
@@ -3098,13 +3098,13 @@ msgid ""
 "project was being overly restrictive, and the best solution is to adopt into "
 "the mainline project some or all of the actions contemplated by the "
 "fork&mdash;in essence, to avoid the fork by becoming it."
-msgstr ""
+msgstr "Este exemplo amosa por que non debemos considerar sempre unha rama como algo inevitablemente malo. Unha rama pode ser dolorosa e molesta en certo momento, pero nunca podemos saber se vai ter éxito. Polo tanto debemos manter, xunto co resto do proxecto, un ollo sobre ela, e estar preparados non só para absorber funcionalidades e código cando sexa posible, senón para no caso máis extremo unirnos á rama se se convirte no referente do obxectivo do proxecto. Por suposto, é habitual poder predicir as posibilidades de éxito dunha rama segundo quen se una a ela. Se é comezada polo membro máis molesto do proxecto, e seguido por un bo número de desenvolvedores enoxados que xa non tiñan unha actitude constructiva, en esencia resolveron un dos nosos problemas, e probablemente non nos teñamos que preocupar en que a rama supere ao proxecto orixinal. Pero se vemos como influentes e respeitados desenvolvedores apoian a rama, deberiamos preguntarnos o motivo. Pode que o proxecto estea sendo demasiado restrictivo, e a mellor solución pasa por ser adoptar na liña principal algunha ou tódalas accións contempladas na rama&mdash;en esencia, evitar que a rama se produza como tal."
 
 #. Tag: title
 #: ch08.xml:1916
 #, no-c-format
 msgid "Initiating a Fork"
-msgstr ""
+msgstr "Comezar unha rama"
 
 #. Tag: para
 #: ch08.xml:1918
@@ -3123,7 +3123,7 @@ msgid ""
 "ecosystem's point of view, but it's not true from the point of view of any "
 "individual project. Most forks do not succeed, and most projects are not "
 "happy to be forked."
-msgstr ""
+msgstr "Tódolos consellos aquí asumen que pensamos en crear unha rama como último recurso, fartos doutras posibilidades xa tentadas. Crear unha rama case sempre implica perder desenvolvedores, con só unha pequena esperanza de gañar outros novos máis adiante. Tamén significa comezar de novo con competencia por capta-la atención do usuario: todo o que este a punto de descarga-lo software se preguntara \"Hmmmm, ¿prefiro este ou este outro?\". En calqueira caso, a situación é un lío, porque se introduce unha nova pregunta. Algunha xente sostén que as ramas son saudabeis para o ecosistema do software en conxunto, por un argumento de selección natural estándar: o máis capacitado sobrevive, o que significa que, ao final, todos conseguen un mellor software. Pode que isto sexa certo dende o punto de vista do ecosistema, pero non dende o punto de vista de calquera proxecto individual. A maioría das ramas non teñen éxito, e a maioría dos proxectos non se alegran de sufrir ramas."
 
 #. Tag: para
 #: ch08.xml:1933
@@ -3137,7 +3137,7 @@ msgid ""
 "packagers too&mdash;will make their own judgement about which side to "
 "choose. You should therefore appear extremely reluctant to fork, so that if "
 "you finally do it, you can credibly claim it was the only route left."
-msgstr ""
+msgstr "Un corolario disto é que non se debe emprega-la ameaza dunha rama como una técnica extremista de debate&mdash;\"¡Ou fas as cousas á miña maneira ou ramifico o proxecto!\"&mdash;porque todos son conscientes de que unha rama que non logra atraer desenvolvedores do proxecto orixinal ten poucas probabilidades de sobrevivir. Tódolos observadores&mdash;non soamente desenvolvedores, senón tamén usuarios e empaquetadores de sistemas operativos&mdash;farán o seu xuicio sobre que lado escoller. Polo tanto debemos ter moitas reticencias coa creación de ramas, de maneira que cando o fagamos sexa porque non vemos outra solución."
 
 #. Tag: para
 #: ch08.xml:1943
@@ -3156,7 +3156,7 @@ msgid ""
 "and there is no point pretending that that entity's support doesn't matter. "
 "If it is opposed to the fork, its developers are unlikely to take part, even "
 "if they secretly want to."
-msgstr ""
+msgstr "Non debemos descoidarnos á hora de ter en conta <emphasis>tódolos</emphasis> factores cando evaluamos o éxito potencial da nosa rama. Por exemplo, se moitos desenvolvedores do proxecto teñen o mesmo empleador, incluso se están molestos e persoalmente a favor da rama, será difícil que o demostren se saben que o seu empleador se mostra en contra dela. A moitos programadores de software libre gústalles pensar que ter unha licencia de software libre no código significa que ningunha compañía pode dominar no desenvolvemento. É verdade que a licencia é, en última instancia, unha garantía da liberdade&mdash;se outros teñen o suficiente interés de crear unha rama, e os recursos necesarios, poden facelo. Pero na práctica, algúns equipos de desenvolvedores de proxectos están fundados na súa maioría por unha entidade, e non podemos pretender que o seu soporte non importa. Se é contrario á rama, os desenvolvedores raramente tomarán parte, incluso se en secreto así o queren."
 
 #. Tag: para
 #: ch08.xml:1958
@@ -3175,7 +3175,7 @@ msgid ""
 "prominently on the fork's home page that it descends from the original "
 "program, and even that it hopes to supplant it. Just don't make users' lives "
 "harder by forcing them to untangle an identity dispute."
-msgstr ""
+msgstr "Se a pesar de todo decidimos crear unha rama, en primeiro lugar buscaremos apoio de maneira privada, e logo o anunciaremos nun tono nada hostil, aínda que esteamos molestos ou decepcionados cos mantedores actuais. Simplemente explicaremos con desilusión os motivos que nos levaron a ramificar e que non desexamos ningún mal ao proxecto orixinal. Asumindo que realmente o consideramos unha rama (en contraposición a preservación de emerxencia do proxecto orixinal), faremos énfase en que estamos ramificando o código e non o nome, e escolleremos un novo que non sexa conflictivo co orixinal. Podemos empregar un que teña referencias ao nome orixinal mentres non leva a confusión á hora de identificalos. Por suposto podemos explicar na páxina web da rama que descende do programa orixinal, e incluso que tenta sustituilo. Soamente tentaremos non facer a vida dos usuarios máis difícil introducíndoos nunha disputa de identidades."
 
 #. Tag: para
 #: ch08.xml:1974
@@ -3187,4 +3187,4 @@ msgid ""
 "they never use the access, your message is clear: there are disagreements "
 "here, but no enemies, and you welcome code contributions from any competent "
 "source."
-msgstr ""
+msgstr "Finalmente, podemos comeza-las cousas con bo pé outorgando permisos de commit na rama a tódolos committers do proxecto orixinal, incluídos aqueles que están manifestamente en contra da ramificación. Incluso se nunca fan uso do seu acceso, a nosa mensaxe é clara: pode que haxa desacordos, pero non enemigos, e agradecemos as contribucións de código de calquera colaborador competente."
