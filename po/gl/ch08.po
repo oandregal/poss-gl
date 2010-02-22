@@ -5,16 +5,17 @@
 # Andrés Maneiro <andres.maneiro@gmail.com>, 2010.
 # Andrés Maneiro <andres.maneiro@gmail.com>, 2010.
 # Jorge López Fernández <lopez.fernandez.jorge@gmail.com>, 2010.
+# Xulio Coira <xulioc@gmail.com>, 2010.
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Producing OSS\n"
 "Report-Msgid-Bugs-To: producingoss@listas.ghandalf.org\n"
 "POT-Creation-Date: 2009-07-11 15:33+0000\n"
-"PO-Revision-Date: 2010-02-22 18:04+0100\n"
+"PO-Revision-Date: 2010-02-22 19:15+0100\n"
 "\n"
 "\n"
-"Last-Translator: Jorge López Fernández <lopez.fernandez.jorge@gmail.com>\n"
+"Last-Translator: Xulio Coira <xulioc@gmail.com>\n"
 "Language-Team: Galego <producingoss@listas.ghandalf.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=8bit\n"
@@ -1868,7 +1869,7 @@ msgstr ""
 #: ch08.xml:1441
 #, no-c-format
 msgid "Choosing Committers"
-msgstr ""
+msgstr "Escollendo ós Commiters"
 
 #. Tag: para
 #: ch08.xml:1443
@@ -1890,7 +1891,7 @@ msgid ""
 "learned (and taught), but judgement, for the most part, cannot. Therefore, "
 "it is the one thing you want to make sure a person has before you give him "
 "commit access."
-msgstr ""
+msgstr "No proxecto Subversion escollemos aos committers principalmente empregando o Principio Hipocrático:<emphasis>primeiro, non fagas dano</emphasis>. O noso criterio principal non son nen as capacidades técnicas nen o coñecemento do código, simplemente que o committer amose un bo criterio. Criterio pode simplemente significar saber que non asumir. Unha persoa podería enviar soamente pequenos parches, arranxando pequenos problemas no código; pero si os parches se aplican limpamente, non conteñen erros, e están en armonía co rexistro de mensaxes e as guías de estilo do proxecto, e hai parches abondo para consideralo un patron evidente, entón un commiter existente habitualmente proporá a esa persoa para darlle permiso de commit. Se un mínimo de tres persoas din que si, e ninguén se opón, faise a oferta. Certo, pode que non teñamos ningunha evidencia de que a persoa está capacitada para resolver problemas complexos en tódalas áreas do código, pero iso non importa: a persoa deixou claro que polo menos é quén de xulgar as suas propias abilidades. As capacidades técnicas pódense aprender (e ensinar), pero o criterio, as máis das veces, non. Polo tanto, esta é a única cousa da que te tes que asegurar que unha persoa ten antes de darlle permiso de commit."
 
 #. Tag: para
 #: ch08.xml:1462
@@ -1910,7 +1911,7 @@ msgid ""
 "those quickly anyway), but that it might eventually force the project to "
 "revoke the person's commit access&mdash;an action that is never pleasant and "
 "can sometimes be confrontational."
-msgstr ""
+msgstr "Cando unha proposta nova de committer provoca unha discusión, non adoita ser sobre as capacidades técnicas, senon máis ben sobre co comportamento desa persoa nas listas de correro ou no IRC. Ás veces unha persoa amosa capacidades técnicas e habilidades para traballar conforme á filosofía do proxecto, pero tamén se amosa constantemente belixerante e non cooperativo nos foros públicos. Este é un asunto importante: se a persoa non se amolda ó longo do tempo, incluso como resposta a indirectas, entón non imos engadilo como commiter independentemente do capacitado que esté. Nun grupo de voluntarios, as habilidades sociais, ou a habilidade de \"xogar limpo na area\", son tan importantes como as capacidades técnicas en cru. Xa que todo está baixo control de versións, as consecuencias de ter engadido a un commiter que non deberas non son tanto os problemas que pode causar no código (a revisión sacaríaos á lus) coma que pode forzar finalmente a anular o permiso de committer desa peroa; unha medida que non é nunca agradable e pode ás veces causar confrontacións."
 
 #. Tag: para
 #: ch08.xml:1479
@@ -1930,13 +1931,13 @@ msgid ""
 "committers, 10 of whom make large changes on a regular basis, and the other "
 "90 of whom just fix typos and small bugs a few times a year, that's still "
 "better than having only the 10."
-msgstr ""
+msgstr "Moitos proxectos insisten en que un commiter potencial ten que demostar un certo nivel de experiencia técnica e persistencia, tendo enviado un certo número de parches non triviais; é dicir, estes proxectos non se conforman con saber que a persoa non fará dano, senon que queren saber que probablemente traballará ben ó longo do código. Isto está ben, pero hai que ter coidado de que non convirta a pertenza ó grupo de committers nunha cuestión de pertenza a un grupo exclusivo. A pregunta que todo o mundo debería ter na cabeza é \"Que traerá os mellores resultados para o código?\" e non \"Imos devaluar o estatus social asociado coa pertenza ó grupo de committers admitindo a esta persoa?\" A idea do permiso de commit non é reforzar a autoestima da xente, senon permitir que os bos cambios entren no código cun mínimo esforzo. Se tes 100 committers, 10 dos cales fan grandes cambios por norma xeral, e os outros 90 so arranxan erros de escritura e pequenos erros poucas veces no ano, esto é mellor que ter so ós 10 primeiros."
 
 #. Tag: title
 #: ch08.xml:1499
 #, no-c-format
 msgid "Revoking Commit Access"
-msgstr ""
+msgstr "Revocando o permiso de commit"
 
 #. Tag: para
 #: ch08.xml:1501
@@ -1947,7 +1948,7 @@ msgid ""
 "revoked, and why, the discussions around such an action can be very "
 "divisive. Even when not divisive, they will be a time-consuming distraction "
 "from productive work."
-msgstr ""
+msgstr "A primeira cousa que se debe dicir sobre o revocamento de permiso de commit é: intenta non chegar a esta situación, en primeiro lugar. Dependendo de a quén se lle esté revocando o permiso, e por qué, as discusions ó redor de está situación poden ser moi divisivas. Incluso cando non son divisivas, serán unha pérda de tempo que nos distraerán do traballo productivo."
 
 #. Tag: para
 #: ch08.xml:1507
@@ -1966,7 +1967,7 @@ msgid ""
 "was being considered, as a warning, but this openness should be a decision "
 "the group makes. No one should ever, on her own initiative, reveal "
 "information from a discussion and ballot that others assumed were secret."
-msgstr ""
+msgstr "Sen embargo, se tes que facelo, a discusión debería manterse en privado entre as mismas persoas que estarían en posición de votar para concederlle o permiso a esa peroa, independentemente do tipo de permiso de commit que teña. A persoa involucrada non debería estár incluída nesta discusión. Esto contradice o mandato habitual en contra do segredo, pero en este caso é preciso. Primeiro, ningúen sería quen de falar libremente no caso contrario. Segundo, se a moción fracasa, pode non interesarche que a persoa saiba que foi considerada, porque esto podería provocar que lle surxiran preguntas. (Quén estivo do meu lado? Quén estivo na miña contra?) que conducirán ó peor dos sectarismos. En certas circunstancias estranas, o grupo pode querer que a persoa coñeza que a revocación de permiso de commit se considera ou se considerou, como un aviso, pero esto debe ser uha decisión do grupo. Ninguén debería, por iniciaticva propia, revelar información relativa a unha discusión e votación que os demáis supoñen segreda."
 
 #. Tag: para
 #: ch08.xml:1523
@@ -1976,13 +1977,13 @@ msgid ""
 "linkend=\"commit-access-openness\"/><phrase output=\"printed\"> later in "
 "this chapter</phrase>), so try to be as tactful as you can in how it is "
 "presented to the outside world."
-msgstr ""
+msgstr "Unha vez que o permiso é revocado, debe facerse público inevitablemente (ver <xref linkend=\"commit-access-openness\"/><phrase output=\"printed\"> máis adiante neste capítulo), así que intenta ser o máis diplomático posible en canto á forma en que o anuncias ó mundo exterior."
 
 #. Tag: title
 #: ch08.xml:1533
 #, no-c-format
 msgid "Partial Commit Access"
-msgstr ""
+msgstr "Permiso de commit parcial"
 
 #. Tag: para
 #: ch08.xml:1535
@@ -1995,7 +1996,7 @@ msgid ""
 "programming languages, specification files for packaging (e.g., RedHat RPM "
 "spec files, etc.), and other places where a mistake will not result in a "
 "problem for the core project."
-msgstr ""
+msgstr "Certos proxectos ofrecen graos de permiso de commit. Por exemplo, podería haber contribuintes con permisos que lles proporcionen renda solta na documentación, pero que non poidan facer commits ó código. Áreas habituais para permisos de commit parciais son documentación, traducións, enlaces de código con outros linguaxes de programación, especificación para o empaquetado dos ficheiros (p.e., especificación RPM de RedHat), e outras áreas onde un erro non causará un problema no núcleo do proxecto."
 
 #. Tag: para
 #: ch08.xml:1544
@@ -2012,7 +2013,7 @@ msgid ""
 "votes (essentially, the committer writes \"+0\" or \"+1&nbsp;(non-binding)\" "
 "instead of just \"+1\" on the ballot). There's no reason to silence people "
 "entirely just because their vote isn't formally binding."
-msgstr ""
+msgstr "Xa que o permiso de commit non implica so facer commits, senon formar parte dun electorado (ver <xref linkend=\"electorate\"/><phrase output=\"printed\"> en <xref linkend=\"social-infrastructure\"/></phrase>),a pregunta naturalmente surxe: En que poden votar os committers parciais? Non hai resposta correcta; depende do tipo de dominios de commit parcial do proxecto. No proxecto Subversion mantemos as cousas moi simples: un commiter parcial pode votar en temas relacionados exclusivamente co seu dominio de commit, e en nada máis. É importante destacar que temos mecanismos para emitir votos de asesoramento (básicamente o committer escribe \"+0\" ou \"+1 (non vinculante)\" en vez de \"+1\"). Non hai razón para silenciar á xente simlemente porque o seu voto non é formalmente vinculante."
 
 #. Tag: para
 #: ch08.xml:1558
@@ -2025,7 +2026,7 @@ msgid ""
 "committers in a domain can often essentially choose new committers for that "
 "same domain (this is especially helpful in making translation work run "
 "smoothly)."
-msgstr ""
+msgstr "Os committers con permiso total poden votar sobre calquera cuestión, do mesmo xeito que poden facer commits en calquera parte do código, e so eles poden votar para engadir novos committers de calquera tipo. Na práctica, sen embrago, a capacidade para engadir novos commiter con permisos parciais é delegada. Calquera commiter total pode \"patrocinar\" a un commiter parcial, e os commiters parciais poden ás veces escoller novos commiters para o seu dominio (esto axuda considerablemente a axilizar o traballo de tradución)"
 
 #. Tag: para
 #: ch08.xml:1566
@@ -2037,7 +2038,7 @@ msgid ""
 "of her commit access, and not on matters outside that, and votes on "
 "procedural questions should default to the full committers, unless there's "
 "some reason (as decided by the full committers) to widen the electorate."
-msgstr ""
+msgstr "O teu proxecto pode precisar dunha filosofía diferente, dependento da natureza do traballo, pero estes mesmos principios xerais aplícanse en tódolos proxectos. Cada committer debe poder votar nos temas que caen dentro do seu dominio de commit, e non en temas que caen fora del, e os votos sobre cuestions procedimentais deben ser por defecto dos committers totais, a menos que exista algunha razón (decidida polos committers totais) para ampliar o electorado."
 
 #. Tag: para
 #: ch08.xml:1574
@@ -2048,7 +2049,7 @@ msgid ""
 "commit domains, even if it can. See <xref linkend=\"vc-authz\"/><phrase "
 "output=\"printed\"> in <xref linkend=\"technical-infrastructure\"/></phrase> "
 "for the reasons why."
-msgstr ""
+msgstr "Con respecto á aplicación de permiso de commit parcial: adoita ser mellor <emphasis>non</emphasis> empregar o sistema de control de versións para aplicar dominios de commit parcial, ainda que poida. Mira <xref linkend=\"vc-authz\"/><phrase output=\"printed\"> en <xref linkend=\"technical-infrastructure\"/></phrase> para saber porqué."
 
 #. Tag: title
 #: ch08.xml:1585
