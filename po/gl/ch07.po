@@ -6,12 +6,13 @@ msgstr ""
 "Project-Id-Version: Producing OSS\n"
 "Report-Msgid-Bugs-To: producingoss@listas.ghandalf.org\n"
 "POT-Creation-Date: 2009-07-11 15:33+0000\n"
-"PO-Revision-Date: 2010-01-24 21:11+0100\n"
+"PO-Revision-Date: 2010-02-28 18:27+0100\n"
 "Last-Translator: Pablo Sanxiao <psanxiao@gnome.org>\n"
-"Language-Team: Galician <producingoss@listas.ghandalf.org>\n"
+"Language-Team: Galician <produccingoss@listas.ghandalf.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. Tag: title
 #: ch07.xml:3
@@ -1193,6 +1194,14 @@ msgid ""
 "the project a physical entity around which to organize its release process. "
 "That process is described in detail in the next section."
 msgstr ""
+"Esta non é a única estratexia para facer ramas, por suposto. En algunhas "
+"circunstancias incluso pode non ser a mellor, pero está funcionando bastante "
+"ben para proxectos nos que estiven envolto. Emprega calquera estratexia que "
+"parece que funciona, pero recorda os puntos principais: o propósito das "
+"ramas é illar a versión para liberar dos cambios do desenvolvemento diario, "
+"e darlle ao proxecto unha entidade física coa que organizar os seus procesos "
+"de lanzamento de versións. Ese proceso é descrito con detalle na seguinte "
+"sección."
 
 #. Tag: title
 #: ch07.xml:555
@@ -1208,6 +1217,9 @@ msgid ""
 "branch into a releasable state; that is, of deciding which changes will be "
 "in the release, which will not, and shaping the branch content accordingly."
 msgstr ""
+"<firstterm>Estabilización</firstterm> é o proceso de poñer a rama da nova "
+"versión nun estado axeitado para sacala; isto é, decidir que cambios irán na "
+"versión, cales non, e darlle forma ao contido da rama."
 
 #. Tag: para
 #: ch07.xml:562
@@ -1224,6 +1236,16 @@ msgid ""
 "last minute, the more the code is destabilized, and (usually) the more new "
 "bugs are created."
 msgstr ""
+"Hai unha chea de dolor potencial contido nesa palabra, \"decidir\". As "
+"funcionalidades de último minuto son un fenómeno familiar en proxectos "
+"colaborativos de software: tan pronto como os desenvolvedores ven que unha "
+"versión está a punto de sacarse, codifican para rematar os seus cambios "
+"actuais, para non perder o barco. Isto, por suposto, é exactamente o oposto "
+"ao que ti queres nese momento. E moito mellor para a xente traballar nas "
+"funcionalidades do xeito máis confortable posible, e non preocuparse se os "
+"seus cambios van a ir nesta versión ou na seguiente. Cantos máis cambios de "
+"último minuto intentemos meter na versión, máis desestabilizado, e "
+"(xeralmente) máis erros serán introducidos."
 
 #. Tag: para
 #: ch07.xml:574
@@ -1243,6 +1265,21 @@ msgid ""
 "admitted into the release, then there will be plenty of people motivated to "
 "allow changes, and not enough people motivated to bar them."
 msgstr ""
+"A maioría dos enxeñeiros de software están dacordo en teoría con acordar os "
+"criterios sobre que cambios deberían ser permitidos dentro da liña da "
+"versión durante o periodo de estabilización. Obviamente, resolver erros "
+"graves deben ir, especialmente para erros con solucións parciais. "
+"Actualizacións de documentación pódense facer, se son para arranxar mensaxes "
+"de erro (excepto cando son consideradas parte da interfaz e deben permanecer "
+"estables). Moitos proxectos ademais permiten certos tipos de riscos baixos "
+"ou cambios que non sexan na parte central durante a estabilización, e poden "
+"ter pautas para minimizar o risco. Pero a cantidade de formalización non "
+"pode obviar a necesidade de xuizo humán. Sempre haberá casos donde o "
+"proxecto simplemente teña que tomar unha decisión sobre se un cambio debe ir "
+"na versión ou non. O perigo está en que cada persoa quere ver os seus "
+"cambios favoritos admitidos na versión, entón haberá milleiros de xente "
+"motivada para permitir cambios, e non suficiente xente motivada para "
+"excluilos."
 
 #. Tag: para
 #: ch07.xml:590
@@ -1260,12 +1297,22 @@ msgid ""
 "creative. Plenty of other arrangements are possible; these are just two that "
 "I've seen work in practice."
 msgstr ""
+"Por tanto, o proceso de estabilizar unha versión é máis sobre crear "
+"mecanismos para decir \"non\". O truco para os proxectos de software libre, "
+"en particular, é atopar formas de dicir \"non\" sen que o resultado sexan "
+"moitos sentimentos feridos o desenvolvedores decepcionados, e sen desmerecer "
+"cambios para a versión. Hay distintas formas de facer isto. É bastante "
+"sinxelo designar sistemas que satisfagan estes criterios, unha vez que o "
+"equipo está enfocado na importancia dos criterios. Aqui describirei "
+"brevemente dous dos máis populares sistemas, no extremo final do expectro, "
+"pero non permitas o desanimo no teu proxecto por ser creativo. Moitos outros "
+"arranxos son posibles; estes son só dous que eu vín na practica."
 
 #. Tag: title
 #: ch07.xml:605
 #, no-c-format
 msgid "Dictatorship by Release Owner"
-msgstr ""
+msgstr "Réxime ditactorial do mantenedor"
 
 #. Tag: para
 #: ch07.xml:607
@@ -1280,6 +1327,14 @@ msgid ""
 "the changes, and the social standing and people skills to navigate the "
 "discussions leading up to the release without causing too many hurt feelings."
 msgstr ""
+"O grupo está dacordo con permitir a unha persoa ser o <firstterm>propietario "
+"da versión</firstterm>. Esta persoa ten a derradeira palabra sobre os "
+"cambios que van na versión. Por suposto, é normal e esperado que haxa "
+"discusións, pero ao final o grupo debe garantizarlle ao propietario da "
+"versión suficiente autoridade para tomar as decisións finais. Para que este "
+"sistema funcione, é preciso elexir a alguén o suficientemente competente "
+"técnicamente para comprender tódolos cambios, e con habilidades sociais para "
+"navegar nas discusións e sacar a versión sen ferir demasiados sentimentos."
 
 #. Tag: para
 #: ch07.xml:617
@@ -1296,6 +1351,16 @@ msgid ""
 "as long as the release owner is able to consider all the arguments "
 "objectively and not reflexively dig in his heels."
 msgstr ""
+"Un patrón común para o propietario da versión é decir \"Non penso que haxa "
+"nada malo con este cambio, pero non temos suficiente tempo para probalo, así "
+"que non debería ir nesta versión\". Axuda moito se o propietario da versión "
+"ten un bo coñecemento técnico do proxecto, e pode dar razóns de porque o "
+"cambio podería ser potencialmente desestabilizante (por exemplo, as súas "
+"iteracións con outras partes do software, ou portabilidades). A xente pedirá "
+"algunhas veces que se xustifiquen as decisións, ou argumentará que un cambio "
+"non é tan arriscado como parece. Estas conversacións precisan non ser "
+"confrontacións, sempre e cando o propietario da versión poida considerar "
+"todos os argumentos obxectivamente e non ser intransixente."
 
 #. Tag: para
 #: ch07.xml:629
@@ -1311,6 +1376,15 @@ msgid ""
 "be wise to have someone provide a counterbalance to the project leader's "
 "judgement."
 msgstr ""
+"Nótese que o propietario da versión precisa non ser a mesma persoa que o "
+"lider do proxecto (en casos onde non hai lider do proxecto; ver <xref "
+"linkend=\"benevolent-dictator\"/><phrase output=\"printed\">en<xref linkend="
+"\"social-infrastructure\"/>). De feito, algunhas veces é bo asegurarse que "
+"eles </phrase>non<emphasis> son a mesma persoa. As habilidades que fan a un "
+"desenvolvedor lider non teñen porque ser necesariamente as mesmas que o fan "
+"o propietario da versión. Nalgo tan importante como o lanzamento dunha "
+"versión, pode ser prudente ter alguén que poña un contrapeso á opinión do "
+"lider."
 
 #. Tag: para
 #: ch07.xml:640
@@ -1320,12 +1394,15 @@ msgid ""
 "<xref linkend=\"release-manager\"/><phrase output=\"printed\"> later in this "
 "chapter</phrase>."
 msgstr ""
+"Contraste o rol do propietario da versión co de menos dictatorial descrito "
+"en <xref linkend=\"release-manager\"/><phrase output=\"printed\"> mais tarde "
+"neste capítulo</phrase>."
 
 #. Tag: title
 #: ch07.xml:649
 #, no-c-format
 msgid "Change Voting"
-msgstr ""
+msgstr "Cambio de voto"
 
 #. Tag: para
 #: ch07.xml:651
@@ -1351,6 +1428,26 @@ msgid ""
 "of people involved, the more the discussion becomes about the change and "
 "less about the individuals."
 msgstr ""
+"No extremo oposto da dictadura do propietario da versión, os desenvolvedores "
+"poden simplemente votar que cambios incluir na versión. Sen embargo, xa que "
+"a función máis importante da estabilización da versión é <emphasis>excluir</"
+"emphasis> cambios, é importante deseñar o sistema de votación de forma que "
+"poñer un cambio na versión implique accións positivas para moitos "
+"desenvolvedores. Incluir un cambio deberia precisar máis dunha simple "
+"maioría (ver <xref linkend=\"electorate\"/><phrase output=\"printed\"> en "
+"<xref linkend=\"social-infrastructure\"/></phrase>). De outro xeito, un voto "
+"a favor e ningún en contra para un cambio sería suficiente para poñer un "
+"cambio na versión, e unha desafortunada dinámica podería ser creada polo cal "
+"cada desenvolvedor votaría polos seus propios cambios, sen embargo serían "
+"reacios a votar en contra dos cambios de outros desenvolvedores por medo a "
+"posibles represalias. Para evitar isto, o sistema debería organizar que "
+"subgrupos de desenvolvedores deben actuar en cooperación para poñer calquera "
+"cambio na versión. Isto non so significa que moita xente revise cada cambio, "
+"ademáis fai que calquera desenvolvedor dubide menos para votar en contra dun "
+"cambio, porque non coñece particularmente ningún dos que votaron porque "
+"tomaría o se voto en contra coma unha afrenta persoal. Canto maior sexa o "
+"número de xente involucrada, máis se discutirá sobre os cambios e menos "
+"sobre os individuos."
 
 #. Tag: para
 #: ch07.xml:674
@@ -1391,7 +1488,7 @@ msgstr ""
 #: ch07.xml:703
 #, no-c-format
 msgid "Managing collaborative release stabilization"
-msgstr ""
+msgstr "Manexando a estabilización das versións de xeito colaborativo"
 
 #. Tag: para
 #: ch07.xml:705
@@ -1522,7 +1619,7 @@ msgstr ""
 #: ch07.xml:769
 #, no-c-format
 msgid "Release manager"
-msgstr ""
+msgstr "Manager das versións"
 
 #. Tag: para
 #: ch07.xml:771
@@ -1533,6 +1630,10 @@ msgid ""
 "There does not need to be one person whose job it is to merge changes; if "
 "there are a lot of changes, it can be better to spread the burden around."
 msgstr ""
+"O actual proceso de fusiónar (ver <xref linkend=\"vc-vocabulary-merge\"/>) "
+"os cambios aprovados na rama da versión poden ser realizadas por calquera "
+"desenvolvedor. Aqui non se precisa unha persoa para facer o traballo de "
+"fusionar os cambios; se hai moitos cambios, pode ser mellor repartir a carga."
 
 #. Tag: para
 #: ch07.xml:777
