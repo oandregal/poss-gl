@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: Producing OSS\n"
 "Report-Msgid-Bugs-To: producingoss@listas.ghandalf.org\n"
 "POT-Creation-Date: 2009-07-11 15:33+0000\n"
-"PO-Revision-Date: 2010-02-28 18:10+0100\n"
+"PO-Revision-Date: 2010-03-06 16:40+0100\n"
 "\n"
 "\n"
 "Last-Translator: Andrés Maneiro <andres.maneiro@gmail.com>\n"
@@ -2119,7 +2119,7 @@ msgstr ""
 #: ch08.xml:1023
 #, no-c-format
 msgid "Internationalization Versus Localization"
-msgstr ""
+msgstr "Internacionalización Versus Localización"
 
 #. Tag: para
 #: ch08.xml:1025
@@ -2133,6 +2133,12 @@ msgid ""
 "are not quite the same thing. As <ulink url=\"http://en.wikipedia.org/wiki/"
 "G11n\"></ulink> writes:"
 msgstr ""
+"<firstterm>Internacionalización</firstterm> (<firstterm>I18N</firstterm>) e "
+"<firstterm>localización</firstterm> (<firstterm>L10N</firstterm>) refírense "
+"ó proceso de adaptación dun programa a outros entorno lingüísticos e "
+"culturais diferentes do orixinal onde foi creado. Aínda que habitualmente o "
+"uso dos termos se intercambia, non se refiren ó mesmo. Como <ulink url="
+"\"http://en.wikipedia.org/wiki/G11n\"></ulink> describe:"
 
 #. Tag: para
 #: ch08.xml:1035
@@ -2143,6 +2149,10 @@ msgid ""
 "virtually everywhere, while localization is the addition of special features "
 "for use in a <emphasis>specific</emphasis> locale."
 msgstr ""
+"A distinción entre eles é sutil aínda que importante: a internacionalización "
+"é a adaptación de produtos para o seu <emphasis>potencial</emphasis> uso en "
+"todas partes, mentras a localización significa engadir funcionalidades "
+"<emphasis>específicas</emphasis> para o seu uso en determinados contornos."
 
 #. Tag: para
 #: ch08.xml:1042
@@ -2156,6 +2166,13 @@ msgid ""
 "detects that it is running in a Slovenian environment, is a localization "
 "move."
 msgstr ""
+"Por exemplo, o feito de cambiar o teu programa para que use Unicode (<ulink "
+"url=\"http://en.wikipedia.org/wiki/Unicode\"></ulink>) como formato de "
+"codificación de texto é un movemento de internacionalización, xa que non se "
+"refire a unha linguaxe particular senón a facilitar o procesamento de texto "
+"en múltiples linguaxes. Por outra banda, facer que o programa imprima "
+"tódalas mensaxes de erro en esloveno, cando se detecta que está sobre un "
+"entorno configurado para tal linguaxe, é un movemento de localización."
 
 #. Tag: para
 #: ch08.xml:1050
@@ -2164,12 +2181,14 @@ msgid ""
 "Thus, the translation manager's task is principally about localization, not "
 "internationalization."
 msgstr ""
+"Así, as tarefas do xestor de traducións refírense principalmente á "
+"localización, non á internacionalización."
 
 #. Tag: title
 #: ch08.xml:1058
 #, no-c-format
 msgid "Documentation Manager"
-msgstr ""
+msgstr "Xestor de documentación"
 
 #. Tag: para
 #: ch08.xml:1060
@@ -2183,6 +2202,13 @@ msgid ""
 "there are many more people competent to fix bugs in prose than in code: all "
 "users are readers, but only a few are programmers."
 msgstr ""
+"O mantemento da documentación é unha tarefa que nunca remata. Cada nova "
+"funcionalidade ou mellora introducida no código pode facer necesario un "
+"cambio na documentación. Ademáis, cando a documentación dun proxecto alcanza "
+"un certo nivel de completitude, verás que moitos dos parches que a xente "
+"envía son para a documentación, non para o código. Esto débese a que hai "
+"máis xente competente para resolver erros na prosa que no código: tódolos "
+"usuarios son lectores, pero só uns poucos son programadores."
 
 #. Tag: para
 #: ch08.xml:1069
@@ -2198,6 +2224,15 @@ msgid ""
 "many cases, patches will overlap with or affect other patches, and need to "
 "be adjusted with respect to each other before being committed."
 msgstr ""
+"Os parches de documentación son máis sinxelos de revisar e aplicar que os de "
+"código. Hai pouco que revisar ou testeat, e a calidade do cambio pode ser "
+"avaliada rápidamente mediante a revisión do texto. Xa que a cantidade é alta "
+"e a carga de revisión é baixa, o ratio de carga administrativa en relación ó "
+"traballo produtivo é maior para parches de documentación que para os de "
+"código. Por outro lado, a maioría dos parches probablemente precisarán algún "
+"axuste, de cara a manter unha voz única ó longo de toda a documentación. En "
+"moitos casos, os parches estarán solapados ou afectarán a outros parches, e "
+"precisarán ser axustados antes de ser commiteados."
 
 #. Tag: para
 #: ch08.xml:1080
@@ -2210,6 +2245,13 @@ msgid ""
 "documentation lags behind the software, and they can have practiced "
 "procedures for handling large quantities of patches in an integrated way."
 msgstr ""
+"Dadas as esixencias de xestión dos parches de documentación, e o feito de "
+"que o código precisa ser monitorizado constantemente para que a "
+"documentación esté actualizada, ten sentido que unha persoa ou un equipo se "
+"dedique á tarefa. Eles poden facer seguemento de onde e cómo a documentación "
+"vai retrasada respecto do código, ademáis de que poden ter desenvolvido "
+"procedementos eficientes para manexar grandes cantidades de parches dun modo "
+"integrado."
 
 #. Tag: para
 #: ch08.xml:1088
@@ -2231,12 +2273,27 @@ msgid ""
 "incoming documentation patches, and using all these information sources to "
 "do whatever is necessary to keep the documentation healthy."
 msgstr ""
+"Evidentemente, esto non impide que outras persoas poidan enviar e aplicar "
+"cambios na documentación, especialmente os pequenos. O mesmo xestor de "
+"parches (ver <xref linkend=\"patch-manager\"/><phrase output=\"printed\"> "
+"anteriormente neste mesmo capítulo</phrase>) pode facer seguemento tanto dos "
+"parches de código como dos de documentación, cubríndoos onde os equipos de "
+"desenvolvemento e documentación estén habituados a recibilos. (Si a "
+"cantidade de parches en total excede o que unha persoa pode seguir, dividir "
+"o traballo entre un xestor de parches de código e outro de documentación é "
+"probablemente un bo primeiro paso). A vantaxe de ter un equipo de "
+"documentación é ter persoas que teñan en mente a tarefa de manter a "
+"documentación organizada, actualizada e consistente. Na práctica, esto "
+"significa coñecer tódolos entresixos da documentación, revisar o código, ver "
+"tamén os cambios que <emphasis>outros</emphasis> fan sobre a documentación, "
+"revisar parches á documentación e usar toda esas fontes de información para "
+"facer o que sexa necesario para manter a documentación nun bo estado."
 
 #. Tag: title
 #: ch08.xml:1110
 #, no-c-format
 msgid "Issue Manager"
-msgstr ""
+msgstr "Xestor de incidencias"
 
 #. Tag: para
 #: ch08.xml:1112
@@ -2249,6 +2306,11 @@ msgid ""
 "issues will also increase, as will the frequency of incomplete or poorly "
 "described issues."
 msgstr ""
+"O número de incidencias no sistema de xestión de erros do proxecto crece "
+"proporcionalmente ó número de xente que usa o programa. Aínda que arranxes "
+"erros e distribúas unha aplicación cada vez máis robusta, deberías experar "
+"que o número de erros abertos creza. Tamén se incrementará a frecuencia de "
+"erros duplicados, así como a de aqueles incompletos ou pobremente descritos."
 
 #. Tag: para
 #: ch08.xml:1119
@@ -2266,6 +2328,17 @@ msgid ""
 "foreignphrase>. When the group tries to do it in a decentralized manner, no "
 "single individual acquires a deep expertise in the content of the database."
 msgstr ""
+"Os xestores de erros axudan a sobrelevar esos problemas mediante a revisión "
+"de todo o que se vai introducindo na base de datos, e de forma periódica "
+"buscando problemas específicos. A tarefa máis común probablemente sexa a de "
+"revisar tódolos erros novos e comprobar que non son duplicados de outros ou "
+"que os campos están correctamente cubertos. Obviamente, canto máis "
+"familiarizado esté esta persoa coa base de datos do proxecto, máis "
+"eficientemente será capaz de detectar duplicados &mdash; o que é unha das "
+"principais vantaxes de ter unha pouca xente especializada, en vez de ter a "
+"todo o mundo tratando de facelo <foreignphrase>ad hoc</foreignphrase>. Canto "
+"un grupo trata de facelo dun modo descentralizado, ninguén adquire un "
+"coñecemento profundo do contido da base de datos."
 
 #. Tag: para
 #: ch08.xml:1133
@@ -2281,6 +2354,14 @@ msgid ""
 "recipient's desires and temperament. Therefore, it is often best for issue "
 "managers to be developers themselves."
 msgstr ""
+"Os xestores de erros poden tamén axudar tamén a disminui-la fenda existente "
+"entre usuarios e desenvolvedores. Cando se notifican moitos erros, non "
+"tódolos desenvolvedores poden seguir con igual atención a rolda de correo. "
+"Porén, si alguén cercano ó equipo de desenvolvemento revisa tódolos erros "
+"entrantes, pode chamar a atención dun desenvolvedor sobre un problema "
+"concreto que a éste se lle pasou. Dende logo, isto ten que facerse coa "
+"sensibilidade adecuada. É unha boa práctica que os xestores de erros sexan á "
+"súa vez desenvolvedores."
 
 #. Tag: para
 #: ch08.xml:1144
@@ -2304,6 +2385,27 @@ msgid ""
 "who have an overall sense of what's in the database, and how various issues "
 "relate to each other."
 msgstr ""
+"En función de cómo o proxecto use o sistema de envío de erros, os "
+"coordinadores poden tamén darlle forma á base de datos para reflexar as "
+"prioridades actuais do proxecto. Por exemplo, no proxecto Subversion "
+"programabamos certas funcionalidades/correción de erros para certas versións "
+"futuras do proxecto. Seguindo esta política, cando alguén pregunta \"Cando "
+"será resolto este erro?\" podemos dicir \"dentro de 2 versións\", incluso se "
+"non é posible dar unha data exacta. As versións estaban representadas no "
+"sistema como milestones, un campo dispoñible na aplicación que nos usabamos "
+"IssueZilla.<footnote><para>IssueZilla é un sistema xestor de erros "
+"descendente de BugZilla</para></footnote> Como norma, cada nova versión de "
+"Subversion ten unha nova funcionalidade e un conxunto de erros resoltos. Nós "
+"asignamos o milestone adecuado a tódalas incidencias planeadas para esa "
+"versión (incluindo a nova funcionalidade &mdash; nós considerámola tamén "
+"como unha incidencia), así a xente pode navegar na base de datos a través "
+"das diferentes versións sabendo qué cambios incluirán. Porén, eses "
+"obxectivos raramente se manteñen estáticos. A medida que chegan novos erros, "
+"as prioridades teñen que ser repensadas e as incidencias deben ser re-"
+"planeads de un milestone a outro, de cara a que a nova versión sexa "
+"manexable. Este traballo, é mellor que o faga xente que teña unha visión "
+"global do que hai na base de datos e de cómo as diferentes incidencias se "
+"relacionan entre sí."
 
 #. Tag: para
 #: ch08.xml:1164
@@ -2324,12 +2426,26 @@ msgid ""
 "coordinator, spending less time looking at each issue herself and more time "
 "getting it into the right person's hands."
 msgstr ""
+"Outra das tarefas que leva a cabo un coordinador é ver cando unha incidencia "
+"é obsoleta. A veces, un erro é correxido accidentalmente como parte dun "
+"cambio no programa, ou a veces a xente implicada cambia de opinión sobre si "
+"un comportamento é erróneo. Atopar incidencias obsoletas non é sinxelo: o "
+"único modo de facelo é rastreando sistemáticamente a base de datos do "
+"proxecto. Rastreos completos son menos asequibles a medida que crece o "
+"número de incidencias. Chegado a certo punto, a única aproximación para "
+"manter unha lista de erros adecuada é usar a estratexia de divide-e-"
+"vencerás: categorizar as incidencias a medida que cheguen e dirixilas "
+"directamente ó desenvolvedor ou equipo adecuado. Esa persoa ou grupo de "
+"persoas faise cargo desa incidencia dende entón, estando obligado a "
+"resolvela ou redirixila cando necesario. Cando a base de datos é moi grande, "
+"o xestor de incidencias parécese máis a un coordinador, invertindo menos "
+"tempo revisando cada incidencia e máis en redirixila á persoa adecuada."
 
 #. Tag: title
 #: ch08.xml:1183
 #, no-c-format
 msgid "FAQ Manager"
-msgstr ""
+msgstr "Xestor da FAQ (Preguntas Frecuentes)"
 
 #. Tag: para
 #: ch08.xml:1185
@@ -2346,6 +2462,16 @@ msgid ""
 "interdependencies between items&mdash;links that should be made but "
 "aren't&mdash;because the related items were added a year apart."
 msgstr ""
+"Contra todo pronóstico, o mantemento da FAQ é un problema complexo. A "
+"diferencia da maioría dos documentos dun proxecto, cuxos contidos son "
+"planeados por adiantado polos propios autores, a FAQ é un documento reactivo "
+"(ver <xref linkend=\"starting-a-faq\"/>). Non importa cómo de grande sexa, é "
+"imposible coñecer cal será o seguinte engadido. E debido a que vai crecendo "
+"por pequenos cambios, é sinxelo que se convirta nun documento desorganizado "
+"e incoherente, incluso contendo duplicados ou semi-duplicados. Incluso cando "
+"non existan obvios problemas como eses, haberá interdependencias entre os "
+"temas &mdash; enlaces que deberían estar pero non están&mdash; debido a que "
+"os items relacionados foron engadidos un ano atrás."
 
 #. Tag: para
 #: ch08.xml:1197
@@ -2363,6 +2489,18 @@ msgid ""
 "to be an expert in every topic covered by the FAQ), and sense when the "
 "process is finished so the item can at last be added."
 msgstr ""
+"O rol do xestor da FAQ ten dúas caras. A primeira, consiste en manter a "
+"calidade global da FAQ e estar familiarizado con tódolos temas que hai en "
+"ela, para que cando a xente engada novos temas que son duplicados de, ou "
+"relacionados con outros, se poidan levar a cabo os axustes necesarios. A "
+"segunda, consiste en revisar a rolda de correo do proxecto e outros foros "
+"buscando preguntas recurrentes, escribindo novas entradas na FAQ baseadas "
+"nesta información. Esta última tarefa pode ser bastante complexa: un debe "
+"ser capaz de seguir un fío de correos, recoñecer as cuestións clave, enviar "
+"para debate unha entrada na FAQ que explique o anterior, incorporar os "
+"comentarios doutras persoas (xa que é imposible para o xestor da FAQ ser un "
+"experto en cada tema cuberto pola FAQ) e saber cando o proceso de debate "
+"finaliza para poder engadir o novo ítem á FAQ."
 
 #. Tag: para
 #: ch08.xml:1210
@@ -2375,6 +2513,12 @@ msgid ""
 "they will sometimes forget some of these details. That's okay, as long as "
 "the FAQ manager is there to clean up after them."
 msgstr ""
+"Esta persoa, habitualmente convértese no experto por defecto no formato da "
+"FAQ. Hai un montón de pequenos detalles ó redor de manter unha FAQ (ver "
+"<xref linkend=\"all-as-archives\"/><phrase output=\"printed\"> en <xref "
+"linkend=\"communications\"/></phrase>); cando xente aleatoria a edita, "
+"algunhas veces olvidarán certos detalles. Non hai problema por iso, sempre e "
+"cando o xestor da FAQ esté ahí para resolver o problema."
 
 #. Tag: para
 #: ch08.xml:1219
@@ -2399,6 +2543,24 @@ msgid ""
 "tools you need to to maintain your project's FAQ, but never let the "
 "convenience of the tools seduce you into compromising the quality of the FAQ."
 msgstr ""
+"Existen varias ferramentas de software libre para manter a FAQ. Paga a pena "
+"usalas sempre e cando non comprometa a calidade da FAQ nin supoña unha sobre-"
+"automatización. Algúns proxectos tratan de automatizar o proceso por "
+"completo, permitindo que todo o mundo contribúa e a edite dun modo similar a "
+"un wiki (ver <xref linkend=\"wikis\"/><phrase output=\"printed\"> en <xref "
+"linkend=\"technical-infrastructure\"/></phrase>). Particularmente, esto "
+"ocorre con Faq-O-Matic (<ulink url=\"http://faqomatic.sourceforge.net/\"></"
+"ulink>), aínda que é posible que os casos que teño visto foran simplemente "
+"abusos que foron máis alá das intencións orixinais para o que Faq-O-Matic "
+"fora pensado. En calquera caso, aínda que a descentralización da edición e "
+"mantemento da FAQ reduce a carga de traballo do proxecto, iso tamén produce "
+"unha FAQ de peor calidade. Non hai ninguén cunha visión completa do "
+"documento, ninguén para observar cando certos ítems son obsoletos, "
+"duplicados ou precisan actualización, non hai ninguén que se encargue de ver "
+"as interdependencias entre os ítems. Como resultado obtense un documento que "
+"non satisface as necesidades do usuario, e no peor caso, os confunde. Usa as "
+"ferramentas que consideres necesarias para mante-lo documento, pero nunca te "
+"deixes deslumbrar polas mesmas comprometendo a calidade da FAQ."
 
 #. Tag: para
 #: ch08.xml:1240
@@ -2408,6 +2570,10 @@ msgid ""
 "at <ulink url=\"http://osdir.com/Article1722.phtml\"></ulink>, for "
 "descriptions and evaluations of open source FAQ maintenance tools."
 msgstr ""
+"Bótalle un vistazo ó artigo de Michael Kerner <citetitle>A FAQ das FAQs</"
+"citetitle>, en <ulink url=\"http://osdir.com/Article1722.phtml\"></ulink>, "
+"para obter descripcións e avaliacións detalladas de ferramentas de "
+"mantemento de FAQs con software libre."
 
 #. Tag: title
 #: ch08.xml:1251
