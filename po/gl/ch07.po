@@ -1,12 +1,12 @@
 # Producing OSS - Translating project.
 # Pablo Sanxiao <psanxiao@gnome.org>, 2009, 2010.
-#, fuzzy
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Producing OSS\n"
 "Report-Msgid-Bugs-To: producingoss@listas.ghandalf.org\n"
 "POT-Creation-Date: 2009-07-11 15:33+0000\n"
-"PO-Revision-Date: 2010-02-28 18:27+0100\n"
+"PO-Revision-Date: 2010-06-06 18:40+0200\n"
 "Last-Translator: Pablo Sanxiao <psanxiao@gnome.org>\n"
 "Language-Team: Galician <produccingoss@listas.ghandalf.org>\n"
 "MIME-Version: 1.0\n"
@@ -18,7 +18,7 @@ msgstr ""
 #: ch07.xml:3
 #, no-c-format
 msgid "Packaging, Releasing, and Daily Development"
-msgstr "Empaquetado, Liberación e dia a dia no Desenvolvemento"
+msgstr "Empaquetado, Liberación e dia a dia no Desenvolvemento"
 
 #. Tag: para
 #: ch07.xml:7
@@ -1466,6 +1466,18 @@ msgid ""
 "strongly enough to veto the inclusion of a change, there's usually a good "
 "reason for it."
 msgstr ""
+"O sistema que empregamos no proxecto Subversion parece que acadou un bo "
+"balance, polo que o recomendarei aquí. Co fin de que un cambio sexa aplicado "
+"na rama da versión, polo menos tres desenvolvedores deben votar a favor, e "
+"ningún en contra. Un simple voto \"en contra\" é suficiente para deter a "
+"aplicación dun cambio; iso é, un voto \"en contra\" no contexto da versión "
+"equivale a un veto (ver<xref linkend=\"veto\"/>). Naturalmente, calquera "
+"voto debe ir acompañado dunha xustificación, e en teoría o veto podería ser "
+"invalidado se suficiente xente sinte que é razonable e forza un voto "
+"especial sobre iso. Na práctica, isto nunca sucede, e non espero que pase. A "
+"xente é conservativa acerca das versións de calquera modo, e cando alguén "
+"sinte fortemente a necesidade de vetar a inclusión dun cambio, normalente "
+"hai unha boa razón para iso."
 
 #. Tag: para
 #: ch07.xml:688
@@ -1483,6 +1495,18 @@ msgid ""
 "vetoes stood and the change was not included in the release (I don't "
 "remember if any bugs were found in later testing or not, though)."
 msgstr ""
+"Debido a que o proceso de sacar unha versión está deliberadamente baseado no "
+"conservativismo, as xustificación ofrecidas para os vetos son máis veces "
+"procedimentais que técnicas. Por exempo, unha persoa pode sentir que un "
+"cambio está ben escrito e é pouco probable que cause novos bugs, pero vota "
+"en contra da sua inclusión nunha micro versión porque é demasiado "
+"grande&mdash; quizais engade unha nova funcionalidade, ou de algunha forma "
+"sutil falla ao cubrir as liñas de compatibilidade. Ocasionalmente teño visto "
+"desenvolvedores vetar algo porque simplemente tiñan o presentimento de que o "
+"cambio necesitaba máis testeo, incluso cando eles non puideron atopar erros "
+"nel inspeccionandoo. A xente refunfuñou un pouco, pero os vetos resistiron e "
+"o cambio non foi incluido na versión (Non lembro se foi atopado algún erro "
+"máis tarde testeando ou non)."
 
 #. Tag: title
 #: ch07.xml:703
@@ -1506,6 +1530,17 @@ msgid ""
 "although the two often go together.) An entry in such a file might look like "
 "this:"
 msgstr ""
+"Se o teu proxecto elixe un sistema de voto sobre os cambios, é imperativo "
+"que o mecanismo físico de establecer votación e votos decisivos sexa o máis "
+"conveniente posible. A pesar de que hai moitos software open source para "
+"voto electrónico dispoñible, na practica o máis sinxelo e poñer un ficheiro "
+"de texto na rama da versión, chamado <filename>STATUS</filename> ou "
+"<filename>VOTES</filename> ou algo similar. Este ficheiro lista cada un dos "
+"cambios propostos&mdash;calquera desenvolvedor pode propoñer un cambio para "
+"a súa inclusión&mdash;xunto con todos os votos a favor e en contra, ademáis "
+"de notas ou comentarios. (Propoñer un cambio non implica necesariamente "
+"votar para iso, por certo, aínda que as dúas cousas soen ir xuntas). Unha "
+"entrada neste ficheiro ten a seguinte forma:"
 
 #. Tag: screen
 #: ch07.xml:718
@@ -1558,6 +1593,22 @@ msgid ""
 "should make one up. For voting to be practical, each change under "
 "consideration must be unambiguously identifiable."
 msgstr ""
+"Neste caso, o cambio adquiriu dous votos positivos, pero foi vetado por "
+"tmartin, quen deu a razón para o seu veto nunha nota entre paréntesis. O "
+"formato exacto da entrada non importa; sexa cal sexa o teu proxecto decidir "
+"está ben&mdash; quizais a explicación de tmartin para o veto debería ir na "
+"sección \"Notes:\" ou quizais a descripción do cambio debería ter unha "
+"cabeceira \"Description:\" dacordo coas outras seccións. O importante é que "
+"toda a información necesaria para evaluar o cambio está dispoñible, e o "
+"mecanismo para votos decisivos sexa o máis lixeiro posible. O cambio "
+"proposto está referenciado polo seu número de revisión no repositorio (neste "
+"caso unha simple revisión, r2401, aínda que un cambio proposto podería "
+"consistir en múltiples revisións). A revisión asúmese que está referida a un "
+"cambio feito no trunk; se o cambio estivese na rama da versión, non habería "
+"que votar. Se o teu sistema de control de versións non ten unha sintaxis "
+"obvia para referirse a cambios individuais, o proxecto debería inventala. "
+"Para que o voto sexa práctivo, cada cambio baixo consideración debe ser "
+"identificable inequívocamente."
 
 #. Tag: para
 #: ch07.xml:739
@@ -1570,6 +1621,11 @@ msgid ""
 "cleanly, or to a temporary branch that holds an adjusted version of the "
 "change, for example:"
 msgstr ""
+"Esas proposicións ou votos para un cambio son responsable para asegurarse de "
+"que é aplicado limpamente la rama da versión, iso é, aplicado sen conflictos "
+"(ver <xref linkend=\"vc-vocabulary-conflict\"/>). Se hai conflictos, entón a "
+"entrada debería apuntar a un parche que a aplique limpamente, ou a unha rama "
+"temporal que teña a axustada versión do cambio, por exemplo:"
 
 #. Tag: screen
 #: ch07.xml:746
@@ -1659,6 +1715,26 @@ msgid ""
 "logistics of creating the final release packages, collecting digital "
 "signatures, uploading the packages, and making the public announcement."
 msgstr ""
+"Nenbargantes, ainda que ámbolos dous, votación e merxeado sucedan de forma "
+"descentralizada, na práctica normalmente hai unha ou duas persoas conducindo "
+"o proceso de lanzamento da nova versión. Este rol e as veces bendecido coma "
+"<firstterm>release manager</firstterm>, pero é un pouco diferente do "
+"propietario da versión (ver <xref linkend=\"release-owner\"/><phrase output="
+"\"printed\"> antes neste capítulo</phrase>) quen ten a derradeira palabra "
+"sobre os cambios. Os releases manager manteñen monitorizado cantos cambios "
+"están baixo consideración, cantos foron aprobados, cantos parece que van ser "
+"aprobados, etc. Se eles sinten que algúns cambios non están recibindo a "
+"atención precisa, e poden quedar fora da versión por falta de votos, eles "
+"estarán encima de outros desenvolvedores para que voten. Cando un puñado de "
+"cambios son aprovados, esta xente encargarase por sí mesmo de merxealos na "
+"rama da versión; está ben se outros lles deixan esa tarefa a eles, sempre "
+"que todo o mundo entenda que eles non están obligados a facer todo o "
+"traballo a non ser que eles explicitamente se prestasen a facelo. Cando a "
+"versión está a piques de sair (ver <xref linkend=\"testing-and-releasing\"/"
+"><phrase output=\"printed\">máis adiante neste capitulo</phrase>), os "
+"releases manager preocuparánse tamén da loxística para a creación da "
+"versión, os paquetes, recolectar as firmas dixitais, subir os paquetes, e "
+"facer os anuncios públicos."
 
 #. Tag: title
 #: ch07.xml:809
@@ -1683,6 +1759,19 @@ msgid ""
 "\"The tree of source code files that, when compiled (if necessary) and "
 "installed, produces Scanley 2.5.0.\""
 msgstr ""
+"A forma tradicional para a distribución do Software Libre é como código "
+"fonte. Isto é verdade dependendo de se o software normalmente se executa "
+"dende o código (por exemplo, podendo ser intrepretado, coma Perl, Python, "
+"PHP, etc.) o precisa ser compilado primeiro (coma C, C++, Java, etc). Con "
+"software compilado, moitos usuarios probablemente non compilen as fontes "
+"eles mismos, polo que precisarán instalalos dende paquetes binarios (ver "
+"<xref linkend=\"binary-packages\"/><phrase output=\"printed\">máis adiante "
+"neste capitulo</phrase>). Sen embargo, eses paquetes binarios están todavía "
+"derivados das fontes da distribución. A cuestión é que as fontes son "
+"ambiguas para definir a versión. Cando o proxecto distribue "
+"Scanley&nbsp;2.5.0\", o que significa, específicamente, é \"A árbore de "
+"ficherios de código fonte, cando se compilen (se é necesario) e instalen, "
+"producen Scanley 2.5.0.\""
 
 #. Tag: para
 #: ch07.xml:825
@@ -1693,6 +1782,10 @@ msgid ""
 "exception, not the rule. Unless there is a compelling reason to do "
 "otherwise, your project should follow this standard too."
 msgstr ""
+"Hai un estándar bastante estricto sobre como deberian ser as versións das "
+"fontes. Ocasionalmente poden verse desviacións deste estándar, pero son a "
+"excepción, non a regra. A menos que haxa una razón xustificada para facelo "
+"de outra forma, o teu proxecto debería seguir este estándar tamén."
 
 #. Tag: title
 #: ch07.xml:833
@@ -1712,6 +1805,14 @@ msgid ""
 "<firstterm>zip</firstterm> format, which happens to do compression as well, "
 "so there is no need to compress the archive after creating it."
 msgstr ""
+"O código fonte debería entregarse en formatos estándar para distribuir a "
+"árbore de directorios. Para Unix e sistemas operativos de tipo Unix, a "
+"conveción é empregar o formato TAE, comprimido con <command>compress</"
+"command>, <command>gzip</command>, <command>bzip</command> ou "
+"<command>bzip2</command>. Para MS Windows, o método estándar para a "
+"distribución da árbore de directorios é o formato <firstterm>zip</"
+"firstterm>, o cal xa fai a compresión tamén, polo que non é necesario "
+"comprimir o ficheiro despois de crealo."
 
 #. Tag: title
 #: ch07.xml:846
@@ -1731,12 +1832,20 @@ msgid ""
 "some systems, the <command>tar</command> command can produce a compressed "
 "archive itself; on others, a separate compression program is used."
 msgstr ""
+"<firstterm>TAR</firstterm> abreviatura para \"Tape&nbsp;ARchive\", porque o "
+"formato tar representa unha árbore de directorios coma un chorro de datos "
+"lineais, o cal o fai ideal para gardar árbores de directorios en cinta. A "
+"mesma propiedade faino tamén o estandar para distribuir árbores de "
+"directorios nun ficheiro. Producir ficheiros tar comprimidos (ou "
+"<firstterm>tarballs</firstterm>) é bastante sinxelo. Nalgúns sistemas, o "
+"comando <command>tar</command> pode producir ficheiros comprimidos por si "
+"mesmo; noutros, hai que empregar outro programa para comprimir."
 
 #. Tag: title
 #: ch07.xml:864
-#, no-c-format
+#, fuzzy, no-c-format
 msgid "Name and Layout"
-msgstr ""
+msgstr "Nomeamento e Distribución"
 
 #. Tag: para
 #: ch07.xml:866
@@ -1747,6 +1856,10 @@ msgid ""
 "For example, Scanley 2.5.0, packaged for Unix using GNU Zip (gzip) "
 "compression, would look like this:"
 msgstr ""
+"O nome do paquete deberia consistir no nome do software mais o número da "
+"versión, mais o formato de sufixos apropiado para o tipo de ficheiro. Por "
+"exemplo, Scanley 2.5.0, empaquetado para Unix empregando GNU Zip (gzip) para "
+"comprimir, quedaría asi:"
 
 #. Tag: literallayout
 #: ch07.xml:872
@@ -1786,6 +1899,20 @@ msgid ""
 "<filename>COPYING</filename> or <filename>LICENSE</filename> file, giving "
 "the software's terms of distribution."
 msgstr ""
+"Algún destes ficheiros, cando son descomprimidos, deben crear unha nova "
+"árbore de directorios chamado <filename>scanley-2.5.0</filename> no "
+"directorio actual. Baixo o novo directorio, o código fonte debe estar "
+"preparado para a compilación (se ha compilación é necesaria) e instalación. "
+"Na raíz do novo directorio, deberia haber un ficheiro de texto plano "
+"<filename>README</filename> explicando o que fai o software e que versión é, "
+"e dar enlaces a outros recursos, como a páxina web do proxecto, outros "
+"ficheiros interesantes, etc. Entre esos outros ficheiros deberia haber un "
+"<filename>INSTALL</filename>, irmán do <filename>README</filename>, dando "
+"instruccións sobre como compilar e instalar o software para tódolos sistemas "
+"operativos soportados. Como se mencionaba <xref linkend=\"license-quickstart-"
+"applying\"/><phrase output=\"printed\"> en <xref linkend=\"getting-started\"/"
+"></phrase>, deberia haber tamén un ficheiro <filename>COPYING</filename>, "
+"dando os termos de distribución do software."
 
 #. Tag: para
 #: ch07.xml:899
@@ -1801,6 +1928,15 @@ msgid ""
 "person write it, getting information by combing the version control logs. "
 "The list looks something like this:"
 msgstr ""
+"Debe haber tamén un ficheiro <filename>CHANGES</filename> (as veces chamado "
+"<filename>NEWS</filename>), explicando cales son as novidades da versión. O "
+"ficheiro <filename>CHANGES</filename> acumula a lista de trocos para todas "
+"as versións, en orde cronolóxico inverso, para que a lista de cambios da "
+"versión apareza no principio do ficheiro. Completar esa lista é normalmente "
+"a derradeira cousa que hai que facer para estabilizara versión; algúns "
+"proxectos escriben a lista pouco a pouco segundo se vai desenvolvendo, "
+"outros prefiren facelo ao final e ter una persoa para escribilos, recollendo "
+"informacion combinando os logs do control de versións. A lista é algo así:"
 
 #. Tag: screen
 #: ch07.xml:910
@@ -1847,6 +1983,13 @@ msgid ""
 "<xref linkend=\"testing-and-releasing\"/><phrase output=\"printed\"> later "
 "in this chapter</phrase>), so write it with that audience in mind."
 msgstr ""
+"A lista pode ser tan longa coma sexa necesaria, pero non fai falta incluir "
+"cada pequeno erro resolto e funcionalidade. O seu propósito é simplemente "
+"darlle aos usuarios una visión sobre o que eles gañan actualizando a nova "
+"versión. De feito, a lista de cambios é incluida normalmente no mail de "
+"anuncio (ver <xref linkend=\"testing-and-releasing\"/><phrase output="
+"\"printed\"> máis adiante neste capitulo</phrase>), polo tanto escribea coa "
+"audiencia en mente."
 
 #. Tag: title
 #: ch07.xml:922
@@ -1865,6 +2008,12 @@ msgid ""
 "information: the date of the change, its author, and a brief summary (or "
 "just the log message for that change)."
 msgstr ""
+"Tradicionalmente, un ficheiro chamado <firstterm>ChangeLog</firstterm> que "
+"lista cada cambio feito no proxecto&mdash; isto é, cada revisión comiteada "
+"no sistema de control de versións. Hai varios formatos para os ficheiros "
+"ChangeLog; os detalles dos formatos non son importantes aqui, xa que todos "
+"eles conteñen a mesma información: a data do cambio, o autor, e un breve "
+"resumo (ou simplemente a mensaxe de log para ese cambio)."
 
 #. Tag: para
 #: ch07.xml:931
@@ -1879,6 +2028,14 @@ msgid ""
 "file retains change information for all releases, and thus has a lot of old "
 "news in addition to the new news at the top."
 msgstr ""
+"O ficheiro <filename>CHANGES</filename> é diferente. Tamén é unha lista de "
+"cambios, pero so os que son importantes para que certa audiencia os vexa, e "
+"a miudo con metadata como a hora exacta e o autor. Para evitar confusións, "
+"non empregue termos intercambiables. Algúns proxectos empregan \"NEWS\" en "
+"lugar de \"CHANGES\"; ainda que isto evita a potencial confución con "
+"\"ChangeLog\", é un termo un pouco errado xa que o ficheiro CHANGES ten "
+"información para todas as versións, e ten moitas noticias vellas ademáis das "
+"novas na cima."
 
 #. Tag: para
 #: ch07.xml:941
@@ -1893,6 +2050,14 @@ msgid ""
 "in fact, worse than pointless, since the ChangeLog would merely duplicate "
 "the log messages already stored in the repository."
 msgstr ""
+"O ficheiro ChangeLog pode estar desaparecendo de calquera maneira. Eran de "
+"moita axuda cando CVS era a única opción de sistema de control de versións, "
+"porque a data non era sinxela de extraer. Sen embargo, cos máis recentes "
+"sistemas de control de versións, a data que é empregada para manter no "
+"ChangeLog pode ser pedida dende o repositorio deo sistema de control de "
+"versións en calquera momento, facendo que sea sinxelo para o proxecto manter "
+"un ficheiro estático que conteña a data&mdash; de feito, o ChangeLog duplica "
+"as mensaxes de log que están no repositorio."
 
 #. Tag: para
 #: ch07.xml:952
@@ -1915,6 +2080,22 @@ msgid ""
 "update it, and afterward think that he still has the release when in fact he "
 "has something different."
 msgstr ""
+"A distribución do código fonte dentro da árbore debería ser a mesma, ou o "
+"máis similar posible a distribución do código fonte do proxecto chequeando "
+"directamente dende o sistema de control de versións. Normalmente hai "
+"algunhas diferencias, por exemplo porque o paquete contén algúns ficheiros "
+"xerados necesarios para a configuración e compilación (ver <xref linkend="
+"\"packaging-build-install\"/><phrase output=\"printed\"> máis adiante neste "
+"capitulo</phrase>, ou porque inclúe software de terceiros non mantido polo "
+"proxecto, pero requerido e que os usuarios probablemente non teñen. Pero "
+"incluso se a árbore de directorios coincide exáctamente con algunha árbore "
+"de desenvolvemento no repositorio do sistema de control de versións, a "
+"distribución non debería ser unha copia de traballo (ver <xref linkend=\"vc-"
+"vocabulary-working-copy\"/>). A versión supónse que representa unha "
+"referencia estática&mdash; en particular, unha configuración inmutable dos "
+"ficheiros fonte. Se fose unha copia de traballo, o perigo seria que un "
+"usario poida actualizala,pensando que todavia ten a versión cando de feito "
+"ten algo distinto."
 
 #. Tag: para
 #: ch07.xml:971
@@ -1925,6 +2106,10 @@ msgid ""
 "\"Scanley&nbsp;2.5.0\"&mdash;is the tree created by unpacking a zip file or "
 "tarball. So the project might offer all of these for download:"
 msgstr ""
+"Recordar que o paquete é o mesmo a pesar do empaquetado. A versión&mdash; "
+"iso é, a entidad precisa a que se remite cando algúen di \"Scanley&nbsp;2.5.0"
+"\"&mdash; é a árbore de directorio creada pola descompresión do ficheiro zip "
+"ou tarball. Polo tanto o proxecto debe ofrecer todo isto para descargar:"
 
 #. Tag: literallayout
 #: ch07.xml:978
@@ -1954,12 +2139,23 @@ msgid ""
 "The basic source files should be the same across all the packagings of a "
 "given release."
 msgstr ""
+"...pero a árbore de fontes creado polo desempaquetado debe ser o mesmo. Esa "
+"árbore de fontes é a distribución; a forma na cal é descargado é simplemente "
+"unha conveniencia. Certas triviais diferencias entre os paquetes fontes son "
+"permisibles: por exemplo, no paquete de Windows, os ficheiros de texto deben "
+"ter liñas finais con CRLF (Carriage Return and Line Feed), mentras que os "
+"paquetes Unix deben empregar simplemente LF. As árbores poden ser ordeados "
+"lixeiramente de forma diferente entre paquetes software destinados para "
+"diferentes sistemas operativos, tamen, se eses sistemas operativos requiren "
+"diferentes ordenacións para a compilación. Sen embargo, son transformación "
+"básicamente triviais. Os ficheiros fonte básicos deberían ser os memos en "
+"tódolos paquetes dunha distribución."
 
 #. Tag: title
 #: ch07.xml:995
 #, no-c-format
 msgid "To capitalize or not to capitalize"
-msgstr ""
+msgstr "Capitalizar ou non capitalizar"
 
 #. Tag: para
 #: ch07.xml:997
@@ -1977,12 +2173,22 @@ msgid ""
 "able to predict with perfect accuracy the name of the directory that will be "
 "created when she unpacks a distribution."
 msgstr ""
+"Cando nos referimos a un proxecto polo nome, a xente normalmente o "
+"capitaliza coma un nome propio, e capitalizar acrónimos se hai algún: "
+"\"MySQL&nbsp;5.0\", \"Scanley&nbsp;2.5.0\", etc. Se esta capitalización é "
+"reproducida no nome do paquete esta no proxecto. Tanto <filename>Scanley-"
+"2.5.0.tar.gz</filename> estaría ben, por exemplo (Eu persoalmente prefiro a "
+"última, porque non me gusta que a xente empregue a tecla shift, pero moitos "
+"proxectos capitalizan os paquetes). A cousa importante é que o directorio "
+"creado despois de desempaquetar o tarball usa a mesma capitalización. Non "
+"debería haber sorpresas: o usuario debe ser capaz de predecir perfectamente "
+"o nome do directorio que será creado cando desempaquete a distribución."
 
 #. Tag: title
 #: ch07.xml:1012
 #, no-c-format
 msgid "Pre-releases"
-msgstr ""
+msgstr "Pre-versións"
 
 #. Tag: para
 #: ch07.xml:1014
@@ -2021,6 +2227,9 @@ msgid ""
 "alpha1</filename>, the second into <filename>scanley-2.3.0-alpha2</"
 "filename>, and so on."
 msgstr ""
+"O primeiro que se desempaquetaria nun directorio chamado <filename>scanley-"
+"2.3.0-alpha1</filename>, o segundo dentro <filename>scanley-2.3-0-alpha2</"
+"filename>, e así."
 
 #. Tag: title
 #: ch07.xml:1035
@@ -2038,6 +2247,11 @@ msgid ""
 "compiled languages, the standard under Unix-like systems is for the user to "
 "type:"
 msgstr ""
+"Para software que require compilación ou instalación dende as fontes, hai "
+"normalmente varios procedementos estándar que usuarios experimentados "
+"esperan ser capaces de seguir. Por exemplo, para programas escritos en C, C+"
+"+, ou outros certos linguaxes compilados, o estandar baixo sistemas "
+"operativos tipo Unix é para o usuario teclear:"
 
 #. Tag: screen
 #: ch07.xml:1043
