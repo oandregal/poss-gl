@@ -1,14 +1,18 @@
 # Producing OSS - Translating project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# Jorge López Fernández <lopez.fernandez.jorge@gmail.com>, 2010.
+#
+# Roberto Vieito Raña <roberto.vieito@ghandalf.org>, 2010.
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Producing OSS\n"
 "Report-Msgid-Bugs-To: producingoss@listas.ghandalf.org\n"
 "POT-Creation-Date: 2009-07-11 15:33+0000\n"
-"PO-Revision-Date: 2010-03-08 01:38+0100\n"
-"Last-Translator: Jorge López Fernández <lopez.fernandez.jorge@gmail.com>\n"
+"PO-Revision-Date: 2010-05-29 22:28Romanc�^�4\n"
+"\n"
+"\n"
+"\n"
+"Last-Translator: Roberto Vieito Raña <roberto.vieito@ghandalf.org>\n"
 "Language-Team: Galego <producingoss@listas.ghandalf.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=8bit\n"
@@ -18,7 +22,7 @@ msgstr ""
 #: ch06.xml:3
 #, no-c-format
 msgid "Communications"
-msgstr ""
+msgstr "Comunicacións"
 
 #. Tag: para
 #: ch06.xml:7
@@ -32,6 +36,15 @@ msgid ""
 "skills can coordinate and persuade many people to do many different things, "
 "and thereby have a significant effect on a project's direction and momentum."
 msgstr ""
+"A habilidade de escribir dun xeito claro quizais sexa a capacidade máis "
+"importante que unha persoa poida ter nunha contorna de Software Libre. A "
+"largo prazo ten maior importancia que o talento programando. Un gran "
+"programador con habilidades comunicativas pobres só pode facer unha cousa "
+"á vez, e incluso poder ter problemas para convencer a outros para que lle "
+"presten atención. Pero un programador mediocre con boas capacidades "
+"comunicativas pode coordinar e persuadir a unha morea de xente para que faga "
+"distintas cousas, e dese xeito ter un efecto significativo na dirección do "
+"proxecto e no seu ímpetu."
 
 #. Tag: para
 #: ch06.xml:16
@@ -49,6 +62,17 @@ msgid ""
 "scale as the number of users increases, and taking the time to do something "
 "about it."
 msgstr ""
+"Non parece haber moita correlación, en ningunha dirección, entre a "
+"capacidade de escribir bo código e maila habilidade de comunicarte co resto "
+"dos teus compañeiros humanos. Si que hai correlación entre programar ben e "
+"describir tecnicamente ben as cousas, pero describir tecnicamente ben as "
+"cousas é unha parte anana das comunicacións nun proxecto. Moito máis "
+"importante é a capacidade de empatizar coa audiencia, de ver os correos e "
+"comentarios propios como os vería outra persoa, e facer que os demais vexan "
+"os seus propios correos cunha obxectividade similar. Igualmente importante "
+"é notificar cando un método de comunicacións non está funcionando ben, "
+"quizais porque non escale ben co incremento do número de usuarios, e "
+"tomarte o tempo preciso para facer algo ao respecto."
 
 #. Tag: para
 #: ch06.xml:29
@@ -1373,7 +1397,7 @@ msgstr ""
 #: ch06.xml:940
 #, no-c-format
 msgid "Difficult People"
-msgstr "Xente problemática"
+msgstr ""
 
 #. Tag: para
 #: ch06.xml:942
@@ -1387,7 +1411,7 @@ msgid ""
 "they continue being rude, they will usually make themselves so unpopular as "
 "to have no influence on others in the project, so they are a self-containing "
 "problem."
-msgstr "Os foros electrónicos non fan máis fácil tratar coa xente problemática ca en persoa. Por xente \"problemática\" non me refiro a \"groseira\". As persoas groseiras son molestas, pero non necesariamente problemáticas. Neste libro xa discutimos como tratar con elas: comentar as súas saídas de tono a primeira vez, e a partir de entón, ou ben ignoralos ou tratalos como a calquera outra persoa. Se continúan sendo maleducados, co tempo serán tan impopulares que non terán influencia algunha nos demáis membros do proxecto, polo que realmente rematarán sendo un problema con auto-contención."
+msgstr ""
 
 #. Tag: para
 #: ch06.xml:951
@@ -1412,13 +1436,13 @@ msgid ""
 "to delay even the summary, by relentlessly complicating the question of what "
 "should be in it, either by objecting to reasonable suggestions or by "
 "introducing unexpected new items."
-msgstr "Os casos realmente problemáticos son os de xente que non é abertamente groseira, pero que manipula ou abusa dos procedementos do proxecto de modo que lle custa a outra xente tempo e esforzo, sen proporcionar beneficio algún ao proxecto. Estas persoas habitualmente buscan físgoas nos procedementos do proxecto para ter máis influencia da que normalmente terían. Isto é claramente máis insidioso que simplemente groseiro, porque nin o comportamente nin o dano causado son aparentes para observadores casuais. Un exemplo clásico é o filibusteiro, no cal alguén (sempre nun suposto razoable, claro está) mantén que un tema baixo discusión non se pode dar por pechado, e ofrece máis e máis posibles solucións, ou novos puntos de vista en solucións antigas, mentres que o que realmente persegue e que non se chegue a un consenso ou votación que non lle beneficia. Outro exemplo é cando hai un debate que non chegará a un consenso, pero o grupo tenta polo menos aclarar os puntos de desacordo e crear un sumario para que calqueira poda consultar dende entón. O obstrucionista, que sabe que o sumario levará a un resultado que non desexa, tentará habitualmente de retrasar a súa creación, complicando continuamente a cuestión sobre que debería conter, ben obxectando de maneira razoable ou introducindo elementos novos inesperados."
+msgstr ""
 
 #. Tag: title
 #: ch06.xml:974
 #, no-c-format
 msgid "Handling Difficult People"
-msgstr "Tratando con xente problemática"
+msgstr ""
 
 #. Tag: para
 #: ch06.xml:976
@@ -1437,7 +1461,7 @@ msgid ""
 "the project's procedures, in order to <emphasis>make</emphasis> everyone "
 "else take him seriously. In extreme cases, the person can even believe that "
 "he is fighting a lonely battle to save the project from itself."
-msgstr "Para contrarrestar devandito comportamento, axuda coñece-la mentalidade de aqueles que o presentan. A xente normalmente non o fai de maneira consciente. Ninguén se esperta unha mañá dicindo \"Hoxe vou manipular de maneira cínica os procedementos formais para converterme nun obstrucionista irritante\". No seu lugar, ditas accións son habitualmente precedidas por un sentimento semi-paranoide de estar sendo vetado de interacións no grupo e toma de decisións. A persoa sente que non se lle está tomando en serio, ou (en casos máis serios) de que existe unha conspiración na súa contra&mdash;que outros membros do proxecto decidiron formar un clube exclusivo, do cal non é membro. Entón isto xustifica, na súa mente, o feito de tomar as regras ao pé da letra e involucrarse nunha manipulación formal dos procedementos do proxecto, para poder <emphasis>facer</emphasis> que todos o tomen en serio. En casos extremos, a persoa pode chegar a pensar que está loitando unha batalla para salva-lo proxecto de si mesmo."
+msgstr ""
 
 #. Tag: para
 #: ch06.xml:992
@@ -1449,7 +1473,7 @@ msgid ""
 "bit of work. It's not enough to persuade yourself that it's happening; you "
 "have to marshal enough evidence to persuade others too, and then you have to "
 "distribute that evidence in a thoughtful way."
-msgstr "Na natureza de ditos ataques ocorre que non todos se percatan del ao mesmo tempo, e algunha xente pode que non o vexa se non se lle presenta con probas moi claras. Isto significa que neutralizalo pode supor bastante traballo. Non é suficiente convencerte do que está ocurrindo; hai que reunir suficientes evidencias para convencer aos demáis, e entón distribuilas de maneira intelixente."
+msgstr ""
 
 #. Tag: para
 #: ch06.xml:1000
@@ -1468,7 +1492,7 @@ msgid ""
 "unfiltered feedback about how others see the troublemaker's behavior; once "
 "you start openly talking about it, opinion will become polarized and no one "
 "will be able to remember what he formerly thought about the matter."
-msgstr "Sabendo que combatilos é tan complicado, moitas veces é mellor toleralos durante un tempo. Pensa nela coma nunha enfermedade parasitaria pero leve; se non debilita demasiado, o proxecto pode permitirse permanecer infectado, e a medicina podería ter efectos secundarios perxudiciais. Por outro lado, se se torna nalgo demasiado danino, entón hai que pasar á acción. Comeza anotando os patróns que observas. Asegúrate de incluir referencias aos arquivos públicos&mdash;esta é unha das razóns polas que o proxecto mantén rexistros, polo que fas ben en empregalos. Unha vez que tes un bo caso construido, comeza a ter conversacións privadas con outros participantes do proxecto. Non lles digas o que observaches; en lugar diso, pregunta primeiro que observaron eles. Esta pode ser a última oportunidade de obter información sen filtrar  sobre como ven outros o comportamento do membro problemático; unha vez que comezas a falar delo abertamente, a opinión estará polarizada e ninguén poderá recordar con exactitude o que pensaba antes sobre o tema."
+msgstr ""
 
 #. Tag: para
 #: ch06.xml:1016
@@ -1487,7 +1511,7 @@ msgid ""
 "relationship with them, it may be advantageous to gather allies privately "
 "first. Or it may not; that might just create ill will behind the scenes, if "
 "people think you're engaging in an improper whispering campaign."
-msgstr "Se as conversas privadas indican que polo menos algúns dos demáis membros observaron tamén o problema, entón é hora de facer algo. Entón é cando hai que ter <emphasis>verdadeiro</emphasis> coidado, porque é moi sinxelo para este tipo de persoas facer que pareza que os estás tratando de maneira inxusta. Fagas o que fagas, nunca os acuses de abusar maliciosamente dos procedementos do proxecto, ou de ser paranoicos, ou, en xeral, de calqueira cousa que sospeites que é verdade. A túa estratexia debería ser semellar razoable e preocupado polo ben do proxecto, co obxectivo de cambia-lo comportamento da persoa, ou facer que marchen definitivamente. Segundo os demáis desenvolvedores, e a túa relación con eles, pode ser ventaxoso lograr aliados de maneira privada ao comezo. Ou quizáis non; isto podería crear malestar detrás do escenario se a xente pensa que os estás metendo nunha campaña de rexoubas impropia."
+msgstr ""
 
 #. Tag: para
 #: ch06.xml:1032
@@ -1499,13 +1523,13 @@ msgid ""
 "have plenty of examples to demonstrate what you're saying, and say it as "
 "gently as possible while still being direct. You may not persuade the person "
 "in question, but that's okay as long as you persuade everyone else."
-msgstr "Recorda que aínda que a outra persoa sexa a que ten un comportamento destructivo es <emphasis>ti</emphasis> o que parecerá destructivo se fas de maneira pública unha acusación que non podes soster. Asegúrate de ter multitude de exemplos para demostrar o que dis, e fala do modo máis xentil posible, sen deixar de ser directo. Pode que non convenzas á persoa en cuestión, pero iso non supón un gran problema mentres convenzas aos demáis."
+msgstr ""
 
 #. Tag: title
 #: ch06.xml:1043
 #, no-c-format
 msgid "Case study"
-msgstr "Caso de estudo"
+msgstr ""
 
 #. Tag: para
 #: ch06.xml:1045
@@ -1520,7 +1544,7 @@ msgid ""
 "to be a noise problem for the community. We'd already tried asking him "
 "nicely to do a little more research for answers before posting, but that had "
 "no effect."
-msgstr "Só recordo un caso, en máis de 10 anos de traballo con software libre, no que as cousas estaban tan mal que tivemos que pedirlle a alguén que parara totalmente de postear. Como adoita ocorrer, non era maleducado, e a verdade é que simplemente quería axudar. O que pasaba era que non sabía cando postear e cando non. As nosas listas estaban abertas públicamente, e posteaba con tanta frecuencia, preguntando sobre temas moi diferentes, que comezaba a ser unha amoladura para a comunidade. Comentámoslle que investigara un pouco máis esas respostas antes de postear, pero non serviu de nada."
+msgstr ""
 
 #. Tag: para
 #: ch06.xml:1055
@@ -1533,7 +1557,7 @@ msgid ""
 "as \"J. Random\") had very little history with the project, and had "
 "contributed no code or documentation. Yet he was the third most active "
 "poster on the mailing lists:"
-msgstr "A estratexia que finalmente funcionou é un exemplo perfecto sobre como elaborar un caso sobre datos cuantitativos e neutrais. Un dos nosos desenvolvedores rebuscou nos arquivos e enviou o seguinte mensaxe privado a uns pocos desenvolvedores. A persoa problemática (o terceiro nome na lista inferior, indicado aquí como \"X. Aleatorio\") levaba pouco tempo no proxecto, e non tiña contribuido nin con código nin con documentación. A pesar diso, era o terceiro membro máis activo nas listas de correo:"
+msgstr ""
 
 #. Tag: screen
 #: ch06.xml:1064
@@ -1574,39 +1598,6 @@ msgid ""
 "-Fitz, attempting to wade through three days of svn mail that he let\n"
 " pile up"
 msgstr ""
-"De: \"Brian W. Fitzpatrick\" &lt;fitz@collab.net&gt;\n"
-"A: [... lista de receptores omitida por anonimato ...]\n"
-"Asunto: O sumidoiro de enerxía de subversion\n"
-"Data: Mércores, 12 Nov 2003 23:37:47 -0600\n"
-"\n"
-"Nos últimos 25 días, os 6 membros máis activos na lista svn [dev|users]\n"
-"foron:\n"
-"\n"
-"    294  kfogel@collab.net\n"
-"    236  \"C. Michael Pilato\" &lt;cmpilato@collab.net&gt;\n"
-"    220  \"X. Aleatorio\" &lt;xaleatorio@posteador-problematico.com&gt;\n"
-"    176  Branko &Ccaron;ibej &lt;brane@xbc.nu&gt;\n"
-"    130  Philip Martin &lt;philip@codematters.co.uk&gt;\n"
-"    126  Ben Collins-Sussman &lt;sussman@collab.net&gt;\n"
-"\n"
-"Eu diría que 5 desas persoas están contribuindo a que saía Subversion\n"
-"1.0 nun futuro próximo.\n"
-"\n"
-"Tamén diría que unha desas persoas está constantemente roubando tempo\n"
-"e enerxía dos outros 5, sen mencionar toda a lista, e polo tanto\n"
-"(aínda que de maneira non intencionada) freando o desenvolvemento de Subversion.\n"
-"Non fixen un análisis dos fíos, pero un vgrep da mila bandexa de correo de Subversion mostra\n"
-"que tódolos correos desta persoa foron respondidos polo menos una vez por\n"
-"polo menos dúas das cinco persoas citadas enriba.\n"
-"\n"
-"Penso que algún tipo de intervención radical é necesaria neste caso, incluso se escorrentamos\n"
-"á mentada persoa fora do proxecto. A amabilidadee as suxerencias xa mostraron\n"
-"que non teñen efecto.\n"
-"\n"
-"dev@subversion é unha lista de correo para facilitar o desenvolvemento dun sistema de\n"
-"control de versións, non para facer sesións de terapia de grupo.\n"
-"\n"
-"-Fitz, tentando ler tres días de correo de svn amontoado"
 
 #. Tag: para
 #: ch06.xml:1066
@@ -1621,7 +1612,7 @@ msgid ""
 "would not exercise, such judgement. There was no rule one could point to and "
 "say the fellow was violating it, yet everyone knew that his frequent posting "
 "was getting to be a serious problem."
-msgstr "Pode que non o pareza ao principio, pero o comportamento de X. Aleatorio era un caso clásico de abuso dos procedementos dun proxecto. Non facía cousas evidentes como tentar obstruir unha votación, pero estaba sacando proveito das políticas das listas de correo de ser moderadas polos seus propios membros. Deixamos a xuízo de cada un o momento de postear e sobre que temas. Ademáis, non tiñamos procedementos para tratar con alguén que non tivera ou non fixera uso dese xuízo. Non había regras que alguén puidera sinalar que dicir que outro as estaba violando, aínda que todos sabiamos que os seus mensaxes frecuentes comezaban a ser un problema serio."
+msgstr ""
 
 #. Tag: para
 #: ch06.xml:1077
@@ -1642,13 +1633,13 @@ msgid ""
 "linkend=\"technical-infrastructure\"/></phrase>). But the reason we were "
 "able to have that option in reserve was that Fitz had gathered the necessary "
 "support from key people first."
-msgstr "Retrospectivamente, a estratexía de Fitz foi autoritaria. Recopilou claras evidencias cuantitativas, pero decidiu distribuilas de maneira discreta, mandándoas primeiro a aquelas persoas cuxo apoio sería clave nunha medida drástica. Aceptaron tomar ese tipo de decisión se era necesario, e ao final chamamos a X. Aleatorio ao teléfono, describímoslle o problema directamente e pedímoslle que simplemente cesara de postear. Realmente nunca comprendeu os motivos; se fora capaz de comprendelo, probablemente tivera feito uso dun xuízo apropiado en primeiro lugar. Pero aceptou parar de postear, e as listas de correo volveron a poderse usar de novo. Parte do éxito desta estratexia foi, quizáis, a ameaza implícita de restrinxir os seus mensaxes mediante o software de moderación normalmente empregado para previr o spam (ver <xref linkend=\"spam-prevention\"/><phrase output=\"printed\"> en <xref linkend=\"technical-infrastructure\"/></phrase>). Pero o motivo de que tivéramos dita opción de reserva foi que Fitz conseguiu xa ao principio o apoio necesario de xente clave no proxecto."
+msgstr ""
 
 #. Tag: title
 #: ch06.xml:1101
 #, no-c-format
 msgid "Handling Growth"
-msgstr ""
+msgstr "Xestionando o Crecemento"
 
 #. Tag: para
 #: ch06.xml:1103
@@ -1667,6 +1658,20 @@ msgid ""
 "while others watch and (presumably) absorb knowledge from observing these "
 "exchanges."
 msgstr ""
+"O prezo do éxito é forte no mundo do Software Libre. A medida que o teu "
+"software se fai máis popular, o número de persoas que xorden buscando "
+"información sobre o mesmo medra dramaticamente, mentres que o número de "
+"persoas capacitadas para fornecer esa información aumenta moi máis "
+"lentamente. Máis aínda, incluso se o ratio estivera balanceado, seguiría "
+"habendo un problema fundamental de escalabilidade no xeito no que os "
+"proxectos de software libre xestionan as comunicacións. Considera as rolda "
+"de correo, por exemplo. A maioría dos proxectos teñen unha rolda de correo "
+"para cuestións xerais dos usuarios&mdash;ás veces nomeada \"users\","
+"\"discuss\",\"help\" ou algo así. Calquera que sexa o seu nome, o "
+"propósito da lista sempre é o mesmo: fornecer un lugar onde a xente poida "
+"ver resoltas as súas preguntas, mentres outros miran e (presumiblemente) "
+"absorben coñecemento mediante a observación destes intercambios de "
+"información."
 
 #. Tag: para
 #: ch06.xml:1117
@@ -1688,6 +1693,23 @@ msgid ""
 "of massively parallelized support simply does not scale to the levels needed "
 "for world domination."
 msgstr ""
+"Estas roldas de correo funcionan moi ben ata un poucos centos de usuarios e/"
+"ou un par de centos de mensaxes ao día. Pero a partires destes límites, o "
+"sistema comeza a fracturarse, dado que cada subscritor ve cada mensaxe; se o "
+"número de mensaxes á rolda comeza a exceder o límite que cada lector "
+"individual pode procesar nun día, a rolda convértese nun peso morto para "
+"os seus membros. Imaxina, por exemplo, se Microsoft tivera unha lista deste "
+"xeito para Windows XP. Windows XP ten centos de millóns de usuarios; "
+"incluso se o un por cento deles tivera preguntas dun período dado de 24 "
+"horas, entón esta hipotética lista tería centos de miles de mensaxes cada "
+"día! Unha lista deste estilo nunca podería existir, por suposto, dado que "
+"ninguén estaría subscrito á mesma. Este problema non se limita ás roldas "
+"de correo; a mesma lóxica exacta aplica ás canles IRC, os foros de "
+"discusión en liña, e por derivación a calquera sistema no cal un grupo "
+"escoite preguntas provintes de persoas individuais. As implicacións son "
+"fastidiadas: o modelo Software Libre habitual baseado en soporte masivamente "
+"paralelizado simplemente non escala para os niveles precisos para a "
+"dominación mundial (ou cando menos da Terra Media, ou da Illa de Perdidos)."
 
 #. Tag: para
 #: ch06.xml:1135
@@ -1711,6 +1733,26 @@ msgid ""
 "mechanisms to cope with project growth therefore involves two related "
 "strategies:"
 msgstr ""
+"Obviamente non vai haber ningunha explosión cando os foros alcancen o punto "
+"de fractura. Simplemente vai haber un silencioso efecto de "
+"retroalimentación negativa: xente que abandona as roldas de correo, ou "
+"deixa as canles IRC, ou co ritmo que sexa deixaran de preocuparse en facer "
+"preguntas dado que verán que non van ser escoitados no medio de todo ese "
+"barullo. A medida que máis e máis xente tome esta altamente racional "
+"decisión, vai parecer que a actividade do foro retorna a un nivel "
+"manexable. Pero será manexable precisamente porque a xente racional (ou "
+"cando menos experimentada) ten comezado a buscar información en calquera "
+"outro lugar&mdash;mentres que a xente sen experiencia segue aí e continúa "
+"enviando mensaxes. En outras palabras, un efecto colateral de continuar "
+"empregando modelos de comunicacións non escalables cando o proxecto medra "
+"é que a calidade media tanto das preguntas como das respostas tende a "
+"reducirse, o que provoca que pareza que os novos usuarios son máis tontos "
+"do que eran antes, cando de feito probablemente non o sexan. Trátase "
+"simplemente de que o ratio beneficio/custe de empregar estes foros tan "
+"superpoboados diminúe, polo que naturalmente os usuarios experimentados "
+"comezarán a buscar respostas en primeira instancia noutros sitios. Axustar "
+"os mecanismos de comunicación para asimilar o crecemento do proxecto "
+"involucra dúas estratexias relacionadas:"
 
 #. Tag: para
 #: ch06.xml:1155
@@ -1721,6 +1763,10 @@ msgid ""
 "those parts off into new, more specialized forums (i.e., don't let the good "
 "be dragged down by the bad)."
 msgstr ""
+"Recoñecer cando partes concretas dun foro <emphasis>non</emphasis> están a "
+"sufrir dun crecemento excesivo, aínda cando o foro en conxunto si que o "
+"está a sufrir; e separar estas partes en novos e especializados foros (por "
+"exemplo, non deixes que paguen xustos por pecadores)."
 
 #. Tag: para
 #: ch06.xml:1161
@@ -1729,6 +1775,8 @@ msgid ""
 "Making sure there are many automated sources of information available, and "
 "that they are kept organized, up-to-date, and easy to find."
 msgstr ""
+"Asegurar que están accesibles varias fontes automatizadas de información, "
+"e que as mesmas están organizadas, actualizadas e facilmente atopables."
 
 #. Tag: para
 #: ch06.xml:1167
@@ -1748,6 +1796,23 @@ msgid ""
 "without causing any harmful balkanization, because the threads rarely cross "
 "topic boundaries."
 msgstr ""
+"A estratexia (1) non adoita ser demasiado dura. Moitos proxectos arrincan "
+"con un foro principal: unha rolda de correo xeral de discusión, na cal "
+"tanto funcionalidades, como ideas, cuestións de desenvolvemento, problemas "
+"de implementación, etc poden ser todos eles discutidos. Todo o mundo "
+"involucrado no proxecto está na rolda. Despois dun tempo, adoita amosarse "
+"con claridade que a lista precisa evolucionar en varias sublistas, "
+"relacionadas cada unha delas con un tópico específico. Por exemplo, algú"
+"ns fíos atinxen claramente ao desenvolvemento e ao deseño; outros son de "
+"preguntas de usuarios do estilo \"Como fago X?\"; ás veces tamén existe "
+"unha terceira familia típica de fíos centrada no procesamento de "
+"notificacións de erros e peticións de melloras; e así. Un individuo "
+"concreto, como non pode ser doutro xeito, pode participar en fíos de moi "
+"diferente natureza, pero a importancia atópase en que non adoita haber "
+"moito solapamento entre os distintos tipos. Debido ao anterior, pode facerse "
+"unha división en diferentes roldas de correo sen iniciar perniciosos "
+"ataques de orcos, dado que os fíos en moi raras ocasións transgreden as "
+"fronteiras do tópico no que se encadran."
 
 #. Tag: para
 #: ch06.xml:1182
@@ -1765,6 +1830,18 @@ msgid ""
 "bonus, the recipient may learn something about looking for guidelines before "
 "posting."
 msgstr ""
+"Realmente, a execución desta división é un proceso de dous pasos. Por un "
+"lado crear a nova rolda de correo (ou canle de IRC, ou o que sexa), e por "
+"outro lado invistes o tempo que sexa necesario para dun xeito educado ir "
+"instando á xente a <emphasis>empregar</emphasis> os novos foros dun xeito "
+"apropiado. O segundo paso pode levar semanas, pero normalmente a xente acaba "
+"captando a idea. Simplemente tes que facer ver, cando unha persoa envíe "
+"unha mensaxe a un destino equivocado, cal é o destino correcto, e facelo "
+"dun xeito visible e animando á xente a que axude neste proceso didáctico. "
+"Tamén adoita ser útil contar con unha páxina web na que se forneza unha "
+"guía para todas as listas dispoñibles; deste xeito as túas respostas "
+"poden, simplemente, referenciar a esa páxina web e, como regalo, o receptor "
+"tamén vai aprender que debe buscar nas guías antes de preguntar."
 
 #. Tag: para
 #: ch06.xml:1195
@@ -1777,12 +1854,21 @@ msgid ""
 "sure to point people there. But it is also much more than that; the sections "
 "that follow discuss this strategy in detail."
 msgstr ""
+"A estratexia (2) é un proceso en curso, permanecendo en proceso durante "
+"toda a vida do proxecto e involucrando a moitos participantes. Por suposto, "
+"trátase en parte da recorrente cuestión de manter documentación "
+"actualizada (bótalle unha ollada a <xref linkend=\"documentation\"/><phrase "
+"output=\"printed\"> in <xref linkend=\"getting-started\"/></phrase>), pero "
+"tamén se trata se asegurarte de dirixir a xente cara onde esta se atopa, e "
+"en última instancia é moito máis que todo o anterior, tal como se vai "
+"discutir e amosar nas sección que seguen, nas cales se vai ver esta "
+"estratexia en detalle."
 
 #. Tag: title
 #: ch06.xml:1205
 #, no-c-format
 msgid "Conspicuous Use of Archives"
-msgstr ""
+msgstr "Uso manifesto dos Arquivos"
 
 #. Tag: para
 #: ch06.xml:1207
@@ -1793,6 +1879,11 @@ msgid ""
 "have referential stability: that is, once a given piece of information is "
 "recorded at a particular address, it stays at that address forever."
 msgstr ""
+"Tipicamente, todas as comunicacións nun proxecto de software libre "
+"(excepto, ás veces, as conversas por IRC) son arquivadas. Os arquivos son "
+"públicos e consultables, e teñen estabilidade referencial: isto é, unha "
+"vez que unha peza de información é gravada nun enderezo particular, "
+"permanece nese enderezo para sempre."
 
 #. Tag: para
 #: ch06.xml:1213
@@ -1812,6 +1903,21 @@ msgid ""
 "quality of search results in general, because they strengthen the targeted "
 "resource's ranking in Internet search engines."
 msgstr ""
+"Emprega estes arquivos tanto como poidas, e dun xeito tan manifesto como che "
+"sexa posible. Aínda cando saibas a resposta a unha cuestión, se pensas que "
+"existe unha referencia nos arquivos que conteña a resposta, gasta o tempo "
+"preciso para buscala e emprégaa. Cada vez que fas isto dun xeito "
+"publicamente visible, algunha xente vai aprender para que valen estes "
+"arquivos e vaise dar conta de que están aí á súa disposición, e que "
+"buscar as cousas neles pódelles aportar respostas. Así mesmo referenciar "
+"aos arquivos, en lugar de reescribir unha resposta dada con anterioridade, "
+"reforza a norma social de evitar a duplicación de información. Para que "
+"ter a mesma resposta en dous lugares diferentes? Cando o número de lugares "
+"nos que se pode atopar a resposta é mínimo, a xente que a atopase con "
+"anterioridade é máis propensa a lembrar que buscar para atopala novamente. "
+"As referencias ben situadas tamén contribúen á calidade dos resultados "
+"das procuras, dado que reforzan o ranking nos buscadores de Internet do "
+"recurso apuntado."
 
 #. Tag: para
 #: ch06.xml:1229
@@ -1821,6 +1927,9 @@ msgid ""
 "example, suppose there's a response already in the archives, not from you, "
 "saying:"
 msgstr ""
+"Aínda así, hai veces nas que duplicar a información si que ten sentido. "
+"Por exemplo, suponte que existe unha resposta nos arquivos, non aportada por "
+"ti, dicindo:"
 
 #. Tag: screen
 #: ch06.xml:1233
@@ -1833,6 +1942,12 @@ msgid ""
 "2. Run the 'defrobnicate' program that ships with Scanley.\n"
 "3. Start up the server."
 msgstr ""
+"Parece que os índices do teu servidor Dharma están Lockeados.\n"
+"Para deslockealos, executa os seguintes comandos:\n"
+"\n"
+"1. Apaga o servidor Dharma\n"
+"2. Executa a aplicación 'deslocke' incluída no servidor Dharma\n"
+"3. Acende o servidor"
 
 #. Tag: para
 #: ch06.xml:1235
@@ -1845,6 +1960,14 @@ msgid ""
 "The classiest way to handle this is to post a new, more complete set of "
 "instructions, and explicitly obsolete the old post by mentioning it:"
 msgstr ""
+"Entón, meses despois, ves outra mensaxe indicando que os índices de algué"
+"n sufriron dunha lockeización. Fas unha procura nos arquivos e atopas a "
+"resposta anterior, pero dáste conta de que na mesma non están incluídos "
+"algúns pasos (quizais por erro, quizais porque o software cambiou dende que "
+"a resposta primixenia pasou a formar parte dos arquivos). O xeito clásico "
+"de manexar esta situación é mediante o envío dunha nova mensaxe que inclú"
+"a un conxunto de instrucións máis completo, e colgarlle a etiqueta de "
+"\"obsoleta\" á resposta orixinal mediante unha mención ao estilo de:"
 
 #. Tag: screen
 #: ch06.xml:1243
@@ -1862,6 +1985,19 @@ msgid ""
 "4. Run Scanley by hand to see if the indexes work now.\n"
 "5. Restart the server."
 msgstr ""
+"Parece que os índices do teu servidor Dharma están Lockeados. Xa\n"
+"vimos ese problema no Xullo pasado, e D. Hume enviou unha solución,\n"
+"visible en http://ghandalf-loves-lost.org/servidoresDharma\n"
+"A continuación, expoñemos unha descrición máis completa sobre\n"
+"como deslockeizar os teus índices, baseada nas instrucións de D. Hume,\n"
+"pero estendéndoas un chisco:\n"
+"\n"
+"1. Apaga o servidor Dharma\n"
+"2. Convértete no usuario co que o servidor Dharma adoita executarse\n"
+"3. Como ese usuario, executa a aplicación 'deslocke' sobre os índices\n"
+"4. Arranca manualmente o servidor Dharma para testear se os índices "
+"funcionan\n"
+"5. Reinicia o servidor"
 
 #. Tag: para
 #: ch06.xml:1245
@@ -1875,6 +2011,13 @@ msgid ""
 "verbatim record. This is another reason why creating dedicated web pages "
 "with answers to common questions is a good idea.)"
 msgstr ""
+"(Nun mundo ideal, sería posible engadirlle unha nota á antiga mensaxe "
+"dicindo que existe información actualizada e apuntando á nova mensaxe. A "
+"pesar disto, non coñezo ningún software de arquivado que ofreza unha "
+"funcionalidade ao estilo de \"obsoletizado por\", pode que debido a que serí"
+"a moi dificultoso implementar isto sen violar a integridade dos arquivos. "
+"Esta é outra das razóns polas que crear páxinas web adicadas con "
+"respostas para as preguntas comúns é unha excelente idea)."
 
 #. Tag: para
 #: ch06.xml:1254
@@ -1894,12 +2037,27 @@ msgid ""
 "went nowhere, and b) that you did your homework, and therefore are probably "
 "saying something now that has not been said before."
 msgstr ""
+"Probablemente as consultas que se fan con máis frecuencia sobre os arquivos "
+"son aquelas derivadas de cuestións técnicas, pero a súa importancia para "
+"o proxecto vai moito máis alá. Se as liñas e guías formais dun proxecto "
+"son o seu estatuto, os arquivos son a súa lei de usos e costumes: un "
+"rexistro de todas as decisións tomadas e de como se chegou ás mesmas. En "
+"calquera discusión recorrente, é case obrigatorio comezar con unha procura "
+"nos arquivos. Isto permite comezar a discusión con un resumo do estado "
+"actual das cousas, anticipar obxeccións, preparar refutacións, e "
+"posiblemente descubrir ángulos que doutro xeito non terías. Á súa vez, é "
+"lóxico que os outros participantes na discusión dean por suposto que "
+"fixeches esta procura. Incluso se as discusións previas non chegaron a "
+"ningures, debe incluír referencias ás mesmas cando volvas a sacar o tema, "
+"para que a xente poida ver por si mesma a) que non se chegou a ningures, e "
+"b) que fixeches os teus deberes, e que probablemente se estea dicindo agora "
+"o que non se dixo anteriormente."
 
 #. Tag: title
 #: ch06.xml:1271
 #, no-c-format
 msgid "Treat all resources like archives"
-msgstr ""
+msgstr "Trata todos os recursos como arquivos"
 
 #. Tag: para
 #: ch06.xml:1273
@@ -1910,18 +2068,23 @@ msgid ""
 "addresses should be an organizing principle for all of the project's "
 "information. Let's take the project FAQ as a case study."
 msgstr ""
+"Todos os consellos anteriores son válidos máis alá de para o caso "
+"concreto das roldas de correo. Ter pezas concretas de información en "
+"enderezos estables e convenientemente atopables adoita ser un principio bá"
+"sico de organización para a información de calquera proxecto. Vamos a "
+"tomar as FAQ (Preguntas Frecuentes) dun proxecto como caso de estudo:"
 
 #. Tag: para
 #: ch06.xml:1279
 #, no-c-format
 msgid "How do people use a FAQ?"
-msgstr ""
+msgstr "Como emprega a xente unha FAQ?"
 
 #. Tag: para
 #: ch06.xml:1283
 #, no-c-format
 msgid "They want to search in it for specific words and phrases."
-msgstr ""
+msgstr "Buscan palabras e frases específicas."
 
 #. Tag: para
 #: ch06.xml:1286
@@ -1930,6 +2093,8 @@ msgid ""
 "They want to browse it, soaking up information without necessarily looking "
 "for answers to specific questions."
 msgstr ""
+"Queren poder navegala, disfrutando da información sen necesariamente buscar "
+"respostas a cuestións específicas."
 
 #. Tag: para
 #: ch06.xml:1290
@@ -1938,6 +2103,8 @@ msgid ""
 "They expect search engines such as Google to know about the FAQ's content, "
 "so that searches can result in FAQ entries."
 msgstr ""
+"Esperan que motores de procura como Google coñezan o contido da FAQ, de tal "
+"xeito que as procuras aporten como resultado entradas na FAQ."
 
 #. Tag: para
 #: ch06.xml:1294
@@ -1946,6 +2113,8 @@ msgid ""
 "They want to be able to refer other people directly to specific items in the "
 "FAQ."
 msgstr ""
+"Queren ser capaces de referirse directamente a outra xente en temas especí"
+"ficos na FAQ."
 
 #. Tag: para
 #: ch06.xml:1298
@@ -1955,6 +2124,9 @@ msgid ""
 "happens much less often than answers are looked up&mdash;FAQs are far more "
 "often read from than written to."
 msgstr ""
+"Queren ser capaces de engadir novo material na FAQ, pero ten en conta que "
+"isto ocorre moito menos a miúdo que a procura de respostas &mdash;as FAQs "
+"son de lonxe moito máis lidas que escritas."
 
 #. Tag: para
 #: ch06.xml:1305
@@ -1972,12 +2144,25 @@ msgid ""
 "<xref linkend=\"technical-infrastructure\"/></phrase>), in a format that's "
 "easy to edit."
 msgstr ""
+"O punto 1 implica que as FAQ deberían estar dispoñibles nalgún tipo de "
+"formato de texto. Os puntos 2 e 3 implican que as FAQ deberían estar "
+"dispoñibles como unha páxina HTML, coa indicación adicional por parte do "
+"punto 2 de que o HTML debería estar deseñado para aumentar a lexibilidade "
+"(p.e. vas querer ter algún control sobre o seu modo de visualización), e "
+"debería contar con unha táboa de contidos. O punto 4 indica que cada "
+"entrada individual da FAQ debería ter asignada unha etiqueta HTML "
+"<firstterm>named anchor</firstterm>, indicando que se lle permite á xente "
+"alcanzar calquera localización concreta na páxina. O punto 5 significa que "
+"os ficheiros fonte para a FAQ deberían estar dispoñibles dunha maneira "
+"axeitada (ver <xref linkend=\"version-everything\"/><phrase output=\"printed"
+"\"> in <xref linkend=\"technical-infrastructure\"/></phrase>), nun formato "
+"que sexa sinxelo de editar."
 
 #. Tag: title
 #: ch06.xml:1319
 #, no-c-format
 msgid "Named Anchors and ID Attributes"
-msgstr ""
+msgstr "Named Anchors (áncoras nomeadas) e atributos ID"
 
 #. Tag: para
 #: ch06.xml:1321
@@ -1986,6 +2171,8 @@ msgid ""
 "There are two ways to get a browser to jump to a specific location within a "
 "web page: named anchors and id attributes."
 msgstr ""
+"Hai dúas maneiras para lograr que un navegador salte a un sitio específico "
+"dentro dunha páxina web: áncoras con nome e atributos id."
 
 #. Tag: para
 #: ch06.xml:1324
@@ -1994,12 +2181,15 @@ msgid ""
 "A <firstterm>named anchor</firstterm> is just a normal HTML anchor element "
 "(<literal>&lt;a&gt;...&lt;/a&gt;</literal>), but with a \"name\" attribute:"
 msgstr ""
+"Unha <firstterm>áncora con nome</firstterm> é simplemente un elemento HTML "
+"de áncora (<literal>&lt;a&gt;...&lt;/a&gt;</literal>), pero con un atributo "
+"\"name\":"
 
 #. Tag: screen
 #: ch06.xml:1328
 #, no-c-format
 msgid "&lt;a&nbsp;name=\"mylabel\"&gt;...&lt;/a&gt;"
-msgstr ""
+msgstr "&lt;a&nbsp;name=\"jack-shephard-label\"&gt;...&lt;/a&gt;"
 
 #. Tag: para
 #: ch06.xml:1330
@@ -2009,12 +2199,15 @@ msgid ""
 "firstterm>, which can be attached to any HTML element, not just to "
 "<literal>&lt;a&gt;</literal>. For example:"
 msgstr ""
+"Versións máis recentes de HTML soportan un <firstterm>atributo id </"
+"firstterm> xenérico, o cal pode achegarse conxuntamente con calquera "
+"elemento HTML, non só con <literal>&lt;a&gt;</literal>. Por exemplo:"
 
 #. Tag: screen
 #: ch06.xml:1334
 #, no-c-format
 msgid "&lt;p&nbsp;id=\"mylabel\"&gt;...&lt;/p&gt;"
-msgstr ""
+msgstr "&lt;p&nbsp;id=\"hugo-reyes-label\"&gt;...&lt;/p&gt;"
 
 #. Tag: para
 #: ch06.xml:1336
@@ -2024,12 +2217,15 @@ msgid ""
 "hash mark and the label to a URL, to cause the browser to jump straight to "
 "that spot in the page:"
 msgstr ""
+"Ambos, tanto áncoras con nome como atributos id, empréganse do mesmo "
+"xeito. Un engade unha marca hash e a etiqueta a unha URL, para provocar que "
+"o navegador salte directo ao devandito punto da páxina:"
 
 #. Tag: screen
 #: ch06.xml:1340
 #, no-c-format
 msgid "http://myproject.example.com/faq.html#mylabel"
-msgstr ""
+msgstr "http://ghandalf-loves-lost.org/faq.html#david-faraday-label"
 
 #. Tag: para
 #: ch06.xml:1342
@@ -2042,12 +2238,19 @@ msgid ""
 "anchors cannot be self-closing&mdash;even if there's no text inside the "
 "element, you must still write it in two-sided form:"
 msgstr ""
+"Virtualmente todos os navegadores Web teñen soporte para áncoras con nome; "
+"a maior parte dos navegadores modernos teñen soporte para atributos id. "
+"Para ir sobre seguro, recomendaría empregar tanto áncoras con nome en "
+"solitario, como áncoras con nome <emphasis>e</emphasis> atributos id "
+"conxuntamente (coa mesma etiqueta para ambos nun par concreto, por suposto). "
+"As áncoras con nome non poden ser autopechantes&mdash; aínda que non "
+"exista texto dentro do elemento, aínda así debes escribilo na forma dobre:"
 
 #. Tag: screen
 #: ch06.xml:1350
 #, no-c-format
 msgid "&lt;a&nbsp;name=\"mylabel\"&gt;&lt;/a&gt;"
-msgstr ""
+msgstr "&lt;a&nbsp;name=\"sayid-label\"&gt;&lt;/a&gt;"
 
 #. Tag: para
 #: ch06.xml:1352
@@ -2055,6 +2258,8 @@ msgstr ""
 msgid ""
 "...though normally there would be some text, such as the title of a section."
 msgstr ""
+"...aínda que normalmente haberá algún texto, como o título dunha "
+"sección."
 
 #. Tag: para
 #: ch06.xml:1355
@@ -2068,12 +2273,22 @@ msgid ""
 "firstterm> to the same element(s) where you added the \"name\" and/or \"id\" "
 "attribute, for example:"
 msgstr ""
+"En calquera lugar no que empregues unha áncora con nome, ou un atributo id, "
+"ou ambos, recorda que a etiqueta non vai ser visible por ninguén que "
+"navegue ata esa localización sen empregar a etiqueta. Pero unha persoa "
+"podería queres saber a etiqueta que identifica unha localización concreta, "
+"para poder enviar un correo coa URL da resposta na FAQ a un amigo, por "
+"exemplo. Para axudalo a facer isto, engade un <firstterm>attributo título</"
+"firstterm> ao mesmo elemento(s) ao que lle engadiches o \"nome\" e/ou o "
+"atributo \"id\", por exemplo:"
 
 #. Tag: screen
 #: ch06.xml:1364
 #, no-c-format
 msgid "&lt;a&nbsp;name=\"mylabel\"&nbsp;title=\"#mylabel\"&gt;...&lt;/a&gt;"
 msgstr ""
+"&lt;a&nbsp;name=\"kate-austen-label\"&nbsp;title=\"kate-austen-label\"&gt;..."
+"&lt;/a&gt;"
 
 #. Tag: para
 #: ch06.xml:1366
@@ -2084,6 +2299,11 @@ msgid ""
 "include the hash-sign, to remind the user that this is what she would put at "
 "the end of the URL to jump straight to this location next time."
 msgstr ""
+"Deste xeito, cando o rato se sitúe sobre o texto dentro do elemento co "
+"atributo de título, a maioría dos navegadores van mostrar unha pequena "
+"caixiña amosando o título. Adoito incluír a sinatura hash, para "
+"lembrarlle ao usuario que isto é o que debe poñer ao final da URL para "
+"saltar directamente a esta localización a próxima vez."
 
 #. Tag: para
 #: ch06.xml:1374
@@ -2100,12 +2320,24 @@ msgid ""
 "linkend=\"managing-volunteers\"/> discusses how to spread that maintenance "
 "burden across many volunteers)."
 msgstr ""
+"Formatear a FAQ deste xeito só é un exemplo de como facer que un recurso "
+"sexa presentable. As mesmas propiedades&mdash;localización directa, "
+"dispoñibilidade para a maioría dos motores de procura en Internet, "
+"navegabilidade, estabilidade referencial, e (onde aplique) "
+"editabilidade&mdash;aplícanlle a outras páxinas web, á árbore co código "
+"fonte, ao bug tracker, etc. Debido a que a maioría do software de arquivado "
+"de roldas de correo xa dende fai moito tempo ten recoñecida a importancia "
+"destas propiedades, é polo que a roldas de correo tenden a contar "
+"nativamente con estas funcionalidades, mentres que outros formatos poden "
+"requirir algún esforzo extra por parte do mantedor (<xref linkend="
+"\"managing-volunteers\"/> analiza como repartir esta carga de mantemento "
+"entre varios voluntarios)."
 
 #. Tag: title
 #: ch06.xml:1392
 #, no-c-format
 msgid "Codifying Tradition"
-msgstr ""
+msgstr "Tradición na Codificación"
 
 #. Tag: para
 #: ch06.xml:1394
@@ -2120,6 +2352,16 @@ msgid ""
 "that the newcomers are of any lower quality than before; it's that they face "
 "a bigger acculturation burden than newcomers did in the past."
 msgstr ""
+"A medida que un proxecto vai adquirindo historia e complexidade, a cantidade "
+"de datos que cada participante incorporado debe absorber vese incrementada. "
+"Aqueles que levan no proxecto dende fai moito tempo foron capaces de "
+"aprender, e inventar, as convencións do proxecto. A miúdo non son "
+"conscientes do enorme corpo de tradición que foron acumulando, e sorpré"
+"ndense de cantos pequenos erros van cometendo os novatos. Por suposto, a "
+"cuestión non está en que as novas incorporación sexan de menor calidade "
+"que as anteriores; a cuestión está en que se teñen que enfrontar a unha "
+"maior cultura herdada, que aquela a que se enfrontaron os novatos de tempo "
+"atrás."
 
 #. Tag: para
 #: ch06.xml:1404
@@ -2137,6 +2379,17 @@ msgid ""
 "are the ones that change the most as the project grows in size and "
 "complexity."
 msgstr ""
+"As tradicións que un proxecto vai acumulando atinxen sobre todo a como "
+"comunicar e preservar a información, estándares de codificación, e outras "
+"cuestións de índole técnica. Xa repasamos ambos tipos de estándares en "
+"<xref linkend=\"developer-documentation\"/><phrase output=\"printed\"> en "
+"<xref linkend=\"getting-started\"/></phrase> e <xref linkend=\"written-rules"
+"\"/><phrase output=\"printed\"> en <xref linkend=\"social-infrastructure\"/"
+"></phrase> respectivamente, amosando exemplos. En cambio esta sección trata "
+"sobre como manter estas guías e pautas actualizadas a medida que o proxecto "
+"evolúe, especialmente as pautas e guías sobre como xestionar as "
+"comunicacións, dado que estas son as que máis cambios sofren a medida que "
+"o proxecto medra en tamaño e complexidade."
 
 #. Tag: para
 #: ch06.xml:1418
@@ -2150,6 +2403,14 @@ msgid ""
 "other project veterans will have to repeat yourselves often; this is an "
 "inevitable side effect of the arrival of newcomers."
 msgstr ""
+"Primeiro, busca patróns sobre como a xente se confunde. Se ves as mesmas "
+"situacións producíndose unha e outra vez, especialmente cos novos "
+"participantes, entón preséntase unha oportunidade en forma de guía ou "
+"pauta que necesita ser documentada pero aínda non o está. Segundo, non te "
+"canses de dicir as mesmas cousas unha e outra vez, e que non <emphasis>sone</"
+"emphasis> como se estiveras cansado de repetilo. Ti e outros veteráns do "
+"proxecto teredes que repetírvolo entre vos a miúdo; este é un efecto "
+"colateral inevitable derivado da chegada de novos participantes."
 
 #. Tag: para
 #: ch06.xml:1427
@@ -2168,6 +2429,18 @@ msgid ""
 "investment in the IRC channel; they'll show up, ask their question, and "
 "leave."
 msgstr ""
+"Cada páxina web, cada mensaxe na rolda de correo e cada canle IRC debería "
+"ser considerado como un espazo publicitario&mdash;non para anuncios "
+"comerciais, pero si para anuncios sobre os recursos do teu propio proxecto. "
+"O que poñas neses espazos debe depender da procedencia e cultura dos que os "
+"vaian a ler. Unha canle IRC para preguntas dos usuarios, por exemplo, parece "
+"o sitio ideal para obter xente que nunca antes interactuara co "
+"proxecto&mdash;habitualmente alguén que simplemente instalou o software e "
+"ten unha pregunta que precisa ser respondida o máis axiña posible (despois "
+"de todo, se puidera esperar, tería enviada a pregunta á rolda de correo, o "
+"que probablemente lle custase menos tempo total, aínda que tardaría máis "
+"en recibir resposta). A xente normalmente non fai unha inversión permanente "
+"na canle IRC; aparecen, lanzan a súa pregunta e vanse."
 
 #. Tag: para
 #: ch06.xml:1441
@@ -2181,6 +2454,14 @@ msgid ""
 "in <xref linkend=\"irc\"/><phrase output=\"printed\"> in <xref linkend="
 "\"technical-infrastructure\"/></phrase>):"
 msgstr ""
+"Deste xeito, o tópico e mailo tema do canal deberían dirixirse a xente que "
+"está a buscar por respostas técnicas sobre o software <emphasis>o máis "
+"axiña posible</emphasis>, en lugar de dirixirse a xente que podería querer "
+"involucrarse co proxecto a longo prazo e para os cales unhas guías de "
+"interacción serían máis apropiadas. Aquí é onde unha canle IRC "
+"realmente ocupada xestiona a cuestión (compáraa co exemplo anterior en "
+"<xref linkend=\"irc\"/><phrase output=\"printed\"> en <xref linkend="
+"\"technical-infrastructure\"/></phrase>):"
 
 #. Tag: screen
 #: ch06.xml:1450
@@ -2197,6 +2478,18 @@ msgid ""
 "update to 2.6.8.1 or 2.4.27 | hash algo disaster: http://tinyurl.com/6w8rf\n"
 "| reiser4 out"
 msgstr ""
+"Estás falando en #linuxhelp\n"
+"\n"
+"O tema para #linuxhelp é: Por favor, LEE\n"
+"http://www.catb.org/~esr/faqs/smart-questions.html &amp;&amp;\n"
+"http://www.tldp.org/docs.html#howto ANTES DE facer preguntas | As normas\n"
+"da canle atópanse en http://www.nerdfest.org/lh_rules.html | Por favor, "
+"consulta\n"
+"http://kerneltrap.org/node/view/799 antes de preguntar sobre actualizacións "
+"á versión\n"
+"2.6.x do kernel | memory read possible: http://tinyurl.com/4s6mc -&gt;\n"
+"update to 2.6.8.1 or 2.4.27 | hash algo disaster: http://tinyurl.com/6w8rf\n"
+"| reiser4 out"
 
 #. Tag: para
 #: ch06.xml:1452
@@ -2211,6 +2504,16 @@ msgid ""
 "to from many places; indeed, some posts become so widely known that they "
 "eventually have more readers off the list than on it."
 msgstr ""
+"Coas roldas de correo, o \"espazo publicitario\" é un pequeno pé engadido "
+"a cada mensaxe. A maioría dos proxectos poñen as instrucións de "
+"subscrición e des-subscrición nese lugar, e ás veces un punteiro á pá"
+"xina web do proxecto ou á páxina de FAQs. Poderías pensar que alguén "
+"subscrito á rolda de correo sabería onde atopar estar cousas, e "
+"probablemente sexa así&mdash;pero moita máis xente que os propios "
+"subscritores é a audiencia destes mensaxes na lista de correo. Unha mensaxe "
+"arquivada pode enlazarse dende múltiples lugares; de feito, algunhas "
+"mensaxes poden volverse tan famosas que poden chegar a ter máis lectores "
+"fóra da lista que dentro da mesma."
 
 #. Tag: para
 #: ch06.xml:1462
@@ -2239,6 +2542,32 @@ msgid ""
 "when responding to one of the now-rare bogus filings. This improves both the "
 "project's image and the mental health of its volunteers."
 msgstr ""
+"O formateo pode supor unha gran diferenza. Por exemplo, no proxecto "
+"Subversion, tivemos un éxito limitado empregando a técnica de filtrado de "
+"erros descrita en <xref linkend=\"bug-filtering\"/><phrase output=\"printed"
+"\"> in <xref linkend=\"technical-infrastructure\"/></phrase>. Moitos dos "
+"falsos informes de erros seguían sendo cumprimentados por xente sen "
+"experiencia, e cada vez que isto pasaba, o usuario tiña que ser educado "
+"exactamente do mesmo xeito que as 500 persoas anteriores. Un día, despois "
+"de que a un dos nosos desenvolvedores finalmente se lle agotara a paciencia "
+"e empezase a criticar e a meterse con un pobre usuario por non ler "
+"detidamente a guía de uso do bug tracker, outro desenvolvedor decidiu que "
+"este patrón tíñase reproducido demasiadas veces. Suxeriu que reformateá"
+"ramos a páxina de portada do bug tracker de xeito que o máis importante da "
+"mesma, a norma de discutir previamente os bugs na rolda de correo ou nas "
+"canles IRC antes de envialos polo bug tracker, estivese formateado en letras "
+"moi grandes, en vermello resaltado sobre un fondo amarelo e resaltado "
+"claramente sobre todos os demais elementos da páxina. Así se fixo (podes "
+"ver os resultados en <ulink url=\"http://subversion.tigris.org/"
+"project_issues.html\"></ulink>), e o resultado foi un descenso notable no "
+"ratio de falsos informes notificados. Por suposto, aínda os temos hoxe en "
+"día, e sempre os teremos, pero o ratio descendeu notablemente, incluso aí"
+"nda que o número de usuarios se viu incrementado. O resultado non se "
+"restrinxe unicamente a que a base de datos de bugs teña menos lixo, senón "
+"que aqueles desenvolvedores que responden aos tickets de informes de erros "
+"fano con bo humor, e aumentouse a probabilidade da amistosidade por parte "
+"dos mesmos, dado que teñen que lidiar con poucos erros falsos. Isto mellora "
+"tanto a imaxe do proxecto como a saúde mental dos seus voluntarios."
 
 #. Tag: para
 #: ch06.xml:1488
@@ -2249,6 +2578,11 @@ msgid ""
 "and format them in such a way that their status as introductory material "
 "would be immediately clear to people unfamiliar with the project."
 msgstr ""
+"A lección que nós sacamos foi que simplemente con escribir as normas non "
+"fas abondo. Tamén tivemos que poñelas onde fosen vistas por aqueles que má"
+"is as necesitan, e formatealas de tal xeito que o seus estatus de material "
+"introdutorio fose inmediatamente claro para a xente que non estaba "
+"familiarizada co proxecto."
 
 #. Tag: para
 #: ch06.xml:1494
@@ -2262,6 +2596,15 @@ msgid ""
 "include review of people's conformance or non-conformance with project "
 "norms, especially with regard to communications conventions."
 msgstr ""
+"As páxinas web estáticas non son o único lugar para publicitar as "
+"costumes do proxecto. Unha certa cantidade de políticas interactivas (no "
+"sentido de recordatorio amable, non no sentido de ataduras e sensación de "
+"encarcelamento) tamén son precisas. Toda revisión entre iguais, incluso as "
+"revisións de commits descritas en <xref linkend=\"code-review\"/><phrase "
+"output=\"printed\"> en <xref linkend=\"getting-started\"/></phrase>, deberí"
+"an incluír revisións sobre a conformidade ou non conformidade da xente "
+"coas normas do proxecto, especialmente en relación coas convencións "
+"relativas ás comunicacións."
 
 #. Tag: para
 #: ch06.xml:1503
@@ -2275,6 +2618,14 @@ msgid ""
 "will begin using it consistently right away. Thus, when a commit mail comes "
 "in with a log message like this:"
 msgstr ""
+"Outro exemplo extraído do proxecto Subversion: establecemos nunha "
+"convención que \"r12908\" significaría \"revisión 12908 no repositorio de "
+"control de versións\". O prefixo en minúsculas \"r\" é sinxelo de "
+"escribir, e dado que ten a metade de altura que os díxitos, convérteo nun "
+"bloque de texto facilmente recoñecible ao combinalo con díxitos. Por "
+"suposto, establecéndoo deste xeito na convención non significou que todo o "
+"mundo comezara a empregalo consistentemente do xeito correcto. Así, cando "
+"un correo de commit ven con un log coma este:"
 
 #. Tag: screen
 #: ch06.xml:1512
@@ -2289,6 +2640,14 @@ msgid ""
 "  Fixed some typos from revision 12828.\n"
 "------------------------------------------------------------------------"
 msgstr ""
+"------------------------------------------------------------------------\n"
+"r12908 | dhume | 2010-05-24 08:05:06 -0600 (Mon, 24 May 2010) | 4 lines\n"
+"\n"
+"Patch from James Ford (Sawyer) &lt;sawyer@ghandalf-loves-lost.org&gt;\n"
+"\n"
+"* trunk/contrib/client-side/psvn/psvn.el:\n"
+"  Fixed some typos from revision 12828.\n"
+"------------------------------------------------------------------------"
 
 #. Tag: para
 #: ch06.xml:1514
@@ -2299,6 +2658,10 @@ msgid ""
 "just pedantry; it's important as much for automatic parsability as for human "
 "readership."
 msgstr ""
+"...parte da revisión deste commit consiste en dicir \"A partir de agora, "
+"por favor emprega 'r12828', en lugar de 'revisión 12828' cando te refiras a "
+"cambios feitos no pasado.\" Isto non é pedantería; é importante tanto "
+"para o parseo automático como para os lectores humanos."
 
 #. Tag: para
 #: ch06.xml:1519
@@ -2318,6 +2681,22 @@ msgid ""
 "apply to issue numbers, FAQ items (hint: use a URL with a named anchor, as "
 "described in <xref linkend=\"html-named-anchors-and-ids\"/>), etc."
 msgstr ""
+"Seguindo o principio xeral de que debe haber métodos canónicos de "
+"referencia para entidades comúns, e que estes métodos de referencia deben "
+"empregarse consistentemente en todos os sitios, o proxecto en efecto exporta "
+"certos estándares. Estes estándares permiten que a xente escriba "
+"ferramentas que presenten as comunicacións do proxecto dun xeito máis ú"
+"til&mdash;por exemplo, unha revisión formateada como \"r12828\" podería "
+"transformarse nun enlace vivo dentro do sistema de navegación do "
+"repositorio. Isto sería moi difícil de facer se a revisión fose escrita "
+"como \"revisión 12828\", tanto porque esta segunda forma podería dividirse "
+"a través dun salto de liña, como porque é menos distintiva (a palabra "
+"\"revisión\", a miúdo aparecerá sola, e os grupos de números tamén "
+"aparecern solos, mentras que a combinación \"r12828\" é unívoca, tendo "
+"como significado un número de revisión). Consideracións similares aplican "
+"tamén a temas con números, FAQs (truco: emprega unha URL con unha áncora "
+"con nome, como se describe en <xref linkend=\"html-named-anchors-and-ids\"/"
+">), etc."
 
 #. Tag: para
 #: ch06.xml:1535
@@ -2334,6 +2713,18 @@ msgid ""
 "subject wouldn't be enough, because the same person might make several posts "
 "in the same thread, even on the same day."
 msgstr ""
+"Incluso para entidades nas que non existe unha xeito obvio de forma "
+"canónica, a xente debería estar igualmente disposta a fornecer pezas clave "
+"de información dun xeito consistente. Por exemplo, cando te refiras a unha "
+"mensaxe nunha lista de correo, non fornezas unicamente a identidade da "
+"persoa que enviou o correo e mailo asunto do mesmo; aporta tamén a URL do "
+"arquivo <emphasis>e</emphasis> a Cabeceira co Message-ID. Esto último "
+"permite que a xente que teña a súa propia copia das roldas de correo (hai "
+"xente que ás veces mantén copias offline, por exemplo para empregalas nun "
+"portátil mentres viaxa) poida identificar univocamente a mensaxe correcta "
+"aínda cando non teñan acceso aos arquivos. O enviante e mailo asunto non "
+"serían suficientes, dado que a mesma persoa pode enviar varias mensaxes no "
+"mesmo fío, incluso no mesmo día."
 
 #. Tag: para
 #: ch06.xml:1547
@@ -2350,12 +2741,23 @@ msgid ""
 "that any given person is more likely to find what he needs without having to "
 "ask."
 msgstr ""
+"Canto máis medra un proxecto, máis importante se volve este tipo de "
+"consistencia. Consistencia significa que todas as persoas observan os mesmos "
+"patróns e que estes sexan seguidos, o cal obriga a cada persoa individual a "
+"seguilos. Isto, ademais, reduce o número de cuestións que precisan ser "
+"preguntadas. A carga de ter un millón de lectores non é a mesma que a de "
+"ter un; os problemas de escalabilidade comezan a xurdir unicamente cando un "
+"determinado porcentaxe deses lectores fai preguntas. A medida que un "
+"proxecto medra, por tanto, debe reducir estas porcentaxes mediante o "
+"incremento da densidade e da accesibilidade da información, de tal xeito "
+"que a xente sexa máis propensa a atopar o que precisa sen ter a necesidade "
+"de preguntalo."
 
 #. Tag: title
 #: ch06.xml:1588
 #, no-c-format
 msgid "No Conversations in the Bug Tracker"
-msgstr ""
+msgstr "Prohibidas as Conversas no Bug Tracker"
 
 #. Tag: para
 #: ch06.xml:1590
@@ -2369,6 +2771,15 @@ msgid ""
 "solution, and attaches another annotation pointing out the problems. The "
 "first person responds, again by appending to the issue...and so it goes."
 msgstr ""
+"En calquera proxecto que faga un uso activo do Bug Tracker (lembremos que é "
+"o sistema de notificación de informes de erros), sempre existe o risco de "
+"que o mesmo acabe converténdose nun foro de discusión en si mesmo, aínda "
+"cando as roldas de correo sexan un lugar mellor para facelo. Usualmente "
+"comeza dun xeito suficientemente inocente: alguén anota un informe de erro "
+"con, di el, unha proposta de solución, ou un parche parcial. Outra persoa "
+"veo, observa que hai problemas coa solución, e inclúe outra anotación "
+"amosando os problemas. A primeira persoa responde unha vez máis,... e así "
+"sucesivamente."
 
 #. Tag: para
 #: ch06.xml:1599
@@ -2381,6 +2792,14 @@ msgid ""
 "be subscribed to the issue changes list at all, and even if they are, they "
 "may not follow it very closely."
 msgstr ""
+"O problema con esta operativa reside, primeiramente, en que o Bug Tracker é "
+"un lugar demasiado pesado e torpe para manter unha discusión, e en segundo "
+"termo en que outra xente probablemente non estea prestando atención&mdash;"
+"despois de todo, esperan que as discusións de desenvolvemento se leven a "
+"cabo na rolda de correo de desenvolvemento, polo que ese é o lugar ao que "
+"están mirando. Probablemente non estean subscritos á rolda de "
+"notificacións, e incluso se o están, pode que non a sigan con demasiada "
+"atención."
 
 #. Tag: para
 #: ch06.xml:1607
@@ -2391,6 +2810,11 @@ msgid ""
 "posted it to the list instead? Or was it when the second person responded in "
 "the issue, instead of on the list?"
 msgstr ""
+"Pero, exactamente en que punto do proceso se fixo algo incorrecto? Foi no "
+"momento no que a persoa orixinal engadiu a súa solución ao erro&mdash; "
+"tería que telo enviado á lista en lugar de engadilo? Ou foi cando a "
+"segunda persoa respondeu á incidencia, en lugar de facelo na rolda de "
+"correo?"
 
 #. Tag: para
 #: ch06.xml:1613
@@ -2413,6 +2837,23 @@ msgid ""
 "conversation is about to ensue, and therefore that it should be held in the "
 "appropriate medium."
 msgstr ""
+"Non hai unha resposta correcta, pero si que hai un principio xeral: se "
+"simplemente están engadindo datos a unha incidencia, entón faino no Bug "
+"Tracker, pero se estás comezando unha <emphasis>conversa</emphasis>, entón "
+"faino na rolda de correo. Non sempre poderás identificar cada caso, "
+"simplemente emprega o teu xuízo o mellor que poidas. Por exemplo, cando "
+"achegues un parche que conteña unha solución potencialmente controvertida, "
+"debes anticipar que posiblemente haxa xente que teña preguntas sobre a "
+"mesma. Así que aínda que normalmente achegues o parche conxuntamente coa "
+"notificación, (asumindo que non queres, ou non podes, facer o cambio "
+"directamente), neste caso deberías escoller enviar a mensaxe á rolda de "
+"correo en lugar de empregar o Bug Tracker. De todos xeitos, pode haber casos "
+"nos que sexa difícil  En todo caso, eventualmente acontecerá un momento "
+"onde unha parte ou a outra indiquen que simplemente están engadindo datos "
+"á conversación actual&mdash;no exemplo que iniciaba esta sección, este "
+"sería o segundo actor, o cal responde, quen dándose conta de que había "
+"problemas co parche, puido predicir que ía a inciarse unha conversa sobre "
+"el, e de aí que debera facerse na canle apropiada."
 
 #. Tag: para
 #: ch06.xml:1631
@@ -2423,6 +2864,10 @@ msgid ""
 "like it will be divergent, then a mailing list or IRC channel would be a "
 "better place."
 msgstr ""
+"Empregando unha analoxía matemática, se a información parece como que "
+"vaia a ser rapidamente converxente, entón pona directamente no Bug Tracker; "
+"se parece como se vaia haber diverxencias, entón unha rolda de correo ou "
+"unha canle IRC serían un lugar mellor."
 
 #. Tag: para
 #: ch06.xml:1636
@@ -2439,6 +2884,18 @@ msgid ""
 "pointing out a minor problem with a proposed solution is fine, assuming the "
 "problem is not a showstopper for the entire solution."
 msgstr ""
+"Isto non significa que nunca deba haber ningún intercambio no bug tracker. "
+"Preguntar por máis detalles sobre a reprodución do erro por parte do "
+"informador orixinal adoita ser un proceso moi produtivo, por exemplo. A "
+"resposta do informador é pouco probable que lance novas incidencias; "
+"simplemente aumentará a información previamente aportada. Non hai "
+"necesidade de crear distracción na rolda de correo con este proceso. En "
+"resumo, todo isto significa que debes ter coidado cos comentarios no bug "
+"tracker. Do mesmo xeito, se estás completamente seguro de que o erro foi "
+"mal notificado (por exemplo, non é un erro), entón chega con que o "
+"notifiques na propia incidencia. Incluso notificar un problema menor con "
+"unha solución proposta é axeitado, asumindo que o problema non vai a ser "
+"bloqueante para toda a solución."
 
 #. Tag: para
 #: ch06.xml:1648
@@ -2449,6 +2906,11 @@ msgid ""
 "developers will want to be involved. The discussion is likely to diverge for "
 "a while before it converges, so do it on the mailing list."
 msgstr ""
+"Sen embargo, se estás lanzando incidencias filosóficas sobre o alcance do "
+"erro ou sobre o comportamento perfecto para o software, podes estar seguro "
+"de que outros desenvolvedores van querer involucrarse nunha discusión. "
+"Probablemente a discusión diverxa sobre un anaco, ata converxer, así que "
+"faino na rolda de correo."
 
 #. Tag: para
 #: ch06.xml:1654
@@ -2463,6 +2925,15 @@ msgid ""
 "people who may read the bug than for the three or five people writing about "
 "it."
 msgstr ""
+"Enlaza sempre ao fío da rolda de correo adicado á incidencia, cando "
+"escollas mandar a notificación á rolda de correo. Segue sendo moi "
+"importante, para alguén que siga a incidencia, poder ser capaz de trazar a "
+"discusión, incluso se a incidencia en si mesma non é o foro da discusión. "
+"A persoa que comeza o fío pode atopar esta labor como algo traballoso, pero "
+"o Software Libre baséase fundamentalmente nunha cultura de escritor "
+"responsable: é moito máis importante facer sinxelas as cousas para ducias "
+"ou centos de persoas que podan ler o informe de erros que para tres ou cinco "
+"persoas que escriban sobre o mesmo."
 
 #. Tag: para
 #: ch06.xml:1663
@@ -2479,12 +2950,24 @@ msgid ""
 "because both archives and issue comments are usually static, unchangeable "
 "data anyway."
 msgstr ""
+"É correcto coller as conclusións importantes e mailos resumos dende a rolda "
+"de discusión e pegalos na incidencia no bug tracker, se isto vai ser algo "
+"conveniente para os lectores. Un idioma común pode ser comezar nunha rolda "
+"de discusión, poñer un enlace ao fío concreto na incidencia no bug "
+"tracker, e cando a discusión remate, pegar o resumo final na propia "
+"incidencia (conxuntamente con un enlace ao mensaxe que conteña ese resumo), "
+"de tal xeito que calquera que navegue a incidencia poida dun xeito sinxelo "
+"ver que conclusión se alcanzou sen ter que premer en ningún outro lugar. "
+"Fíxate en que o problema habitual de duplicación provinte da casuística "
+"das \"dúas copias mestras\" aquí non existe, dado que ambos arquivos e "
+"notificacións adoitan ser estáticos, co cal estamos a falar de datos "
+"inalterables."
 
 #. Tag: title
 #: ch06.xml:1679
 #, no-c-format
 msgid "Publicity"
-msgstr ""
+msgstr "Publicidade"
 
 #. Tag: para
 #: ch06.xml:1681
@@ -2503,6 +2986,18 @@ msgid ""
 "assuming you use the right mechanisms to indicate relative newsworthiness to "
 "the outside world."
 msgstr ""
+"No Software Libre existe unha barreira case inexistente entre as discusións "
+"puramente internas e mailas públicas. Isto en parte débese a que a "
+"audiencia obxectivo sempre está pouco definida: dado que a maioría ou "
+"todos os correos son publicamente accesibles, o proxecto non ten un control "
+"efectivo sobre a impresión que del ten o resto do mundo. Alguén, digamos "
+"un editor de <ulink url=\"http://slashdot.org/\">mancomun.org</ulink>, pode "
+"atraer a atención de milleiros de lectores a un correo que ninguén "
+"esperaba que fose visto fóra do proxecto. Esta é unha realidade coa que "
+"viven todos os proxecto de Software Libre, pero na práctica o risco adoita "
+"ser pequeno. En xeral, os anuncios que o proxecto máis quere publicitar "
+"adoitan ser os que son máis publicitados, asumindo que empregues os "
+"mecanismos axeitados para indicarllo ao resto do mundo."
 
 #. Tag: para
 #: ch06.xml:1695
@@ -2512,6 +3007,9 @@ msgid ""
 "distribution, on which announcements should be made as nearly simultaneously "
 "as possible:"
 msgstr ""
+"Para grandes anuncios, adóitase empregar catro ou cinco canles principais "
+"de distribución, nas cales os devanditos anuncios deberían facerse o máis "
+"simultaneamente posible:"
 
 #. Tag: para
 #: ch06.xml:1701
@@ -2522,6 +3020,11 @@ msgid ""
 "there. The blurb should be a very brief synopsis that links to the press "
 "release (see below) for more information."
 msgstr ""
+"A páxina de portada do teu proxecto probablemente sexa vista por máis "
+"xente que calquera outra parte do proxecto. Se tes un anuncio realmente "
+"grande que facer, fai propaganda aí. A propaganda debería estar composta "
+"por un breve resumo que enlace ao comunicado de prensa (ver a continuación) "
+"para máis información."
 
 #. Tag: para
 #: ch06.xml:1708
@@ -2535,6 +3038,14 @@ msgid ""
 "blog entry, or as some other kind of entity that can be linked to while "
 "still being kept distinct from other press releases in the same area."
 msgstr ""
+"Ao mesmo tempo, deberías ter tamén unha área de \"Novas\" ou \"Notas de "
+"Prensa\" no sitio web, onde o anuncio poida ser escrito en detalle. Parte do "
+"propósito dunha nota de prensa é fornecer un \"obxecto de anuncio\" simple "
+"e canónico que outros sitios web poidan enlazar, así que asegúrate de "
+"estruturalo correctamente: tanto sexa unha páxina web por anuncio, como "
+"unha entrada concreta nun blog, como algún outro tipo de entidade que poida "
+"ser enlazada, mantenas distinguibles do resto de notas de prensa na mesma á"
+"rea."
 
 #. Tag: para
 #: ch06.xml:1720
@@ -2544,6 +3055,10 @@ msgid ""
 "announcement goes out there too. This may happen automatically when you "
 "create the press release, depending on how things are set up at your site."
 msgstr ""
+"Se o teu proxecto conta cun feed RSS (bótalle unha ollada a <xref linkend="
+"\"rss\"/>), asegúrate que o anuncio tamén se publique nel. Isto debería "
+"facerse automaticamente cando creas a nota de prensa, dependendo de como "
+"teñas configuradas as cousas no teu sitio web."
 
 #. Tag: para
 #: ch06.xml:1727
@@ -2559,6 +3074,16 @@ msgid ""
 "the same data via RSS feed, so people who are not subscribed to your "
 "project's own RSS feed might still see the announcement via Freshmeat's."
 msgstr ""
+"Se o anuncio trata sobre o lanzamento dunha nova versión do software, "
+"entón actualiza a entrada do teu proxecto en <ulink url=\"http://freshmeat."
+"net/\"></ulink> (ver <xref linkend=\"announcing\"/> para crear a entrada en "
+"primeiro termo). Cada vez que actualizas unha entrada en Freshmeat, esta "
+"introdúcese na lista de cambios do día de Freshmeat. A lista de cambios "
+"actualízase non só en Freshmeat, senón tamén en varios portais (incluí"
+"ndo <ulink url=\"http://slashdot.org\"></ulink>) que son vistos con avidez "
+"por hordas de xente. Freshmeat tamén ofrece a mesma información por "
+"sindicación RSS, polo que a xente que non estea subscrita ao RSS do teu "
+"proxecto podería igualmente ver o anuncio vía Freshmeat."
 
 #. Tag: para
 #: ch06.xml:1742
@@ -2580,6 +3105,23 @@ msgid ""
 "people making announcements, or worse, spam getting through, the "
 "<literal>announce</literal> list must always be moderated."
 msgstr ""
+"Envía un correo a rolda de correo de anuncios do teu proxecto. O nome desta "
+"lista debería ser \"announce\", é dicir, <literal>announce@dominio-do-teu-"
+"proxecto.org</literal> xa que é unha convención estándar a día de hoxe; "
+"na definición da lista deberías deixar claro que é unha rolda de moi "
+"baixo tráfico, reservada por anuncios importantes do proxecto. A maioría "
+"destes anuncios van ser sobre novas versións do software, pero "
+"ocasionalmente outros eventos, como os recaudatorios, o descubrimento dunha "
+"vulnerabilidade de seguridade (ver <xref linkend=\"security\"/>)<phrase "
+"output=\"printed\"> máis adiante neste capítulo</phrase>), ou un cambio "
+"importante na dirección do proxecto tamén poden ser enviados a esta rolda. "
+"Dado que é de baixo tráfico e empregada unicamente para cousas "
+"importantes, a lista <literal>announce</literal>  adoita ser a de maior grao "
+"de subscrición de todo o proxecto (o cal, por suposto, significa que non "
+"debes abusar dela; así que pénsao coidadosamente antes de publicar na "
+"mesma). Para evitar que a xente aleatoriamente poida facer anuncios na "
+"mesma, ou peor, que chegue spam a través dela, a lista <literal>announce</"
+"literal> sempre debe estar moderada."
 
 #. Tag: para
 #: ch06.xml:1767
@@ -2592,6 +3134,12 @@ msgid ""
 "page edits, etc.) queued up and then send them all in a row, you can keep "
 "the window of inconsistency very small."
 msgstr ""
+"Tenta facer os anuncios en todos estes lugares ao mesmo tempo, o máis "
+"proximamente posible. A xente pode obter unha sensación de confusión se "
+"ven un anuncio na rolda de correo pero non a ven reflectida na páxina web "
+"do proxecto ou na súa área de notas de prensa. Se encolas todas as fontes "
+"(emails, edición da páxina web, etc) e lanzas todo ao mesmo tempo, entón "
+"seguramente acades unha fiestra de inconsistencia moi pequena."
 
 #. Tag: para
 #: ch06.xml:1775
@@ -2606,6 +3154,15 @@ msgid ""
 "announce list), and an update of the project's timeline or status web page, "
 "but no more."
 msgstr ""
+"Para un evento menos importante, podes prescindir dalgún dos medios "
+"explicados. O evento quedará igualmente notificado ao mundo exterior, pero "
+"farao en proporción á súa importancia. Por exemplo, mentres que unha nova "
+"versión é un evento de importancia, simplemente con marcar a data da "
+"seguinte versión, aínda que sexa aproximada, non é tan importante como o "
+"lanzamento en si mesmo. Marcar a data é merecedora dun correo electrónico "
+"ás roldas de correo diarias (non á de anuncios) así como unha "
+"actualización da planificación temporal ou do estatus na páxina web, pero "
+"non é merecedora de máis."
 
 #. Tag: para
 #: ch06.xml:1784
@@ -2621,6 +3178,15 @@ msgid ""
 "to-be-quoted portion, just as though you were writing a formal press "
 "release. For example:"
 msgstr ""
+"A pesares disto, podes chegar a ver a data en cuestión aparecendo en "
+"discusións por calquera lugar en Internet no que haxa xente interesada no "
+"proxecto. A xente que simplemente é receptora nas roldas de correo, só "
+"escoitando e nunca dicindo nada, non é necesariamente silenciosas en todos "
+"lados. O boca a boca aporta unha distribución moi grande; debes telo en "
+"conta e incluso construír os anuncios menores dun xeito que fomente a "
+"transmisión informal. Especificamente, os correos que esperas que sexan "
+"citados deberían conta cun anaco que diga \"cita esta parte\", como se "
+"estiveses escribindo unha nota de prensa forma. Por exemplo:"
 
 #. Tag: emphasis
 #: ch06.xml:1795
@@ -2630,6 +3196,10 @@ msgid ""
 "mid-August 2005. You can always check http://www.scanley.org/status.html for "
 "updates. The major new feature will be regular-expression searches."
 msgstr ""
+"Actualización de progreso: estamos planificando a versión 2.0 de Ghandalf "
+"para mediados de Agosto do 2010. Sempre podes revisar http://www.ghandalf."
+"org/status.html para ver actualización. A nova funcionalidade de maior "
+"calado vai ser as procuras mediante expresións regulares."
 
 #. Tag: emphasis
 #: ch06.xml:1800
@@ -2638,6 +3208,8 @@ msgid ""
 "Other new features include:&nbsp;... There will also be various bugfixes, "
 "including:&nbsp;..."
 msgstr ""
+"Outras novas funcionalidades inclúen:&nbsp;... A maiores tamén vai haber "
+"varias correccións de erros, incluíndo :&nbsp;... "
 
 #. Tag: para
 #: ch06.xml:1804
@@ -2653,12 +3225,22 @@ msgid ""
 "it easy for them, and in the bargain get some influence over what gets "
 "quoted."
 msgstr ""
+"O primeiro parágrafo é curto, aporta as dúas pezas máis importantes de "
+"información (a data de lanzamento e a nova funcionalidade de maior calado), "
+"e máis unha URL a visitar para ver máis novas. Se este parágrafo é a ú"
+"nica cousas que vai a cruzar pola pantalla dalguén, estariámolo facendo "
+"bastante ben. O resto do correo-e podería perderse sen afectarlle á "
+"esencia do correo. Por suposto, algunhas veces a xente enlazará o correo "
+"enteiro, pero en xeral o normal é que citen unicamente unha parte pequena. "
+"Dado que isto é unha posibilidade, de todos xeitos seguramente queiras "
+"facerllo fácil, e no mesmo paquete tamén contar con influencia sobre o que "
+"se cite."
 
 #. Tag: title
 #: ch06.xml:1816
 #, no-c-format
 msgid "Announcing Security Vulnerabilities"
-msgstr ""
+msgstr "Anunciando Vulnerabilidades de Seguridade"
 
 #. Tag: para
 #: ch06.xml:1818
@@ -2670,6 +3252,12 @@ msgid ""
 "process is visible to all who care to watch: the arrival of the initial "
 "report, the ensuing discussion, and the eventual fix."
 msgstr ""
+"Manexar as vulnerabilidades de seguridade é diferente de manexar calquera "
+"outro tipo de informe de erros. No Software Libre, facer as cousas aberta e "
+"transparentemente adoita ser case unha credo relixioso. Cada paso do proceso "
+"estándar de manexo de erros é visible para calquera que o queira ver: a "
+"chegada da notificación inicial, a conseguinte discusión, e maila eventual "
+"solución."
 
 #. Tag: para
 #: ch06.xml:1825
@@ -2686,6 +3274,17 @@ msgid ""
 "handle this conflict between openness and secrecy, based on the these basic "
 "guidelines:"
 msgstr ""
+"Os erros de seguridade son diferentes. Poden comprometer os datos dos "
+"usuarios, ou incluso os seus ordenadores dun xeito completo. Discutir ese "
+"problema dun xeito aberto podería amosar a súa existencia ao mundo "
+"enteiro&mdash; incluíndo a todas as partes que poderían facer un uso "
+"malicioso do erro. Deste xeito, incluso facer commit dunha solución pode "
+"anunciar a existencia do erro (hai potencias atacantes que vixían dun xeito "
+"sistemático os rexistros públicos de commits dos proxectos, buscando "
+"cambios que indiquen problemas de seguridade no código previo ao cambio). A "
+"maioría dos proxectos Software Libre teñen establecido aproximadamente o "
+"mesmo conxunto de pasos para manexar o conflito entre o aperturismo e o "
+"segredismo, baseado nestas directrices básicas:"
 
 #. Tag: para
 #: ch06.xml:1838
@@ -2694,6 +3293,9 @@ msgid ""
 "Don't talk about the bug publicly until a fix is available; then supply the "
 "fix at exactly the same moment you announce the bug."
 msgstr ""
+"Non falar publicamente sobre o erro ata que haxa unha solución dispoñible; "
+"nese momento fornecer a solución exactamente no mesmo momento no que "
+"anuncias o erro."
 
 #. Tag: para
 #: ch06.xml:1842
@@ -2703,6 +3305,10 @@ msgid ""
 "the project reported the bug, because then you know there's at least one "
 "person outside the project who is able to exploit the vulnerability."
 msgstr ""
+"Acadar a solución o máis axiña que poidas&mdash;especialmente se alguén "
+"externo ao proxecto foi quen informou do erro, porque entón xa sabes que "
+"existe alomenos unha persoa allea ao proxecto que podería explotar a "
+"vulnerabilidade."
 
 #. Tag: para
 #: ch06.xml:1850
@@ -2711,12 +3317,14 @@ msgid ""
 "In practice, those principles lead to a fairly standardized series of steps, "
 "which are described in the sections below."
 msgstr ""
+"Na práctica, estes principios lévannos cara unha serie estandarizada de "
+"pasos, os cales se describen nas seguintes seccións."
 
 #. Tag: title
 #: ch06.xml:1854
 #, no-c-format
 msgid "Receive the report"
-msgstr ""
+msgstr "Recibir o informe"
 
 #. Tag: para
 #: ch06.xml:1856
@@ -2732,6 +3340,17 @@ msgid ""
 "or more\" or something like that, to avoid favoritism. This is the group "
 "that will handle security bugs."
 msgstr ""
+"Obviamente, un proxecto precisa a habilidade de recibir informes de erro de "
+"seguridade enviados por calquera. Pero o enderezo habitual de recepción de "
+"erros non é o mellor lugar, xa que pode estar vixiado por calquera. Debido "
+"a isto, ten unha rolda de correo separada para recibir informes sobre erros "
+"de seguridade. Esta lista de correo non debe ser lexible polo público "
+"xeral, e a subscrición á mesma debe estar estritamente controlada&mdash;"
+"só os desenvolvedores de confianza e con longa participación no proxecto "
+"poden estar nesta lista. Se precisas unha definición formal de \"confianza"
+"\", podes empregar \"todo aquel que teña privilexios de commit dende fai "
+"dous anos ou máis\" ou algo parecido, para evitar favoritismos. Este é o "
+"grupo que vai manexar os erros de seguridade."
 
 #. Tag: para
 #: ch06.xml:1867
@@ -2751,12 +3370,27 @@ msgid ""
 "see <ulink url=\"http://subversion.tigris.org/security.html\"></ulink>, and "
 "view that page's HTML source, for an example."
 msgstr ""
+"Idealmente, a lista de seguridade non debería estar protexida contra spam "
+"nin moderada, dado que non queres que un informe importante sexa descartado "
+"ou retrasado simplemente porque non houbo moderadores on-line esa semana. Se "
+"empregas software de protección automática contra spam, trata de "
+"configuralo cos parámetros de maior tolerancia; é mellor deixar entrar un "
+"poucos correos de spam que perder un informe de erros. Para que a lista sexa "
+"efectiva por suposto que debes publicitar o seu enderezo; pero dado que non "
+"vai estar moderada, e máis importante, pobremente protexida contra spam, "
+"intenta non dar nunca o seu enderezo sen algún tipo de transformación que "
+"oculte o seu enderezo real, tal como se describe en <xref linkend=\"address-"
+"hiding\"/><phrase output=\"printed\"> in <xref linkend=\"technical-"
+"infrastructure\"/></phrase>. Afortunadamente, a ocultación de enderezo non "
+"fai que o enderezo sexa ilexible; bótalle unha ollada a <ulink url=\"http://"
+"subversion.tigris.org/security.html\"></ulink>, e mira o HTML fonte da pá"
+"xina, por exemplo."
 
 #. Tag: title
 #: ch06.xml:1885
 #, no-c-format
 msgid "Develop the fix quietly"
-msgstr ""
+msgstr "Desenvolve silenciosamente a solución ao erro"
 
 #. Tag: para
 #: ch06.xml:1887
@@ -2765,6 +3399,8 @@ msgid ""
 "So what does the security list do when it receives a report? The first task "
 "is to evaluate the problem's severity and urgency:"
 msgstr ""
+"Así que, que fai a lista de seguridade cando recibe un informe? A primeira "
+"tarefa é avaliar a severidade do problema e maila súa urxencia:"
 
 #. Tag: para
 #: ch06.xml:1892
@@ -2774,6 +3410,10 @@ msgid ""
 "over the computer of someone who uses your software? Or does it, say, merely "
 "leak information about the sizes of some of their files?"
 msgstr ""
+"Como de seria é a vulnerabilidade? Permite que un atacante malicioso tome o "
+"control do ordenador de alguén que use o teu software? Ou simplemente pode "
+"haber algunha fuga de información sobre os tamaños dalgúns dos seus "
+"ficheiros?"
 
 #. Tag: para
 #: ch06.xml:1898
@@ -2782,6 +3422,8 @@ msgid ""
 "How easy is it to exploit the vulnerability? Can an attack be scripted, or "
 "does it require circumstantial knowledge, educated guessing, and luck?"
 msgstr ""
+"Como de fácil é explotar a vulnerabilidade? Pode realizarse o ataque con "
+"scripts, ou require coñecemento circunstancial, suposicións e sorte?"
 
 #. Tag: para
 #: ch06.xml:1903
@@ -2798,6 +3440,17 @@ msgid ""
 "at all, but you have no idea how many other people she's told, or how long "
 "she'll wait before exploiting the vulnerability on live installations."
 msgstr ""
+"<emphasis>Quen</emphasis> te informou do problema? A resposta desta pregunto "
+"por suposto que non cambia a natureza da vulnerabilidade, pero dáche unha "
+"idea sobre que outra xente pode coñecelo. Se o informe provén dalgún "
+"desenvolvedor do proxecto, podes estar un pouco máis tranquilo (pero só un "
+"pouco) dado que podes confiar en que non llo teña contado a ninguén máis. "
+"Pola outra banda, se o informe veu nun correo electrónico dende "
+"<literal>anonymous14@globalhackerOrco.net</literal> entón o mellor é que "
+"actúes o máis axiña que poidas. A persoa en cuestión fíxoche un favor "
+"informándote do problema, pero non tes nin idea de a canta outra xente llo "
+"puido contar, ou sobre cando tempo vai tardar antes de explotar a "
+"vulnerabilidade nas instalacións en produción."
 
 #. Tag: para
 #: ch06.xml:1920
@@ -2810,6 +3463,13 @@ msgid ""
 "just haven't reported it. The only time things aren't urgent is when the bug "
 "inherently does not compromise security very severely."
 msgstr ""
+"Ten en conta que a diferencia sobre a que estamos falando adoita ser un "
+"estreito rango entre <emphasis>urxente</emphasis> e "
+"<emphasis>extremadamente&nbsp;urxente</emphasis>. Incluso cando o informe "
+"provén dunha orixe coñecida e amistosa, pode haber outras persoas na Rede "
+"que descubriran o erro xa fai tempo e non o notificaran. O único caso no "
+"que as cousas non son urxente é cando o erro inherentemente non comprometa "
+"a seguridade dun xeito severo."
 
 #. Tag: para
 #: ch06.xml:1928
@@ -2831,6 +3491,24 @@ msgid ""
 "has knowledge that could cause your users big problems. Treat such reporters "
 "well, and hope that they treat you well."
 msgstr ""
+"O literal \"<literal>anonymous14@globalhackerOrco.net</literal>\" non é de "
+"broma. Na realidade podes obter notificacións de erros enviadas por xente "
+"coa identidade cuberta, os cales tanto coas súas palabras como "
+"comportamento nunca chegan a deixar claro de todo se están do teu lado ou "
+"non. Realmente non importa: se te informaron da vulnerabilidade de "
+"seguridade, seguramente pensan que están facendo algo bo por ti, e debes "
+"responder en consecuencia. Agradécelles a notificación, dálles unha data "
+"estimada na que pensas publicar a solución do problema, e mantenos ao "
+"tanto. Algunhas veces son eles quen che dan a ti unha data; isto é, unha "
+"ameaza implícita de publicitar o erro en determinada data, esteas ti "
+"preparado ou non. Aínda que pode parecer un xogo de poder, realmente adoita "
+"ser unha acción preventiva derivada de anteriores decepcións con "
+"produtores irresponsables de software que non toman suficientemente en serio "
+"os erros de seguridade. De calquera xeito, non podes permitirte o luxo de "
+"non prestarlle atención a esta persoa. Despois de todo, se o erro é "
+"severo, el ten un coñecemento que lle podería causar grandes problemas aos "
+"teus usuarios. Trata ben a estes informadores, e reza para que eles tamén "
+"te traten ben a ti."
 
 #. Tag: para
 #: ch06.xml:1946
@@ -2848,6 +3526,18 @@ msgid ""
 "the deadline as rude; it's a time-honored tradition, and there are good "
 "reasons for it."
 msgstr ""
+"Outro informador frecuente de erros de seguridade son os profesionais da "
+"seguridade, persoas que auditan o código como profesión, e están ao tanto "
+"das últimas novas sobre vulnerabilidades no software. Esta xente adoita ter "
+"experiencia nos dous lados do valado&mdash;teñen recibido e enviado "
+"informes, probablemente en maior número que a maioría dos desenvolvedores "
+"do teu proxecto. Normalmente dánche unha data límite para reparar a "
+"vulnerabilidade, antes de facela pública. A data límite adoita ser "
+"negociable, pero depende do informador.; as datas límite están "
+"consideradas polos profesionais da seguridade como o único xeito fiable "
+"para estimular a que as organizacións solucionen os problemas de seguridade "
+"con puntualidade. Debido a isto, non consideres que a data límite é unha "
+"imposición; é unha tradición honorable, motivada por razóns de peso."
 
 #. Tag: para
 #: ch06.xml:1959
@@ -2860,6 +3550,13 @@ msgid ""
 "plus the original reporter (if she wants to be involved) and any developers "
 "who need to be brought in for technical reasons."
 msgstr ""
+"Unha vez que coñezas a severidade e maila urxencia, podes comezar a "
+"traballar na solución. A veces xorde un conflito entre aportar unha "
+"solución elegante e aportala rápido; isto é polo que debes ter ben clara "
+"a urxencia antes de comezar. Mantén a discusión restrinxida unicamente aos "
+"membros da lista de seguridade e, por suposto, ao informador (se quere "
+"participar), incorporando a calquera desenvolvedor que sexa preciso incluír "
+"por motivos técnicos."
 
 #. Tag: para
 #: ch06.xml:1967
@@ -2877,12 +3574,26 @@ msgid ""
 "system like Arch or SVK, you can do the work under full version control, and "
 "just keep that repository inaccessible to outsiders.)"
 msgstr ""
+"Non fagas commit da solución no repositorio. Mantena en formato parche ata "
+"a data da súa publicación. Se fixeras commit da mesma, incluso engadindo "
+"un aparentemente inocente mensaxe no rexistro de log, alguén podería darse "
+"conta e entender o cambio. Nunca sabes quen está mirando o teu repositorio "
+"e os motivos polos que pode estar interesado. Deshabilitar os correos "
+"electrónicos de commit tampouco axuda; primeiro de todo o intervalo "
+"diferencial na secuencia da lista de commits pode ser sospeitoso por si "
+"mesmo, e de todos xeitos, os datos seguirían estando no repositorio. O "
+"mellor é facer todo o desenvolvemento nun parche e manter este parche nun "
+"lugar privado, como un un repositorio separado e privado, coñecido "
+"unicamente pola xente que xa está ao corrente do erro. (Se usas un sistema "
+"de control descentralizado como Arch ou SVK, podes facer o traballo baixo un "
+"completo control de versións, e simplemente manter ese repositorio "
+"inaccesible para os que deba estalo)."
 
 #. Tag: title
 #: ch06.xml:1984
 #, no-c-format
 msgid "CAN/CVE numbers"
-msgstr ""
+msgstr "Números CAN/CVE"
 
 #. Tag: para
 #: ch06.xml:1986
@@ -2892,6 +3603,10 @@ msgid ""
 "number</firstterm> associated with security problems. These numbers usually "
 "look like \"CAN-2004-0397\" or \"CVE-2002-0092\", for example."
 msgstr ""
+"Pode que teñas visto un <firstterm>número CAN</firstterm> ou un "
+"<firstterm>número CVE</firstterm> asociados con problemas de seguridade. "
+"Estes números adoitan presentarse do xeito \"CAN-2004-0397\" ou \"CVE-2002-"
+"0092\", por exemplo."
 
 #. Tag: para
 #: ch06.xml:1991
@@ -2909,6 +3624,19 @@ msgid ""
 "entries are visible to the public, and an entry's number does not change "
 "when it is approved&mdash;the \"CAN\" prefix is simply replaced with \"CVE\"."
 msgstr ""
+"Ambos tipos de números representan o mesmo tipo de entidade: unha entrada "
+"na lista de \"Exposicións e Vulnerabilidades Comúns\", lista mantida en "
+"<ulink url=\"http://cve.mitre.org/\"></ulink>. O propósito da lista é "
+"fornecer nomes estándar para todos os problemas de seguridade, de tal xeito "
+"que cada un teña un número único e canónico que se poida empregar cando "
+"se discuta sobre o mesmo, así como un lugar centralizado a onde ir para "
+"atopar máis información. A única diferencia entre un número \"CAN\" e un "
+"número \"CVE\" está en que o primeiro representa unha entrada candidata, "
+"aínda non aprobada para a súa inclusión na lista oficial pola Xunta "
+"Editorial CVE, mentres que a segunda representa unha entrada efectivamente "
+"aprobada. Aínda así, ambos tipos de entradas son visibles para o público, "
+"e o número dunha entrada non cambia cando a mesma é aprobada&mdash;o "
+"prefixo \"CAN\" simplemente reemprázase por \"CVE\"."
 
 #. Tag: para
 #: ch06.xml:2005
@@ -2926,6 +3654,18 @@ msgid ""
 "abbreviations is at <ulink url=\"http://cve.mitre.org/data/refs/refkey.html"
 "\"></ulink>."
 msgstr ""
+"Unha entrada CAN/VCE non contén en si mesma unha descrición completa do "
+"erro e o xeito de protexerse del. En lugar diso, contén un breve resumo, e "
+"máis unha lista de enlaces a recursos externos (como arquivos de roldas de "
+"correo) onde a xente pode obter información máis detallada. O propósito "
+"verdadeiro de <ulink url=\"http://cve.mitre.org/\"></ulink> pasa por "
+"fornecer un espazo ben organizado no que cada vulnerabilidade poida obter un "
+"nome e unha ruta clara cara máis información. Bótalle unha ollada a "
+"<ulink url=\"http://cve.mitre.org/cgi-bin/cvename.cgi?name=2002-0092\"></"
+"ulink> para ver un exemplo dunha entrada. Ten en conta que os enlaces poden "
+"ser moi parcos, con fontes expostas como abreviaturas cifradas. A chave para "
+"interpretar estas abreviaturas atópase en <ulink url=\"http://cve.mitre.org/"
+"data/refs/refkey.html\"></ulink>."
 
 #. Tag: para
 #: ch06.xml:2018
@@ -2951,6 +3691,28 @@ msgid ""
 "\"></ulink>. (If that happened without your project hearing about it, then "
 "you should worry what else might be going on that you don't know about.)"
 msgstr ""
+"Se a túa vulnerabilidade concorda cos criterios CVE, podes obter un número "
+"CAN para a mesma. O proceso para levar isto a cabo é deliberadamente "
+"tutelado: basicamente, tes que coñecer a alguén, ou a alguén que coñece "
+"a alguén. Isto non é tan tolo como pode parecer. Co obxectivo de evitar a "
+"saturación da Xunta Editorial CVE debido a solicitudes espúreas ou "
+"pobremente escritas, unicamente aceptan solicitudes provintes de fontes que "
+"xa coñecen e nas que confían. Para conseguir que a túa vulnerabilidade se "
+"incorpore á lista, primeiramente debes atopar un camiño dende o teu "
+"proxecto ata a Xunta Editorial CVE. Pregúntalle aos teus desenvolvedores; "
+"probablemente algún dos mesmos coñeza a alguén que tivera percorrido o "
+"proceso CAN con anterioridade, ou que coñecera a alguén que o fixera. A "
+"vantaxe de facelo deste xeito tamén se atopa en que ao longo da cadea pode "
+"que alguén teña o suficiente coñecemento para dicirche que a) non vai a "
+"concibirse como unha vulnerabilidade ou risco baixo os criterios MITRE, polo "
+"que non ten sentido enviarlla, ou b)a vulnerabilidade <emphasis>xa</"
+"emphasis> ten un número CAN ou CVE. A última posibilidade pode xurdir se o "
+"erro de seguridade xa foi previamente publicada noutra lista de seguridade, "
+"como pode ser por exemplo <ulink url=\"http://www.cert.org/\"></ulink>, ou "
+"na rolda de correo BugTraq dispoñible en <ulink url=\"http://www."
+"securityfocus.com/\"></ulink> (Se isto pasa sen que o teu proxecto o saiba, "
+"deberías preocuparte sobre que outras cousas poden saber outros e que ti "
+"non saibas)."
 
 #. Tag: para
 #: ch06.xml:2041
@@ -2963,6 +3725,13 @@ msgid ""
 "but it won't reveal any information about the vulnerability until the date "
 "on which you will be announcing the bug and the fix."
 msgstr ""
+"Se finalmente acadas un número CAN/CVE, o normal é que desexes conseguilo "
+"nas primeiras fases de investigación do teu erro, de xeito que todo o resto "
+"da comunicación poida referirse a ese número. As entradas CAN están "
+"embargadas ata a data de publicación; a entrada unicamente existe como unha "
+"reserva baleira (para que non perdas o nome), pero sen capacidade de rebelar "
+"ningunha información sobre a vulnerabilidade ata que se alcance a data na "
+"que se anuncia a solución do erro."
 
 #. Tag: para
 #: ch06.xml:2049
@@ -2974,12 +3743,17 @@ msgid ""
 "CVE numbers is at <ulink url=\"http://www.debian.org/security/cve-"
 "compatibility\"></ulink>."
 msgstr ""
+"Máis información sobre o proceso CAN/CVE pode atoparse en <ulink url="
+"\"http://cve.mitre.org/cve/identifiers/candidates_explained.html\"></ulink>, "
+"e unha exposición particularmente clara de como se empregan os números CNA/"
+"CVE nos proxectos de Software Libre está dispoñible en <ulink url=\"http://"
+"www.debian.org/security/cve-compatibility\"></ulink>."
 
 #. Tag: title
 #: ch06.xml:2058
 #, no-c-format
 msgid "Pre-notification"
-msgstr ""
+msgstr "Pre-notificación"
 
 #. Tag: para
 #: ch06.xml:2060
@@ -2989,6 +3763,10 @@ msgid ""
 "security mailing list, or who have been brought in to deal with a particular "
 "report) has a fix ready, you need to decide how to distribute it."
 msgstr ""
+"Unha vez que o teu equipo de resposta ante problemas de seguridade (isto é, "
+"aqueles desenvolvedores incluídos na rolda de correo de seguridade ou "
+"involucrados na resolución dun informe concreto) teña a solución lista, "
+"debes decidir como distribuíla."
 
 #. Tag: para
 #: ch06.xml:2065
@@ -3004,6 +3782,17 @@ msgid ""
 "upgrade, so that they are already protected by the time the exploit becomes "
 "public knowledge."
 msgstr ""
+"Se simplemente fas commit da solución no teu repositorio, ou se pola contra "
+"llo anuncias ao mundo, estás forzando a calquera que use o teu software a "
+"actualizarse inmediatamente baixo o risco de ser hackeados. Ás veces o máis "
+"axeitado, en liña co anterior, é levar a cabo unha <firstterm>pre-"
+"notificación</firstterm> no caso de certos usuarios importantes. Isto é "
+"particularmente preciso en software cliente/servidor, onde pode haber "
+"servidores ben coñecidos que son obxectivos tentadores para atacantes. Os "
+"administradores destes servidores van apreciar poder contar con un día "
+"extra ou dous para facer a actualización, de tal xeito que xa estean "
+"protexidos unha vez que o exploit da vulnerabilidade sexa publicamente "
+"coñecido."
 
 #. Tag: para
 #: ch06.xml:2076
@@ -3018,6 +3807,16 @@ msgid ""
 "must be known to be someone who won't blab about the security problem before "
 "the go-public date."
 msgstr ""
+"A pre-notificación significa unicamente enviarlle correos electrónicos aos "
+"administradores anteriores antes da data de publicación da vulnerabilidade, "
+"facéndoos partícipes da existencia da vulnerabilidade e do xeito de "
+"solucionala. Debes facerlle estas pre-notificacións unicamente aquela xente "
+"na que confíes e sexa discreta coa información. Deste xeito, a "
+"cualificación para recibir pre-notificacións ten dúas compoñentes: o "
+"receptor debe administrar un servidor importante e grande onde un incidente "
+"de seguridade poida ser un tema serio, <emphasis>e</emphasis> o receptor "
+"debe ser recoñecido como alguén que non se vaia da lingua antes da "
+"publicación da vulnerabilidade."
 
 #. Tag: para
 #: ch06.xml:2086
@@ -3033,12 +3832,23 @@ msgid ""
 "block or reduce the priority of BCC'd mail, since so much spam is sent via "
 "BCC these days."
 msgstr ""
+"Envía cada correo electrónico de pre-notificación individualmente (un de "
+"cada vez) a cada receptor. <emphasis>Non</emphasis> llo envíes á lista "
+"enteira de destinatarios dunha tacada, dado que nese caso verían o nome do "
+"resto de destinatarios&mdash;dando a entender que esencialmente están "
+"alertando a cada receptor do feito de que <emphasis>cada</emphasis> "
+"destinatario pode ter un burato de seguridade no seu servidor. Enviárllelo "
+"mediante o uso do campo BCC (copia oculta) tampouco é unha boa solución, "
+"dado que algúns administradores protexen as súas bandexas de entrada con "
+"filtros anti-spam que adoitan bloquear ou reducir a prioridade dos correos "
+"electrónicos enviados en copia oculta, dado que moito spam envíase en "
+"copia oculta."
 
 #. Tag: para
 #: ch06.xml:2097
 #, no-c-format
 msgid "Here's a sample pre-notification mail:"
-msgstr ""
+msgstr "Aquí vai unha mostra de correo electrónico de pre-notificación:"
 
 #. Tag: screen
 #: ch06.xml:2099
@@ -3096,6 +3906,66 @@ msgid ""
 "\n"
 "[...patch goes here...]"
 msgstr ""
+"De: Aquí vai o teu nome\n"
+"Para: admin@chachi-famoso-servidor.com\n"
+"Responder-a: Aquí vai o teu nome (e non o enderezo da lista de seguridade)\n"
+"Asunto: Notificación Confidencial de vulnerabilidade en Ghandalf.\n"
+"\n"
+"\n"
+"Este correo electrónico é unha pre-notificación confidencial dunha alerta "
+"de \n"
+"seguridade no servidor Ghandalf.\n"
+"\n"
+"Por favor *non reenvíes* ningunha parte deste correo a ninguén..  O "
+"anuncio público \n"
+"non se vai facer ata o 23 de xaneiro, e gustaríanos manter a información "
+"soterrada\n"
+"ata esa data.\n"
+"\n"
+"Recibiches este correo porque (pensamos que) empregas un servidor Ghandalf,\n"
+"e queremos que o parchees antes de que o burato de seguridade se faga pú"
+"blico o\n"
+"o vindeiro 23 de xaneiro.\n"
+"\n"
+"Referencias:\n"
+"===========\n"
+"\n"
+"   CAN-2004-1771: Stack overflow de Ghandalf baixo consultas de Balrogs\n"
+"\n"
+"Vulnerabilidade:\n"
+"==============\n"
+"\n"
+"   O servidor pode executar comandos arbitrarios se o 'locale' do \n"
+"   servidor está mal configurado e o cliente envía consultas mal "
+"formadas.\n"
+"\n"
+"Severidade:\n"
+"=========\n"
+"\n"
+"   Moi severa, pode involucrar execución de código arbitrario no "
+"servidor.\n"
+"\n"
+"Rodeos:\n"
+"============\n"
+"\n"
+"   Establecer a opción de \"procesado-de-linguaxe-natural\" a 'apagado'\n"
+"   no ficheiro ghandalf.conf péchalle a porta a esta vulnerabilidade.\n"
+"\n"
+"Parche:\n"
+"======\n"
+"\n"
+"   O parche que se adxunta a continuación pode empregarse en Ghandalf 3.0,\n"
+"   3.1, e 3.2.\n"
+"\n"
+"   Unha nova versión pública (Ghandalf 3.2.1) vai ser lanzada xusto "
+"despois\n"
+"   do 23 de xaneiro, para que estea dispoñible ao mesmo tempo que a\n"
+"   vulnerabilidade se fai pública.   Podes parchear agora, ou esperar pola\n"
+"   publicación.  A única diferencia entre Ghandalf 3.2 e Ghandalf 3.2.1 "
+"vai ser\n"
+"   este parche.\n"
+"\n"
+"[...O parche adxúntase aquí...]"
 
 #. Tag: para
 #: ch06.xml:2101
@@ -3109,12 +3979,19 @@ msgid ""
 "worry whether further action is necessary or not, which is precisely the "
 "point of CAN/CVE numbers."
 msgstr ""
+"Se tes un número CAN, achégao na pre-notificación (como se amosou arriba) "
+"aínda que a información aínda estea oculta e aínda que a páxina MITRE "
+"non amose nada. Incluír o número CAN permítelle ao destinatario coñecer "
+"con certeza que o erro que se lle pre-notificou é o mesmo do que máis "
+"tarde escoitou falar nas canles públicas, polo que non vai ter que "
+"preocuparse sobre se é preciso levar a cabo algunha acción máis ou non, "
+"dado que este é precisamente o obxectivo do números CAN/CVE."
 
 #. Tag: title
 #: ch06.xml:2113
 #, no-c-format
 msgid "Distribute the fix publicly"
-msgstr ""
+msgstr "Distribúe publicamente a solución"
 
 #. Tag: para
 #: ch06.xml:2115
@@ -3134,6 +4011,22 @@ msgid ""
 "linkend=\"security-releases\"/><phrase output=\"printed\"> in <xref linkend="
 "\"development-cycle\"/></phrase>.)"
 msgstr ""
+"O último paso na xestión dun erro de seguridade é a distribución pú"
+"blica da solución. Deberías describir o problema nun anuncio sinxelo e "
+"comprensible, dando o número CAN/CVE de estar dispoñible, e describindo "
+"como solucionar o erro tanto dun xeito temporal como dun xeito definitivo. "
+"Normalmente \"solucionar (fix)\" significa levar a cabo unha actualización "
+"a unha nova versión do software, aínda que ás veces pode significar levar "
+"a cabo o parcheo, particularmente no caso de que o software normalmente se "
+"execute en forma de código fonte. Se fas unha nova versión, esta debería "
+"diferir da versión previa unicamente no parche de seguridade. Deste xeito "
+"os administradores conservadores poden levar a cabo a actualización sen "
+"preocuparse sobre que outras cousas poden resultar afectadas; a maiores "
+"tampouco terán que preocuparse no caso de futuras actualización, dado que "
+"a solución ao erro de seguridade vai estar incluída en todas as versión "
+"futura como parte do seu ADN. (Os detalles dos procesos de publicación "
+"discútense en <xref linkend=\"security-releases\"/><phrase output=\"printed"
+"\"> in <xref linkend=\"development-cycle\"/></phrase>.)"
 
 #. Tag: para
 #: ch06.xml:2130
@@ -3155,6 +4048,25 @@ msgid ""
 "cve.mitre.org/about/terminology.html\"></ulink> for a good introduction to "
 "the problem of judging severity."
 msgstr ""
+"Tanto se a solución publicada ao erro de seguridade leva aparellada unha "
+"nova versión do software, como se non, fai o anuncio coa mesma intensidade "
+"coa que farías a publicación dunha nova versión: envía un correo "
+"electrónico á rolda <literal>announce</literal> do proxecto, fai unha nova "
+"nota de prensa, actualiza a entrada en Freshmeat, etc. Aínda que nunca "
+"deberías quitarlle importancia, de cara ao exterior, á existencia dun erro "
+"de seguridade para manter a reputación do proxecto, evidentemente debes "
+"empregar un ton e actitude durante o anuncio do problema de seguridade "
+"acorde coa severidade real do problema. Se o buraco de seguridade conleva "
+"unicamente unha exposición menor de información, e non permite a "
+"existencia de exploits que permitan que o ordenador sexa controlado por "
+"terceiros, mellor evitar un montón de ruído. Incluso podes decidir non "
+"distraer a rolda <literal>announce</literal> con este erro menor. Despois de "
+"todo, se o proxecto constantemente di que ven o lobo, pode que os usuarios "
+"rematen pensando que o software é menos seguro do que realmente é, e "
+"incluso que non te crean cando teñas para anunciar un problema realmente "
+"grande. Bótalle unha ollada a <ulink url=\"http://cve.mitre.org/about/"
+"terminology.html\"></ulink> para unha boa introdución ao problema de "
+"asignar severidade."
 
 #. Tag: para
 #: ch06.xml:2148
@@ -3165,3 +4077,7 @@ msgid ""
 "vulnerabilities is very much an acquired skill, and it's easy to make "
 "missteps the first few times."
 msgstr ""
+"En xeral, se non estás seguro de como tratar un problema de seguridade, "
+"atopa a alguén con experiencia e cóntallo. Avaliar e xestionar "
+"vulnerabilidades é unha destreza que se vai adquirindo, e adoita ser "
+"habitual cometer erros as primeiras veces."
