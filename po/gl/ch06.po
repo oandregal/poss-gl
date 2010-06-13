@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Producing OSS\n"
 "Report-Msgid-Bugs-To: producingoss@listas.ghandalf.org\n"
 "POT-Creation-Date: 2009-07-11 15:33+0000\n"
-"PO-Revision-Date: 2010-06-12 13:31+0200\n"
+"PO-Revision-Date: 2010-06-13 22:27+0200\n"
 "\n"
 "\n"
 "\n"
@@ -401,7 +401,7 @@ msgstr "Edita dúas veces. Le calquera mensaxe que ocupe máis de medio parágra
 #: ch06.xml:278
 #, no-c-format
 msgid "Tone"
-msgstr ""
+msgstr "Tono"
 
 #. Tag: para
 #: ch06.xml:280
@@ -413,7 +413,7 @@ msgid ""
 "would be unacceptable in normal social interactions is simply the default "
 "for free software hackers. Here's a response I once drew on a mailing list "
 "about some free content management software, quoted in full:"
-msgstr ""
+msgstr "Depois de escribir milleiros de mesaxes, o teu estilo converterase en cada vez máis seco. Isto parece se-la norma na maioría dos foros técnicos, e non hai nada malo en que así sexa. Un punto de brevedade e rudeza que sería inaceptable nas iteracións sociais cotias é a norma para os hackers do software libre. Poño a continuación algunhas respostas que obtiven nunha rolda de correo sobre xestores libres de contidos, van entrecomilladas:"
 
 #. Tag: screen
 #: ch06.xml:288
@@ -434,6 +434,18 @@ msgid ""
 "\n"
 "  Shane"
 msgstr ""
+"Podes elaborar máis exactamente qué problemas estás sufrindo?\n"
+"\n"
+"Tamén:\n"
+"\n"
+"Qué versión de Slash usas? Non puiden obtelo da mesaxe orixinal.\n"
+"\n"
+"Cómo tes construido o código do apache/mod_perl?\n"
+"\n"
+"Probaches o parche para Apache 2.0 que foi publicado en slashcode.com?\n"
+"\n"
+"-- Shane\n"
+"\\n"
 
 #. Tag: para
 #: ch06.xml:290
@@ -446,7 +458,7 @@ msgid ""
 "and didn't take his terseness as a sign of anything other than him being a "
 "busy person. The mere fact that he was asking questions, instead of ignoring "
 "my post, meant that he was willing to spend some time on my problem."
-msgstr ""
+msgstr "Iso é sequedade! Sen un saúdo previo, sen firma máis alá do seu nome e o mesaxe mesmo sendo únicamente unha serie de preguntas tan compactas como sexa posible. Cada pregunta en si mesma era unha crítica implícita ó meu orixinal mesaxe. A pesar disto, alegroume recibir a mensaxe de Shane, e non tomei a resposta como un signo de rudeza, senón de que era unha persoa ocupada. O mero feito de que me estivese preguntando, en vez de ignora-la miña mensaxe, quería dicir que estaba disposto a dedicar un pouco do seu tempo no problema."
 
 #. Tag: para
 #: ch06.xml:299
@@ -465,7 +477,7 @@ msgid ""
 "sign off with \"Good luck, &lt;your name here&gt;\" to indicate that you "
 "wish them well and are not mad. A strategically placed smiley face or other "
 "emoticlue can often be enough to reassure an interlocutor, too."
-msgstr ""
+msgstr "Reaccionarían todo tipo de persoas positivamente a este correo? Non necesariamente; dependerá da persoa e do contexto. Por exemplo, si alguén ten posteado recoñecendo que se equivocou (cecáis escribiu un trozo de código con algún erro) e sabes por experiencias anteriores que esta persoa tende a ser un pouco insegura no código que envía, é posible que, aínda que escribas unha resposta lacónica, tamén desexes poñer algo que a faga sentir mellor. A resposta pode ser breve, un análise enxeñeril da situación, tan concisa como desexes. Pero ó final, remata deixando claro que a concisión non se debe tomar como un signo de rudeza. Por exemplo, si tes escrito un consello de cómo debe resolve-lo bug, podes asina-lo correo cun \"Boa sorte, &lt;o teu nome aquí&lt;\" para indicar que lle esperas o mellor dun modo positivo. Un emoticono colocado de modo estratéxico pode ser tamén suficiente."
 
 #. Tag: para
 #: ch06.xml:315
@@ -493,7 +505,7 @@ msgid ""
 "paying attention to small clues, you can usually guess right most of the "
 "time, and motivate people to stay involved to a greater degree than they "
 "otherwise might."
-msgstr ""
+msgstr "Pode parecer extraño poñer os sentementos dos participantes ó mesmo nivel que a propia superficie do que escribe, pero debemos recoñecer que os sentementos afectan á produtividade. Os sentementos son importantes por outras razóns tamén, pero incluso levándoo ó argumentario puramente utilitarista, é posible observar que xente infeliz escribe peor e menos software. Porén, dada a restrinxida natureza dos medios electrónicos, non é sinxelo habitualmente saber cómo se está a sentir unha persoa. Terás que facer unha estimación basándote en a) cómo a maioría da xente se sentiría nesa situación, e b) qué sabes desta persoa por pasadas iteracións con ela. Algunha xente prefire facelo doutro modo, e tratar con todo o mundo sen entrar no terreo das emocións; que si unha persoa non di claramente cómo se sinte, un non ten dereito a tratala como si o supese. Non estou dacordo. Por un par de razóns. Primeiro, a xente non se comporta dese modo na vida offline, entón por qué debería facelo online? A seungda é que, debido a que a maioría das iteraccións teñen lugar en foros públicos, a xente tende a restrinxir máis o ámbito das emocións que en privado. Por ser máis concreto, a xente está máis disposta a expresar emocións dirixidas a outros, como gratitude ou indignación, pero non as internas, como inseguridade ou orgullo. A pesar disto, os seres humás traballan mellor cando eles saben que os outros se preocupan por cómo están. Prestando atención ós pequenos detalles, podes adiviñar o que ocorre a maioría das veces, e motivar á xente para que se involucre en un grado maior do que faría doutro modo."
 
 #. Tag: para
 #: ch06.xml:340
@@ -506,13 +518,13 @@ msgid ""
 "face-to-face. And by being sensitive to the tone of your own writing, you "
 "can have a surprising amount of influence over how others feel, to the "
 "ultimate benefit of the project."
-msgstr ""
+msgstr "Dende logo, non pretendo dicir que o teu rol sexa de psicoterapeuta, axudando a todo o mundo e sendo consciente en todo momento dos seus sentementos. Mais prestando atención ós patróns de comportamento a longo plazo, poderás obter unha imaxe mental deles como individuos incluso si endexamáis os tes visto cara a cara. Sendo precavido do teu propio tono ó escribir as mensaxes, podes ter unha cantidade incribe de influencia sobre os sentementos dos outros, para maior beneficio do proxecto."
 
 #. Tag: title
 #: ch06.xml:353
 #, no-c-format
 msgid "Recognizing Rudeness"
-msgstr ""
+msgstr "Recoñece-la rudeza"
 
 #. Tag: para
 #: ch06.xml:355
@@ -526,13 +538,13 @@ msgid ""
 "software, with its porous boundaries and constant influx of newcomers, is an "
 "environment where these conventions are especially likely to be encountered "
 "by people unfamiliar with them."
-msgstr ""
+msgstr "Unha das características definitorias da cultura do software libre é a noción do que é rudeza e do que non. Aínda que as convencións descritas a continuación non son únicas no mundo do software libre, nen sequera únicas do mundo do software en xeral &mdash; serán familiares a calquera que traballe no ámbito das matemáticas, ciencias duras ou enxeñerías&mdash; o mundo do software libre, coas súas fronteiras porosas e constante fluxo de xente nova, é un ambiente onde estas convencións van a ser vistas por xente non familiarizadas con elas."
 
 #. Tag: para
 #: ch06.xml:365
 #, no-c-format
 msgid "Let's start with the things that are <emphasis>not</emphasis> rude:"
-msgstr ""
+msgstr "Empecemos coas convencións do que <emphasis>non</emphasis> é rudeza:"
 
 #. Tag: para
 #: ch06.xml:368
@@ -545,7 +557,7 @@ msgid ""
 "more of a compliment it becomes to take the time to criticize it (unless the "
 "critique descends into an <foreignphrase>ad hominem</foreignphrase> attack "
 "or some other form of obvious rudeness, of course)."
-msgstr ""
+msgstr "Críticas técnicas, aínda cando sexan directas e sen tacto, non é rudeza. Pode incluso ser visto como un eloxio: implícitamente, o crítico está dicindo que se está tomando en serio o que dis, e vale a pena dedicarlle algún tempo. É dicir, o mellor tería sido simplemente ignorar esa mensaxe, tomarse un tempo para criticalo ten o seu punto de eloxio (a menos que a crítica se convirta nun ataque <foreignphrase>ad hominen</foreignphrase> ou algún outro modo de rudeza, dende logo)."
 
 #. Tag: para
 #: ch06.xml:377
@@ -571,13 +583,13 @@ msgid ""
 "It's just a collision of cultures, not anyone's fault. Explain amiably that "
 "your question (or criticism) had no hidden meanings; it was just meant to "
 "get (or transmit) information as efficiently as possible, nothing more."
-msgstr ""
+msgstr "Preguntas desprovistas de todo adorno, directas ó grano, tales como as anteriores de Shane, tampouco poden considerarse rudas. Preguntas que noutros contextos poden parecer frías, retóricas, ou incluso burlescas, habitualmente son formuladas seriamente, e non teñen maior intención que extraer información o máis rápido posible. A famosa frase de \"está o seu ordenador encendido?\" é un exemplo clásico desto. A persoa que traballa en soporte técnico precisa saber si a computadora está accesa, e logo dos primeiros días de traballo, está cando de engadir previamente á súa pregunta educados acompañamentos como \"desculpe vostede, vou a facerlle unhas preguntas moi sinxelas para descartar certas posibilidades. Algunhas delas poden parecer moi básicas, mais teña un pouco de paciencia...\". Nese momento, xa non lle preocupan as frases de recheo e vai directamente ó esencial. Preguntas dese estilo son realizadas todo o tempo nas roldas de correo do movemento do software libre. Non pretenden insultar á persoa que enviou a mensaxe, senón descartar as máis obvias (e cecáis máis comúns) explicacións. Os que comprendan esta lóxica e reaccionen dacordo con ela están gañando puntos respecto a aqueles que non. Aínda que a estos últimos tampouco se lles pode reprochar a súa actitude. O conflito reside únicamente nun choque de culturas, non no erro de ninguén. Dun modo amigable debes comentar que a pregunta (ou crítica) non tiña significados ocultos, só desexaba obter a información o máis rápido posible."
 
 #. Tag: para
 #: ch06.xml:400
 #, no-c-format
 msgid "So what is rude?"
-msgstr ""
+msgstr "Entón ... qué é rudeza?"
 
 #. Tag: para
 #: ch06.xml:402
@@ -602,7 +614,7 @@ msgid ""
 "<emphasis>why</emphasis> you failed to meet it, is like saying the topic "
 "(and those participating in it) was not worth much of your time. Better to "
 "show that your time is valuable by being terse than by being lazy."
-msgstr ""
+msgstr "Polo mesmo principio baixo o cal unha crítica técnica detallada é un modo de eloxio, fornecer unha crítica mala pode ser considerado unha certa clase de insulto. Non quero dicir ignorar a aportación de alguén, sexa ésta unha proposta, cambio no código, petición de novas funcionalidades, etc. A xente asumirá que non tes tempo para dicir nada. Mais si reaccionas con algunha resposta, non escatimes: tómate o tempo necesario para analizar as cousas, fornece exemplos concretos cando sexa apropiado, investiga nos arquivos para buscar post relacionados no pasado, etc. Ou se non tes tempo para poñer esa clase de esforzo, pero escribes unha breve resposta, entón comeza a túa mensaxe dicindo algo como \"creo que existe algún comentario previo sobre isto, mais non tiven tempo a buscalo, síntoo\". O principal consiste en recoñece-la existencia dunha norma cultural, cumplíndoa ou recoñecendo que esta vez non se puido cumplir. Calquera que sexa a opción escollida, a norma é fortaleida. Non aterse á norma implícita, e ó mesmo tempo non dicir por qué, é como dicir que o asunto (e esos participando nel) non valen o teu tempo. Mellor amosar que o teu tempo é valioso sendo seco que vago."
 
 #. Tag: para
 #: ch06.xml:424
@@ -613,13 +625,13 @@ msgid ""
 "guide to avoid them. See also <xref linkend=\"prevent-rudeness\"/><phrase "
 "output=\"printed\"> in <xref linkend=\"getting-started\"/></phrase>, if you "
 "haven't already."
-msgstr ""
+msgstr "Existen outras moitas formas de rudeza, obviamente. Mais a maioría delas non son específicas do mundo do software libre e o propio sentido común é unha guía máis que suficiente para evitala. Podes botarlle un vistazo ó seguinte enlace <xref linkend=\"prevent-rudeness\"/><phrase output=\"printed\"> in <xref linkend=\"getting-started\"/></phrase>, se aínda non o tes feito."
 
 #. Tag: title
 #: ch06.xml:435
 #, no-c-format
 msgid "Face"
-msgstr ""
+msgstr "Caras"
 
 #. Tag: para
 #: ch06.xml:437
@@ -630,7 +642,7 @@ msgid ""
 "capabilities are mostly inborn, not learned. It turns out that recognizing "
 "individual people is such a crucial survival skill that we have evolved "
 "specialized hardware to do it."
-msgstr ""
+msgstr "Hai unha rexión do cerebro humano diseñada específicamente para recoñecer caras. Coñécese informalmente como \"área de recoñemento de caras\" e as súas capacidaes son maiormente innatas, non aprendidas. Parece que o recoñecemento de persoas é unha tarefa crucial na supervivencia e que temos desenvolvido hardware especializado para facelo."
 
 #. Tag: para
 #: ch06.xml:443
@@ -647,7 +659,7 @@ msgid ""
 "\": a short identifying string that serves some of the same purpose as your "
 "real face, although it does not, unfortunately, stimulate the same built-in "
 "hardware in the brain."
-msgstr ""
+msgstr "A colaboración baseada en internet é asimesmo psicolóxicamente extraña, xa que ten que ver coa estreita cooperación entre seres humanos que casi nunca se recoñecerán uns a outros polos máis naturais, intuitivos métodos: recoñecemento facial, voz, postura, etc. Para compensar todo isto, trata de usar un nome consistente <firstterm>nick</firstterm> en todos lados. Iso debería ser a primeira parte do teu correo (antes de @servidor.com), o nome que tes no IRC, o do repositorio de código, etc. Este nome é a túa cara \"online\": un corto identificador que ten o mesmo propósito que a túa cara real, aínda que desafortunadamente non estimula o mesmo hardware embebido no cerebro."
 
 #. Tag: para
 #: ch06.xml:456
@@ -656,13 +668,13 @@ msgid ""
 "The screen name should be some intuitive permutation of your real name "
 "(mine, for example, is \"kfogel\"). In some situations it will be "
 "accompanied by your full name anyway, for example in mail headers:"
-msgstr ""
+msgstr "O nick podería ser algunha permutación intuitiva do teu nome real (o meu, por exemplo, é \"kfogel\"). Nalgunhas situacións irá acompañado do teu nome completo, por exemplo nas cabeceiras dos correos:"
 
 #. Tag: screen
 #: ch06.xml:461
 #, no-c-format
 msgid "From: \"Karl Fogel\" &lt;kfogel@whateverdomain.com&gt;"
-msgstr ""
+msgstr "De \"Karl Fogel\" &lt;kfogel@whateverdomain.com&gt;"
 
 #. Tag: para
 #: ch06.xml:463
@@ -672,13 +684,13 @@ msgid ""
 "earlier, the screen name matches the real name in an intuitive way. But "
 "also, the real name is <emphasis>real</emphasis>. That is, it's not some "
 "made-up appellation like:"
-msgstr ""
+msgstr "No anterior exemplo pódense notar 2 cousas. O nick encaixa dalgún modo intuitivo co nome real. Pero tamén, o nome real é <emphasis>real</emphasis>. É dicir, non é un nome como:"
 
 #. Tag: screen
 #: ch06.xml:468
 #, no-c-format
 msgid "From: \"Wonder Hacker\" &lt;wonderhacker@whateverdomain.com&gt;"
-msgstr ""
+msgstr "De: \"Maravilloso hacker\" &lt;wonderhacer@whateverdomain.com&gt;"
 
 #. Tag: para
 #: ch06.xml:470
@@ -697,7 +709,7 @@ msgid ""
 "you're simply insecure. Use your real name for all interactions, or if for "
 "some reason you require anonymity, then make up a name that sounds like a "
 "perfectly normal real name, and use it consistently."
-msgstr ""
+msgstr "Paul Steiner, nunha viñeta cómica publicada no The New Yorker o 5 de xullo de 1993 amosa a un can usando unha computadora e decíndolle a outro cunha pose conspiranoica: \"na internet, ninguén sabe que eres un can\". Este tipo de crenzas descansan probablemente detrás dun feixe de auto-bombo e identidades online infladas que a xente se otorga a sí mesmas &mdash; como si chamarse a un mesmo \"hacker maravilloso\" fixese que a xente o crese. Mais os feitos son os feitos: aínda que ninguén sepa que eres un can, seguiralo sendo. Unha identidade online fantasiosa non impresiona ós lectores, senón todo o contrario, failles crer que eres máis imaxe que substancia ou que simplemente eres inseguro. Usa o teu nome real para tódalas interaccións, ou, si por algunha razón precisas usa-lo anonimato, entón invéntate un nome que soa como un real, e úsao consistentemente."
 
 #. Tag: para
 #: ch06.xml:485
@@ -713,7 +725,7 @@ msgid ""
 "send, just don't ever use it as a tool to bolster your position in a "
 "discussion&mdash;the attempt is guaranteed to backfire. You want folks to "
 "respect the person, not the title."
-msgstr ""
+msgstr "Ademáis de usa-la túa identidade dixital dun modo consistente, hai algunhas cousas que poden facela máis atractiva. Si tes un título oficial (e.g., \"doutor\", \"professor\", \"director\"), non alardees del, non o menciones a non ser que sexa relevante na conversa. O mundo hacker, e o do software libre en particular, tende a ve-las insignias e títulos como signos de inseguridade. Non pasa nada si desexas usa-lo como unha firma estándar en cada correo-e que envíes, mais non o uses como un arma que sacar en cada conversa para defende-la túa posición &mdash; pois terá o efecto contrario. Desexas que a comunidade che respete a ti, non ó título."
 
 #. Tag: para
 #: ch06.xml:497
@@ -725,7 +737,7 @@ msgid ""
 "participation in a free software project. For example, the following classic "
 "of the genre appears at the end of every post a particular user makes to a "
 "public mailing list I'm on:"
-msgstr ""
+msgstr "Falando de firmas estándar: fai que sexan pequenas e con bo gusto, ou mellor, que non existan. Evita enviar longos disclaimers adxuntos a cada correo-e, especialmente cando expresan sentimentos incompatibles coa paricipación nunha comunidade de software libre. Por exemplo, o seguinte clásico do xénero aparece ó fin de cada post que un usuario envía a unha rolda de correo á que estou suscrito:"
 
 #. Tag: screen
 #: ch06.xml:505
@@ -771,6 +783,45 @@ msgid ""
 "attachments which do not relate to the official business of the firm\n"
 "are neither given nor endorsed by it."
 msgstr ""
+"IMPORTANT NOTICE\n"
+"\n"
+"If you have received this e-mail in error or wish to read our e-mail\n"
+"disclaimer statement and monitoring policy, please refer to the\n"
+"statement below or contact the sender.\n"
+"\n"
+"This communication is from Deloitte &amp; Touche LLP.  Deloitte &amp;\n"
+"Touche LLP is a limited liability partnership registered in England\n"
+"and Wales with registered number OC303675.  A list of members' names\n"
+"is available for inspection at Stonecutter Court, 1 Stonecutter\n"
+"Street, London EC4A 4TR, United Kingdom, the firm's principal place of\n"
+"business and registered office.  Deloitte &amp; Touche LLP is\n"
+"authorised and regulated by the Financial Services Authority.\n"
+"\n"
+"This communication and any attachments contain information which is\n"
+"confidential and may also be privileged.  It is for the exclusive use\n"
+"of the intended recipient(s).  If you are not the intended\n"
+"recipient(s) please note that any form of disclosure, distribution,\n"
+"copying or use of this communication or the information in it or in\n"
+"any attachments is strictly prohibited and may be unlawful.  If you\n"
+"have received this communication in error, please return it with the\n"
+"title \"received in error\" to IT.SECURITY.UK@deloitte.co.uk then delete\n"
+"the email and destroy any copies of it.\n"
+"\n"
+"E-mail communications cannot be guaranteed to be secure or error free,\n"
+"as information could be intercepted, corrupted, amended, lost,\n"
+"destroyed, arrive late or incomplete, or contain viruses.  We do not\n"
+"accept liability for any such matters or their consequences.  Anyone\n"
+"who communicates with us by e-mail is taken to accept the risks in\n"
+"doing so.\n"
+"\n"
+"When addressed to our clients, any opinions or advice contained in\n"
+"this e-mail and any attachments are subject to the terms and\n"
+"conditions expressed in the governing Deloitte &amp; Touche LLP client\n"
+"engagement letter.\n"
+"\n"
+"Opinions, conclusions and other information in this e-mail and any\n"
+"attachments which do not relate to the official business of the firm\n"
+"are neither given nor endorsed by it."
 
 #. Tag: para
 #: ch06.xml:507
@@ -788,7 +839,7 @@ msgid ""
 "the organization has clearly not banned him outright from posting to public "
 "lists, but it has made his posts look distinctly unwelcoming, as though the "
 "risk of letting out confidential information must trump all other priorities."
-msgstr ""
+msgstr "Para alguén que simplemente envía algunha pregunta de vez en cando, o anterior disclaimer parece un pouco tonto mais probablemente non fai ningún mal. Porén, si a persoa desexase participar máis activamente no proxecto, esa plantilla legal comezaría a ter efectos insidiosos. Enviaría ó resto da comunidade alomenos 2 sinais: primeiro, que a persoa non ten un control total sobre as ferramentas que usa&mdash; está atrapado na maquinaria da compañía para a que traballa&mdash; e segundo, que ten pouco ou ningún soporte por parte da súa organización en canto ás súas actividades na comunidade. Sí, non lle impiden participar en roldas de correo públicas, mais con esa plantilla legal, fai que as súas mensaxes non sexan moi benvidas, enviando a mensaxe de que información confidencial debe imporse sobre calquera outra prioridade."
 
 #. Tag: para
 #: ch06.xml:522
@@ -800,7 +851,7 @@ msgid ""
 "<ulink url=\"http://www.hotmail.com/\">www.hotmail.com</ulink>, or <ulink "
 "url=\"http://www.yahoo.com/\">www.yahoo.com</ulink>, and using that as your "
 "address for the project."
-msgstr ""
+msgstr "Si a túa organización insiste en usar tal final de firma para tódolos correo-e, podes considerar obter unha conta de correo-e gratuita como por exemplo algunha de <ulink url=\"http://gmail.google.com/\">gmail.google.com</ulink>, <ulink url=\"http://www.hotmail.com/\">www.hotmail.com</ulink>, ou <ulink url=\"http://www.yahoo.com/\">www.yahoo.com</ulink>, usándoa para a túa participación no proxecto."
 
 #. Tag: title
 #: ch06.xml:534
