@@ -76,6 +76,8 @@ for file in `find $DIR -iname '*.po'` ; do
             traducidas=42 ; fuzzy=0; noTraducidas=0 ;;
         "CH01" )
             traducidas=58 ; fuzzy=0; noTraducidas=0 ;;
+        "CH06" )
+            traducidas=244; fuzay=0; noTraducidas=0 ;;
     esac
 
     totalCadenas=$((traducidas + fuzzy + noTraducidas))
