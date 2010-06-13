@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: Producing OSS\n"
 "Report-Msgid-Bugs-To: producingoss@listas.ghandalf.org\n"
 "POT-Creation-Date: 2009-07-11 15:33+0000\n"
-"PO-Revision-Date: 2010-06-06 18:40+0200\n"
+"PO-Revision-Date: 2010-06-13 19:44+0200\n"
 "Last-Translator: Pablo Sanxiao <psanxiao@gnome.org>\n"
 "Language-Team: Galician <produccingoss@listas.ghandalf.org>\n"
 "MIME-Version: 1.0\n"
@@ -2200,6 +2200,11 @@ msgid ""
 "in <xref linkend=\"release-number-components\"/> would result in package "
 "names like this:"
 msgstr ""
+"Cando se saca unha pre-versión ou versión candidata, o cualificador é "
+"verdaderemente parte do número de versión, polo tanto inclúese no nome do "
+"paquete. Por exemplo, a secuencia ordeada das versións alpha e beta vista "
+"antes en <xref linkend=\"release-number-components\"/> resultaría nos nomes "
+"de paquete así:"
 
 #. Tag: literallayout
 #: ch07.xml:1022
@@ -2279,6 +2284,15 @@ msgid ""
 "its content is also freely available online at <ulink url=\"http://sources."
 "redhat.com/autobook/\"></ulink>."
 msgstr ""
+"O primeiro comando tanto detecta o entorno como o pode preparar para o "
+"proceso de compilación, o segundo comando compila o software no sitio (pero "
+"non o instala), e o último comando instalao no sistema. Os dous primeiros "
+"comando fanse como usuario normal, o terceiro como root. Para máis detalles "
+"acerca da configuración deste sistema, vexa o excelente libro <citetitle>GNU "
+"Autoconf, Automake, and Libtool</citetitle> escrito por Vaughan, Eliston, "
+"Tromey e Taylor. Está publicado como treeware por New Riders, e o seu "
+"contido está dispoñible gratuitamente online en <ulink url=\"http://sources."
+"redhat.com/autobook/\"></ulink>."
 
 #. Tag: para
 #: ch07.xml:1056
@@ -2295,6 +2309,16 @@ msgid ""
 "experienced developer; you can safely assume that <emphasis>some</emphasis> "
 "standard applies, even if you don't know what it is at first."
 msgstr ""
+"Este non é o único estándar, pero é un dos máis extendidos. O sistema de "
+"compilación Ant (<ulink url=\"http://ant.apache.org/\"></ulink>) está "
+"gañando popularidade, especialmente nos proxectos escritos en Java, e ten os "
+"seus propios procesos de compilación e instalación. Ademáis, certos "
+"linguaxes de programación como Perl e Pyton, recomendan que ese mismo método "
+"sexa empregado por máis programas escritos en esa linguaxe (por exemplo, os "
+"módulos Perl empregan o comando <command>perl&nbsp;Makefile.pl</command>). "
+"Se non é obvio para ti que estándar aplicar para o teu proxecto, pregunta a "
+"un desenvolvedor experimentado; podes asumir con seguridade que se aplica "
+"<emphasis>algún</emphasis> estándar, incluso se non sabes cal é ao principio."
 
 #. Tag: para
 #: ch07.xml:1069
@@ -2310,6 +2334,16 @@ msgid ""
 "><phrase output=\"printed\"> in <xref linkend=\"getting-started\"/></"
 "phrase>, having a standard build procedure pleases potential developers."
 msgstr ""
+"Sexa cal sexa o estándar apropiado para o teu proxecto, non te desvies del a "
+"menos que debas facelo. Os procesos estándar de instalación son "
+"practicamente a columna vertebral para moitos administradores de sistemas "
+"agora. Se ven invocacións familiares documentadas no ficheiro "
+"<filename>INSTALL</filename> do teu proxecto, iso fará que instantáneamente "
+"incrementen a súa fe en que o teu proxecto segue as convencións, e que "
+"probablemente outras cousas tamén están ben. Ademáis, como discutimos <xref "
+"linkend=\"downloads\"/><phrase output=\"printed\"> en <xref linkend="
+"\"getting-started\"/></phrase>, ter un proceso estándar de compilación "
+"complace aos potenciais desenvolvedores."
 
 #. Tag: para
 #: ch07.xml:1081
@@ -2327,6 +2361,18 @@ msgid ""
 "simply use whatever the standard method is for that framework, whether on "
 "Windows, Unix, Mac OS X, or any other operating system."
 msgstr ""
+"En Windows, o estandares para compilar e instalar están menos asentados. "
+"Para proxectos que requiren compilación, a convención xeral parace ser "
+"navegar por unha árbore que pode encaixar dentro do espacio de traballo/"
+"modelo do proxecto do entorno de desenvolvemento estándar de Microsoft "
+"(Developer Studio, Visual Studio, VS.NET, MSVC++, etc). Dependendo da "
+"natureza do teu software, pode ser posible ofrecer a opción dun sistema de "
+"compilación tipo Unix sobre Windows via o entorno Cygwin (<ulink url="
+"\"http://www.cygwin.com/\"></ulink>). E por suposto, se estás empregando "
+"unha linguaxe ou framework de programación que veña coa sua propia "
+"convención&mdash; para compilar e instalar;por exemplo, Perl ou Python&mdash;"
+"simplemente deberias usar o método estándar para ese framework, sexa en "
+"Windows, Unix, Mac OS X, ou calquera outro sistema operativo."
 
 #. Tag: para
 #: ch07.xml:1095
@@ -2339,6 +2385,12 @@ msgid ""
 "developer's very first interaction with the software to require unexpected "
 "steps."
 msgstr ""
+"Estea disposto a poñer un esforzo extra para construir o teu proxecto "
+"conforme a un relevante estándar de compilación ou instalación. Compilación "
+"e instalación é un punto de entrada: está ben para as cousas que se fan máis "
+"duras despois de iso, se deben, pero sería unha pena para os usuarios e "
+"desenvolvedores que a primeira interacción co software requerise pasos "
+"inesperados."
 
 #. Tag: title
 #: ch07.xml:1106
@@ -2361,6 +2413,16 @@ msgid ""
 "system; on MS Windows, it's usually <literal>.MSI</literal> files or self-"
 "installing <literal>.exe</literal> files."
 msgstr ""
+"Ainda que a formal normal dunha versión é un paquete de código fonte, moitos "
+"usuarios instalarana dende paquetes binarios, provistos polo mecanismo de "
+"distribución de software do seu sistema operativo, ou obtido manualmente "
+"dende a páxina web do proxeto ou dende terceiros. Aquí \"binario\" non "
+"necesariamente significa \"compilado\"; simplemente significa algunha forma "
+"de paquete que permite ao usuario instalalo na computadora se pasar polo "
+"proceso de compilar e instalar as fontes. En RedHat GNU/Linux, é o sistema "
+"RPM; en Debian GNU/Linux, é o sistema APT (<filename>.deb</filename>); en MS "
+"Windows, xeralmente ficheiros <literal>.MSI</literal> ou auto-instalables "
+"<literal>.exe</literal>."
 
 #. Tag: para
 #: ch07.xml:1120
@@ -2375,6 +2437,13 @@ msgid ""
 "see to it that what they produce represents the software fairly and "
 "accurately."
 msgstr ""
+"Independentemente de si estes paquetes binarios son empaquetados por xente "
+"vinculada ao proxecto, ou por terceiros, os usuarios <emphasis>trataranos</"
+"emphasis> como se fosen oficiais, e farán cuestións no bug tracker do "
+"proxecto basadas no comportamento deses paquetes binarios. Polo tanto, "
+"redunda no beneficio do proxecto proveer guias claras para os "
+"empaquetadores, e traballar con eles para ver se isto representa beneficios "
+"no software."
 
 #. Tag: para
 #: ch07.xml:1129
@@ -2396,6 +2465,21 @@ msgid ""
 "is a previously unknown bug, having the precise release makes it easier to "
 "reproduce and easier to categorize in the tracker."
 msgstr ""
+"O máis importante que os empaquetadores precisan saber é que eles deben "
+"sempre basarse en versións oficiasi para facer os seus paquetes binarios. "
+"Algunhas veces os empaquetadores están tentados de facer cambios no código, "
+"ou incluir cambios que foron comiteados despois de estar feita a versión, "
+"para proveer aos usuarios de certas melloras. O empaquetador pensa que lles "
+"está a facer un grande favor aos usuarios dándolles a última versión do "
+"código, pero de feito esta práctica causa unha grande confusión. Os "
+"proxectos están preparados para recibir reportes de erros atopados en "
+"versións lanzadas, na rama principal e en recentes ramas (isto é, atopados "
+"por xente que deliberádamente executa este código). Cando un erro reportado "
+"ven destas fontes, o que responde a miudo é capaz de confirmar se ese bug "
+"coñecido está presente en esa versión, e quizais xa foi arranxado e o "
+"usuario debería actualizar ou esperar a seguinte versión. Se é un erro "
+"descoñecido previamente, tendo a versión precisa fai máis sinxelo "
+"reproducilo e categorizalo."
 
 #. Tag: para
 #: ch07.xml:1147
@@ -2412,6 +2496,17 @@ msgid ""
 "official release, and when the predicted bug did not happen, everyone had to "
 "dig around a lot to figure out why."
 msgstr ""
+"Os proxectos non están preparados, sen embargo, para recibir erros "
+"reportados basados en versións intermedias non especificicadas ou híbridas. "
+"Moitos erros poden ser difíciles de reproducir; ademáis, poden ser debidos a "
+"inesperadas interacións en cambios incorporados máis tardes no "
+"desenvolvementos, e dese modo causar malos comportamentos que os "
+"desenvolvedores do proxecto poden no ter culpa. Eu teño visto con "
+"consternación moito tempo perdido por culpa dun bug <emphasis>ausente</"
+"emphasis> cando debería estar presente: alguén estaba executando unha "
+"versión parcheada, basada (pero non idéntica) nuncha versión oficial, e "
+"cando o erro predecido non sucedeu, todo o mundo tiña que excarvar arredor "
+"averiguando o porque."
 
 #. Tag: para
 #: ch07.xml:1159
@@ -2479,6 +2574,12 @@ msgid ""
 "likelihood that a security-conscious user can find a digital trust path from "
 "herself to the tarball."
 msgstr ""
+"En moitos proxectos, os desenvolvedores simplemente usan as suas sinaturas "
+"dixitais, no canto de compartir a chave do proxecto, e como moitos "
+"desenvolvedores queren poder asinar (por exemplo, hai un número mínimo, pero "
+"non máximo). Canto máis desenvolvedores asinen, máis testeo se fai na "
+"versión, e ademáis máis grande a posibilidade de que un consciente-seguro "
+"usuario pode atopar un camiño dixitalmente seguro entre el e o tarball."
 
 #. Tag: para
 #: ch07.xml:1217
@@ -2515,6 +2616,14 @@ msgid ""
 "data. See <xref linkend=\"security-releases\"/><phrase output=\"printed\"> "
 "later in this chapter</phrase> for more about paranoia."
 msgstr ""
+"Non importa realmente a forma de facelo. Simplemente segue un esquema "
+"simple, descrito claramente, e consistente de versión a versión. O propósito "
+"de todo estas sinaturas e checksumming e darlle aos usuarios unha forma de "
+"verificar que a copia que reciben non ten nada malicioso. Os usuarios "
+"executan ese código na sua computadora&mdash;se o código foi alterado con, "
+"un atacante podería ter unha porta de atrás para acceder a todos os datos. "
+"Ver <xref linkend=\"security-releases\"/><phrase output=\"printed\">despois "
+"neste capítulo</phrase> para máis sobre paranoia."
 
 #. Tag: title
 #: ch07.xml:1247
@@ -2538,6 +2647,16 @@ msgid ""
 "last candidate release and the real release is the removal of the qualifier "
 "from the version number."
 msgstr ""
+"Para versións importantes que conteñen moitos cambios, moitos proxectos "
+"prefiren sacar <firstterm>versións candidatas</firstterm> primeiro, p.e.,"
+"<filename>scanley-2.5.0-beta1</filename> antes de <filename>scanley-2.5.0</"
+"filename>. O propósito de unha candidata é probar ese código antes de "
+"bendecila como unha versión oficial. Se se atopan problemas, son arranxados "
+"na rama da versión e unha nova versión candidata é extendida "
+"(<filename>scanley-2.5.0-beta2</filename>). O ciclo continúa ata que non "
+"queden erros inaceptables, neste punto a última versión candidata convírtese "
+"na versión oficial&mdash;iso é, a única diferencia entre a última versión "
+"candidata e a versión real é a falta do cualificador do número de versión."
 
 #. Tag: para
 #: ch07.xml:1262
@@ -2553,6 +2672,15 @@ msgid ""
 "because exposure is the best way to uncover bugs, and also because you never "
 "know which candidate release will end up becoming the official release."
 msgstr ""
+"En moitos outros aspectos, unha versión candidata debería ser tratata como a "
+"versión real. O cualificador <emphasis>alpha</emphasis>, <emphasis>beta</"
+"emphasis> ou <emphasis>rc</emphasis> é suficiente para advertir a usuarios "
+"conservadores que esperen ata a versión real, e por suposto o email de "
+"anuncio para versións candidatas debería apuntar que o seu propósito é "
+"solicitar feedback. Outra cousa, da as versións candidatas a mesma atención "
+"que as regualres. Despois de todo, queres que a xente empregue as "
+"candidatas, porque é o mellor xeito de descubrir erros, e ademáis porque "
+"nuncha sabes que versión candidata se convertirá na versión oficial."
 
 #. Tag: title
 #: ch07.xml:1277
@@ -2569,6 +2697,10 @@ msgid ""
 "\"> in <xref linkend=\"communications\"/></phrase>. There are a few specific "
 "things to do for releases, though."
 msgstr ""
+"Anunciar unha versión é como anunciar calquera outro evento, e debería "
+"empregar os procesos descritos <xref linkend=\"publicity\"/><phrase output="
+"\"printed\"> en <xref linkend=\"communications\"/>. Hay algunhas cousas que "
+"facer específicamente para a versión."
 
 #. Tag: para
 #: ch07.xml:1285
@@ -2584,6 +2716,15 @@ msgid ""
 "secure, but it does reassure people (especially those who don't follow the "
 "project closely) that the project takes security seriously."
 msgstr ""
+"Cando des a URL para descargar o tarball da versión, asegurate tambén de dar "
+"o MD5/SHA1 checksums e punteiros ao ficheiro da sinatura dixital. Xa que o "
+"anuncio sucede en multiples foros (listas de correo, páxinas de novas, "
+"etc.), isto significa que os usuarios poden obter o checksum de varias "
+"fontes, o cal lles a máxima seguridade de que os checksums nos foron "
+"alterados. Dar o enlace aos ficheiros de firma dixital multiples veces non "
+"fai esas firmas máis seguras, pero tranquiliza a xente (especialemente "
+"aqueles que non seguen o proxecto de preto) de que o proxecto se toma a "
+"seguridade seriamente."
 
 #. Tag: para
 #: ch07.xml:1297
@@ -2596,6 +2737,12 @@ msgid ""
 "releases; the presence of bugfixes and new features is important in tempting "
 "people to try out a candidate release."
 msgstr ""
+"En ese mail de anuncio, e nas páxinas de novas que conteñen máis que "
+"simplemente propaganda sobre a versión, asegurate de incluir a porción "
+"relevante do ficheiro CHANGES, para que a xente poida ver porque están "
+"interesados na actualización. Isto é importante con versións candidatas e "
+"con versións finais; a presencia de erros arranxados e novas funcionalidades "
+"é importante e tentador para a xente para probar a versión candidata."
 
 #. Tag: para
 #: ch07.xml:1305
@@ -2609,6 +2756,13 @@ msgid ""
 "slippery slope of credit inflation (see <xref linkend=\"credit\"/><phrase "
 "output=\"printed\"> in <xref linkend=\"managing-volunteers\"/></phrase>)."
 msgstr ""
+"Finalmente, non olvides agradecer ao equipo de desenvolvemento, aso "
+"probadores, e a toda a xente que empregou tempo para facer bos reportes de "
+"erros. Non empregues nomes, a non ser que haxa alguén individualmente "
+"responsable de algunha peza grande de traballo. Simplemente se cauteloso "
+"para non caer na inflacción do crédito (ver <xref linkend=\"credit\"/"
+"><phrase output=\"printed\">en <xref linkend=\"managing-volunteers\"/></"
+"phrase>)."
 
 #. Tag: title
 #: ch07.xml:1320
@@ -2646,6 +2800,12 @@ msgid ""
 "release announcement; however you do it, users need to know that the old "
 "line is being phased out, so they can make upgrade decisions accordingly."
 msgstr ""
+"Despois de que a liña 1.1.x estea ben en camiño, podes declarar a 1.0.x para "
+"ser <firstterm>fin da liña</firstterm>. Isto debería ser anunciado "
+"oficialmente. O anuncio podería ser independente ou podería ser mencionado "
+"como parte do anuncio da versión 1.1.x; sen embargo faino, os usuarios "
+"precisan saber que a liña vella está desfasada, para que eles poidan tomar a "
+"decisión de actualizar."
 
 #. Tag: para
 #: ch07.xml:1345
@@ -2659,6 +2819,13 @@ msgid ""
 "using the older line. When the percentage drops below a certain point, they "
 "declare end of life for the line and stop supporting it."
 msgstr ""
+"Algúns proxectos poñen unha ventana de tempo durante a cal prometen dar "
+"soporte a liña previa da versión. No contexto do software libre, \"soporte\" "
+"quere decir aceptar reportes de erros contra esa liña, e facer versións de "
+"mantemento cando se atopan erros importantes. Outros proxectos non poñen un "
+"tempo definitivos, pero seguen aceptando reportes de erros para calcular "
+"canta xente está empregando a liña vella. Cando a porcentaxe alcanza certo "
+"punto, declaran o fin da vida para esa liña e o soporte."
 
 #. Tag: para
 #: ch07.xml:1354
@@ -2671,12 +2838,18 @@ msgid ""
 "most recent development sources, since some people&mdash;not only active "
 "developers&mdash;will often stay ahead of the official releases."
 msgstr ""
+"Para cada versión, asegurate de ter unha <firstterm>versión obxetivo</"
+"firstterm> ou <firstterm>hito</firstterm> dispoñible no bug tracker, para "
+"que a xente poida cubrir bugs contra esa versión. Non olvides ter tamén un "
+"obxetivo chamado \"desenvolvemento\" ou \"última\" para as fontes de "
+"desenvolvemento máis recentes, xa que algunha xente&mdash; no só "
+"desenvolvedores&mdash; activos; están atentos as versión oficias."
 
 #. Tag: title
 #: ch07.xml:1364
 #, no-c-format
 msgid "Security Releases"
-msgstr ""
+msgstr "Versións seguras"
 
 #. Tag: para
 #: ch07.xml:1366
@@ -2687,6 +2860,10 @@ msgid ""
 "\"/></phrase>, but there are some special details to discuss for doing "
 "security releases."
 msgstr ""
+"A maioría dos detalle para manexar erros de seguridade están cubertos <xref "
+"linkend=\"security\"/><phrase output=\"printed\"> en <xref linkend="
+"\"communications\"/></phrase>, pero hai algúns detalles especiais que "
+"discutir para facer versións seguras."
 
 #. Tag: para
 #: ch07.xml:1371
@@ -2700,6 +2877,13 @@ msgid ""
 "Obviously, the developers can examine the fix among themselves, and test the "
 "release privately, but widespread real-world testing is not possible."
 msgstr ""
+"Unha <firstterm>versión de seguridade</firstterm> é unha versión feita para "
+"pechar unha vulnerabilidade de seguridade. O codigo que arranxa ese bug pode "
+"non facerse público ata que está dispoñible a versión. o cal significa que "
+"non só os cambios non poden ser comiteados ata o día da versión senón que "
+"non se pode publictar e ser testeada antes de estar fora. Obviamente, os "
+"desenvolvedores poden examinar o amaño entre eles, e testear a versión "
+"privadamente, pero sacalo para ser testeado públicamente non é posible."
 
 #. Tag: para
 #: ch07.xml:1380
@@ -2713,6 +2897,14 @@ msgid ""
 "may need to deploy the security fix, but whose upgrade policy prefers that "
 "they not deploy any other changes at the same time."
 msgstr ""
+"Debido a esta falta de testeo, unha versión de seguridade debería sempre "
+"consistir de unha versión existente máis os arranxos para o erro de "
+"seguridade, sen <emphasis>ningún outro cambio</emphasis>. Isto é porque "
+"cantos máis cambios metes sen testear, máis probabilidades de que algún "
+"cause un novo erro, quizais incluso un novo erro de seguridade!. Este "
+"conservadurismo é ademáis amigo dos administradores os cales poden precisar "
+"desplegar o arranxo de seguridade, pero quenes actualizan prefiren que non "
+"se desplegue ningún cambio ao mesmo tempo."
 
 #. Tag: para
 #: ch07.xml:1389
@@ -2765,12 +2957,17 @@ msgid ""
 "commits, where each commit is a well-partitioned subset of the overall "
 "change, and includes nothing unrelated to the overall change."
 msgstr ""
+"Manter versións paralelas simultáneamente ten implicacións para como se fai "
+"o desenvolvemento diario. En particular, fai prácticamente obligatorio unha "
+"disciplina que sería recomendable de calquera forma: ter cada comit como un "
+"simple cambio lóxico, e nunca mezclar cambios non relacionados no mesmo "
+"commit. "
 
 #. Tag: para
 #: ch07.xml:1431
 #, no-c-format
 msgid "Here's an example of an ill-thought-out commit:"
-msgstr ""
+msgstr "Aquí hai un exemplo de commit mal concebido:"
 
 #. Tag: screen
 #: ch07.xml:1433
@@ -2860,6 +3057,12 @@ msgid ""
 "anyway). A little up-front discipline on everyone's part can save the "
 "project a lot of headache later."
 msgstr ""
+"Por suposto, estabilizar unha versión non é a única razón de porque é "
+"desexable que cada commit sexa un cambio lóxico. Psicolóxicamente, un commit "
+"semánticamente unificado é fácil de revisar, e fácil de revertir se é "
+"necesario (en algúns sistemas de control de versións, reversión é realemten "
+"unha especie de merge). Un pouco de disciplina por parte de todo o mundo "
+"pode a larga evitar unha dor de cabeza ao proxecto."
 
 #. Tag: title
 #: ch07.xml:1471
