@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Producing OSS\n"
 "Report-Msgid-Bugs-To: producingoss@listas.ghandalf.org\n"
 "POT-Creation-Date: 2009-07-11 15:35+0000\n"
-"PO-Revision-Date: 2010-01-04 10:54+0100\n"
+"PO-Revision-Date: 2010-06-12 18:14+0200\n"
 "Last-Translator: Nacho Varela <nachouve@gmail.com>\n"
 "Language-Team: galego <producingoss@listas.ghandalf.org>\n"
 "MIME-Version: 1.0\n"
@@ -219,8 +219,8 @@ msgid ""
 msgstr ""
 "Mantis é un sistema de reporte de bugs en web, escrito en PHP e que emprega "
 "MySQL como base de datos de almacenaxe. Conta cas características que se "
-"poden esperar. Persoalmente, encontro a súa interface web limpa, intuitiva e "
-"fácil para a vista."
+"poden esperar. Persoalmente, encontro a súa interface web fácil para a "
+"vista, limpa e intuitiva."
 
 #. Tag: title
 #: appb.xml:104
@@ -244,6 +244,15 @@ msgid ""
 "features (though easy to use); RSS/Atom feeds; wiki and plaintext input; "
 "voting; dependency graphs."
 msgstr ""
+"Flyspray é un sistema web de gestión de erros escrito en PHP. Segundo a súa "
+"páxina web é un sistema \"non complicado\" que inclúe as seguintes "
+"funcionalidades: soporte para diferentes bases de datos (no momento actual, "
+"MySQL e PGSQL), xestión de múltiples proxectos, monitoreo de tareas con "
+"notificacións de cambios (vía email ou jabber), completo histórico de "
+"tarefas, temas visuales con CSS, ficheiros adxuntos, ferramentas avanzadas "
+"de procura (sendo sinxelas de manexar), sindicación vía RSS/Atom, admite "
+"entradas en wiki ou texto plano, mecanismos de votacións e gráficos de "
+"dependencia."
 
 #. Tag: title
 #: appb.xml:117
@@ -264,6 +273,11 @@ msgid ""
 "trackers: data entry, queries, reports, notifications to interested parties, "
 "collaborative accumulation of comments, and dependency tracking."
 msgstr ""
+"A idea principal de Scarab é ofrecer un sistema completo de gestión de "
+"erros, altamente adaptable, que ofrece, máis ou menos, a unión das "
+"ferramentas que outros sistemas de este tipo: entrada de datos, consultas, "
+"informes, notificacións ás partes interesadas, almacenamento de comentarios "
+"colaborativos e rexistro de dependencias."
 
 #. Tag: para
 #: appb.xml:125
@@ -275,12 +289,18 @@ msgid ""
 "support requests, etc.), and add arbitrary attributes, to tune the tracker "
 "to your project's specific requirements."
 msgstr ""
+"Se pode personalizar mediante páxinas web de admistración. Permite ter "
+"activos, nunha única instalación de Scarab, varios \"módulos\" (proxectos) "
+"simultáneamente. Dentro de cada módulo é posible crear novos tipos de "
+"elementos (soporte de peticións, defectos, melloras, tarefas, etc.) e añadir "
+"outros atributos arbitrarios. Todo isto permite adaptar o sistema aos "
+"requisitos determinados de cada proxecto."
 
 #. Tag: para
 #: appb.xml:132
 #, no-c-format
 msgid "As of late 2004, Scarab was getting close to its 1.0 release."
-msgstr ""
+msgstr "A finais do 2004 estabo próximo o lanzamento versión 1.0 de Scarab. "
 
 #. Tag: title
 #: appb.xml:138
@@ -324,6 +344,18 @@ msgid ""
 "use these tools; they'll just write email manually, and they may or may not "
 "follow the bug reporting guidelines posted by your project."
 msgstr ""
+"Dado que a interacción faise mediante clientes de email, un entorno "
+"fácilmente accesible e ao que están afeitos moitos usuarios, o DBTS é bo "
+"para manexar, clasificar e responder rápidamente un gran volume de "
+"notificacións de error. Por suposto, ten desvantaxes tamén. Os "
+"desenvolvedores deben invertir tempo para aprender o sistema de comandos de "
+"email e os usuarios deben escribir os informes de error sen un formulario "
+"que os guíe na información a incluír. Existen ferramentas para axudar aos "
+"usuarios a escribit mellores reportes de erros tales como un programa en "
+"liña de comandos ou o paquete <systemitem>debbugs-el</systemitem> para "
+"Emacs. A maioría da xente non usa estas ferramentas preferindo escribir os "
+"emails manualmente, pero pode que cumplan ou non as reglas sobre "
+"notificación do proxecto."
 
 #. Tag: para
 #: appb.xml:158
@@ -338,7 +370,9 @@ msgstr ""
 #: appb.xml:164
 #, no-c-format
 msgid "Trouble-Ticket Trackers"
-msgstr "<emphasis role=\"bold\">Trouble-Ticket Trackers</emphasis>"
+msgstr ""
+"<emphasis role=\"bold\">Sistemas de rexistro de tickets de problemas "
+"(Trouble-Ticket Trackers)</emphasis>"
 
 #. Tag: para
 #: appb.xml:166
@@ -350,6 +384,12 @@ msgid ""
 "be unusual projects for which a trouble-ticket system might be more "
 "appropriate than a traditional bug tracker."
 msgstr ""
+"Estos sistemas están máis orientados á xestión de tickets de asistencia que "
+"á xestión de erros en programas software. A pesar de que un sistema de "
+"\"bugtracker\" normal pode ser o máis adecuado en xeral, estos sistemas se "
+"incluén nesta obra en pro dun traballo o más completo posible. Sen embargo, "
+"en algúns proxectos poden ser máis axeitados que os tradicionais sistemas de "
+"xestión de erros."
 
 #. Tag: para
 #: appb.xml:175
@@ -384,3 +424,13 @@ msgid ""
 "maintaining information not associated with any specific ticket, such as "
 "internal documentation or FAQs."
 msgstr ""
+"BTT é unha mistura entre un sistema de rexistro de tickets e un xestor de "
+"erros. Ofrece mecanismos de privacidade que non son usuais entre os xestores "
+"de erros. Os usuarios do sistema son clasificados en categorías: empregado "
+"(staff), amigo (friend), cliente (customer) ou anónimo. Esta clasificación "
+"define o nivel de acceso a máis ou menos datos dependendo da categoría de "
+"cada usuario. Ofrece unha certa integración co email, unha interface de liña "
+"de comandos e mecanismos para a conversión de mensaxes de correo electrónico "
+"en tickets. Tamén pode xestionar certa información non vencellada "
+"directamente a un ticket específico, tales como a documentación interna ou "
+"preguntas frecuentes."
