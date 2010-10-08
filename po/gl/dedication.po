@@ -1,13 +1,13 @@
 # Producing OSS - Translating project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# Nacho Varela <nachouve@gmail.com>, 2009.
+# Nacho Varela <nachouve@gmail.com>, 2009, 2010.
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Producing OSS\n"
 "Report-Msgid-Bugs-To: producingoss@listas.ghandalf.org\n"
 "POT-Creation-Date: 2009-07-11 15:34+0000\n"
-"PO-Revision-Date: 2009-12-01 23:33+0100\n"
+"PO-Revision-Date: 2010-09-21 22:19+0200\n"
 "Last-Translator: Nacho Varela <nachouve@gmail.com>\n"
 "Language-Team: galego <producingoss@listas.ghandalf.org>\n"
 "MIME-Version: 1.0\n"
@@ -20,4 +20,6 @@ msgstr ""
 msgid ""
 "This book is dedicated to two dear friends without whom it would not have "
 "been possible: Karen Underhill and Jim Blandy."
-msgstr "Este libro está adicado a dous queridos amigos sen os cales este libro non sería posible: Karen Underhill e Jim Blandy."
+msgstr ""
+"Este libro está dedicado a dous queridos amigos sen os que este libro non "
+"sería posible: Karen Underhill e Jim Blandy."

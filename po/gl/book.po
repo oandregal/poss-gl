@@ -1,12 +1,12 @@
 # Producing OSS - Translating project.
-# Nacho Varela <nachouve@gmail.com>, 2009.
+# Nacho Varela <nachouve@gmail.com>, 2009, 2010.
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Producing OSS\n"
 "Report-Msgid-Bugs-To: producingoss@listas.ghandalf.org\n"
 "POT-Creation-Date: 2009-07-11 15:34+0000\n"
-"PO-Revision-Date: 2009-12-01 23:20+0100\n"
+"PO-Revision-Date: 2010-09-04 21:31+0200\n"
 "Last-Translator: Nacho Varela <nachouve@gmail.com>\n"
 "Language-Team: galego <producingoss@listas.ghandalf.org>\n"
 "MIME-Version: 1.0\n"
@@ -17,13 +17,13 @@ msgstr ""
 #: book.xml:23
 #, no-c-format
 msgid "Producing Open Source Software"
-msgstr "Producindo Software de Fontes Abertas"
+msgstr "Como producir software de código aberto"
 
 #. Tag: subtitle
 #: book.xml:24
 #, no-c-format
 msgid "How to Run a Successful Free Software Project"
-msgstr "Como Lanzar un Exitoso Proxecto de Software Libre"
+msgstr "Como xerir un proxecto de software libre con suceso"
 
 #. Tag: author
 #: book.xml:30
@@ -36,4 +36,4 @@ msgstr "<firstname>Karl</firstname><surname>Fogel</surname>"
 #, no-c-format
 msgid ""
 "Karl Fogel, under a CreativeCommons Attribution-ShareAlike (3.0) license"
-msgstr "Karl Fogel, baixo unha licencia CreativeCommons Atribución-Licenciamento Recíproco (3.0)"
+msgstr "Karl Fogel, baixo licenza CreativeCommons Attribution-ShareAlike (3.0)"
