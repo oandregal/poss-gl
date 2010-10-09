@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit - po2tmx" creationtoolversion="1.8.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Producing Open Source Software</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Como producir software de código aberto</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>How to Run a Successful Free Software Project</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Como xerir un proxecto de software libre con suceso</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>&lt;firstname&gt;Karl&lt;/firstname&gt;&lt;surname&gt;Fogel&lt;/surname&gt;</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>&lt;firstname&gt;Karl&lt;/firstname&gt;&lt;surname&gt;Fogel&lt;/surname&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Karl Fogel, under a CreativeCommons Attribution-ShareAlike (3.0) license</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Karl Fogel, baixo licenza CreativeCommons Attribution-ShareAlike (3.0)</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

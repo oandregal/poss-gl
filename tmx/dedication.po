@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit - po2tmx" creationtoolversion="1.8.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This book is dedicated to two dear friends without whom it would not have been possible: Karen Underhill and Jim Blandy.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Este libro está dedicado a dous queridos amigos sen os que este libro non sería posible: Karen Underhill e Jim Blandy.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

@@ -1,0 +1,1400 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit - po2tmx" creationtoolversion="1.8.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Getting Started</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Primeiros pasos</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The classic model of how free software projects get started was supplied by Eric Raymond, in a now-famous paper on open source processes entitled &lt;citetitle&gt;The Cathedral and the Bazaar&lt;/citetitle&gt;. He wrote:</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>O modelo clásico de como comezan os proxectos de software libre foi proposto por Eric Raymond, nun artigo xa famoso sobre procesos no software libre titulado &lt;citetitle&gt;A catedral e o bazar&lt;citetitle&gt;. Raymond escribiu:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Every good work of software starts by scratching a developer's personal itch.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Todos os bos proxectos de software inícianse para resolver un problema concreto dun desenvolvedor.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>(from &lt;emphasis role="bold"&gt;&lt;ulink url="http://www.catb.org/~esr/writings/cathedral-bazaar/"&gt;&lt;/ulink&gt; &lt;/emphasis&gt;)</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>(de &lt;emphasis role="bold"&gt;&lt;ulink url="http://www.catb.org/~esr/writings/cathedral-bazaar/"&gt;&lt;/ulink&gt; &lt;/emphasis&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Note that Raymond wasn't saying that open source projects happen only when some individual gets an itch. Rather, he was saying that &lt;emphasis&gt;good&lt;/emphasis&gt; software results when the programmer has a personal interest in seeing the problem solved; the relevance of this to free software was that a personal itch happened to be the most frequent motivation for starting a free software project.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Raymond non está dicindo que os proxectos de software libre unicamente xurdan cando un desenvolvedor ten un problema. Máis ben, está dicindo que os &lt;emphasis&gt;bos&lt;/emphasis&gt; programas son resultado de que un programador teña un interese persoal en ver o problema resolto; porén, resolver un problema persoal é a motivación máis frecuente dos proxectos de software libre.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This is still how most free software projects are started, but less so now than in 1997, when Raymond wrote those words. Today, we have the phenomenon of organizations&amp;mdash;including for-profit corporations&amp;mdash;starting large, centrally-managed open source projects from scratch. The lone programmer, banging out some code to solve a local problem and then realizing the result has wider applicability, is still the source of much new free software, but is not the only story.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Aínda que esta segue sendo a razón máis habitual para a creación de moitos proxectos de software libre, é menos agora do que era en 1997, cando Raymond escribiu esas palabras. Hoxe en día, temos o fenómeno de organizacións &amp;mdash;incluíndo as organizacións con ánimo de lucro&amp;mdash; que inician grandes proxectos de software libre desde cero. O programador solitario, dixitando algún código para resolver un problema persoal para decatarse máis tarde de que o seu traballo ten unha aplicación máis ampla, é aínda a fonte da maior parte do software libre de nova factura, mais non a única.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Raymond's point is still insightful, however. The essential condition is that the producers of the software have a direct interest in its success, because they use it themselves. If the software doesn't do what it's supposed to do, the person or organization producing it will feel the dissatisfaction in their daily work. For example, the OpenAdapter project (&lt;ulink url="http://www.openadapter.org/"&gt;&lt;/ulink&gt;), which was started by investment bank Dresdner Kleinwort Wasserstein as an open source framework for integrating disparate financial information systems, can hardly be said to scratch any individual programmer's personal itch. It scratches an institutional itch. But that itch arises directly from the experiences of the institution and its partners, and therefore if the project fails to relieve them, they will know. This arrangement produces good software because the feedback loop flows in the right direction. The program isn't being written to be sold to someone else so they can solve &lt;emphasis&gt;their&lt;/emphasis&gt; problem. It's being written to solve one's &lt;emphasis&gt;own&lt;/emphasis&gt; problem, and then shared with everyone, much as though the problem were a disease and the software were medicine whose distribution is meant to completely eradicate the epidemic.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Contodo, o argumento de Raymond é perspicaz. A condición esencial é que os produtores do software teñan interese directo no seu éxito, xa que eles mesmos o utilizan. Se o programa non se comporta como debería, a persoa ou organización que o levan a cabo sentirá insatisfacción no seu día a día. Por exemplo, o proxecto OpenAdapter (&lt;ulink url="http://www.openadapter.org/"&gt;&lt;/ulink&gt;), que foi iniciado polo banco de investimentos Dresdner Kleinwort Wasserstein como unha ferramenta de traballo de software libre para integrar sistemas de información financeira dispares, é pouco probable que resolva a necesidade persoal dun desenvolvedor. Máis ben resolve a dunha institución. En particular, este problema xorde da experiencia da institución e dos seus socios, por tanto, se o programa non resolver o problema, eles o sufrirán. Esta situación provoca que se produza bo software, xa que a retroalimentación flúe na dirección correcta. O software non está sendo escrito para venderllo a un terceiro, senón para resolver as &lt;emphasis&gt;propias&lt;/emphasis&gt; necesidades, e posteriormente é compartido con todo o mundo, como se o problema fose unha doenza e o software o medicamento, que debe ser distribuído para erradicar a pandemia.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This chapter is about how to introduce a new free software project to the world, but many of its recommendations would sound familiar to a health organization distributing medicine. The goals are very similar: you want to make it clear what the medicine does, get it into the hands of the right people, and make sure that those who receive it know how to use it. But with software, you also want to entice some of the recipients into joining the ongoing research effort to improve the medicine.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Este capítulo versa sobre como presentar ao mundo un novo proxecto de software libre, mais moitas das súas recomendacións seríanlle familiares a unha organización sanitaria que distribúa medicamentos. Os obxectivos son moi similares: desexas deixar claro o que fai o medicamento, facelo chegar ás mans da xente que o necesita e asegurarte de que eses que o reciben saben como usalo. Pero co software,  desexas ademais atraer algúns dos receptores para que se sumen ao actual esforzo de investigación para mellorar o medicamento.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Free software distribution is a twofold task. The software needs to acquire users, and to acquire developers. These two needs are not necessarily in conflict, but they do add some complexity to a project's initial presentation. Some information is useful for both audiences, some is useful only for one or the other. Both kinds of information should subscribe to the principle of scaled presentation; that is, the degree of detail presented at each stage should correspond directly to the amount of time and effort put in by the reader. More effort should always equal more reward. When the two do not correlate tightly, people may quickly lose faith and stop investing effort.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>A distribución de software libre é unha tarefa a dúas bandas: o software precisa de usuarios e de desenvolvedores. Estas necesidades non están necesariamente en conflito, mais engaden algunha complexidade á presentación inicial do proxecto. Algunha información é útil para ambas audiencias, outra unicamente para unha delas. Toda esa información debería seguir o principio de presentación escalada: o grao de detalle presentado en cada etapa debe ser proporcional á cantidade de tempo e esforzo empregado polo lector. Máis esforzo debería acarretar unha recompensa maior. Cando non se equilibran ambos, as persoas poden perder rapidamente a fe e o impulso.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The corollary to this is that &lt;emphasis&gt;appearances matter&lt;/emphasis&gt;. Programmers, in particular, often don't like to believe this. Their love of substance over form is almost a point of professional pride. It's no accident that so many programmers exhibit an antipathy for marketing and public relations work, nor that professional graphic designers are often horrified at what programmers come up with on their own.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>O corolario disto é que &lt;emphasis&gt;as apariencias importan&lt;/emphasis&gt;. Habitualmente, os desenvolvedores non desexan crer nisto. O seu amor pola substancia sobre a forma é case un punto de orgullo profesional. Non é casualidade que tantos programadores amosen unha antipatía pola publicidade e as relacións públicas, nin que os deseñadores gráficos profesionais se horroricen co que os programadores propoñen.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This is a pity, because there are situations where form &lt;emphasis&gt;is&lt;/emphasis&gt; substance, and project presentation is one of them. For example, the very first thing a visitor learns about a project is what its web site looks like. This information is absorbed before any of the actual content on the site is comprehended&amp;mdash;before any of the text has been read or links clicked on. However unjust it may be, people cannot stop themselves from forming an immediate first impression. The site's appearance signals whether care was taken in organizing the project's presentation. Humans have extremely sensitive antennae for detecting the investment of care. Most of us can tell in one glance whether a web site was thrown together quickly or was given serious thought. This is the first piece of information your project puts out, and the impression it creates will carry over to the rest of the project by association.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Isto é unha mágoa, xa que existen situacións onde a forma &lt;emphasis&gt;é&lt;/emphasis&gt; a substancia, e a presentación do proxecto é unha delas. Por exemplo, a primeira cousa que unha persoa descobre sobre un proxecto é a apariencia da súa páxina web. Esta información é absorvida antes que calquera outro contido &amp;mdash; antes de ler un texto ou premer unha ligazón. Aínda que poida parecer inxusto, a xente non pode evitar facerse unha primeira impresión. A apariencia da web sinala se se dedicou tempo e esforzo á organización da presentación do proxecto. Os seres humanos temos unha antena extremadamente sensible para detectar o esforzo dedicado. Moitos de nós podemos decir tras unha única ollada se un sitio web foi publicado rapidamente ou se foi pensado con mimo. Ésta é a primeira peza de información que o proxecto mostra, e, por asociación, a impresión que crea será traspasada ao resto do proxecto.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Thus, while much of this chapter talks about the content your project should start out with, remember that its look and feel matter too. Because the project web site has to work for two different types of visitors&amp;mdash;users and developers&amp;mdash;special attention must be paid to clarity and directedness. Although this is not the place for a general treatise on web design, one principle is important enough to deserve mention, particularly when the site serves multiple (if overlapping) audiences: people should have a rough idea where a link goes before clicking on it. For example, it should be obvious &lt;emphasis&gt;from looking at the links&lt;/emphasis&gt; to user documentation that they lead to user documentation, and not to, say, developer documentation. Running a project is partly about supplying information, but it's also about supplying comfort. The mere presence of certain standard offerings, in expected places, reassures users and developers who are deciding whether they want to get involved. It says that this project has its act together, has anticipated the questions people will ask, and has made an effort to answer them in a way that requires minimal exertion on the part of the asker. By giving off this aura of preparedness, the project sends out a message: "Your time will not be wasted if you get involved," which is exactly what people need to hear.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Así, aínda que a maioría deste capítulo fala sobre o contido co que se debería iniciar o teu proxecto, recorda que a súa apariencia tamén importa. Debido a que a páxina web ten que abranguer dous tipos de visitantes distintos &amp;dash; usuarios e desenvolvedores &amp;dash; debe ser posta especial atención na claridade e concisión. Aínda que este non é lugar para un tratado xeral sobre deseño web, existe un principio o suficientemente importante como para prestarlle atención, particularmente cando a web informa a múltiples (é dicir, solapadas) audiencias: a xente debería ter unha vaga idea de a onde conduce unha ligazón antes de premela. Por exemplo, &lt;emphasis&gt;con só ver a ligazón&lt;/emphasis&gt; á documentación de usuario ten que ficar claro que esta nos leva á documentación de usuario e non, por exemplo, á de desenvolvedor. Xerir un proxecto baséase parcialmente en suministrar información, pero tamén consiste en ofrecer comodidade. A mera presencia de estándares, nos lugares esperados, tranquiliza a usuarios e desenvolvedores que están decidindo se involucrarse ou non no proxecto. Comunica que o proxecto actúa como un todo, que anticipou as cuestións que a xente preguntará e respondeunas de maneira que o visitante teña que facer o mínimo esforzo. Dando esta sensación de preparación, o proxecto envía a seguinte mensaxe: "O teu tempo non será esbanxado se participas", que xustamente é a mensaxe que a xente precisa escoitar.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>But First, Look Around</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Antes de nada, bota unha ollada ao redor</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Before starting an open source project, there is one important caveat:</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Antes de comezar un proxecto de software libre, hai unha advertencia importante:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Always look around to see if there's an existing project that does what you want. The chances are pretty good that whatever problem you want solved now, someone else wanted solved before you. If they did solve it, and released their code under a free license, then there's no reason for you to reinvent the wheel today. There are exceptions, of course: if you want to start a project as an educational experience, pre-existing code won't help; or maybe the project you have in mind is so specialized that you know there is zero chance anyone else has done it. But generally, there's no point not looking, and the payoff can be huge. If the usual Internet search engines don't turn up anything, try searching on &lt;ulink url="http://freshmeat.net/"&gt;&lt;/ulink&gt; (an open source project news site, about which more will be said later), on &lt;ulink url="http://www.sourceforge.net/"&gt;&lt;/ulink&gt;, and in the Free Software Foundation's directory of free software at &lt;ulink url="http://directory.fsf.org/"&gt;&lt;/ulink&gt;.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Olla sempre ao redor para ver se existe un proxecto que fai o que desexas. Son grandes as posibilidades de que calquera problema que desexas resolver, xa o tivese que resolver algún outro anteriormente. Se o fixeron e publicaron o código baixo unha licenza libre, non hai razón ningunha para reinventares a roda. Por suposto que hai excepcións: se desexas iniciar un proxecto como unha experiencia educativa, o código existente non é de axuda; ou se o proxecto que tes en mente é tan especializado que sabes que non existe a posibilidade de que alguén o teña feito xa. Mais, en xeral, non hai excusa para non investigares e a recompensa pode ser grande. Se as ferramentas de procura habituais de internet non mostran nada, trata de procurar en &lt;ulink url="http://freshmeat.net/"&gt;&lt;/ulink&gt; (unha web sobre noticias de proxectos de software libre, sobre o cal se falará máis tarde), en&lt;ulink url="http://www.sourceforge.net/"&gt;&lt;/ulink&gt; e no directorio de proxectos de software libre da Free Software Foundation &lt;ulink url="http://directory.fsf.org/"&gt;&lt;/ulink&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Even if you don't find exactly what you were looking for, you might find something so close that it makes more sense to join that project and add functionality than to start from scratch yourself.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Mesmo se non atopares exactamente o que estás a procurar, podes atopar algo tan semellante que ten máis sentido unirse a ese proxecto e engadir a funcionalidade desexada que comezares un novo pola túa conta.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Starting From What You Have</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Comeza co que tiveres</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You've looked around, found that nothing out there really fits your needs, and decided to start a new project.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Investigaches sen atopares nada que encaixe coas túas necesidades e decidiches comezar un novo proxecto.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>What now?</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>E agora que?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The hardest part about launching a free software project is transforming a private vision into a public one. You or your organization may know perfectly well what you want, but expressing that goal comprehensibly to the world is a fair amount of work. It is essential, however, that you take the time to do it. You and the other founders must decide what the project is really about&amp;mdash;that is, decide its limitations, what it &lt;emphasis&gt;won't&lt;/emphasis&gt; do as well as what it will&amp;mdash;and write up a mission statement. This part is usually not too hard, though it can sometimes reveal unspoken assumptions and even disagreements about the nature of the project, which is fine: better to resolve those now than later. The next step is to package up the project for public consumption, and this is, basically, pure drudgery.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>O máis complexo sobre lanzar un proxecto de software libre é transformar unha visión privada nunha pública. Ti ou a túa organización podedes coñecer perfectamente o que desexades, mais expresar ese obxectivo dunha maneira comprensible ao mundo é complexo. Porén, é esencial que tomes tempo para facelo. Ti e os outros fundadores debedes decidir a temática real do proxecto &amp;dash; é dicir, decidir as súas limitacións, o que vai e o que &lt;emphasis&gt;non&lt;/emphasis&gt; vai facer&amp;mdash; así como redixirdes unha declaración de intencións. Esta parte non adoita ser moi complexa e algunhas veces pode revelar asuncións implícitas e mesmo disconformidades sobre a propia natureza do proxecto, o que é positivo: é mellor resolvelas agora que máis tarde. O seguinte paso é empaquetardes o proxecto para o público, o que é un traballo pesado.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>What makes it so laborious is that it consists mainly of organizing and documenting things everyone already knows&amp;mdash;"everyone", that is, who's been involved in the project so far. Thus, for the people doing the work, there is no immediate benefit. They do not need a &lt;filename&gt;README&lt;/filename&gt; file giving an overview of the project, nor a design document or user manual. They do not need a carefully arranged code tree conforming to the informal but widespread standards of software source distributions. Whatever way the source code is arranged is fine for them, because they're already accustomed to it anyway, and if the code runs at all, they know how to use it. It doesn't even matter, for them, if the fundamental architectural assumptions of the project remain undocumented; they're already familiar with that too.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>O que o torna tan laborioso é que principalmente consiste en organizar e documentar o que xa todo o mundo sabe &amp;mdash; "todo o mundo", é dicir, todos aqueles que teñen participado no proxecto ata agora. Entón, para a xente que fai o traballo non hai beneficio directo por realizar esta tarefa. Eles non precisan un ficheiro chamado &lt;filename&gt;README&lt;/filename&gt; que resuma o proxecto, nin un documento de deseño ou un manual de usuario. Non precisan unha árbore de código meticulosamente ordeada conforme a estándares de distribución de código fonte informais mais ampliamente difundidos. Sexa como for a maneira en que o código fonte estiver organizado, estará ben para eles, xa que están afeitos a el, e se o código funciona, saben como usalo. Nin sequera importa se as asuncións fundamentais da arquitectura do proxecto están sen documentar; tamén están familiarizados con iso.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Newcomers, on the other hand, need these things. Fortunately, they don't need them all at once. It's not necessary for you to provide every possible resource before taking a project public. In a perfect world, perhaps, every new open source project would start out life with a thorough design document, a complete user manual (with special markings for features planned but not yet implemented), beautifully and portably packaged code, capable of running on any computing platform, and so on. In reality, taking care of all these loose ends would be prohibitively time-consuming, and anyway, it's work that one can reasonably hope volunteers will help with once the project is under way.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Por outra banda, os recén chegados precisan esas cousas. Afortunadamente, non as precisan todas á vez. Non é necesario proporcionar todos os recursos posibles antes de facer un proxecto público. Talvez nun mundo perfecto, cada novo proxecto de software libre comezaría a súa vida cun exhaustivo documento de deseño, un manual de usuario completo (con marcas especiais para funcionalidades ideadas mas aínda sen implementar), código bonito e portable, capaz de ser executado en calquera plataforma, etc. En verdade, preocuparse de todos eses flocos consumiría demasiado tempo e, de calquera forma, é traballo que un pode confiar en que fagan os voluntarios unha vez o proxecto esté en marcha.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>What &lt;emphasis&gt;is&lt;/emphasis&gt; necessary, however, is that enough investment be put into presentation that newcomers can get past the initial obstacle of unfamiliarity. Think of it as the first step in a bootstrapping process, to bring the project to a kind of minimum activation energy. I've heard this threshold called the &lt;firstterm&gt;hacktivation energy&lt;/firstterm&gt;: the amount of energy a newcomer must put in before she starts getting something back. The lower a project's hacktivation energy, the better. Your first task is bring the hacktivation energy down to a level that encourages people to get involved.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Porén, o que &lt;emphasis&gt;si&lt;/emphasis&gt; é necesario, é investirmos suficiente esforzo na presentación do proxecto, de modo que os recén chegados poidan superar a barreira inicial ao non estaren familiarizados co proxecto. Considérao como o primeiro paso dun proceso de arranque encamiñado a diminuír a enerxía de activación do proxecto. A este umbral soe chamárselle &lt;firstterm&gt;enerxía de hacktivación&lt;/firsterm&gt;: a cantidade de enerxía que debe aportar un recén chegado antes de recibir algo a cambio. Canto menor sexa o punto de hacktivación, mellor. A primera tarefa é baixar este umbral ata un nivel que anime a xente a participaren.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Each of the following subsections describes one important aspect of starting a new project. They are presented roughly in the order that a new visitor would encounter them, though of course the order in which you actually implement them might be different. You can treat them as a checklist. When starting a project, just go down the list and make sure you've got each item covered, or at least that you're comfortable with the potential consequences if you've left one out.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Cada unha das seguintes subseccións describe un aspecto importante á hora de comezar un novo proxecto. Son presentadas aproximadamente na orde na que un novo visitante as atoparía, aínda que a orde en que sexan implementadas pode ser diferente. Poden ser entendidas como unha lista de tarefas. Cando se inicia un proxecto, é preciso revisar a lista e asegurarse de que cada unha das partes foron tidas en conta, ou que as potenciais consecuencias de deixar algunha sen realizar son asumibles.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Choose a Good Name</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Escolle un bo nome</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Put yourself in the shoes of someone who's just heard about your project, perhaps by having stumbled across it while searching for software to solve some problem. The first thing they'll encounter is the project's name.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Ponte no lugar de alguén que acaba de atopar o proxecto, talvez porque se atopou casualmente con el mentres procuraba software para resolver algún problema. A primeira cousa que vai ver é o nome.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>A good name will not automatically make your project successful, and a bad name will not doom it&amp;mdash;well, a &lt;emphasis&gt;really&lt;/emphasis&gt; bad name probably could do that, but we start from the assumption that no one here is actively trying to make their project fail. However, a bad name can slow down adoption of the project, either because people don't take it seriously, or because they simply have trouble remembering it.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Un bo nome vai tornar o proxecto nun suceso de maneira automática, e un mal nome non o vai condenar ao fracaso &amp;mdash; ben, un nome &lt;emphasis&gt;verdadeiramente&lt;emphasis&gt; malo podería facelo, mais asumiremos que ninguén trata de sabotar o seu proxecto. Porén, un mal nome pode atrasar a adopción, ben porque a xente non o toma en serio, ben porque simplemente lle custe lembralo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>A good name:</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Un bo nome:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Gives some idea what the project does, or at least is related in an obvious way, such that if one knows the name and knows what the project does, the name will come quickly to mind thereafter.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Dá certa idea do que fai o proxecto, ou está polo menos relacionado dunha maneira obvia, tal que, se se ten oído o nome e se sabe o que fai o proxecto, o nome será lembrado rapidamente.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Is easy to remember. Here, there is no getting around the fact that English has become the default language of the Internet: "easy to remember" means "easy for someone who can read English to remember." Names that are puns dependent on native-speaker pronounciation, for example, will be opaque to the many non-native English readers out there. If the pun is particularly compelling and memorable, it may still be worth it; just keep in mind that many people seeing the name will not hear it in their head the way a native speaker would.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>É sinxelo de lembrar. Non se pode obviar o feito de que o inglés se convertiu no idioma franco da internet: "sinxelo de lembrar" quere dicir "sinxelo de lembrar para alguén que saiba inglés". Os nomes que son xogos de palabras dependentes da pronunciación do falante, por exemplo, serán opacos para moitos lectores non nativos. Se o xogo de palabras é particularmente rechamante e memorable, pode pagar a pena; unicamente é preciso ter en mente que moita xente que le o nome non o vai percibir da mesma maneira que un nativo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Is not the same as some other project's name, and does not infringe on any trademarks. This is just good manners, as well as good legal sense. You don't want to create identity confusion. It's hard enough to keep track of everything that's available on the Net already, without different things having the same name.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Non ten o mesmo nome que outro proxecto existente e non infrinxe ningunha marca comercial. É unha cuestión de educación e de cumprir a lei. Non se desexa crear confusión a respecto da marca. Xa é suficientemente complexo manterse ao día de todo o que está dispoñible na rede, sen necesidade de que proxectos distintos teñan o mesmo nome.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The resources mentioned earlier in &lt;xref linkend="look-around"/&gt; are useful in discovering whether another project already has the name you're thinking of. Free trademark searches are available at &lt;ulink url="http://www.nameprotect.org/"&gt;&lt;/ulink&gt; and &lt;ulink url="http://www.uspto.gov/"&gt;&lt;/ulink&gt;.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Os recursos mencionados anteriormente &lt;xref linkend="look-around"/&gt; son útiles para saber se outro proxecto xa posúe o nome no que se está pensando. É posible consultar ferramentas de procura gratuitas de marcas rexistradas en &lt;ulink url="http://www.nameprotect.org/"&gt;&lt;/ulink&gt; e &lt;ulink url="http://www.uspto.gov/"&gt;&lt;/ulink&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If possible, is available as a domain name in the &lt;systemitem&gt;.com&lt;/systemitem&gt;, &lt;systemitem&gt;.net&lt;/systemitem&gt;, and &lt;systemitem&gt;.org&lt;/systemitem&gt; top-level domains. You should pick one, probably &lt;systemitem&gt;.org&lt;/systemitem&gt;, to advertise as the official home site for the project; the other two should forward there and are simply to prevent third parties from creating identity confusion around the project's name. Even if you intend to host the project at some other site (see &lt;xref linkend="starting-with-canned-hosting"/&gt;), you can still register project-specific domains and forward them to the hosting site. It helps users a lot to have a simple URL to remember.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Se for posible,que estea dispoñible como un nome de dominio nos dominios de primeiro nivel &lt;systemitem&gt;.com&lt;/systemitem&gt;, &lt;systemitem&gt;.net&lt;/systemitem&gt; e &lt;systemitem&gt;.org&lt;/systemitem&gt;. Probablemente se debería escoller o &lt;systemitem&gt;.org&lt;/systemitem&gt; para promocionalo como o sitio principal do proxecto; os outros dous deberían redirixidir a este, son útiles unicamente para evitar que terceiras partes creen unha confusión da marca sobre o nome do proxecto. Mesmo se se ten a intención de aloxar o proxecto nalgún outro lugar (ver &lt;xref linkend="starting-with-canned-hosting"/&gt;), é posible rexistrar os dominios e redirixilos ao lugar onde o proxecto está aloxado. É de utilidade para os usuarios ter que recordar unicamente unha URL sinxela.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Have a Clear Mission Statement</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Ten unha clara declaración de intencións</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Once they've found the project's web site, the next thing people will look for is a quick description, a mission statement, so they can decide (within 30 seconds) whether or not they're interested in learning more. This should be prominently placed on the front page, preferably right under the project's name.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Unha vez que se atopa a web do proxecto, o seguinte que a xente fai é procurar unha descrición rápida, unha declaración de intencións para poderen decidir (en menos de 30 segundos) se están interesados ou non en saber máis. Esta debe ser colocada nun lugar prioritario da portada, preferiblemente xusto debaixo do nome do proxecto.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The mission statement should be concrete, limiting, and above all, short. Here's an example of a good one, from &lt;ulink url="http://www.openoffice.org/"&gt;&lt;/ulink&gt;:</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>A declaración de intencións debe ser concreta, restritiva e, sobre todo, curta. Un bo exemplo é a de &lt;ulink url="http://www.openoffice.org/"&gt;&lt;/ulink&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To create, as a community, the leading international office suite that will run on all major platforms and provide access to all functionality and data through open-component based APIs and an XML-based file format.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Crear, en comunidade, a ferramenta ofimática lider a nivel internacional, que funcione nas principais plataformas proporcionando acceso a toda funcionalidade e datos a través de API's baseadas en compoñentes abertos e un formato de ficheiros baseado en XML.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In just a few words, they've hit all the high points, largely by drawing on the reader's prior knowledge. By saying "&lt;emphasis&gt;as a community&lt;/emphasis&gt;", they signal that no one corporation will dominate development; "&lt;emphasis&gt;international&lt;/emphasis&gt;" means that the software will allow people to work in multiple languages and locales; "&lt;emphasis&gt;all major platforms&lt;/emphasis&gt;" means it will be portable to Unix, Macintosh, and Windows. The rest signals that open interfaces and easily understandable file formats are an important part of the goal. They don't come right out and say that they're trying to be a free alternative to Microsoft Office, but most people can probably read between the lines. Although this mission statement looks broad at first glance, in fact it is quite circumscribed: the words "&lt;emphasis&gt;office suite&lt;/emphasis&gt;" mean something very concrete to those familiar with such software. Again, the reader's presumed prior knowledge (in this case probably from MS Office) is used to keep the mission statement concise.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>En poucas palabras, tocaron os puntos relevantes, explicando a misión tendo en conta os coñecementos previos do lector. Ao diciren "&lt;emphasis&gt;en comunidade&lt;/emphasis&gt;", sinalan que ningunha corporación dominará o desenvolvemento; "&lt;emphasis&gt;internacional&lt;/emphasis&gt;" significa que o programa estará dispoñible en diversas linguas e codificacións; "&lt;emphasis&gt;nas principais plataformas&lt;/emphasis&gt;" quere dicir que funcionará en UNIX, Macintosh e Windows. O resto comunica que as interfaces abertas e os formatos de arquivo facilmente lexibles son un aspecto importante dos obxectivos. De boas a primeiras non din que están tratando de ser unha alternativa libre a Microsoft Office, pero a maioría da xente pode ler entre liñas. Aínda que esta declaración de intencións pode parecer ampla a primeira vista, a verdade é que está bastante circunscrita: as palabras "&lt;emphasis&gt;ferramenta ofimática&lt;/emphasis&gt;" indican algo moi concreto a todos aqueles familiarizados con este tipo de programas. Asumir os coñecementos previos do lector (neste caso probablemente de MS Office) permite obter unha declaración de intencións concisa.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The nature of a mission statement depends partly on who is writing it, not just on the software it describes. For example, it makes sense for OpenOffice.org to use the words "&lt;emphasis&gt;as a community&lt;/emphasis&gt;", because the project was started, and is still largely sponsored, by Sun Microsystems. By including those words, Sun indicates its sensitivity to worries that it might try to dominate the development process. With this sort of thing, merely demonstrating awareness of the &lt;emphasis&gt;potential&lt;/emphasis&gt; for a problem goes a long way toward avoiding the problem entirely. On the other hand, projects that aren't sponsored by a single corporation probably don't need such language; after all, development by community is the norm, so there would ordinarily be no reason to list it as part of the mission.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>A natureza da declaración de intencións depende parcialmente de quen a escriba, non só do programa que intenta describir. Por exemplo, ten sentido que OpenOffice.org empregue as palabras "&lt;emphasis&gt;en comunidade&lt;/emphasis&gt;" xa que o proxecto foi iniciado, e aínda é fortemente patrocinado, por Sun Microsystems. Incluíndo esas palabras, Sun amosa unha certa sensibilidade cara a aqueles que poden pensar que tentará controlar o proceso de desenvolvemento. Con esta clase de cousas, amosando preocupación por problemas &lt;emphasis&gt;potenciais&lt;/emphasis&gt;, avánzase moito no camiño de evitar o problema por completo. Por outra banda, os proxectos que non están patrocinados por unha única corporación probablemente non necesiten tal linguaxe; despois de todo, o desenvolvemento feito pola comunidade é a norma, co cal non existiría razón algunha para listalo como parte dos obxectivos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>State That the Project is Free</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Declara que o proxecto é libre</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Those who remain interested after reading the mission statement will next want to see more details, perhaps some user or developer documentation, and eventually will want to download something. But before any of that, they'll need to be sure it's open source.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Aqueles que seguiren interesados logo de ler a declaración de intencións, desexarán coñecer máis detalles, talvez a documentación de usuario ou a de desenvolvedor, mesmo poden desexar descarregarlo. Mais antes de todo iso, necesitarán saber o que é software libre.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>&lt;emphasis&gt;The front page must make it unambiguously clear that the project is open source.&lt;/emphasis&gt; This may seem obvious, but you would be surprised how many projects forget to do it. I have seen free software project web sites where the front page not only did not say which particular free license the software was distributed under, but did not even state outright that the software was free at all. Sometimes the crucial bit of information was relegated to the Downloads page, or the Developers page, or some other place that required one more mouse click to get to. In extreme cases, the license was not given anywhere on the web site at all&amp;mdash;the only way to find it was to download the software and look inside.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>&lt;emphasis&gt;A portada debe deixar claro, sen ambigüidades, que o proxecto é software libre.&lt;/emphasis&gt; Aínda que poida parecer obvio, é sorprendente cantos proxectos olvidan este aspecto. Existen webs de proxectos de software libre que non só non publican a licenza particular que usan, senón que nin sequera indican que o proxecto é libre. Algunhas veces, esta información crucial é relegada á páxina de descargas, á de desenvolvedores ou a algún outro lugar que require un click para chegar a el. En casos extremos, a licenza non se indica en ningún lugar do sitio web &amp;mdash; a única maneira de atopala é descarregar o programa e ollar dentro.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Don't make this mistake. Such an omission can lose many potential developers and users. State up front, right below the mission statement, that the project is "free software" or "open source software", and give the exact license. A quick guide to choosing a license is given in &lt;xref linkend="license-quickstart"/&gt;&lt;phrase output="printed"&gt; later in this chapter&lt;/phrase&gt;, and licensing issues are discussed in detail in &lt;xref linkend="legal"/&gt;.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Non cometas este erro. Tal omisión pode provocar a perda de moitos usuarios e desenvolvedores potenciais. Indícao desde o principio, xusto debaixo da declaración de intencións, que o proxecto é software libre, mostrando a licenza particular escollida. Pódese ver unha guía rápida para elixir licenza en &lt;xref linkend="license-quickstart"/&gt;&lt;phrase output="printed"&gt;máis adiante neste mesmo capítulo&lt;/phrase&gt;, e os aspectos concretos sobre o licenciamento son discutidos con detalle en &lt;xref linkend="legal"/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>At this point, our hypothetical visitor has determined&amp;mdash;probably in a minute or less&amp;mdash;that she's interested in spending, say, at least five more minutes investigating this project. The next sections describe what she should encounter in that five minutes.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Chegados a este punto, un hipotético visitante da web, decidiu &amp;mdash; probablemente nun minuto ou menos &amp;mdash; que está interesado en investir outros cinco minutos informándose sobre o proxecto. As seguintes seccións describen o que debería atopar nos seguintes 5 minutos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Features and Requirements List</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Lista de funcionalidades e requerimentos</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>There should be a brief list of the features the software supports (if something isn't completed yet, you can still list it, but put "&lt;emphasis&gt;planned&lt;/emphasis&gt;" or "&lt;emphasis&gt;in&amp;nbsp;progress&lt;/emphasis&gt;" next to it), and the kind of computing environment required to run the software. Think of the features/requirements list as what you would give to someone asking for a quick summary of the software. It is often just a logical expansion of the mission statement. For example, the mission statement might say:</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Debería existir unha breve lista das funcionalidades que o programa soporta (se algo aínda non estiver completo, podes listalo, mais poñendo "&lt;emphasis&gt;planeado&lt;emphasis&gt;" ou "&lt;emphasis&gt;en &amp;nbsp; progreso&lt;/emphasis&gt;" cerca da funcionalidade), así como o entorno necesario para que o programa funcione. Pensa na lista de funcionalidades/requerimentos como o que lle darías a alguén se pedir un resumo do proxecto. Habitualmente é unha expansión da declaración de intencións. Por exemplo, esta podería dicir:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>&lt;blockquote&gt; &lt;para&gt;&lt;emphasis&gt;To create a full-text indexer and search engine with a rich API, for use by programmers in providing search services for large collections of text files.&lt;/emphasis&gt;&lt;/para&gt; &lt;/blockquote&gt; &lt;para&gt;The features and requirements list would give the details, clarifying the mission statement's scope:&lt;/para&gt; &lt;blockquote&gt; &lt;para&gt;&lt;emphasis&gt;Features:&lt;/emphasis&gt;&lt;/para&gt; &lt;itemizedlist&gt; &lt;listitem&gt;&lt;para&gt;&lt;emphasis&gt;Searches plain text, HTML, and XML&lt;/emphasis&gt;&lt;/para&gt; &lt;/listitem&gt; &lt;listitem&gt;&lt;para&gt;&lt;emphasis&gt;Word or phrase searching&lt;/emphasis&gt;&lt;/para&gt; &lt;/listitem&gt; &lt;listitem&gt;&lt;para&gt;&lt;emphasis&gt;(planned) Fuzzy matching&lt;/emphasis&gt;&lt;/para&gt; &lt;/listitem&gt; &lt;listitem&gt;&lt;para&gt;&lt;emphasis&gt;(planned) Incremental updating of indexes&lt;/emphasis&gt;&lt;/para&gt; &lt;/listitem&gt; &lt;listitem&gt;&lt;para&gt;&lt;emphasis&gt;(planned) Indexing of remote web sites&lt;/emphasis&gt;&lt;/para&gt; &lt;/listitem&gt; &lt;/itemizedlist&gt; &lt;para&gt;&lt;emphasis&gt;Requirements:&lt;/emphasis&gt;&lt;/para&gt; &lt;itemizedlist&gt; &lt;listitem&gt;&lt;para&gt;&lt;emphasis&gt;Python 2.2 or higher&lt;/emphasis&gt;&lt;/para&gt; &lt;/listitem&gt; &lt;listitem&gt;&lt;para&gt;&lt;emphasis&gt;Enough disk space to hold the indexes (approximately 2x original data size)&lt;/emphasis&gt;&lt;/para&gt; &lt;/listitem&gt; &lt;/itemizedlist&gt; &lt;/blockquote&gt;</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>&lt;blockquote&gt; &lt;para&gt;&lt;emphasis&gt;Crear un indexador de texto completo e motor de procura cunha API usable por programadores, que permita fornecer servizos de procura para grandes coleccións de ficheiros.&lt;/emphasis&gt;&lt;/para&gt; &lt;/blockquote&gt; &lt;para&gt;A lista de funcionalidades e requerimentos daría os detalles, restrinxindo o ámbito da declaración de obxectivos:&lt;/para&gt; &lt;blockquote&gt; &lt;para&gt;&lt;emphasis&gt;Funcionalidades:&lt;/emphasis&gt;&lt;/para&gt; &lt;itemizedlist&gt; &lt;listitem&gt;&lt;para&gt;&lt;emphasis&gt;Procura en texto plano, HTML, e XML&lt;/emphasis&gt;&lt;/para&gt; &lt;/listitem&gt; &lt;listitem&gt;&lt;para&gt;&lt;emphasis&gt;Procura de palabras ou frases&lt;/emphasis&gt;&lt;/para&gt; &lt;/listitem&gt; &lt;listitem&gt;&lt;para&gt;&lt;emphasis&gt;(planeada) Coincidencias aproximadas (Fuzzy matching)&lt;/emphasis&gt;&lt;/para&gt; &lt;/listitem&gt; &lt;listitem&gt;&lt;para&gt;&lt;emphasis&gt;(planeada) Actualización incremental de índices&lt;/emphasis&gt;&lt;/para&gt; &lt;/listitem&gt; &lt;listitem&gt;&lt;para&gt;&lt;emphasis&gt;(planeada) Indexación de sitios webs remotos&lt;/emphasis&gt;&lt;/para&gt; &lt;/listitem&gt; &lt;/itemizedlist&gt; &lt;para&gt;&lt;emphasis&gt;Requerementos:&lt;/emphasis&gt;&lt;/para&gt; &lt;itemizedlist&gt; &lt;listitem&gt;&lt;para&gt;&lt;emphasis&gt;Python 2.2 ou superior&lt;/emphasis&gt;&lt;/para&gt; &lt;/listitem&gt; &lt;listitem&gt;&lt;para&gt;&lt;emphasis&gt;Espazo en disco suficiente para almacenar os índices (aproximadamente 2x o tamaño orixinal do conxunto de datos)&lt;/emphasis&gt;&lt;/para&gt; &lt;/listitem&gt; &lt;/itemizedlist&gt; &lt;/blockquote&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>With this information, readers can quickly get a feel for whether this software has any hope of working for them, and they can consider getting involved as developers too.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Con esta información, os lectores poden ter unha idea de se este programa é o que necesitan e valorar a súa implicación no proxecto como desenvolvedores.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Development Status</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Estado do desenvolvemento</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>People always want to know how a project is doing. For new projects, they want to know the gap between the project's promise and current reality. For mature projects, they want to know how actively it is maintained, how often it puts out new releases, how responsive it is likely to be to bug reports, etc.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Á xente gústalle saber como está evoluíndo un proxecto. En proxectos novos, desexan saber a distancia existente entre as palabras e a realidade. En proxectos maduros, desexan coñecer o grao de actividade do mantemento, con que frecuencia se publican novas versións, a receptividade do proxecto para recibir informes de erros, etc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To answer these questions, you should provide a development status page, listing the project's near-term goals and needs (for example, it might be looking for developers with a particular kind of expertise). The page can also give a history of past releases, with feature lists, so visitors can get an idea of how the project defines "progress" and how quickly it makes progress according to that definition.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Para responder a estas cuestións, deberíase crear unha sección na web para desenvolvedores, listando os obxectivos a curto prazo do proxecto e as necesidades (por exemplo, se se están a procurar desenvolvedores expertos nun tema en particular). A páxina pode tamén mostrar as anteriores publicacións do programa con listas de funcionalidades, de cara a que os visitantes poidan ter unha idea de como se define "progreso" neste proxecto e con que rapidez se avanza conforme a esa definición.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Don't be afraid of looking unready, and don't give in to the temptation to hype the development status. Everyone knows that software evolves by stages; there's no shame in saying "This is alpha software with known bugs. It runs, and works at least some of the time, but use at your own risk." Such language won't scare away the kinds of developers you need at that stage. As for users, one of the worst things a project can do is attract users before the software is ready for them. A reputation for instability or bugginess is very hard to shake, once acquired. Conservativism pays off in the long run; it's always better for the software to be &lt;emphasis&gt;more&lt;/emphasis&gt; stable than the user expected than less, and pleasant surprises produce the best kind of word-of-mouth.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Non te preocupes por se dás a sensación de non estares preparado, e non caias na tentación de acelerar o grao de desenvolvemento. Todo o mundo sabe que o software evolúe por etapas; non hai que se envergoñar ao dicir "Este é un programa en estado alpha con erros coñecidos. Corre, e funciona polo menos algunhas veces, así que úsao baixo a túa propia responsabilidade". Este tipo de linguaxe non asustará o tipo de desenvolvedor que precisas nese momento. Por outra banda, de cara ao usuario, unha das peores cousas que pode facer un proxecto é atraelo antes de o programa estar pronto para ser empregado. Unha mala reputación a respecto da estabilidade e erros é difícil de eliminar, unha vez adquirida. Ser conservador paga a pena a longo prazo; sempre é mellor que o software sexa &lt;emphasis&gt;máis&lt;/emphasis&gt; estable do que o usuario espera, que o caso contrario. O mellor boca a boca vén de sorpresas agradables.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Alpha and Beta</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Alpha e Beta</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The term &lt;firstterm&gt;alpha&lt;/firstterm&gt; usually means a first release, with which users can get real work done and which has all the intended functionality, but which also has known bugs. The main purpose of alpha software is to generate feedback, so the developers know what to work on. The next stage, &lt;firstterm&gt;beta&lt;/firstterm&gt;, means the software has had all the serious bugs fixed, but has not yet been tested enough to certify for release. The purpose of beta software is to either become the official release, assuming no bugs are found, or provide detailed feedback to the developers so they can reach the official release quickly. The difference between alpha and beta is very much a matter of judgement.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>O termo &lt;firstterm&gt;alpha&lt;/firstterm&gt; adoita significar unha primeira publicación que se pode usar e ten toda a funcionalidade esperada, pero tamén ten bugs coñecidos. A principal razón de publicar programas en alpha é xerar feedback, de maneira que os desenvolvedores saiban onde concentrar o traballo. A seguinte etapa, &lt;firstterm&gt;beta&lt;/firstterm&gt;, indica que o software ten todos os erros serios resoltos mais non está suficientemente probado para ser publicado como estable. O propósito dos programas beta é convertérense nunha publicación estable, asumindo que non se atoparon erros, ou aportaren feedback suficiente aos desenvolvedores para que se poida obter a estable rapidamente. A diferenza entre alpha e beta é unha cuestión de xuízo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Downloads</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Descargas</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The software should be downloadable as source code in standard formats. When a project is first getting started, binary (executable) packages are not necessary, unless the software has such complicated build requirements or dependencies that merely getting it to run would be a lot of work for most people. (But if this is the case, the project is going to have a hard time attracting developers anyway!)</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>O código fonte do programa debería poderse descarregar en formatos estándar. Cando se lanza un proxecto, os pacotes binarios (executables) non son precisos a menos que o proxecto teña requerimentos ou dependencias moi complexas de compilación, polo que simplemente facelo funcionar sería complexo para a maioría da xente. (Mais se éste for o caso, o proxecto vaino ter complicado para atraer desenvolvedores!)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The distribution mechanism should be as convenient, standard, and low-overhead as possible. If you were trying to eradicate a disease, you wouldn't distribute the medicine in such a way that it requires a non-standard syringe size to administer. Likewise, software should conform to standard build and installation methods; the more it deviates from the standards, the more potential users and developers will give up and go away confused.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>O mecanismo de distribución debería ser o máis estándar e sinxelo posible. Se estiveres tentando erradicar un virus, non distribuirías o medicamento de tal modo que requerise unha agulla especial para ser administrado. De igual modo, o software debería axeitarse a métodos de instalación e compilación estándares; canto máis se desviar do estándar, máis usuarios e desenvolvedores se van dar por vencidos e van abandonar o proxecto.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>That sounds obvious, but many projects don't bother to standardize their installation procedures until very late in the game, telling themselves they can do it any time: &lt;emphasis&gt;"We'll sort all that stuff out when the code is closer to being ready."&lt;/emphasis&gt; What they don't realize is that by putting off the boring work of finishing the build and installation procedures, they are actually making the code take longer to get ready&amp;mdash;because they discourage developers who might otherwise have contributed to the code. Most insidiously, they don't &lt;emphasis&gt;know&lt;/emphasis&gt; they're losing all those developers, because the process is an accumulation of non-events: someone visits a web site, downloads the software, tries to build it, fails, gives up and goes away. Who will ever know it happened, except the person themselves? No one working on the project will realize that someone's interest and good will have been silently squandered.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Aínda que pareza obvio, moitos proxectos non se molestan en estandarizar o proceso de instalación ata moi tarde, dicíndose a si mesmos que teñen tempo a facelo máis adiante: &lt;emphasis&gt;"Enfrontarémonos a esas cuestións cando o código estea case pronto."&lt;/emphasis&gt; Mais non se decatan de que deixando para o final os aburridos procesos de construción e instalación do código están a atrasar a finalización do proxecto&amp;mdash; xa que desalentan a desenvolvedores que de outra maneira poderían ter contribuído no proxecto. O peor de todo é que &lt;emphasis&gt;non saben&lt;/emphasis&gt; que están a perder desenvolvedores, xa que o proceso é unha acumulación de non-eventos: alguén visita a web, descarrega o proxecto, tenta construír o programa, non o consegue, abandona e vaise. Quen saberá algunha vez o que aconteceu, excepto a mesma persoa? Ninguén do proxecto vaise decatar de que o interese de alguén foi desaproveitado.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Boring work with a high payoff should always be done early, and significantly lowering the project's barrier to entry through good packaging brings a very high payoff.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>As tarefas aborridas cun alto beneficio deberían ser feitas nas etapas iniciais do proxecto. E baixar a barreira de entrada utilizando un bo sistema de paquetización consegue un grande beneficio.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>When you release a downloadable package, it is vital that you give a unique version number to the release, so that people can compare any two releases and know which supersedes the other. A detailed discussion of version numbering can be found in &lt;xref linkend="release-numbering"/&gt;, and the details of standardizing build and installation procedures are covered in &lt;xref linkend="packaging"/&gt;&lt;phrase output="printed"&gt;, both in &lt;xref linkend="development-cycle"/&gt;&lt;/phrase&gt;.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Cando se publica un paquete descargable, é vital asignar un número único de versión á publicación, para que a xente poida comparar entre 2 publicacións diferentes e saber cal substitúe cal. Pódese atopar información detallada sobre a numeración de versións en &lt;xref linkend="release-numbering"/&gt;, e os detalles de estandarización dos procesos de construción e instalación son tratados en &lt;xref linkend="packaging"/&gt;&lt;phrase output="printed"&gt;, ambos en &lt;xref linkend="development-cycle"/&gt;&lt;/phrase&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Version Control and Bug Tracker Access</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Control de versións e acceso ao Sistema de notificación de bugs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Downloading source packages is fine for those who just want to install and use the software, but it's not enough for those who want to debug or add new features. Nightly source snapshots can help, but they're still not fine-grained enough for a thriving development community. People need real-time access to the latest sources, and the way to give them that is to use a version control system. The presence of anonymously accessible version controlled sources is a sign&amp;mdash;to both users and developers&amp;mdash;that this project is making an effort to give people what they need to participate. If you can't offer version control right away, then put up a sign saying you intend to set it up soon. Version control infrastructure is discussed in detail in &lt;xref linkend="vc"/&gt;&lt;phrase output="printed"&gt; in &lt;xref linkend="technical-infrastructure"/&gt;&lt;/phrase&gt;.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Descarregar pacotes co código fonte é suficiente para aqueles que unicamente desexan instalar e usar o programa, pero non o é para os que desexan depurar o código ou engadir novas funcionalidades. Empacotar o código diariamente pode axudar, mais non é suficiente para unha comunidade de desenvolvedores saudable. A xente precisa acceso en tempo real ao código fonte, e o modo de darllo é usar un sistema de control de versións. A presenza de código fonte baixo control de versión accesible anonimamente é un signo &amp;mdash; tanto para usuarios como para desenvolvedores &amp;mdash; de que o proxecto está facendo un esforzo por darlle á xente o que precisa para participar. Se non é posible ofrecer control de versións neste momento, indica que se está montando a infraestrutura. Todo o relativo ao control de versións estúdase en detalle en &lt;xref linkend="vc"/&gt;&lt;phrase output="printed"&gt; dentro de &lt;xref linkend="technical-infrastructure"/&gt;&lt;/phrase&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The same goes for the project's bug tracker. The importance of a bug tracking system lies not only in its usefulness to developers, but in what it signifies for project observers. For many people, an accessible bug database is one of the strongest signs that a project should be taken seriously. Furthermore, the higher the number of bugs in the database, the better the project looks. This might seem counterintuitive, but remember that the number of bugs recorded really depends on three things: the absolute number of bugs present in the software, the number of users using the software, and the convenience with which those users can register new bugs. Of these three factors, the latter two are more significant than the first. Any software of sufficient size and complexity has an essentially arbitrary number of bugs waiting to be discovered. The real question is, how well will the project do at recording and prioritizing those bugs? A project with a large and well-maintained bug database (meaning bugs are responded to promptly, duplicate bugs are unified, etc.) therefore makes a better impression than a project with no bug database, or a nearly empty database.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>O mesmo é aplicable para o sistema de notificación de erros do proxecto. A importancia deste sistema non só reside na utilidade para os desenvolvedores, senón o que isto significa para a xente que ve o proxecto desde fóra. Para moita xente, unha base de datos de erros accesible é un dos signos máis importantes de que o proxecto debe ser tomado en serio. Ademais, cantos máis erros rexistrados, mellor. Aínda que poida parecer contraintuitivo, é preciso recordar que o número de erros almacenado depende de 3 claves: o número absoluto de erros presentes no programa, o número de usuarios que o usan e a facilidade coa que os usuarios poden rexistrar os erros. Deses 3 factores, os últimos 2 son máis significativos que o primeiro. Calquera aplicación de tamaño e complexidade suficientes ten unha cantidade arbitraria de erros esperando a seren descubertos. A verdadeira cuestión é o ben que o proxecto almanece e priorice eses erros. Un proxecto cunha base de datos de erros grande e ben mantida (é dicir, os erros aténdense sen demoras, os duplicados son unificados, etc) dá mellor impresión que un proxecto sen base de datos ou cunha case inexistente.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Of course, if your project is just getting started, then the bug database will contain very few bugs, and there's not much you can do about that. But if the status page emphasizes the project's youth, and if people looking at the bug database can see that most filings have taken place recently, they can extrapolate from that that the project still has a healthy &lt;emphasis&gt;rate&lt;/emphasis&gt; of filings, and they will not be unduly alarmed by the low absolute number of bugs recorded.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Obviamente, se o proxecto acaba de comezar, a base de datos de erros conterá poucos, non hai moito que facer ao respecto. Mais se a páxina do proxecto indica a súa xuventude e se a xente que usa a base de datos pode ver que a maioría dos erros foron notificados recentemente, é posible extrapolar que o proxecto ten un &lt;emphasis&gt;ratio&lt;/emphasis&gt; de rexistros saudable e os visitantes non se alarmarán polo baixo número total de erros rexistrados.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Note that bug trackers are often used to track not only software bugs, but enhancement requests, documentation changes, pending tasks, and more. The details of running a bug tracker are covered in &lt;xref linkend="bug-tracker"/&gt;&lt;phrase output="printed"&gt; in &lt;xref linkend="technical-infrastructure"/&gt;&lt;/phrase&gt;, so I won't go into them here. The important thing from a presentation point of view is just to &lt;emphasis&gt;have&lt;/emphasis&gt; a bug tracker, and to make sure that fact is visible from the front page of the project.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>É preciso sinalar que os sistemas de notificación de erros son habitualmente empregados non só para manter un rexistro de erros no software, senón tamén para indicar peticións de funcionalidades, mudanzas na documentación, tarefas pendentes, etc. Os detalles sobre a xestión dun sistema de notificación de erros son comentados en &lt;xref linkend="bug-tracker"/&gt;&lt;phrase output="printed"&gt; dentro de &lt;xref linkend="technical-infrastructure"/&gt;&lt;/phrase&gt;, polo que non se entrará en detalles aquí. Desde o punto de vista da presentación, a importancia radica en &lt;emphasis&gt;ter&lt;/emphasis&gt; un sistema de notificación e asegurarse de que é visible desde a páxina principal do proxecto.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Communications Channels</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Canais de comunicación</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Visitors usually want to know how to reach the human beings involved with the project. Provide the addresses of mailing lists, chat rooms, and IRC channels, and any other forums where others involved with the software can be reached. Make it clear that you and the other authors of the project are subscribed to these mailing lists, so people see there's a way to give feedback that will reach the developers. Your presence on the lists does not imply a committment to answer all questions or implement all feature requests. In the long run, most users will probably never join the forums anyway, but they will be comforted to know that they &lt;emphasis&gt;could&lt;/emphasis&gt; if they ever needed to.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Habitualmente, os visitantes da web desexan saber como porse en contato coa xente implicada no proxecto. Proporciona a dirección das listas de correo, salas de chat, canais de IRC e calquera outro foro onde a comunidade interactúe. Deixa claro que tanto ti como os outros participantes do proxecto estades subscritos a estas roldas de correo, para que a xente vexa que existe un modo de enviar feedback aos desenvolvedores. A presenza nas roldas de correo non implica a obrigación de responder todas as preguntas nin implementar todas as peticións de funcionalidades. A longo prazo, moitos usuarios non se van cadastrar nos foros, mais gustaralles saber que poderían facelo se algunha vez o precisaren.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In the early stages of a project, there's no need to have separate user and developer forums. It's much better to have everyone involved with the software talking together, in one "room." Among early adopters, the distinction between developer and user is often fuzzy; to the extent that the distinction can be made, the ratio of developers to users is usually much higher in the early days of the project than later on. While you can't assume that every early adopter is a programmer who wants to hack on the software, you can assume that they are at least interested in following development discussions and in getting a sense of the project's direction.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>En etapas iniciais do proxecto, non hai necesidade de ter foros separados para usuarios e desenvolvedores. É mellor ter a todo o mundo falando xuntos, nunha única "sala". Entre os primeiros participantes do proxecto, a distinción entre usuario e desenvolvedor é confusa; mais se a distinción tivese que ser feita, o ratio entre desenvolvedores e usuarios é habitualmente máis alta no comezo. Aínda que non é posible asumir que cada participante nas etapas iniciais sexa un programador que desexa hackear o programa, é posible asumir que están polo menos interesados en seguir os debates sobre o desenvolvemento e obter unha visión de cara a onde avanza o proxecto.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>As this chapter is only about getting a project started, it's enough merely to say that these communications forums need to exist. Later, in &lt;xref linkend="growth"/&gt;&lt;phrase output="printed"&gt; in &lt;xref linkend="communications"/&gt;&lt;/phrase&gt;, we'll examine where and how to set up such forums, the ways in which they might need moderation or other management, and how to separate user forums from developer forums, when the time comes, without creating an unbridgeable gulf.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Xa que este capítulo únicamente versa sobre como iniciar un proxecto, chega con dicir que os foros de comunicacións teñen que existir. Máis adiante, en &lt;xref linkend="growth"/&gt;&lt;phrase output="printed"&gt; dentro de &lt;xref linkend="communications"/&gt;&lt;/phrase&gt;, examinarase onde e como establecer as maneiras en que poden ser xestionados e moderados, e como separar foros de usuarios de foros de desenvolvedores, cando for preciso, sen crear un abismo infranqueable.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Developer Guidelines</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Pautas de desenvolvemento</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If someone is considering contributing to the project, she'll look for developer guidelines. Developer guidelines are not so much technical as social: they explain how the developers interact with each other and with the users, and ultimately how things get done.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Se alguén está a pensar en contribuir a un proxecto, buscará as pautas de desenvolvemento. Estas pautas non son tanto técnicas como sociais: explican como os desenvolvedores interactúan entre si e cos usuarios ou como se realiza o traballo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This topic is covered in detail in &lt;xref linkend="written-rules"/&gt;&lt;phrase output="printed"&gt; in &lt;xref linkend="social-infrastructure"/&gt;&lt;/phrase&gt;, but the basic elements of developer guidelines are: &lt;itemizedlist&gt; &lt;listitem&gt;&lt;para&gt;pointers to forums for interaction with other developers&lt;/para&gt; &lt;/listitem&gt; &lt;listitem&gt;&lt;para&gt;instructions on how to report bugs and submit patches&lt;/para&gt; &lt;/listitem&gt; &lt;listitem&gt;&lt;para&gt;some indication of &lt;emphasis&gt;how&lt;/emphasis&gt; development is usually done&amp;mdash;is the project a benevolent dictatorship, a democracy, or something else&lt;/para&gt; &lt;/listitem&gt; &lt;/itemizedlist&gt; No pejorative sense is intended by "dictatorship", by the way. It's perfectly okay to run a tyranny where one particular developer has veto power over all changes. Many successful projects work this way. The important thing is that the project come right out and say so. A tyranny pretending to be a democracy will turn people off; a tyranny that says it's a tyranny will do fine as long as the tyrant is competent and trusted.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Este tema trátase en detalle en &lt;xref linkend="written-rules"/&gt;&lt;phrase output="printed"&gt; dentro de &lt;xref linkend="social-infrastructure"/&gt;&lt;/phrase&gt;, mais os elementos básicos das pautas de desenvolvemento son: &lt;itemizedlist&gt; &lt;listitem&gt;&lt;para&gt;ligazóns aos foros onde interactuar con outros desenvolvedores&lt;/listitem&gt; &lt;listitem&gt;&lt;para&gt;instruccións sobre como notificar erros e enviar remendos&lt;/listitem&gt; &lt;listitem&gt;&lt;para&gt;indicacións sobre como o desenvolvemento se realiza habitualmente &amp;mdash; é o proxecto unha dictadura benevolente? unha democracia? calquera outra cousa? &lt;/para&gt; &lt;/listitem&gt; &lt;/itemizedlist&gt;. O temo "dictadura" non pretende ter sentido pexorativo. É perfectamente válido xestionar un proxecto como se de unha tiranía se tratase, onde un único desenvolvedor teña poder de veto sobre todos as mudanzas. Moitos proxectos con suceso funcionan deste xeito. O importante é que o proxecto sexa consciente diso e o comunique. Unha tiranía que pretenda ser unha democracia desalentará as persoas a participaren; unha tiranía que diga que é tal, funcionará ben sempre que sexa competente e de confianza.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>See &lt;ulink url="http://svn.collab.net/repos/svn/trunk/www/hacking.html"&gt;&lt;/ulink&gt; for an example of particularly thorough developer guidelines, or &lt;ulink url="http://www.openoffice.org/dev_docs/guidelines.html"&gt;&lt;/ulink&gt; for broader guidelines that focus more on governance and the spirit of participation and less on technical matters.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Pódese obserar aquí &lt;ulink url="http://svn.collab.net/repos/svn/trunk/www/hacking.html"&gt;&lt;/ulink&gt; un exemplo de pautas de desenvolvemento, ou &lt;ulink url="http://www.openoffice.org/dev_docs/guidelines.html"&gt;&lt;/ulink&gt; para pautas máis enfocadas á governanza e o espírito de participación e menos en aspectos técnicos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The separate issue of providing a programmer's introduction to the software is discussed in &lt;xref linkend="developer-documentation"/&gt;&lt;phrase output="printed"&gt; later in this chapter&lt;/phrase&gt;.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>O tema de como fornecer unha introdución á aplicación para o programador discutirase máis adiante neste mesmo capítulo&lt;xref linkend="developer-documentation"/&gt;&lt;phrase output="printed"&gt;&lt;/phrase&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Documentation</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Documentación</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Documentation is essential. There needs to be &lt;emphasis&gt;something&lt;/emphasis&gt; for people to read, even if it's rudimentary and incomplete. This falls squarely into the "drudgery" category referred to earlier, and is often the first area where a new open source project falls down. Coming up with a mission statement and feature list, choosing a license, summarizing development status&amp;mdash;these are all relatively small tasks, which can be definitively completed and usually need not be returned to once done. Documentation, on the other hand, is never really finished, which may be one reason people sometimes delay starting it at all.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>A documentación é esencial. É preciso que exista&lt;emphasis&gt;algo&lt;/emphasis&gt; que a xente poida ler, aínda que sexa rudimentario e incompleto. Esta tarefa cae de cheo na categoría de "traballo pesado" antes citada e habitualmente é a primeira das áreas nas que un proxecto de software libre fracasa. Ter unha declaración de intencións e unha lista de funcionalidades, escoller unha licenza, resumir o estado do desenvolvemento &amp;mdash; son pequenas tarefas que polo xeral se realizan e habitualmente non precisan ser revisadas unha vez feitas. Por outra banda, a documentación é algo que nunca remata, o que pode ser unha das razóns polas que sempre se retrasa ou non se realiza.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The most insidious thing is that documentation's utility to those writing it is the reverse of its utility to those who will read it. The most important documentation for initial users is the basics: how to quickly set up the software, an overview of how it works, perhaps some guides to doing common tasks. Yet these are exactly the things the &lt;emphasis&gt;writers&lt;/emphasis&gt; of the documentation know all too well&amp;mdash;so well that it can be difficult for them to see things from the reader's point of view, and to laboriously spell out the steps that (to the writers) seem so obvious as to be unworthy of mention.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>O máis insidioso da documentación é que a utilidade para quen o escribe é inversamente proporcional á utilidade para quen o vai ler. A documentación máis importante para usuarios iniciais é o básico: cómo configurar a aplicación, unha introdución ao seu funcionamento e talvez algunhas indicacións sobre como facer tarefas comúns. E xusto esas son as cousas que os &lt;emphasis&gt;redactores&lt;/emphasis&gt; da documentación coñecen demasiado ben &amp;mdash; polo que pode ser difícil para eles poñerse no punto de vista do lector e listar os pasos que (para o escritor) parecen tan obvios que non paga a pena mencionar.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>There's no magic solution to this problem. Someone just needs to sit down and write the stuff, and then run it by typical new users to test its quality. Use a simple, easy-to-edit format such as HTML, plain text, Texinfo, or some variant of XML&amp;mdash;something that's convenient for lightweight, quick improvements on the spur of the moment. This is not only to remove any overhead that might impede the original writers from making incremental improvements, but also for those who join the project later and want to work on the documentation.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Non hai unha solución máxica para este problema. Alguén ten que sentarse e escribila para logo presentarlla a un usuario novato e comprobr a calidade. Usa un formato sinxelo, fácil de editar como HTML, texto plano, Texinfo ou algunha variante do XML &amp;mdash; algo que sexa facilmente editable. Isto vai facilitar as melloras incrementais tanto por parte dos escritores actuais como dos que se unan máis tarde ao proxecto e desexen traballar sobre a documentación.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>One way to ensure basic initial documentation gets done is to limit its scope in advance. That way, writing it at least won't feel like an open-ended task. A good rule of thumb is that it should meet the following minimal criteria:</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Un modo de asegurarse de que se fai a documentación é limitar o seu alcance por adiantado. Desta forma, escribila non parecerá unha tarefa sen fin. Unha boa regra xeral é seguir uns criterios mínimos:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Tell the reader clearly how much technical expertise they're expected to have.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Indicarlle ao lector claramente o nivel técnico que precisa ter.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Describe clearly and thoroughly how to set up the software, and somewhere near the beginning of the documentation, tell the user how to run some sort of diagnostic test or simple command to confirm that they've set things up correctly. Startup documentation is in some ways more important than actual usage documentation. The more effort someone has invested in installing and getting started with the software, the more persistent she'll be in figuring out advanced functionality that's not well-documented. When people abandon, they abandon early; therefore, it's the earliest stages, like installation, that need the most support.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Describir clara e extensivamente como configurar a aplicación e, nalgunha parte ao principio da documentación, indicar como executar algún tipo de proba ou comando que confirme que todo funciona correctamente. A documentación sobre como comezar é ás veces mais importante que a documentación de uso. Canto máis esforzo eña investido unha persoa en instalar e ter funcionando a aplicación, máis persistente será en descubrir funcionalidades que non estean ben documentadas. A xente que abandona soe facelo no comezo; por iso, son as etapas iniciais, como a instalación, as que precisan máis soporte.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Give one tutorial-style example of how to do a common task. Obviously, many examples for many tasks would be even better, but if time is limited, pick one task and walk through it thoroughly. Once someone sees that the software &lt;emphasis&gt;can&lt;/emphasis&gt; be used for one thing, they'll start to explore what else it can do on their own&amp;mdash;and, if you're lucky, start filling in the documentation themselves. Which brings us to the next point...</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Dar un exemplo, tipo tutorial, sobre como levar a cabo unha tarefa común. Obviamente, cantos máis exemplos mellor, mais se o tempo for limitado, escolle unha e descríbea a fondo. Unha vez unha persoa vexa que a aplicación pode ser utilizada para unha cousa, comezará a explorar que máis se pode facer &amp;mdash; e, con sorte, comezará a xerar documentación por el mesmo. O que nos leva ao seguinte punto.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Label the areas where the documentation is known to be incomplete. By showing the readers that you are aware of its deficiencies, you align yourself with their point of view. Your empathy reassures them that they don't face a struggle to convince the project of what's important. These labels needn't represent promises to fill in the gaps by any particular date &amp;mdash;it's equally legitimate to treat them as open requests for volunteer help.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Indica que áreas da documentación están incompletas. Mostrándolle aos lectores que te preocupas das deficiencias, estaste aliñando co seu punto de vista. A empatía dilles aos lectores que non terán que facer moito ruído para convenceren ao proxecto do que é importante. Esas indicacións non teñen por que ser entendidas como algo que teña que ser feito para unha data determinada, senón que poden verse como tarefas abertas a voluntarios.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The last point is of wider importance, actually, and can be applied to the entire project, not just the documentation. An accurate accounting of known deficiencies is the norm in the open source world. You don't have to exaggerate the project's shortcomings, just identify them scrupulously and dispassionately when the context calls for it (whether in the documentation, in the bug tracking database, or on a mailing list discussion). No one will treat this as defeatism on the part of the project, nor as a commitment to solve the problems by a certain date, unless the project makes such a commitment explicitly. Since anyone who uses the software will discover the deficiencies for themselves, it's much better for them to be psychologically prepared&amp;mdash;then the project will look like it has a solid knowledge of how it's doing.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>O último punto é de maior importancia e pode ser aplicado ao conxunto do proxecto, non unicamente á documentación. Unha detallada explicación das deficiencias do proxecto é a norma no mundo do software libre. Non esaxeres nos defectos do proxecto, limítate a identificalos escrupulosa e desapaixoadamente cando sexa necesario (na documentación, na base de datos de erros ou na lista de correo). Ninguén o vai ver como derrotismo nin como un compromiso para resolvelos no futuro, a menos que se faga esa promesa explícita. Xa que calquera que use a aplicación vai decubrir as deficiencias por si mesmos, é mellor que estean psicoloxicamente preparados &amp;mdash; á vez que o proxecto mostrará ter un sólido coñecemento de como está progresando.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Maintaining a FAQ</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Manter unha FAQ (Preguntas Frecuentes)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>A &lt;firstterm&gt;FAQ&lt;/firstterm&gt; ("Frequently Asked Questions" document) can be one of the best investments a project makes in terms of educational payoff. FAQs are highly tuned to the questions users and developers actually ask&amp;mdash;as opposed to the questions you might have &lt;emphasis&gt;expected&lt;/emphasis&gt; them to ask&amp;mdash;and therefore, a well-maintained FAQ tends to give those who consult it exactly what they're looking for. The FAQ is often the first place users look when they encounter a problem, often even in preference to the official manual, and it's probably the document in your project most likely to be linked to from other sites.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Unha &lt;firsttem&gt;FAQ&lt;/firsttem&gt; (un documento de preguntas frecuentes) pode ser un dos mellore investimentos que un proxecto pode facer en termos de documentación. As FAQs están altamente enfocadas ás preguntas que os usuarios e desenvolvedores preguntan &amp;mdash; e que pode ser o contrario ás preguntas que ti &lt;emphasis&gt;esperabas&lt;/emphasis&gt; que fixeran &amp;mdash; unha FAQ detallada soe dar a quen procura a resposta exacta que estaba a esperar. A FAQ é habitualmente o primeiro lugar onde os usuarios consultan cando atopan un problema, mesmo antes do manual oficial, e é o documento do proxecto que probablemente máis se vai enlazar desde outros lugares.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Unfortunately, you cannot make the FAQ at the start of the project. Good FAQs are not written, they are grown. They are by definition reactive documents, evolving over time in response to people's day-to-day usage of the software. Since it's impossible to correctly anticipate the questions people will ask, it is impossible to sit down and write a useful FAQ from scratch.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Infelizmente, a FAQ non se pode realizar ao principio do proxecto. As boas FAQ non están escritas, medran. Son documentos reactivos, que evolúen a través do tempo en resposta ao uso diario da aplicación. Xa que é imposible anticipar correctamente as preguntas que van ser realizadas, é imposible sentarse e redixir unha FAQ útil dende cero.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Therefore, don't waste your time trying to. You may, however, find it useful to set up a mostly blank FAQ template, so there will be an obvious place for people to contribute questions and answers after the project is under way. At this stage, the most important property is not completeness, but convenience: if the FAQ is easy to add to, people will add to it. (Proper FAQ maintenance is a non-trivial and intriguing problem, and is discussed more in &lt;xref linkend="faq-manager"/&gt;&lt;phrase output="printed"&gt; in &lt;xref linkend="managing-volunteers"/&gt;&lt;/phrase&gt;.)</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Polo tanto, non esbanxes o tempo facéndoo. Porén, pode ser útil crear un molde inicial para as FAQ, de maneira que exista un lugar obvio onde as persoas contribúan con preguntas e respostas cando o proxecto comece a andar. Nesta etapa, o máis importante non é que estean completas, senón a conveniencia: se é sinxelo engadir contido á FAQ, a xente vaino facer. O mantemento correcto da FAQ non é un problema trivial e será comentado máis a fondo en &lt;xref linkend="faq-manager"/&gt;&lt;phrase output="printed"&gt; en &lt;xref linkend="managing-volunteers"/&gt;&lt;/phrase&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Availability of documentation</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Disponibilidade da documentación</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Documentation should be available from two places: online (directly from the web site), &lt;emphasis&gt;and&lt;/emphasis&gt; in the downloadable distribution of the software (see &lt;xref linkend="packaging"/&gt;&lt;phrase output="printed"&gt; in &lt;xref linkend="development-cycle"/&gt;&lt;/phrase&gt;). It needs to be online, in browsable form, because people often read documentation &lt;emphasis&gt;before&lt;/emphasis&gt; downloading software for the first time, as a way of helping them decide whether to download at all. But it should also accompany the software, on the principle that downloading should supply (i.e., make locally accessible) everything one needs to use the package.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>A documentación debe estar dispoñible desde 2 lugares: en liña (directamente dende a páxina web) &lt;emphasis&gt;e&lt;emphasis&gt; na distribución descarregable da aplicación (ver &lt;xref linkend="packaging"/&gt;&lt;phrase output="printed"&gt; in &lt;xref linkend="development-cycle"/&gt;&lt;/phrase&gt;). É preciso que estea en liña, de modo navegable, xa que a xente habitualmente le a documentación &lt;emphasis&gt;antes&lt;/emphasis&gt; de descarregar o programa por primeira vez, para decidir si paga a pena facelo. Mais tamén debería ir acompañando o programa, baixo o principio de que a aplicación debería facer accesible todo aquilo que alguén necesitar para usar o programa.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For online documentation, make sure that there is a link that brings up the &lt;emphasis&gt;entire&lt;/emphasis&gt; documentation in one HTML page (put a note like "monolithic" or "all-in-one" or "single large page" next to the link, so people know that it might take a while to load). This is useful because people often want to search for a specific word or phrase across the entire documentation. Generally, they already know what they're looking for; they just can't remember what section it's in. For such people, nothing is more frustrating than encountering one HTML page for the table of contents, then a different page for the introduction, then a different page for installation instructions, etc. When the pages are broken up like that, their browser's search function is useless. The separate-page style is useful for those who already know what section they need, or who want to read the entire documentation from front to back in sequence. But this is &lt;emphasis&gt;not&lt;/emphasis&gt; the most common way documentation is accessed. Far more often, someone who is basically familiar with the software is coming back to search for a specific word or phrase. To fail to provide them with a single, searchable document would only make their lives harder.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Para a documentación en liña, é preciso asegurarase de que hai unha ligazón que amose a documentación nunha única páxina HTML (pon unha nota como "monolítico ou "todo en un" ou "un único ficheiro" para que a xente saiba que pode levar un tempo que o documento carregue). Isto é útil porque a xente habitualmente desexa procurar unha palabra ou frase específica en todo o documento. Xeralmente, saben o que están a procurar, só que non recordan en que sección está. Para esta xente, nada será máis frustante que atopar unha páxina HTML para a tabela de contidos, outra páxina para a introdución, outra para as instruccións de instalación, etc. Cando as páxinas se dividen dese modo, a función de procura do navegador é inútil. O estilo de páxinas separadas por sección é útil para aqueles que saben que sección precisan ou desexan ler a documentación enteira. Mais esta &lt;emphasis&gt;non&lt;/emphasis&gt; é a maneira máis habitual en que se accede á documentación. É moito máis habitual que alguén que xa coñece o programa vaia procurar unha palabra ou frase específica. Non darlles un único documento sobre o que facer as procuras tornaríalles a vida un pouco máis dura.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Developer documentation</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Documentación para desenvolvedores</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Developer documentation is written to help programmers understand the code, so they can repair and extend it. This is somewhat different from the &lt;emphasis&gt;developer guidelines&lt;/emphasis&gt; discussed earlier, which are more social than technical. Developer guidelines tell programmers how to get along with each other; developer documentation tells them how to get along with the code itself. The two are often packaged together in one document for convenience (as with the &lt;ulink url="http://svn.collab.net/repos/svn/trunk/www/hacking.html"&gt;&lt;/ulink&gt; example given earlier), but they don't have to be.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>A documentación para desenvolvedores está escrita para axudar os programadores a entenderen o código, para que poidan reparalo ou extendelo con máis funcionalidades. Isto é diferente das &lt;emphasis&gt;pautas de desenvolvemento&lt;/emphasis&gt; comentadas anteriormente, as cales son máis sociais que técnicas. Estas dinlle aos programadores como interactuar uns cos outros; a documentación para programadores dilles como interactuar co código. Ambas son habitualmente empacotadas xuntas nun único documento por comodidade (como co &lt;ulink url="http://svn.collab.net/repos/svn/trunk/www/hacking.html"&gt;&lt;/ulink&gt; exemplo mostrado anteriormente), mais non ten por que ser así.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Although developer documentation can be very helpful, there's no reason to delay a release to do it. As long as the original authors are available (and willing) to answer questions about the code, that's enough to start with. In fact, having to answer the same questions over and over is a common motivation for writing documentation. But even before it's written, determined contributors will still manage to find their way around the code. The force that drives people to spend time learning a code base is that the code does something useful for them. If people have faith in that, they will take the time to figure things out; if they don't have that faith, no amount of developer documentation will get or keep them.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Aínda que a documentación para programadores pode ser moi útil, non hai razón para atrasar unha publicación por non posuíla. Para empezar, é suficiente que os autores orixinais estean dispoñibles (e dispostos) a contestaren cuestións sobre o código. De feito, ter que responder ás mesmas preguntas unha e outra vez é unha gran motivación para escribir documentación. Mais antes de que sexa escrita, os contribuidores dispostos atoparán o modo de colaborar. O que conduce á xente a investiren o seu tempo na aprendizaxe do código é que éste faga algo útil para eles. Se a xente ten fe, tomaralles o seu tempo; se non teñen fe, ningunha documentación fará que se queden.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>So if you have time to write documentation for only one audience, write it for users. All user documentation is, in effect, developer documentation as well; any programmer who's going to work on a piece of software will need to be familiar with how to use it. Later, when you see programmers asking the same questions over and over, take the time to write up some separate documents just for them.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Polo tanto, se unicamente tes tempo para escribires documentación para unha única audiencia, escríbea para os usuarios. Toda documentación de usuario é á súa vez documentación para programadores; calquera programador que desexe usar unha parte do software terá que familializarse co seu uso. Máis tarde, cando os programadores pregunten as mesmas cuestións unha e outra vez, tómate o teu tempo para escribires documentación específica para eles.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Some projects use wikis for their initial documentation, or even as their primary documentation. In my experience, this really only works if the wiki is actively edited by a few people who agree on how the documentation is to be organized and what sort of "voice" it should have. See &lt;xref linkend="wikis"/&gt;&lt;phrase output="printed"&gt; in &lt;xref linkend="technical-infrastructure"/&gt;&lt;/phrase&gt; for more.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Algúns proxectos usan wikis para a súa documentación inicial e mesmo como primeira fonte de documentación. Pola miña experiencia, isto unicamente funciona se o wiki é editado activamente por unha pouca xente que decide como a documentación ten que ser organizada e que clase de "voz" debe ter. Ver &lt;xref linkend="wikis"/&gt;&lt;phrase output="printed"&gt; en &lt;xref linkend="technical-infrastructure"/&gt;&lt;/phrase&gt; para máis información.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Example Output and Screenshots</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Exemplos de saídas e capturas de pantalla</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If the project involves a graphical user interface, or if it produces graphical or otherwise distinctive output, put some samples up on the project web site. In the case of interface, this means screenshots; for output, it might be screenshots or just files. Both cater to people's need for instant gratification: a single screenshot can be more convincing than paragraphs of descriptive text and mailing list chatter, because a screenshot is inarguable proof that the software &lt;emphasis&gt;works&lt;/emphasis&gt;. It may be buggy, it may be hard to install, it may be incompletely documented, but that screenshot is still proof that if one puts in enough effort, one can get it to run.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Se o proxecto envolve o uso dunha interfaz de usuario gráfica ou se produce saídas gráficas ou distintivas dalgunha outra forma, publica algúns exemplos na páxina web do proxecto. No caso de interfaces, isto quere dicir capturas de pantalla; para resultados de saída, poden ser capturas de pantallas ou ficheiros. Ambas serán útiles para o usuario: unha simple captura de pantalla pode ser máis convincente que parágrafos de texto descriptivo e barullo nas listas de correo, xa que a captura de pantalla é unha proba irrefutable de que &lt;emphasis&gt;a aplicación funciona&lt;/emphasis&gt;. Pode ter erros, ser complicada de instalar ou ter documentación incompleta, mais esa captura de pantalla é a proba de que se un fai o suficiente esforzo, é posible facela funcionar.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Screenshots</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Capturas de pantalla</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Since screenshots can be daunting until you've actually made a few, here are basic instructions for making them. Using the Gimp (&lt;ulink url="http://www.gimp.org/"&gt;&lt;/ulink&gt;), open &lt;guimenu&gt;File&lt;/guimenu&gt;-&amp;gt;&lt;guimenu&gt;Acquire&lt;/guimenu&gt;-&amp;gt;&lt;guimenu&gt;Screenshot&lt;/guimenu&gt;, choose &lt;guimenuitem&gt;Single&amp;nbsp;Window&lt;/guimenuitem&gt; or &lt;guimenuitem&gt;Whole&amp;nbsp;Screen&lt;/guimenuitem&gt;, then click &lt;guimenuitem&gt;OK&lt;/guimenuitem&gt;. Now your next mouse click will capture the window or screen clicked on as an image in the Gimp. Crop and resize the image as necessary, using the instructions at &lt;ulink url="http://www.gimp.org/tutorials/Lite_Quickies/#crop"&gt;&lt;/ulink&gt;.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Debido a que as capturas de pantalla poden ser desalentadoras ata que fas unhas poucas, aquí tes unhas instruccións básicas para facelas. En Gimp (&lt;ulink url="http://www.gimp.org/"&gt;&lt;/ulink&gt;), abre o menú &lt;guimenu&gt;Arquivo&lt;/guimenu&gt;-&amp;gt;&lt;guimenu&gt;Tomar&lt;/guimenu&gt;-&amp;gt;&lt;guimenu&gt;Captura de pantalla&lt;/guimenu&gt;, escoller &lt;guimenuitem&gt;Unha&amp;nbsp;única&amp;nbsp;xanela&lt;/guimenuitem&gt; ou &lt;guimenuitem&gt;Xanela&amp;nbsp;completa&lt;/guimenuitem&gt;, preme en &lt;guimenuitem&gt;Capturar&lt;/guimenuitem&gt;. A seguinte vez que premas unha xanela ou pantalla vai ser capturada como imaxe no Gimp. Recorta e redimensiona a imaxe tanto como for necesario, usando as instruccións que podes atopar en &lt;ulink url="http://www.gimp.org/tutorials/Lite_Quickies/#crop"&gt;&lt;/ulink&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>There are many other things you could put on the project web site, if you have the time, or if for one reason or another they are especially appropriate: a news page, a project history page, a related links page, a site-search feature, a donations link, etc. None of these are necessities at startup time, but keep them in mind for the future.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Hai moitas máis cousas que se poden poñer na páxina web do proxecto, se tes tempo ou se por algunha razón son especialmente apropiadas: unha páxina de noticias, outra sobre a historia do proxecto, ligazóns relacionadas, unha ferramenta de procura do sitio web, ligazóns para facer doazóns, etc. Ningunha desas son necesarias ao comezo, mais tenas presentes para o futuro.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Canned Hosting</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Aloxamento enlatado</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>There are a few sites that provide free hosting and infrastructure for open source projects: a web area, version control, a bug tracker, a download area, chat forums, regular backups, etc. The details vary from site to site, but the same basic services are offered at all of them. By using one of these sites, you get a lot for free; what you give up, obviously, is fine-grained control over the user experience. The hosting service decides what software the site runs, and may control or at least influence the look and feel of the project's web pages.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Existen algúns lugares que facilitan aloxamento gratuito e infraestrutura para proxectos de software libre: unha páxina web, sistema de control de versións, xestor de bugs, área de descargas, salas de chat, backups regulares, etc. Os detalles varían entre sitio e sitio, mais os mesmos servizos básicos son ofertados en todos eles. Usando un destes servizos, obtense moito por nada; porén, cédese control sobre a experiencia do usuario. O servizo de aloxamento decide sobre que aplicacións funciona e pode controlar ou influir no "look&amp;feel" das páxinas dos proxectos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>See &lt;xref linkend="canned-hosting"/&gt;&lt;phrase output="printed"&gt; in &lt;xref linkend="technical-infrastructure"/&gt;&lt;/phrase&gt; for a more detailed discussion of the advantages and disadvantages of canned hosting, and a list of sites that offer it.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Ver &lt;xref linkend="canned-hosting"/&gt;&lt;phrase output="printed"&gt; en &lt;xref linkend="technical-infrastructure"/&gt;&lt;/phrase&gt; para obter máis detalles sobre as vantaxes e desvantaxes de usar aloxamento enlatado así como para obter unha lista de sitios que o ofrecen.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Choosing a License and Applying It</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Escoller unha licenza e aplicala</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This section is intended to be a very quick, very rough guide to choosing a license. Read &lt;xref linkend="legal"/&gt; to understand the detailed legal implications of the different licenses, and how the license you choose can affect people's ability to mix your software with other free software.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Esta sección pretende ser unha rápida guía sobre como escoller licenzas. Le &lt;xref linkend="legal"/&gt; para comprenderes as implicacións legais das diferentes licenzas, e como a licenza que escollas podo afectar a como a xente pode integrar o teu programa con outros.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>There are a great many free software licenses to choose from. Most of them we needn't consider here, as they were written to satisfy the particular legal needs of some corporation or person, and wouldn't be appropriate for your project. We will restrict ourselves to just the most commonly used licenses; in most cases, you will want to choose one of them.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Existen moitas e moi boas licenzas de software libre onde escoller. A maioría delas non precisan ser consideradas aquí, xa que foron escritas para satisfacer as necesidades legais dalgunha corporación ou persoa específica, e non serían apropiadas para o teu proxecto. Cinguirémonos ás máis comunmente usadas; na maioría dos casos, será suficiente con escoller unha delas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The "Do Anything" Licenses</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>As licenzas "Fai o que queiras"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you're comfortable with your project's code potentially being used in proprietary programs, then use an &lt;firstterm&gt;MIT/X-style&lt;/firstterm&gt; license. It is the simplest of several minimal licenses that do little more than assert nominal copyright (without actually restricting copying) and specify that the code comes with no warranty. See &lt;xref linkend="license-choosing-mit-x"/&gt; for details.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Se che parece ben que o código do teu proxecto poida ser integrado en programas propietarios, usa una licenza estilo &lt;firstterm&gt;MIT/X&lt;/firstterm&gt;. É a máis sinxela de moitas licenzas que unicamente declaran un copyright nominal (sen restrinxir a copia) e especifica que o código ven sen garantía. Ver &lt;xref linkend="license-choosing-mit-x"/&gt; para os detalles.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The GPL</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>A licenza GPL</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you don't want your code to be used in proprietary programs, use the GNU General Public License (&lt;ulink url="http://www.gnu.org/licenses/gpl.html"&gt;&lt;/ulink&gt;). The GPL is probably the most widely recognized free software license in the world today. This is in itself a big advantage, since many potential users and contributors will already be familiar with it, and therefore won't have to spend extra time to read and understand your license. See &lt;xref linkend="license-choosing-gpl"/&gt;&lt;phrase output="printed"&gt; in &lt;xref linkend="legal"/&gt;&lt;/phrase&gt; for details.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Se non desexas que o teu código poida ser usado en programas propietarios, usa a GNU General Public License (&lt;ulink url="http://www.gnu.org/licenses/gpl.html"&gt;&lt;/ulink&gt;). A GPL é probablemente a licenza máis coñecida e extendida no mundo a día de hoxe. Esto en si mesmo é unha vantaxe, xa que moitos usuarios potenciais e contribuidores estarán familiarizados con ela, polo que non terán que investir tempo extra en comprender que licenza usas. Ver &lt;xref linkend="license-choosing-gpl"/&gt;&lt;phrase output="printed"&gt; en &lt;xref linkend="legal"/&gt;&lt;/phrase&gt; para máis detalles.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If users interact with your code primarily over a network&amp;mdash;that is, the software is usually part of a hosted service&amp;mdash;then consider using the &lt;firstterm&gt;GNU Affero GPL&lt;/firstterm&gt; instead. See &lt;xref linkend="gnu-affero-gpl"/&gt;&lt;phrase output="printed"&gt; in &lt;xref linkend="legal"/&gt;&lt;/phrase&gt; for more.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Se os usuarios interactúan co teu código a través da rede &amp;mdash; isto é, se o programa é parte dun servizo aloxado &amp;mdash; podes considerar o uso da &lt;firstterm&gt;GNU Affero GPL&lt;/firstterm&gt;. Ver &lt;xref linkend="gnu-affero-gpl"/&gt;&lt;phrase output="printed"&gt; in &lt;xref linkend="legal"/&gt;&lt;/phrase&gt; para máis información.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>How to Apply a License to Your Software</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Como aplicar unha licenza ao teu código</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Once you've chosen a license, you should state it on the project's front page. You don't need to include the actual text of the license there; just give the name of the license, and make it link to the full license text on another page.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Unha vez escolleres unha licenza, deberás indicalo na páxina principal do proxecto. Non é preciso incluíres o texto completo da licenza, unicamente dar o seu nome e pór unha ligazón ao texto completo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This tells the public what license you &lt;emphasis&gt;intend&lt;/emphasis&gt; the software to be released under, but it's not sufficient for legal purposes. For that, the software itself must contain the license. The standard way to do this is to put the full license text in a file called &lt;filename&gt;COPYING&lt;/filename&gt; (or &lt;filename&gt;LICENSE&lt;/filename&gt;), and then put a short notice at the top of each source file, naming the copyright date, holder, and license, and saying where to find the full text of the license.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Isto dille ao público baixo que licenza será publicado o software, máis non é suficiente para fins legais. Para iso, o software en si mesmo debe conter a licenza. A maneira habiltual de facelo é poñendo o texto da licenza completa nun ficheiro chamado &lt;filename&gt;COPYING&lt;/filename&gt; ou &lt;filename&gt;LICENSE&lt;/filename&gt;, así como poñer un aviso no cabezallo de cada ficheiro de código fonte, indicando a data do "copyright", mantedor e licenza usada e indicando onde atopar o texto completo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>There are many variations on this pattern, so we'll look at just one example here. The GNU GPL says to put a notice like this at the top of each source file:</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Existen moitas variacións deste padrón, así que únicamente imos ver un deles. A GNU GPL di que se debe poñer un aviso como o seguinte no cabezallo de cada ficheiro de código fonte:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Copyright (C) &amp;lt;year&amp;gt;  &amp;lt;name of author&amp;gt;
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see &amp;lt;http://www.gnu.org/licenses/&amp;gt;</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Copyright (C) &amp;lt;ano&amp;gt;  &amp;lt;nome do autor&amp;gt;
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see &amp;lt;http://www.gnu.org/licenses/&amp;gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It does not say specifically that the copy of the license you received along with the program is in the file &lt;filename&gt;COPYING&lt;/filename&gt;, but that's where it's usually put. (You could change the above notice to state that directly.) This template also gives a geographical address from which to request a copy of the license. Another common method is to give a link to a web page containing the license. Just use your judgement and point to wherever you feel the most permanent copy of the license is maintained, which might simply be somewhere on your project's web site. In general, the notice you put in each source file does not have to look exactly like the one above, as long as it starts with the same notice of copyright holder and date, states the name of the license, and makes it clear where to view the full license.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>O texto non indica especificamente que a copia da licenza se pode atopar no ficheiro &lt;filename&gt;COPYING&lt;filename&gt;, mais é alí onde habitualmente se pón. É posible mudar o aviso anterior para indicalo explicitamente. Este molde tamén dá un enderezo postal onde pedir unha copia da licenza. Outro método común é dar unha ligazón a unha páxina web que a conteña. Usa o teu xuízo para apuntares a onde considerares que se mantén a copia máis permanente da licenza, que pode ser algún lugar da páxina web do teu proxecto. En xeral, o aviso que poñas en cada ficheiro de código fonte non ter por que ser igual ao anterior, sempre e cando comece co mesmo aviso de data e mantedor do copyright, indique o nome da licenza e deixe claro onde obter a licenza completa.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Setting the Tone</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Axustando o tono</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>So far we've covered one-time tasks you do during project setup: picking a license, arranging the initial web site, etc. But the most important aspects of starting a new project are dynamic. Choosing a mailing list address is easy; ensuring that the list's conversations remain on-topic and productive is another matter entirely. If the project is being opened up after years of closed, in-house development, its development processes will change, and you will have to prepare the existing developers for that change.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Ata agora falouse de tarefas unitarias que se fan durante a etapa de inicio do proxecto: escoller unha licenza, organizar a páxina web, etc. Mais os aspectos máis importantes dun proxecto son dinámicos. Elixir un nome para unha lista de correo é sinxelo, asegurarse de que as conversas da lista se manteñen nas temáticas e son productivas é outra cousa totalmente diferente. Se o proxecto se fai público logo de anos de desenvolvemento pechado interno, os procesos de desenvolvemento mudarán e será necesario preparar os desenvolvedores para esa mudanza.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The first steps are the hardest, because precedents and expectations for future conduct have not yet been set. Stability in a project does not come from formal policies, but from a shared, hard-to-pin-down collective wisdom that develops over time. There are often written rules as well, but they tend to be essentially a distillation of the intangible, ever-evolving agreements that really guide the project. The written policies do not define the project's culture so much as describe it, and even then only approximately.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Os primeiros pasos son os máis duros, xa que aínda non se sentaron precedentes e expectativas para condutas futuras. A estabilidade dun proxecto non vén de políticas formais, senón dunha intelixencia compartida e colectiva que se desenvolve co tempo. Habitualmente tamén existen regras escritas, mais en esencia, soen ser unha destilación do intanxible antes que acordos que realmente guían o proxecto. As políticas que se escriben non definen a cultura do proxecto, senón que a describen, e só aproximadamente.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>There are a few reasons why things work out this way. Growth and high turnover are not as damaging to the accumulation of social norms as one might think. As long as change does not happen &lt;emphasis&gt;too&lt;/emphasis&gt; quickly, there is time for new arrivals to learn how things are done, and after they learn, they will help reinforce those ways themselves. Consider how children's songs survive the centuries. There are children today singing roughly the same rhymes as children did hundreds of years ago, even though there are no children alive now who were alive then. Younger children hear the songs sung by older ones, and when they are older, they in turn will sing them in front of other younger ones. The children are not engaging in a conscious program of transmission, of course, but the reason the songs survive is nonetheless that they are transmitted regularly and repeatedly. The time scale of free software projects may not be measured in centuries (we don't know yet), but the dynamics of transmission are much the same. The turnover rate is faster, however, and must be compensated for by a more active and deliberate transmission effort.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Hai algunhas razóns polas que as cousas funcionan así. O crecemento e a alta taxa de rotación entre voluntarios non son tan nocivos como para precisar da acumulación de normas sociais, como un puidera pensar a primeira vista. Mentres a mudanza non teña lugar &lt;emphasis&gt;demasiado&lt;/emphasis&gt; rápido, os novos teñen tempo de aprenderen como se fan as cousas; unha vez aprenderen, axudarán a reforzar os valores por si mesmos. Considera como as nanas sobreviven polos séculos dos séculos. Os nenos de hoxe cantan aproximadamente as mesmas rimas que as que cantaron outros nenos centos de anos atrás. Aínda é máis sorprendente se temos en conta que non hai nenos que estén agora vivos que tamén fosen nenos daquela. Os cativos máis pequenos oen as cancións que cantan os maiores, e cando sexan máis vellos cantaranas diante doutros rapaces máis novos ca eles. Os cativos non están comprometidos cun programa consciente de transmisión, desde logo. As razóns polas que as cancións sobreviven é, nada máis e nada menos, porque son transmitidas regular e repetidamente. A escala de tempo dos proxectos de software libre pode non ser medida en séculos (aínda non o sabemos) mais as dinámicas de transmisión de coñecemento son as mesmas. Porén, a taxa de rotación é máis rápida e debe ser compensada por un esforzo máis activo e deliberado de transmisión de prácticas e coñecemento compartido.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This effort is aided by the fact that people generally show up expecting and looking for social norms. That's just how humans are built. In any group unified by a common endeavor, people who join instinctively search for behaviors that will mark them as part of the group. The goal of setting precedents early is to make those "in-group" behaviors be ones that are useful to the project; for once established, they will be largely self-perpetuating.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Este esforzo válese do feito de que a xente, en xeral, chega ao proxecto agardando e procurando normas sociais. Así é a raza humana. En calquera grupo unificado por un comportamento común, a nova xente que se une quere reafirmar comportamentos que os convirtan en parte do grupo. O obxectivo de poñer precedentes ao principio é facer que eses comportamentos internos do grupo sirvan o proxecto; cando sexan establecidos, serán autoperpetuados por moito tempo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Following are some examples of specific things you can do to set good precedents. They're not meant as an exhaustive list, just as illustrations of the idea that setting a collaborative mood early helps a project tremendously. Physically, every developer may be working alone in a room by themselves, but you can do a lot to make them &lt;emphasis&gt;feel&lt;/emphasis&gt; like they're all working together in the same room. The more they feel this way, the more time they'll want to spend on the project. I chose these particular examples because they came up in the Subversion project (&lt;ulink url="http://subversion.tigris.org/"&gt;&lt;/ulink&gt;), which I participated in and observed from its very beginning. But they're not unique to Subversion; situations like these will come up in most open source projects, and should be seen as opportunities to start things off on the right foot.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>A continuación hai algúns exemplos de cousas que se poden facer para sentar bos precedentes. Non pretenden ser unha lista exhaustiva, senón ser útiles como ilustracións de que investir en comportamentos e normas compartidas no inicio pode axudar moito no futuro do proxecto. Fisicamente, cada desenvolvedor pode estar traballando só nun cuarto, mais é posible facer moito para que se &lt;emphasis&gt;sintan&lt;/emphasis&gt; como se estivesen todos no mesmo cuarto. Canto máis se sintan desta maneira, máis desexarán participar no proxecto. Escollín os seguintes exemplos particulares xa que foron os que se propuxeron no proxecto Subversion (&lt;ulink url="http://subversion.tigris.irg"&gt;&lt;/ulink&gt;), no cal participei desde os seus inicios. Mais non son únicos ao proxecto Subversion; situacións como as seguintes ocorren na maioría dos proxectos de software libre, e deberían ser vistas como oportunidades para comezar con bo pé. </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Avoid Private Discussions</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Evita os debates privados</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Even after you've taken the project public, you and the other founders will often find yourselves wanting to settle difficult questions by private communications among an inner circle. This is especially true in the early days of the project, when there are so many important decisions to make, and, usually, few volunteers qualified to make them. All the obvious disadvantages of public list discussions will loom palpably in front of you: the delay inherent in email conversations, the need to leave sufficient time for consensus to form, the hassle of dealing with naive volunteers who think they understand all the issues but actually don't (every project has these; sometimes they're next year's star contributors, sometimes they stay naive forever), the person who can't understand why you only want to solve problem X when it's obviously a subset of larger problem Y, and so on. The temptation to make decisions behind closed doors and present them as &lt;foreignphrase&gt;faits accomplis&lt;/foreignphrase&gt;, or at least as the firm recommendations of a united and influential voting block, will be great indeed.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Mesmo despois de que o proxecto sexa público, ti e os demáis fundadores habitualmente desexaredes xerir en privado temas difíciles. Isto é especialmente certo nos primeiros momentos do proxecto, cando hai moitas decisións importantes que tomar, e poucos voluntarios cualificados para tomalas. Todas as desvantaxes dos debates en listas de correo públicas vanse erguer ante ti: os atrasos inherentes a debates por correo electrónico, a necesidade de deixar tempo suficiente para que se forme o consenso, discutir con voluntarios inxenuos que pensan que comprenden todo mais en realidade non (todos os proxectos os teñen; algunhas veces se convirten nos mellores contribuidores do proxecto, outras veces simplemente continúan na súa inxenuidade), a persoa que non comprende que só desexas resolver o problema X cando éste é obviamente unha pequena parte do maior Y, etc. A tentación de tomar decisións a porta pechada e presentalas como &lt;foreignphrase&gt;faits accomplis&lt;/foreignphrase&gt;, ou como as firmes recomendacións dun unido e influente bloco de votantes, será moi grande.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Don't do it.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Non o fagas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>As slow and cumbersome as public discussions can be, they're almost always preferable in the long run. Making important decisions in private is like spraying contributor repellant on your project. No serious volunteer would stick around for long in an environment where a secret council makes all the big decisions. Furthermore, public discussion has beneficial side effects that will last beyond whatever ephemeral technical question was at issue:</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>A pesar do lentos e difíciles que os debates públicos poden chegan ser, case sempre son preferibles a longo prazo. Tomar as decisións en privado é como rociar repelente anti-contribuidores sobre o proxecto. Ningún voluntario serio permanecerá moito tempo nun entorno onde un consello secreto toma todas as grandes decisións. Ademais, os debates públicos teñen efectos positivos que permanecerán alén de calquera cuestión tecnolóxica efímera:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The discussion will help train and educate new developers. You never know how many eyes are watching the conversation; even if most people don't participate, many may be tracking silently, gleaning information about the software.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>O debate contribuirá ao adestramento e educación dos novos desenvolvedores. Non é posible saber cantos ollos estan a seguir a conversa; e aínda que a maioría da xente non participe, moitos poden estar observando en silencio, obtendo información sobre o proxecto.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The discussion will train &lt;emphasis&gt;you&lt;/emphasis&gt; in the art of explaining technical issues to people who are not as familiar with the software as you are. This is a skill that requires practice, and you can't get that practice by talking to people who already know what you know.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>O debate formarate na arte de explicar cuestións técnicas a xente que non está tan familiarizada co programa coma ti. Esta é unha capacidade que require práctica e non podes practicala con xente que xa sabe o que ti sabes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The discussion and its conclusions will be available in public archives forever after, enabling future discussions to avoid retracing the same steps. See &lt;xref linkend="using-archives"/&gt;&lt;phrase output="printed"&gt; in &lt;xref linkend="communications"/&gt;&lt;/phrase&gt;.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>O debate e as súas conclusións estarán dispoñibles en arquivos públicos, evitando que futuros debates reincidan sobre os mesmos pasos. Ver &lt;xref linkend="using-archives"/&gt;&lt;phrase output="printed"&gt; en &lt;xref linkend="communications"/&gt;&lt;/phrase&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Finally, there is the possibility that someone on the list may make a real contribution to the conversation, by coming up with an idea you never anticipated. It's hard to say how likely this is; it just depends on the complexity of the code and degree of specialization required. But if anecdotal evidence may be permitted, I would hazard that this is more likely than one would intuitively expect. In the Subversion project, we (the founders) believed we faced a deep and complex set of problems, which we had been thinking about hard for several months, and we frankly doubted that anyone on the newly created mailing list was likely to make a real contribution to the discussion. So we took the lazy route and started batting some technical ideas back and forth in private emails, until an observer of the project&lt;footnote&gt;&lt;para&gt;We haven't gotten to the section on crediting yet, but just to practice what I'll later preach: the observer's name was Brian Behlendorf, and it was he who pointed out the general importance of keeping all discussions public unless there was a specific need for privacy.&lt;/para&gt;&lt;/footnote&gt; caught wind of what was happening and asked for the discussion to be moved to the public list. Rolling our eyes a bit, we did&amp;mdash;and were stunned by the number of insightful comments and suggestions that quickly resulted. In many cases people offered ideas that had never even occurred to us. It turned out there were some &lt;emphasis&gt;very&lt;/emphasis&gt; smart people on that list; they'd just been waiting for the right bait. It's true that the ensuing discussions took longer than they would have if we had kept the conversation private, but they were so much more productive that it was well worth the extra time.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Finalmente, existe a posibilidade de que alguén na lista faga unha contribución real á conversa, propoñendo unha idea que nunca se che ocorrería. É difícil calcular a probabilidade de que ocorra, dependerá da complexidade do código e do grao de especialización requerido. Mais se se me permite una pequena anécdota, apostaría a que isto é máis probable do que intuitivamente poida parecer. No proxecto Subversion, os fundadores críamos que nos enfrontabamos a un complexo conxunto de problemas, sobre os que tiñamos pensado moito durante algúns meses e -francamente- dubidabamos de que alguén na recén creada lista de correo contribuíse con algunha idea nova ao debate. Así, tomamos o camiño máis sinxelo e comezamos a compartir algunhas ideas en privado, ata que un observador do proxecto &lt;footnote&gt;&lt;para&gt;Aínda non o puxemos na sección de créditos, mais por practicar o que máis tarde predicarei: o nome do observador é Brian Behlendorf, e foi el quen sinalou a necesidade de manter todos os debates en público a menos que existise algunha razón concreta para facelo en privado.&lt;/para&gt;&lt;/footnote&gt; decatouse do que ocorría e pediu que o debate se movese á lista pública. Así o fixemos, e ficamos abraiados polo número de comentarios e suxerencias brillantes que pronto xurdiron. En moitos casos, a xente deu ideas que nunca se nos terían ocorrido. Isto demostrou que había xente &lt;emphasis&gt;moi&lt;/emphasis&gt; intelixente nesa rolda de correo; unicamente estaban a agardar o momento adecuado para participar. Se ben é certo que os debates foron máis longos do que serían se fosen mantidos en privado, sen dúbida foron máis produtivos en aberto e o tempo extra pagou a pena.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Without descending into hand-waving generalizations like "the group is always smarter than the individual" (we've all met enough groups to know better), it must be acknowledged that there are certain activities at which groups excel. Massive peer review is one of them; generating large numbers of ideas quickly is another. The quality of the ideas depends on the quality of the thinking that went into them, of course, but you won't know what kinds of thinkers are out there until you stimulate them with a challenging problem.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Sen deixarnos levar por xeralizacións como "o grupo sempre é máis intelixente que o individuo" (todos temos coñecido bastantes grupos como para saber que isto non é certo), hai que recoñecer que en certas actividades os grupos son excelentes. A revisión masiva entre pares é unha delas; xerar un número de ideas grande en pouco tempo é outra. A calidade das ideas dependerá da calidade dos pensadores que están detrás delas, desde logo, mais non saberás qué clase de pensadores rondan o proxecto ata que os estimules cun problema desafiante.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Naturally, there are some discussions that must be had privately; throughout this book we'll see examples of those. But the guiding principle should always be: &lt;emphasis&gt;If there's no reason for it to be private, it should be public.&lt;/emphasis&gt;</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Naturalmente, hai certos debates que deben ser mantidos en privado; máis adiante no libro se poderán ver exemplos. Mais a política debería ser sempre: &lt;emphasis&gt;se non hai razón para que sexa privado, debe ser público&lt;/emphasis&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Making this happen requires action. It's not enough merely to ensure that all your own posts go to the public list. You also have to nudge other people's unnecessarily private conversations to the list too. If someone tries to start a private discussion, and there's no reason for it to be private, then it is incumbent on you to open the appropriate meta-discussion immediately. Don't even comment on the original topic until you've either successfully steered the conversation to a public place, or ascertained that privacy really was needed. If you do this consistently, people will catch on pretty quickly and start to use the public forums by default.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Esto non se fai só. Non é suficiente con que te asegures de que todas as túas mensaxes van á lista pública. Debes tamén facer que os demáis eviten as conversas privadas. Se alguén tenta comezar un debate privado, e non hai razón para que así sexa, é a túa obriga abrir o meta-debate de inmediato. Nin sequera comentes no tema orixinal ata que a conversa se teña movido a un foro público ou descubras que a privacidade do caso é realmente precisa. S fixeres isto de modo coherente, a xente rapidamente seguirá esta política e comezará a usar os foros públicos por defecto.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Nip Rudeness in the Bud</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Tolerancia cero coa rudeza</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>From the very start of your project's public existence, you should maintain a zero-tolerance policy toward rude or insulting behavior in its forums. Zero-tolerance does not mean technical enforcement per se. You don't have to remove people from the mailing list when they flame another subscriber, or take away their commit access because they made derogatory comments. (In theory, you might eventually have to resort to such actions, but only after all other avenues have failed&amp;mdash;which, by definition, isn't the case at the start of the project.) Zero-tolerance simply means never letting bad behavior slide by unnoticed. For example, when someone posts a technical comment mixed together with an &lt;foreignphrase&gt;ad hominem&lt;/foreignphrase&gt; attack on some other developer in the project, it is imperative that your response address the &lt;foreignphrase&gt;ad hominem&lt;/foreignphrase&gt; attack &lt;emphasis&gt;first&lt;/emphasis&gt;, as a separate issue unto itself, and only afterward move on to the technical content.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Dende o primeiro momento en que o proxecto sexa público, débese manter tolerancia cero cos comportamentos maleducados ou insultantes nos foros de debate. Tolerancia cero non significa usar medidas técnicas per se: non é preciso eliminar a xente da rolda de correo cando entrar en conflito con outro participante ou quitarlle o dereito de enviar commits debido a que fixo comentarios despectivos (en teoría, podes ter que levar a cabo esas accións, mais unicamente cando todos os outros intentos teñan errado &amp;mdash; o que, por definición, non soe ser o caso ao principio do proxecto). Tolerancia cero simplemente significa que nunca deixes que os malos comportamentos pasen inadvertidos. Por exemplo, cando alguén publica un comentario técnico mesturado cun ataque &lt;foreignphrase&gt;ad hominen&lt;/foreignphrase&gt; sobre outro desenvolvedor do proxecto, é necesario que primeiro se trate o ataque &lt;foreignphrase&gt;ad hominen&lt;/foreignphrase&gt; como unha cuestión independente e unicamente despois diso debatir o contido técnico.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It is unfortunately very easy, and all too typical, for constructive discussions to lapse into destructive flame wars. People will say things in email that they would never say face-to-face. The topics of discussion only amplify this effect: in technical issues, people often feel there is a single right answer to most questions, and that disagreement with that answer can only be explained by ignorance or stupidity. It's a short distance from calling someone's technical proposal stupid to calling the person themselves stupid. In fact, it's often hard to tell where technical debate leaves off and character attack begins, which is one reason why drastic responses or punishments are not a good idea. Instead, when you think you see it happening, make a post that stresses the importance of keeping the discussion friendly, without accusing anyone of being deliberately poisonous. Such "Nice Police" posts do have an unfortunate tendency to sound like a kindergarten teacher lecturing a class on good behavior:</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Infelizmente, é moi sinxelo e demasiado típico, que debates constructivos se convirtan en longos debates destructivos "&lt;firstterm&gt;flames&lt;/firstterm&gt;"). A xente di cousas por e-mail que nunca dirían cara a cara. Os temas de debate amplificarán este efecto: en cuestións técnicas, a xente habitualmente pensa que hai unha resposta única para a maioría das preguntas e que estar en desacordo sólo pode ser signo de ignorancia ou estupidez. Hai unha distancia moi pequena entre chamar estúpida unha proposta técnica a chamar estúpida a persoa que a propón. De feito, habitualmente é complexo dicir onde remata o debate técnico e comeza o ataque persoal, o que é unha das razóns polas que as respostas drásticas ou os castigos non son unha boa idea. En troca diso, cando algo así ocorra, publica unha mensaxe que saliente a importancia de manter o debate amigable, sen acusar ninguén en particular de ser problemático. Desafortunadamente, esas mensaxes soen ser vistas como as de unha profesora de xardín de infancia dando aulas de bo comportamento:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>First, let's please cut down on the (potentially) ad hominem comments; for example, calling J's design for the security layer "naive and ignorant of the basic principles of computer security." That may be true or it may not, but in either case it's no way to have the discussion. J made his proposal in good faith. If it has deficiencies, point them out, and we'll fix them or get a new design. I'm sure M meant no personal insult to J, but the phrasing was unfortunate, and we try to keep things constructive around here.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Primeiramente, reduce os comentarios que sexan persoais; como por exemplo, dicir que o deseño de J para a camada de seguridade é "inxenuo e ignora os principios básicos da seguridade dos computadores". Pode ser certo ou non, mais en calquera caso non é xeito de manter o debate. J fixo a súa proposta de boa fe. Se ten deficiencias, que sexan sinaladas e resolvámolas ou obteñamos un novo deseño. Seguramente M non quixo insultar J persoalmente, mais a frase foi desafortunada e aquí trátase de manter os debates constructivos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Now, on to the proposal. I think M was right in saying that...</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Agora, sobre a proposta. Creo que M estaba no certo cando dixo que ...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>As stilted as such responses sound, they have a noticeable effect. If you consistently call out bad behavior, but don't demand an apology or acknowledgment from the offending party, then you leave people free to cool down and show their better side by behaving more decorously next time&amp;mdash;and they will. One of the secrets of doing this successfully is to never make the meta-discussion the main topic. It should always be an aside, a brief preface to the main portion of your response. Point out in passing that "we don't do things that way around here," but then move on to the real content, so that you're giving people something on-topic to respond to. If someone protests that they didn't deserve your rebuke, simply refuse to be drawn into an argument about it. Either don't respond (if you think they're just letting off steam and don't require a response), or say you're sorry if you overreacted and that it's hard to detect nuance in email, then get back to the main topic. Never, ever insist on an acknowledgment, whether public or private, from someone that they behaved inappropriately. If they choose of their own volition to post an apology, that's great, but demanding that they do so will only cause resentment.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>A pesar do torpe que poidan parecer esas respostas, teñen un notable efecto. Se chamas a atención sobre os malos comportamentos pero non esixes unha desculpa pola parte que ofende, facilitas que a xente se calme e a seguinte vez amose un mellor comportamento &amp;mdash; e farano. Un dos segredos para facer isto con suceso consiste en nunca deixar que o meta-debate se convirta no tema principal. A resposta debería ser colateral, un breve prefacio á mensaxe completa. Sinalando que "as cousas non se fan así nesta comunidade" e continuando o debate sobre contido real, facilitas un tema sobre o que a xente pode seguir falando deixando detrás a mala contestación. Se alguén che recrimina que non merecían tal reprimenda, non entres nese debate. Ou non respondas (se considerares que simplemente precisan desestresarse) ou responde pedindo desculpas se a túa reacción foi exesiva e que é difícil detectar certos matices nun correo electrónico. E volta ao contido principal da conversación. Nunca xamais esixas unha desculpa, sexa pública ou privada, de alguén que se comportou de modo inapropiado. Se por si mesmos deciden escribila, estupendo, mais esixila só causará resentemento.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The overall goal is to make good etiquette be seen as one of the "in-group" behaviors. This helps the project, because developers can be driven away (even from projects they like and want to support) by flame wars. You may not even know that they were driven away; someone might lurk on the mailing list, see that it takes a thick skin to participate in the project, and decide against getting involved at all. Keeping forums friendly is a long-term survival strategy, and it's easier to do when the project is still small. Once it's part of the culture, you won't have to be the only person promoting it. It will be maintained by everyone.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>O obxectivo xeral é facer ver que a boa educación é unha das políticas de comportamento do grupo. Isto axudará o proxecto xa que os desenvolvedores poden decidir non contribuir (incluso en proxectos que lles gustan e nos que desexan participar) debido ás continuas guerras de flames. É probable que non te des nin conta; alguén está únicamente lendo a rolda de correo, ve que hai que ter coraxe para participar no proxecto e decide non facelo. Mante-la netiqueta nos foros é unha estratexia de longo recorrido e é máis sinxela de implementar cando o proxecto é pequeno. Unha vez que é parte da cultura, non serás a única persoa en promocionala. Será mantida por todo o mundo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Practice Conspicuous Code Review</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Fomenta a revisón pública do código</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>One of the best ways to foster a productive development community is to get people looking at each others' code. Some technical infrastructure is required to do this effectively&amp;mdash;in particular, commit emails must be turned on; see &lt;xref linkend="commit-emails"/&gt; for more details. The effect of commit emails is that every time someone commits a change to the source code, an email goes out showing the log message and diffs for the change (see &lt;xref linkend="vc-vocabulary-diff"/&gt;, in &lt;xref linkend="vc-vocabulary"/&gt;). &lt;firstterm&gt;Code review&lt;/firstterm&gt; is the practice of reviewing commit emails as they come in, looking for bugs and possible improvements.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Unha das mellores maneiras de favorecer unha comunidade de desenvolvemento produtiva é facer que a xente revise o código de outros. Para atinxilo de modo efectivo é precisa certa infraestrutura técnica &amp;mdash; en particular, o aviso de novos commits por email debe ser activado; ver &lt;xref linkend="commit-emails"/&gt; para máis detalles. O efecto de activar o aviso por email dos commits é que cada vez que alguén faga un commit sobre o repositorio de código do proxecto, un email será enviado mostrando o log do mensaxe e as mudanzas introducidas (ver &lt;xref linkend="vc-vocabulary-diff"/&gt;, en &lt;xref linkend="vc-vocabulary"/&gt;). A &lt;firstitem&gt;revisión de código&lt;/firstitem&gt; é a práctica de revisar os emails de commit que chegan, buscando erros e posibles melloras.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This is how code review is usually done in open source projects, at any rate. In more centralized projects, "code review" can also mean multiple people sitting down together and going over printouts of source code, looking for specific problems and patterns.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Así é como habitualmente se fai a revisión do código en proxectos de software libre. En proxectos máis centralizados, a "revisión do código" pode mesmo envolver grupos de persoas que se reúnen para procuraren problemas e patróns específicos sobre o código impreso.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Code review serves several purposes simultaneously. It's the most obvious example of peer review in the open source world, and directly helps to maintain software quality. Every bug that ships in a piece of software got there by being committed and not detected; therefore, the more eyes watch commits, the fewer bugs will ship. But code review also serves an indirect purpose: it confirms to people that what they do matters, because one obviously wouldn't take time to review a commit unless one cared about its effect. People do their best work when they know that others will take the time to evaluate it.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>A revisión do código ten varias vantaxes. A máis obvia é que é un exemplo de revisión entre pares no mundo do software libre e axuda de maneira directa a manter a calidade do software. Cada erro que se empacota nunha aplicación chegou alí porque non foi detectado ao ser subido ao repositorio do código e, por iso, cantos máis ollos miren, máis erros van ser corrixidos. Mais a revisión do código tamén ten unha vantaxe indirecta: fai que a xente saiba que o que fan serve para algo, xa que un desenvolvedor non revisaría un commit se non estivese interesado polos seus efectos. A xente dá o mellor de si cando saben que os demais van avaliar o seu traballo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Reviews should be public. Even on occasions when I have been sitting in the same physical room with developers, and one of us has made a commit, we take care not to do the review verbally in the room, but to send it to the development mailing list instead. Everyone benefits from seeing the review happen. People follow the commentary and sometimes find flaws in it, and even when they don't, it still reminds them that review is an expected, regular activity, like washing the dishes or mowing the lawn.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>As revisións deberían ser públicas. Mesmo cando estabe no mesmo cuarto que outro desenvolvedor e un de nós facía un commit, procurabamos non facer a revisión verbalmente no cuarto, senón enviala á lista de correo. Todo o mundo se beneficia de ver a revisión. A xente verá os comentarios e algunhas veces atopará erros neles; mais mesmo se non o fan, é algo que recorda que a revisión é unha actividade que se espera do grupo, como lavar os pratos ou cortar o céspede.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In the Subversion project, we did not at first make a regular practice of code review. There was no guarantee that every commit would be reviewed, though one might sometimes look over a change if one was particularly interested in that area of the code. Bugs slipped in that really could and should have been caught. A developer named Greg Stein, who knew the value of code review from past work, decided that he was going to set an example by reviewing every line of &lt;emphasis&gt;every single commit&lt;/emphasis&gt; that went into the code repository. Each commit anyone made was soon followed by an email to the developer's list from Greg, dissecting the commit, analyzing possible problems, and occasionally praising a clever bit of code. Right away, he was catching bugs and non-optimal coding practices that would otherwise have slipped by without ever being noticed. Pointedly, he never complained about being the only person reviewing every commit, even though it took a fair amount of his time, but he did sing the praises of code review whenever he had the chance. Pretty soon, other people, myself included, started reviewing commits regularly too. What was our motivation? It wasn't that Greg had consciously shamed us into it. But he had proven that reviewing code was a valuable way to spend time, and that one could contribute as much to the project by reviewing others' changes as by writing new code. Once he demonstrated that, it became expected behavior, to the point where any commit that didn't get some reaction would cause the committer to worry, and even ask on the list whether anyone had had a chance to review it yet. Later, Greg got a job that didn't leave him as much time for Subversion, and had to stop doing regular reviews. But by then, the habit was so ingrained for the rest of us as to seem that it had been going on since time immemorial.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>No proxecto Subversion non fixemos a revisión do código desde o inicio. Non había garantía ningunha de que un commit fose revisado, aínda que ás veces alguén podía revisar unha mudanza se estaba especialmente interesado nesa parte do código. Os erros incluídos puideron e deberon ter sido detectados. Un desenvolvedor chamado Greg Stein, quen coñecía a importancia da revisión do código por traballos anteriores, decidiu que ía sentar precedente mediante a revisión de cada liña de &lt;emphasis&gt;cada commit&lt;/emphasis&gt; realizado sobre o repositorio do código do proxecto. Así, cada commit realizado viña seguido por un email de Greg á lista de correo dos desenvolvedores, diseccionándoo, analizando posibles problemas e ocasionalmente alabando un pedazo de código brillante. Desde o primeiro momento, empezou a a detectar erros e prácticas de código non óptimas que de outro modo se terían filtrado sen que ninguén se decatase. Hai que salientar que nunca se queixou de ser a única persoa que revisaba cada commit, aínda tendo en conta que lle levaba unha gran cantidade de tempo, e alababa as vantaxes da revisión do código cada vez que tiña ocasión. Máis xente, incluído eu mesmo, comezamos logo a revisar os commits regularmente. Cal foi a nosa motivación? Non foi que Greg se queixara porque nós non o fixeramos. A razón foi que demostrara que a revisión de código era unha actividade coa que se podía contribuír tanto ao proxecto como escribindo código novo. Unha vez o demostrou, convertiuse nun hábito do grupo, ata tal punto de que cada commit que non tiña ningún comentario provocaba que o desenvolvedor se preocupase e mesmo preguntase na lista de correo si alguén tivera a oportunidade de revisalo. Máis tarde, Greg comezou un traballo que non lle deixou moito tempo para colaborar co proxecto Subversion. Para entón, o hábito estaba tan interiorizado en cada un de nós como se tivese sido sempre así.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Start doing reviews from very first commit. The sorts of problems that are easiest to catch by reviewing diffs are security vulnerabilities, memory leaks, insufficient comments or API documentation, off-by-one errors, caller/callee discipline mismatches, and other problems that require a minimum of surrounding context to spot. However, even larger-scale issues such as failure to abstract repeated patterns to a single location become spottable after one has been doing reviews regularly, because the memory of past diffs informs the review of present diffs.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Comeza a facer revisións desde o primeiro commit. A clase de problemas que son máis sinxelos de detectar mediante a revisión de diffs son as vulnerabilidades de seguridade, fugas de memoria, comentarios insuficientes ou documentación da API, erros "off-by-one", incumprimento das regras de estilo e outros problemas que requiren un mínimo de contexto para seren vistos. Porén, mesmo problemas maiores tales como non abstraer patróns que se repiten poden ser vistos despois de que un teña feito revisións regularmente, xa que a memoria das mudanzas anteriores axuda na revisión dos presentes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Don't worry that you might not find anything to comment on, or that you don't know enough about every area of the code. There will usually be something to say about almost every commit; even where you don't find anything to question, you may find something to praise. The important thing is to make it clear to every committer that what they do is seen and understood. Of course, code review does not absolve programmers of the responsibility to review and test their changes before committing; no one should depend on code review to catch things he ought to have caught on his own.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Non te preocupes se non puideres atopar nada sobre o que comentares, ou se non souberes o suficiente sobre cada área do código. Habitualmente hai cousas que dicir sobre cada commit; mesmo onde non atopes nada que cuestionar, podes atopar algo que gabar. O importante é deixares claro a cada commiter que o que fan é visto e comprendido. Desde logo, a revisión de código non absolve os programadores da responsabilidade de revisaren e probaren as súas mudanzas antes de subírenas ao repositorio; ninguén debería deixar que a revisión do código faga o traballo que un debería ter feito por si mesmo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>When Opening a Formerly Closed Project, be Sensitive to the Magnitude of the Change</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Cando publicares un proxecto que estiver pechado ata agora, ten presente a magnitude da mudanza</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you're opening up an existing project, one that already has active developers accustomed to working in a closed-source environment, make sure everyone understands that a big change is coming&amp;mdash;and make sure that you understand how it's going to feel from their point of view.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Se vas facer público un proxecto existente, un que xa ten desenvolvedores activos afeitos a traballaren nun ambiente pechado, asegúrate de que todo o mundo comprende que a apertura supón unha gran mudanza &amp;mdash; e de que comprendes como se van sentir con ela.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Try to imagine how the situation looks to them: formerly, all code and design decisions were made with a group of other programmers who knew the software more or less equally well, who all received the same pressures from the same management, and who all know each others' strengths and weaknesses. Now you're asking them to expose their code to the scrutiny of random strangers, who will form judgements based only on the code, with no awareness of what business pressures may have forced certain decisions. These strangers will ask lots of questions, questions that jolt the existing developers into realizing that the documentation they slaved so hard over is &lt;emphasis&gt;still&lt;/emphasis&gt; inadequate (this is inevitable). To top it all off, the newcomers are unknown, faceless entities. If one of your developers already feels insecure about his skills, imagine how that will be exacerbated when newcomers point out flaws in code he wrote, and worse, do so in front of his colleagues. Unless you have a team of perfect coders, this is unavoidable&amp;mdash;in fact, it will probably happen to all of them at first. This is not because they're bad programmers; it's just that any program above a certain size has bugs, and peer review will spot some of those bugs (see &lt;xref linkend="code-review"/&gt;&lt;phrase output="printed"&gt; earlier in this chapter&lt;/phrase&gt;). At the same time, the newcomers themselves won't be subject to much peer review at first, since they can't contribute code until they're more familiar with the project. To your developers, it may feel like all the criticism is incoming, never outgoing. Thus, there is the danger of a siege mentality taking hold among the old hands.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Trata de imaxinar como é a situación para eles: ata esa altura, todas as decisións de deseño e código foron feitas por un grupo de programadores que coñecían o software máis ou menos igual, que recibiron as mesmas presións desde o mesmo equipo de xestión e que todos coñecen os puntos fracos e fortes dos seus compañeiros. A apertura do proxecto supón expor o código ao escrutinio de estranos, que se formarán xuízos de valor baseados unicamente no código, sen se preocuparen de que presións de negocio poden ter forzado a tomar certas decisións. Eses estranos van facer moitas preguntas, preguntas que van facer que os desenvolvedores se decaten de que a documentación na que tan duramente traballaran é &lt;emphasis&gt;aínda&lt;/emphasis&gt; inadecuada (isto é inevitable). E máis aínda, os recén chegados son descoñecidos, entidades sen face. Se un dos teus desenvolvedores xa se sinte inseguro sobre as súas capacidades, imaxina como ese sentimento será exacerbado cando os recén chegados sinalen erros no código que escribiu, e aínda peor, diante dos seus colegas. A menos que teñas un equipo de perfectos programadores, isto é inevitable &amp;mdash; de feito, probablemente lle ocorrerá a todos eles ao principio. Isto non se debe a que sexan malos programadores; é só que todo programa cunhas certas dimensións ten erros e a revisión entre pares deitará luz sobre algúns deles (ver &lt;xref linkend="code-review"/&gt;&lt;phrase output="printed"&gt; anteriormente neste capítulo&lt;/phrase&gt;). Ao mesmo tempo, os recén chegados non están baixo o mesmo nivel de revisión, xa que non poden enviar código ata que se familiarizaren co proxecto. Os teus desenvolvedores poden sentir como que todas as críticas van dirixidas a eles, pero ningunha para os demais. Así, existe o perigo de que se extenda un sentimento negativo entre o equipo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The best way to prevent this is to warn everyone about what's coming, explain it, tell them that the initial discomfort is perfectly normal, and reassure them that it's going to get better. Some of these warnings should take place privately, before the project is opened. But you may also find it helpful to remind people on the public lists that this is a new way of development for the project, and that it will take some time to adjust. The very best thing you can do is lead by example. If you don't see your developers answering enough newbie questions, then just telling them to answer more isn't going to help. They may not have a good sense of what warrants a response and what doesn't yet, or it could be that they don't have a feel for how to prioritize coding work against the new burden of external communications. The way to get them to participate is to participate yourself. Be on the public mailing lists, and make sure to answer some questions there. When you don't have the expertise to field a question, then visibly hand it off to a developer who does&amp;mdash;and watch to make sure he follows up with an answer, or at least a response. It will naturally be tempting for the longtime developers to lapse into private discussions, since that's what they're used to. Make sure you're subscribed to the internal mailing lists on which this might happen, so you can ask that such discussions be moved to the public lists right away.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>O mellor modo de evitar esta sensación é tentar que todo o mundo saiba o que implica a mudanza, explicárllelo, dicirlles que o incomodo inicial é perfectamente normal e asegurarlles que co tempo a situación vaise normalizar. Algunhas desas recomendacións deben ser feitas en privado antes da apertura do proxecto. Mais pode ser mesmo útil recordarlle á xente a través das listas públicas que hai un novo modo de desenvolver o proxecto e que os axustes van levar tempo. O mellor que podes facer é liderar mediante o exemplo. Se non ves os teus desenvolvedores responderen a cuestións dos recén chegados, dicirlles que o fagan non será suficiente. Poden todavía non ter un bo sentido do que se debe responder e como, ou poden non ter claro como priorizar o traballo de codificación fronte ás novas tarefas de relacións externas. A maneira de que participen é participares ti mesmo. Estares presente nas listas de correo públicas e responderes algunhas preguntas axudará. Se non tiveres a experiencia para responderes algunha das preguntas, pásalla a un desenvolvedor que si a teña &amp;mdash; e asegúrate de que aporte unha solución ou polo menos responda. De modo natural, os teus desenvolvedores realizarán moitos dos seus comentarios en privado, entre eles, xa que é como o acostumaban a facelo. Subscríbete ás listas de correo internas nas que isto poida ocorrer e suxire que tales debates sexan movidos á lista pública.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>There are other, longer-term concerns with opening up formerly closed projects. &lt;xref linkend="money"/&gt; explores techniques for mixing paid and unpaid developers successfully, and &lt;xref linkend="legal"/&gt; discusses the necessity of legal diligence when opening up a private code base that may contain software written or "owned" by other parties.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Hai outras cuestións a longo prazo que un debe ter en conta cando decide abrir un proxecto. &lt;xref linkend="money"/&gt; Explora as técnicas para envolver con suceso desenvolvedores pagados e voluntarios, e &lt;xref linkend="legal"/&gt; debate as dilixencias legais necesarias cando abrires un código que pode ter partes "propiedade" de terceiros.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Announcing</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Anunciar o proxecto</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Once the project is presentable&amp;mdash;not perfect, just presentable&amp;mdash;you're ready to announce it to the world. This is actually a very simple process: go to &lt;ulink url="http://freshmeat.net/"&gt;&lt;/ulink&gt;, click on &lt;guimenuitem&gt;Submit&lt;/guimenuitem&gt; in the top navigation bar, and fill out a form announcing your new project. Freshmeat is the place everyone watches for new project announcements. You only have to catch a few eyes there for news of your project to spread by word of mouth.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Unha vez o proxecto é presentable &amp;mdash; non perfecto, só presentable &amp;mdash; estás pronto para anuncialo ao mundo. Isto é un proceso sinxelo: vai a &lt;ulink url="http://freshmeat.net/"&gt;&lt;/ulink&gt;, pincha sobre &lt;guimenuitem&gt;Enviar&lt;/guimenuitem&gt; na barra de navegación superior e preenche un formulario coas características do teu proxecto. Freshmeat é o lugar onde todo o mundo procura novos proxectos. Unicamente tes que facer que uns poucos ollos se fixen para que a noticia sobre o teu proxecto se expanda.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you know of mailing lists or newsgroups where an announcement of your project would be on-topic and of interest, then post there, but be careful to make exactly &lt;emphasis&gt;one&lt;/emphasis&gt; post per forum, and to direct people to your project's own forums for follow-up discussion (by setting the &lt;systemitem&gt;Reply-to&lt;/systemitem&gt; header). The posts should be short and get right to the point:</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Se coñeces listas de correo ou foros onde a publicación do proxecto poida ser de interese, faino tamén aí, mais tenta escribires exactamente &lt;emphasis&gt;unha&lt;/emphasis&gt; mensaxe por foro e dirixires a xente aos teus propios canais de comunicación para continuar a conversa (configurando o cabezallo &lt;sistemitem&gt;Reply-to&lt;/sistemitem&gt;). As mensaxes debería ser curtas e directas:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To: discuss@lists.example.org
+Subject: [ANN] Scanley full-text indexer project
+Reply-to: dev@scanley.org
+
+This is a one-time post to announce the creation of the Scanley
+project, an open source full-text indexer and search engine with a
+rich API, for use by programmers in providing search services for
+large collections of text files.  Scanley is now running code, is
+under active development, and is looking for both developers and
+testers.
+
+Home page: http://www.scanley.org/
+
+Features:
+   - Searches plain text, HTML, and XML
+   - Word or phrase searching
+   - (planned) Fuzzy matching
+   - (planned) Incremental updating of indexes
+   - (planned) Indexing of remote web sites
+
+Requirements:
+   - Python 2.2 or higher
+   - Enough disk space to hold the indexes (approximately 2x
+     original data size)
+
+For more information, please come to scanley.org.
+
+Thank you,
+-J. Random</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>To: discuss@lists.example.org
+Asunto: [ANN] Proxecto Scanley: indexador de texto completo
+Reply-to: dev@scanley.org
+
+Esta mensaxe é para anunciar a creación do proxecto Scanley,
+ un motor de indexado e porocura de texto completo open source cunha
+API amplia, para ser usado por programadores que desexaren fornecer servizos de procura
+de amplias coleccións de arquivos de texto. Scanley é funcional, está
+baixo desenvolvemento activo e precísanse desenvolvedores e testeadores.
+
+Páxina web: http://www.scanley.org/
+
+Funcionalidades:
+   - Procuras de texto plano, HTML e XML
+   - Procura de palabras e/ou frases
+   - (planeada) Fuzzy matching
+   - (planeada) Actualización incremental dos índices
+   - (planeada) Indexación de sitios web remotos
+
+Requerimentos:
+   - Python 2.2 ou superior
+   - Espazo en disco suficiente para manter os índices (aproximadamente 2x
+     o tamaño orixinal)
+
+Para máis información, ver scanley.org.
+
+Obrigado,
+-J. Random</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>(See &lt;xref linkend="publicity"/&gt;&lt;phrase output="printed"&gt; in &lt;xref linkend="communications"/&gt;&lt;/phrase&gt; for advice on announcing further releases and other project events.)</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>(Ver &lt;xref linkend="publicity"/&gt;&lt;phrase output="printed"&gt; en &lt;xref linkend="communications"/&gt;&lt;/phrase&gt; para consellos sobre como anunciar futuras liberacións do proxecto e outros eventos.)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>There is an ongoing debate in the free software world about whether it is necessary to begin with running code, or whether a project can benefit from being opened even during the design/discussion stage. I used to think starting with running code was the most important factor, that it was what separated successful projects from toys, and that serious developers would only be attracted to software that did something concrete already.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Hai un debate non pechado no mundo do software libre sobre se é preciso comezar con código que funcione ou se un proxecto se pode beneficiar das vantaxes da apertura nas etapas de deseño e debate. Eu acostumaba a pensar que o factor máis importante era comezar con código que funcionase, que iso era o que separaba os proxectos con suceso dos xoguetes e que os desenvolvedores serios unicamente eran atraídos por software que facía algo concreto.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This turned out not to be the case. In the Subversion project, we started with a design document, a core of interested and well-connected developers, a lot of fanfare, and &lt;emphasis&gt;no&lt;/emphasis&gt; running code at all. To my complete surprise, the project acquired active participants right from the beginning, and by the time we did have something running, there were quite a few volunteer developers already deeply involved. Subversion is not the only example; the Mozilla project was also launched without running code, and is now a successful and popular web browser.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Isto demostrou ser erróneo. No proxecto Subversion, comezamos cun documento de deseño, un grupo de desenvolvedores interesados e ben conectados, moita fanfarrada e &lt;emphasis&gt;sen&lt;/emphasis&gt; código que funcionase. Para a miña sorpresa, o proxecto adquiriu participantes activos desde o primeiro momento e para cando tiñamos algo funcional, había uns cantos desenvolvedores voluntarios profundamente implicados no proxecto. Subversion non é o único exemplo; o proxecto Mozilla foi tamén lanzado sen código que funcionase e agora é un navegador web que ten suceso.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In the face of such evidence, I have to back away from the assertion that running code is absolutely necessary for launching a project. Running code is still the best foundation for success, and a good rule of thumb would be to wait until you have it before announcing your project. However, there may be circumstances where announcing earlier makes sense. I do think that at least a well-developed design document, or else some sort of code framework, is necessary&amp;mdash;of course it may be revised based on public feedback, but there has to be something concrete, something more tangible than just good intentions, for people to sink their teeth into.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Ante tales evidencias, teño que retractarme das miñas palabras. Comezar con código que funcione é unha das mellores formas para atinxir o éxito e unha boa regra sería esperar ata que tiveres algo para anunciares o proxecto. Porén, poden existir ocasións onde anunciar o proxecto en fases máis previas teña sentido. Creo firmemente que é necesario polo menos un bo documento de deseño ou algunha clase de código marco &amp;mdash; desde logo, pode ser revisado en público, mais ten que existir algo concreto, algo máis tanxible que só boas intencións para que á xente lle interese participar.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Whenever you announce, don't expect a horde of volunteers to join the project immediately afterward. Usually, the result of announcing is that you get a few casual inquiries, a few more people join your mailing lists, and aside from that, everything continues pretty much as before. But over time, you will notice a gradual increase in participation from both new code contributors and users. Announcement is merely the planting of a seed. It can take a long time for the news to spread. If the project consistently rewards those who get involved, the news &lt;emphasis&gt;will&lt;/emphasis&gt; spread, though, because people want to share when they've found something good. If all goes well, the dynamics of exponential communications networks will slowly transform the project into a complex community, where you don't necessarily know everyone's name and can no longer follow every single conversation. The next chapters are about working in that environment.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Cando fixeres o anuncio, non esperes que unha horda de voluntarios se unan ao proxecto de maneira inmediata. Habitualmente, o resultado da publicación é que tes unhas poucas preguntas, algunha xente se unirá ás listas de correo e todo continuará case coma sempre. Mais ao pasar o tempo, observarás incrementos graduais na participación tanto de usuarios como de desenvolvedores. O anuncio pode ser considerado meramente unha semente. A expansión da noticia pode demorar. Se o proxecto premiar eses que participaren, as noticias vanse estender rápidamente xa que á xente lle gusta compartir que atoparon algo que vale a pena. Se todo vai ben, as dinámicas de redes de comunicacións exponenciais transformaranse lentamente nunha comunidade complexa, onde non necesariamente vas coñecer todo o mundo nin vas poder seguir cada conversa. Os seguintes capítulos versan sobre como traballar nese entorno.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

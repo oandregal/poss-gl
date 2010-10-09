@@ -1,0 +1,943 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit - po2tmx" creationtoolversion="1.8.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Money</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Diñeiro</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This chapter examines how to bring funding into a free software environment. It is aimed not only at developers who are paid to work on free software projects, but also at their managers, who need to understand the social dynamics of the development environment. In the sections that follow, the addressee ("you") is presumed to be either a paid developer, or one who manages such developers. The advice will often be the same for both; when it's not, the intended audience will be made clear from context.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Este capítulo examina como conseguir fondos nun entorno de Software Libre. Está dirixido non só a desenvolvedores aos que se lles paga por traballaren en proxectos de Software Libre, senón tamén aos seus xestores, que precisan entender as dinámicas sociais do entorno de desenvolvemento. Nas seguintes seccións, o destinatario ("ti") enténdese tanto como un desenvolvedor que cobra como aquel que coordina a tales desenvolvedores. O consello será frecuentemente o mesmo para ambos; cando non o sexa, a audiencia específica ficará  clara a partir do contexto.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Corporate funding of free software development is not a new phenomenon. A lot of development has always been informally subsidized. When a system administrator writes a network analysis tool to help her do her job, then posts it online and gets bug fixes and feature contributions from other system administrators, what's happened is that an unofficial consortium has been formed. The consortium's funding comes from the sysadmins' salaries, and its office space and network bandwidth are donated, albeit unknowingly, by the organizations they work for. Those organizations benefit from the investment, of course, although they may not be institutionally aware of it at first.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Os fondos corporativos dun desenvolvemento de Software Libre non son un fenómeno novo. Moitos desenvolvementos estiveron sempre informalmente subvencionados. Cando un administrador de sistemas escribe unha ferramenta de análise de rede para axudarlle no seu traballo e a colga na rede, e consegue correccións de erros e contribucións con novas características fruto da colaboración de outros administradores de sistemas, o que está a ocorrer é que se crea un consorcio non oficial. Os fondos do consorcio veñen dos salarios dos administradores de sistemas; e o seu espazo de traballo e largo de banda de rede son cedidos, sen coñecemento por parte da organización na que traballan. Estas organizacións benefícianse do investimento, por suposto, aínda que institucionalmente ao comezo non son conscientes diso.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The difference today is that many of these efforts are being formalized. Corporations have become conscious of the benefits of open source software, and started involving themselves more directly in its development. Developers too have come to expect that really important projects will attract at least donations, and possibly even long-term sponsors. While the presence of money has not changed the basic dynamics of free software development, it has greatly changed the scale at which things happen, both in terms of the number of developers and time-per-developer. It has also had effects on how projects are organized, and on how the parties involved in them interact. The issues are not merely about how the money is spent, or how return on investment is measured. They are also about management and process: how can the hierarchical command structures of corporations and the semi-decentralized volunteer communities of free software projects work productively with each other? Will they even agree on what "productively" means?</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>A diferenza é que hoxe moitos deses esforzos están sendo formalizados. As corporacións tomaron consciencia dos beneficios do software de código aberto, e comezaron a participar máis directamente no seu desenvolvemento. Os desenvolvedores hoxe en día tamén esperan que os proxectos realmente importantes atraian cando menos doazóns, e posiblemente mesmo patrocinadores de longa duración. Embora a presenza de diñeiro non mudase as dinámicas básicas do Software Libre, si que mudou dun xeito enorme a escala na que ocorren as cousas, tanto en termos de número de desenvolvedores como en tempo por desenvolvedor. Tamén tivo efecto en como se organizan os proxectos, e en como interaxen as partes involucradas neles. A cuestión non se reduce unicamente a como se gasta o diñeiro, ou como medir o retorno do investimento, senón que tamén envolve a xestión e os procesos: como poden traballar de maneira produtiva en colaboración as estruturas de mando xerárquico das corporacións e as comunidades semi-descentralizadas de voluntarios? Coincidirán no significado de "produtividade"?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Financial backing is, in general, welcomed by open source development communities. It can reduce a project's vulnerability to the Forces of Chaos, which sweep away so many projects before they really get off the ground, and therefore it can make people more willing to give the software a chance&amp;mdash;they feel they're investing their time into something that will still be around six months from now. After all, credibility is contagious, to a point. When, say, IBM backs an open source project, people pretty much assume the project won't be allowed to fail, and their resultant willingness to devote effort to it can make that a self-fulfilling prophecy.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>A cobertura financeira é, en xeral, benvida polas comunidades de desenvolvemento de software de código aberto. Este patrocinio pode reducir a vulnerabilidade dun proxecto perante as Forzas do Caos, as cales barren moitos proxectos antes de que realmente despeguen, e ademais pode facer que a xente estea máis desexosa de darlle unha oportunidade ao software en cuestión; senten que están a investir o seu tempo en algo que vai durar polo menos seis meses. Despois de todo, a credibilidade é contaxiosa. Cando, se di, IBM apoia un proxecto de código aberto, a xente máis ou menos asume que non van deixar que o proxecto fracase, e a vontade resultante de dedicarlle esforzos pode convertela nunha profecía autocumprida.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>However, funding also brings a perception of control. If not handled carefully, money can divide a project into in-group and out-group developers. If the unpaid volunteers get the feeling that design decisions or feature additions are simply available to the highest bidder, they'll head off to a project that seems more like a meritocracy and less like unpaid labor for someone else's benefit. They may never complain overtly on the mailing lists. Instead, there will simply be less and less noise from external sources, as the volunteers gradually stop trying to be taken seriously. The buzz of small-scale activity will continue, in the form of bug reports and occasional small fixes. But there won't be any large code contributions or outside participation in design discussions. People sense what's expected of them, and live up (or down) to those expectations.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Porén, os fondos tamén acarretan unha percepción de control. Se non se manexar con coidado, o diñeiro pode dividir o proxecto en grupos. Se os voluntarios non pagados teñen a sensación de que as decisións de deseño ou de adición de novas funcionalidades están só dispoñibles para quen máis paga, marcharanse a outro proxecto que se asemelle máis a unha meritocracia e menos a un traballo non pagado para o beneficio dun terceiro. Pode que nunca se queixen abertamente nas listas de correo; en troca diso, simplemente haberá menos e menos ruído desde fontes externas a medida que os voluntarios gradualmente deixen de tentar ser tomados en serio. O rumor da actividade a pequena escala continuará na forma de informes de erros e ocasionalmente corrección de pequenos erros, mais non haberá máis contribucións con moito código ou participación externa en discusións sobre o deseño. A xente sente que é o que se espera dela, e vive (ou desfalece) da man desas expectativas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Although money needs to be used carefully, that doesn't mean it can't buy influence. It most certainly can. The trick is that it can't buy influence directly. In a straightforward commercial transaction, you trade money for what you want. If you need a feature added, you sign a contract, pay for it, and it gets done. In an open source project, it's not so simple. You may sign a contract with some developers, but they'd be fooling themselves&amp;mdash;and you&amp;mdash;if they guaranteed that the work you paid for would be accepted by the development community simply because you paid for it. The work can only be accepted on its own merits and on how it fits into the community's vision for the software. You may have some say in that vision, but you won't be the only voice.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>O diñeiro debe ser usado con coidado, mais iso non quere dicir que non poida comprar influencia  Desde logo que pode. O truco está en que non pode comprar influencia directamente. Nunha sinxela transacción comercial, trocas diñeiro polo que quixeres; se precisares engadir unha funcionalidade, asinas un contrato, pagas por el e farase. Nun proxecto de código aberto isto non é tan sinxelo. Claro que podes asinar un contrato con algúns desenvolvedores, mais eles ían pensar que es parvo, tanto ti como eles mesmos, se che garantisen que o traballo que pagaches vai ser aceptado pola comunidade de desenvolvemento simplemente porque pagaches por el. O traballo só pode ser aceptado polos seus propios méritos e por como encaixa na visión do software da comunidade. Pode que teñas algo que dicir nesta visión, mais non serás a única voz.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>So money can't purchase influence, but it can purchase things that &lt;emphasis&gt;lead to&lt;/emphasis&gt; influence. The most obvious example is programmers. If good programmers are hired, and they stick around long enough to get experience with the software and credibility in the community, then they can influence the project by the same means as any other member. They will have a vote, or if there are many of them, they will have a voting bloc. If they are respected in the project, they will have influence beyond just their votes. There is no need for paid developers to disguise their motives, either. After all, everyone who wants a change made to the software wants it for a reason. Your company's reasons are no less legitimate than anyone else's. It's just that the weight given to your company's goals will be determined by its representatives' status in the project, not by the company's size, budget, or business plan.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Polo tanto, o diñeiro non pode comprar influencia, mais pode comprar cousas que &lt;emphasis&gt;conducen á&lt;/emphasis&gt; influencia. O exemplo máis obvio son os programadores. Se son contratados bos programadores, e aguantan abondo para colleren experiencia co software e credibilidade na comunidade, entón van poder influenciar no proxecto polos mesmos medios que calquera outro membro. Terán voto, ou se hai varios, terán un bloque de voto. Se son respectados no proxecto, terán influencia para alén dos seus votos. Tampouco hai necesidade de que os desenvolvedores con salario disimulen os seus motivos. Despois de todo, calquera que quixer facer unha mudanza no software quéreo por algunha razón. As razóns da túa empresa non son menos lexítimas que as de calquera outro. Simplemente o peso dado aos obxectivos da túa empresa vai ser determinado polo status dos teus representantes no proxecto, e non polo teu tamaño, orzamento ou plan de negocio.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Types of Involvement</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Tipos de participación</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>There are many different reasons open source projects get funded. The items in this list aren't mutually exclusive; often a project's financial backing will result from several, or even all, of these motivations:</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Existen múltiples razóns distintas polas que os proxectos de código aberto conseguen fondos. Os elementos desta lista non son mutuamente excluíntes; a miúdo o financiamento dun proxecto será o resultado de varias, ou mesmo todas estas motivacións:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Sharing the burden</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Compartindo a carga</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Separate organizations with related software needs often find themselves duplicating effort, either by redundantly writing similar code in-house, or by purchasing similar products from proprietary vendors. When they realize what's going on, the organizations may pool their resources and create (or join) an open source project tailored to their needs. The advantages are obvious: the costs of development are divided, but the benefits accrue to all. Although this scenario seems most intuitive for nonprofits, it can make strategic sense even for for-profit competitors.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Distintas organizacións con necesidades de software similares, a miúdo atópanse a si mesmas duplicando esforzos, tanto escribindo internamente código similar, como comprando produtos similares de vendedores propietarios. Cando se decatan do que ocorre, as organizacións poden reunir os seus recursos e crear (ou unirse a) un proxecto de Código Aberto adaptado ás súas necesidades. As vantaxes son obvias: o custo de desenvolvemento divídese, mais os beneficios acumúlanse para todos. Aínda que este escenario pareza máis intuitivo para organizacións sen ánimo de lucro, pode ter sentido estratéxico mesmo para competidores con ánimo de lucro.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Examples: &lt;ulink url="http://www.openadapter.org/"&gt;&lt;/ulink&gt;, &lt;ulink url="http://www.koha.org/"&gt;&lt;/ulink&gt;</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Exemplos: &lt;ulink url="http://www.openadapter.org/"&gt;&lt;/ulink&gt;, &lt;ulink url="http://www.koha.org/"&gt;&lt;/ulink&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Augmenting services</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Aumentando servizos</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>When a company sells services which depend on, or are made more attractive by, particular open source programs, it is naturally in that company's interests to ensure those programs are actively maintained.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Cando unha empresa vende servizos que dependen de, ou se tornan máis atractivos con, programas de código aberto, naturalmente un dos intereses desta compañía é asegurar que estes programas sexan mantidos activamente.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Example: &lt;ulink url="http://www.collab.net/"&gt;CollabNet's&lt;/ulink&gt; support of &lt;ulink url="http://subversion.tigris.org/"&gt;&lt;/ulink&gt; (disclaimer: that's my day job, but it's also a perfect example of this model).</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Exemplo: o apoio de &lt;ulink url="http://www.collab.net/"&gt;CollabNet&lt;/ulink&gt; ao soporte de &lt;ulink url="http://subversion.tigris.org/"&gt;&lt;/ulink&gt; (Nota: este é o meu traballo diario, mais tamén é un exemplo perfecto deste modelo).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Supporting hardware sales</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Apoiando as ventas de hardware</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The value of computers and computer components is directly related to the amount of software available for them. Hardware vendors&amp;mdash;not just whole-machine vendors, but also makers of peripheral devices and microchips&amp;mdash;have found that having high-quality free software to run on their hardware is important to customers.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>O valor dos ordenadores e dos seus compoñentes está directamente relacionado coa cantidade de software dispoñible para eles. Os fabricantes de hardware (non só de máquinas completas, senón tamén os fabricantes de periféricos e microchips) descubriron que ter software libre de alta calidade dispoñible para ser executado no seu hardware é importante para os clientes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Undermining a competitor</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Minando a concorrencia</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Sometimes companies support a particular open source project as a means of undermining a competitor's product, which may or may not be open source itself. Eating away at a competitor's market share is usually not the sole reason for getting involved with an open source project, but it can be a factor.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Algunhas veces as empresas patrocinan certos proxectos de código aberto como un medio de minar o produto dun concorrente, o cal á súa vez pode ser ou non de código aberto. Comerlle cota de mercado aos competidores adoita non ser a única razón para participar nun proxecto de código aberto, mais pode ser un factor.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Example: &lt;ulink url="http://www.openoffice.org/"&gt;&lt;/ulink&gt; (no, this isn't the only reason OpenOffice exists, but the software is at least partly a response to Microsoft Office).</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Exemplo: &lt;ulink url="http://www.openoffice.org/"&gt;&lt;/ulink&gt; (non, esta non é a única razón pola cal OpenOffice existe, mais este software é en parte unha resposta a Microsoft Office).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>&lt;term&gt;Marketing&lt;/term&gt;</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>&lt;term&gt;Mercadotecnia&lt;/term&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Having your company associated with a popular open source application can be simply good brand management.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Ter a túa empresa asociada cunha aplicación popular de código aberto pode ser unha boa xestión de marca.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Dual-licensing</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Licenciamento dual</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>&lt;firstterm&gt;Dual-licensing&lt;/firstterm&gt; is the practice of offering software under a traditional proprietary license for customers who want to resell it as part of a proprietary application of their own, and simultaneously under a free license for those willing to use it under open source terms (see &lt;xref linkend="dual-licensing"/&gt;&lt;phrase output="printed"&gt; in &lt;xref linkend="legal"/&gt;&lt;/phrase&gt;). If the open source developer community is active, the software gets the benefits of wide-area debugging and development, yet the company still gets a royalty stream to support some full-time programmers.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>&lt;firstterm&gt;Licenciamento Dual&lt;/firstterm&gt; é a práctica baixo a cal se ofrece o software empregando unha licenza propietaria tradicional para clientes que desexen revendelo como parte doutra aplicación propietaria, e simultaneamente tamén se ofrece baixo unha licenza libre para aqueles que pretendan empregalo baixo os termos do Software Libre (consulta &lt;xref linkend="dual-licensing"/&gt;&lt;phrase output="printed"&gt; en &lt;xref linkend="legal"/&gt;&lt;/phrase&gt;). Se a comunidade de desenvolvedores de Software Libre é activa, o programa recibe os beneficios do desenvolvemento e procura de erros de amplo espectro mentres a empresa segue obtendo beneficios polas regalías para manter algúns desenvolvedores a tempo completo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Two well-known examples are &lt;ulink url="http://www.mysql.com/"&gt;MySQL&lt;/ulink&gt;, makers of the database software of the same name, and &lt;ulink url="http://www.sleepycat.com/"&gt;Sleepycat&lt;/ulink&gt;, which offers distributions and support for the Berkeley Database. It's no coincidence that they're both database companies. Database software tends to be integrated into applications rather than marketed directly to users, so it's very well-suited to the dual-licensing model.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Dous exemplos moi coñecidos son &lt;ulink url="http://www.mysql.com/"&gt;MySQL&lt;/ulink&gt;, creadores da base de datos co mesmo nome, e &lt;ulink url="http://www.sleepycat.com/"&gt;Sleepycat&lt;/ulink&gt;, que distribúe e dá soporte á base de datos Berkeley. Non é coincidencia que ambas sexan empresas de bases de datos; as bases de datos adoitan estar integradas en aplicacións antes que seren vendidas directamente aos usuarios, o cal encaixa perfectamente cun modelo de licenciamento dual.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Donations</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Doazóns</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>A widely-used project can sometimes get significant contributions, from both individuals and organizations, just by having an online donation button, or sometimes by selling branded merchandise such as coffee mugs, T-shirts, mousepads, etc. A word of caution: if your project accepts donations, plan out how the money will be used &lt;emphasis&gt;before&lt;/emphasis&gt; it comes in, and state the plans on the project's web site. Discussions about how to allocate money tend to go a lot more smoothly when held before there's actual money to spend; and anyway, if there are significant disagreements, it's better to find that out while it's still academic.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Un proxecto popular pode ás veces obter contribucións significativas tanto de individuos como de organizacións, simplemente tendo en liña un botón de doazóns ou ás veces vendendo produtos promocionais como cuncas de café, camisetas, tapetes de rato, etc. Precaución: se o teu proxecto acepta doazóns, planifica como vai ser empregado o diñeiro &lt;emphasis&gt;antes&lt;/emphasis&gt; de que este chegue, e publica o plan na páxina web do proxecto. As discusións sobre a onde dirixir o diñeiro adoitan ser máis suaves antes de telo; e de todos os xeitos, se houber desacordos significativos, é mellor descubrilos mentres a planificación do uso do diñeiro for teórica.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>A funder's business model is not the only factor in how it relates to an open source community. The historical relationship between the two also matters: did the company start the project, or is it joining an existing development effort? In both cases, the funder will have to earn credibility, but, not surprisingly, there's a bit more earning to be done in the latter case. The organization needs to have clear goals with respect to the project. Is the company trying to keep a position of leadership, or simply trying to be one voice in the community, to guide but not necessarily govern the project's direction? Or does it just want to have a couple of committers around, able to fix customers' bugs and get the changes into the public distribution without any fuss?</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>O modelo de negocio dun patrocinador non é o único factor co que este se relaciona cunha comunidade de código aberto. A relación histórica entre ambos tamén importa: iniciou a empresas o proxecto ou uniuse a posteriori? En ambos casos, o patrocinador terá que gañarse a credibilidade, mais (como era de esperar) será preciso un maior esforzo no segundo caso. A organización debe ter uns obxectivos claros a respecto do proxecto. A empresa está tentando manter unha posición de liderado, ou simplemente está intentando ser unha voz dentro da comunidade para guiala mais sen necesariamente gobernar a dirección do proxecto? Ou só desexa ter un par de committers (desenvolvedores que teñen os permisos precisos para faceren mudanzas no repositorio de código fonte do proxecto) capaces de amañaren os problemas dos usuarios e introduciren as mudanzas na distribución pública sen moito rebumbio?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Keep these questions in mind as you read the guidelines that follow. They are meant to apply to any sort of organizational involvement in a free software project, but every project is a human environment, and therefore no two are exactly alike. To some degree, you will always have to play by ear, but following these principles will increase the likelihood of things turning out the way you want.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Mantede estas preguntas en mente mentres ledes as seguintes directrices. Están pensadas para a súa aplicación en calquera participación empresarial dentro dun proxecto de software libre, mais cada proxecto é un entorno humano, polo cal non hai dous que sexan iguais. Ata certo punto, será preciso improvisar, mais seguindo estes principios verás aumentadas as posibilidades de que as cousas saian como ti queres.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Hire for the Long Term</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Contratos a longo prazo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you're managing programmers on an open source project, keep them there long enough that they acquire both technical and political expertise&amp;mdash;a couple of years, at a minimum. Of course, no project, whether open or closed-source, benefits from swapping programmers in and out too often. The need for a newcomer to learn the ropes each time would be a deterrent in any environment. But the penalty is even stronger in open source projects, because outgoing developers take with them not only their knowledge of the code, but also their status in the community and the human relationships they have made there.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Se estás xestionando desenvolvedores nun proxecto de código aberto, tenta mantelos o tempo suficiente para que adquiran experiencia tanto técnica como política; un par de anos, como mínimo. Por suposto que ningún proxecto nin de software libre nin de software privativo se beneficia do intercambio continuo de programadores. A necesidade dos chegados hai pouco de aprenderen todo desde cero pode ser perniciosa nalgúns entornos. Mais a penalización é maior nos proxectos de código aberto, porque os desenvolvedores que marchan levan con eles non só o coñecemento do código, senón tamén o seu status dentro da comunidade e mailas relacións humanas que fixeron nela.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The credibility a developer has accumulated cannot be transferred. To pick the most obvious example, an incoming developer can't inherit commit access from an outgoing one (see &lt;xref linkend="money-vs-love"/&gt; later in this chapter), so if the new developer doesn't already have commit access, he will have to submit patches until he does. But commit access is only the most measurable manifestation of lost influence. A long-time developer also knows all the old arguments that have been hashed and rehashed on the discussion lists. A new developer, having no memory of those conversations, may try to raise the topics again, leading to a loss of credibility for your organization; the others might wonder "Can't they remember anything?" A new developer will also have no political feel for the project's personalities, and will not be able to influence development directions as quickly or as smoothly as one who's been around a long time.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>A credibilidade acumulada por un desenvolvedor non pode ser transferida. O exemplo máis obvio está en que un desenvolvedor que acaba de incorporase non pode herdar o nivel acceso ao código de quen marcha (máis en &lt;xref linkend="money-vs-love"/&gt;), así que se o novo desenvolvedor non ten permisos para realizar mudanzas, deberá enviar remendos ata conseguir estes permisos. Mais este nivel de acceso só é a manifestación máis cuantitativa da perda de influencia. Un desenvolvedor veterano tamén coñece os vellos temas que foron tratados unha e outra vez nas roldas de discusión. Un desenvolvedor novato, sen ter memoria destas conversacións, quizais tente retomar estes temas, levando a túa empresa a unha perda de credibilidade; outros pode que pensen: "Entón, esta xente non pode recordar nada?". Un novo desenvolvedor tampouco terá ningunha relación política coas personalidades do proxecto, e non poderá influenciar na dirección de desenvolvemento tan rápida ou suavemente como alguén que leve moito tempo no proxecto.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Train newcomers through a program of supervised engagement. The new developer should be in direct contact with the public development community from the very first day, starting off with bug fixes and cleanup tasks, so he can learn the code base and acquire a reputation in the community, yet not spark any long and involved design discussions. All the while, one or more experienced developers should be available for questioning, and should be reading every post the newcomer makes to the development lists, even if they're in threads that the experienced developers normally wouldn't pay attention to. This will help the group spot potential rocks before the newcomer runs aground. Private, behind-the-scenes encouragement and pointers can also help a lot, especially if the newcomer is not accustomed to massively parallel peer review of his code.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Adestra os novatos mediante un programa de incorporación supervisada. O novo desenvolvedor debe estar en contacto directo coa comunidade de desenvolvemento pública desde o primeiro día, comezando con correccións de erros e tarefas de limpeza, de xeito que poida aprender a base do código e adquirir unha reputación na comunidade, mais sen entraren en discusións de deseño. Durante este tempo, un ou máis desenvolvedores experimentados deben estar dispoñibles para resolver dúbidas, e deben ler cada mensaxe que o novo desenvolvedor envíe ás listas de correo de desenvolvemento, mesmo se se tratar de fíos aos que os desenvolvedores experimentados normalmente non lles prestan atención. Isto axudaralle ao grupo a ver potenciais dificultades antes de que o novo desenvolvedor caia nelas. Dar ánimos e orientación en privado, detrás do telón, pode axudar moito, especialmente se o novo desenvolvedor non estiver acostumado a que o seu código sexa paralela e masivamente revisado polos seus iguais.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>When CollabNet hires a new developer to work on Subversion, we sit down together and pick some open bugs for the new person to cut his teeth on. We'll discuss the technical outlines of the solutions, and then assign at least one experienced developer to (publicly) review the patch that the new developer will (also publicly) post. We typically don't even look at the patch before the main development list sees it, although we could if there were some reason to. The important thing is that the new developer go through the process of public review, learning the code base while simultaneously becoming accustomed to receiving critiques from complete strangers. But we try to coordinate the timing so that our own review comes immediately after the posting of the patch. That way the first review the list sees is ours, which can help set the tone for the others' reviews. It also contributes to the idea that this new person is to be taken seriously: if others see that we're putting in the time to give detailed reviews, with thorough explanations and references into the archives where appropriate, they'll appreciate that a form of training is going on, and that it probably signifies a long-term investment. This can make them more positively disposed toward that developer, at least to the degree of spending a little extra time answering questions and reviewing patches.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Cando CollabNet contrata un novo desenvolvedor para traballar en Subversion, sentámonos xuntos e escollemos algúns erros abertos para que a nova incorporación se adestre. Discutimos os aspectos técnicos xerais da solución, e despois asignamos polo menos un desenvolvedor experimentado para que (publicamente) revise o remendo que ese novo desenvolvedor (publicamente) vai enviar. Normalmente nin tan sequera lle botamos unha ollada ao remendo antes de que a rolda de desenvolvemento principal o vexa, aínda que o facemos se hai algunha razón para elo. O importante é que o novo desenvolvedor pase polo proceso de revisión pública, aprendendo a base do código mentres simultaneamente se habitúa a recibir críticas provenientes de completos descoñecidos. Aínda así, tentamos coordinar os prazos, de xeito que a nosas propias revisións cheguen inmediatamente despois do envío do remendo. Deste xeito a primeira revisión vista na rolda é a nosa, podendo axudar a establecer o ton do resto de revisións. Isto tamén contribúe á idea de que a nova persoa debe tomarse en serio: se outros ven que estamos empregando tempo en revisións detalladas, con profundas explicacións e referencias aos arquivos cando for apropiado, vanse decatar de que o estamos adestrando e que isto probablemente significa un investimento a longo prazo. Este feito pode posicionalos máis positivamente cara o novo desenvolvedor, cando menos ata o punto de empregaren un pouco tempo extra en responder preguntas e revisar remendos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Appear as Many, Not as One</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Parecer varios, non un</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Your developers should strive to appear in the project's public forums as individual participants, rather than as a monolithic corporate presence. This is not because there is some negative connotation inherent in monolithic corporate presences (well, perhaps there is, but that's not what this book is about). Rather, it's because individuals are the only sort of entity open source projects are structurally equipped to deal with. An individual contributor can have discussions, submit patches, acquire credibility, vote, and so forth. A company cannot.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Os teus desenvolvedores deben tentar aparecer nos foros públicos do proxecto como participantes individuais, máis que como unha presencia corporativa monolítica. Isto non é así porque haxa unha connotación negativa inherente ás presencias corporativas monolíticas (ben, quizais si que as haxa, mais non é sobre o que trata este libro). En troca diso, débese a que os individuos son o único tipo de entidade para a que os proxectos de código aberto están estruturalmente preparados. Un contribuínte individual pode ter discusións, enviar remendos, adquirir credibilidade, votar, etc. Unha empresa non pode.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Furthermore, by behaving in a decentralized manner, you avoid stimulating centralization of opposition. Let your developers disagree with each other on the mailing lists. Encourage them to review each other's code as often, and as publicly, as they would anyone else's. Discourage them from always voting as a bloc, because if they do, others may start to feel that, just on general principles, there should be an organized effort to keep them in check.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Máis aínda, ao comportarse dun xeito descentralizado, elimínase o estímulo de centralización da oposición. Deixa que os teus desenvolvedores teñan desacordos entre si nas listas de correo. Anímaos a revisaren o código dos compañeiros tan frecuente e publicamente como o farían co código dos demais. Disuádeos de votaren sempre como un bloco, porque se o fixeren, outros poden comezar a sentir que, dun xeito xeral, está habendo un esforzo organizado para mantelos aliñados.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>There's a difference between actually being decentralized and simply striving to appear that way. Under certain circumstances, having your developers behave in concert can be quite useful, and they should be prepared to coordinate behind the scenes when necessary. For example, when making a proposal, having several people chime in with agreement early on can help it along, by giving the impression of a growing consensus. Others will feel that the proposal has momentum, and that if they were to object, they'd be stopping that momentum. Thus, people will object only if they have a good reason to do so. There's nothing wrong with orchestrating agreement like this, as long as objections are still taken seriously. The public manifestations of a private agreement are no less sincere for having been coordinated beforehand, and are not harmful as long as they are not used to prejudicially snuff out opposing arguments. Their purpose is merely to inhibit the sort of people who like to object just to stay in shape; see &lt;xref linkend="bikeshed"/&gt;&lt;phrase output="printed"&gt; in &lt;xref linkend="communications"/&gt;&lt;/phrase&gt; for more about them.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Hai unha diferencia entre realmente estar descentralizado e simplemente parecer estalo. Baixo certas circunstancias, ter os teus desenvolvedores actuando concertadamente pode ser moi útil, e deberían estar preparados para coordinárense detrás dos bastidores cando for necesario. Por exemplo, cando se fai unha proposta, ter cedo varias persoas afirmando estaren de acordo pode axudala, dando a impresión dun consenso crecente. Os demais van sentir que a proposta ten potencia, e que se a refutaren, pararán esa potencia. Así, a xente só vai obxectar se tiver unha boa razón para facelo. Non hai nada malo en orquestrar o acordo deste xeito, sempre e cando as obxeccións sigan tomándose en serio. As manifestacións públicas dun acordo privado non son menos sinceras por teren sido coordinadas baixo a manga, e non son daniñas mentres non se empregaren para disolver argumentacións opostas. O seu propósito simplemente é inhibir o tipo de xente á que lle gusta obxectar só para manterse en forma; bótalle unha ollada a &lt;xref linkend="bikeshed"/&gt;&lt;phrase output="printed"&gt; en &lt;xref linkend="communications"/&gt;&lt;/phrase&gt; para saberes máis sobre eles.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Be Open About Your Motivations</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Sé aberto sobre as túas motivacións</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Be as open about your organization's goals as you can without compromising business secrets. If you want the project to acquire a certain feature because, say, your customers have been clamoring for it, just say so outright on the mailing lists. If the customers wish to remain anonymous, as is sometimes the case, then at least ask them if they can be used as unnamed examples. The more the public development community knows about &lt;emphasis&gt;why&lt;/emphasis&gt; you want what you want, the more comfortable they'll be with whatever you're proposing.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Sé tan aberto como poidas sobre os obxectivos da túa empresa, sen comprometeres os seus secretos comercias. Se queres que o proxecto adquira unha funcionalidade concreta porque, seica, os teus clientes a están a reclamar, dio directamente nas listas de correo. Se os clientes quixeren permanecer no anonimato, como pode ser o caso ás veces, polo menos pregúntalles se poden ser empregados como exemplo xenérico. Canto máis saiba a comunidade pública de desenvolvemento sobre &lt;emphasis&gt;por que&lt;/emphasis&gt; ti queres o que queres, máis cómoda se vai sentir co que propuxeres.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This runs counter to the instinct&amp;mdash;so easy to acquire, so hard to shake off&amp;mdash;that knowledge is power, and that the more others know about your goals, the more control they have over you. But that instinct would be wrong here. By publicly advocating the feature (or bugfix, or whatever it is), you have &lt;emphasis&gt;already&lt;/emphasis&gt; laid your cards on the table. The only question now is whether you will succeed in guiding the community to share your goal. If you merely state that you want it, but can't provide concrete examples of why, your argument is weak, and people will start to suspect a hidden agenda. But if you give just a few real-world scenarios showing why the proposed feature is important, that can have a dramatic effect on the debate.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Isto contradí o instinto&amp;mdash;tan sinxelo de adquirir e tan complicado de deixar&amp;mdash;de que o coñecemento é poder, e que canto máis saiban os demais sobre os teus obxectivos, máis control terán sobre ti. Mais ese instinto está errado neste caso. Ao avogar publicamente por unha funcionalidade (ou corrección de erro, ou o que for) ti &lt;emphasis&gt;xa&lt;/emphasis&gt; puxeches as cartas enriba da mesa. A única cuestión agora é saber se terás éxito en guiar a comunidade a compartir o teu obxectivo. Se ti simplemente enuncias o que queres, mais non podes fornecer exemplos concretos do porqué, entón a túa argumentación é feble e a xente comezará a sospeitar dunha axenda secreta. Pola contra, se dás aínda que só sexa un pequeno conxunto de escenarios reais, amosando por que a funcionalidade proposta é importante, isto pode ter un efecto dramático no debate.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To see why this is so, consider the alternative. Too frequently, debates about new features or new directions are long and tiresome. The arguments people advance often reduce to "I personally want X," or the ever-popular "In my years of experience as a software designer, X is extremely important to users / a useless frill that will please no one." Predictably, the absence of real-world usage data neither shortens nor tempers such debates, but instead allows them to drift farther and farther from any mooring in actual user experience. Without some countervailing force, the end result is as likely as not to be determined by whoever was the most articulate, or the most persistent, or the most senior.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Para veres por que isto é así, considera a alternativa. Demasiado a miúdo, os debates sobre as novas funcionalidades ou direccións son longos e cansados. Os argumentos que a xente emprega a miúdo redúcense a "Eu persoalmente quero X" ou o sempre popular "Nos meus anos de experiencia como deseñador de software, X é extremadamente importante para os usuarios / unha parvada inútil que non agradecerá ninguén". Previsiblemente, a ausencia de datos sobre o uso no mundo real nunca axuda a acurtar estes debates, senón que permite divagar máis e máis sen ningunha base en experiencia real de usuario. Sen forzas de contraposición, o final resultante probablemente non sexa determinado pola alternativa mellor artellada, ou polo máis persistente, ou polo máis experimentado.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>As an organization with plentiful customer data available, you have the opportunity to provide just such a countervailing force. You can be a conduit for information that might otherwise have no means of reaching the development community. The fact that that information supports your desires is nothing to be embarrassed about. Most developers don't individually have very broad experience with how the software they write is used. Each developer uses the software in her own idiosyncratic way; as far as other usage patterns go, she's relying on intuition and guesswork, and deep down, she knows this. By providing credible data about a significant number of users, you are giving the public development community something akin to oxygen. As long as you present it right, they will welcome it enthusiastically, and it will propel things in the direction you want to go.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Como organización cunha chea de datos dispoñibles sobre os clientes, ti tes a oportunidade de forneceres esa forza de contraposición. Ti podes ser un canal para a información que doutro xeito non tería medios para chegar á comunidade de desenvolvemento. O feito de que esa información lle axude aos teus desexos non ten porque darche vergoña. A maioría dos desenvolvedores individualmente non teñen unha ampla experiencia sobre como se usa o software que escriben. Cada desenvolvedor emprega o software segundo a súa idiosincrasia; sobre os patróns de uso dos demais, dependen da súa intuición e capacidade de adiviñación, e no fondo sábeno. Fornecendo datos cribles sobre un número significativo de usuarios, estáslle dando á comunidade pública de desenvolvemento algo equivalente ao osíxeno. Sempre que os presentes dun xeito correcto, daranlles unha benvida entusiasta e impulsarán as cousas na dirección que ti queres que sigan.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The key, of course, is presenting it right. It will never do to insist that simply because you deal with a large number of users, and because they need (or think they need) a given feature, therefore your solution ought to be implemented. Instead, you should focus your initial posts on the problem, rather than on one particular solution. Describe in great detail the experiences your customers are encountering, offer as much analysis as you have available, and as many reasonable solutions as you can think of. When people start speculating about the effectiveness of various solutions, you can continue to draw on your data to support or refute what they say. You may have one particular solution in mind all along, but don't single it out for special consideration at first. This is not deception, it is simply standard "honest broker" behavior. After all, your true goal is to solve the problem; a solution is merely a means to that end. If the solution you prefer really is superior, other developers will recognize that on their own eventually&amp;mdash;and then they will get behind it of their own free will, which is much better than you browbeating them into implementing it. (There is also the possibility that they will think of a better solution.)</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>A chave, por suposto, está en presentares ben as cousas. Nunca funcionará simplemente insistires en que tratas cun gran número de usuarios, e que porque eles precisan (ou pensan que precisan) unha funcionalidade dada, entón a túa solución debe ser implementada. En lugar diso, deberías enfocar as túas mensaxes iniciais no problema en troca de nunha solución particular. Describe ao detalle as experiencias que os teus clientes están a atopar, fornece todas as análises que teñas dispoñibles e cada solución razoable na que poidas pensar. Cando a xente comezar a especular sobre a eficacia e eficiencia de varias solucións, ti podes basearte nos teus datos para defenderes ou refutares o que se está a dicir. Debes ter unha solución concreta en mente durante o proceso, mais non lle debes dar unha consideración especial ao comezo. Isto non é enganar, simplemente é o comportamento estándar dun "operador de bolsa honesto". Despois de todo, o teu auténtico obxectivo é resolver o problema; unha solución só é un medio para ese fin. Se a solución que ti prefires realmente é superior , outros desenvolvedores recoñecerán este feito por si mesmos, e apoiarana porque así o decidiron, o cal é moito mellor que empurralos á súa implementación. (Tamén existe a posibilidade de que pensen nunha solución mellor).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This is not to say that you can't ever come out in favor of a specific solution. But you must have the patience to see the analysis you've already done internally repeated on the public development lists. Don't post saying "Yes, we've been over all that here, but it doesn't work for reasons A, B, and C. When you get right down to it, the only way to solve this is..." The problem is not so much that it sounds arrogant as that it gives the impression that you have &lt;emphasis&gt;already&lt;/emphasis&gt; devoted some unknown (but, people will presume, large) amount of analytical resources to the problem, behind closed doors. It makes it seem as though efforts have been going on, and perhaps decisions made, that the public is not privy to, and that is a recipe for resentment.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Isto non quere dicir que nunca poidas interceder en favor dunha solución específica. Mais debes ser paciente para ver repetida na lista pública de desenvolvemento a análise que previamente xa fixestes dun xeito interno. Non envíes mensaxes dicindo "Si, nós xa o vimos, mais non funciona polas razóns A, B e C. Cando se chega ao fondo do problema, o único camiño para resolvelo é..." O problema non é o arrogante que isto soa, senón que dá a impresión de que vós &lt;emphasis&gt;xa &lt;/emphasis&gt; investístedes, a porta pechada, unha cantidade descoñecida (aínda que a xente pensará que moi grande) de recursos analíticos no problema. Isto fai parecer que os esforzos de conceptualización, e pode que as decisións, se fixeron sen acceso por parte do público, e esta é unha receita para o resentimento.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Naturally, &lt;emphasis&gt;you&lt;/emphasis&gt; know how much effort you've devoted to the problem internally, and that knowledge is, in a way, a disadvantage. It puts your developers in a slightly different mental space than everyone else on the mailing lists, reducing their ability to see things from the point of view of those who haven't yet thought about the problem as much. The earlier you can get everyone else thinking about things in the same terms as you do, the smaller this distancing effect will be. This logic applies not only to individual technical situations, but to the broader mandate of making your goals as clear as you can. The unknown is always more destabilizing than the known. If people understand why you want what you want, they'll feel comfortable talking to you even when they disagree. If they can't figure out what makes you tick, they'll assume the worst, at least some of the time.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Naturalmente, &lt;emphasis&gt;ti&lt;/emphasis&gt; sabes canto esforzo investístedes internamente no problema, e ese coñecemento é, en certa maneira, unha desvantaxe, ao empurrares os teus desenvolvedores a un espazo mental diferente que o do resto da xente das listas de correo, reducindo a súa habilidade para veren as cousas desde o punto de vista daqueles que aínda non pensaron moito sobre o problema. Canto máis cedo poidas ter a todos os demais pensando sobre as cousas do mesmo xeito que vós, menor será o efecto deste distanciamento. Esta lóxica non só se aplica a situacións técnicas individuais, senón tamén ao gran mandamento de clarificares os teus obxectivos tanto como poidas. O descoñecido sempre é máis desestabilizante que o coñecido. Se a xente entende por que ti queres o que queres, sentirase cómoda falando contigo mesmo cando estiveren en desacordo. Se descoñecen o que che gusta, asumirán o peor, polo menos durante algún tempo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You won't be able to publicize everything, of course, and people won't expect you to. All organizations have secrets; perhaps for-profits have more of them, but nonprofits have them too. If you must advocate a certain course, but can't reveal anything about why, then simply offer the best arguments you can under that handicap, and accept the fact that you may not have as much influence as you want in the discussion. This is one of the compromises you make in order to have a development community not on your payroll.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Por suposto que non debes publicitar todo, nin a xente o espera de ti. Todas as organizacións teñen segredos,; quizais as organizacións comerciais teñan máis, mais as organizacións sen ánimo de lucro tamén os teñen. Se debes avogar por un camiño concreto, mais non podes revelar nada sobre o porqué, simplemente ofrece os mellores argumentos que poidas baixo esa limitación, e acepta o feito de que pode que non teñas tanta influencia na discusión como che gustaría. Este é un dos compromisos que adoptas para teres unha comunidade de desenvolvemento fóra da túa nómina.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Money Can't Buy You Love</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>O diñeiro non pode comprar o amor</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you're a paid developer on a project, then set guidelines early on about what the money can and cannot buy. This does not mean you need to post twice a day to the mailing lists reiterating your noble and incorruptible nature. It merely means that you should be on the lookout for opportunities to defuse the tensions that &lt;emphasis&gt;could&lt;/emphasis&gt; be created by money. You don't need to start out assuming that the tensions are there; you do need to demonstrate an awareness that they have the potential to arise.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Se es un desenvolvedor asalariado nun proxecto, entón establece axiña as  normas sobre o que o diñeiro pode comprar e o que non. Isto non quere dicir que teñas que mandar dúas mensaxes ao día ás listas de correo reiterando a túa nobre e incorruptible natureza. Simplemente quere dicir que debes estar atento para desfacer as tensións que &lt;emphasis&gt;poderían&lt;/emphasis&gt; ser creadas polo diñeiro. Non debes comezar asumindo que as tensións están aí; o preciso é demostrares que estás ao tanto de que potencialmente poden xurdir.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>A perfect example of this came up in the Subversion project. Subversion was started in 2000 by &lt;ulink url="http://www.collab.net/"&gt;CollabNet&lt;/ulink&gt;, which has been the project's primary funder since its inception, paying the salaries of several developers (disclaimer: I'm one of them). Soon after the project began, we hired another developer, Mike Pilato, to join the effort. By then, coding had already started. Although Subversion was still very much in the early stages, it already had a development community with a set of basic ground rules.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Un exemplo perfecto disto xurdiu no proxecto Subversion. Subversion arrancou en 2000 grazas a &lt;ulink url=\"http://www.collab.net/\"&gt;CollabNet&lt;/ulink&gt;, o cal é o principal financeiro do proxecto desde a súa concepción, pagando os salarios de varios desenvolvedores (nota: eu son un deles). Pouco despois do comezo do proxecto, contratamos outro desenvolvedor, Mike Pilato, para unirse ao esforzo. Na altura xa se comezara a escribir código.
+Embora Subversion aínda estaba nas súas etapas iniciais, xa había unha comunidade de desenvolvemento cun conxunto de normas básicas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Mike's arrival raised an interesting question. Subversion already had a policy about how a new developer gets commit access. First, he submits some patches to the development mailing list. After enough patches have gone by for the other committers to see that the new contributor knows what he's doing, someone proposes that he just commit directly (that proposal is private, as described in &lt;xref linkend="committers"/&gt;). Assuming the committers agree, one of them mails the new developer and offers him direct commit access to the project's repository.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>A chegada de Mike fixo xurdir unha cuestión interesante. Subversion xa tiña unha política sobre como os novos desenvolvedores conseguían acceso para faceren commit (gravación de mudanzas no repositorio central do código fonte). Primeiro, debían enviar algúns remendos ás roldas de correo de desenvolvemento. Despois dun número suficiente de remendos para que o resto de desenvolvedores puidesen ver que o novo contribuínte sabía o que estaba a facer, alguén propoñía que simplemente fixera commit directamente (esta proposta era privada, como se describe en &lt;xref linkend="committers"/&gt;). Asumindo o acordo dos desenvolvedores con acceso a facer commit, un deles enviáballe un correo ao novo desenvolvedor e ofrecíalle acceso a facer commit no repositorio do proxecto.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>CollabNet had hired Mike specifically to work on Subversion. Among those who already knew him, there was no doubt about his coding skills or his readiness to work on the project. Furthermore, the volunteer developers had a very good relationship with the CollabNet employees, and most likely would not have objected if we'd just given Mike commit access the day he was hired. But we knew we'd be setting a precedent. If we granted Mike commit access by fiat, we'd be saying that CollabNet had the right to ignore project guidelines, simply because it was the primary funder. While the damage from this would not necessarily be immediately apparent, it would gradually result in the non-salaried developers feeling disenfranchised. Other people have to earn their commit access&amp;mdash;CollabNet just buys it.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>CollabNet contratara a Mike especificamente para traballar en Subversion. Entre os que xa o coñecían, non había dúbida sobre as súas capacidades técnicas nin sobre a súa preparación para traballar no proxecto. Ademais, os desenvolvedores voluntarios tiñan unha moi boa relación cos empregados de CollabNet, e presumiblemente a maioría non presentaría obxeccións se lle tivermos dado a Mike acceso a facer commit o día que o contratamos. Mais sabiamos que estariamos sentando un precedente. Se lle tivermos dado acceso a facer commit a Mike por mandato, estariamos dicindo que CollabNet tiña o dereito de ignorar as directrices do proxecto, simplemente por ser o inversor primario. Mentres que o dano causado por isto aparentemente non necesariamente tería que ser inmediato, gradualmente provocaría un sentimento de non representatividade por parte dos desenvolvedores non asalariados: outras persoas teñen que gañar o seus acceso a facer commit&amp;mdash;Collabnet simplemente cómprao.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>So Mike agreed to start out his employment at CollabNet like any other volunteer developer, without commit access. He sent patches to the public mailing list, where they could be, and were, reviewed by everyone. We also said on the list that we were doing things this way deliberately, so there could be no missing the point. After a couple of weeks of solid activity by Mike, someone (I can't remember if it was a CollabNet developer or not) proposed him for commit access, and he was accepted, as we knew he would be.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Polo tanto Mike estivo de acordo en comezar o seu traballo en CollabNet como calquera outro desenvolvedor voluntario, sen acceso a facer commit. Enviou remendos ás listas públicas de correo, onde os mesmos poderían ser, e eran, revisados por todo o mundo. Nós tamén dixemos na lista de correo que estabamos facendo estas cousas deliberadamente, para que non se perdera a perspectiva. Despois dun par de semanas de sólida actividade de Mike, alguén (non podo lembrar se foi un desenvolvedor de CollabNet ou non) propúxoo para ter acceso a facer commit, e foi aceptado, como sabiamos que ía ser.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>That kind of consistency gets you a credibility that money could never buy. And credibility is a valuable currency to have in technical discussions: it's immunization against having one's motives questioned later. In the heat of argument, people will sometimes look for non-technical ways to win the battle. The project's primary funder, because of its deep involvement and obvious concern over the directions the project takes, presents a wider target than most. By being scrupulous to observe all project guidelines right from the start, the funder makes itself the same size as everyone else.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Esta coherencia dáche unha credibilidade que o diñeiro non podería comprar nunca. E a credibilidade é unha moeda valiosa a ter nas discusións técnicas: inmunízate fronte a que cuestionen máis tarde os teus motivos. Na calor da argumentación, a xente ás veces busca camiños non técnicos para gañaren a batalla. O investidor principal do proxecto, debido á súa profunda participación e obvia incumbencia sobre as direccións que o proxecto toma, presenta uns obxectivos máis amplos que a maioría. Sendo escrupuloso na observación de todas as directrices do proxecto desde o comezo, o investidor adquire o mesmo tamaño que todos os demais.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>(See also Danese Cooper's blog at &lt;ulink url="http://blogs.sun.com/roller/page/DaneseCooper/20040916"&gt;&lt;/ulink&gt; for a similar story about commit access. Cooper was then Sun Microsystem's "Open Source Diva"&amp;mdash;I believe that was her official title&amp;mdash;and in the blog entry, she describes how the Tomcat development community got Sun to hold its own developers to the same commit-access standards as the non-Sun developers.)</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>(Ver tamén o blog de Danese Cooper en &lt;ulink url="http://blogs.sun.com/roller/page/DaneseCooper/20040916"&gt;&lt;/ulink&gt; para ver unha historia similar sobre o acceso a facer commit. Cooper foi a "Open Source Diva" de Sun Microsystems&amp;mdash;creo que ese era o seu título oficial&amp;mdash;e na entrada do blog, describe como a comunidade de desenvolvemento de Tomcat fixo que Sun seguise para os seus desenvolvedores os mesmos estándares que para os desenvolvedores que non eran de Sun)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The need for the funders to play by the same rules as everyone else means that the Benevolent Dictatorship governance model (see &lt;xref linkend="benevolent-dictator"/&gt;&lt;phrase output="printed"&gt; in &lt;xref linkend="social-infrastructure"/&gt;&lt;/phrase&gt;) is slightly harder to pull off in the presence of funding, particularly if the dictator works for the primary funder. Since a dictatorship has few rules, it is hard for the funder to prove that it's abiding by community standards, even when it is. It's certainly not impossible; it just requires a project leader who is able to see things from the point of view of the outside developers, as well as that of the funder, and act accordingly. Even then, it's probably a good idea to have a proposal for non-dictatorial governance sitting in your back pocket, ready to be brought out the moment there are any indications of widespread dissatisfaction in the community.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>A necesidade dos investidores de xogaren coas mesmas normas que os demais quere dicir que o modelo de goberno da Ditadura Benevolente (ver &lt;xref linkend="benevolent-dictator"/&gt;&lt;phrase output="printed"&gt; en &lt;xref linkend="social-infrastructure"/&gt;&lt;/phrase&gt;) é lixeiramente máis duro de conseguir ante a presencia de fondos económicos, sobre todo se o ditador traballa para o investidor principal. Dado que unha ditadura ten poucas normas, é difícil demostrar para o investidor que é respectuoso cos estándares da comunidade permanentemente, mesmo cando o for. Certamente non é imposible; só require un líder de proxecto capaz de ver as cousas desde o punto de vista dos desenvolvedores externos, así como desde o do investidor, e de actuar en consecuencia. Mesmo así, probablemente sexa unha boa idea ter unha proposta de goberno non ditatorial preparada como Plan B, lista para ser presentada no momento que houber indicadores de insatisfacción na comunidade.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Contracting</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Contratación</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Contracted work needs to be handled carefully in free software projects. Ideally, you want a contractor's work to be accepted by the community and folded into the public distribution. In theory, it wouldn't matter who the contractor is, as long as his work is good and meets the project's guidelines. Theory and practice can sometimes match, too: a complete stranger who shows up with a good patch &lt;emphasis&gt;will&lt;/emphasis&gt; generally be able to get it into the software. The trouble is, it's very hard to produce a good patch for a non-trivial enhancement or new feature while truly being a complete stranger; one must first discuss it with the rest of the project. The duration of that discussion cannot be precisely predicted. If the contractor is paid by the hour, you may end up paying more than you expected; if he is paid a flat sum, he may end up doing more work than he can afford.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>O traballo contratado precisa ser manexado con coidado nos proxectos de software libre. Idealmente, ti queres que o traballo contratado sexa aceptado pola comunidade e incorporado á distribución pública. En teoría, non debería importar quen é o contratista, polo menos mentres cumprir coas directrices do proxecto. A teoría e a práctica ás veces coinciden: un completo descoñecido que se presenta con un bo remendo xeralmente &lt;emphasis&gt;será capaz&lt;/emphasis&gt; de introducilo no software. O problema radica en que é moi difícil de producir un bo remendo para melloras non triviais ou producir unha nova funcionalidade cando realmente es un completo descoñecido; primeiramente debe discutirse co resto do proxecto. A duración desta discusión non pode ser calculada con precisión. Se ao contratista se lle pagar por horas, poderías acabar pagando máis do que esperas; se se lle pagar unha suma prefixada, el pode acabar facendo máis traballo do que pode permitirse.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>There are two ways around this. The preferred way is to make an educated guess about the length of the discussion process, based on past experience, add in some padding for error, and base the contract on that. It also helps to divide the problem into as many small, independent chunks as possible, to increase the predictability of each chunk. The other way is to contract solely for delivery of a patch, and treat the patch's acceptance into the public project as a separate matter. Then it becomes much easier to write the contract, but you're stuck with the burden of maintaining a private patch for as long as you depend on the software, or at least for as long as it takes you to get that patch or equivalent functionality into the mainline. Of course, even with the preferred way, the contract itself cannot require that the patch be accepted into the code, because that would involve selling something that's not for sale. (What if the rest of the project unexpectedly decides not to support the feature?) However, the contract can require a &lt;foreignphrase&gt;bona fide&lt;/foreignphrase&gt; effort to get the change accepted by the community, and that it be committed to the repository if the community agrees with it. For example, if the project has written standards regarding code changes, the contract can reference those standards and specify that the work must meet them. In practice, this usually works out the way everyone hopes.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Hai dous camiños para afrontar isto. O mellor xeito é facer un cálculo aproximado sobre a lonxitude do proceso de discusión, baseado en anteriores experiencias, engadíndolle algunhas marxes para contemplar a posibilidade de erros, e basear a contratación nisto. Este modo de operar tamén axuda a dividir o problema en varios máis pequenos, todo o independentes que for posible, para incrementar a previsibilidade de cada anaco. O outro xeito é contratar unicamente a entrega dun remendo, e tratar a aceptación do remendo no proxecto público como algo individual. Así é moito máis sinxelo escribir o contrato, mais ficas atrapado baixo a carga de manteres un remendo privado tanto tempo como dependeres do software, ou polo menos tanto tempo como demorares en conseguir ese remendo ou unha funcionalidade equivalente na rama principal. Por suposto, mesmo no mellor caso, o contrato en si mesmo non pode requirir que o remendo sexa aceptado no código, dado que isto requiriría vender algo que non está en venda. (Que pasaría se o resto do proxecto inesperadamente decidise non soportar a funcionalidade?) Non obstante, o contrato pode requirir un esforzo de &lt;foreignphrase&gt;boa fe&lt;/foreignphrase&gt; para conseguir que as mudanzas sexan aceptadas pola comunidade, e que sexan introducidas no repositorio se a comunidade estiver de acordo con elas. Por exemplo, se o proxecto tiver estándares de escritura a respecto das mudanzas no código, o contrato pode referenciar estes estándares e especificar  que o traballo debe respectalas. Na práctica, isto normalmente non funciona do xeito que todo o mundo espera.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The best tactic for successful contracting is to hire one of the project's developers&amp;mdash;preferably a committer&amp;mdash;as the contractor. This may seem like a form of purchasing influence, and, well, it is. But it's not as corrupt as it might seem. A developer's influence in the project is due mainly to the quality of his code and to his interactions with other developers. The fact that he has a contract to get certain things done doesn't raise his status in any way, and doesn't lower it either, though it may make people scrutinize him more carefully. Most developers would not risk their long-term position in the project by backing an inappropriate or widely disliked new feature. In fact, part of what you get, or should get, when you hire such a contractor is advice about what sorts of changes are likely to be accepted by the community. You also get a slight shift in the project's priorities. Because prioritization is just a matter of who has time to work on what, when you pay for someone's time, you cause their work to move up in the priority queue a bit. This is a well-understood fact of life among experienced open source developers, and at least some of them will devote attention to the contractor's work simply because it looks like it's going to &lt;emphasis&gt;get done&lt;/emphasis&gt;, so they want to help it get done right. Perhaps they won't write any of the code, but they'll still discuss the design and review the code, both of which can be very useful. For all these reasons, the contractor is best drawn from the ranks of those already involved with the project.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>A mellor táctica para unha contratación con éxito é contratar un dos desenvolvedores do proxecto&amp;mdash; preferiblemente un committer&amp;mdash. Esta pode parecer unha forma de comprar influencia, e si, o é. Mais non é tan corrupta como podería parecer. A influencia dun desenvolvedor no proxecto débese principalmente á calidade do seu código e ás súas interacción cos outros desenvolvedores. O feito de que teña un contrato para facer determinadas cousas non eleva o seu status, nin o diminúe, aínda que pode facer que a xente o escrute máis coidadosamente. Moitos desenvolvedores non arriscan a súa posición no proxecto por darlle cobertura a unha noa funcionalidade inapropiada ou fortemente degradada. De feito, parte do que obtés, ou poderías obter, cando contratas son consellos sobre que tipos de mudanzas probablemente sexan aceptadas pola comunidade. Ti tamén obtés unha leve elevación nas prioridades do proxecto. Debido á que a priorización non é máis que ver quen ten tempo para traballar en que, cando pagas polo tempo de alguén, provocas que o seu traballo suba un pouco na cola de prioridades. Este é un feito ben coñecido para os desenvolvedores de software libre experimentados, e cando menos algúns deles vanlle dedicar atención ao traballo contratado simplemente porque parece que vai ser feito, dado que queren axudar a que se faga ben. Talvez non escriban nada do código, mais debaterán o deseño e revisarán o código, podendo ser moi útiles ambas cousas. Por todas estas razóns, o contratista é mellor visto dende as bancadas dos que xa están a participar no proxecto.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This immediately raises two questions: Should contracts ever be private? And when they're not, should you worry about creating tensions in the community by the fact that you've contracted with some developers and not others?</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Isto lanza inmediatamente dúas preguntas: os contratos deben ser sempre privados? E cando non o foren, deberías preocuparte pola creación de tensións na comunidade derivadas do feito de tiveres contratado algúns desenvolvedores e non outros?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It's best to be open about contracts, when you can. Otherwise, the contractor's behavior may seem strange to others in the community&amp;mdash;perhaps he's suddenly giving inexplicably high priority to features he's never shown interest in in the past. When people ask him why he wants them now, how can he answer convincingly if he can't talk about the fact that he's been contracted to write them?</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>É mellor seres transparente sobre os contratos, cando puideres. Doutro xeito, o comportamento do contratado pode parecerlle estrano a outros na comunidades&amp;mdash;pode que de repente inexplicablemente lle dea alta prioridade a funcionalidades nas que nunca amosara interese no pasado. Cando a xente lle pregunta porque as valora agora, como pode responder convincentemente se non pode falar sobre o feito de que foi contratado para escribilas?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>At the same time, neither you nor the contractor should act as though others should treat your arrangement as a big deal. Too often I've seen contractors waltz onto a development list with the attitude that their posts should be taken more seriously simply because they're being paid. That kind of attitude signals to the rest of the project that the contractor regards the fact of the contract&amp;mdash;as opposed to the code &lt;emphasis&gt;resulting&lt;/emphasis&gt; from the contract&amp;mdash;to be the important thing. But from the other developers' point of view, only the code matters. At all times, the focus of attention should be kept on technical issues, not on the details of who is paying whom. For example, one of the developers in the Subversion community handles contracting in a particularly graceful way. While discussing his code changes in IRC, he'll mention as an aside (often in a private remark, an IRC &lt;firstterm&gt;privmsg&lt;/firstterm&gt;, to one of the other committers) that he's being paid for his work on this particular bug or feature. But he also consistently gives the impression that he'd want to be working on that change anyway, and that he's happy the money is making it possible for him to do that. He may or may not reveal his customer's identity, but in any case he doesn't dwell on the contract. His remarks about it are just an ornament to an otherwise technical discussion about how to get something done.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Ao mesmo tempo, nin ti nin o contratado deberiades actuar como se os demais debesen tratar o voso acordo como un gran trato. Demasiado frecuentemente teño visto contratados danzaren nas listas de correo de desenvolvemento coa actitude de que as súas mensaxes deberían ser consideradas máis en serio simplemente porque se lles estaba pagando. Este tipo de actitudes sinálalle ao resto do proxecto que o contratado considera máis importante o feito do contrato en lugar do resultado da codificación resultante do contrato. Mais desde o punto de vista do resto de desenvolvedores, só o código importa. En todo momento, o foco de atención debe manterse nas cuestión técnicas, e non nos detalles de quen paga a quen. Por exemplo, un dos desenvolvedores da comunidade de Subversion manexa a súa contratación dun xeito particularmente elegante. Mentres no IRC se discuten as súas mudanzas no código, el menciona aparte (normalmente dun xeito privado con mensaxes &lt;firstterm&gt;privmsg&lt;/firstterm&gt;, do IRC) que o seu traballo nese erro ou funcionalidade en concreto está sendo pagado. Pero sempre, e dun xeito coherente, dá a impresión de que de igual xeito querería estar traballando nesa mudanza, e de que está contento de que os cartos fagan posible que o poida facer. Pode ou non revelar a identidade do seu cliente, mais en todo caso, el non vive do contrato. Salienta que só é un adorno dos debates técnico sobre como facer as cousas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>That example shows another reason why it's good to be open about contracts. There may be multiple organizations sponsoring contracts on a given open source project, and if each knows what the others are trying to do, they may be able to pool their resources. In the above case, the project's largest funder (CollabNet) is not involved in any way with these piecework contracts, but knowing that someone else is sponsoring certain bug fixes allows CollabNet to redirect its resources to other bugs, resulting in greater efficiency for the project as a whole.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Este exemplo mostra outra razón pola que é bo ser transparente sobre os contratos. Podería haber múltiples organizacións financiando contratos nun proxecto de código aberto dado, e se cada un coñece o que os demais están tratando de facer, poderían poñer en común os seus recursos. No caso anterior, o maior financiador do proxecto (CollabNet) non está involucrado de ningún xeito con estes contratos a desagregados, mais coñecer que algún outro está financiando determinadas correccións de erros permitiríalle a CollabNet encamiñar os seus recursos a outros erros, obtendo unha maior eficiencia para o conxunto do proxecto.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Will other developers resent that some are paid for working on the project? In general, no, particularly when those who are paid are established, well-respected members of the community anyway. No one expects contract work to be distributed equally among all the committers. People understand the importance of long-term relationships: the uncertainties involved in contracting are such that once you find someone you can work reliably with, you would be reluctant to switch to a different person just for the sake of evenhandedness. Think of it this way: the first time you hire, there will be no complaints, because clearly you had to pick &lt;emphasis&gt;someone&lt;/emphasis&gt;&amp;mdash;it's not your fault you can't hire everyone. Later, when you hire the same person a second time, that's just common sense: you already know him, the last time was successful, so why take unnecessary risks? Thus, it's perfectly natural to have one or two go-to people in the community, instead of spreading the work around evenly.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Vanse ofender outros desenvolvedores debido a que algúns cobren por traballar no proxecto? Xeralmente non, sobre todo cando os que cobran están ben posicionados, e xa eran membros respectados da comunidade. Ninguén espera que o traballo contratado sexa distribuído con ecuanimidade entre os committers. A xente comprende a importancia das relacións de longa duración: as incertezas involucradas na contratación son tales que unha vez atopares alguén que saibas que pode traballar contigo es relutante a trocalo por unha persoa diferente só para seres equitativo. Pénsao deste xeito: a primeira vez que contratas, non vai haber queixas, porque claramente tes que escoller &lt;emphasis&gt;alguén&lt;/emphasis&gt;&amp;mdash; non é culpa túa que non poidas contratar todo o mundo. Despois, cando contratas a mesma persoa por segunda vez, entón só é sentido común: ti xa o coñeces, a última vez tivestes éxito, entón por que asumir riscos innecesarios? Deste modo, é perfectamente natural ter unha ou dúas persoas de man na comunidade, en lugar de repartir o traballo uniformemente.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Review and Acceptance of Changes</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Revisión e aceptación de mudanzas</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The community is still important to the success of contract work. Their involvement in the design and review process for sizeable changes cannot be an afterthought. It must be considered part of the work, and fully embraced by the contractor. Don't think of community scrutiny as an obstacle to be overcome&amp;mdash;think of it as a free design board and QA department. It is a benefit to be aggressively pursued, not merely endured.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>A comunidade segue sendo importante para o éxito do traballo contratado. A súa participación no deseño e no proceso de revisión das mudanzas significativas non se pode facer a última hora. Debe ser considerada parte do traballo, e ser abrazada polo contratista. Non penses no escrutinio da comunidade como un obstáculo a ser evitado&amp;mdash;pensa nel como un departamento de deseño e garantía de calidade. É beneficioso ser perseguido, e non simplemente soportado.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Case study: the CVS password-authentication protocol</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Caso de estudo: o protocolo de autenticación vía contrasinal de CVS</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In 1995, I was one half of a partnership that provided support and enhancements for CVS (the Concurrent Versions System; see &lt;ulink url="http://www.cvshome.org/"&gt;&lt;/ulink&gt;). My partner Jim and I were, informally, the maintainers of CVS by that point. But we'd never thought carefully about how we ought to relate to the existing, mostly volunteer CVS development community. We just assumed that they'd send in patches, and we'd apply them, and that was pretty much how it worked.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>En 1995, fun a metade dunha sociedade que fornecía soporte e melloras a CVS (o "Concurrent Versions System"; mira &lt;ulink url="http://www.cvshome.org/"&gt;&lt;/ulink&gt;). O meu socio Jim e máis eu eramos, informalmente, os mantedores de CVS. Pero nós nunca pensaramos coidadosamente sobre como deberiamos dicirllo á comunidade de voluntarios de desenvolvemento de CVS. Nós simplemente asumimos que eles continuarían enviando remendos, e nós aplicariámolos, e así sería como funcionaría.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Back then, networked CVS could be done only over a remote login program such as &lt;literal&gt;rsh&lt;/literal&gt;. Using the same password for CVS access as for login access was an obvious security risk, and many organizations were put off by it. A major investment bank hired us to add a new authentication mechanism, so they could safely use networked CVS with their remote offices.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Voltando ao tema, o traballo en rede sobre CVS só podía facerse mediante un programa de acceso remoto como &lt;literal&gt;rsh&lt;/literal&gt;. Empregar a mesma seña tanto para o acceso ao CVS como para acceso ao login era un risco de seguridade obvio, e moitas organizacións adiaron o seu uso debido a isto. Un importante banco contratounos para engadir un novo mecanismo de autenticación, así poderían empregar de xeito seguro o traballo en rede sobre CVS nos lugares de traballo remotos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Jim and I took the contract and sat down to design the new authentication system. What we came up with was pretty simple (the United States had export controls on cryptographic code at the time, so the customer understood that we couldn't implement strong authentication), but as we were not experienced in designing such protocols, we still made a few gaffes that would have been obvious to an expert. These mistakes would easily have been caught had we taken the time to write up a proposal and run it by the other developers for review. But we never did so, because it didn't occur to us to think of the development list as a resource to be used. We knew that people were probably going to accept whatever we committed, and&amp;mdash;because we didn't know what we didn't know&amp;mdash;we didn't bother to do the work in a visible way, e.g., posting patches frequently, making small, easily digestible commits to a special branch, etc. The resulting authentication protocol was not very good, and of course, once it became established, it was difficult to improve, because of compatibility concerns.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Jim e máis eu asinamos o contrato e sentámonos a deseñar un novo sistema de autenticación. Chegamos a algo bastante simple (os Estados Unidos daquela tiñan controles de exportación sobre os códigos criptográficos, polo que os clientes entendían que non podiamos implementar unha autenticación forte), mais como non tiñamos experiencia no deseño de tales protocolos, fixemos unhas poucas chapuzadas que terían sido obvias para un experto. Estes erros poderían ter sido vistos facilmente se tiveramos tido o tempo para escribirmos unha proposta e enviarlla aos demais desenvolvedores para unha revisión. Mais nunca chegamos a facelo porque non se nos ocorreu pensar que a lista de desenvolvemento puidera ser empregada como un recurso. Nos sabiamos que a xente probablemente ía aceptar calquera cousa que nós mudaramos, e porque nós non sabiamos o que non sabiamos, non nos preocupabamos de facer o traballo dun xeito visible, por exemplo, enviando remendos con frecuencia, facendo pequenos e sinxelos commits a unha rama especial, etc. O protocolo de autenticación resultante non foi moi bo, e por suposto, unha vez que se chegou a establecer, foi difícil de mellorar debido a cuestións de compatibilidade.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The root of the problem was not lack of experience; we could easily have learned what we needed to know. The problem was our attitude toward the volunteer development community. We regarded acceptance of the changes as a hurdle to leap, rather than as a process by which the quality of the changes could be improved. Since we were confident that almost anything we did would be accepted (as it was), we made little effort to get others involved.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>A raíz do problema non estivo na falta de experiencia; poderiamos ter aprendido dun xeito sinxelo aquilo que precisabamos saber. O problema estivo na nosa actitude cara a comunidade de voluntarios de desenvolvemento. Considerabamos a aceptación das mudanzas como un obstáculo a saltar, máis que como un proceso polo cal a calidade das mudanzas podería ser mellorada. Desde que confiamos en que case todo o que fixeramos sería aceptado (tal como fose), fixemos un esforzo menor para que os demais participasen.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Obviously, when you're choosing a contractor, you want someone with the right technical skills and experience for the job. But it's also important to choose someone with a track record of constructive interaction with the other developers in the community. That way you're getting more than just a single person; you're getting an agent who will be able to draw on a network of expertise to make sure the work is done in a robust and maintainable way.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Obviamente, cando vas a escoller un contratista, ti queres alguén coas capacidades técnicas e experiencia axeitadas para o traballo. Mais tamén é importante escolleres algún con un historial de interacción construtiva na comunidade cos outros desenvolvedores. Deste xeito, vas a obter máis que unha simple persoa; vas obter un axente con permiso para liderar dentro dunha rede de experiencia, asegurando que o traballo se fai dun xeito robusto e que pode ser mantido.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Funding Non-Programming Activities</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Financiando actividades para alén da programación</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Programming is only part of the work that goes on in an open source project. From the point of view of the project's volunteers, it's the most visible and glamorous part. This unfortunately means that other activities, such as documentation, formal testing, etc., can sometimes be neglected, at least compared to the amount of attention they often receive in proprietary software. Corporate organizations are sometimes able to make up for this, by devoting some of their internal software development infrastructure to open source projects.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>A programación soamente é parte do traballo dun proxecto de código aberto. Desde o punto de vista dos voluntarios do proxecto, é a parte máis visible e glamurosa. Desafortunadamente, isto significa que as outras actividades, tales como documentación, testaxe formal, etc., ás veces poden desatenderse, polo menos comparadas coa cantidade de atención que adoitan recibir no software propietario. As corporacións ás veces son capaces de completar isto, mediante a dedicación de parte da súa infraestrutura interna de desenvolvemento de software a proxectos de código aberto.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The key to doing this successfully is to translate between the company's internal processes and those of the public development community. Such translation is not effortless: often the two are not a close match, and the differences can only be bridged via human intervention. For example, the company may use a different bug tracker than the public project. Even if they use the same tracking software, the data stored in it will be very different, because the bug-tracking needs of a company are very different from those of a free software community. A piece of information that starts in one tracker may need to be reflected in the other, with confidential portions removed or, in the other direction, added.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>A chave para facelo con éxito é mediar entre os procesos internos da compañía e os da comunidade pública de desenvolvemento. Esta mediación require esforzo: habitualmente as dúas non son unha parella próxima, e as diferencias só poden ser salvadas mediante intervención humana. Por exemplo, a compañía pode empregar un sistema de notificación de erros distinto ao do proxecto público. Mesmo se ambas empregan o mesmo sistema de notificación de erros, os datos que se almacenan poden ser moi distintos, xa que as necesidades de notificación de erros dunha compañía son moi distintos das dunha comunidade de software libre. Unha peza de información iniciada nun sistema de notificación necesita ser reflectida no outro, cos anacos confidenciais borrados ou, na outra dirección, engadidos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The sections that follow are about how to build and maintain such bridges. The end result should be that the open source project runs more smoothly, the community recognizes the company's investment of resources, and yet does not feel that the company is inappropriately steering things toward its own goals.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>As seccións que seguen tratan o tema de como construír e manter estas pontes. O resultado final debería ser que o proxecto de código aberto avanza máis suavemente, a comunidade recoñece os investimentos e recursos da empresa, e memso non sente que a empresa está conducindo inapropiadamente as cousas cara aos seus propios obxectivos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Quality Assurance (i.e., Professional Testing)</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Garantía da calidade (por exemplo, testaxe profesional)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In proprietary software development, it is normal to have teams of people dedicated solely to quality assurance: bug hunting, performance and scalability testing, interface and documentation checking, etc. As a rule, these activities are not pursued as vigorously by the volunteer community on a free software project. This is partly because it's hard to get volunteer labor for unglamorous work like testing, partly because people tend to assume that having a large user community gives the project good testing coverage, and, in the case of performance and scalability testing, partly because volunteers often don't have access to the necessary hardware resources anyway.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>No desenvolvemento de software propietario, é normal ter equipos de xente dedicados unicamente á garantía da calidade: caza de erros, testaxe de rendemento e escalabilidade, revisión de interfaces e documentación, etc. Como regra, estas actividades non se perseguen tan vigorosamente pola comunidade de voluntarios dos proxectos de software libre. Isto parcialmente débese a que é difícil obter voluntarismo para traballo non glamuroso como a testaxe, en parte porque a xente tende a asumir que tendo unha ampla comunidade de usuarios obtés unha boa cobertura de testaxe; no caso das testaxes de rendemento e escalabilidade, en parte débese a que os voluntarios non adoitan ter acceso aos recursos hardware precisos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The assumption that having many users is equivalent to having many testers is not entirely baseless. Certainly there's little point assigning testers for basic functionality in common environments: bugs there will quickly be found by users in the natural course of things. But because users are just trying to get work done, they do not consciously set out to explore uncharted edge cases in the program's functionality, and are likely to leave certain classes of bugs unfound. Furthermore, when they discover a bug with an easy workaround, they often silently implement the workaround without bothering to report the bug. Most insidiously, the usage patterns of your customers (the people who drive &lt;emphasis&gt;your&lt;/emphasis&gt; interest in the software) may differ in statistically significant ways from the usage patterns of the Average User In The Street.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>A asunción de que ter moitos usuarios é equivalente a ter moitos testadores non se fai completamente sen base. Certamente, hai certo acerto asignando testadores a usuarios nas funcionalidades básicas dos entornos comúns: os erros serán rapidamente atopados polos usuarios no curso natural das cousas. Mais debido a que os usuarios só están facer o traballo, non exploran conscientemente os casos límite da funcionalidade do programa, polo que son propensos a deixaren certas clases de erros sen atopar. Máis aínda, cando atopan un erro cun rodeo sinxelo, adoitan implementar en silencio o rodeo sen importarlles a súa notificación. Máis insidiosamente, os padróns de uso dos teus clientes (a xente que dirixe &lt;emphasis&gt;os teus&lt;/emphasis&gt; intereses no software) poden diferir dun xeito estatisticamente significativo dos padróns de uso do usuario medio da rúa.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>A professional testing team can uncover these sorts of bugs, and can do so as easily with free software as with proprietary software. The challenge is to convey the testing team's results back to the public in a useful form. In-house testing departments usually have their own way of reporting test results, involving company-specific jargon, or specialized knowledge about particular customers and their data sets. Such reports would be inappropriate for the public bug tracker, both because of their form and because of confidentiality concerns. Even if your company's internal bug tracking software were the same as that used by the public project, management might need to make company-specific comments and metadata changes to the issues (for example, to raise an issue's internal priority, or schedule its resolution for a particular customer). Usually such notes are confidential&amp;mdash;sometimes they're not even shown to the customer. But even when they're not confidential, they're of no concern to the public project, and therefore the public should not be distracted with them.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Un equipo profesional de testaxe pode descubrir estes tipos de erros, e pode facelo dun xeito tan sinxelo co software libre como co software propietario. O reto é transferir os resultados do equipo de testaxe ao público dun xeito útil. Os departamentos de testaxe internos adoitan ter un xeito propio de informar sobre os resultados das testaxes, envolvendo a xíria específica da empresa, ou coñecemento especializado sobre clientes particulares e os seus conxuntos de datos. Os devanditos informes poderían ser inapropiados para o sistema de notificación de erros público, tanto pola súa forma como pola cuestión da confidencialidade. Mesmo se o software de notificación de erros da túa empresa fose o mesmo que se emprega no proxecto público, a xestión precisaría facer mudanzas nos comentarios e metadatos específicos da empresa debido ás anteriores cuestións (por exemplo para contemplar a cuestión da prioridade interna, ou planificar a resolución para un cliente particular). Normalmente estas notas son confidenciais; ás veces nin se lle mostran ao cliente. Mais memso cando non son confidenciais, non pertencen ao proxecto público, e por tanto o público non debería ser distraído con elas. </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Yet the core bug report itself &lt;emphasis&gt;is&lt;/emphasis&gt; important to the public. In fact, a bug report from your testing department is in some ways more valuable than one received from users at large, since the testing department probes for things that other users won't. Given that you're unlikely to get that particular bug report from any other source, you definitely want to preserve it and make it available to the public project.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>O núcleo da notificación de erros &lt;emphasis&gt;é&lt;/emphasis&gt; importante en si mesmo para o público. De feito, unha notificación de erro que parte do teu departamento de testaxe é, desde múltiples puntos de vista, máis valiosa que unha que se reciba dos usuarios, dado que o departamento de testaxe proba cousas que o resto de usuarios non proban. Dado que é pouco probable que vaias recibir esa notificación de erro concreta de ningunha outra fonte, é importante que a conserves e a tornes dispoñible para o proxecto público.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To do this, either the QA department can file issues directly in the public issue tracker, if they're comfortable with that, or an intermediary (usually one of the developers) can "translate" the testing department's internal reports into new issues in the public tracker. Translation simply means describing the bug in a way that makes no reference to customer-specific information (the reproduction recipe may use customer data, assuming the customer approves it, of course).</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Para facelo, ou ben o departamento de garantía de calidade arquiva estas cuestións directamente no sistema público de notificación (se se senten cómodos facéndoo) ou ben un intermediario (habitualmente un dos desenvolvedores) pode "traducir" os informes internos do departamento de testaxe en novas incidencias no sistema público de notificación de erros. A tradución só quere dicir describir o erro dun xeito que non faga referencia á información específica do cliente (o xeito de reprodución podería conter datos do cliente, asumindo que o cliente o aprobe, por suposto).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It is somewhat preferable to have the QA department filing issues in the public tracker directly. That gives the public a more direct appreciation of your company's involvement with the project: useful bug reports add to your organization's credibility just as any technical contribution would. It also gives developers a direct line of communication to the testing team. For example, if the internal QA team is monitoring the public issue tracker, a developer can commit a fix for a scalability bug (which the developer may not have the resources to test herself), and then add a note to the issue asking the QA team to see if the fix had the desired effect. Expect a bit of resistance from some of the developers; programmers have a tendency to regard QA as, at best, a necessary evil. The QA team can easily overcome this by finding significant bugs and filing comprehensible reports; on the other hand, if their reports are not at least as good as those coming from the regular user community, then there's no point having them interact directly with the development team.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>O preferible é ter o departamento de garantía de calidade arquivando directamente as incidencias no sistema de notificación público. Isto dálle ao público unha apreciación máis directa da participación da túa empresa no proxecto: as notificacións de erros útiles dánlle á túa empresa tanta credibilidade como calquera contribución técnica. Ademais, tamén lle dá aos desenvolvedores un canal de comunicación co equipo de testaxe. Por exemplo, se o equipo interno de garantía de calidade esta monitorizando o sistema público de incidencias, un desenvolvedor pode inserir unha solución para un erro de escalabilidade (para o cal o desenvolvedor podería non ter os recursos precisos por si mesmo para facer o test), e logo engadir unha nota á incidencia pedíndolle ao equipo de garantía de calidade que comprobe se a solución produce o efecto desexado. Conta con algunha resistencia por parte dalgúns desenvolvedores; os programadores teñen a tendencia de considerar a garantía de calidade como, no mellor caso, un mal necesario. O equipo de garantía de calidade pode vencer esta tendencia dun xeito sinxelo atopando erros significativos e arquivando informes comprensibles; por outra banda, se os seus informes non son polo menos tan bos como os que veñen dun usuario medio da comunidade, entón non ten sentido que interaxan directamente co equipo de desenvolvemento.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Either way, once a public issue exists, the original internal issue should simply reference the public issue for technical content. Management and paid developers may continue to annotate the internal issue with company-specific comments as necessary, but use the public issue for information that should be available to everyone.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>De calquera xeito, unha vez que existe unha incidencia pública, a incidencia interna orixinal podería simplemente referenciar á incidencia pública polo contido técnico. A xestión e os desenvolvedores en nómina deberían continuar comentando a incidencia interna empregando comentarios específicos da empresa cando for necesario, mais deberían usar a incidencia pública para a información que debería estar dispoñible por todo o mundo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You should go into this process expecting extra overhead. Maintaining two issues for one bug is, naturally, more work than maintaining one issue. The benefit is that many more coders will see the report and be able to contribute to a solution.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Debes entrar neste proceso esperando unha sobrecarga extra. Manter dúas incidencias para un único erro é, naturalmente, máis traballo que manter unha soa incidencia. O beneficio está en que máis desenvolvedores van ver o informe de erros e van poder contribuír na súa solución.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Legal Advice and Protection</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Consellos legais e protección</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Corporations, for-profit or nonprofit, are almost the only entities that ever pay attention to complex legal issues in free software. Individual developers often understand the nuances of various open source licenses, but they generally do not have the time or resources to follow copyright, trademark, and patent law in detail. If your company has a legal department, it can help a project by vetting the copyright status of the code, and helping developers understand possible patent and trademark issues. The exact forms this help could take are discussed in &lt;xref linkend="legal"/&gt;. The main thing is to make sure that communications between the legal department and the development community, if they happen at all, happen with a mutual appreciation of the very different universes the parties are coming from. On occasion, these two groups talk past each other, each side assuming domain-specific knowledge that the other does not have. A good strategy is to have a liaison (usually a developer, or else a lawyer with technical expertise) stand in the middle and translate for as long as needed.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>As corporacións, con ou sen ánimo de lucro, son case as únicas entidades que sempre prestan atención ás complexas cuestións legais do software libre. Os desenvolvedores individuais habitualmente entenden os matices de varias licenzas de código aberto, mais xeralmente non teñen o tempo ou recursos para seguir en detalle as leis dos dereitos de copia, marcas comerciais e patentes. Se a túa empresa ten un departamento legal, pode colaborar cun proxecto examinando o status dos dereitos de copia do código, e botándolle unha man aos desenvolvedores para entenderen as posibles cuestións de patentes e marcas comerciais. As formas exactas que esta axuda pode adoptar discútense en &lt;xref linkend="legal"/&gt;. O principal é asegurar que a comunicación entre o departamento legal e a comunidade de desenvolvemento, se a hai, ocorra cunha mutua apreciación dos moi diferentes universos dos que veñen ambas partes. En ocasións, estes dous grupos non se comunican entre si, cada parte asume que a outra posúe coñecementos específicos do dominio que en realidade non ten. Unha boa estratexia consiste en ter unha ligazón (normalmente un desenvolvedor, ou incluso un avogado con experiencia técnica) entre ambos que faga as traducións entre ambos cando se precisaren.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Documentation and Usability</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Documentación e usabilidade</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Documentation and usability are both famous weak spots in open source projects, although I think, at least in the case of documentation, that the difference between free and proprietary software is frequently exaggerated. Nevertheless, it is empirically true that much open source software lacks first-class documentation and usability research.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>A Documentación e maila usabilidade son famosos puntos débiles nos proxectos de código aberto, aínda que creo que, polo menos no caso da documentación, a diferencia entre o software libre e o propietario é esaxerada con frecuencia. Non obstante, é empiricamente certo que moito software de código aberto padece da falta de documentación de primeira clase, e de investigación na usabilidade.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If your organization wants to help fill these gaps for a project, probably the best thing it can do is hire people who are &lt;emphasis&gt;not&lt;/emphasis&gt; regular developers on the project, but who will be able to interact productively with the developers. Not hiring regular developers is good for two reasons: one, that way you don't take development time away from the project; two, those closest to the software are usually the wrong people to write documentation or investigate usability anyway, because they have trouble seeing the software from an outsider's point of view.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Se a túa organización quere axudar a cubrir estas deficiencias nun proxecto, probablemente a mellor cousa que poida facer sexa contratar xente que &lt;emphasis&gt;non&lt;/emphasis&gt; sexa desenvolvedora habitual no proxecto, mais que sexa capaz de interactuar produtivamente cos desenvolvedores. A non contratación de desenvolvedores habituais do proxecto é boa por dúas razóns: primeiro, deste xeito non restas tempo de desenvolvemento no proxecto; segundo, a xente máis próxima ao proxecto normalmente é a xente equivocada para escribir a documentación ou investigar na usabilidade, xa que teñen dificultades para ver o software desde o punto de vista dun foráneo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>However, it will still be necessary for whoever works on these problems to communicate with the developers. Find people who are technical enough to talk to the coding team, but not so expert in the software that they can't empathize with regular users anymore.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Porén, segue sendo necesario, para calquera que traballar nestes problemas, comunicarse cos desenvolvedores. Atopa xente suficientemente técnica para falar co equipo de codificación, mais non tan experta no software como para que non poida sentir empatía cos usuarios medios.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>A medium-level user is probably the right person to write good documentation. In fact, after the first edition of this book was published, I received the following email from an open source developer named Dirk Reiners:</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Un usuario de nivel medio probablemente sexa a persoa correcta para escribir unha boa documentación. De feito, despois de que a primeira edición deste libro foi publicada, recibín o seguinte correo electrónico dun desenvolvedor de software libre chamado Dirk Reiners:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>One comment on Money::Documentation and Usability: when we had some 
+money to spend and decided that a beginner's tutorial was the most 
+critical piece that we needed we hired a medium-level user to write it. 
+He had gone through the induction to the system recently enough to 
+remember the problems, but he had gotten past them so he knew how to 
+describe them. That allowed him to write something that needed only 
+minor fixes by the core developers for the things that he hadn't gotten 
+right, but still covering the 'obvious' stuff devs would have missed.
+
+His case was even better, as it had been his job to introduce a bunch of 
+other people (students) to the system, so he combined the experience of 
+many people, which is something that was just a lucky occurrence and is 
+probably hard to get in most cases.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Un comentario sobre diñeiro, documentación e usabilidade: cando nós tivemos
+algúns cartos para gastar e decidimos que un tutorial para principiantes era a peza
+máis fundamental que necesitabamos, contratamos un usuario de nivel medio para
+escribila. El recibira unha introdución ao sistema o bastante recente como para
+lembrar os problemas, e como os tiña sufrido sabía como describilos. Isto
+permitíalle escribir algo que necesitase só correccións menores polos
+ desenvolvedores principais para as cousas que aínda non tiña comprendido ben.
+
+O seu caso foi mesmo mellor, dado que iniciara un grupo
+de xente (estudantes) ao sistema, polo que combinou a experiencia de varias
+persoas, o cal é algo que só foi unha afortunada coincidencia e probablemente sexa
+difícil de conseguir na maioría dos casos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Providing Hosting/Bandwidth</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Fornecendo aloxamento/largo de banda</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For a project that's not using one of the free canned hosting sites (see &lt;xref linkend="canned-hosting"/&gt;&lt;phrase output="printed"&gt; in &lt;xref linkend="technical-infrastructure"/&gt;&lt;/phrase&gt;), providing a server and network connection&amp;mdash;and most importantly, system administration help&amp;mdash;can be of significant assistance. Even if this is all your organization does for the project, it can be a moderately effective way to obtain good public relations karma, though it will not bring any influence over the direction of the project.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Para un proxecto que non estiver a empregar aloxamento gratuíto (ver &lt;xref linkend="canned-hosting"/&gt;&lt;phrase output="printed"&gt; en &lt;xref linkend="technical-infrastructure"/&gt;&lt;/phrase&gt;), fornecer un servidor, conectividade de rede e, o máis importante, axuda coa administración de sistemas, pode ser de importancia capital. Mesmo se isto é todo o que a túa organización fai polo proxecto, pode ser un camiño moderadamente efectivo para obter bo karma nas relacións públicas, aínda que non che ofreza ningunha influencia sobre a dirección do proxecto.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can probably expect a banner ad or an acknowledgment on the project's home page, thanking your company for providing hosting. If you set up the hosting so that the project's web address is under your company's domain name, then you will get some additional association just through the URL. This will cause most users to think of the software as having &lt;emphasis&gt;something&lt;/emphasis&gt; to do with your company, even if you don't contribute to development at all. The problem is, the developers are aware of this associative tendency too, and may not be very comfortable with having the project in your domain unless you're contributing more resources than just bandwidth. After all, there are a lot of places to host these days. The community may eventually feel that the implied misallocation of credit is not worth the convenience brought by hosting, and take the project elsewhere. So if you want to provide hosting, do so&amp;mdash;but either plan to get even more involved soon, or be circumspect about how much involvement you claim.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Probablemente debas contar cun cartaz publicitario ou un recoñecemento na páxina de inicio do proxecto, agradecéndolle á túa empresa a provisión de aloxamento. Se configurares o aloxamento de xeito que o enderezo web do proxecto fque baixo o nome de dominio da túa empresa, vas obter algunha asociación adicional a través da URL. Isto provocará que moitos usuarios pensen no software como se tivese &lt;emphasis&gt;algo&lt;/emphasis&gt; que ver coa túa empresa, mesmo se non contribuíres nada ao desenvolvemento. O problema está en que os desenvolvedores tamén son conscientes desta tendencia asociativa, e poden non sentirse moi cómodos con ter un proxecto baixo o teu dominio a non ser que vaias contribuír con máis recursos que unicamente o largo de banda. Despois de todo, hoxe en día existen unha morea de lugares nos que ter o aloxamento. A comunidade pode eventualmente sentir que a deslocalización de identidade implícita non é compensada polo aloxamento, e por tanto decidir mover o proxecto a outro lugar. Se queres fornecer aloxamento, faino, mais ou ben pensa participar máis a curto prazo, ou ben sé cauteloso sobre canta participación reivindicas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>&lt;title&gt;Marketing&lt;/title&gt;</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>&lt;title&gt;Mercadotecnia&lt;/title&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Although most open source developers would probably hate to admit it, marketing works. A good marketing campaign &lt;emphasis&gt;can&lt;/emphasis&gt; create buzz around an open source product, even to the point where hardheaded coders find themselves having vaguely positive thoughts about the software for reasons they can't quite put their finger on. It is not my place here to dissect the arms-race dynamics of marketing in general. Any corporation involved in free software will eventually find itself considering how to market themselves, the software, or their relationship to the software. The advice below is about how to avoid common pitfalls in such an effort; see also &lt;xref linkend="publicity"/&gt;&lt;phrase output="printed"&gt; in &lt;xref linkend="communications"/&gt;&lt;/phrase&gt;.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Embora a maioría dos desenvolvedores de software libre probablemente odien admitilo, a mercadotecnia funciona. Unha boa campaña de marketing &lt;emphasis&gt;pode&lt;/emphasis&gt; crear ruxe-ruxe sobre dun produto de código aberto, mesmo ata o punto no que os desenvolvedores máis obstinados se atopen a si mesmos tendo pensamentos positivos sobre o software por razóns intanxibles. Non procede que eu aquí diseccione as dinámicas xerais da mercadotecnia. Calquera corporación involucrada no software libre poderá nunha altura determinada considerar como venderse a si mesma, o software ou a súa relación co software. O consello de abaixo versa sobre como evitar riscos neste esforzo; revisa tamén &lt;xref linkend="publicity"/&gt;&lt;phrase output="printed"&gt; en &lt;xref linkend="communications"/&gt;&lt;/phrase&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Remember That You Are Being Watched</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Recorda que estás sendo observado</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For the sake of keeping the volunteer developer community on your side, it is &lt;emphasis&gt;very&lt;/emphasis&gt; important not to say anything that isn't demonstrably true. Audit all claims carefully before making them, and give the public the means to check your claims on their own. Independent fact checking is a major part of open source, and it applies to more than just the code.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Polo ben de manter ao teu carón a comunidade de desenvolvedores voluntarios, é &lt;emphasis&gt;moi&lt;/emphasis&gt; importante non dicires nada que non for certo. Revisa cada petición coidadosamente antes de facela, e dálle ao público os medios para revisar as túas peticións por si mesmos. A revisión independente dos feitos é unha parte fundamental do software libre, e envolve máis que unicamente o código fonte.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Naturally no one would advise companies to make unverifiable claims anyway. But with open source activities, there is an unusually high quantity of people with the expertise to verify claims&amp;mdash;people who are also likely to have high-bandwidth Internet access and the right social contacts to publicize their findings in a damaging way, should they choose to. When Global Megacorp Chemical Industries pollutes a stream, that's verifiable, but only by trained scientists, who can then be refuted by Global Megacorp's scientists, leaving the public scratching their heads and wondering what to think. On the other hand, your behavior in the open source world is not only visible and recorded; it is also easy for many people to check it independently, come to their own conclusions, and spread those conclusions by word of mouth. These communications networks are already in place; they are the essence of how open source operates, and they can be used to transmit any sort of information. Refutation is usually difficult, if not impossible, especially when what people are saying is true.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Naturalmente, de tódolos xeitos ninguén lle aconsellaría ás empresas faceren reivindicacións non verificables. Mais coas actividades de código aberto, hai unha cantidade de xente inusitadamente elevada con experiencia en verificar reivindicacións; así como probablemente xente con accesos a internet de moito largo de banda e cos contactos sociais adecuados para publicitar dun xeito daniño as cousas que poderían chegar a atopar, se así o decidisen. Cando as industrias "Global Megacorp Chemical" contaminan un regato, isto é verificable unicamente por científicos adestrados, os cales poden ser refutados polos científicos de "Global Megacorp", deixando o público rascando a cabeza e preguntándose que pensar. Pola outra banda, o teu comportamento no mundo do software libre non só é visible e gravado; tamén é facilmente revisable dun xeito sinxelo e independente polo resto da xente, permitíndolle chegar ás súas propias conclusións e espallalas. Estas redes de comunicación están ben, son a esencia de como opera o software libre, e poden ser empregadas para transmitir calquera tipo de información. A refutación adoita ser difícil, cando non imposible, especialmente cando o que a xente está a dicir é certo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For example, it's okay to refer to your organization as having "founded project X" if you really did. But don't refer to yourself as the "makers of X" if most of the code was written by outsiders. Conversely, don't claim to have a deeply involved volunteer developer community if anyone can look at your repository and see that there are few or no code changes coming from outside your organization.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Por exemplo, está ben referirte á túa organización como "investidora do proxecto X" se realmente o é. Pero non te refiras a ti mesmo como "o creador de X" se a maioría do código foi escrito por xente externa. Á inversa, non reivindiques ter unha comunidade de voluntarios profundamente involucrada se calquera pode mirar no teu repositorio e ver que hai poucas ou ningunha mudanza no código provenientes de xente externa á túa organización.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Not too long ago, I saw an announcement by a very well-known computer company, stating that they were releasing an important software package under an open source license. When the initial announcement came out, I took a look at their now-public version control repository and saw that it contained only three revisions. In other words, they had done an initial import of the source code, but hardly anything had happened since then. That in itself was not worrying&amp;mdash;they'd just made the announcement, after all. There was no reason to expect a lot of development activity right away.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Non hai demasiado tempo, vin o anuncio dunha empresa moi coñecida de informática dicindo que ían liberar un importante paquete de software baixo unha licenza de software libre. Cando saíu o anuncio inicial, deille unha revisión ao seu repositorio público e vin que contiña unicamente tres revisións. Noutras palabras, tiñan feita unha importación inicial do código fonte, mais realmente non acontecera nada desde aquela. Isto en si mesmo non era tan triste, mais xusto acababan de facer o anuncio, despois de todo. Non había ningunha razón para non esperar unha morea de actividade de desenvolvemento de aí en diante.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Some time later, they made another announcement. Here is what it said, with the name and release number replaced by pseudonyms:</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Algún tempo despois, fixeron outro anuncio. Aquí está o que dixeron, co nome e número de versión substituído por seudónimos:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>We are pleased to announce that following rigorous testing by the Singer Community, Singer&amp;nbsp;5 for Linux and Windows are now ready for production use.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>É para nós un pracer anunciar que seguindo rigorosas testaxes pola Comunidade Singer, Singer&amp;nbsp;5 para Linux e Windows agora mesmo está listo para o seu uso en produción.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Curious to know what the community had uncovered in "rigorous testing," I went back to the repository to look at its recent change history. The project was still on revision 3. Apparently, they hadn't found a &lt;emphasis&gt;single&lt;/emphasis&gt; bug worth fixing before the release! Thinking that the results of the community testing must have been recorded elsewhere, I next examined the bug tracker. There were exactly six open issues, four of which had been open for several months already.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Curioso por saber que descubrira a comunidade na "testaxe rigorosa" volvín ao repositorio para ver a súa historia de mudanzas recentes. O proxecto aínda estaba na revisión 3. Aparentemente, non atoparan &lt;emphasis&gt;ningún&lt;/emphasis&gt; erro ou solución antes da publicación! Pensando que os resultados da testaxe da comunidade tiñan que ter sido gravados, a continuación examinei o notificador de erros. Había exactamente seis incidencias abertas, catro das cales estiveran abertas durante varios meses.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This beggars belief, of course. When testers pound on a large and complex piece of software for any length of time, they will find bugs. Even if the fixes for those bugs don't make it into the upcoming release, one would still expect some version control activity as a result of the testing process, or at least some new issues. Yet to all appearances, nothing had happened between the announcement of the open source license and the first open source release.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Isto resta credibilidade, por suposto. Cando os testadores revisan por algún tempo unha peza de software grande e complexa, atopan erros. Mesmo se as reparacións destes erros non se fan na seguinte publicación, si que esperas algunha actividade de control de versións como resultado do proceso de testaxe, ou polo menos algunha incidencia nova. En base ás aparencias, non pasara nada entre o anuncio da licenza de software libre e a primeira publicación con código aberto.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The point is not that the company was lying about the community testing. I have no idea if they were or not. But they were oblivious to how much it &lt;emphasis&gt;looked&lt;/emphasis&gt; like they were lying. Since neither the version control repository nor the issue tracker gave any indication that the alleged rigorous testing had occurred, the company should either not have made the claim in the first place, or provided a clear link to some tangible result of that testing ("We found 278 bugs; click here for details"). The latter would have allowed anyone to get a handle on the level of community activity very quickly. As it was, it only took me a few minutes to determine that whatever this community testing was, it had not left traces in any of the usual places. That's not a lot of effort, and I'm sure I'm not the only one who took the trouble.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>A cuestión non é que a empresa estivera mentindo sobre a testaxe da comunidade. Non sei se o fixeron ou non. Mais omitían tantos datos a respecto da revisión como se estiveran mentindo. Dado que nin o sistema de control de versións nin o sistema de notificación de erros daban ningunha indicación de que a mencionada testaxe rigorosa tivera lugar, a empresa non debería ter feita a reivindicación en cuestión ou debería ter fornecido algunha ligazón clara a algún resultado tanxible da testaxe ("Atopamos 278 erros, preme aquí para veres os detalles"). A segunda opción permitiríalle a calquera obter rapidamente unha visión sobre o nivel de actividade da comunidade. Tal como vimos, só me levou uns poucos minutos comprobar que fose o que for esta comunidade de testaxe, non deixara ningunha traza en ningún dos lugares habituais. Non é moito traballo, e estou seguro que non son o único que se decatou do problema.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Transparency and verifiability are also an important part of accurate crediting, of course. See &lt;xref linkend="credit"/&gt;&lt;phrase output="printed"&gt; in &lt;xref linkend="managing-volunteers"/&gt;&lt;/phrase&gt; for more on this.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>A transparencia e a verificabilidade tamén son unha parte importante dun correcto recoñecemento, por suposto. Revisa &lt;xref linkend="credit"/&gt;&lt;phrase output="printed"&gt; en &lt;xref linkend="managing-volunteers"/&gt;&lt;/phrase&gt; para profundizar.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Don't Bash Competing Open Source Products</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Non confrontes produtos de código aberto</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Refrain from giving negative opinions about competing open source software. It's perfectly okay to give negative &lt;emphasis&gt;facts&lt;/emphasis&gt;&amp;mdash;that is, easily confirmable assertions of the sort often seen in good comparison charts. But negative characterizations of a less rigorous nature are best avoided, for two reasons. First, they are liable to start flame wars that detract from productive discussion. Second, and more importantly, some of the volunteer developers in &lt;emphasis&gt;your&lt;/emphasis&gt; project may turn out to work on the competing project as well. This is more likely than it at first might seem: the projects are already in the same domain (that's why they're in competition), and developers with expertise in that domain may make contributions wherever their expertise is applicable. Even when there is no direct developer overlap, it is likely that developers on your project are at least acquainted with developers on related projects. Their ability to maintain constructive personal ties could be hampered by overly negative marketing messages.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Abstente de dar opinións negativas sobre produtos competidores de código aberto É perfectamente lexítimo amosar &lt;emphasis&gt;feitos&lt;/emphasis&gt;&amp;mdash; negativos, isto é, asercións facilmente confirmables do tipo habitualmente visible nas boas comparativas. Mais as caracterizacións negativas dunha natureza menos rigorosa é mellor eliminalas por dúas razóns. Primeiro, son responsables de comezar guerras incendiarias que desangran as discusións produtivas. Segundo, e máis importante, varios dos desenvolvedores voluntarios do &lt;emphasis&gt;teu&lt;/emphasis&gt; proxecto tamén poden deixar de traballar no proxecto da competencia. Isto é máis probable do que pode parecer nunha primeira volta: os proxectos xa están no mesmo dominio (isto é polo que son competencia), e os desenvolvedores con experiencia nese dominio poden facer contribucións en calquera lugar no que a súa experiencia sexa aplicable. Mesmo cando non hai solapamento directo de desenvolvedores, é probable que os desenvolvedores do teu proxecto estean polo menos familiarizados cos desenvolvedores de proxectos relacionados. A súa habilidade para manteren ligaduras persoais produtivas pode verse dificultada por demasiadas mensaxes negativas provenientes do marketing.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Bashing competing closed-source products seems to be more widely accepted in the open source world, especially when those products are made by Microsoft. Personally, I deplore this tendency (though again, there's nothing wrong with straightforward factual comparisons), not merely because it's rude, but also because it's dangerous for a project to start believing its own hype and thereby ignore the ways in which the competition may actually be superior. In general, watch out for the effect that marketing statements can have on your own development community. People may be so excited at being backed by marketing dollars that they lose objectivity about their software's true strengths and weaknesses. It is normal, and even expected, for a company's developers to exhibit a certain detachment toward marketing statements, even in public forums. Clearly, they should not come out and contradict the marketing message directly (unless it's actually wrong, though one hopes that sort of thing would have been caught earlier). But they may poke fun at it from time to time, as a way of bringing the rest of the development community back down to earth.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>A confrontación cos produtos de código pechado parece estar máis amplamente aceptada no mundo do software libre, especialmente cando estes produtos están feitos por Microsoft. Persoalmente, eu deploro esta tendencia (unha vez máis, non hai nada malo nas comparacións francas e que se cinguen aos feitos), non unicamente porque sexa de mala educación, senón tamén porque é perigoso para un proxecto comezar a crer a súa propia propaganda e dese modo ignorar os ámbitos nos cales a competencia pode realmente ser superior. En xeral, vixía o efecto que as declaracións de marketing poden provocar na túa propia comunidade de desenvolvemento. A xente podería excitarse tanto ao ter cobertura por parte do marketing que podería chegar a perder a obxectividade sobre os puntos fortes e fracos reais do software. É normal, e esperable, que os desenvolvedores dunha empresa exhiban un certo distanciamento a respecto das declaracións de marketing, mesmo nos foros públicos. Claramente, eles non deberían contradicir de xeito directo as mensaxes de marketing (a non ser que realmente sexan falsas, aínda que é de esperar que ese tipo de cousas fosen descubertas máis cedo). Poderían rirse disto de cando en vez, como un xeito de tornar o resto da comunidade de desenvolvemento máis realista.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

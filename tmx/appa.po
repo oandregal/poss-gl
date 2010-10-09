@@ -1,0 +1,359 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit - po2tmx" creationtoolversion="1.8.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Free Version Control Systems</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Sistemas de Control de Versións Libres</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>These are all the open source version control systems I was aware of as of mid-2007. The only one I use on a regular basis is Subversion. I have little or no experience with most of these systems, except for Subversion and CVS; the information here is taken from their web sites. See also &lt;ulink url="http://en.wikipedia.org/wiki/List_of_revision_control_software"&gt;&lt;/ulink&gt;.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Estes son todos os sistemas de control de versións libres dos que tiña coñecemento ata a metade de 2007. O único que emprego de xeito habitual é Subversion. Teño pouca ou ningunha experiencia coa maioría destes sistemas, excepto con Subversion e CVS; a información que aquí mostro procede dos seus sitios web. Bótalle unha ollada tamén a &lt;ulink url="http://en.wikipedia.org/wiki/List_of_revision_control_software"&gt;&lt;/ulink&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>&lt;emphasis role="bold"&gt;CVS&lt;/emphasis&gt;&amp;nbsp;&amp;mdash;&amp;nbsp;&lt;ulink url="http://www.nongnu.org/cvs/"&gt;&lt;/ulink&gt;</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>&lt;emphasis role="bold"&gt;CVS&lt;/emphasis&gt;&amp;nbsp;&amp;mdash;&amp;nbsp;&lt;ulink url="http://www.nongnu.org/cvs/"&gt;&lt;/ulink&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>CVS has been around for a long time, and many developers are already familiar with it. In its day it was revolutionary: it was the first open source version control system with wide-area network access for developers (as far as I know), and the first to offer anonymous read-only checkouts, which gave new developers an easy way to get involved in projects. CVS versions files only, not directories; it offers branching, tagging, and good client-side performance, but doesn't handle large files or binary files very well. It also does not support atomic commits.&lt;emphasis&gt;[Disclaimer: I was active in CVS development for about five years, before helping to start the Subversion project to replace it.]&lt;/emphasis&gt;</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>CVS existe desde hai moito tempo, e moitos desenvolvedores están familiarizados con el. No seu día supuxo unha revolución: foi o primeiro sistema de control de versións de código aberto con acceso de rede para desenvolvedores desde redes de área extensa (ata onde eu sei), e tamén o primeiro en ofrecer "checkouts" (descargas) anónimos  só de lectura, funcionalidades que lle permitían aos novos desenvolvedores  participaren con facilidade en proxectos. CVS só versiona ficheiros, non directorios; ofrece ramificacións ("branching"), etiquetaxe ("tagging"), e bo rendemento no lado cliente, pero non manexa demasiado ben ficheiros grandes nin binarios. Para alén disto, tampouco soporta commits atómicos. &lt;emphasis&gt;[Nota: participei no desenvolvemento de CVS durante cinco anos, antes de axudar a botar a rolar o proxecto Subversion, que o ía substituír.]&lt;/emphasis&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>&lt;emphasis role="bold"&gt;Subversion&lt;/emphasis&gt;&amp;nbsp;&amp;mdash;&amp;nbsp;&lt;ulink url="http://subversion.tigris.org/"&gt;&lt;/ulink&gt;</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>&lt;emphasis role="bold"&gt;Subversion&lt;/emphasis&gt;&amp;nbsp;&amp;mdash;&amp;nbsp;&lt;ulink url="http://subversion.tigris.org/"&gt;&lt;/ulink&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Subversion was written first and foremost to be a replacement for CVS&amp;mdash;that is, to approach version control in roughly the same way CVS does, but without the problems and feature omissions that most frequently annoy users of CVS. One of Subversion's goals is for people already accustomed to CVS to find the transition to Subversion relatively smooth. There is not space here to go into detail about Subversion's features; see its web site for more information. &lt;emphasis&gt;[Disclaimer: I am involved in Subversion development, and it is the only one of these systems that I use on a regular basis.]&lt;/emphasis&gt;</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Subversion foi escrito ante todo para ser o substituto de CVS&amp;mdash; é dicir, para aproximarse ao control de versións do mesmo xeito que o fai CVS, pero sen os problemas e omisións de funcionalidades que anoxaban con frecuencia os usuarios de CVS. Un dos obxectivos de Subversion é fornecer unha transición suave para a xente acostumada a CVS. Non hai espazo aquí para entrar no detalle das funcionalidades de Subversion; bótalle unha ollada ao seu sitio web para obteres máis información. &lt;emphasis&gt;[Nota: Estou implicado no desenvolvemento de Subversion, e é o único destes sistemas que acostumo a empregar.]&lt;/emphasis&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>&lt;emphasis role="bold"&gt;SVK&lt;/emphasis&gt;&amp;nbsp;&amp;mdash;&amp;nbsp;&lt;ulink url="http://svk.elixus.org/"&gt;&lt;/ulink&gt;</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>&lt;emphasis role="bold"&gt;SVK&lt;/emphasis&gt;&amp;nbsp;&amp;mdash;&amp;nbsp;&lt;ulink url="http://svk.elixus.org/"&gt;&lt;/ulink&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Although it is built on top of Subversion, SVK probably resembles some of the decentralized systems below more than it does Subversion. SVK supports distributed development, local commits, sophisticated change merging, and the ability to mirror trees from non-SVK version control systems. See its web site for details.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Aínda que está construído sobre a base de Subversion, SVK probablemente se pareza máis a algúns dos sistemas descentralizados posteriores que ao propio Subversion. SVK soporta desenvolvemento distribuído, commits locais, mesturas sofisticadas de cambios, e a habilidade de facer espellos de árbores de desenvolvemento con orixe en sistemas de control de versións que non sexan o propio SVK. Bótalle unha ollada ao seu sitio web para máis detalles.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>&lt;emphasis role="bold"&gt;Mercurial&lt;/emphasis&gt;&amp;nbsp;&amp;mdash;&amp;nbsp;&lt;ulink url="http://www.selenic.com/mercurial/"&gt;&lt;/ulink&gt;</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>&lt;emphasis role="bold"&gt;Mercurial&lt;/emphasis&gt;&amp;nbsp;&amp;mdash;&amp;nbsp;&lt;ulink url="http://www.selenic.com/mercurial/"&gt;&lt;/ulink&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Mercurial is a distributed version control system that offers, among other things, "complete cross-indexing of files and changesets; bandwidth and CPU efficient HTTP and SSH sync protocols; arbitrary merging between developer branches; integrated stand-alone web interface; [portability to] UNIX, MacOS X, and Windows" and more (the preceding feature list was paraphrased from the Mercurial web site).</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Mercurial é un sistema distribuído de control de versións que ofrece, entre outras cousas, "unha completa indexación cruzada de ficheiros e conxuntos de mudanzas; protocolos de sincronización HTTP e SSH eficientes dende o punto de vista do largo de banda e da CPU; fusión arbitraria entre ramas de desenvolvedores; unha interfaz web integrada autónoma; [portabilidade a] UNIX, MacOS X e Windows" e máis (a lista de funcionalidades precedente foi elaborada a partir do contido do sitio web de Mercurial).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>&lt;emphasis role="bold"&gt;GIT&lt;/emphasis&gt;&amp;nbsp;&amp;mdash;&amp;nbsp;&lt;ulink url="http://git.or.cz/"&gt;&lt;/ulink&gt;</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>&lt;emphasis role="bold"&gt;GIT&lt;/emphasis&gt;&amp;nbsp;&amp;mdash;&amp;nbsp;&lt;ulink url="http://git.or.cz/"&gt;&lt;/ulink&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>GIT is a project started by Linus Torvalds to manage the Linux kernel source tree. At first GIT was rather narrowly focused on the needs of kernel development, but it has expanded beyond that and is now used by projects other than the Linux kernel. Its home page says it is "...designed to handle very large projects with speed and efficiency; it is used mainly for various open source projects, most notably the Linux kernel. Git falls in the category of distributed source code management tools, similar to e.g. GNU Arch or Monotone (or BitKeeper in the proprietary world). Every Git working directory is a full-fledged repository with full revision tracking capabilities, not dependent on network access or a central server."</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>GIT é un proxecto que iniciou Linus Torvalds para xestionar a árbore de desenvolvemento do código fonte do Kernel de Linux. No comezo GIT estaba claramente enfocado ás necesidades do desenvolvemento do kernel, pero expandiuse máis alá e agora mesmo é empregado por outros proxectos distintos do kernel de Linux. A súa páxina web di que está "...deseñado para manexar proxectos moi grandes con velocidade e eficiencia; está a ser empregado principalmente por varios proxectos de Software Libre, entre os que salienta o kernel de Linux. GIT atópase na categoría das ferramentas de xestión distribuída do código fonte, da mesma maneira que por exemplo GNU Arch ou Monotone (ou BitKeeper no mundo propietario). Cada directorio de traballo de GIT é un repositorio completo con capacidades completas de xestión de revisións, que non depende de acceso á rede ou a un servidor central."</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>&lt;emphasis role="bold"&gt;Bazaar&lt;/emphasis&gt;&amp;nbsp;&amp;mdash;&amp;nbsp;&lt;ulink url="http://bazaar-vcs.org/"&gt;&lt;/ulink&gt;</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>&lt;emphasis role="bold"&gt;Bazaar&lt;/emphasis&gt;&amp;nbsp;&amp;mdash;&amp;nbsp;&lt;ulink url="http://bazaar.canonical.com/"&gt;&lt;/ulink&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Bazaar (or bzr) is a distributed version control system that concentrates on ease-of-use and having a flexible data model. It is an official GNU project, and is the native version control system for the free software project-hosting site Launchpad.net. Bazaar does fully distributed version control: all work takes place in branches, and every developer typically has a full copy of the branch history. Branches can be merged into one another in a decentralized manner, but Bazaar can also be configured to work in a centralized way. Bazaar started out as a fork of GNU Arch, but was rewritten from scratch and now has no direct relation to GNU Arch.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Bazaar (ou bzr) é un sistema distribuído de control de versións que se centra na facilidade de uso e nun modelo de datos flexible. É un proxecto oficial de GNU, e é o sistema de control de versións nativo para o sitio de aloxamento de proxectos de softare libre "Launchpad.net". Bazaar fornece control de versións totalmente distribuído: todo o traballo ten lugar en "branches" (ramas), e tipicamente cada desenvolvedor ten unha copia completa da historia da rama. As ramas poden fusionarse dentro doutras de xeito descentralizado, pero Bazaar tamén pode configurarse para traballar de xeito centralizado. Bazaar botou a andar como unha división de GNU Arch, pero foi reescrito desde cero e agora non ten relación directa con GNU Arch.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>&lt;emphasis role="bold"&gt;Darcs&lt;/emphasis&gt;&amp;nbsp;&amp;mdash;&amp;nbsp;&lt;ulink url="http://darcs.net"&gt;&lt;/ulink&gt;</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>&lt;emphasis role="bold"&gt;Darcs&lt;/emphasis&gt;&amp;nbsp;&amp;mdash;&amp;nbsp;&lt;ulink url="http://darcs.net"&gt;&lt;/ulink&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>"David's Advanced Revision Control System is yet another replacement for CVS. It is written in Haskell, and has been used on Linux, MacOS X, FreeBSD, OpenBSD and Microsoft Windows. Darcs includes a cgi script, which can be used to view the contents of your repository."</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>"O Sistema Avanzado de Control de Revisións de David (David's Advanced Revision Control System) é outro substituto de CVS. Está escrito en Haskell, e ten sido usado en Linux, MacOX, FreeBSD, Open BSD e Microsoft Windows. Darcs inclúe un ficheiro de comandos cgi, que podes empregar para veres os contidos de teu repositorio."</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>&lt;emphasis role="bold"&gt;Arch&lt;/emphasis&gt;&amp;nbsp;&amp;mdash;&amp;nbsp;&lt;ulink url="http://www.gnu.org/software/gnu-arch/"&gt;&lt;/ulink&gt;</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>&lt;emphasis role="bold"&gt;Arch&lt;/emphasis&gt;&amp;nbsp;&amp;mdash;&amp;nbsp;&lt;ulink url="http://www.gnu.org/software/gnu-arch/"&gt;&lt;/ulink&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>GNU Arch supports both distributed and centralized development. Developers commit their changes to an "archive", which may be local, and the changes can be pushed and pulled to other archives as the managers of those archives see fit. As such a methodology implies, Arch has more sophisticated merge support than CVS. Arch also allows one to easily make branches of archives to which one does not have commit access. This is only a brief summary; see the Arch web pages for details.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>GNU Arch soporta tanto desenvolvemento distribuído como centralizado. Os desenvolvedores fan commit das súas mudanzas a un "ficheiro", que pode ser local, e as mudanzas poden ser inseridas ou removidas noutros ficheiros segundo os administradores deses ficheiros o consideren conveniente. Como esta metodoloxía implica, Arch ten un soporte de mesturas máis sofisticado que CVS. Arch tamén permite crear ramas dun xeito sinxelo para aqueles ficheiros dos que careces de acceso para faceres commit. Este é só un breve resumo; bótalle unha ollada ao sitio web de Arch para máis detalles.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>&lt;emphasis role="bold"&gt;monotone&lt;/emphasis&gt;&amp;nbsp;&amp;mdash;&amp;nbsp;&lt;ulink url="http://www.venge.net/monotone/"&gt;&lt;/ulink&gt;</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>&lt;emphasis role="bold"&gt;monotone&lt;/emphasis&gt;&amp;nbsp;&amp;mdash;&amp;nbsp;&lt;ulink url="http://www.venge.net/monotone/"&gt;&lt;/ulink&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>"monotone is a free distributed version control system. it provides a simple, single-file transactional version store, with fully disconnected operation and an efficient peer-to-peer synchronization protocol. it understands history-sensitive merging, lightweight branches, integrated code review and 3rd party testing. it uses cryptographic version naming and client-side RSA certificates. it has good internationalization support, has no external dependencies, runs on linux, solaris, OSX, and windows, and is licensed under the GNU GPL."</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>"monotone é un sistema libre distribuído de control de versións. Fornece un sinxelo almacenamento transacional de versións a nivel de ficheiros individuais, con total operatividade baixo desconexión, e cun protocolo eficiente de sincronización entre pares. Entende a fusión sensible ao historial de cambios, ramas lixeiras, revisión integrada de código e testaxe por parte de terceiros. Emprega nomenclatura cifrada de versións e certificados RSA no lado cliente. Posúe un bo soporte de internacionalización, non ten dependencias externas, corre en linux, solaris, OSX e windows, e está publicado baixo licenza GNU/GPL."</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>&lt;emphasis role="bold"&gt;Codeville&lt;/emphasis&gt;&amp;nbsp;&amp;mdash;&amp;nbsp;&lt;ulink url="http://codeville.org/"&gt;&lt;/ulink&gt;</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>&lt;emphasis role="bold"&gt;Codeville&lt;/emphasis&gt;&amp;nbsp;&amp;mdash;&amp;nbsp;&lt;ulink url="http://codeville.org/"&gt;&lt;/ulink&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>"Why yet another version control system? All other version control systems require that you keep careful track of the relationships between branches so as not have to repeatedly merge the same conflicts. Codeville is much more anarchic. It allows you to update from or commit to any repository at any time with no unnecessary re-merges."</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>"Por que outro sistema de control de versións? Todos os demais sistemas de control de versións esixen que manteñas unha xestión coidadosa das relacións entre as ramas para non mesturar constantemente os mesmos conflictos. Codeville é moito máis anárquico. Permite actualizar ou facer commits a calquera repositorio en calquera momento sen re-mesturas innecesarias".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>"Codeville works by creating an identifier for each change which is done, and remembering the list of all changes which have been applied to each file and the last change which modified each line in each file. When there's a conflict, it checks to see if one of the two sides has already been applied to the other one, and if so makes the other side win automatically. When there's an actual not automatically mergeable version conflict, Codeville behaves in almost exactly the same way as CVS."</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>"Codeville funciona creando un identificador para cada mudanza feita, e recordando a lista de todos os cambios que foron aplicados a cada ficheiro e a última mudanza que modificou cada liña en cada ficheiro. Cando hai un conflicto, comproba se unha das dúas partes ten sido xa aplicada á outra, e se for así fai que esa parte automaticamente sexa a gañadora. Cando hai un conflicto de versións real que non pode ser mesturado automaticamente, Codeville compórtase case igual que CVS."</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>&lt;emphasis role="bold"&gt;Vesta&lt;/emphasis&gt;&amp;nbsp;&amp;mdash;&amp;nbsp;&lt;ulink url="http://www.vestasys.org/"&gt;&lt;/ulink&gt;</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>&lt;emphasis role="bold"&gt;Vesta&lt;/emphasis&gt;&amp;nbsp;&amp;mdash;&amp;nbsp;&lt;ulink url="http://www.vestasys.org/"&gt;&lt;/ulink&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>"Vesta is a portable SCM [Software Configuration Management] system targeted at supporting development of software systems of almost any size, from fairly small (under 10,000 source lines) to very large (10,000,000 source lines)."</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>"Vesta é un sistema portable de SCM [Xestión de Configuración de Software ou "Software Configuration Management" en inglés] orientado a dar soporte ao desenvolvemento de sistemas de software de case calquera tamaño, dende bastante pequenos (menos de 10.000 liñas de código fonte) ata moi grandes (10.000.000 de liñas de código fonte)."</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>"Vesta is a mature system. It is the result of over 10 years of research and development at the Compaq/Digital Systems Research Center, and it was in production use by Compaq's Alpha microprocessor group for over two and a half years. The Alpha group had over 150 active developers at two sites thousands of miles apart, on the east and west coasts of the United States. The group used Vesta to manage builds with as much as 130 MB of source data, each producing 1.5 GB of derived data. The builds done at the eastern site in an average day produced about 10-15 GB of derived data, all managed by Vesta. Although Vesta was designed with software development in mind, the Alpha group demonstrated the system's flexibility by using it for hardware development, checking their hardware description language files into Vesta's source code control facility and building simulators and other derived objects with Vesta's builder. The members of the former Alpha group, now a part of Intel, are continuing to use Vesta today in a new microprocessor project."</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>"Vesta é un sistema maduro. É o resultado de máis de 10 anos de investigación e desenvolvemento no Centro de Desenvolvemento de Sistemas de Compaq/Digital, e foi empregado en producción polo grupo de microprocesadores Alpha de Compaq durante máis de dous anos e medio. O grupo Alpha tivo máis de 150 desenvolvedores activos en dúas ubicacións a miles de kilómetros de distancia entre si, na costa leste e na costa oeste dos Estados Unidos. O grupo empregou Vesta para xestionar "builds" con 130 MB de datos fonte como máximo; cada un deles producía 1,5 GB de datos derivados. Os "builds" feitos na parte oeste nun día normal producían 10-15 GB de datos derivados, todos administrados por Vesta. Aínda que Vesta foi deseñado de cara ao desenvolvemento de software, o grupo Alpha demostrou a flexibilidade do sistema usándoo para desenvolvemento de hardware, comprobando os seus ficheiros de linguaxe de descrición de hardware dentro da funcionalidade de control de código fonte de Vesta e construíndo simuladores e outros obxectos derivados co "constructor" de Vesta. Os membros do antigo grupo Alpha, agora parte de Intel, continúan a empregar aínda hoxe Vesta nun proxecto dun novo microprocesador."</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>&lt;emphasis role="bold"&gt;Aegis&lt;/emphasis&gt;&amp;nbsp;&amp;mdash;&amp;nbsp;&lt;ulink url="http://aegis.sourceforge.net/"&gt;&lt;/ulink&gt;</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>&lt;emphasis role="bold"&gt;Aegis&lt;/emphasis&gt;&amp;nbsp;&amp;mdash;&amp;nbsp;&lt;ulink url="http://aegis.sourceforge.net/"&gt;&lt;/ulink&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>"Aegis is a transaction-based software configuration management system. It provides a framework within which a team of developers may work on many changes to a program independently, and Aegis coordinates integrating these changes back into the master source of the program, with as little disruption as possible."</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>"Aegis é un sistema de xestión da configuración de software baseado en transaccións. Proporciona un marco dentro do que un equipo de desenvolvedores pode traballar independentemente en moitas mudanzas dun programa, e Aegis coordina a integración desas mudanzas dentro do código fonte mestre do programa, co menor transtorno posible."</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>&lt;emphasis role="bold"&gt;CVSNT&lt;/emphasis&gt;&amp;nbsp;&amp;mdash;&amp;nbsp;&lt;ulink url="http://cvsnt.org/"&gt;&lt;/ulink&gt;</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>&lt;emphasis role="bold"&gt;CVSNT&lt;/emphasis&gt;&amp;nbsp;&amp;mdash;&amp;nbsp;&lt;ulink url="http://cvsnt.org/"&gt;&lt;/ulink&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>"CVSNT is an advanced multiplatform version control system. Compatible with the industry standard CVS protocol it now supports many more features. ... CVSNT is Open Source, Free software licensed under the GNU General Public License." Its feature list includes authentication via all standard CVS protocols, plus Windows specific SSPI and Active Directory; secure transport support, via sserver or encrypted SSPI; cross platform (runs in Windows or Unix environments); NT version is fully integrated with Win32 system; MergePoint processing means no more tagging to merge; under active development.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>"CVSNT é un sistema avanzado e multiplataforma de control de versións. Compatible co protocolo estándar da industria CVS, agora soporta moitas máis funcionalidades... CVSNT é Código de Fontes Abertas, Software Libre adherido á Licenza Pública Xeral GNU." A súa lista de funcionalidades inclúe autenticación mediante todos os protocolos estándar de CVS, máis os SSPI e Active Directory específicos de Windows; soporte de transporte seguro, vía sserver ou SSPI cifrada; multiplataforma (corre en entornos Windows ou Unix); a versión NT está totalmente integrada co sistema Win32; o procesado MergePoint permite non ter máis etiquetado a fusionar nas mesturas; está en desenvolvemento activo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>&lt;emphasis role="bold"&gt;META-CVS&lt;/emphasis&gt;&amp;nbsp;&amp;mdash;&amp;nbsp;&lt;ulink url="http://common-lisp.net/project/meta-cvs/"&gt;&lt;/ulink&gt;</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>&lt;emphasis role="bold"&gt;META-CVS&lt;/emphasis&gt;&amp;nbsp;&amp;mdash;&amp;nbsp;&lt;ulink url="http://common-lisp.net/project/meta-cvs/"&gt;&lt;/ulink&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>"Meta-CVS is a version control system built around CVS. Although it retains most of the features of CVS, including all of the networking support, it is more capable than CVS, and easier to use." The features listed on META-CVS's web site include: directory structure versioning, improved file type handling, simpler and more user-friendly branching and merging, support for symbolic links, property lists attached to versioned data, improved third-party data importing, and easy upgrading from stock CVS.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>"Meta-CVS é un sistema de control de versións construído sobre CVS. Aínda que conserva a maioría das funcionalidades de CVS, incluíndo todo o soporte ao traballo en rede, ten maior capacidade que CVS, e é máis fácil de empregar." As funcionalidades listadas no sitio web de META-CVS inclúen: versionado da estrutura de directorios, manexo de tipos de ficheiro mellorado, mesturado ("merging") e ramificado ("branching") máis simple e máis amigable, soporte para enlaces simbólicos, listas de propiedade anexadas aos datos versionados, importación mellorada de datos de terceiros, e unha sinxela actualización desde CVS.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>&lt;emphasis role="bold"&gt;OpenCM&lt;/emphasis&gt;&amp;nbsp;&amp;mdash;&amp;nbsp;&lt;ulink url="http://www.opencm.org/"&gt;&lt;/ulink&gt;</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>&lt;emphasis role="bold"&gt;OpenCM&lt;/emphasis&gt;&amp;nbsp;&amp;mdash;&amp;nbsp;&lt;ulink url="http://www.opencm.org/"&gt;&lt;/ulink&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>"OpenCM is designed as a secure, high-integrity replacement for CVS. A list of the key features can be found on the features page. While not as 'feature rich' as CVS, it supports some useful things that CVS lacks. Briefly, OpenCM provides first-class support for renames and configuration, cryptographic authentication and access control, and first-class branches."</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>"OpenCM está deseñado como un substituto seguro e de alta integridade de CVS. Pódese atopar una lista das súas funcionalidades clave na páxina de características. Apesar de non ser tan  'rico en funcionalidades' como CVS, soporta algunhas cousas útiles das que carece CVS. En poucas palabras, OpenCM fornece soporte de primera clase para renomenclatura e configuración, autenticación criptográfica e control de acceso, e ramas de primeira clase."</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>&lt;emphasis role="bold"&gt;PRCS&lt;/emphasis&gt;&amp;nbsp;&amp;mdash;&amp;nbsp;&lt;ulink url="http://prcs.sourceforge.net/"&gt;&lt;/ulink&gt;</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>&lt;emphasis role="bold"&gt;PRCS&lt;/emphasis&gt;&amp;nbsp;&amp;mdash;&amp;nbsp;&lt;ulink url="http://prcs.sourceforge.net/"&gt;&lt;/ulink&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>"PRCS, the Project Revision Control System, is the front end to a set of tools that (like CVS) provide a way to deal with sets of files and directories as an entity, preserving coherent versions of the entire set. ... Its purpose is similar to that of SCCS, RCS, and CVS, but (according to its authors, at least), it is much simpler than any of those systems."</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>"PRCS, o Sistema de Control de Revisión de Proxecto (Project Revision Control System), é a interface dun conxunto de ferramentas que (como CVS) fornece un xeito de tratar con conxuntos de ficheiros e directorios como unha unidade, preservando versións coherentes de todo o conxunto... O seu propósito é similar ao de SCCS, RCS, e CVS, pero (cando menos segundo os seus autores), é moito máis sinxelo que calquera deses sistemas."</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>&lt;emphasis role="bold"&gt;ArX&lt;/emphasis&gt;&amp;nbsp;&amp;mdash;&amp;nbsp;&lt;ulink url="http://www.nongnu.org/arx/"&gt;&lt;/ulink&gt;</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>&lt;emphasis role="bold"&gt;ArX&lt;/emphasis&gt;&amp;nbsp;&amp;mdash;&amp;nbsp;&lt;ulink url="http://www.nongnu.org/arx/"&gt;&lt;/ulink&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>ArX is a distributed version control system offering branching and merging features, cryptographic data integrity verification, and the ability to publish archives easily on any HTTP server.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>ArX é un sistema de control de versións distribuído que ofrece funcionalidades de ramificación e mestura, verificación criptográfica da integridade dos datos, e a capacidade de publicar ficheiros con facilidade en calquera servidor HTTP.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>&lt;emphasis role="bold"&gt;SourceJammer&lt;/emphasis&gt;&amp;nbsp;&amp;mdash;&amp;nbsp;&lt;ulink url="http://www.sourcejammer.org/"&gt;&lt;/ulink&gt;</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>&lt;emphasis role="bold"&gt;SourceJammer&lt;/emphasis&gt;&amp;nbsp;&amp;mdash;&amp;nbsp;&lt;ulink url="http://www.sourcejammer.org/"&gt;&lt;/ulink&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>"SourceJammer is a source control and versioning system written in Java. It consists of a server-side component that maintains the files and version history, and handles check-in, check-out, etc. and other commands; and a client-side component that makes requests of the server and manages the files on the client-side file system."</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>"SourceJammer é un sistema de versionado e control de código fonte escrito en Java. Consiste nun compoñente na parte servidor que mantén os ficheiros maila historia das versións, e manexa subidas, descargas, etc. e outros comandos; e nun compoñente na parte cliente que fai peticións ao servidor e xestiona os ficheiros no sistema de ficheiros do lado cliente."</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>&lt;emphasis role="bold"&gt;FastCST&lt;/emphasis&gt;&amp;nbsp;&amp;mdash;&amp;nbsp;&lt;ulink url="http://www.zedshaw.com/projects/fastcst/index.html"&gt;&lt;/ulink&gt;</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>&lt;emphasis role="bold"&gt;FastCST&lt;/emphasis&gt;&amp;nbsp;&amp;mdash;&amp;nbsp;&lt;ulink url="http://www.zedshaw.com/projects/fastcst/index.html"&gt;&lt;/ulink&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>"A 'modern' system that uses changesets over file revisions and distributed operation rather than centralized control. As long as you have an e-mail account you can use FastCST. For larger distribution you only need an FTP server and/or an HTTP server or use the built in 'serve' command to serve your stuff up directly. All changesets are universally unique and have tons of meta-data so you can reject anything you don't [want] before you try it. Merging is done by comparing a merged changeset against the current directory contents, rather than trying to merge it with another changeset."</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>"Un sistema 'moderno' que emprega conxuntos de mudanzas sobre revisións dos ficheiros, e operabilidade distribuída fronte a control centralizado. Se tes un enderezo de correo electrónico, podes empregar FastCST. Para unha distribución maior só precisas un servidor FTP e/ou un servidor HTTP ou empregar o comando embutido 'serve' para ofrecer directamente o teu material. Todos os conxuntos de mudanzas son únicos e teñen toneladas de metadatos, polo que podes rexeitar calquer material que non queiras antes de probalo. O mesturado faise comparando un conxunto mesturado de mudanzas  cos contidos actuais do directorio, en troca de tentar mesturalo con outro conxunto de mudanzas."</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>&lt;emphasis role="bold"&gt;Superversion&lt;/emphasis&gt;&amp;nbsp;&amp;mdash;&amp;nbsp;&lt;ulink url="http://www.superversion.org/"&gt;&lt;/ulink&gt;</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>&lt;emphasis role="bold"&gt;Superversion&lt;/emphasis&gt;&amp;nbsp;&amp;mdash;&amp;nbsp;&lt;ulink url="http://www.superversion.org/"&gt;&lt;/ulink&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>"Superversion is a multi-user distributed version control system based on change sets. It aims to be an industrial-strength, open source alternative to commercial solutions that is equally easy to use (or even easier) and similarly powerful. In fact, intuitive and efficient usability has been one of the top priorities in Superversion's development from the very beginning."</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>"Superversion é un sistema distribuído de control de versións e multiusuario baseado en conxuntos de mudanzas. Pretende ser unha alternativa de Software Libre con calidade industrial ás solucións privativas, con idéntica facilidade de uso (ou aínda máis sinxelo) e de potencia similar. De feito, intuitividade e eficiencia na usabilidade foron as principais prioridades no desenvolvemento de Superversion desde a súa orixe."</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

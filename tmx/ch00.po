@@ -1,0 +1,343 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit - po2tmx" creationtoolversion="1.8.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Preface</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Preámbulo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Why Write This Book?</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Por que escribín este libro?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>At parties, people no longer give me a blank stare when I tell them I write free software. "Oh, yes, open source&amp;mdash;like Linux?" they say. I nod eagerly in agreement. "Yes, exactly! That's what I do." It's nice not to be completely fringe anymore. In the past, the next question was usually fairly predictable: "How do you make money doing that?" To answer, I'd summarize the economics of open source: that there are organizations in whose interest it is to have certain software exist, but that they don't need to sell copies, they just want to make sure the software is available and maintained, as a tool instead of a commodity.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Nas festas, a xente xa non fica con expresión de dúbida cando lles digo que traballo con software libre. «Ah, si, código aberto, como Linux?» din, tras o que aceno con emoción:  «si, iso mesmo!».  É agradable deixar de ser un becho raro. Hai tempo, o que preguntarían a seguir era bastante predecible: «e como ganhas a vida con iso?». Para responder a esta pregunta, facíalles un resumo dos aspectos económicos do código aberto; nomeadamente, que hai organizacións ás que lles interesa que exista un determinado software, mais que non precisan vender copias do mesmo, o que lles interesa é asegurarse de que ese software se mantén e de que está á súa disposición; ven nel   unha ferramenta antes que un producto. </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Lately, however, the next question has not always been about money. The business case for open source software&lt;footnote&gt;&lt;para&gt;The terms "open source" and "free" are essentially synonymous in this context; they are discussed more in &lt;xref linkend="free-vs-open-source"/&gt;&lt;phrase output="printed"&gt; in &lt;xref linkend="introduction"/&gt;&lt;/phrase&gt;.&lt;/para&gt;&lt;/footnote&gt; is no longer so mysterious, and many non-programmers already understand&amp;mdash;or at least are not surprised&amp;mdash;that there are people employed at it full time. Instead, the question I have been hearing more and more often is "&lt;emphasis&gt;Oh, how does that work?&lt;/emphasis&gt;"</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Ultimamente, porén, as preguntas que fan a seguir non son sempre de carácter pecuniario. O modelo económico do software libre perdeu boa parte do seu misterio, e moitas persoas alleas á programación xa comprenden (ou ao menos non se sorprenden ao escoitaren) que hai quen traballa con software libre a tempo enteiro. Antes ben, a pregunta que máis tenho escoitado é a seguinte: «e como é que funciona iso?»</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>I didn't have a satisfactory answer ready, and the harder I tried to come up with one, the more I realized how complex a topic it really is. Running a free software project is not exactly like running a business (imagine having to constantly negotiate the nature of your product with a group of volunteers, most of whom you've never met!). Nor, for various reasons, is it exactly like running a traditional non-profit organization, nor a government. It has similarities to all these things, but I have slowly come to the conclusion that free software is &lt;foreignphrase&gt;sui generis&lt;/foreignphrase&gt;. There are many things with which it can be usefully compared, but none with which it can be equated. Indeed, even the assumption that free software projects can be "run" is a stretch. A free software project can be &lt;emphasis&gt;started&lt;/emphasis&gt;, and it can be influenced by interested parties, often quite strongly. But its assets cannot be made the property of any single owner, and as long as there are people somewhere&amp;mdash;anywhere&amp;mdash;interested in continuing it, it cannot be unilaterally shut down. Everyone has infinite power; everyone has no power. It makes for an interesting dynamic.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Todavía non dei cunha resposta satisfactoria, e canto máis trato de atopar unha, máis me decato de que se trata dun tema moi complexo. Xerir un proxecto de software libre non é exactamente como xerir un negocio (imaxinade como sería ter que negociar constantemente a natureza do voso producto cunha turma de voluntarios, moitos dos cales non conheceriades persoalmente), mais tampouco é exactamente como xerir unha organización non gubernamental clásica, nin tampouco un governo.  Ten analoxías con todo iso, mais, co tempo, cheguei á conclusión de que o software libre constitúe un xénero per se. Pode ser comparado con maior ou menor suceso con multitude de cousas, mais nunca en  relación de igualdade. Mesmo a presunción de que os proxectos de software libre poden ser «xeridos» é unha esaxeración: un proxecto de software libre pode ser iniciado, e pode ser influenciado polas partes interesadas, frecuentemente de maneira considerable, mais o material non pode pasar a mans dun único propietario e, sempre que houber alguén (en calquera lugar) interesado en continuar co proxecto, este non pode ser cancelado de maneira unilateral. Todos os membros tenhen poder ilimitado e todos son impotentes, o que crea unha dinámica interesante. </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>That is why I wanted to write this book. Free software projects have evolved a distinct culture, an ethos in which the liberty to make the software do anything one wants is a central tenet, and yet the result of this liberty is not a scattering of individuals each going their own separate way with the code, but enthusiastic collaboration. Indeed, competence at cooperation itself is one of the most highly valued skills in free software. To manage these projects is to engage in a kind of hypertrophied cooperation, where one's ability not only to work with others but to come up with new ways of working together can result in tangible benefits to the software. This book attempts to describe the techniques by which this may be done. It is by no means complete, but it is at least a beginning.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Eses son os motivos que me impulsaron a redactar este libro. Os proxectos de software libre tornáronse nunha cultura característica, un etos que ten como dogma central a liberdade de lograr que o software faga o que un quixer, sen que isto suponha a disgregación dos programadores, antes ben, que  colaboren con máis forza. A capacidade de cooperación é, de facto, unha das habilidades máis cotizadas no ámbito do software libre.  Xerir un proxecto desta índole implica mergullarse nunha especie de cooperacion hipertrofiada, e a capacidade de descubrir novas vías de cooperación, para alén da capacidade de traballo en equipo, pode repercutir de maneira moi positiva sobre o producto. A finalidade deste libro é describir as técnicas que poden axudar a conseguilo.  Non é unha obra exhaustiva, mais serve polo menos como punto de partida. </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Good free software is a worthy goal in itself, and I hope that readers who come looking for ways to achieve it will be satisfied with what they find here. But beyond that I also hope to convey something of the sheer pleasure to be had from working with a motivated team of open source developers, and from interacting with users in the wonderfully direct way that open source encourages. Participating in a successful free software project is &lt;emphasis&gt;fun&lt;/emphasis&gt;, and ultimately that's what keeps the whole system going.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>O software libre de calidade constitúe un obxectivo en si mesmo, e espero que esta obra satisfaga os lectores que se sirvan dela para o atinxiren.  Para alén diso, espero tamén que participen do pracer que se obtén ao traballar nun equipo de desenvolvedores de código aberto motivados,  e da relación directa co usuario que alenta o código aberto. Participar nun proxecto de software libre ben sucedido é divertido, e é, en definitiva, a causa de que o proceso non se detenha.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Who Should Read This Book?</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>A quen está orientado este libro?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This book is meant for software developers and managers who are considering starting an open source project, or who have started one and are wondering what to do now. It should also be helpful for people who just want to participate in an open source project but have never done so before.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>A presente obra está orientada a desenvolvedores de software e xerentes que tenhen en mente iniciar un proxecto de software libre, ou que xa o iniciaran e non saben como continuar; tamén pode ser de utilidade a quen quixer participar nun proxecto de software libre pola primeira vez.  </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The reader need not be a programmer, but should know basic software engineering concepts such as source code, compilers, and patches.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>O lector non ten por que saber programar, porén, debería pusuír nocións básicas de conceptos de enxenharía de software tales como código fonte, compiladores e remendos (patches).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Prior experience with open source software, as either a user or a developer, is not necessary. Those who have worked in free software projects before will probably find at least some parts of the book a bit obvious, and may want to skip those sections. Because there's such a potentially wide range of audience experience, I've made an effort to label sections clearly, and to say when something can be skipped by those already familiar with the material.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Non é necesario posuír experiencia previa como usuario ou desenvolvedor de software libre. É posible que quen tiver traballado con anterioridade en proxectos de software libre pense que certas partes da obra son obvias de mais, e talvez desexe evitar esas seccións; mais o grao de experiencia dos lectores é tan variable que fixen un esforzo para etiquetar as seccións con claridade, e indiquei  cales poden ser ignoradas se xa se dominan os conceptos que nelas se tratan. </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Sources</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Fontes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Much of the raw material for this book came from five years of working with the Subversion project (&lt;ulink url="http://subversion.tigris.org/"&gt;&lt;/ulink&gt;). Subversion is an open source version control system, written from scratch, and intended to replace CVS as the &lt;foreignphrase&gt;de facto&lt;/foreignphrase&gt; version control system of choice in the open source community. The project was started by my employer, CollabNet (&lt;ulink url="http://www.collab.net/"&gt;&lt;/ulink&gt;), in early 2000, and thank goodness CollabNet understood right from the start how to run it as a truly collaborative, distributed effort. We got a lot of volunteer developer buy-in early on; today there are 50-some developers on the project, of whom only a few are CollabNet employees.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Gran parte do material que forma a obra é debido aos cinco anos que traballei co proxecto Subversion (&lt;ulink url="http://subversion.tigris.org/"&gt;&lt;/ulink&gt;) . Subversion é un sistema de control de versións de código aberto escrtio desde cero, e preténdese que substitúa CVS para tornarse no sistema de control de versións de preferencia na comunidade de código aberto. O proxecto foi iniciado pola empresa para a que traballaba, CollabNet (&lt;ulink url="http://www.collab.net/"&gt;&lt;/ulink&gt;), a comezos de 2000 e, afortunadamente, souberon administralo desde o inicio como un proxecto de colaboración de múltiples partes. Un elevado número de desenvolvedores voluntarios aderíronse ao proxecto desde o inicio, que conta na actualidade con máis de 50 desenvolvedores, dos que unicamente unha pequena parte traballan para CollabNet.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Subversion is in many ways a classic example of an open source project, and I ended up drawing on it more heavily than I originally expected. This was partly a matter of convenience: whenever I needed an example of a particular phenomenon, I could usually call one up from Subversion right off the top of my head. But it was also a matter of verification. Although I am involved in other free software projects to varying degrees, and talk to friends and acquaintances involved in many more, one quickly realizes when writing for print that all assertions need to be fact-checked. I didn't want to make statements about events in other projects based only on what I could read in their public mailing list archives. If someone were to try that with Subversion, I knew, she'd be right about half the time and wrong the other half. So when drawing inspiration or examples from a project with which I didn't have direct experience, I tried to first talk to an informant there, someone I could trust to explain what was really going on.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Subversion é un exemplo case perfecto do que debe ser un proxecto de software libre, e finalmente baseeime nel máis do que pensaba facer inicialmente; en parte polas vantaxes que ofrecía, xa que me fornecía de inesgotables exemplos para ilustrar determinados fenómenos, mais tamén por cuestións de fidelidade. Embora colaboro con outros proxectos de software libre en maior ou menor grao, e tenho amigos e conhecidos que traballan en moitos outros, un decátase logo de que, ao ponher as cousas sobre o papel,  é necesario procurar referentes reais de todo o que se afirma. Non quería facer referencias a outros proxectos baseándome exclusivamente no que lía nas listas públicas de correo, xa que se alguén actuase deste xeito con Subversion acertaría só a metade das veces. Así, sempre que me mergullei en proxectos cos que non tinha experiencia de primeira man á procura de inspiración ou exemplos,  tratei de falar con algún membro dos mesmos para que me explicase a situación real dos mesmos. </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Subversion has been my job for the last 5 years, but I've been involved in free software for 12. Other projects that influenced this book include:</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Traballei en Subversion os últimos 5 anos, mais xa levo 12 anos no mundo do software libre. Outros proxectos que deron forma a esta obra son:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The GNU Emacs text editor project at the Free Software Foundation, in which I maintain a few small packages.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>O proxecto de editor de texto GNU Emacs da Fundación para o Software Libre (Free Software Foundation), no que mantenho uns poucos pacotes. </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Concurrent Versions System (CVS), which I worked on intensely in 1994&amp;ndash;1995 with Jim Blandy, but have been involved with only intermittently since.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Concurrent Version System (CVS, Sistema de Versións Concorrentes), no que traballei a fondo en 1994-95 con Jim Bandy, mais co que colaboro só esporádicamente desde entón. </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The collection of open source projects known as the Apache Software Foundation, especially the Apache Portable Runtime (APR) and Apache HTTP Server.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>A colección de proxectos de código aberto conhecida como Apache Software Foundation, en particular o Apache Portable Runtime (APR) e o Servidor HTTP Apache (Apache HTTP Server). </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>OpenOffice.org, the Berkeley Database from Sleepycat, and MySQL Database; I have not been involved with these projects personally, but have observed them and, in some cases, talked to people there.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>OpenOffice.org, a base de datos de Berkeley de Sleepycat, e a base de datos MySQL; non formei parte deses proxectos persoalmente, mais os seguín de perto e en ocasións falei con algúns dos seus membros.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>GNU Debugger (GDB) (likewise).</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>GNU Debugger (GDB) (ídem)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The Debian Project (likewise).</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>O proxecto Debian (ídem).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This is not a complete list, of course. Like most open source programmers, I keep loose tabs on many different projects, just to have a sense of the general state of things. I won't name all of them here, but they are mentioned in the text where appropriate.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>A lista apenas está completa, dado que, como a maior parte dos programadores de código aberto, non mantenho unha memoria exhaustiva dos proxectos nos que colaboro, o xusto para ter unha idea global de como están as cousas. Non os vou enumerar todos nesta sección, mais si están citados en outras partes da obra. </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Acknowledgments</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Recoñecementos </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This book took four times longer to write than I thought it would, and for much of that time felt rather like a grand piano suspended above my head wherever I went. Without help from many people, I would not have been able to complete it while staying sane.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Tardei catro veces máis do que tinha previsto en redactar a presente obra, e durante a maior parte dese tempo o traballo pendente producíame un gran desacougo. Se non tivese recibido a axuda de numerosos colaboradores, non daría rematado o libro sen perder o xuízo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Andy Oram, my editor at O'Reilly, was a writer's dream. Aside from knowing the field intimately (he suggested many of the topics), he has the rare gift of knowing what one meant to say and helping one find the right way to say it. It has been an honor to work with him. Thanks also to Chuck Toporek for steering this proposal to Andy right away.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Andy Oram, de O'Reilly, é o editor que todo autor desexaría ter. Para alén dun fondo conhecemento do campo (suxeriume moitos dos temas), posúe o escaso don de comprender o que un quere dicir e de axudarlle a atopar a mellor maneira de dicilo. Tamén quero agradecerlle a Chuck Toporek o terlle trasladado esta proxecto a Andy de maneira inmediata. </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Brian Fitzpatrick reviewed almost all of the material as I wrote it, which not only made the book better, but kept me writing when I wanted to be anywhere in the world but in front of the computer. Ben Collins-Sussman and Mike Pilato also checked up on progress, and were always happy to discuss&amp;mdash;sometimes at length&amp;mdash;whatever topic I was trying to cover that week. They also noticed when I slowed down, and gently nagged when necessary. Thanks, guys.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Brian Fitzpatrick revisou a maior parte do material a medida que o redactaba, algo que non só mellorou a obra, senón que tamén me obrigou a escribir mesmo cando o último que quería facer era sentarme diante do computador. Ben Collins-Sussman e Mike Pilato tamén supervisaban o avance da obra, e sempre estaban prontos a debatir (ás veces durante horas) calquera tema no que estivese a traballar na altura. Tamén vixiaban o meu ritmo de traballo, e animábanme a seguir cando se ralentizaba. Desde aquí agradézolles a súa axuda.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Biella Coleman was writing her dissertation at the same time I was writing this book. She knows what it means to sit down and write every day, and provided an inspiring example as well as a sympathetic ear. She also has a fascinating anthropologist's-eye view of the free software movement, giving both ideas and references that I was able use in the book. Alex Golub&amp;mdash;another anthropologist with one foot in the free software world, and also finishing his dissertation at the same time&amp;mdash;was exceptionally supportive early on, which helped a great deal.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Biella Coleman estaba a redactar a súa tese na altura na que eu estaba a redactar este libro, e sabe o que é sentarse a escribir un día si e outro tamén, tamén foi unha fonte de inspiración e un gran apoio. A súa formación como antropóloga fai que posúa unha fascinante visión do movemento do software libre, e achegou ideas e referencias que empreguei nesta obra. Alex Golub (outro antropólogo que ten un pé no mundo do software libre, e quen tamén estaba a rematar a súa tese na altura) apoioume moito nas fases iniciais, o que foi unha gran axuda. </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Micah Anderson somehow never seemed too oppressed by his own writing gig, which was inspiring in a sick, envy-generating sort of way, but he was ever ready with friendship, conversation, and (on at least one occasion) technical support. Thanks, Micah!</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Agradecementos tamén a Micah Anderson, que nunca deixou que o atormentase a presión de redactar as súas obras, o que me serviu de inspiración (e me deu algo de envexa  tamén). Porén, sempre estaba pronto a axudar, conversar e, polo menos nunha ocasión, prestar apoio técnico.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Jon Trowbridge and Sander Striker gave both encouragement and concrete help&amp;mdash;their broad experience in free software provided material I couldn't have gotten any other way.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Jon Trowbridge e Sander Striker animáronme na minha empresa e brindáronse a colaborar nela, sen a súa experiencia en productos de software libre nunca tería rematado a obra.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Thanks to Greg Stein not only for friendship and well-timed encouragement, but for showing the Subversion project how important regular code review is in building a programming community. Thanks also to Brian Behlendorf, who tactfully drummed into our heads the importance of having discussions publicly; I hope that principle is reflected throughout this book.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Quero agradecerlle tamén a Greg Stein non só a súa amizade e os seus ánimos no momento adecuado, senón tamén terlle mostrado ao proxecto Subversive a importancia de revisar o código con frecuencia cando se quere crear unha comunidade de programadores. Estendo o meu agradecemento tamén a Brian Behlendorf, quen con gran tacto nos gravou na mente a importancia de debatir as cousas en público, espero que o libro recolla ese principio.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Thanks to Benjamin "Mako" Hill and Seth Schoen, for various conversations about free software and its politics; to Zack Urlocker and Louis Suarez-Potts for taking time out of their busy schedules to be interviewed; to Shane on the Slashcode list for allowing his post to be quoted; and to Haggen So for his enormously helpful comparison of canned hosting sites.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Agradézolle a Benjamin «Mako» Hill e a Seth Schoen as conversacións sobre software libre e a súa política, a Zack Urlocker e a Louis Suarez-Potts térense deixado entrevistar a pesar de estaren moi atarefados, a Shane da lista de Slashcode  permitirme citar os seus posts, e a Haggen So as comparacións que fixo de aloxamentos web estándar.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Thanks to Alla Dekhtyar, Polina, and Sonya for their unflagging and patient encouragement. I'm very glad that I will no longer have to end (or rather, try unsuccessfully to end) our evenings early to go home and work on "The Book."</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Agradézolle a Alla Dekthyar, a Polina e a Sonya térenme animado con carinho e paciencia. Alégrame que a partir de agora  non tenhamos que rematar (ou debería dicir tratar de rematar) prematuramente as nosas veladas para voltar a casa a traballar no «Libro».  </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Thanks to Jack Repenning for friendship, conversation, and a stubborn refusal to ever accept an easy wrong analysis when a harder right one is available. I hope that some of his long experience with both software development and the software industry rubbed off on this book.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Agradézolle a Jack Repenning a súa amizade, as conversacións que mantivemos e a súa teimuda negativa a aceptar unha análise fácil, mais errada, se for posible facer unha análise correcta, mais difícil. Espero que esta obra se impreganse de parte da súa larga experiencia no desenvolvemento de software libre e a industria do software.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>CollabNet was exceptionally generous in allowing me a flexible schedule to write, and didn't complain when it went on far longer than originally planned. I don't know all the intricacies of how management arrives at such decisions, but I suspect Sandhya Klute, and later Mahesh Murthy, had something to do with it&amp;mdash;my thanks to them both.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>CollabNet fixo gala dunha gran xenerosidade ao facilitarme un horario flexible para poder escribir, e non protestaron cando a redacción do libro demorou máis do previsto. Ignoro os complicados métodos de xestión que existen tras ese tipo de decisións, mais sospeito que Sandra Klute, e máis tarde Mahesh Murthy, tiveron algo que ver. Agradézolle a ambos a súa axuda.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The entire Subversion development team has been an inspiration for the past five years, and much of what is in this book I learned from working with them. I won't thank them all by name here, because there are too many, but I implore any reader who runs into a Subversion committer to immediately buy that committer the drink of his choice&amp;mdash;I certainly plan to.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>O equipo de desenvolvemento de Subversion serviume de inspiración durante os últimos cinco anos, e unha gran parte do que escribín neste libro aprendino deles. Non vou redactar os meus agradecementos un por un, xa que son demasiados, mais prégolle ao lector que, se coincidir cun membro de Subversion, o invite a unha copa (eu penso facelo).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Many times I ranted to Rachel Scollon about the state of the book; she was always willing to listen, and somehow managed to make the problems seem smaller than before we talked. That helped a lot&amp;mdash;thanks.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Queixeime a Rachel Scollon de como levaba a redacción do libro en numerosas ocasións; nunca se negou a escoitarme e de algunha maneira conseguía que os problemas parecesen menos problemas. Agradézolle desde aquí a súa inestimable axuda.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Thanks (again) to Noel Taylor, who must surely have wondered why I wanted to write another book given how much I complained the last time, but whose friendship and leadership of Golos&amp;aacute; helped keep music and good fellowship in my life even in the busiest times. Thanks also to Matthew Dean and Dorothea Samtleben, friends and long-suffering musical partners, who were very understanding as my excuses for not practicing piled up. Megan Jennings was constantly supportive, and genuinely interested in the topic even though it was unfamiliar to her&amp;mdash;a great tonic for an insecure writer. Thanks, pal!</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Transmítolle (mais unha vez) o meu agradecemento a Noel Taylor, quen con certeza se ten preguntado por que quixen escribir outro libro despois de queixarme tanto a primeira vez, mais cuxa amizade e xestión de Golosá contribuíron a que non me faltase nin música nin boa companhía mesmo cando estaba moi atrarefado. Agradézolle tamén a Matthew Dean e a Dorothea Samtleben, amigos e companheiros de desventuras musicais, a súa comprensión ante as minhas cada vez máis frecuentes excusas para non ensaiar. Megan Jennings apoioume en todo momento, e sempre mostrou un grande interese pola obra a pesar de non conhecer o tema de perto, o que é unha gran axuda para un autor inseguro. Agradézolle a súa axuda a ela tamén.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>I had four knowledgeable and diligent reviewers for this book: Yoav Shapira, Andrew Stellman, Davanum Srinivas, and Ben Hyde. If I had been able to incorporate all of their excellent suggestions, this would be a better book. As it was, time constraints forced me to pick and choose, but the improvements were still significant. Any errors that remain are entirely my own.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Esta obra foi revisada por catro persoas eruditas e dilixentes: Yoav Shapira, Andrew Stellman, Davanum Srinivas, and Ben Hyde. Este libro ganharía moito se puider inserir todas as súas brillantes suxestións, mais a escaseza de tempo obrigoume a facer unha escolma; contodo, a mellora foi significativa. Calquera erro que houber é responsabilidade exclusiva minha.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>My parents, Frances and Henry, were wonderfully supportive as always, and as this book is less technical than the previous one, I hope they'll find it somewhat more readable.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Os meus pais, Frances e Henry, ofrecéronme o seu apoio, como sempre, e dado que este libro é menos técnico que o anterior, espero que atopen a súa lectura máis agradable.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Finally, I would like to thank the dedicatees, Karen Underhill and Jim Blandy. Karen's friendship and understanding have meant everything to me, not only during the writing of this book but for the last seven years. I simply would not have finished without her help. Likewise for Jim, a true friend and a hacker's hacker, who first taught me about free software, much as a bird might teach an airplane about flying.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Para rematar, gustaríame estender o meu agradecemento ás persoas a quen está dedicada esta obra, Karen Underhill e Jim Blandy. A amizade e o apoio de Karen son todo para min, non só durante a redacción deste libro, senón tamén durante os últimos sete anos. Non o tería rematado se non for por ela. Ídem a respecto de Jim, un grande amigo e hacker entre hackers, e a persoa que me introduciu no software libre pola primeira vez, algo en certa maneira semellante a un paxaro que lle aprendese a voar a un avión. </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Disclaimer</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Renuncia de responsabilidade</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The thoughts and opinions expressed in this book are my own. They do not necessarily represent the views of CollabNet or of the Subversion project.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>As reflexións e opinións reflectidas nesta obra son exclusivamente do autor. Non representan necesariamente a postura de CollabNet ou do proxecto Subversion.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

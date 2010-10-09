@@ -1,0 +1,1106 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit - po2tmx" creationtoolversion="1.8.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Licenses, Copyrights, and Patents</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Licenzas, dereitos de autor (copyright) e patentes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The license you select probably won't have a major impact on the adoption of your project, as long as the license is open source. Users generally choose software based on quality and features, not on the details of the license. Nevertheless, you still need a basic understanding of free software licensing issues, both to ensure that the project's license is compatible with its goals, and to be able to discuss licensing decisions with other people. Please note, however, that I am not a lawyer, and that nothing in this chapter should be construed as formal legal advice. For that, you'll need to hire a lawyer or be one.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>A licenza que escolleres probablemente non vai ter un impacto significativo na adopción do teu proxecto, sempre e cando a licenza for de software libre. Os usuarios normalmente escollen o software baseándose na calidade e nas funcionalidades, non baseándose nos detalles da licenza. Contodo, segues precisando ter un coñecemento básico relativo ao licenciamento do software libre, tanto para aseguráreste de que a licenza do proxecto é compatible cos seus obxectivos, como para estares capacitado para discutires as decisións de licenciamento co resto da xente. Por favor, ten en conta que eu non son un avogado, e que nada neste capítulo deber ser tido en conta como consellos legais. Para elo, deberás contratar un avogado, ou selo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Terminology</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Terminoloxía</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In any discussion of open source licensing, the first thing that becomes apparent is that there seem to be many different words for the same thing: &lt;firstterm&gt;free&amp;nbsp;software&lt;/firstterm&gt;, &lt;firstterm&gt;open&amp;nbsp;source&lt;/firstterm&gt;, &lt;firstterm&gt;FOSS&lt;/firstterm&gt;, &lt;firstterm&gt;F/OSS&lt;/firstterm&gt;, and &lt;firstterm&gt;FLOSS&lt;/firstterm&gt;. Let's start by sorting those out, along with a few other terms.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>En calquera discusión sobre licenzas de software libre, o primeiro que sae á superficie é que parece haber varias palabras diferentes para falar da mesma cousa: &lt;firstterm&gt;software&amp;nbsp;libre&lt;/firstterm&gt;, &lt;firstterm&gt;código&amp;nbsp;aberto&lt;/firstterm&gt;, &lt;firstterm&gt;FOSS&lt;/firstterm&gt;, &lt;firstterm&gt;F/OSS&lt;/firstterm&gt;, e &lt;firstterm&gt;FLOSS&lt;/firstterm&gt;. Comecemos por traballarmos estes termos, ademais de algúns outros.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>free software</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Software libre (free software)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Software that can be freely shared and modified, including in source code form. The term was first coined by Richard Stallman, who codified it in the GNU General Public License (GPL), and who founded the Free Software Foundation (&lt;ulink url="http://www.fsf.org/"&gt;&lt;/ulink&gt;) to promote the concept.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Software que pode ser libremente compartido e modificado, incluíndo o código fonte. O termo foi coinado por primeira vez por Richard Stallman, quen o inseriu na GNU Public License (GPL), e quen fundou a Free Software Foundation (&lt;ulink url="http://www.fsf.org/"&gt;&lt;/ulink&gt;) para promover o concepto.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Although "free software" covers almost exactly the same range of software as "open source", the FSF, among others, prefers the former term because it emphasizes the idea of freedom, and the concept of freely redistributable software as primarily a social movement rather than a technical one. The FSF acknowledges that the term is ambiguous&amp;mdash;it could mean "free" as in "zero-cost", instead of "free" as in "freedom"&amp;mdash;but feels that it's still the best term, all things considered, and that the other possibilities in English have their own ambiguities. (Throughout this book, "free" is used in the "freedom" sense, not the "zero-cost" sense.)</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Embora "software libre" cubra case exactamente o mesmo tipo de software que "software de código aberto (open source software)", a FSF (Free Software Foundation), entre outros, prefire o primeiro termo debido a que fai fincapé na idea da liberdade, así como no concepto de que o software redistribuíble de xeito libre é principalmente un movemento social máis que algo técnico. A FSF é consciente de que o termo, en inglés, é ambiguo&amp;mdash;"free" pode significar "gratuíto", en troca de "liberdade"&amp;mdash;mais aínda así considera que segue sendo o mellor termo, e que o resto de posibilidades, en inglés, teñen as súas ambigüidades. (Ao longo deste libro, "free"/"libre" é empregado co significado de "liberdade" e non co significado de "gratuíto").</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>open source software</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Software de código aberto (open source)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Free software under another name. But the different name reflects an important philosophical difference: "open source" was coined by the Open Source Initiative (&lt;ulink url="http://www.opensource.org/"&gt;&lt;/ulink&gt;) as a deliberate alternative to "free software," in order to make such software a more palatable choice for corporations, by presenting it as a development methodology rather than a political movement. They may also have wanted to overcome another stigma: that anything "free" must be low quality.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Software libre baixo outro nome. Mais a diferenza de nome reflicte unha diferenza filosófica importante: o nome "software de código aberto (open source)" foi coinado pola Open Source Initiative (&lt;ulink url="http://www.opensource.org/"&gt;&lt;/ulink&gt;) como unha alternativa deliberada a "software libre (free software)", co fin de tornar este software máis atractivo para as corporacións, presentándoo como unha metodoloxía de desenvolvemento máis que como un movemento político. Tamén pretendían superar outro estigma: o gratuíto ten pouca calidade.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>While any license that is free is also open source, and vice versa (with a few minor exceptions), people tend to pick one term and stick with it. In general, those who prefer "free software" are more likely to have a philosophical or moral stance on the issue, while those who prefer "open source" either don't view it as a matter of freedom, or are not interested in advertising the fact that they do. See &lt;xref linkend="free-vs-open-source"/&gt;&lt;phrase output="printed"&gt; in &lt;xref linkend="introduction"/&gt;&lt;/phrase&gt; for a more detailed history of this schism.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Aínda que calquera licenza que sexa libre tamén o é de fontes abertas, e viceversa (cunhas poucas excepcións), a xente tende a escoller un termo e aferrarse a el. En xeral, os que prefiren "software libre" adoitan ter unha postura máis filosófica ou moral sobre esta cuestión, mentres que os que prefiren "software de fontes abertas" non ven este tema como unha cuestión de liberdade, ou non están interesados en publicitar este punto de vista. Bótalle unha ollada a &lt;xref linkend="free-vs-open-source"/&gt;&lt;phrase output="printed"&gt; en &lt;xref linkend="introduction"/&gt;&lt;/phrase&gt; para veres unha historia máis detallada sobre este cisma.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The Free Software Foundation has an excellent&amp;mdash;utterly unobjective, but nuanced and quite fair&amp;mdash;exegesis of the two terms, at &lt;ulink url="http://www.fsf.org/licensing/essays/free-software-for-freedom.html"&gt;&lt;/ulink&gt;. The Open Source Initiative's take on it is (or was, in 2002) spread across two pages: &lt;ulink url="http://web.archive.org/web/20021204155022/http://www.opensource.org/advocacy/case_for_hackers.php#marketing"&gt;&lt;/ulink&gt; and &lt;ulink url="http://web.archive.org/web/20021204155022/http://www.opensource.org/advocacy/free-notfree.php"&gt;&lt;/ulink&gt;.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>A Free Software Foundation ten un excelente&amp;mdash;carente de obxectividade, mais contodo matizada e moi xusta&amp;mdash;exexese de ambos termos, en &lt;ulink url="http://www.fsf.org/licensing/essays/free-software-for-freedom.html"&gt;&lt;/ulink&gt;. A visión da Open Source Initiative a respecto disto (ou polo menos a que tiñan en 2002) móstrase en dúas páxinas: &lt;ulink url="http://web.archive.org/web/20021204155022/http://www.opensource.org/advocacy/case_for_hackers.php#marketing"&gt;&lt;/ulink&gt; e &lt;ulink url="http://web.archive.org/web/20021204155022/http://www.opensource.org/advocacy/free-notfree.php"&gt;&lt;/ulink&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>&lt;firstterm&gt;FOSS&lt;/firstterm&gt;, &lt;firstterm&gt;F/OSS&lt;/firstterm&gt;, &lt;firstterm&gt;FLOSS&lt;/firstterm&gt;</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>&lt;firstterm&gt;FOSS&lt;/firstterm&gt;, &lt;firstterm&gt;F/OSS&lt;/firstterm&gt;, &lt;firstterm&gt;FLOSS&lt;/firstterm&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Where there are two of anything, there will soon be three, and that is exactly what is happening with terms for free software. The academic world, perhaps wanting precision and inclusiveness over elegance, seems to have settled on FOSS, or sometimes F/OSS, standing for "Free / Open Source Software". Another variant gaining momentum is FLOSS, which stands for "Free / Libre Open Source Software" (&lt;foreignphrase&gt;libre&lt;/foreignphrase&gt; is familiar in many languages and does not suffer from the ambiguities of "free"; see &lt;ulink url="http://en.wikipedia.org/wiki/FLOSS"&gt;&lt;/ulink&gt; for more).</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Onde caben dous, caben tres, e isto é exactamente o que está a suceder cos termos que enuncian o software libre. O mundo académico, quizais buscando precisión e inclusión máis que elegancia, parece que se decidiu pola forma "FOSS", ou ás veces "F/OSS", co significado "Free / Open Source Software". Outra variante que está gañando adeptos é "FLOSS", que significa "Free / Libre Open Source Software" (&lt;foreignphrase&gt;libre&lt;/foreignphrase&gt; é común en varios idiomas e non está suxeita ás ambigüidades de "free"; bótalle unha ollada a &lt;ulink url="http://en.wikipedia.org/wiki/FLOSS"&gt;&lt;/ulink&gt; para máis detalles).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>All these terms mean essentially the same thing: software that can be modified and redistributed by everyone, sometimes&amp;mdash;but not always&amp;mdash;with the requirement that derivative works be freely redistributable under the same terms.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Todos estes termos significan esencialmente o mesmo: software que pode ser modificado e redistribuído por calquera, algunhas veces&amp;mdash;mais non sempre&amp;mdash;coa condición de que os traballos derivados teñan que ser libremente redistribuíbles baixo as mesmas cláusulas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>DFSG-compliant</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Conforme coas DFSG</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Compliant with the Debian Free Software Guidelines (&lt;ulink url="http://www.debian.org/social_contract#guidelines"&gt;&lt;/ulink&gt;). This is a widely-used test for whether a given license is truly open source (free, &lt;foreignphrase&gt;libre&lt;/foreignphrase&gt;, etc.). The Debian Project's mission is to maintain an entirely free operating system, such that someone installing it need never doubt that she has the right to modify and redistribute any or all of the system. The Debian Free Software Guidelines are the requirements that a software package's license must meet in order to be included in Debian. Because the Debian Project spent a good deal of time thinking about how to construct such a test, the guidelines they came up with have proven very robust (see &lt;ulink url="http://en.wikipedia.org/wiki/DFSG"&gt;&lt;/ulink&gt;), and as far as I'm aware, no serious objection to them has been raised either by the Free Software Foundation or the Open Source Initiative. If you know that a given license is DFSG-compliant, you know that it guarantees all the important freedoms (such as forkability even against the original author's wishes) required to sustain the dynamics of an open source project. All of the licenses discussed in this chapter are DFSG-compliant.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Conforme coas "Directrices de Software Libre de Debian" (&lt;ulink url="http://www.debian.org/social_contract#guidelines"&gt;&lt;/ulink&gt;). Esta é unha proba amplamente empregada para comprobar se unha licenza dada é realmente software libre (de fontes abertas, etc). A misión do Proxecto Debian é manter un sistema operativo completamente libre, de xeito que ninguén que o instale nunca teña dúbidas sobre se ten o dereito de modificar e redistribuír calquera parte do sistema, ou mesmo o sistema enteiro. As Directrices de Software Libre de Debian son os requisitos que a licenza dun paquete de software ten que cumprir para poder sen incluído en Debian. Debido a que o Proxecto Debian empregou unha morea de tempo en pensar como construír este test, as directrices que xurdiron demostraron ser moi robustas (véxase &lt;ulink url="http://en.wikipedia.org/wiki/DFSG"&gt;&lt;/ulink&gt;) e ata onde eu sei, non se fixo ningunha obxección seria ás mesmas nin dende a Free Software Foundation nin dende a Open Source Initiative. Se sabes que unha licenza dada é conforme ás DFSG, entón sabes que garante todas as liberdades importantes (tales como a posibilidade dun &lt;foreignphrase&gt;fork &lt;/foreignphrase&gt; mesmo contra os desexos do autor orixinal) requiridas para soster as dinámicas dun proxecto software libre. Todas as licenzas tratadas neste capítulo son conformes coas DFSG.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>OSI-approved</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Aprobadas pola OSI</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Approved by the Open Source Initiative. This is another widely-used test of whether a license permits all the necessary freedoms. The OSI's definition of open source software is based on the Debian Free Software Guidelines, and any license that meets one definition almost always meets the other. There have been a few exceptions over the years, but only involving niche licenses and none of any relevance here. Unlike the Debian Project, the OSI maintains a list of all licenses it has ever approved, at &lt;ulink url="http://www.opensource.org/licenses/"&gt;&lt;/ulink&gt;, so that being "OSI-approved" is an unambiguous state: a license either is or isn't on the list.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Aprobadas pola Open Source Initiative. Esta é outra proba amplamente empregada para saber se unha licenza permite todas as liberdades necesarias. A definición de software de fontes abertas da OSI está baseada nas Directrices de Software Libre de Debian, e calquera licenza que concorda con unha das definicións, case sempre concorda coa outra. Ten habido unhas poucas excepcións ao longo do tempo, mais eran só licenzas de nicho sen relevancia. Ao contrario que o proxecto Debian, a OSI mantén unha lista de todas as licenzas que aprobou, en &lt;ulink url="http://www.opensource.org/licenses/"&gt;&lt;/ulink&gt;, co cal ser "aprobada por OSI" é un estado non ambiguo: unha licenza ou está ou non está na lista.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The Free Software Foundation also maintains a list of licenses at &lt;ulink url="http://www.fsf.org/licensing/licenses/license-list.html"&gt;&lt;/ulink&gt;. The FSF categorizes licenses not only by whether they are free, but whether they are compatible with the GNU General Public License. GPL compatibility is an important topic, covered in &lt;xref linkend="license-compatibility"/&gt;&lt;phrase output="printed"&gt; later in this chapter&lt;/phrase&gt;.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>A Free Software Foundation tamén mantén unha lista de licenzas en &lt;ulink url="http://www.fsf.org/licensing/licenses/license-list.html"&gt;&lt;/ulink&gt;. A FSF clasifica as licenzas non só segundo sexan libres ou non, senón tamén segundo sexan compatibles coa GNU General Public License. A compatibilidade coa GPL é un asunto importante, cuberto en &lt;xref linkend="license-compatibility"/&gt;&lt;phrase output="printed"&gt; máis adiante neste capítulo&lt;/phrase&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>&lt;firstterm&gt;proprietary&lt;/firstterm&gt;, &lt;firstterm&gt;closed-source&lt;/firstterm&gt;</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>&lt;firstterm&gt;Proprietario&lt;/firstterm&gt;, &lt;firstterm&gt;código pechado&lt;/firstterm&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The opposite of "free" or "open source." It means software distributed under traditional, royalty-based licensing terms, where users pay per copy, or under any other terms sufficiently restrictive to prevent open source dynamics from operating. Even software distributed at no charge can still be proprietary, if its license does not permit free redistribution and modification.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>O oposto de software libre ou de código aberto. Fai referencia a software distribuído baixo licenzas tradicionais baseadas en regalías, onde os usuarios pagan por copia, ou baixo outros termos suficientemente restritivos para evitar as dinámicas operativas do software libre. Mesmo software distribuído sen cargo pode ser propietario, no caso de que a súa licenza non permitir a libre redistribución e modificación.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Generally "proprietary" and "closed-source" are synonyms. However, "closed-source" additionally implies that the source code cannot even be seen. Since the source code cannot be seen with most proprietary software, this is normally a distinction without a difference. However, occasionally someone releases proprietary software under a license that allows others to view the source code. Confusingly, they sometimes call this "open source" or "nearly open source," etc., but that's misleading. The &lt;emphasis&gt;visibility&lt;/emphasis&gt; of the source code is not the issue; the important question is what you're allowed to do with it. Thus, the difference between proprietary and closed-source is mostly irrelevant, and the two can be treated as synonyms.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Xeralmente "propietario" e "código pechado" son sinónimos. Aínda así, "código pechado" implica adicionalmente que o código fonte non pode nin sequera ser visto. Dado que o código fonte non pode ser visto na maior parte do software propietario, normalmente é máis unha distinción que non unha diferenza. Porén, ocasionalmente alguén publica software propietario baixo unha licenza que lle permite os demais veren o código fonte. Confusamente, estes autores ás veces chámanlle "software de fontes abertas" ou "próximo ao software de código aberto", etc., mais isto é enganoso. A &lt;emphasis&gt;visibilidade&lt;/emphasis&gt;do código fonte non é a cuestión; a cuestión importante é aquilo que tes permitido facer co código fonte. Así, a diferenza entre o software propietario e o de código pechado é en gran parte irrelevante, e ambos termos poden ser tratados como sinónimos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Sometimes &lt;firstterm&gt;commercial&lt;/firstterm&gt; is used as a synonym for "proprietary," but properly speaking, the two are not the same thing. Free software can be commercial software. After all, free software can be sold, as long as the buyers are not restricted from giving away copies themselves. It can be commercialized in other ways as well, for example by selling support, services, and certification. There are multimillion dollar companies built on free software today, so it is clearly neither inherently anti-commercial nor anti-corporate. On the other hand, it &lt;emphasis&gt;is&lt;/emphasis&gt; anti-proprietary by its nature, and this is the key way in which it differs from traditional per-copy license models.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Ás veces &lt;firstterm&gt;comercial&lt;/firstterm&gt; é empregado como sinónimo de "propietario", mais falando con propiedade, non é o mesmo. O software libre pode ser software comercial. Despois de todo, o software libre pode ser vendido, se os compradores non tiveren restrinxida a distribución de copias. Ademais, tamén pode ser comercializado doutros xeitos como, por exemplo, mediante a venta de soporte, servizos e certificación. Hoxe en día hai empresas multimillonarias baseadas no software libre, polo que claramente non é nin anticomercial nin antiempresarial. Por outra banda, si que &lt;emphasis&gt;é &lt;/emphasis&gt; antipropietario por natureza, e esta é a característica que o diferencia dos modelos tradicionais de licenza por copia.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>public domain</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Dominio público</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Having no copyright holder, meaning that there is no one who has the right to restrict copying of the work. Being in the public domain is not the same as having no author. Everything has an author, and even if a work's author or authors choose to put it in the public domain, that doesn't change the fact that they wrote it.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Que non ten dereitos de autor, quere dicir, que non hai ninguén co dereito de restrinxir a copia do traballo. Estar no dominio público non é o mesmo que non ter autor. Todo ten un autor, e mesmo se o autor ou autores dun traballo escollen poñelo no dominio público, isto non muda o feito de que eles escribiron o traballo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>When a work is in the public domain, material from it can be incorporated into a copyrighted work, and thereafter &lt;emphasis&gt;that copy&lt;/emphasis&gt; of the material is covered under the same copyright as the whole work. But this does not affect the availability of the original work, which remains in the public domain. Thus, releasing something into the public domain is technically one way to make it "free," according to the guidelines of most free software certifying organizations. However, there are usually good reasons to use a license instead of just releasing into the public domain: even with free software, certain restrictions can be useful, not only to the copyright holder but even to recipients as well, as the next section makes clear.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Cando un traballo está no dominio público, o contido do mesmo pode incorporarse nun traballo con dereitos de autor (un traballo con copyright), e a continuación &lt;emphasis&gt;esa copia&lt;/emphasis&gt; do contido está cuberta baixo os mesmos dereitos de autor que o traballo completo. Mais isto non lle afecta á dispoñibilidade do traballo orixinal, o cal segue estando no dominio público. Así, publicar algo no dominio público é tecnicamente o mesmo que que facelo "libre" de acordo coas directrices da maioría das organizacións de certificación do software libre. Porén, normalmente hai boas razóns para empregar unha licenza en troca de simplemente publicar no dominio público: mesmo co software libre, algunhas restricións concretas poden ser útiles, non unicamente para o posuidor dos dereitos de autor, senón tamén para os beneficiarios, como se clarifica na seguinte seccións.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>copyleft</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Copyleft ("esquerdo de copia")</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>A license that uses copyright law to achieve a result opposite to traditional copyright. Depending on whom you ask, this means either licenses that permit the freedoms under discussion here, or, more narrowly, licenses that not only permit those freedoms but &lt;emphasis&gt;enforce&lt;/emphasis&gt; them, by stipulating that the freedoms must travel with the work. The Free Software Foundation uses the second definition exclusively; elsewhere, it's a toss-up: a lot of people use the term the same way the FSF does, but others&amp;mdash;including some who write for mainstream media&amp;mdash;tend to use the first definition. It's not clear that everyone using the term is aware that there's a distinction to be made.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Unha licenza que emprega as leis de cobertura dos dereitos de autor para alcanzar o resultado oposto ao resultado tradicional dos dereitos de autor. Dependendo a quen lle preguntes, quere dicir tanto licenzas que permiten as liberdades que estamos a narrar aquí, ou, máis estritamente, licenzas que non só permiten esas liberdades, senón que as &lt;emphasis&gt;impoñen&lt;/emphasis&gt;, estipulando que as liberdades deben acompañar o traballo. A Free Software Foundation emprega exclusivamente a segunda definición; noutros lugares é un complemento: moita xente emprega o termo do mesmo xeito que a FSF, mais outra&amp;mdash;incluíndo xente que escribe nos principais medios de comunicación&amp;mdash;tende a empregar a primeira definición. Non está claro que toda a xente que emprega o termo é consciente de que hai unha distinción que debe ser feita.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The canonical example of the narrower, stricter definition is the GNU General Public License, which stipulates that any derivative works must also be licensed under the GPL; see &lt;xref linkend="license-compatibility"/&gt;&lt;phrase output="printed"&gt; later in this chapter&lt;/phrase&gt; for more.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>O exemplo clásico da definición máis estrita é a GNU General Public License, a cal estipula que calquera traballo derivado debe ser licenciado baixo a GPL; véxase &lt;xref linkend="license-compatibility"/&gt;&lt;phrase output="printed"&gt; máis adiante neste capítulo&lt;/phrase&gt; para máis detalles.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Aspects of Licenses</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Características das licenzas</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Although there are many different free software licenses available, in the important respects they all say the same things: that anyone can modify the code, that anyone can redistribute it both in original and modified form, and that the copyright holders and authors provide no warranties whatsoever (avoiding liability is especially important given that people might run modified versions without even knowing it). The differences between licences boil down to a few oft-recurring issues:</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Embora haxa dispoñibles moitas licenzas de software libre distintas, nos temas importantes todas elas din as mesmas cousas: que calquera pode modificar o código, que calquera pode redistribuílo tanto na súa forma orixinal como modificada, e que os titulares dos dereitos de autor así como os autores non fornecen garantía ningunha (evitar as responsabilidades é especialmente importante debido a que a xente pode empregar versións modificadas mesmo sen sabelo). As diferenzas entre licenzas redúcense a unhas poucas cuestións recorrentes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>compatibility with proprietary licenses</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Compatibilidade con licenzas propietarias</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Some free licenses allow the covered code to be used in proprietary programs. This does not affect the licensing terms of the proprietary program: it is still as proprietary as ever, it just happens to contain some code from a non-proprietary source. The Apache License, X Consortium License, BSD-style license, and the MIT-style license are all examples of proprietary-compatible licenses.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Algunhas licenzas libres permiten que o código que cobren sexa empregado en programas propietarios. Isto non prexudica as cláusulas de licenza do programa propietario: segue sendo tan propietario como sempre, só que contén algún código de fontes non propietarias. A licenza Apache, X Consortium License, as licenzas estilo BSD e as licenzas estilo MIT son todas elas exemplo de licenzas compatibles con licenzas propietarias.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>compatibility with other free licenses</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Compatibilidade con outras licenzas libres</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Most free licenses are compatible with each other, meaning that code under one license can be combined with code under another, and the result distributed under either license without violating the terms of the other. The major exception to this is the GNU General Public License, which requires that any work using GPLed code be itself distributed under the GPL, and without adding any further restrictions beyond what the GPL requires. The GPL is compatible with some free licenses, but not with others. This is discussed in more detail in &lt;xref linkend="license-compatibility"/&gt;&lt;phrase output="printed"&gt; later in this chapter&lt;/phrase&gt;.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>A maioría das licenzas libres son compatibles co resto, quere dicir, o código baixo unha destas licenzas pode ser combinado con código baixo outra delas, e o resultado pode ser distribuído baixo calquera das licenzas se non houber violación dos termos da outra. A principal excepción é a GNU General Public License, que require que calquera traballo que empregue código baixo a licenza GPL debe á súa vez ser distribuído baixo a licenza GPL, e sen engadir ningunha outra restrición para alén das que require a GPL. A licenza GPL é compatible con algunhas licenzas libres, mais non con outras. isto analízase en maior profundidade en &lt;xref linkend="license-compatibility"/&gt;&lt;phrase output="printed"&gt; máis adiante neste capítulo&lt;/phrase&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>enforcement of crediting</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>A importancia da acreditación</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Some free licenses stipulate that any use of the covered code be accompanied by a notice, whose placement and display is usually specified, giving credit to the authors or copyright holders of the code. These licenses are often still proprietary-compatible: they do not necessarily demand that the derivative work be free, merely that credit be given to the free code.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Algunhas licenzas libres estipulan que calquera uso do código que cubriren debe acompañarse dun aviso, cuxo emprazamento e contido normalmente está especificado, dándolle crédito aos autores ou aos titulares dos dereitos de autor do código. Estas licenzas habitualmente son compatibles coas propietarias: non requiren necesariamente que o traballo derivado sexa libre, simplemente requiren que se lle dea crédito ao código libre.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>protection of trademark</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Protección da marca comercial</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>A variant of credit enforcement. Trademark-protecting licenses specify that the name of the original software (or its copyright holders, or their institution, etc.) may &lt;emphasis&gt;not&lt;/emphasis&gt; be used by derivative works without prior written permission. Although credit enforcement insists that a certain name be used, and trademark protection insists that it not be used, they are both expressions of the same desire: that the original code's reputation be preserved and transmitted, but not tarnished by association.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Unha variante da obriga de acreditación. As licenzas de protección das marcas comerciais especifican que o nome do software orixinal (ou dos titulares dos dereitos de copia, ou da súa institución, etc.) &lt;emphasis&gt;non &lt;/emphasis&gt; deben ser empregados nos traballos derivados sen o previo permiso por escrito. Aínda que a obriga de acreditar insista en que se empregue un nome concreto, e a protección de marcas comerciais insista en que non sexa empregado, ambas son expresións do mesmo desexo: que a reputación do código orixinal sexa preservada e transmitida, pero que non se desvirtúe por asociación.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>protection of "artistic integrity"</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Protección da "integridade artística"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Some licenses (the Artistic License, used for the most popular implementation of the Perl programming language, and Donald Knuth's TeX license, for example) require that modification and redistribution be done in a manner that distinguishes clearly between the pristine original version of the code and any modifications. They permit essentially the same freedoms as other free license, but impose certain requirements that make the integrity of the original code easy to verify. These licenses have not caught on much beyond the specific programs they were made for, and will not be discussed in this chapter; they are mentioned here only for the sake of completeness.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Algunhas licenzas (a Licenza Artística, empregada pola implementación máis popular da linguaxe de programación Perl, e a Licenza Tex de Donald Knuth, por exemplo) requiren que a modificación e redistribución sexa feita de tal xeito que distinga claramente entre a versión orixinal do código e calquera modificación. Estas licenzas permiten esencialmente as mesmas liberdades que o resto de licenzas libres, pero impoñen certos requisitos que permitan verificar de xeito sinxelo a integridade do código orixinal. Estas licenzas non despertaron moito interese para alén de nos programas para os cales foron feitas, e non serán tratadas neste capítulo; mencionáronse aquí só para non deixarmos cabos soltos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Most of these stipulations are not mutually exclusive, and some licenses include several. The common thread among them is that they place demands on the recipient in exchange for the recipient's right to use and/or redistribute the code. For example, some projects want their name and reputation to be transmitted along with the code, and this is worth imposing the extra burden of a credit or trademark clause; depending on its onerousness, that burden may result in some users choosing a package with a less demanding license.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>A maioría destas disposicións non son mutuamente excluíntes, e algunhas licenzas inclúen varias. O fío común entre elas é a imposición de regras sobre o receptor a cambio do dereito do receptor para empregar e/ou redistribuír o código. Por exemplo, algúns proxectos queren que o seu nome e reputación sexan transmitidos conxuntamente co código, o que provoca a imposición das cláusulas de crédito ou protección da marca comercial; dependendo da súa onerosidade, esta carga adicional pode provocar que algúns usuarios escollan un pacote con unha licenza menos esixente.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The GPL and License Compatibility</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>A GPL e a compatibilidade entre licenzas</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>By far the sharpest dividing line in licensing is that between proprietary-incompatible and proprietary-compatible licenses, that is, between the GNU General Public License and everything else. Because the primary goal of the GPL's authors is the promotion of free software, they deliberately crafted the license to make it impossible to mix GPLed code into proprietary programs. Specifically, among the GPL's requirements (see &lt;ulink url="http://www.fsf.org/licensing/licenses/gpl.html"&gt;&lt;/ulink&gt; for its full text) are these two:</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Con diferenza, a maior liña divisoria no licenciamento é a que separa as licenzas compatibles co software propietario das licenzas incompatibles co software propietario, é dicir, entre a GNU Public License e todas as demais. Debido a que o obxectivo principal dos autores da GPL é a promoción do software libre, deliberadamente crearon este licenza de xeito que fose imposible mesturar código baixo a GPL dentro dos programas propietarios. Especificamente, dentro dos requirimentos da GPL (en &lt;ulink url="http://www.fsf.org/licensing/licenses/gpl.html"&gt;&lt;/ulink&gt; podes ver o texto completo) están estes dous:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Any derivative work&amp;mdash;that is, any work containing a nontrivial amount of GPLed code&amp;mdash;must itself be distributed under the GPL.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Calquera traballo derivado&amp;mdash;isto é, calquera traballo que conteña unha cantidade non trivial de código baixo a licenza GPL&amp;mdash;debe á súa vez ser distribuído baixo a licenza GPL.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>No additional restrictions may be placed on the redistribution of either the original work or a derivative work. (The exact language is: "You may not impose any further restrictions on the exercise of the rights granted or affirmed under this License.")</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Na redistribución, tanto do traballo orixinal como dun traballo derivado, non se pode engadir ningunha restrición adicional. (a frase literal é:"vostede non pode impoñer ningunha restrición adicional no exercicio dos dereitos concedidos ou afirmados baixo esta licenza").</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>With these conditions, the GPL succeeds in making freedom contagious. Once a program is copyrighted under the GPL, its terms of redistribution are &lt;firstterm&gt;viral&lt;/firstterm&gt;&amp;mdash;they are passed on to anything else the code gets incorporated into, making it effectively impossible to use GPLed code in closed-source programs. However, these same clauses also make the GPL incompatible with certain other free licenses. The usual way this happens is that the other license imposes a requirement&amp;mdash;for example, a credit clause requiring the original authors to be mentioned in some way&amp;mdash;that is incompatible with the GPL's "You may not impose any further restrictions..." language. From the point of view of the Free Software Foundation, these second-order consequences are desirable, or at least not regrettable. The GPL not only keeps your software free, but effectively makes your software an agent in pushing &lt;emphasis&gt;other&lt;/emphasis&gt; software to enforce freedom as well.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Con estas condicións, a licenza GPL ten éxito en facer contaxiosa a liberdade. Unha vez que un programa se publica baixo a GPL, as súas cláusulas de redistribución son &lt;firstterm&gt;virais&lt;/firstterm&gt;&amp;mdash;transfírense a calquera cousa á que for incorporado ese código, facendo que sexa efectivamente imposible empregar código GPL en programas de código pechado. 
+porén, estas mesmas cláusulas provocan que a GPL sexa incompatible con algunhas outras licenzas de software libre. O xeito habitual no que isto sucede é cando a outra licenza impón un requisito &amp;mdash;por exemplo, unha cláusula de acreditación dos autores orixinais a mencionar dalgún xeito&amp;mdash;que sexa incompatible co requisito propio da GPL ("vostede non pode impoñer ningunha outra restrición..."). Desde o punto de vista da Free Software Foundation, estes efectos colaterais son desexables, ou cando menos non son prexudiciais. A GPL non só mantén libre o teu software, senón que tamén torna o teu software nun axente no impulso de que &lt;emphasis&gt;outro&lt;/emphasis&gt; software á súa vez impoña a liberdade.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The question of whether or not this is a good way to promote free software is one of the most persistent holy wars on the Internet (see &lt;xref linkend="holy-wars"/&gt;&lt;phrase output="printed"&gt; in &lt;xref linkend="communications"/&gt;&lt;/phrase&gt;), and we won't investigate it here. What's important for our purposes is that GPL compatibility is an important issue when choosing a license. The GPL is by far the most popular open source license; at &lt;ulink url="http://freshmeat.net/stats/#license"&gt;&lt;/ulink&gt;, it is at 68%, and the next highest license is at 6%. If you want your code to be able to be mixed freely with GPLed code&amp;mdash;and there's a lot of GPLed code out there&amp;mdash;then you should pick a GPL-compatible license. Most of the GPL-compatible open source licenses are also proprietary-compatible: that is, code under such a license can be used in a GPLed program, and it can be used in a proprietary program. Of course, the &lt;emphasis&gt;results&lt;/emphasis&gt; of these mixings would not be compatible with each other, since one would be under the GPL and the other would be under a closed-source license. But that concern applies only to the derivative works, not to the code you distribute in the first place.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>A cuestión sobre se este é ou non un bo camiño para promover o software libre é unha das guerras santas máis persistentes en Internet (bótalle unha ollada a &lt;xref linkend="holy-wars"/&gt;&lt;phrase output="printed"&gt; in &lt;xref linkend="communications"/&gt;&lt;/phrase&gt;), e non imos investigala aquí. O importante para os nosos propósitos é que a compatibilidade coa GPL é un tema importante á hora de escollermos unha licenza. A GPL é, con diferenza, a licenza de software libre máis popular; en &lt;ulink url="http://freshmeat.net/stats/#license"&gt;&lt;/ulink&gt;, emprégase en 68% do software, e a seguinte licenza máis empregada ten unha porcentaxe de uso de 6%. Se quixeres que o teu código sexa mesturable con código GPL&amp;mdash;e hai unha morea de código GPL aí fóra&amp;mdash;entón deberías escoller unha licenza compatible coa GPL. A maioría das licenzas libres compatibles coa GPL tamén son compatibles coas licenzas propietarias; isto é, o código baixo estas licenzas poder empregarse tanto nun programa GPL como nun programa propietario. Por suposto, o &lt;emphasis&gt;resultado&lt;/emphasis&gt; destas misturas non será compatible entre elas, dado que un estaría baixo a GPL e o outro baixo unha licenza de código pechado. Mais esta preocupación ten a ver unicamente con traballos derivados, non co código que ti distribuíres.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Fortunately, the Free Software Foundation maintains a list showing which licenses are compatible with the GPL and which are not, at &lt;ulink url="http://www.gnu.org/licenses/license-list.html"&gt;&lt;/ulink&gt;. All of the licenses discussed in this chapter are present on that list, on one side or the other.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Afortunadamente, a Free Software Foundation mantén unha lista amosando que licenzas son compatibles coa GPL e cales non , en &lt;ulink url="http://www.gnu.org/licenses/license-list.html"&gt;&lt;/ulink&gt;. Todas as licenzas tratadas neste capítulo están presentes na devandita lista, nun lado ou no outro.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Choosing a License</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Escollendo unha licenza</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>When choosing a license to apply to your project, if at all possible use an existing license instead of making up a new one. There are two reasons why existing licenses are better:</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Cando escolleres unha licenza para o teu proxecto, se for posible emprega unha licenza xa existente en troca de creares unha nova. Hai dúas razóns polas que as licenzas existentes son mellores:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Familiarity. If you use one of the three or four most popular licenses, people won't feel they have to read the legalese in order to use your code, because they'll have already done so for that license a long time ago.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Familiaridade. Se empregares unha das tres ou catro licenzas máis populares, a xente non vai percibir a necesidade de ler os textos legais para poder empregar o teu código, xa que ese estudo legal para a licenza xa foi feito moito tempo atrás.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Quality. Unless you have a team of lawyers at your disposal, you are unlikely to come up with a legally solid license. The licenses mentioned here are the products of much thought and experience; unless your project has truly unusual needs, it is unlikely you would do better.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Calidade. A non ser que tiveres un equipo de avogados á túa disposición, é pouco probable que vaias crear unha licenza legalmente sólida. As licenzas mencionadas neste capítulo son o produto de moito traballo e experiencia; salvo que o teu proxecto teña necesidades realmente infrecuentes, non é probable que o vaias facer mellor.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To apply one of these licenses to your project, see &lt;xref linkend="license-quickstart-applying"/&gt;&lt;phrase output="printed"&gt; in &lt;xref linkend="getting-started"/&gt;&lt;/phrase&gt;.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Para aplicares unha destas licenzas ao teu proxecto, bótalle unha ollada a &lt;xref linkend="license-quickstart-applying"/&gt;&lt;phrase output="printed"&gt; in &lt;xref linkend="getting-started"/&gt;&lt;/phrase&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The MIT / X Window System License</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>A MIT / X Window System License</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If your goal is that your code be accessible by the greatest possible number of developers and derivative works, and you do not mind the code being used in proprietary programs, choose the MIT / X Window System license (so named because it is the license under which the Massachusetts Institute of Technology released the original X Window System code). This license's basic message is "You are free to use this code however you want." It is compatible with the GNU GPL, and it is short, simple, and easy to understand:</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Se o teu obxectivo é que o teu código sexa accesible para a maior cantidade posible de desenvolvedores e de traballos derivados, e non che importa que o código vaia ser empregado en programas propietarios, entón escolle a MIT / X Window System license (así chamada debido a que é a licenza baixo a que o Instituto de Tecnoloxía de Massachusetts publicou o código do sistema X Windows orixinal). A mensaxe básica desta licenza é: "Es libre para empregares este código como quixeres". Esta licenza é incompatible coa GNU GPL, e é curta, sinxela e fácil de entender (NOTA: a continuación a licenza reprodúcese no seu idioma nativo, dado que para a mesma non existe tradución legalmente válida a outros idiomas):</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Copyright (c) &amp;lt;year&amp;gt; &amp;lt;copyright holders&amp;gt;
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Copyright (c) &amp;lt;year&amp;gt; &amp;lt;copyright holders&amp;gt;
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>(Taken from &lt;ulink url="http://www.opensource.org/licenses/mit-license.php"&gt;&lt;/ulink&gt;.)</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>(Tomada de &lt;ulink url="http://www.opensource.org/licenses/mit-license.php"&gt;&lt;/ulink&gt;.)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The GNU General Public License</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>A GNU General Public License</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you prefer that your project's code not be used in proprietary programs, or if you at least don't care whether or not it can be used in proprietary programs, choose the GNU General Public License (&lt;ulink url="http://www.fsf.org/licensing/licenses/gpl.html"&gt;&lt;/ulink&gt;). The GPL is probably the most widely-used free software license in the world today; this instant recognizability is itself one of the GPL's major advantages.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Se preferires que o código do teu proxecto non sexa empregado en programas propietarios, ou se cando menos non che importa que se poida ou non empregar en programas propietarios, escolle a GNU General Public License (&lt;ulink url="http://www.fsf.org/licensing/licenses/gpl.html"&gt;&lt;/ulink&gt;). A GPL probablemente sexa a licenza de software libre máis amplamente empregada no mundo hoxe en día; o feito de ser tan coñecida é en si mesmo unha das maiores vantaxes da GPL.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>When writing a code library that is meant mainly to be used as part of other programs, consider carefully whether the restrictions imposed by the GPL are in line with your project's goals. In some cases&amp;mdash;for example, when you're trying to unseat a competing, proprietary library that does the same thing&amp;mdash;it may make more strategic sense to license your code in such a way that it can be mixed into proprietary programs, even though you would otherwise not wish this. The Free Software Foundation even fashioned an alternative to the GPL for such circumstances: the &lt;firstterm&gt;GNU Library GPL&lt;/firstterm&gt;, later renamed to the &lt;firstterm&gt;GNU Lesser GPL&lt;/firstterm&gt; (most people just use the acronym &lt;firstterm&gt;LGPL&lt;/firstterm&gt;, in any case). The LGPL has looser restrictions than the GPL, and can be mixed more easily with non-free code. However, it's also a bit complex and takes some time to understand, so if you're not going to use the GPL, I recommend just using the MIT/X-style license.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Cando programares unha biblioteca de código destinada principalmente a ser usada como parte doutros programas, pensa coidadosamente se as restricións impostas pola GPL están aliñadas cos obxectivos do teu proxecto. Nalgúns casos&amp;mdash;por exemplo cando tentares desbancar unha biblioteca propietaria que fai o mesmo&amp;mdash; é estratexicamente máis asisado licenciares o teu código de tal xeito que poida ser mesturado en programas propietarios, embora esta non sexa a situación que desexaras. A Free Software Foundation preparou unha alternativa á GPL precisamente para estas circunstancias: a &lt;firstterm&gt;GNU Library GPL&lt;/firstterm&gt;, máis tarde rebautizada como &lt;firstterm&gt;GNU Lesser GPL&lt;/firstterm&gt; (de todas maneiras, a maioría da xente simplemente emprega o acrónimo &lt;firstterm&gt;LGPL&lt;/firstterm&gt;). A LGPL ten unhas restricións menores que a GPL, e pode mesturarse dun xeito máis sinxelo con código non libre. Porén, trátase dunha licenza complexa e leva algún tempo entendela, polo que se non vas empregar a GPL, recoméndoche empregar licenzas estilo MIT/X.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The GNU Affero GPL: A Version of the GNU GPL for Server-Side Code</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>A GNU Affero GPL; unha versión da GNU GPL para código executado en servidor</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In 2007, the Free Software Foundation released a variant of the GPL called the &lt;firstterm&gt;GNU Affero GPL&lt;/firstterm&gt; (&lt;ulink url="http://www.fsf.org/licensing/licenses/agpl.html"&gt;&lt;/ulink&gt;)&lt;footnote&gt;&lt;para&gt; The history of the license and its name is a bit complicated. The first version of the license was originally released by Affero, Inc, who based it on the GNU GPL version 2. This was commonly referred to as the AGPL. Later, the Free Software Foundation decided to adopt the idea, but by then they had released version 3 of their GNU GPL, so they based their new Affero-ized license on that and called it the "GNU AGPL". The old Affero license is more or less deprecated now. If you want Affero-like provisions, you should use the GNU version. To avoid ambiguity, call it the "AGPLv3", the "GNU AGPL", or for maximum precision, "GNU AGPLv3".&lt;/para&gt;&lt;/footnote&gt;. Its purpose is to enforce GPL-like sharing provisions on the growing number of companies that offered hosted services&amp;mdash;software that runs on their servers, that users interact with only over the network, and that therefore is never directly distributed to users as executable or source code. Many such services had been using GPL'd software, often with modifications, yet didn't have to share their changes with the world because they weren't distributing any code.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>En 2007, a Free Software Foundation publicou unha variante da GPL chamada &lt;firstterm&gt;GNU Affero GPL&lt;/firstterm&gt; (&lt;ulink url="http://www.fsf.org/licensing/licenses/agpl.html"&gt;&lt;/ulink&gt;)&lt;footnote&gt;&lt;para&gt; A historia desta licenza e do seu nome é un pouco complicada. A primeira versión da licenza foi orixinalmente publicada pola empresa Affero Inc. baseándose na versión 2 da GNU GPL. Coñecíase habitualmente como a AGPL. Máis tarde, a Free Software Foundation decidiu adoptar a idea, mais naquela altura tiñan liberada a versión 3 da súa licenza GNU GPL, polo que basearon a súa licenza "Afferizada" na GPL v3 e chamáronlle "GNU AGPL". A vella licenza Affero está máis ou menos obsoleta a día de hoxe. Se quixeres garantías e seguridades ao estilo das que che ofrece Affero, deberías empregar a versión GNU. Para eliminares a ambigüidade, chámalle "AGPLv3", "GNU AGPL", ou con máxima precisión "GNU AGPLv3".&lt;/para&gt;&lt;/footnote&gt;. O seu obxectivo é fortalecer a seguridade e garantía de que se comparte o código neste entorno actual dun crecente número de empresas que ofrecen os seus servizos desde servidor&amp;mdash; é dicir, software que corre nos seus servidores, co que os usuarios interaxen unicamente sobre a rede, e que nunca se distribúe directamente aos usuarios nin como código executable nin código fonte. Un número enorme de servizos estiveron empregando software GPL, habitualmente con modificacións, sen ter que compartir as súas mudanzas co mundo debido a que non estaban distribuíndo ningún código (xa que o código en cuestión se executa nos seus servidores e non nos equipos dos usuarios).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The GNU AGPLv3's solution to this was to take the regular GPL and add a "Remote Network Interaction" clause, stating "&lt;emphasis&gt;...if you modify the Program, your modified version must prominently offer all users interacting with it remotely through a computer network ... an opportunity to receive the Corresponding Source of your version ... at no charge, through some standard or customary means of facilitating copying of software.&lt;/emphasis&gt;" This expanded the GPL's enforcement powers into the new world of application service providers. The Free Software Foundation recommends that the GNU AGPLv3 be used for any software that will commonly be run over a network.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>A solución achegada a este respecto pola GNU AGPLv3 foi coller a GPL e engadirlle unha cláusula de "interacción remota por rede" propoñendo "&lt;emphasis&gt;...se ti modificares o Programa, a túa versión modificada deberá ofrecerlle claramente a todos os usuarios que interaxiren con el remotamente a través dunha rede de computadores... a posibilidade de recibiren o código fonte correspondente á túa versión... sen custo, a través dalgún medio estándar ou personalizado para facilitar a copia de software &lt;/emphasis&gt;". Esta cláusula expande os poderes de potenciación da GPL no novo mundo dos fornecedores de servizos e aplicacións pola rede.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Note that the AGPLv3 is not directly compatible with GPLv2 (though it is compatible with GPLv3, of course). However, most software licensed under the GPLv2 includes the "or any later version" clause anyway, so you can just shift it to GPLv3 if and when you need to mix it with AGPLv3 code. However, if you need to mix with programs licensed strictly under the GPLv2 (that is, without the "or any later version" clause), then the AGPLv3 won't work.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Ten en conta que a AGPLv3 non é directamente compatible coa GPLv2 (embora sexa compatible coa GPLv3, por suposto). Contodo, a maioría do software licenciado baixo a GPLv2 inclúe a cláusula "ou calquera versión posterior", co cal podes simplemente promocionalo a GPLv3 cando precisares mesturalo con código AGPLv3. Porén, se precisares mesturar código con programas licenciados estritamente baixo a GPLv2 (isto é, sen a cláusula "ou calquera versión posterior"), entón a AGPLv3 non che vai valer.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Although the history of the AGPLv3 is a bit complicated, the license itself is simple: it's just the GPLv3 with one extra clause about network interaction. The Wikipedia article on the AGPLv3 is excellent: &lt;ulink url="http://en.wikipedia.org/wiki/Affero_General_Public_License"&gt;&lt;/ulink&gt;</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Aínda que a historia da AGPLv3 é un pouco complicada, a licenza en si mesma é sinxela: é simplemente unha GPLv3 con unha cláusula extra que trata a interacción a través da rede. O artigo da Wikipedia sobre a AGPLv3 é excelente: &lt;ulink url="http://en.wikipedia.org/wiki/Affero_General_Public_License"&gt;&lt;/ulink&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Is the GPL free or not free?</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>É a GPL unha licenza libre?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>One consequence of choosing the GPL is the possibility&amp;mdash;small, but not infinitely small&amp;mdash;of finding yourself or your project embroiled in a dispute about whether or not the GPL is truly "free", given that it places some restrictions on what you can do with the code&amp;mdash;namely, the restriction that the code cannot be distributed under any other license. For some people, the existence of this restriction means the GPL is "less free" than more permissive licenses such as the MIT/X license. Where this argument usually goes, of course, is that since "more free" must be better than "less free" (after all, who's not in favor of freedom?), it follows that those licenses are better than the GPL.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Unha consecuencia de escoller a GPL é a posibilidade &amp;mdash;pequena, mais non infinitesimal&amp;mdash; de atoparte a ti mesmo ou o teu proxecto inmerso nunha disputa sobre se a GPL é verdadeiramente "libre" ou non, dado que establece algunhas restricións sobre o que podes facer co código&amp;mdash;nomeadamente, a restrición de que o código non poida ser distribuído baixo ningunha outra licenza. Para algunha xente, a existencia desta restrición quere dicir que a GPL é "menos libre" que outras licenzas máis permisivas como as licenzas tipo MIT/X. Esta argumentación normalmente apunta, por suposto, a que "máis libre" debe ser mellor que "menos libre" (despois de todo, quen non está a favor da liberdade?), ao que lle segue que esas outras licenzas son mellores que a GPL.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This debate is another popular holy war (see &lt;xref linkend="holy-wars"/&gt;&lt;phrase output="printed"&gt; in &lt;xref linkend="communications"/&gt;&lt;/phrase&gt;). Avoid participating in it, at least in project forums. Don't attempt to prove that the GPL is less free, as free, or more free than other licenses. Instead, emphasize the specific reasons your project chose the GPL. If the recognizability of license was a reason, say that. If the enforcement of a free license on derivative works was also a reason, say that too, but refuse to be drawn into discussion about whether this makes the code more or less "free". Freedom is a complex topic, and there is little point talking about it if terminology is going to be used as a stalking horse for substance.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Este debate é outra popular guerra santa (bótalle unha ollada a &lt;xref linkend="holy-wars"/&gt;&lt;phrase output="printed"&gt; en &lt;xref linkend="communications"/&gt;&lt;/phrase&gt;). Evita participares nela, cando menos nos foros do proxecto. Non intentes demostrar que a GPL é menos libre, tan libre ou máis libre que outras licenzas. En troca diso, fai énfase nas razóns específicas polas que o teu proxecto escolleu a GPL. Se a recoñecibilidade da licenza foi unha razón, dio. Se a obriga de licenciamento libre dos traballos derivados tamén foi unha razón, dio, mais evita entrar en disputas sobre se isto torna o código máis ou menos "libre". A liberdade é un tema complexo, e é unha perda de tempo falar dela se a terminoloxía vai ser o cabalo de batalla principal.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Since this is a book and not a mailing list thread, however, I will admit that I've never understood the "GPL is not free" argument. The only restriction the GPL imposes is that it prevents people from imposing &lt;emphasis&gt;further&lt;/emphasis&gt; restrictions. To say that this results in less freedom has always seemed to me like saying that outlawing slavery reduces freedom, because it prevents some people from owning slaves.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Embora sexa isto un libro e non un fío dunha lista de correo, teño que admitir que nunca entendín o argumento "a GPL non é libre". A única restrición que a GPL impón é evitar que a xente impoña &lt;emphasis&gt;maiores&lt;/emphasis&gt; restricións. Dicir que isto quere dicir ter menos liberdade sempre me pareceu o mesmo que dicir que a abolición da escravitude reduciu a liberdade porque evitou que algunha xente puidera ter escravos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>(Oh, and if you do get drawn into a debate about it, don't raise the stakes by making inflammatory analogies.)</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>(E se te vires no medio dun debate sobre isto, non subas a aposta facendo analoxías incendiarias).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>What About The BSD License?</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Que tal a licenza BSD?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>A fair amount of open source software is distributed under a &lt;firstterm&gt;BSD license&lt;/firstterm&gt; (or sometimes a &lt;firstterm&gt;BSD-style license&lt;/firstterm&gt;). The original BSD license was used for the Berkeley Software Distribution, in which the University of California released important portions of a Unix implementation. This license (the exact text may be seen in section 2.2.2 of &lt;ulink url="http://www.xfree86.org/3.3.6/COPYRIGHT2.html#6"&gt;&lt;/ulink&gt;) was similar in spirit to the MIT/X license, except for one clause:</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Unha gran cantidade de software libre é distribuído baixo a &lt;firstterm&gt;licenza BSD&lt;/firstterm&gt; (ou algunhas veces baixo unha &lt;firstterm&gt;licenza estilo BSD&lt;/firstterm&gt;). A licenza BSD orixinal foi empregada pola Berkeley Software Distribution, na que a Universidade de California publicou partes importantes dunha implementación de Unix. Esta licenza (cuxo texto exacto pode verse na sección 2.2.2 de &lt;ulink url="http://www.xfree86.org/3.3.6/COPYRIGHT2.html#6"&gt;&lt;/ulink&gt;) era similar en esencia á licenza MIT/X, excepto por unha cláusula (da que a continuación se fai unha tradución libre sen validez legal ningunha):</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>&lt;blockquote&gt; &lt;para&gt;&lt;emphasis&gt;All advertising materials mentioning features or use of this software must display the following acknowledgement: This product includes software developed by the University of California, Lawrence Berkeley Laboratory.&lt;/emphasis&gt;&lt;/para&gt; &lt;/blockquote&gt; &lt;para&gt;The presence of that clause not only made the original BSD license GPL-incompatible, it also set a dangerous precedent: as other organizations put similar advertising clauses into &lt;emphasis&gt;their&lt;/emphasis&gt; free software&amp;mdash;substituting their own organization's name in place of "the University of California, Lawrence Berkeley Laboratory"&amp;mdash;software redistributors faced an ever-increasing burden in what they were required to display. Fortunately, many of the projects that used this license became aware of the problem, and simply dropped the advertising clause. In 1999, even the University of California did so.&lt;/para&gt; &lt;para&gt;The result is the revised BSD license, which is simply the original BSD license with the advertising clause removed. However, this history makes the phrase "BSD license" a bit ambiguous: does it refer to the original, or the revised version? This is why I prefer the MIT/X license, which is essentially equivalent, and which does not suffer from any ambiguity. However, there is perhaps one reason to prefer the revised BSD license to the MIT/X license, which is that the BSD includes this clause:&lt;/para&gt; &lt;blockquote&gt; &lt;para&gt;&lt;emphasis&gt;Neither the name of the &amp;lt;ORGANIZATION&amp;gt; nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.&lt;/emphasis&gt;&lt;/para&gt; &lt;/blockquote&gt;</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>&lt;blockquote&gt; &lt;para&gt;&lt;emphasis&gt;Todo material publicitado que mencionar características ou empregar este software deberá mostrar a seguinte advertencia: "Este produto contén software desenvolvido pola Universidade de California, Lawrence Berkeley Laboratory". &lt;/emphasis&gt;&lt;/para&gt; &lt;/blockquote&gt; &lt;para&gt;A presenza desta cláusula no só fai que a BSD sexa incompatible coa GPL, senón que tamén senta un perigoso precedente: mentres outras organizacións poñan cláusulas publicitarias similares no &lt;emphasis&gt;seu&lt;/emphasis&gt; software libre &amp;mdash;substituíndo o seu propio nome en lugar de "a Universidade de California, Lawrence Berkeley Laboratory"&amp;mdash; os redistribuidores do software enfróntanse a unha crecente carga en canto ao que se lles require mostrar. Afortunadamente, moitos dos proxectos que empregaron esta licenza decatáronse do problema, e simplemente eliminaron esta cláusula. En 1999, ,mesmo a Universidade de California fixo iso.&lt;/para&gt; &lt;para&gt;O resultado é a licenza BSD revisada, que simplemente é a licenza BSD orixinal sen a cláusula publicitaria. Porén, esta historia fai que a expresión "licenza BSD" sexa un pouco ambigua: refírese á orixinal, ou á versión revisada? Isto é polo que prefiro a licenza MIT/X, a cal é equivalente en esencia, e non está suxeita a ningunha ambigüidade. Porén, pode que si que haxa unha razón para preferir a BSD revisada fronte á licenza MIT/X, que é que a BSD inclúe esta cláusula: &lt;/para&gt; &lt;blockquote&gt; &lt;para&gt;&lt;emphasis&gt;Nin o nome da &amp;lt;ORGANIZACIÓN&amp;gt; nin os nomes dos seus contribuíntes deben empregarse para apoiar ou promocionar produtos derivados deste software sen permiso previo explícito por escrito.&lt;/emphasis&gt;&lt;/para&gt; &lt;/blockquote&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It's not clear that without such a clause, a recipient of the software would have had the right to use the licensor's name anyway, but the clause removes any possible doubt. For organizations worried about trademark control, therefore, the revised BSD license may be slightly preferable to MIT/X. In general, however, a liberal copyright license does not imply that recipients have any right to use or dilute your trademarks &amp;mdash; copyright law and trademark law are two different beasts.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Non está claro que sen unha cláusula coma esta un receptor do software puidese ter o dereito de empregar o nome do autor, mais a cláusula borra calquera posible dúbida. Para organizacións preocupadas polo control das marcas comerciais, polo tanto, a licenza BSD revisada pode ser lixeiramente preferible á MIT/X. En xeral, porén, unha licenza liberal de cara aos dereitos de autor non implica que os receptores teñan ningún dereito ao uso ou dilución das túas marcas comerciais &amp;mdash; a lexislación dos dereitos de autor e das marcas comerciais son dúas lexislacións distintas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you wish to use the revised BSD license, a template is available at &lt;ulink url="http://www.opensource.org/licenses/bsd-license.php"&gt;&lt;/ulink&gt;.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Se quixeres empregar a licenza BSD revisada, tes dispoñible un molde en &lt;ulink url="http://www.opensource.org/licenses/bsd-license.php"&gt;&lt;/ulink&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Copyright Assignment and Ownership</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Asignación e propiedade dos dereitos de autor (copyright)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>There are three ways to handle copyright ownership for free code and documentation that were contributed to by many people. The first is to ignore the issue of copyright entirely (I don't recommend this). The second is to collect a &lt;firstterm&gt;contributor license agreement&lt;/firstterm&gt; (&lt;firstterm&gt;CLA&lt;/firstterm&gt;) from each person who works on the project, explicitly granting the project the right to use that person's contributions. This is usually enough for most projects, and the nice thing is that in some jurisdictions, CLAs can be sent in by email. The third way is to get actual copyright assignments from contributors, so that the project (i.e., some legal entity, usually a nonprofit) is the copyright owner for everything. This is the most legally airtight way, but it's also the most burdensome for contributors; only a few projects insist on it.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Hai tres xeitos de manexar a propiedade dos dereitos de autor para o código e documentación libres contribuídos por varias persoas. O primeiro é ignorando complemente a cuestión dos dereitos de autor (non o recomendo), O segundo xeito é recollendo un &lt;firstterm&gt;acordo de licenza do contribuínte&lt;/firstterm&gt; (&lt;firstterm&gt;CLA&lt;/firstterm&gt; en inglés, xa que provén de &lt;firstterm&gt;contributor license agreement&lt;/firstterm&gt;) por parte de cada persoa que traballa no proxecto, no cal se garanta explicitamente o dereito do proxecto a empregar a contribución desa persoa. Isto normalmente é suficiente para a maioría dos proxectos, e o positivo é que en varias xurisdicións, os CLAs poden enviarse por correo electrónico. O terceiro xeito é obter asignacións de dereitos de autor por parte dos contribuíntes, de forma que o proxecto (por exemplo, unha entidade legal, habitualmente sen ánimo de lucro) sexa o propietario dos dereitos de autor. Este é o xeito legalmente máis hermético, mais tamén é o xeito máis traballoso/gravoso para os contribuíntes; só uns poucos proxectos insisten neste punto.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Also, actual copyright transferral is subject to national law, and licenses designed for the United States may encounter problems elsewhere (e.g., in Germany, where it's apparently not possible to transfer copyright).</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Hai que ter en conta que a transferencia dos dereitos de autor está suxeita ás leis nacionais, e que as licenzas deseñadas para os Estados Unidos poden atopar problemas noutros lugares (por exemplo, en Alemaña, onde aparentemente non é posible transferir os dereitos de autor).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Note that even under centralized copyright ownership, the code&lt;footnote&gt;&lt;para&gt;I'll use "code" to refer to both code and documentation, from now on.&lt;/para&gt;&lt;/footnote&gt; remains free, because open source licenses do not give the copyright holder the right to retroactively proprietize all copies of the code. So even if the project, as a legal entity, were to suddenly turn around and started distributing all the code under a restrictive license, that wouldn't cause a problem for the public community. The other developers would simply start a fork based on the latest free copy of the code, and continue as if nothing had happened. Because they know they can do this, most contributors cooperate when asked to sign a CLA or an assignment of copyright.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Hai que ter presente que mesmo baixo unha propiedade centralizada dos dereitos de autor, o código &lt;footnote&gt;&lt;para&gt;vou empregar "código" para referirme tanto ao código fonte como á documentación, a partir de agora.&lt;/para&gt;&lt;/footnote&gt; permanece libre, xa que as licenzas de software libre non lle dan ao titular dos dereitos de autor o dereito de apropiarse retroactivamente de todas as copias do código. Debido a isto, mesmo se o proxecto, como entidade legal, de repente dese un xiro e comezase a distribuír todo o código baixo unha licenza restritiva, isto non lle causaría un problema á comunidade pública. Os outros desenvolvedores comezarían unha rama (fork) baseándose na última copia libre do código, e continuarían como se nada pasase. Como os desenvolvedores saben que poden facelo, a maioría dos contribuíntes cooperan cando se lles pide que asinen un CLA ou que fagan unha transferencia dos dereitos de autor.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Doing Nothing</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Non facer nada</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Most projects never collect CLAs or copyright assignments from their contributors. Instead, they accept code whenever it seems reasonably clear that the contributor intended it to be incorporated into the project.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Moitos proxectos nunca recollen CLAs ou transferencias de dereitos de autor dos seus contribuíntes. En troca disto, simplemente aceptan código cando parece razoablemente claro que o contribuínte ten a intención de que se inclúa no proxecto.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Under normal circumstances, this is okay. But every now and then, someone may decide to sue for copyright infringement, alleging that they are the true owner of the code in question and that they never agreed to its being distributed by the project under an open source license. For example, the SCO Group did something like this to the Linux project, see &lt;ulink url="http://en.wikipedia.org/wiki/SCO-Linux_controversies"&gt;&lt;/ulink&gt; for details. When this happens, the project will have no documentation showing that the contributor formally granted the right to use the code, which could make some legal defenses more difficult.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Baixo circunstancias normais, isto é suficiente. Mais de cando en vez, alguén pode decidir demandar por infrinxencia dos seus dereitos de autor, alegando que é o auténtico propietario do código en cuestión, e que nunca estivo de acordo en que fose distribuído polo proxecto baixo unha licenza de software libre. Por exemplo, o Grupo SCO fíxolle algo similar ao proxecto Linux, bótalle unha ollada a &lt;ulink url="http://en.wikipedia.org/wiki/SCO-Linux_controversies"&gt;&lt;/ulink&gt; para saberes os detalles. Se acontecer isto, o proxecto non vai ter documentación na que se observe que o contribuínte formalmente concedeu o dereito de uso do código, o que vai dificultar a defensa legal.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Contributor License Agreements</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Acordos de licenza do contribuínte (Contributor License Agreements)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>CLAs probably offer the best tradeoff between safety and convenience. A CLA is typically an electronic form that a developer fills out and sends in to the project. In many jurisdictions, email submission is enough. A secure digital signature may or may not be required; consult a lawyer to find out what method would be best for your project.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Os CLAs probablemente ofrezan o mellor compromiso entre seguridade e conveniencia. Un CLA adoita ser un formulario electrónico que un desenvolvedor preenche e lle envía ao proxecto. En moitas xurisdicións, o envío vía correo electrónico é suficiente. Unha sinatura dixital segura pode ou non ser precisa; consulta a un avogado para atopares que método é o mellor para o teu proxecto.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Most projects use two slightly different CLAs, one for individuals, and one for corporate contributors. But in both types, the core language is the same: the contributor grants the project &lt;emphasis&gt;"...perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license to reproduce, prepare derivative works of, publicly display, publicly perform, sublicense, and distribute [the] Contributions and such derivative works."&lt;/emphasis&gt; Again, you should have a lawyer approve any CLA, but if you get all those adjectives into it, you're probably fine.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Moitos proxectos empregan dous tipos lixeiramente distintos de CLAs, un para individuos e outro para contribuíntes corporativos. Aínda así, en ambos casos a linguaxe central é a mesma: o contribuínte garántelle ao proxecto &lt;emphasis&gt;"unha licenza de copyright perpetua, global, non exclusiva, sen cargo, libre de regalías por dereitos de autor e irrevogable para reproducir, facer traballos derivados, mostrar publicamente, executar publicamente, sublicenciar, e distribuír as contribucións e os traballos derivados."&lt;/emphasis&gt;. Unha vez máis, debes ter un avogado para aprobares calquera CLA, mais se introducires todos estes adxectivos no mesmo, probablemente vaia ben.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>When you request CLAs from contributors, make sure to emphasize that you are &lt;emphasis&gt;not&lt;/emphasis&gt; asking for actual copyright assignment. In fact, many CLAs start out by reminding the reader of this:</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Cando solicitares CLAs por parte dos teus contribuíntes, asegúrate de resaltar que ti &lt;emphasis&gt;non&lt;/emphasis&gt; estás solicitando unha transferencia/asignación de dereitos de autor. De feito, moitos CLAs comezan recordándolle ao lector o seguinte:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This is a license agreement only; it does not transfer copyright ownership and does not change your rights to use your own Contributions for any other purpose.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Isto só é un acordo de licenza; non transfire a propiedade dos dereitos de autor e non muda os teus dereitos de empregares a túa propia contribución para calquera propósito.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Here are some examples:</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Aquí van algúns exemplos:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Individual contributor CLAs:</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>CLA para contribuínte individual:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Corporate contributor CLAs:</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>CLA para contribuínte corporativo:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Transfer of Copyright</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Transferencia dos dereitos de autor</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Copyright transfer means that the contributor assigns to the project copyright ownership on her contributions. Ideally, this is done on paper and either faxed or snail-mailed to the project.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>A transferencia dos dereitos de autor quere dicir que o contribuínte lle asigna ao proxecto a titularidade e propiedade dos dereitos de autor sobre as súas contribucións. Idealmente, isto faise en papel e envíaselle por fax ou correo postal ao proxecto.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Some projects insist on full assignment because having a single legal entity own the copyright on the entire code base can be useful if the terms of the open source license ever need to be enforced in court. If no single entity has the right to do it, all the contributors might have to cooperate, but some might not have time or even be reachable when the issue arises.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Algúns proxectos insisten na asignación completa debido a que ter unha única entidade legal como propietaria dos dereitos de autor de todo o código fonte pode ser útil se as cláusulas da licenza de software libre algunha vez deben facerse valer nun xulgado. Se non existir unha entidade única que tiver o dereito de facelo, todos os contribuíntes deberían cooperar, mais algúns poderían non ter o tempo preciso, ou ser imposible contactar con eles cando xurdir a cuestión.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Different organizations apply different amounts of rigor to the task of collecting assignments. Some simply get an informal statement from a contributor on a public list mailing list&amp;mdash;something to the effect of "I hereby assign copyright in this code to the project, to be licensed under the same terms as the rest of the code." At least one lawyer I've talked to says that's really enough, presumably because it happens in a context where copyright assignment is normal and expected anyway, and because it represents a &lt;foreignphrase&gt;bona fide&lt;/foreignphrase&gt; effort on the project's part to ascertain the developer's true intentions. On the other hand, the Free Software Foundation goes to the opposite extreme: they require contributors to physically sign and mail in a piece of paper containing a formal statement of copyright assignment, sometimes for just one contribution, sometimes for current and future contributions. If the developer is employed, the FSF asks that the employer sign it too.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Distintas organizacións aplican un grao de rigor diferente na tarefa de recolección das asignacións. Algunhas simplemente obteñen un manifesto informal do contribuínte nunha lista de correo pública &amp;mdash; algo na liña de "Pola presente asígnolle os dereitos de autor deste código ao proxecto, para que sexa licenciado baixo as mesmas condicións que o resto do código". Cando menos un dos avogados cos que falei dixo que isto é suficiente, presumiblemente porque sucede nun contexto no que as asignacións dos dereitos de autor son normais e esperadas, así como porque representa un esforzo de boa fe por parte do proxecto para averiguar as intencións reais do desenvolvedor. Por outra banda, a Free Software Foundation está no outro estremo: requírelle aos contribuíntes a sinatura e envío físico por correo postal dun anaco de papel que conteña unha manifestación formal da transferencia dos dereitos de autor, ás veces só por unha contribución, ás veces para todas as contribucións presentes e futuras. Se o desenvolvedor é empregado seu, a FSF pídelle que o asine igualmente.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The FSF's paranoia is understandable. If someone violates the terms of the GPL by incorporating some of their software into a proprietary program, the FSF will need to fight that in court, and they want their copyrights to be as airtight as possible when that happens. Since the FSF is copyright holder for a lot of popular software, they view this as a real possibility. Whether your organization needs to be similarly scrupulous is something only you can decide, in consultation with lawyers. In general, unless there's some specific reason why your project needs full copyright assignment, just go with CLAs; they're easier for everyone.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>A paranoia da FSF é comprensible. Se alguén violar os termos da GPL incorporando algún do seu software nun programa propietario, a FSF vai ter que ir a xuízo, e van querer ter os seus dereitos de autor tan blindados como sexa posible cando isto suceda.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Dual Licensing Schemes</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Esquemas de licenciamento dual</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Some projects try to fund themselves by using a dual licensing scheme, in which proprietary derivative works may pay the copyright holder for the right to use the code, but the code still remains free for use by open source projects. This tends to work better with code libraries than with standalone applications, naturally. The exact terms differ from case to case. Often the license for the free side is the GNU GPL, since it already bars others from incorporating the covered code into their proprietary product without permission from the copyright holder, but sometimes it is a custom license that has the same effect. An example of the former is the MySQL license, described at &lt;ulink url="http://www.mysql.com/company/legal/licensing/"&gt;&lt;/ulink&gt;; an example of the latter is Sleepycat Software's licensing strategy, described at &lt;ulink url="http://www.oracle.com/technology/software/products/berkeley-db/htdocs/licensing.html"&gt;&lt;/ulink&gt;.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Algúns proxectos tentan financiarse empregando un esquema de licenciamento dual no cal os traballos derivados propietarios deben pagarlle ao propietario dos dereitos de autor para teren o dereito de usaren o código, mais o código segue sendo libre para o seu uso por proxectos software libre. Isto tende a funcionar mellor con bibliotecas de código que con aplicacións de escritorio, naturalmente. Os termos exactos difiren entre os distintos casos. A GNU GPL adoita ser a licenza para o lado libre, dado que evita que terceiros poidan incorporar o código cuberto dentro de produtos propietarios sen o permiso do titular dos dereitos de autor, mais ás veces emprégase unha licenza personalizada que ten o mesmo efecto. Un exemplo do primeiro é a licenza de MySQL, descrita en &lt;ulink url="http://www.mysql.com/company/legal/licensing/"&gt;&lt;/ulink&gt;; un exemplo do segundo é a estratexia de licenciamento do software de Sleepycat, descrita en &lt;ulink url="http://www.oracle.com/technology/software/products/berkeley-db/htdocs/licensing.html"&gt;&lt;/ulink&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You might be wondering: how can the copyright holder offer proprietary licensing for a mandatory fee if the terms of the GNU GPL stipulate that the code must be available under less restrictive terms? The answer is that the GPL's terms are something the copyright holder imposes on everyone else; the owner is therefore free to decide &lt;emphasis&gt;not&lt;/emphasis&gt; to apply those terms to itself. A good way to think of it is to imagine that the copyright owner has an infinite number of copies of the software stored in a bucket. Each time it takes one out of the bucket to send into the world, it can decide what license to put on it: GPL, proprietary, or something else. Its right to do this is not tied to the GPL or any other open source license; it is simply a power granted by copyright law.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Estaraste preguntando: como pode o titular dos dereitos de autor ofrecer licenzas propietarias en troca dun pagamento obrigatorio se os termos da GNU GPL estipulan que o código debe estar dispoñible baixo termos menos restritivos? A resposta é que os termos da GPL son algo que o titular dos dereitos de autor lle impón ao resto da xente; polo cal o propietario é libre de decidir &lt;emphasis&gt;non&lt;/emphasis&gt; aplicarse eses termos a si mesmo. Un bo xeito de pensalo é imaxinando que o titular dos dereitos de autor ten un número infinito de copias do software gardadas nunha artesa. Cada vez que saca unha da artesa para darlla ao mundo, pode decidir que licenza lle pon: GPL, propietaria ou calquera outra. O seu dereito a facelo non está restrinxido pola GPL ou por ningunha outra licenza de software libre: simplemente é un poder que lle vén garantido pola lei de dereitos de autor.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The attractiveness of dual licensing is that, at its best, it provides a way for a free software project to get a reliable income stream. Unfortunately, it can also interfere with the normal dynamics of open source projects. The problem is that any volunteer who makes a code contribution is now contributing to two distinct entities: the free version of the code and the proprietary version. While the contributor will be comfortable contributing to the free version, since that's the norm in open source projects, she may feel funny about contributing to someone else's semi-proprietary revenue stream. The awkwardness is exacerbated by the fact that in dual licensing, the copyright owner really needs to gather formal, signed copyright assignments from all contributors, in order to protect itself from a disgruntled contributor later claiming a percentage of royalties from the proprietary stream. The process of collecting these assignment papers means that contributors are starkly confronted with the fact that they are doing work that makes money for someone else.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>O atractivo do licenciamento dual é que, no mellor caso, fornece un medio para obter un caudal de ingresos fiable para un proxecto de software libre. Infelizmente, á súa vez tamén pode interferir coas dinámicas normais dos proxectos de software libre. O problema está en que calquera voluntario que faga unha contribución de código está a contribuír con dúas entidades distintas: a versión libre do código e maila versión propietaria. Mentres que o contribuínte se vai sentir cómodo contribuíndo á versión libre, pode non sentirse cómodo ao contribuír á fonte de ingresos semi-propietaria dun terceiro. A incomodidade exacérbase polo feito de que no licenciamento dual, o titular dos dereitos de autor realmente precisa obter formalmente unha transferencia asinada de dereitos de autor por parte de tódolos contribuíntes, co fin de protexerse a si mesmo dun contribuínte desgustado reclamando unha porcentaxe das regalías obtidas da fonte de ingresos propietaria. O proceso de recollida destas transferencias implica que os contribuíntes se enfronten ao feito de que están a facer traballo que redunda en diñeiro para un terceiro alleo a eles mesmos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Not all volunteers will be bothered by this; after all, their contributions go into the open source edition as well, and that may be where their main interest lies. Nevertheless, dual licensing is an instance of the copyright holder assigning itself a special right that others in the project do not have, and is thus bound to raise tensions at some point, at least with some volunteers.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Non todos os voluntarios se van sentir molestos por isto; despois de todo, as súas contribucións tamén se incorporan na edición software libre, e aí é onde reside o seu principal interese. Non obstante, o licenciamento dual é un exemplo do titular dos dereitos de autor asignándose a si mesmo un dereito especial que o resto dos integrantes do proxecto non teñen, e isto pode provocar o surximento de tensións nalgúns momentos, cando menos con algúns voluntarios.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>What seems to happen in practice is that companies based on dual licensed software do not have truly egalitarian development communities. They get small-scale bug fixes and cleanup patches from external sources, but end up doing most of the hard work with internal resources. For example, Zack Urlocker, vice president of marketing at MySQL, told me that the company generally ends up hiring the most active volunteers anyway. Thus, although the product itself is open source, licensed under the GPL, its development is more or less controlled by the company, albeit with the (extremely unlikely) possibility that someone truly dissatisfied with the company's handling of the software could fork the project. To what degree this threat pre&amp;euml;mptively shapes the company's policies I don't know, but at any rate, MySQL does not seem to be having acceptance problems either in the open source world or beyond.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>O que parece ocorrer na práctica é que as empresas baseadas en software con licenciamento dual realmente non teñen comunidades de desenvolvemento igualitarias. Obteñen correccións de erros a pequena escala e remendos de limpeza desde recursos externos, mais acaban facendo a maior parte do traballo duro mediante recursos internos. Por exemplo, Zack Urlocker, vicepresidente de marketing en MySQL, díxome que a empresa de todos xeitos xeralmente acaba por contratar os voluntarios máis activos. Embora o produto en si mesmo sexa software libre, licenciado baixo a GPL, o seu desenvolvemento é máis ou menos controlado desde a empresa, aínda que coa posibilidade (extremadamente pouco probable) de que alguén realmente insatisfeito coa xestión da empresa decida facer un fork do proxecto. Descoñécese como as políticas da empresa se adaptan a esta ameaza, mais en calquera caso, MySQL non parece ter problemas de aceptación nin no mundo do software libre nin para alén deste.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Patents</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Patentes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Software patents are the lightning rod issue of the moment in free software, because they pose the only real threat against which the free software community cannot defend itself. Copyright and trademark problems can always be gotten around. If part of your code looks like it may infringe on someone else's copyright, you can just rewrite that part. If it turns out someone has a trademark on your project's name, at the very worst you can just rename the project. Although changing names would be a temporary inconvenience, it wouldn't matter in the long run, since the code itself would still do what it always did.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>As patentes do software son a vareada do momento no lombo do software libre, porque supoñen a única ameaza contra a que a comunidade do software libre non se pode defender por si mesma. Os problemas dos dereitos de autor e das marcas comerciais sempre poden ser evitados .Se unha parte do teu código parece que pode infrinxir os dereitos de autor dun terceiro, ti podes simplemente rescribir esa parte. Se resulta que alguén ten rexistrado como marca comercial o nome do teu proxecto, no peor caso podes simplemente renomear o proxecto. Embora a mudanza de nome poida supoñer temporalmente un contratempo, non vai importar a longo prazo, dado que o código en si mesmo vai seguir facendo o que sempre fixo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>But a patent is a blanket injunction against implementing a certain idea. It doesn't matter who writes the code, nor even what programming language is used. Once someone has accused a free software project of infringing a patent, the project must either stop implementing that particular feature, or face an expensive and time-consuming lawsuit. Since the instigators of such lawsuits are usually corporations with deep pockets&amp;mdash;that's who has the resources and inclination to acquire patents in the first place&amp;mdash;most free software projects cannot afford the latter possibility, and must capitulate immediately even if they think it highly likely that the patent would be unenforceable in court. To avoid getting into such a situation in the first place, free software projects are starting to code defensively, avoiding patented algorithms in advance even when they are the best or only available solution to a programming problem.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Mais unha patente é un mandamento global contra a implementación de determinada ideas. Non importa quen escribise o código, nin que linguaxe de programación fose empregada. Unha vez que alguén teña acusado un proxecto de software libre da infrinxencia dunha patente, o proxecto debe ou ben parar de implementar esa característica particular, ou ben enfrontarse a un caro e longo proceso xudicial. Dado que os instigadores destes xuízos adoitan ser corporacións con grandes petos&amp;mdash;precisamente son eles quen teñen os recursos e afinidades precisas para patentaren nun primeiro lugar&amp;mdash;a maioría dos proxectos de software libre non poden afrontar a segunda opción, polo que se renden inmediatamente aínda que pensen que a patente podería inutilizarse nun xuízo. Para evitaren chegar a esta situación nun primeiro lugar, os proxectos de software libre están comezando a codificar defensivamente, eliminando algoritmos patentados xa de primeiras, mesmo cando son a mellor ou única solución para un problema de programación.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Sun Microsystems and IBM have also made at least a gesture at the problem from the other direction, by freeing large numbers of software patents&amp;mdash;1600 and 500 respectively&amp;mdash;for use by the open source community. I am not a lawyer and thus can't evaluate the real utility of these grants, but even if they are all important patents, and the terms of the grants make them truly free for use by any open source project, it would still be only a drop in the bucket.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Sun Microsystems e IBM polo menos teñen feito un xesto cara este problema desde a outra dirección, mediante a liberación dun gran número de patentes de software&amp;mdash;1600 e 500 respectivamente&amp;mdash;para o uso pola comunidade de software libre. Non son avogado e por iso non podo avaliar a utilidade real destas concesións, mais mesmo se todas elas foren patentes importantes, e as condicións das concesións permitiren que realmente sexan de uso libre por calquera proxecto de software libre, non deixaría de ser unha gota no océano.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Surveys and anecdotal evidence show that not only the vast majority of open source programmers, but a majority of &lt;emphasis&gt;all&lt;/emphasis&gt; programmers, think that software patents should be abolished entirely.&lt;footnote&gt;&lt;para&gt;See &lt;ulink url="http://groups.csail.mit.edu/mac/projects/lpf/Whatsnew/survey.html"&gt;&lt;/ulink&gt; for one such survey.&lt;/para&gt;&lt;/footnote&gt; Open source programmers tend to feel particularly strongly about it, and may refuse to work on projects that are too closely associated with the collection or enforcement of software patents. If your organization collects software patents, then make it clear, in a public and irrevocable way, that the patents would never be enforced on open source projects, and that they are only to be used as a defense in case some other party initiates an infringement suit against your organization. This is not only the right thing to do, it's also good open source public relations.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Tanto os inquéritos, como a evidencia anecdótica, mostran que non só a inmensa maioría dos programadores de software libre, senón que a maioría de &lt;emphasis&gt;todos&lt;/emphasis&gt; os programadores pensan que as patentes de software deberían ser totalmente abolidas. &lt;footnote&gt;&lt;para&gt;Bótalle unha ollada a &lt;ulink url="http://groups.csail.mit.edu/mac/projects/lpf/Whatsnew/survey.html"&gt;&lt;/ulink&gt; para veres un inquérito deste estilo.&lt;/para&gt;&lt;/footnote&gt; Os programadores de Software Libre están moi convencidos disto, e poderían rexeitar traballar en proxectos que están demasiado proximamente asociados coa recolección ou fomento das patentes do software. Se a túa organización recoller patentes de software, fai público dun xeito irrevogable que as patentes nunca se empregarían contra proxectos de software libre, e que unicamente se empregarían como defensa en caso de que outra parte comezara un proceso de infrinxencia de patentes contra a túa organización. Isto non é soamente o máis correcto que podes facer, tamén é algo bo para as túas relacións co software libre.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For example, RedHat has pledged that open source projects are safe from its patents, see &lt;ulink url="http://www.redhat.com/legal/patent_policy.html"&gt;&lt;/ulink&gt;.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Por exemplo, Red Hat prometeu que os proxectos de software libre están seguros fronte ás súas patentes, tal como podes ver en &lt;ulink url="http://www.redhat.com/legal/patent_policy.html"&gt;&lt;/ulink&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Unfortunately, collecting patents for defensive purposes is a rational action. The current patent system, at least in the United States, is by its nature an arms race: if your competitors have acquired a lot of patents, then your best defense is to acquire a lot of patents yourself, so that if you're ever hit with a patent infringement suit you can respond with a similar threat&amp;mdash;then the two parties usually sit down and work out a cross-licensing deal so that neither of them has to pay anything, except to their intellectual property lawyers of course.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Infelizmente, a recolección de patentes con propósitos defensivos é unha acción racional. O sistema de patentes actual, cando menos nos Estados Unidos, é por natureza unha carreira armamentística: se a túa competencia adquiriu unha morea de patentes, entón a túa mellor defensa é que ti tamén adquiras outra morea de patentes, de xeito que se ten acusaren de infrinxires unha patente, ti poidas responder con unha ameaza similar&amp;mdash;neste caso as dúas partes adoitan sentarse e traballaren nun acordo de cruce de patentes para que ningunha das dúas partes teña que pagar nada, excepto aos seus avogados especialistas en propiedade intelectual, por suposto.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The harm done to free software by software patents is more insidious than just direct threats to code development, however. Software patents encourage an atmosphere of secrecy among firmware designers, who justifiably worry that by publishing details of their interfaces they will be giving technical help to competitors seeking to slap them with patent infringement suits. This is not just a theoretical danger; it has apparently been happening for a long time in the video card industry, for example. Many video card manufacturers are reluctant to release the detailed programming specifications needed to produce high-performance open source drivers for their cards, thus making it impossible for free operating systems to support those cards to their full potential. Why would the manufacturers do this? It doesn't make sense for them to work &lt;emphasis&gt;against&lt;/emphasis&gt; software support; after all, compatibility with more operating systems can only mean more card sales. But it turns out that, behind the design room door, these shops are all violating one another's patents, sometimes knowingly and sometimes accidentally. The patents are so unpredictable and so potentially broad that no card manufacturer can ever be certain it's safe, even after doing a patent search. Thus, manufacturers dare not publish their full interface specifications, since that would make it much easier for competitors to figure out whether any patents are being infringed. (Of course, the nature of this situation is such that you will not find a written admission from a primary source that it is going on; I learned it through a personal communication.)</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>O dano feito ao software libre polas patentes do software é máis insidioso que unicamente as ameazas directas ao desenvolvemento de software. As patentes de software fomentan unha atmosfera de secretismo entre os deseñadores de &lt;foreignphrase&gt;firmware&lt;/foreignphrase&gt;, os cales están (xustificadamente) preocupados con publicar detalles das súas interfaces que lle dean axuda técnica á súa competencia na súa procura de golpealos con xuízos de infrinxencia de patentes. Isto non é só un perigo teórico: aparentemente está sucedendo desde hai tempo na industria das tarxetas gráficas, por exemplo. Moitos fabricantes de tarxetas gráficas son reticentes a publicaren as especificacións programáticas precisas para produciren controladores de código aberto de alto rendemento para as tarxetas, provocando que sexa imposible para os sistemas operativos libres darlle soporte a esas tarxetas para despregar completamente o seu potencial. Por que farían isto os fabricantes? Para eles non ten sentido traballar &lt;emphasis&gt;contra&lt;/emphasis&gt; o soporte software; despois de todo, a compatibilidade con máis sistemas operativos só pode supor unha maior venda de tarxetas. Mais resulta que tras da porta de deseño, estes fabricantes están violando patentes de outros, algunhas veces deliberadamente e outras veces accidentalmente. As patentes son tan imprevisibles e potencialmente tan extensas que ningún fabricante de tarxetas nunca pode estar seguro, mesmo despois de ter feita unha procura de patentes. Debido a isto, os fabricantes non se atreven a publicar a especificación completa de interfaces, dado que podería facerlle máis sinxelo á competencia supor se algunha patente está sendo infrinxida. (Por suposto, a natureza desta situación é tal que non vas atopar ningunha declaración escrita de ningunha fonte primaria acerca do que está a ocorrer: isto seino a través de comunicacións persoais).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Some free software licenses have special clauses to combat, or at least discourage, software patents. The GNU GPL, for example, contains this language:</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Algunhas licenzas de software libre teñen cláusulas especiais para combater, ou cando menos frear, as patentes de software. A GNU GPL, por exemplo, contén o seguinte (ten en conta que a continuación faise unha tradución NON oficial da "GNU General Public License" ao galego. Esta tradución non foi publicada po-la "FSF Free Software Foundation", e non apoia legalmente os termos de distribución do software que empregue a "GNU GPL", só o fai o texto orixinal en inglés. Porén, esperamos que esta tradución lle axude ás persoas galegofalantes a entenderen mellor a " GNU GPL".):</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>7. If, as a consequence of a court judgment or allegation of patent
+infringement or for any other reason (not limited to patent issues),
+conditions are imposed on you (whether by court order, agreement or
+otherwise) that contradict the conditions of this License, they do not
+excuse you from the conditions of this License.  If you cannot
+distribute so as to satisfy simultaneously your obligations under this
+License and any other pertinent obligations, then as a consequence you
+may not distribute the Program at all.  For example, if a patent
+license would not permit royalty-free redistribution of the Program by
+all those who receive copies directly or indirectly through you, then
+the only way you could satisfy both it and this License would be to
+refrain entirely from distribution of the Program.
+
+[...]
+
+It is not the purpose of this section to induce you to infringe any
+patents or other property right claims or to contest validity of any
+such claims; this section has the sole purpose of protecting the
+integrity of the free software distribution system, which is
+implemented by public license practices.  Many people have made
+generous contributions to the wide range of software distributed
+through that system in reliance on consistent application of that
+system; it is up to the author/donor to decide if he or she is willing
+to distribute software through any other system and a licensee cannot
+impose that choice.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>7. Se como consecuencia dun veredicto dun xulgado 
+ou pola alegación de infrinxir unha patente ou por calquera 
+outra razón (non limitada unicamente a cuestións de patentes) 
+foren impostas condicións sobre vostede que contradiciren as cláusulas
+desta Licenza, estas non o eximen
+das cláusulas aquí descritas. 
+Se vostede non pode distribuír o produto cumprindo 
+totalmente coas obrigas relativas á 
+resolución oficial e ao mesmo tempo coas obrigas
+que se describen neste contrato de Licenza, entón 
+non poderá distribuír máis este produto. Por exemplo, se 
+unha licenza de patente non permitir a distribución do 
+Programa de forma libre de regalías (sen pagamento de regalías)
+por parte de quen as recibiren directa o indirectamente, 
+entón a única forma de cumprir con ambas obrigas 
+é renunciar á distribución do mesmo.
+
+[...]
+
+A intención desta sección non é a de inducilo a 
+infrinxir ningunha lei de patentes, nin tampouco infrinxir 
+ningún reclamo de dereitos, nin discutir a validez de 
+tales reclamos; esta sección ten o único propósito 
+de protexer a integridade do sistema de distribución 
+do software libre, que está implementado por prácticas 
+de licenza pública. Moita xente ten feito xenerosas 
+contribucións á ampla gama de software distribuído 
+baixo este sistema favorecendo así a constante aplicación 
+deste sistema de distribución; é decisión do 
+autor/doador se o seu Programa será distribuído empregando 
+este ou outro sistema de distribución, e a persoa que 
+recibir o software non pode obrigalo a facer ningunha 
+escolla en particular.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The Apache License, Version 2.0 (&lt;ulink url="http://www.apache.org/licenses/LICENSE-2.0"&gt;&lt;/ulink&gt;) also contains anti-patent requirements. First, it stipulates that anyone distributing code under the license must implicitly include a royalty-free patent license for any patents they might hold that could apply to the code. Second, and most ingeniously, it punishes anyone who initiates a patent infringement claim on the covered work, by automatically terminating their implicit patent license the moment such a claim is made:</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>A Apache License, Versión 2.0 (&lt;ulink url="http://www.apache.org/licenses/LICENSE-2.0"&gt;&lt;/ulink&gt;) tamén contén requisitos anti-patentes. Primeiro, estipula que calquera que distribúa código baixo esta licenza debe implicitamente incluír unha licenza libre de regalías para calquera patente que puidese ostentar e que se puidera aplicar ao código. Segundo, e máis enxeñoso, castiga a calquera que comezar un proceso por infrinxencia de patentes sobre o código cuberto, finalizando automaticamente a súa licenza de patente implícita no momento no que se fixer a devandita reclamación (a continuación transcríbese en idioma orixinal a cláusula en cuestión, dado que é a única versión con validez legal):</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>3. Grant of Patent License. Subject to the terms and conditions of
+this License, each Contributor hereby grants to You a perpetual,
+worldwide, non-exclusive, no-charge, royalty-free, irrevocable (except
+as stated in this section) patent license to make, have made, use,
+offer to sell, sell, import, and otherwise transfer the Work, where
+such license applies only to those patent claims licensable by such
+Contributor that are necessarily infringed by their Contribution(s)
+alone or by combination of their Contribution(s) with the Work to
+which such Contribution(s) was submitted. If You institute patent
+litigation against any entity (including a cross-claim or counterclaim
+in a lawsuit) alleging that the Work or a Contribution incorporated
+within the Work constitutes direct or contributory patent
+infringement, then any patent licenses granted to You under this
+License for that Work shall terminate as of the date such litigation
+is filed.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>3. Grant of Patent License. Subject to the terms and conditions of
+this License, each Contributor hereby grants to You a perpetual,
+worldwide, non-exclusive, no-charge, royalty-free, irrevocable (except
+as stated in this section) patent license to make, have made, use,
+offer to sell, sell, import, and otherwise transfer the Work, where
+such license applies only to those patent claims licensable by such
+Contributor that are necessarily infringed by their Contribution(s)
+alone or by combination of their Contribution(s) with the Work to
+which such Contribution(s) was submitted. If You institute patent
+litigation against any entity (including a cross-claim or counterclaim
+in a lawsuit) alleging that the Work or a Contribution incorporated
+within the Work constitutes direct or contributory patent
+infringement, then any patent licenses granted to You under this
+License for that Work shall terminate as of the date such litigation
+is filed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Although it is useful, both legally and politically, to build patent defenses into free software licenses this way, in the end these steps will not be enough to dispel the chilling effect that the threat of patent lawsuits has on free software. Only changes in the substance or interpretation of international patent law will do that. To learn more about the problem, and how it's being fought, go to &lt;ulink url="http://www.nosoftwarepatents.com/"&gt;&lt;/ulink&gt;. The Wikipedia article &lt;ulink url="http://en.wikipedia.org/wiki/Software_patent"&gt;&lt;/ulink&gt; also has a lot of useful information on software patents. I've also written a blog post summarizing the arguments against software patents, at &lt;ulink url="http://www.rants.org/2007/05/01/how-to-tell-that-software-patents-are-a-bad-idea/"&gt;&lt;/ulink&gt;.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Aínda que é útil, tanto legal como politicamente, construír defensas contras as patentes para as licenzas de software libre, ao final estes pasos non son suficientes para anular os efectos nocivos que a ameaza das patentes ten sobre o software libre. Só mudanzas na substancia ou interpretación da lei internacional de patentes poderían facer isto. Para aprenderes máis sobre este problema, e como se está combatendo, diríxite a &lt;ulink url="http://www.nosoftwarepatents.com/"&gt;&lt;/ulink&gt;. O artigo da Wikipedia inglesa &lt;ulink url="http://en.wikipedia.org/wiki/Software_patent"&gt;&lt;/ulink&gt;, así como os respectivos artigos noutros idiomas como o galego, tamén teñen moita información útil sobre patentes de software. Escribín unha entrada no meu blog resumindo os argumentos en contra das patentes de software en &lt;ulink url="http://www.rants.org/2007/05/01/how-to-tell-that-software-patents-are-a-bad-idea/"&gt;&lt;/ulink&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Further Resources</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Recursos adicionais</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This chapter has only been an introduction to free software licensing issues. Although I hope it contains enough information to get you started on your own open source project, any serious investigation of licensing issues will quickly exhaust what this book can provide. Here is a list of further resources on open source licensing:</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Este capítulo só foi unha introdución ás cuestións do licenciamento do software libre. Contodo, espero que conteña información de abondo para que poidas comezar o teu propio proxecto de software libre. Calquera investigación seria sobre cuestións de licenciamento pode facilmente aumentar a información que este libro pode fornecer. Aquí vai unha lista de recursos adicionais sobre licenciamento de software libre:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>&lt;citetitle&gt;Understanding Open Source and Free Software Licensing&lt;/citetitle&gt; by Andrew M. St. Laurent. Published by O'Reilly Media, first edition August 2004, ISBN:&amp;nbsp;0-596-00581-4.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>&lt;citetitle&gt;Understanding Open Source and Free Software Licensing&lt;/citetitle&gt; por Andrew M. St. Laurent. Publicado por O'Reilly Media, primeira edición en Agosto de 2004, ISBN:&amp;nbsp;0-596-00581-4.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This is a full-length book on open source licensing in all its complexity, including many topics omitted from this chapter. See &lt;ulink url="http://www.oreilly.com/catalog/osfreesoft/"&gt;&lt;/ulink&gt; for details.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Este é un libro completo sobre licenciamento de software libre en toda a súa complexidade, incluíndo moitos temas omitidos neste capítulo. Bótalle unha ollada a &lt;ulink url="http://www.oreilly.com/catalog/osfreesoft/"&gt;&lt;/ulink&gt; para máis detalles.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>&lt;citetitle&gt;Make Your Open Source Software GPL-Compatible. Or Else.&lt;/citetitle&gt; by David A. Wheeler, at &lt;ulink url="http://www.dwheeler.com/essays/gpl-compatible.html"&gt;&lt;/ulink&gt;.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>&lt;citetitle&gt;Make Your Open Source Software GPL-Compatible. Or Else.&lt;/citetitle&gt; por David A. Wheeler, en &lt;ulink url="http://www.dwheeler.com/essays/gpl-compatible.html"&gt;&lt;/ulink&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This is a detailed and well-written article on why it is important to use a GPL-compatible license even if you don't use the GPL itself. The article also touches on many other licensing questions, and has a high density of excellent links.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Este é un artigo detallado e ben escrito sobre a importancia de empregar unha licenza GPL compatible mesmo se non empregares a GPL en si mesma. O artigo tamén toca moitas outras cuestións relativas ao licenciamento, e ten unha alta densidade de excelentes ligazóns.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Creative Commons is an organization that promotes a range of more flexible and liberal copyrights than traditional copyright practice encourages. They offer licenses not just for software, but for text, art, and music as well, all accessible via a user-friendly license selector; some of the licenses are copylefts, some are non-copyleft but still free, others are simply traditional copyrights but with some restrictions relaxed. The Creative Commons web site gives extremely clear explanations of what it's about. If I had to pick one site to demonstrate the broader philosophical implications of the free software movement, this would be it.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Creative Commons é unha organización que fomenta unha familia de dereitos de autor máis flexibles e liberais que os potenciados polos dereitos de autor tradicionais. Ofrecen licenzas non só para software, senón tamén para texto, arte, e música, todas accesibles mediante selectores amigables de licenza; algunhas das licenzas son copyleft, algunhas non son copyleft mais son libres, outras son simplemente licenzas tradicionais con algunhas restricións aminoradas. O sitio web de Creative Commons dá unhas explicacións extremadamente claras sobre o que tratan. Se tiver que elixir un sitio para demostrar as extensas implicacións filosóficas do movemento do software libre, escollería este.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

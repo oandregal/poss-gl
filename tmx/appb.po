@@ -1,0 +1,247 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit - po2tmx" creationtoolversion="1.8.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Free Bug Trackers</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Sistemas libres de xestión de bugs (Bug Trackers)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>No matter what bug tracker a project uses, some developers always like to complain about it. This seems to be more true of bug trackers than of any other standard development tool. I think it's because bug trackers are so visual and so interactive that it's easy to imagine the improvements one would make (if one only had the time), and to describe those improvements out loud. Take the inevitable complaints with a grain of salt&amp;mdash;many of the trackers below are pretty good.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Non importa que sistema de xestión de bugs ("bug tracker") empregue un proxecto, sempre hai desenvolvedores que teñen queixa deles. Isto é máis notorio nos sistemas de xestión de erros que en calquera outra ferramenta habitual de desenvolvemento. Na miña opinión é debido a que os "bug trackers" son tan visuais e interactivos que é fácil imaxinar as melloras que a un mesmo lle gustaría facer (se tiver tempo) e describir esas melloras abertamente. Acepta as inevitables queixas con filosofía,  moitos dos sistemas que van ser presentados a seguir son moi bos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Throughout these listings, the word "issue" is used to refer to the items the trackers track. But remember that each system may have its own terminology, in which the corresponding term might be "artifact" or "bug" or something else.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Ao longo das seguintes listaxes a palabra "problema" ("issue" no orixinal) é empregada para referirse aos elementos que o sistema de notificación de erros rexistra. Mais recorda que cada sistema pode ter a súa propia terminoloxía sendo sinónimos "artefacto" ou "erro" ("artifact" ou "bug" no orixinal) entre outros.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>&lt;emphasis role="bold"&gt;Bugzilla&lt;/emphasis&gt;&amp;nbsp;&amp;mdash;&amp;nbsp;&lt;ulink url="http://www.bugzilla.org/"&gt;&lt;/ulink&gt;</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>&lt;emphasis role="bold"&gt;Bugzilla&lt;/emphasis&gt;&amp;nbsp;&amp;mdash;&amp;nbsp;&lt;ulink url="http://www.bugzilla.org/"&gt;&lt;/ulink&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Bugzilla is very popular, actively maintained, and seems to make its users pretty happy. I've been using a modified variant of it in my work for four years now, and like it. It's not highly customizable, but in a odd way, that may be one of its features: Bugzilla installations tend to look pretty much the same wherever they are found, which means many developers are already accustomed to its interface and will feel they are in familiar territory.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Bugzilla é moi popular, conta con soporte activo e seus usuarios parecen estar satifeitos. Eu traballei cunha versión modificada durante catro anos e gústame. Non é demasiado personalizable, o que en certa maneira pode considerarse unha das súas características; as instalacións de Bugzilla adoitan ser moi semellantes en todas partes, polo que moitos desenvolvedores están xa afeitos á súa interface e vanse sentir nun terreo coñecido.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>&lt;emphasis role="bold"&gt;GNATS&lt;/emphasis&gt;&amp;nbsp;&amp;mdash;&amp;nbsp;&lt;ulink url="http://www.gnu.org/software/gnats/"&gt;&lt;/ulink&gt;</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>&lt;emphasis role="bold"&gt;GNATS&lt;/emphasis&gt;&amp;nbsp;&amp;mdash;&amp;nbsp;&lt;ulink url="http://www.gnu.org/software/gnats/"&gt;&lt;/ulink&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>GNU GNATS is one of the oldest open source bug trackers, and is widely used. Its biggest strengths are interface diversity (it can be used not just through a web browser, but also through email or command-line tools), and plaintext issue storage. The fact that all issue data is stored in text files on disk makes it easier to write custom tools to trawl and parse the data (for example, to generate statistical reports). GNATS can also absorb emails automatically by various means, and add them to the appropriate issues based on patterns in the email headers, which makes logging user/developer conversations very easy.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>GNU GNATS é un dos sistemas máis vellos de xestión de bugs e é empregado amplamente. Os seus puntos fortes son a diversidade de interfaces (pode ser usado non só mediante un navigador web, senón tamén a través do correo electrónico ou de ferramentas de liña de comandos) e a almacenaxe dos erros en texto plano. Ter todos os erros en texto plano no disco facilita a tarefa de escribir ferramentas adaptadas para puxar e parsear os datos (por exemplo, para xerar informes estatísticos). GNATS pode tamén acceder a mensaxes de correo electrónico de diversas maneiras e anexalas aos temas correspondentes en función de patróns existentes nos cabezallos das mensaxes; isto facilita en gran medida o rexistro das conversacións entre usuarios e desenvolvedores. </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>&lt;emphasis role="bold"&gt;RequestTracker (RT)&lt;/emphasis&gt;&amp;nbsp;&amp;mdash;&amp;nbsp;&lt;ulink url="http://www.bestpractical.com/rt/"&gt;&lt;/ulink&gt;</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>&lt;emphasis role="bold"&gt;RequestTracker (RT)&lt;/emphasis&gt;&amp;nbsp;&amp;mdash;&amp;nbsp;&lt;ulink url="http://www.bestpractical.com/rt/"&gt;&lt;/ulink&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>RT's web site says "RT is an enterprise-grade ticketing system which enables a group of people to intelligently and efficiently manage tasks, issues, and requests submitted by a community of users," and that about sums it up. RT has a fairly polished web interface, and seems to have a pretty wide installed base. The interface is a bit visually complex, but that becomes less distracting as you get used to it. RT is licenced under the GNU GPL (for some reason, their web site doesn't make this clear).</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>A páxina web de RT di o seguinte: "RT é un sistema de tickets de nivel profesional que permite a un grupo de persoas xerir con eficacia e habilidade tarefas, problemas e peticións enviadas por unha comunidade de usuarios" e, resumindo, iso é o que fai. RT posúe unha interface web bastante polida e parece ter unha ampla base de instalacións. O seu aspecto visual é algo complexo, mais tórnase menos molesto cando estás afeito a empregalo. RT, está rexistrado baixo licenza GNU GPL (por algunha razón, o sitio web non aclara este punto).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>&lt;emphasis role="bold"&gt;Trac&lt;/emphasis&gt;&amp;nbsp;&amp;mdash;&amp;nbsp;&lt;ulink url="http://trac.edgewall.com/"&gt;&lt;/ulink&gt;</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>&lt;emphasis role="bold"&gt;Trac&lt;/emphasis&gt;&amp;nbsp;&amp;mdash;&amp;nbsp;&lt;ulink url="http://trac.edgewall.com/"&gt;&lt;/ulink&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Trac is a bit more than a bug tracker: it's really an integrated wiki and bug tracking system. It uses wiki linking to connect issues, files, version control changesets, and plain wiki pages. It's fairly simple to set up, and integrates with Subversion (see &lt;xref linkend="vc-systems"/&gt;).</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Trac é máis que un sistema de reporte de bugs, en realidade é un sistema que integra wiki e un "bug tracker". Emprega wiki links para ligar temas, arquivos, grupos de mudanzas de control de versións e páxinas wiki simples. É bastante sinxelo de configurar e pódese integrar con Subversion (ver &lt;xref linkend="vc-systems"/&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>&lt;emphasis role="bold"&gt;Roundup&lt;/emphasis&gt;&amp;nbsp;&amp;mdash;&amp;nbsp;&lt;ulink url="http://roundup.sourceforge.net/"&gt;&lt;/ulink&gt;</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>&lt;emphasis role="bold"&gt;Roundup&lt;/emphasis&gt;&amp;nbsp;&amp;mdash;&amp;nbsp;&lt;ulink url="http://roundup.sourceforge.net/"&gt;&lt;/ulink&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Roundup is pretty easy to install (only Python 2.1 or higher is required), and simple to use. It has web, email, and command-line interfaces. The issue data templates and web interface are customizable, as is some of its state-transition logic.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Roundup é bastante sinxelo de instalar (só é necesario un Python 2.1 o superior) e fácil de usar. Ten tanto interface web, coma interface e-mail e en liña de comandos. O molde ("template") de datos dos bugs e a interface web son personalizables, así como parte da lóxica de transición de estados.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>&lt;emphasis role="bold"&gt;Mantis&lt;/emphasis&gt;&amp;nbsp;&amp;mdash;&amp;nbsp;&lt;ulink url="http://www.mantisbt.org/"&gt;&lt;/ulink&gt;</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>&lt;emphasis role="bold"&gt;Mantis&lt;/emphasis&gt;&amp;nbsp;&amp;mdash;&amp;nbsp;&lt;ulink url="http://www.mantisbt.org/"&gt;&lt;/ulink&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Mantis is a web-based bug tracking system, written in PHP, and using MySQL database for storage. It has the features you'd expect. Personally, I find the web interface clean, intuitive, and easy on the eyes.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Mantis é un sistema de xestión de bugs en web, escrito en PHP e que emprega MySQL como base de datos de almacenaxe. Presenta as características que calquera esperaría deste tipo de programas. Persoalmente, acho a súa interface web atractiva, elegante e intuitiva.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>&lt;emphasis role="bold"&gt;Flyspray&lt;/emphasis&gt;&amp;nbsp;&amp;mdash;&amp;nbsp;&lt;ulink url="http://www.flyspray.org/"&gt;&lt;/ulink&gt;</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>&lt;emphasis role="bold"&gt;Flyspray&lt;/emphasis&gt;&amp;nbsp;&amp;mdash;&amp;nbsp;&lt;ulink url="http://www.flyspray.org/"&gt;&lt;/ulink&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Flyspray is a web-based bug tracking system written in PHP. Its web pages describe it as "uncomplicated", and the list of features includes: multiple database support (currently MySQL and PGSQL); multiple projects; 'watching' tasks, with notification of changes (via email or Jabber); comprehensive task history; CSS theming; file attachments; advanced search features (though easy to use); RSS/Atom feeds; wiki and plaintext input; voting; dependency graphs.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Flyspray é un sistema web de xestión de bugs escrito en PHP. Segundo a súa páxina web é un sistema "pouco complicado" que inclúe as seguintes funcionalidades: soporte para diferentes bases de datos (nesta altura MySQL e PGSQL), xestión de múltiples proxectos, monitoramento de tarefas con notificacións de mudanzas (vía email ou jabber), histórico de tarefas exaustivo, deseño CSS, ficheiros adxuntos, ferramentas avanzadas de procura (mais sinxelas de manexar), sindicación vía RSS/Atom, admite entradas en wiki ou texto plano, mecanismos de votacións e gráficos de dependencia.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>&lt;emphasis role="bold"&gt;Scarab&lt;/emphasis&gt;&amp;nbsp;&amp;mdash;&amp;nbsp;&lt;ulink url="http://scarab.tigris.org/"&gt;&lt;/ulink&gt;</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>&lt;emphasis role="bold"&gt;Scarab&lt;/emphasis&gt;&amp;nbsp;&amp;mdash;&amp;nbsp;&lt;ulink url="http://scarab.tigris.org/"&gt;&lt;/ulink&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Scarab is meant to be a highly customizable, full-featured bug tracker, offering more or less the union of the features offered by other bug trackers: data entry, queries, reports, notifications to interested parties, collaborative accumulation of comments, and dependency tracking.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>A idea principal de Scarab é operar como un sistema completo de xestión de bugs, altamente adaptable, que ofrece, máis ou menos, a unión das ferramentas que ofrecen outros sistemas de este tipo: entrada de datos, consultas, informes, notificacións ás partes interesadas, almacenaxe de comentarios colaborativos e rexistro de dependencias.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It is customizable through administrative web pages. You can have multiple "modules" (projects) active in a single Scarab installation. Within a given module, you can create new issue types (defects, enhancements, tasks, support requests, etc.), and add arbitrary attributes, to tune the tracker to your project's specific requirements.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Pode ser personalizado mediante páxinas web de admistración. Permite ter activos, nunha única instalación de Scarab, varios "módulos" (proxectos) simultáneamente. Dentro de cada módulo é posible crear novos tipos de elementos (soporte de peticións, defectos, melloras, tarefas, etc.) e engadir outros atributos arbitrarios. Todo isto permite adaptar o sistema aos requisitos determinados de cada proxecto.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>As of late 2004, Scarab was getting close to its 1.0 release.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>A finais de 2004 estaba a punto de ser publicada a versión 1.0 de Scarab.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>&lt;emphasis role="bold"&gt;Debian Bug Tracking System (DBTS)&lt;/emphasis&gt;&amp;nbsp;&amp;mdash;&amp;nbsp;&lt;ulink url="http://www.chiark.greenend.org.uk/~ian/debbugs/"&gt;&lt;/ulink&gt;</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>&lt;emphasis role="bold"&gt;Debian Bug Tracking System (DBTS)&lt;/emphasis&gt;&amp;nbsp;&amp;mdash;&amp;nbsp;&lt;ulink url="http://www.chiark.greenend.org.uk/~ian/debbugs/"&gt;&lt;/ulink&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The Debian Bug Tracking System is unusual in that all input and manipulation of issues is done via email: each issue gets its own dedicated email address. The DBTS scales pretty well: &lt;ulink url="http://bugs.debian.org/"&gt;&lt;/ulink&gt; has 277,741 issues, for example.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>O Debian Bug Tracking System é inusual en tanto que toda a introdución e manipulación de erros se fai vía e-mail: cada erro recibe o seu propio enderezo de e-mail. O DBTS escala bastante ben: por exemplo. &lt;ulink url="http://bugs.debian.org/"&gt;&lt;/ulink&gt; ten 277.741 erros.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Since interaction is done via regular mail clients, an environment which is familiar and easily accessible to most people, the DBTS is good for handling high volumes of incoming reports that need quick classification and response. There are disadvantages too, of course. Developers must invest the time needed to learn the email command system, and users must write their bug reports without a web form to guide them in choosing what information to write. There are tools available to help users send better bug reports, such as the command-line &lt;command&gt;reportbug&lt;/command&gt; program or the &lt;systemitem&gt;debbugs-el&lt;/systemitem&gt; package for Emacs. But most people won't use these tools; they'll just write email manually, and they may or may not follow the bug reporting guidelines posted by your project.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Dado que a interacción é feita mediante clientes de e-mail, un entorno fácilmente accesible e ao que están afeitos moitos usuarios, o DBTS é bo para manexar, clasificar e responder rapidamente a un gran volume de notificacións de erro. Por suposto, ten desvantaxes tamén. Os desenvolvedores deben investir tempo para aprenderen o sistema de comandos de e-mail e os usuarios deben escribir os informes de erro sen un formulario que os guíe na información que hai que incluír. Existen ferramentas para axudar os usuarios a escribiren mellores informes de erros tais como un programa en liña de comandos ou o paquete &lt;systemitem&gt;debbugs-el&lt;/systemitem&gt; para Emacs. A maioría da xente non usa estas ferramentas xa que prefiren escribir os e-mails manualmente, e pode que cumpran ou non as regras sobre notificación do proxecto.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The DBTS has a read-only web interface, for viewing and querying issues.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>O DBTS ten unha interface web exclusivamente de lectura para visualizar e consultar erros.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Trouble-Ticket Trackers</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>&lt;emphasis role="bold"&gt;Sistemas de rexistro de tickets de problemas (Trouble-Ticket Trackers)&lt;/emphasis&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>These are more oriented toward help desk ticket tracking than software bug tracking. You'll probably do better with a regular bug tracker, but these are listed for the sake of completeness, and because there could conceivably be unusual projects for which a trouble-ticket system might be more appropriate than a traditional bug tracker.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Estes sistemas están máis orientados á xestión de tickets de axuda que á xestión de erros en programas de software. A pesar de que un sistema "bugtracker" normal pode ser o máis adecuado, estes sistemas inclúense nesta obra en prol dun traballo o máis completo posible. Porén, en algúns proxectos poden ser máis axeitados que os tradicionais sistemas de xestión de erros.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>&lt;emphasis role="bold"&gt;WebCall&lt;/emphasis&gt;&amp;nbsp;&amp;mdash;&amp;nbsp;&lt;ulink url="http://myrapid.com/webcall/"&gt;&lt;/ulink&gt;</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>&lt;emphasis role="bold"&gt;WebCall&lt;/emphasis&gt;&amp;nbsp;&amp;mdash;&amp;nbsp;&lt;ulink url="http://myrapid.com/webcall/"&gt;&lt;/ulink&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>&lt;emphasis role="bold"&gt;Bluetail Ticket Tracker (BTT)&lt;/emphasis&gt;&amp;nbsp;&amp;mdash;&amp;nbsp;&lt;ulink url="http://btt.sourceforge.net/"&gt;&lt;/ulink&gt;</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>&lt;emphasis role="bold"&gt;Bluetail Ticket Tracker (BTT)&lt;/emphasis&gt;&amp;nbsp;&amp;mdash;&amp;nbsp;&lt;ulink url="http://btt.sourceforge.net/"&gt;&lt;/ulink&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>BTT is somewhere between a standard trouble-ticket tracker and a bug tracker. It offers privacy features that are somewhat unusual among open source bug trackers: users of the system are categorized as Staff, Friend, Customer, or Anonymous, and more or less data is available depending on one's category. It offers some email integration, a command-line interface, and mechanisms for converting emails into tickets. It also has features for maintaining information not associated with any specific ticket, such as internal documentation or FAQs.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>BTT é unha mestura entre un sistema de rexistro de tickets e un xestor de bugs. Ofrece mecanismos de privacidade que non son frecuentes entre os xestores de bugs. Os usuarios do sistema son clasificados en categorías: empregado (staff), amigo (friend), cliente (customer) ou anónimo. Esta clasificación define o nivel de acceso a máis ou menos datos en función da categoría de cada usuario. Ofrece unha certa integración co e-mail, unha interface de liña de comandos e mecanismos para a conversión de mensaxes de correo electrónico en tickets. Tamén pode xestionar certa información non vinculada directamente a un ticket específico, como documentación interna ou preguntas frecuentes.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

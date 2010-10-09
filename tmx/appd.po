@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit - po2tmx" creationtoolversion="1.8.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Example Instructions for Reporting Bugs</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Exemplo de instrucións para informar da presenza de erros ("bugs")</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This is a lightly-edited copy of the Subversion project's online instructions to new users on how to report bugs. See &lt;xref linkend="users-to-volunteers"/&gt;&lt;phrase output="printed"&gt; in &lt;xref linkend="managing-volunteers"/&gt;&lt;/phrase&gt; for why it is important that a project have such instructions. The original document is located at &lt;ulink url="http://svn.collab.net/repos/svn/trunk/www/bugs.html"&gt;&lt;/ulink&gt;.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>A presente é unha copia lixeiramente modificada das instrucións en liña para novos usuarios do proxecto Subversion sobre como informar da presenza de erros. Ver &lt;xref linkend="users-to-volunteers"/&gt;&lt;phrase output="printed"&gt; en &lt;xref linkend="managing-volunteers"/&gt;&lt;/phrase&gt; para entender por que é importante que un proxecto teña tales instrucións. O documento orixinal atópase en &lt;ulink url="http://svn.collab.net/repos/svn/trunk/www/bugs.html"&gt;&lt;/ulink&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Reporting Bugs in Subversion
+
+This document tells how and where to report bugs. (It is not a list of
+all outstanding bugs — you can get that here instead.)
+
+Where To Report A Bug
+---------------------
+
+    * If the bug is in Subversion itself, send mail to
+      users@subversion.tigris.org. Once it's confirmed as a bug,
+      someone, possibly you, can enter it into the issue tracker. (Or
+      if you're pretty sure about the bug, go ahead and post directly
+      to our development list, dev@subversion.tigris.org. But if
+      you're not sure, it's better to post to users@ first; someone
+      there can tell you whether the behavior you encountered is
+      expected or not.)
+
+    * If the bug is in the APR library, please report it to both of
+      these mailing lists: dev@apr.apache.org, dev@subversion.tigris.org.
+
+    * If the bug is in the Neon HTTP library, please report it to:
+      neon@webdav.org, dev@subversion.tigris.org.
+
+    * If the bug is in Apache HTTPD 2.0, please report it to both of
+      these mailing lists: dev@httpd.apache.org,
+      dev@subversion.tigris.org. The Apache httpd developer mailing
+      list is high-traffic, so your bug report post has the
+      possibility to be overlooked. You may also file a bug report at
+      http://httpd.apache.org/bug_report.html.
+
+    * If the bug is in your rug, please give it a hug and keep it snug.
+
+How To Report A Bug
+-------------------
+
+First, make sure it's a bug. If Subversion does not behave the way you
+expect, look in the documentation and mailing list archives for
+evidence that it should behave the way you expect. Of course, if it's
+a common-sense thing, like Subversion just destroyed your data and
+caused smoke to pour out of your monitor, then you can trust your
+judgement. But if you're not sure, go ahead and ask on the users
+mailing list first, users@subversion.tigris.org, or ask in IRC,
+irc.freenode.net, channel #svn.
+
+Once you've established that it's a bug, the most important thing you
+can do is come up with a simple description and reproduction
+recipe. For example, if the bug, as you initially found it, involves
+five files over ten commits, try to make it happen with just one file
+and one commit. The simpler the reproduction recipe, the more likely a
+developer is to successfully reproduce the bug and fix it.
+
+When you write up the reproduction recipe, don't just write a prose
+description of what you did to make the bug happen. Instead, give a
+literal transcript of the exact series of commands you ran, and their
+output. Use cut-and-paste to do this. If there are files involved, be
+sure to include the names of the files, and even their content if you
+think it might be relevant. The very best thing is to package your
+reproduction recipe as a script, that helps us a lot.
+
+&lt;emphasis&gt;Quick sanity check: you *are* running the most recent version of
+Subversion, right? :-) Possibly the bug has already been fixed; you
+should test your reproduction recipe against the most recent
+Subversion development tree.&lt;/emphasis&gt;
+
+In addition to the reproduction recipe, we'll also need a complete
+description of the environment in which you reproduced the bug. That
+means:
+
+    * Your operating system
+    * The release and/or revision of Subversion
+    * The compiler and configuration options you built Subversion with
+    * Any private modifications you made to your Subversion
+    * The version of Berkeley DB you're running Subversion with, if any
+    * Anything else that could possibly be relevant. Err on the side
+      of too much information, rather than too little.
+
+Once you have all this, you're ready to write the report. Start out
+with a clear description of what the bug is. That is, say how you
+expected Subversion to behave, and contrast that with how it actually
+behaved. While the bug may seem obvious to you, it may not be so
+obvious to someone else, so it's best to avoid a guessing game. Follow
+that with the environment description, and the reproduction recipe. If
+you also want to include speculation as to the cause, and even a patch
+to fix the bug, that's great — see
+http://svn.collab.net/repos/svn/trunk/www/hacking.html#patches for
+instructions on sending patches.
+
+Post all of this information to dev@subversion.tigris.org, or if you
+have already been there and been asked to file an issue, then go to
+the Issue Tracker and follow the instructions there.
+
+Thanks. We know it's a lot of work to file an effective bug report,
+but a good report can save hours of a developer's time, and make the
+bug much more likely to get fixed.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Como informar da presencia de erros en Subversion
+
+Este documento conta como e onde informar da presenza dun erro. (Non se trata dunha lista dos erros pendentes — pode ver esa lista aquí.)
+
+Onde informar da presenza dun erro
+--------------------------------------------------
+
+    * Se o erro estiver localizado no propio Subversion, envíe un correo a users@subversion.tigris.org. Unha vez for confirmado que se trata dun erro, unha persoa, polo xeral vostede, pode introducilo no sistema de notificación de erros. (Se estiver moi seguro de que é un erro, envíeo directamente á nosa lista de desenvolvemento  dev@subversion.tigris.org. Mais, se non estiver seguro, é mellor que escriba a users@ en primeiro lugar; algún dos usuarios pode dicirlle se o comportamento que vostede se atopou é o esperado ou non.
+
+    * Se o erro estiver localizado na biblioteca APR, por favor, informe sobre el nas seguintes listas de correo: dev@apr.apache.org, dev@subversion.tigris.org.
+
+    * Se o erro estiver localizado na biblioteca Neon-HTTP, por favor, informe sobre o mesmo en: neon@webdav.org, dev@subversion.tigris.org.
+
+    * Se o erro estiver localizado en Apache HTTPD 2.0, por favor informe sobre el nas seguintes dúas listas de correo: dev@httpd.apache.org, dev@subversion.tigris.org. A lista de desenvolvedores Apache httpd ten moito tráfego, polo que existe a posibilidade de que o seu informe de erro non sexa atendido. Tamén ten a posibilidade de en preencher un informe de erro en http://httpd.apache.org/bug_report.html.
+
+    * Se o erro estiver no teu tellado, colle un par de tellas e ponte a reparalo &lt;footnote&gt;&lt;para&gt;Nota do traductor: tradución libre do orixinal en inglés "if the bug is in your rug, please give it a hug and
+keep it snug", sen equivalente exacto en galego por tratarse dunha rima popular.&lt;/para&gt;&lt;/footnote&gt;
+
+Como informar da presenza dun erro
+-------------------------------------------------
+
+En primeiro lugar, asegúrese de que realmente é un erro. Se Subversion non se comportar do modo que vostede espera, procure na documentación e nos arquivos da lista de correo probas de que debería comportarse do xeito que vostede supón.  Por suposto, se é unha cousa de senso común coma que Subversion destruíu os seus datos e fixo saír fume da súa pantalla, entón, pode fiarse do seu xuízo. Pero se non está seguro pregunte primeiro na lista de correo de usuarios users@subversion.tigris.org ou no IRC, irc.freenode.net, channel #svn.
+
+Unha vez estableceu que é un erro o máis importante é propoñer unha descrición simple e indicacións de como reproducilo. Por exemplo, se o erro tal como o atopou inicialmente implica cinco ficheiros sobre dez commits, intente reproducilo con soamente un ficheiro e un commit. Canto máis sinxela sexa a "receita" para reproducilo máis probable será que un desenvolvedor reproduza o erro e o corrixa con suceso.
+
+Cando escriba a receita para reproducilo, non escriba unha descrición prosaica do que fixo para para que acontecera o erro. Pola contra, achegue unha transcrición literal da serie exacta de comandos que executou e a súa saída. Empregue cortar-e-pegar para facelo. Se houber ficheiros implicados asegúrese de incluír os seus nomes e mesmo o seu contido, se pensa que pode ser relevante. O mellor de todo sería que empaquetase a súa receita para reproducir o erro coma un script. Iso axúdanos moitísimo.
+
+&lt;emphasis&gt; Comprobación rápida de integridade: Está a eecutar a versión máis recente de Subversion, verdade? :-) Poida que o erro xa fose corrixido; debería probar a súa receita para reproducir o erro sobre a versión máis recente da árbore de desenvolvemento de Subversion.&lt;/emphasis&gt;
+
+Ademais da receita para reproducilo, tamén necesitaremos unha completa descrición do entorno onde se reproduciu o erro. Isto é:
+
+    * O seu sistema operativo
+    * A versión publicada e/ou revisión de Subversion
+    * O compilador e as opcións de configuración que usou para construír Subversion
+....* Calquera modificación persoal que fixera ao seu Subversion
+    * A versión da BD de Berkeley coa que está a usar Subversion, se é que a usa
+    * Calquera outra cousa que poida ser relevante. Mellor ter información de mais que de menos. 
+
+Unha vez teña todo isto, xa estará preparado para escribir o informe. Comece cunha descrición clara do erro en si. É dicir, diga como esperaba que se comportara Subversion e contrásteo con como se comportou realmente. Aínda que o erro poida parecerlle obvio, pode que non sexa tan obvio para outra persoa, polo tanto é mellor evitar xogar ás adiviñas. Continúe coa descrición do entorno e a receita de reprodución do erro. Se tamén quere incluír algunha especulación sobre a causa e mesmo un remendo para resolver o problema, aínda mellor.— Consulte http://svn.collab.net/repos/svn/trunk/www/hacking.html#patches para obter instrucións de como mandar remendos.
+
+Envíe toda esta información a dev@subversion.tigris.org ou se xa o fixo e lle pediron que preenchera unha notificación, vaia ao sistema de notificación de erros e siga as instrucións.
+
+Agradecémosllo. Sabemos que preencher un bo informe de erros dá moito traballo, mais un bo informe pode aforrarlle moitas horas ao desenvolvedor e fai que o erro teña moitas máis probabilidades de ser corrixido.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

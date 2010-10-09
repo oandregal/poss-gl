@@ -1,0 +1,594 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit - po2tmx" creationtoolversion="1.8.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Copyright</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Copyrigth &lt;footnote&gt;&lt;para&gt;Nota do tradutor: O texto orixinal da licencia atópase en http://creativecommons.org/licenses/by-sa/3.0/". Esta tradución engádese soamente a título informativo.
+&lt;/para&gt;&lt;/footnote&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This work is licensed under the Creative Commons
+Attribution-ShareAlike License. To view a copy of this license, visit
+http://creativecommons.org/licenses/by-sa/3.0/ or send a letter to
+Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305,
+USA.  A summary of the license is given below, followed by the full
+legal text.  If you wish to distribute some or all of this work under
+different terms, please contact the author, Karl Fogel
+&amp;lt;kfogel@red-bean.com&amp;gt;.
+
+-*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
+
+You are free:
+
+    * to Share — to copy, distribute and transmit the work
+    * to Remix — to adapt the work
+
+Under the following conditions:
+
+    * Attribution. You must attribute the work in the manner specified
+      by the author or licensor (but not in any way that suggests that
+      they endorse you or your use of the work).
+
+    * Share Alike. If you alter, transform, or build upon this work,
+      you may distribute the resulting work only under the same,
+      similar or a compatible license.
+
+    * For any reuse or distribution, you must make clear to others the
+      license terms of this work.  The best way to do this is with a
+      link to this web page.
+
+    * Any of the above conditions can be waived if you get permission
+      from the copyright holder.
+
+    * Nothing in this license impairs or restricts the author's moral
+      rights.
+
+-*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
+
+   Creative Commons Legal Code: Attribution-ShareAlike 3.0 Unported
+
+CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE
+LEGAL SERVICES. DISTRIBUTION OF THIS LICENSE DOES NOT CREATE AN
+ATTORNEY-CLIENT RELATIONSHIP. CREATIVE COMMONS PROVIDES THIS
+INFORMATION ON AN "AS-IS" BASIS. CREATIVE COMMONS MAKES NO WARRANTIES
+REGARDING THE INFORMATION PROVIDED, AND DISCLAIMS LIABILITY FOR
+DAMAGES RESULTING FROM ITS USE.
+
+License:
+
+THE WORK (AS DEFINED BELOW) IS PROVIDED UNDER THE TERMS OF THIS
+CREATIVE COMMONS PUBLIC LICENSE ("CCPL" OR "LICENSE"). THE WORK IS
+PROTECTED BY COPYRIGHT AND/OR OTHER APPLICABLE LAW. ANY USE OF THE
+WORK OTHER THAN AS AUTHORIZED UNDER THIS LICENSE OR COPYRIGHT LAW IS
+PROHIBITED.
+
+BY EXERCISING ANY RIGHTS TO THE WORK PROVIDED HERE, YOU ACCEPT AND
+AGREE TO BE BOUND BY THE TERMS OF THIS LICENSE. TO THE EXTENT THIS
+LICENSE MAY BE CONSIDERED TO BE A CONTRACT, THE LICENSOR GRANTS YOU
+THE RIGHTS CONTAINED HERE IN CONSIDERATION OF YOUR ACCEPTANCE OF SUCH
+TERMS AND CONDITIONS.
+
+1. Definitions
+
+   a. "Adaptation" means a work based upon the Work, or upon the Work
+      and other pre-existing works, such as a translation, adaptation,
+      derivative work, arrangement of music or other alterations of a
+      literary or artistic work, or phonogram or performance and
+      includes cinematographic adaptations or any other form in which
+      the Work may be recast, transformed, or adapted including in any
+      form recognizably derived from the original, except that a work
+      that constitutes a Collection will not be considered an
+      Adaptation for the purpose of this License. For the avoidance of
+      doubt, where the Work is a musical work, performance or
+      phonogram, the synchronization of the Work in timed-relation
+      with a moving image ("synching") will be considered an
+      Adaptation for the purpose of this License.
+
+   b. "Collection" means a collection of literary or artistic works,
+      such as encyclopedias and anthologies, or performances,
+      phonograms or broadcasts, or other works or subject matter other
+      than works listed in Section 1(f) below, which, by reason of the
+      selection and arrangement of their contents, constitute
+      intellectual creations, in which the Work is included in its
+      entirety in unmodified form along with one or more other
+      contributions, each constituting separate and independent works
+      in themselves, which together are assembled into a collective
+      whole. A work that constitutes a Collection will not be
+      considered an Adaptation (as defined below) for the purposes of
+      this License.
+
+   c. "Creative Commons Compatible License" means a license that is
+      listed at http://creativecommons.org/compatiblelicenses that has
+      been approved by Creative Commons as being essentially
+      equivalent to this License, including, at a minimum, because
+      that license: (i) contains terms that have the same purpose,
+      meaning and effect as the License Elements of this License; and,
+      (ii) explicitly permits the relicensing of adaptations of works
+      made available under that license under this License or a
+      Creative Commons jurisdiction license with the same License
+      Elements as this License.
+
+   d. "Distribute" means to make available to the public the original
+      and copies of the Work or Adaptation, as appropriate, through
+      sale or other transfer of ownership.
+
+   e. "License Elements" means the following high-level license
+      attributes as selected by Licensor and indicated in the title of
+      this License: Attribution, ShareAlike.
+
+   f. "Licensor" means the individual, individuals, entity or entities
+      that offer(s) the Work under the terms of this License.
+
+   g. "Original Author" means, in the case of a literary or artistic
+      work, the individual, individuals, entity or entities who
+      created the Work or if no individual or entity can be
+      identified, the publisher; and in addition (i) in the case of a
+      performance the actors, singers, musicians, dancers, and other
+      persons who act, sing, deliver, declaim, play in, interpret or
+      otherwise perform literary or artistic works or expressions of
+      folklore; (ii) in the case of a phonogram the producer being the
+      person or legal entity who first fixes the sounds of a
+      performance or other sounds; and, (iii) in the case of
+      broadcasts, the organization that transmits the broadcast.
+
+   h. "Work" means the literary and/or artistic work offered under the
+      terms of this License including without limitation any
+      production in the literary, scientific and artistic domain,
+      whatever may be the mode or form of its expression including
+      digital form, such as a book, pamphlet and other writing; a
+      lecture, address, sermon or other work of the same nature; a
+      dramatic or dramatico-musical work; a choreographic work or
+      entertainment in dumb show; a musical composition with or
+      without words; a cinematographic work to which are assimilated
+      works expressed by a process analogous to cinematography; a work
+      of drawing, painting, architecture, sculpture, engraving or
+      lithography; a photographic work to which are assimilated works
+      expressed by a process analogous to photography; a work of
+      applied art; an illustration, map, plan, sketch or
+      three-dimensional work relative to geography, topography,
+      architecture or science; a performance; a broadcast; a
+      phonogram; a compilation of data to the extent it is protected
+      as a copyrightable work; or a work performed by a variety or
+      circus performer to the extent it is not otherwise considered a
+      literary or artistic work.
+
+   i. "You" means an individual or entity exercising rights under this
+      License who has not previously violated the terms of this
+      License with respect to the Work, or who has received express
+      permission from the Licensor to exercise rights under this
+      License despite a previous violation.
+
+   j. "Publicly Perform" means to perform public recitations of the
+      Work and to communicate to the public those public recitations,
+      by any means or process, including by wire or wireless means or
+      public digital performances; to make available to the public
+      Works in such a way that members of the public may access these
+      Works from a place and at a place individually chosen by them;
+      to perform the Work to the public by any means or process and
+      the communication to the public of the performances of the Work,
+      including by public digital performance; to broadcast and
+      rebroadcast the Work by any means including signs, sounds or
+      images.
+
+   k. "Reproduce" means to make copies of the Work by any means
+      including without limitation by sound or visual recordings and
+      the right of fixation and reproducing fixations of the Work,
+      including storage of a protected performance or phonogram in
+      digital form or other electronic medium.
+
+2. Fair Dealing Rights.
+
+   Nothing in this License is intended to reduce, limit, or restrict
+   any uses free from copyright or rights arising from limitations or
+   exceptions that are provided for in connection with the copyright
+   protection under copyright law or other applicable laws.
+
+3. License Grant.
+
+   Subject to the terms and conditions of this License, Licensor
+   hereby grants You a worldwide, royalty-free, non-exclusive,
+   perpetual (for the duration of the applicable copyright) license to
+   exercise the rights in the Work as stated below:
+
+   a. to Reproduce the Work, to incorporate the Work into one or more
+      Collections, and to Reproduce the Work as incorporated in the
+      Collections;
+
+   b. to create and Reproduce Adaptations provided that any such
+      Adaptation, including any translation in any medium, takes
+      reasonable steps to clearly label, demarcate or otherwise
+      identify that changes were made to the original Work. For
+      example, a translation could be marked "The original work was
+      translated from English to Spanish," or a modification could
+      indicate "The original work has been modified.";
+
+   c. to Distribute and Publicly Perform the Work including as
+      incorporated in Collections; and,
+
+   d. to Distribute and Publicly Perform Adaptations.
+
+   e. For the avoidance of doubt:
+
+         i. Non-waivable Compulsory License Schemes. In those
+            jurisdictions in which the right to collect royalties
+            through any statutory or compulsory licensing scheme
+            cannot be waived, the Licensor reserves the exclusive
+            right to collect such royalties for any exercise by You of
+            the rights granted under this License;
+
+        ii. Waivable Compulsory License Schemes. In those
+            jurisdictions in which the right to collect royalties
+            through any statutory or compulsory licensing scheme can
+            be waived, the Licensor waives the exclusive right to
+            collect such royalties for any exercise by You of the
+            rights granted under this License; and,
+
+       iii. Voluntary License Schemes. The Licensor waives the right
+            to collect royalties, whether individually or, in the
+            event that the Licensor is a member of a collecting
+            society that administers voluntary licensing schemes, via
+            that society, from any exercise by You of the rights
+            granted under this License.
+
+   The above rights may be exercised in all media and formats whether
+   now known or hereafter devised. The above rights include the right
+   to make such modifications as are technically necessary to exercise
+   the rights in other media and formats. Subject to Section 8(f), all
+   rights not expressly granted by Licensor are hereby reserved.
+
+4. Restrictions. 
+
+   The license granted in Section 3 above is expressly made subject to
+   and limited by the following restrictions:
+
+   a. You may Distribute or Publicly Perform the Work only under the
+      terms of this License. You must include a copy of, or the
+      Uniform Resource Identifier (URI) for, this License with every
+      copy of the Work You Distribute or Publicly Perform. You may not
+      offer or impose any terms on the Work that restrict the terms of
+      this License or the ability of the recipient of the Work to
+      exercise the rights granted to that recipient under the terms of
+      the License. You may not sublicense the Work. You must keep
+      intact all notices that refer to this License and to the
+      disclaimer of warranties with every copy of the Work You
+      Distribute or Publicly Perform. When You Distribute or Publicly
+      Perform the Work, You may not impose any effective technological
+      measures on the Work that restrict the ability of a recipient of
+      the Work from You to exercise the rights granted to that
+      recipient under the terms of the License. This Section 4(a)
+      applies to the Work as incorporated in a Collection, but this
+      does not require the Collection apart from the Work itself to be
+      made subject to the terms of this License. If You create a
+      Collection, upon notice from any Licensor You must, to the
+      extent practicable, remove from the Collection any credit as
+      required by Section 4(c), as requested. If You create an
+      Adaptation, upon notice from any Licensor You must, to the
+      extent practicable, remove from the Adaptation any credit as
+      required by Section 4(c), as requested.
+
+   b. You may Distribute or Publicly Perform an Adaptation only under
+      the terms of: (i) this License; (ii) a later version of this
+      License with the same License Elements as this License; (iii) a
+      Creative Commons jurisdiction license (either this or a later
+      license version) that contains the same License Elements as this
+      License (e.g., Attribution-ShareAlike 3.0 US)); (iv) a Creative
+      Commons Compatible License. If you license the Adaptation under
+      one of the licenses mentioned in (iv), you must comply with the
+      terms of that license. If you license the Adaptation under the
+      terms of any of the licenses mentioned in (i), (ii) or (iii)
+      (the "Applicable License"), you must comply with the terms of
+      the Applicable License generally and the following provisions:
+      (I) You must include a copy of, or the URI for, the Applicable
+      License with every copy of each Adaptation You Distribute or
+      Publicly Perform; (II) You may not offer or impose any terms on
+      the Adaptation that restrict the terms of the Applicable License
+      or the ability of the recipient of the Adaptation to exercise
+      the rights granted to that recipient under the terms of the
+      Applicable License; (III) You must keep intact all notices that
+      refer to the Applicable License and to the disclaimer of
+      warranties with every copy of the Work as included in the
+      Adaptation You Distribute or Publicly Perform; (IV) when You
+      Distribute or Publicly Perform the Adaptation, You may not
+      impose any effective technological measures on the Adaptation
+      that restrict the ability of a recipient of the Adaptation from
+      You to exercise the rights granted to that recipient under the
+      terms of the Applicable License. This Section 4(b) applies to
+      the Adaptation as incorporated in a Collection, but this does
+      not require the Collection apart from the Adaptation itself to
+      be made subject to the terms of the Applicable License.
+
+   c. If You Distribute, or Publicly Perform the Work or any
+      Adaptations or Collections, You must, unless a request has been
+      made pursuant to Section 4(a), keep intact all copyright notices
+      for the Work and provide, reasonable to the medium or means You
+      are utilizing: (i) the name of the Original Author (or
+      pseudonym, if applicable) if supplied, and/or if the Original
+      Author and/or Licensor designate another party or parties (e.g.,
+      a sponsor institute, publishing entity, journal) for attribution
+      ("Attribution Parties") in Licensor's copyright notice, terms of
+      service or by other reasonable means, the name of such party or
+      parties; (ii) the title of the Work if supplied; (iii) to the
+      extent reasonably practicable, the URI, if any, that Licensor
+      specifies to be associated with the Work, unless such URI does
+      not refer to the copyright notice or licensing information for
+      the Work; and (iv) , consistent with Ssection 3(b), in the case
+      of an Adaptation, a credit identifying the use of the Work in
+      the Adaptation (e.g., "French translation of the Work by
+      Original Author," or "Screenplay based on original Work by
+      Original Author"). The credit required by this Section 4(c) may
+      be implemented in any reasonable manner; provided, however, that
+      in the case of a Adaptation or Collection, at a minimum such
+      credit will appear, if a credit for all contributing authors of
+      the Adaptation or Collection appears, then as part of these
+      credits and in a manner at least as prominent as the credits for
+      the other contributing authors. For the avoidance of doubt, You
+      may only use the credit required by this Section for the purpose
+      of attribution in the manner set out above and, by exercising
+      Your rights under this License, You may not implicitly or
+      explicitly assert or imply any connection with, sponsorship or
+      endorsement by the Original Author, Licensor and/or Attribution
+      Parties, as appropriate, of You or Your use of the Work, without
+      the separate, express prior written permission of the Original
+      Author, Licensor and/or Attribution Parties.
+
+   d. Except as otherwise agreed in writing by the Licensor or as may
+      be otherwise permitted by applicable law, if You Reproduce,
+      Distribute or Publicly Perform the Work either by itself or as
+      part of any Adaptations or Collections, You must not distort,
+      mutilate, modify or take other derogatory action in relation to
+      the Work which would be prejudicial to the Original Author's
+      honor or reputation. Licensor agrees that in those jurisdictions
+      (e.g. Japan), in which any exercise of the right granted in
+      Section 3(b) of this License (the right to make Adaptations)
+      would be deemed to be a distortion, mutilation, modification or
+      other derogatory action prejudicial to the Original Author's
+      honor and reputation, the Licensor will waive or not assert, as
+      appropriate, this Section, to the fullest extent permitted by
+      the applicable national law, to enable You to reasonably
+      exercise Your right under Section 3(b) of this License (right to
+      make Adaptations) but not otherwise.
+
+5. Representations, Warranties and Disclaimer
+
+UNLESS OTHERWISE MUTUALLY AGREED TO BY THE PARTIES IN WRITING,
+LICENSOR OFFERS THE WORK AS-IS AND MAKES NO REPRESENTATIONS OR
+WARRANTIES OF ANY KIND CONCERNING THE WORK, EXPRESS, IMPLIED,
+STATUTORY OR OTHERWISE, INCLUDING, WITHOUT LIMITATION, WARRANTIES OF
+TITLE, MERCHANTIBILITY, FITNESS FOR A PARTICULAR PURPOSE,
+NONINFRINGEMENT, OR THE ABSENCE OF LATENT OR OTHER DEFECTS, ACCURACY,
+OR THE PRESENCE OF ABSENCE OF ERRORS, WHETHER OR NOT
+DISCOVERABLE. SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OF IMPLIED
+WARRANTIES, SO SUCH EXCLUSION MAY NOT APPLY TO YOU.
+
+6. Limitation on Liability.
+
+EXCEPT TO THE EXTENT REQUIRED BY APPLICABLE LAW, IN NO EVENT WILL
+LICENSOR BE LIABLE TO YOU ON ANY LEGAL THEORY FOR ANY SPECIAL,
+INCIDENTAL, CONSEQUENTIAL, PUNITIVE OR EXEMPLARY DAMAGES ARISING OUT
+OF THIS LICENSE OR THE USE OF THE WORK, EVEN IF LICENSOR HAS BEEN
+ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+7. Termination
+
+   a. This License and the rights granted hereunder will terminate
+      automatically upon any breach by You of the terms of this
+      License. Individuals or entities who have received Adaptations
+      or Collections from You under this License, however, will not
+      have their licenses terminated provided such individuals or
+      entities remain in full compliance with those licenses. Sections
+      1, 2, 5, 6, 7, and 8 will survive any termination of this
+      License.
+
+   b. Subject to the above terms and conditions, the license granted
+      here is perpetual (for the duration of the applicable copyright
+      in the Work). Notwithstanding the above, Licensor reserves the
+      right to release the Work under different license terms or to
+      stop distributing the Work at any time; provided, however that
+      any such election will not serve to withdraw this License (or
+      any other license that has been, or is required to be, granted
+      under the terms of this License), and this License will continue
+      in full force and effect unless terminated as stated above.
+
+8. Miscellaneous
+
+   a. Each time You Distribute or Publicly Perform the Work or a
+      Collection, the Licensor offers to the recipient a license to
+      the Work on the same terms and conditions as the license granted
+      to You under this License.
+
+   b. Each time You Distribute or Publicly Perform an Adaptation,
+      Licensor offers to the recipient a license to the original Work
+      on the same terms and conditions as the license granted to You
+      under this License.
+
+   c. If any provision of this License is invalid or unenforceable
+      under applicable law, it shall not affect the validity or
+      enforceability of the remainder of the terms of this License,
+      and without further action by the parties to this agreement,
+      such provision shall be reformed to the minimum extent necessary
+      to make such provision valid and enforceable.
+
+   d. No term or provision of this License shall be deemed waived and
+      no breach consented to unless such waiver or consent shall be in
+      writing and signed by the party to be charged with such waiver
+      or consent.
+
+   e. This License constitutes the entire agreement between the
+      parties with respect to the Work licensed here. There are no
+      understandings, agreements or representations with respect to
+      the Work not specified here. Licensor shall not be bound by any
+      additional provisions that may appear in any communication from
+      You. This License may not be modified without the mutual written
+      agreement of the Licensor and You.
+
+   f. The rights granted under, and the subject matter referenced, in
+      this License were drafted utilizing the terminology of the Berne
+      Convention for the Protection of Literary and Artistic Works (as
+      amended on September 28, 1979), the Rome Convention of 1961, the
+      WIPO Copyright Treaty of 1996, the WIPO Performances and
+      Phonograms Treaty of 1996 and the Universal Copyright Convention
+      (as revised on July 24, 1971). These rights and subject matter
+      take effect in the relevant jurisdiction in which the License
+      terms are sought to be enforced according to the corresponding
+      provisions of the implementation of those treaty provisions in
+      the applicable national law. If the standard suite of rights
+      granted under applicable copyright law includes additional
+      rights not granted under this License, such additional rights
+      are deemed to be included in the License; this License is not
+      intended to restrict the license of any rights under applicable
+      law.
+
+Creative Commons Notice
+
+Creative Commons is not a party to this License, and makes no warranty
+whatsoever in connection with the Work. Creative Commons will not be
+liable to You or any party on any legal theory for any damages
+whatsoever, including without limitation any general, special,
+incidental or consequential damages arising in connection to this
+license. Notwithstanding the foregoing two (2) sentences, if Creative
+Commons has expressly identified itself as the Licensor hereunder, it
+shall have all rights and obligations of Licensor.
+
+Except for the limited purpose of indicating to the public that the
+Work is licensed under the CCPL, Creative Commons does not authorize
+the use by either party of the trademark "Creative Commons" or any
+related trademark or logo of Creative Commons without the prior
+written consent of Creative Commons. Any permitted use will be in
+compliance with Creative Commons' then-current trademark usage
+guidelines, as may be published on its website or otherwise made
+available upon request from time to time. For the avoidance of doubt,
+this trademark restriction does not form part of the License.
+
+Creative Commons may be contacted at http://creativecommons.org/.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Este traballo está publicado baixo unha licenza Creative Commons Recoñecemento-CompartirIgual 3.0. Para ver unha copia desta licenza visite http://creativecommons.org/licenses/by-sa/3.0/ ou envíe unha carta a Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305, USA. Un resumo da licenza e proporcionado debaixo, seguido do texto legal completo. Se desexa distribuír parte ou todo este traballo baixo diferentes termos legais, por favor contacte co autor, Karl Fogel
+&amp;lt;kfogel@red-bean.com&amp;gt;.
+
+-*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
+
+Vostede é libre de:
+
+    * copiar, distribuír e comunicar publicamente a obra
+    * facer obras derivadas
+
+Baixo ás condicións seguintes:
+
+      * Recoñecemento — Debe recoñecer os créditos da obra do xeito especificado polo autor ou polo licenzador (pero non de xeito que suxira que ten o seu apoio ou apoian o uso que fan da súa obra).
+
+      * Compartir baixo a mesma licenza. — Se transforma ou modifica esta obra para crear unha obra derivada, só pode distribuír a obra resultante baixo a mesma licenza, unha similar ou unha compatíbel.
+
+      * Ao reutilizar ou distribuí-la obra, ten que deixar ben claro os termos da licenza desta obra. O mellor xeito de facer isto é incluír un enlace a esta páxina web
+      * Calquera das condicións anteriores pode ser alterada se vostede obtén permiso do posuidor do copyright
+       * Nada nesta licencia restrinxe ou dana os dereitos morais do autor.
+
+-*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
+
+Recoñecemento-CompartirIgual 3.0 España
+
+    CREATIVE COMMONS CORPORATION NON É UN DESPACHO DE AVOGADOS E NON PROPORCIONA SERVIZOS XURÍDICOS. A DISTRIBUCIÓN DESTA LICENZA NON CREA UNHA RELACIÓN AVOGADO-CLIENTE. CREATIVE COMMONS PROPORCIONA ESTA INFORMACIÓN TAL CAL (ON AN "AS-IS" BASIS). CREATIVE COMMONS NON CONFIRE NINGUNHA GARANTÍA RESPECTO DA INFORMACIÓN PROPORCIONADA, NIN ASUME NINGUNHA RESPONSABILIDADE POR DANOS PRODUCIDOS COMO CONSECUENCIA DO SEU USO.
+
+Licenza
+
+A OBRA OU A PRESTACIÓN (SEGUNDO SE DEFINE MÁIS ADIANTE) PROPORCIONASE BAIXO OS TERMOS DESTA LICENZA PÚBLICA DE CREATIVE COMMONS (CCPL OU LICENZA). A OBRA OU A PRESTACIÓN ESTÁ PROTEXIDA POLA LEI ESPAÑOLA DE PROPIEDADE INTELECTUAL E/OU CALQUERA OUTRA NORMA QUE RESULTE DE APLICACIÓN. ESTÁ PROHIBIDO CALQUERA USO DA OBRA OU PRESTACIÓN DIFERENTE AO AUTORIZADO POR ESTA LICENZA OU AO DISPOSTO NA LEI DE PROPIEDADE INTELECTUAL.
+
+POR MEDIO DO EXERCICIO DE CALQUERA DEREITO SOBRE A OBRA OU A PRESTACIÓN, VOSTEDE ACEPTA E CONSENTE AS LIMITACIÓNS E OBRIGAS DESTA LICENZA, SEN PREXUÍZO DA NECESIDADE DE CONSENTIMENTO EXPRESO EN CASO DE VIOLACIÓN PREVIA DOS SEUS TERMOS. O LICENCIADOR CÉDELLE OS DEREITOS CONTIDOS NESTA LICENZA, SEMPRE QUE VOSTEDE ACEPTE OS PRESENTES TERMOS E CONDICIÓNS.
+
+1. Definicións
+
+   1. A obra é a creación literaria, artística ou científica ofrecida nos termos desta licenza.
+   2. Nesta licenza considérase unha prestación calquera interpretación, execución, fonograma, gravación audiovisual, emisión ou transmisión, simple fotografía ou outros obxectos protexidos pola lexislación de propiedade intelectual vixente aplicábel.
+   3. A aplicación desta licenza a unha colección (definida máis adiante) afectaralle unicamente á súa estrutura en canto forma de expresión da selección ou disposición dos seus contidos, mais non é extensiva a estes. Neste caso a colección terá a consideración de obra para os efectos desta licenza.
+   4. O titular orixinario é:
+         1. No caso dunha obra literaria, artística ou científica, a persoa natural ou grupo de persoas que creou a obra.
+         2. No caso dunha obra colectiva, a persoa que a edite e divulgue baixo o seu nome, salvo pacto contrario.
+         3. No caso dunha interpretación ou execución, o actor, cantante, músico, ou calquera outra persoa que represente, cante, lea, recite, interprete ou execute de calquera forma unha obra.
+         4. No caso dun fonograma, o produtor fonográfico, é dicir, a persoa natural ou xurídica baixo a iniciativa e responsabilidade da cal se realiza por primeira vez unha fixación exclusivamente sonora da execución dunha obra ou doutros sons.
+         5. No caso dunha gravación audiovisual, o produtor da gravación, é dicir, a persoa natural ou xurídica que teña a iniciativa e asuma a responsabilidade das fixacións dun plano ou secuencia de imaxes, con ou sen son.
+         6. No caso dunha emisión ou dunha transmisión, a entidade de radiodifusión.
+         7. No caso dunha simple fotografía, aquela persoa que a realizou.
+         8. No caso doutros obxectos protexidos pola lexislación de propiedade intelectual vixente, a persoa que esta indique.
+   5. Consideraranse obras derivadas aquelas obras creadas a partir da licenciada, como por exemplo: as traducións e adaptacións; as revisións, actualizacións e anotacións; os compendios, resumos e extractos; os arranxos musicais e, en xeral, calquera transformación dunha obra literaria, artística ou científica. Para evitar a dúbida, se a obra consiste nunha composición musical ou gravación de sons, a sincronización temporal da obra cunha imaxe en movemento (synching) será considerada como unha obra derivada para os efectos desta licenza.
+   6. Terán a consideración de coleccións a compilación de obras alleas, de datos ou doutros elementos independentes como as antoloxías e as bases de datos que pola selección ou disposición dos seus contidos constitúan creacións intelectuais. A simple incorporación dunha obra nunha colección non dará lugar a unha derivada para os efectos desta licenza.
+   7. O licenciador é a persoa ou a entidade que ofrece a obra ou prestación nos termos desta licenza e lle concede os seus dereitos de explotación conforme o disposto nela.
+   8. Vostede é a persoa ou a entidade que exerce os dereitos concedidos mediante esta licenza e que non violou previamente os seus termos con respecto á obra ou á prestación, ou que recibiu o permiso expreso do licenciador para exercer os dereitos concedidos mediante esta licenza a pesar dunha violación anterior.
+   9. A transformación dunha obra comprende a súa tradución, adaptación e calquera outra modificación na súa forma da que se derive unha obra diferente. A creación resultante da transformación dunha obra terá a consideración de obra derivada.
+  10. Enténdese por reprodución a fixación directa ou indirecta, provisional ou permanente, por calquera medio e en calquera forma, de toda a obra ou a prestación ou de parte dela, que permita a súa comunicación ou a obtención de copias.
+  11. Enténdese por distribución a posta a disposición do público do orixinal ou das copias da obra ou da prestación, nun soporte tanxible, mediante a súa venda, alugueiro, préstamo ou de calquera outra forma.
+  12. Enténdese por comunicación pública todo acto polo cal unha pluralidade de persoas, que non pertenzan ao ámbito doméstico de quen a leva a cabo, poida ter acceso á obra ou á prestación sen previa distribución de exemplares a cada unha delas. Considérase comunicación pública a posta a disposición do público de obras ou prestacións por procedementos con fíos ou sen fíos, de tal forma que calquera persoa poida acceder a elas dende o lugar e no momento que elixa.
+  13. A explotación da obra ou a prestación comprende a reprodución, a distribución, a comunicación pública e, no seu caso, a transformación.
+  14. Os elementos da licenza son as características principais da licenza segundo a selección efectuada polo licenciador e indicadas no título desta licenza: Recoñecemento, CompartirIgual.
+  15. Unha licenza equivalente é:
+         1. Unha versión posterior desta licenza de Creative Commons cos mesmos elementos de licenza.
+         2. A mesma versión ou unha versión posterior desta licenza de calquera outra xurisdición recoñecida por Creative Commons cos mesmos elementos da licenza (exemplo: Recoñecemento-CompartirIgual 3.0 Xapón).
+         3. A mesma versión ou unha versión posterior da licenza de Creative Commons non adaptada a ningunha xurisdición (Unported) cos mesmos elementos da licenza.
+         4. Unha das licenzas compatíbeis que aparece en http://creativecommons.org/compatiblelicenses e que foi aprobada por Creative Commons como esencialmente equivalente a esta licenza porque, como mínimo:
+               1. Contén termos co mesmo propósito, o mesmo significado e o mesmo efecto que os elementos desta licenza.
+               2. Permite explicitamente que as obras derivadas de obras suxeitas a ela poidan ser distribuídas mediante esta licenza, a licenza de Creative Commons non adaptada a ningunha xurisdición (Unported) ou unha licenza de calquera outra xurisdición recoñecida por Creative Commons, cos seus mesmos elementos de licenza.
+
+2. Límites dos dereitos. Nada nesta licenza pretende reducir ou restrinxir calquera dos límites legais dos dereitos exclusivos do titular dos dereitos de propiedade intelectual de acordo coa Lei de Propiedade Intelectual ou calquera outra lei aplicábel, xa sexan derivados de usos lexítimos, tales como a copia privada ou a cita, ou outras limitacións como o resultante da primeira venda de exemplares (esgotamento).
+
+3. Concesión de licenza. Conforme os termos e ás condicións desta licenza, o licenciador concede, polo prazo de protección dos dereitos de propiedade intelectual e a título gratuíto, unha licenza de ámbito mundial non exclusiva que inclúe os seguintes dereitos:
+
+   1. Dereito de reprodución, distribución e comunicación pública da obra ou da prestación.
+   2. Dereito a incorporar a obra ou a prestación nunha ou máis coleccións.
+   3. Dereito de reprodución, distribución e comunicación pública da obra ou da prestación licitamente incorporada nunha colección.
+   4. Dereito de transformación da obra para crear unha obra derivada sempre e cando se inclúa nesta unha indicación da transformación ou modificación efectuada.
+   5. Dereito de reprodución, distribución e comunicación pública de obras derivadas creadas a partir da obra licenciada.
+   6. Dereito a extraer e reutilizar a obra ou a prestación dunha base de datos.
+   7. Para evitar calquera dúbida, o titular orixinario:
+         1. Conserva o dereito a percibir as remuneracións ou compensacións previstas por actos de explotación da obra ou prestación, cualificadas pola lei como irrenunciábeis e inalienábeis e suxeitas a xestión colectiva obrigatoria.
+         2. Renuncia ao dereito exclusivo a percibir, tanto individualmente como mediante unha entidade de xestión colectiva de dereitos, calquera remuneración derivada de actos de explotación da obra ou prestación que vostede realice.
+
+Estes dereitos pódense exercer en todos os medios e formatos, tanxíbeis ou intanxíbeis, coñecidos no momento da concesión desta licenza. Os dereitos mencionados inclúen o dereito a efectuar as modificacións que sexan precisas tecnicamente para o exercicio dos dereitos noutros medios e formatos. Todos os dereitos non concedidos expresamente polo licenciador quedan reservados, incluíndo a título enunciativo pero non limitativo, os dereitos morais irrenunciábeis recoñecidos pola lei aplicábel. Na medida en que o licenciador teña dereitos exclusivos previstos pola lei nacional vixente que implementa a directiva europea en materia de dereito sui generis sobre bases de datos, renuncia expresamente aos devanditos dereitos exclusivos.
+
+4. Restricións. A concesión de dereitos que supón esta licenza atópase suxeita e limitada ás restricións seguintes:
+
+   1. Vostede pode reproducir, distribuír ou comunicar publicamente a obra ou prestación soamente baixo os termos desta licenza e debe incluír unha copia dela, ou o seu Identificador Uniforme de Recurso (URI). Vostede non pode ofrecer ou impoñer ningunha condición sobre a obra ou prestación que altere ou restrinxa os termos desta licenza ou o exercicio dos seus dereitos por parte dos seus concesionarios. Vostede non pode sublicenciar a obra ou prestación. Vostede debe manter intactos todos os avisos que se refiran a esta licenza e á ausencia de garantías. Vostede non pode reproducir, distribuír ou comunicar publicamente a obra ou prestación con medidas tecnolóxicas que controlen o acceso ou o uso dun xeito contrario aos termos desta licenza. Esta sección 4.a tamén afecta á obra ou prestación incorporada nunha colección, pero iso non implica que esta no seu conxunto quede automaticamente ou deba quedar suxeita aos seus termos. No caso que lle sexa requirido, logo de comunicación do licenciador, se vostede incorpora a obra nunha colección e/ou crea unha obra derivada, deberá quitar calquera crédito requirido no apartado 4.c, na medida do posíbel.
+   2. Vostede pode distribuír ou comunicar publicamente unha obra derivada no sentido desta licenza soamente baixo os seus termos ou outra licenza equivalente. Se vostede emprega esta mesma licenza debe incluír unha copia ou ben o seu URI, con cada obra derivada que vostede distribúa ou comunique publicamente. Vostede non pode ofrecer ou impoñer ningún termo respecto á obra derivada que altere ou restrinxa os termos desta licenza ou o exercicio dos seus dereitos por parte dos seus concesionarios. Vostede debe manter intactos todos os avisos que se refiran a esta licenza e á ausencia de garantías cando distribúa ou comunique publicamente a obra derivada. Vostede non pode ofrecer ou impoñer ningún termo respecto das obras derivadas ou das súas transformacións que alteren ou restrinxan os termos desta licenza ou o exercicio dos seus dereitos por parte dos seus concesionarios. Vostede non pode reproducir, distribuír ou comunicar publicamente a obra derivada con medidas tecnolóxicas que controlen o acceso ou o uso da obra dun xeito contrario aos termos desta licenza. Se emprega unha licenza equivalente debe cumprir cos requisitos que esta estableza cando distribúa ou comunique publicamente a obra derivada. Todas estas condicións aplícanse a unha obra derivada en tanto que incorporada a unha colección, pero non implica que esta teña que estar suxeita aos termos desta licenza.
+   3. Se vostede reproduce, distribúe ou comunica publicamente a obra ou a prestación, unha colección que a incorpore ou calquera obra derivada, debe manter intactos todos os avisos sobre a propiedade intelectual e indicar, de xeito razoábel conforme ao medio ou aos medios que vostede estea a empregar:
+         1. O nome do autor orixinal, ou o pseudónimo se é o caso, así como o do titular orixinario, se lle é facilitado.
+         2. O nome daquelas partes (por exemplo: institución, publicación, revista) que o titular orixinario e/ou o licenciador designen para ser recoñecidos no aviso legal, as condicións de uso, ou de calquera outro xeito razoábel.
+         3. O título da obra ou da prestación se lle é facilitado.
+         4. O URI, se existe, que o licenciador especifique para ser vinculado á obra ou á prestación, a menos que tal URI non se refira ao aviso legal ou á información sobre a licenza da obra ou a prestación.
+         5. No caso dunha obra derivada, un aviso que identifique a transformación da obra na obra derivada (p. ex., "tradución galega da obra de Autor Orixinal, ou "guión baseado en obra orixinal de Autor Orixinal").
+      Este recoñecemento debe facerse de xeito razoábel. No caso dunha obra derivada ou incorporación nunha colección estes créditos deberán aparecer como mínimo no mesmo lugar onde se achen os correspondentes a outros autores ou titulares e de forma comparábel a estes. Para evitar a dúbida, os créditos requiridos nesta sección só serán empregados para os efectos de atribución da obra ou a prestación no xeito especificado anteriormente. Sen un permiso previo por escrito, vostede non pode afirmar nin dar a entender implicitamente nin explicitamente ningunha conexión, patrocinio ou aprobación por parte do titular orixinario, o licenciador e/ou as partes recoñecidas cara a vostede ou cara ao uso que fai da obra ou a prestación.
+   4. Para evitar calquera dúbida, debe facerse notar que as restricións anteriores (parágrafos 4.a, 4.b e 4.c) non son de aplicación a aquelas partes da obra ou a prestación obxecto desta licenza que unicamente poidan ser protexidas mediante o dereito sui generis sobre bases de datos recollido pola lei nacional vixente que transpoña a directiva europea de bases de datos.
+
+5. Ausencia de responsabilidade
+
+SALVO QUE SE CONVEÑA MUTUAMENTE DOUTRO XEITO POLAS PARTES, O LICENCIADOR OFRECE A OBRA OU A PRESTACIÓN TAL CAL (ON AN "AS-IS" BASIS) E NON CONFIRE NINGUNHA GARANTÍA DE NINGÚN TIPO RESPECTO DA OBRA OU DA PRESTACIÓN OU DA PRESENZA OU AUSENCIA DE ERROS QUE POIDAN OU NON SER DESCUBERTOS. ALGUNHAS XURISDICIÓNS NON PERMITEN A EXCLUSIÓN DAS DITAS GARANTÍAS, POLO QUE TAL EXCLUSIÓN PODE NON SERLLE DE APLICACIÓN A VOSTEDE.
+
+6. Limitación de responsabilidade. SALVO QUE O DISPOÑA EXPRESA E IMPERATIVAMENTE A LEI APLICÁBEL, EN NINGÚN CASO O LICENCIADOR SERÁ RESPONSÁBEL ANTE VOSTEDE POR CALQUERA DANO RESULTANTE, XERAL OU ESPECIAL (INCLUÍDO O DANO EMERXENTE E O LUCRO CESANTE), FORTUÍTOS OU CAUSAIS, DIRECTOS OU INDIRECTOS, PRODUCIDOS EN CONEXIÓN CON ESTA LICENZA OU O USO DA OBRA OU A PRESTACIÓN, MESMO SE O LICENCIADOR FOSE INFORMADO DA POSIBILIDADE DE TALES DANOS.
+
+7. Finalización da licenza
+
+   1. Esta licenza e a concesión dos dereitos que contén rematarán automaticamente en caso de calquera incumprimento dos seus termos. As persoas ou entidades que recibiran de vostede obras derivadas ou coleccións baixo esta licenza, non obstante, non verán as súas licenzas finalizadas, sempre que tales persoas ou entidades se manteñan no cumprimento íntegro desta licenza. As seccións 1, 2, 5, 6, 7 e 8 permanecerán vixentes malia calquera finalización desta licenza.
+   2. Conforme ás condicións e termos anteriores, a concesión de dereitos desta licenza é vixente por todo o prazo de protección dos dereitos de propiedade intelectual segundo a lei aplicábel. Malia o anterior, o licenciador resérvase o dereito a divulgar ou publicar a obra ou a prestación en condicións distintas ás presentes, ou de retirar a obra ou a prestación en calquera momento. Non obstante, iso non suporá dar por concluída esta licenza (ou calquera outra licenza que fose concedida, ou sexa necesario ser concedida, baixo os termos desta licenza), que continuará vixente e con efectos completos a non ser que finalizara conforme ao establecido anteriormente, sen prexuízo do dereito moral de arrepentimento nos termos recoñecidos pola Lei de Propiedade Intelectual aplicábel.
+
+8. Miscelánea
+
+   1. Cada vez que vostede realice calquera tipo de explotación da obra ou a prestación, ou dunha colección que a incorpore, o licenciador ofrece aos terceiros e sucesivos licenciatarios a concesión de dereitos sobre a obra ou a prestación nas mesmas condicións e termos que a licenza concedida a vostede.
+   2. Cada vez que vostede realice calquera tipo de explotación dunha obra derivada, o licenciador ofrécelle aos terceiros e sucesivos licenciatarios a concesión de dereitos sobre a obra obxecto desta licenza nas mesmas condicións e termos que a licenza concedida a vostede.
+   3. Se algunha disposición desta licenza resulta inválida ou inaplicábel segundo a Lei vixente, iso non afectará a validez ou aplicabilidade do resto dos termos desta licenza e, sen ningunha acción adicional por calquera das partes deste acordo, tal disposición entenderase reformada no estritamente necesario para facer que tal disposición sexa válida e executiva.
+   4. Non se entenderá que existe renuncia respecto de ningún termo ou disposición desta licenza, nin que se consente ningunha violación desta, a menos que tal renuncia ou consentimento figure por escrito e leve a sinatura da parte que renuncie ou consinta.
+   5. Esta licenza constitúe o acordo pleno entre as partes con respecto á obra ou a prestación obxecto da licenza. Non caben interpretacións, acordos ou condicións con respecto á obra ou a prestación que non se atopen expresamente especificados na presente licenza. O licenciador non estará obrigado por ningunha disposición complementaria que poida aparecer en calquera comunicación que faga chegar vostede. Esta licenza non se pode modificar sen o mutuo acordo por escrito entre o licenciador e vostede.
+
+    Aviso de Creative Commons
+
+    Creative Commons non é parte desta licenza, e non ofrece ningunha garantía en relación coa obra ou a prestación. Creative Commons non será responsábel fronte a vostede ou a calquera parte, por calquera danos resultantes, incluíndo, pero non limitando danos xerais ou especiais (incluído o dano emerxente e o lucro cesante), fortuítos ou causais, en conexión con esta licenza. Malia as dúas (2) oracións anteriores, se Creative Commons se identificou expresamente como o licenciador, terá todos os dereitos e obrigas do licenciador.
+
+    Agás para o propósito limitado de indicar ao público que a obra ou a prestación está licenciada baixo a CCPL, ningunha parte empregará a marca rexistrada "Creative Commons" ou calquera marca rexistrada ou insignia relacionada con "Creative Commons" sen o seu consentimento por escrito. Calquera uso permitido farase de conformidade coas pautas vixentes en cada momento sobre o uso da marca rexistrada por "Creative Commons", en tanto que sexan publicadas no seu sitio web (website) ou sexan proporcionadas por pedimento previo. Para evitar calquera dúbida, estas restricións no uso da marca non forman parte desta licenza.
+
+    Pode contactar con Creative Commons en: http://creativecommons.org/.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

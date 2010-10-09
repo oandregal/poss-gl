@@ -1,0 +1,1545 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit - po2tmx" creationtoolversion="1.8.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Packaging, Releasing, and Daily Development</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Empacotamento, liberación e dia a dia no desenvolvemento</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This chapter is about how free software projects package and release their software, and how overall development patterns organize around those goals.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Este capítulo trata sobre como os proxectos de software libre empacotan e liberan o seu software e de como os padróns de desenvolvemento globais se organizan en torno a eses obxectivos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>A major difference between open source projects and proprietary ones is the lack of centralized control over the development team. When a new release is being prepared, this difference is especially stark: a corporation can ask its entire development team to focus on an upcoming release, putting aside new feature development and non-critical bug fixing until the release is done. Volunteer groups are not so monolithic. People work on the project for all sorts of reasons, and those not interested in helping with a given release still want to continue regular development work while the release is going on. Because development doesn't stop, open source release processes tend to take longer, but be less disruptive, than commercial release processes. It's a bit like highway repair. There are two ways to fix a road: you can shut it down completely, so that a repair crew can swarm all over it at full capacity until the problem is solved, or you can work on a couple of lanes at a time, while leaving the others open to traffic. The first way is very efficient &lt;emphasis&gt;for the repair crew&lt;/emphasis&gt;, but not for anyone else&amp;mdash;the road is entirely shut down until the job is done. The second way involves much more time and trouble for the repair crew (now they have to work with fewer people and less equipment, in cramped conditions, with flaggers to slow and direct traffic, etc.), but at least the road remains useable, albeit not at full capacity.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>A maior diferenza entre os proxectos de software libre e os propietarios e a falta de control centralizado sobre o equipo de desenvolvemento. Cando unha nova versión está a ser preparada, esta diferencia é especialmente notable: unha corporación pode pedir a todo o seu equipo de desenvolvemento que se centre na versión que está a piques de ser lanzada, deixando de lado as novas funcionalidades e os erros que non son críticos ata que finalmente se lance a nova versión. Os grupos de voluntarios non son monolíticos. A xente traballa nun proxecto por moitas razóns diferentes, e aqueles que non están interesados en axudar no proceso de lanzamento da nova versión poden querer seguir colaborando no desenvolvemento mentres a nova versión está a piques de saír. Debido a que o desenvolvemento non para, o proceso de lanzamento de novas versión no software libre tende ser longo mais menos problemático que nos procesos comerciais. E similar a reparar unha autopista. Hai dúas maneiras de arranxar unha estrada, pódese pechar por completo de xeito que os operarios poidan traballar en toda ela por completo ata reparala toda ou pódese traballar nun par de faixas deixando outras abertas ao tránsito. A primeira forma é moi eficiente &lt;emphasis&gt;para os operarios&lt;/emphasis&gt;, mais para ninguén máis; a estrada fica totalmente pechada ata a finalización dos traballos. A segunda forma require moito máis tempo e dificultades para os operarios (agora eles teñen que traballar con menos xente e menos equipamento, con estreiteces, con sinais para reducir a velocidade do tránsito e dirixilo, etc.), mais polo menos a estrada permanece aberta, embora non por completo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Open source projects tend to work the second way. In fact, for a mature piece of software with several different release lines being maintained simultaneously, the project is sort of in a permanent state of minor road repair. There are always a couple of lanes closed; a consistent but low level of background inconvenience is always being tolerated by the development group as a whole, so that releases get made on a regular schedule.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Os proxectos de software libre tenden a traballar da segunda maneira. De feito, para un proxecto maduro con varias liñas diferentes de versións mantidas simultaneamente, o proxecto atópase permanentemente nun estado de reparacións menores na estrada. Hai sempre un par de faixas pechadas; un constante pero baixo nivel de inconvenientes é sempre soportado polo grupo de desenvolvemento coma unha molestia, para que a liberación das versións siga un ciclo regular.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The model that makes this possible generalizes to more than just releases. It's the principle of parallelizing tasks that are not mutually interdependent&amp;mdash;a principle that is by no means unique to open source development, of course, but one which open source projects implement in their own particular way. They cannot afford to annoy either the roadwork crew or the regular traffic too much, but they also cannot afford to have people dedicated to standing by the orange cones and flagging traffic along. Thus they gravitate toward processes that have flat, constant levels of administrative overhead, rather than peaks and valleys. Volunteers are generally willing to work with small but consistent amounts of inconvenience; the predictability allows them to come and go without worrying about whether their schedule will clash with what's happening in the project. But if the project were subject to a master schedule in which some activities excluded other activities, the result would be a lot of developers sitting idle a lot of the time&amp;mdash;which would be not only inefficient but boring, and therefore dangerous, in that a bored developer is likely to soon be an ex-developer.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>O modelo que posibilita isto xeneralízase a algo máis que só a liberación de versións. É o principio de paralelización de tarefas que non son interdependentes&amp;mdash; un principio que de ningún modo é exclusivo para o desenvolvemento de software libre, por suposto, mais que é implementado no software libre dun xeito particular. Non se pode asumir molestar demasiado os homes que traballan na estrada nin o tránsito, mais tampouco se pode permitir ter xente tras os conos laranxas dirixindo o tráfico con bandeiras. Así, gravitan en torno a procesos que teñen niveis planos e constantes de esforzo de administración en troca de altos e baixos. Os voluntarios xeralmente están dispostos a traballar con cantidades de inconvenientes pequenas mais coherentes; a previsibilidade permítelles ir e vir sen se preocuparen de se as súas planificacións entran en conflito co que ocorre no proxecto. Mais se o proxecto estiver suxeito a unha planificación mestra na cal unhas actividades exclúen a outras, o resultado sería desenvolvedores perdendo tempo &amp;mdash; que sería, non só ineficiente, senón aburrido, e por tanto perigoso, xa que un desenvolvedor aburrido está perto de se converter nun ex-desenvolvedor.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Release work is usually the most noticeable non-development task that happens in parallel with development, so the methods described in the following sections are geared mostly toward enabling releases. However, note that they also apply to other parallelizable tasks, such as translations and internationalization, broad API changes made gradually across the entire code base, etc.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>O traballo de lanzamento de novas versións é xeralmente a tarefa de non desenvolvemento máis perceptible que sucede en paralelo co desenvolvemento, polo tanto os métodos que se describen nas seguintes seccións están concibidos maioritariamente para posibilitar as novas versións. Porén, nótese que estes deben ser aplicados paralelamente con outras tarefas, como a tradución e internacionalización, mudanzas claras na API feitos gradualmente a través do código base, etc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Release Numbering</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Numeración de versións</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Before we talk about how to make a release, let's look at how to name releases, which requires knowing what releases actually mean to users. A release means that:</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Antes de falar sobre como facer unha versión, imos ver como nomear as versións, o cal require coñecer o que as versións queren dicir para os usuarios. Unha versión quere dicir que:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Old bugs have been fixed. This is probably the one thing users can count on being true of every release.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Vellos erros foron resoltos. Isto é probablemente unha das cousas que os usuarios esperan en cada versión.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>New bugs have been added. This too can usually be counted on, except sometimes in the case of security releases or other one-offs (see &lt;xref linkend="security-releases"/&gt;&lt;phrase output="printed"&gt; later in this chapter&lt;/phrase&gt;).</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Novos erros foron engadidos. Con isto sóese contar tamén, excepto algunhas veces no caso de versións de seguridade ou outras que só saen unha vez (ver &lt;xref linkend="security-releases"/&gt;&lt;phrase output="printed"&gt; máis adiante neste capítulo&lt;/phrase&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>New features may have been added.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Novas funcionalidades puideron ser engadidas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>New configuration options may have been added, or the meanings of old options may have changed subtly. The installation procedures may have changed slightly since the last release too, though one always hopes not.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Novas opcións de configuración puideron ser engadidas, ou o significado de vellas opcións puido mudar sutilmente. A instalación de procedementos puido mudar lixeiramente desde a última versión tamén, embora sempre se espere que non.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Incompatible changes may have been introduced, such that the data formats used by older versions of the software are no longer useable without undergoing some sort of (possibly manual) one-way conversion step.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Mudanzas incompatibles poden ser introducidas, por exemplo o formato dos datos usados por versións anteriores do software xa non son usables sen ningún tipo de conversión (posiblemente manual).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>As you can see, not all of these are good things. This is why experienced users approach new releases with some trepidation, especially when the software is mature and was already mostly doing what they wanted (or thought they wanted). Even the arrival of new features is a mixed blessing, in that it may mean the software will now behave in unexpected ways.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Como se pode ver, non todas estas cousas son boas. Isto é polo que os usuarios experimentados solicitan novas versións con algo de inquietude, especialmente cando o software é maduro e xa fai case todo o que eles queren (ou pensan que queren). Mesmo a chegada de novas funcionalidades é unha beizón a medias, xa que pode causar que o software se comporte agora de xeito inesperado. </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The purpose of release numbering, therefore, is twofold: obviously the numbers should unambiguously communicate the ordering of releases (i.e., by looking at any two releases' numbers, one can know which came later), but also they should indicate as compactly as possible the degree and nature of the changes in the release.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>O propósito da numeración de versións, polo tanto, é dupla: obviamente os números deben comunicar sen ambigüidade a orde das versións (por exemplo, ollando os números de dúas versións, un debe poder saber cal vén despois), mais ademais deben indicar do xeito máis compacto posible o nivel e natureza das mudanzas na versión.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>All that in a number? Well, more or less, yes. Release numbering strategies are one of the oldest bikeshed discussions around (see &lt;xref linkend="bikeshed"/&gt;&lt;phrase output="printed"&gt; in &lt;xref linkend="communications"/&gt;&lt;/phrase&gt;), and the world is unlikely to settle on a single, complete standard anytime soon. However, a few good strategies have emerged, along with one universally agreed-on principle: &lt;emphasis&gt;be consistent&lt;/emphasis&gt;. Pick a numbering scheme, document it, and stick with it. Your users will thank you.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Todo iso nun número? Ben, máis ou menos, si. As estratexias de numeración de versións son unha das vellas discusións (ver &lt;xref linkend="bikeshed"/&gt;&lt;phrase output="printed"&gt; en &lt;xref linkend="communications"/&gt;&lt;/phrase&gt;), e é pouco probable que se atope unha solución sinxela, completa e estándar. Porén, existen unhas poucas boas estratexias, xunto cun principio universal: &lt;emphasis&gt;ser coherente&lt;/emphasis&gt;. Escoler un esquema numérico, documentalo e mantelo. Os usuarios agradecerano.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Release Number Components</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Compoñentes numéricos da versión</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This section describes the formal conventions of release numbering in detail, and assumes very little prior knowledge. It is intended mainly as a reference. If you're already familiar with these conventions, you can skip this section.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Esta sección describe as convencións formais da numeración das versións en detalle, e asume moi poucos coñecementos previos. Está prevista principalmente coma unha referencia. Se xa estás familiarizado con estas convencións, podes saltar esta sección.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Release numbers are groups of digits separated by dots:</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>A numeración de versións son grupos de díxitos separados por puntos:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Scanley 2.3
+Singer 5.11.4</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Scanley 2.3
+Singer 5.11.4</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>...and so on. The dots are &lt;emphasis&gt;not&lt;/emphasis&gt; decimal points, they are merely separators; "5.3.9" would be followed by "5.3.10". A few projects have occasionally hinted otherwise, most famously the Linux kernel with its "0.95", "0.96"... "0.99" sequence leading up to Linux 1.0, but the convention that the dots are not decimals is now firmly established and should be considered a standard. There is no limit to the number of components (digit portions containing no dots), but most projects do not go beyond three or four. The reasons why will become clear later.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>...etc. Os puntos &lt;emphasis&gt;non&lt;/emphasis&gt; representan decimais, son meros separadores; "5.3.9" iría seguido de "5.3.10". Uns poucos proxectos son etiquetados de forma diferente, o máis famoso é o kernel de Linux coas súas secuencias "0.95", "0.96"... "0.99" ata Linux 1.0, mais a convención de que eses puntos non son decimais é agora firmemente establecida e debería ser considerada estándar. Non hai límites sobre o número de compoñentes (porción de díxitos que non conteñen puntos), mais a maioría dos proxectos non teñen máis de tres ou catro. A razón é para que sexan máis comprensibles.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In addition to the numeric components, projects sometimes tack on a descriptive label such as "Alpha" or "Beta" (see &lt;xref linkend="alpha-and-beta"/&gt;), for example:</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Ademais dos compoñentes numéricos, os proxectos ás veces engaden unha etiqueta descritiva como "Alpha" ou "Beta" (ver &lt;xref linkend="alpha-and-beta"/&gt;), por exemplo:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Scanley 2.3.0 (Alpha)
+Singer 5.11.4 (Beta)</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Scanley 2.3.0 (Alpha)
+Singer 5.11.4 (Beta)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>An Alpha or Beta qualifier means that this release &lt;emphasis&gt;precedes&lt;/emphasis&gt; a future release that will have the same number without the qualifier. Thus, "2.3.0&amp;nbsp;(Alpha)" leads eventually to "2.3.0". In order to allow several such candidate releases in a row, the qualifiers themselves can have meta-qualifiers. For example, here is a series of releases in the order that they would be made available to the public:</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Unha cualificación Alpha ou Beta quere dicir que esta versión &lt;emphasis&gt;precede&lt;/emphasis&gt; a unha futura versión que terá o mesmo número mais sen o cualificador. De esta maneira, "2.3.0&amp;nbsp;(Alpha)" conduce finalmente a "2.3.0". Para permitir tanta cantidade de versións distintas, os cualificadores teñen eles mesmos meta-cualificadores. Por exemplo, aquí hai unha serie de versións que estarían dispoñibles para o público:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Scanley 2.3.0 (Alpha 1)
+Scanley 2.3.0 (Alpha 2)
+Scanley 2.3.0 (Beta 1)
+Scanley 2.3.0 (Beta 2)
+Scanley 2.3.0 (Beta 3)
+Scanley 2.3.0</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Scanley 2.3.0 (Alpha 1)
+Scanley 2.3.0 (Alpha 2)
+Scanley 2.3.0 (Beta 1)
+Scanley 2.3.0 (Beta 2)
+Scanley 2.3.0 (Beta 3)
+Scanley 2.3.0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Notice that when it has the "Alpha" qualifier, Scanley "2.3" is written as "2.3.0". The two numbers are equivalent&amp;mdash;trailing all-zero components can always be dropped for brevity&amp;mdash;but when a qualifier is present, brevity is out the window anyway, so one might as well go for completeness instead.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Nótese que cando ten o cualificador "Alpha", Scanley "2.3" escríbese como "2.3.0". Os dous números son equivalentes&amp;mdas; os compoñentes que son ceros poden ser eliminados por brevidade&amp;mdash; mais cando un cualificador está presente, a brevidade non serve para nada, polo que debe poñerse completo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Other qualifiers in semi-regular use include "Stable", "Unstable", "Development", and "RC" (for "Release Candidate"). The most widely used ones are still "Alpha" and "Beta", with "RC" running a close third place, but note that "RC" always includes a numeric meta-qualifier. That is, you don't release "Scanley&amp;nbsp;2.3.0&amp;nbsp;(RC)", you release "Scanley&amp;nbsp;2.3.0&amp;nbsp;(RC&amp;nbsp;1)", followed by RC2, etc.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Outros cualificadores que soen ser empregados son "Estable", "Inestable", "Desenvolvemento", e "RC" (para "Versión Candidata"). Os máis comunmente empregados son "Alpha" e "Beta", con "RC" moi perto no terceiro posto, mais nótese que "RC" sempre inclúe un meta-cualificador numérico. Isto é, non liberas a versión "Scanley&amp;nbsp;2.3.0&amp;nbsp;(RC)" liberas "Scanley&amp;nbsp;2.3.0&amp;nbsp;(RC&amp;nbsp;1)"), seguido da RC2, etc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Those three labels, "Alpha", "Beta", and "RC", are pretty widely known now, and I don't recommend using any of the others, even though the others might at first glance seem like better choices because they are normal words, not jargon. But people who install software from releases are already familiar with the big three, and there's no reason to do things gratuitously differently from the way everyone else does them.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Esas tres etiquetas, "Alpha", "Beta", e "RC", son bastante máis coñecidas agora, e non recomendo usar ningunha outra, mesmo pensando que as outras poden parecer mellores a primeira vista porque son palabras normais, non xíria. Mais a xente que instala software desde versións está xa familiarizado coas tres, e non hai razón para facer as cousas de maneira distinta daquela que a xente coñece porque si.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Although the dots in release numbers are not decimal points, they do indicate place-value significance. All "0.X.Y" releases precede "1.0" (which is equivalent to "1.0.0", of course). "3.14.158" immediately precedes "3.14.159", and non-immediately precedes "3.14.160" as well as "3.15.anything", and so.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Embora os puntos nos números da versión non sexan puntos decimais, a súa posición ten significado. Todas as versións "0.X.Y" preceden á "1.0" (a cal equivale a "1.0.0", por suposto). "3.14.158" inmediatamente preceden á "3.14.159", e non inmediatamente precede á "3.14.160" así como tamén á "3.15.algo", e así.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>A consistent release numbering policy enables a user to look at two release numbers for the same piece of software and tell, just from the numbers, the important differences between those two releases. In a typical three-component system, the first component is the &lt;firstterm&gt;major&amp;nbsp;number&lt;/firstterm&gt;, the second is the &lt;firstterm&gt;minor&amp;nbsp;number&lt;/firstterm&gt;, and the third is the &lt;firstterm&gt;micro&amp;nbsp;number&lt;/firstterm&gt;. For example, release "2.10.17" is the seventeenth micro release in the tenth minor release line within the second major release series. The words "line" and "series" are used informally here, but they mean what one would expect. A major series is simply all the releases that share the same major number, and a minor series (or minor line) consists of all the releases that share the same minor &lt;emphasis&gt;and&lt;/emphasis&gt; major number. That is, "2.4.0" and "3.4.1" are not in the same minor series, even though they both have "4" for their minor number; on the other hand, "2.4.0" and "2.4.2" are in the same minor line, though they are not adjacent if "2.4.1" was released between them.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Unha política de numeración de versións coherente permite o usuario ver dous números de versión para a mesma peza de software e detectar, en base aos números, as importantes diferenzas entre esas dúas versións. Nun típico sistema de tres compoñentes, o primeiro é o número &lt;firstterm&gt;maior&amp;nbsp;&lt;/firstterm&gt;, o segundo e o número &lt;firstterm&gt;menor&amp;nbsp;&lt;/firstterm&gt;, e o terceiro é o número &lt;firstterm&gt;micro&amp;nbsp&lt;/firstterm&gt;. Por exemplo, a versión "2.10.17" é a décimo sétima micro versión na décima liña de versión menor dentro da segunda serie de versións maiores. As palabras "liña" e "series" son empregadas informalmente aquí, mais teñen o significado que un esperaría. A serie maior é simplemente todas as versións que comparten o mesmo número maior, e a serie menor (ou liña menor) componse de todas as versións que comparten o número menor &lt;emphasis&gt;e&lt;/emphasis&gt; o número maior. Isto é, "2.4.0" e "3.4.1" non están na mesma serie menor, embora compartan o "4" como número menor; por outra banda, "2.4.0" e "2.4.2" están na mesma liña menor, pensando que non son adxacentes se a "2.4.1" foi lanzada entre elas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The meanings of these numbers are exactly what you'd expect: an increment of the major number indicates that major changes happened; an increment of the minor number indicates minor changes; and an increment of the micro number indicates really trivial changes. Some projects add a fourth component, usually called the &lt;firstterm&gt;patch&amp;nbsp;number&lt;/firstterm&gt;, for especially fine-grained control over the differences between their releases (confusingly, other projects use "patch" as a synonym for "micro" in a three-component system). There are also projects that use the last component as a &lt;firstterm&gt;build&amp;nbsp;number&lt;/firstterm&gt;, incremented every time the software is built and representing no change other than that build. This helps the project link every bug report with a specific build, and is probably most useful when binary packages are the default method of distribution.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>O significados de estes números son exactamente o que se esperaría: un incremento do número maior indica que ocorreron mudanzas maiores; un incremento do número menor indica mudanzas menores; e un incremento do número micro indica mudanzas realmente triviais. Algúns proxectos engaden un cuarto compoñente, chamado habitualmente o &lt;firstterm&gt;patch&amp;nbsp;número&lt;/firstterm&gt;, para un control moi especializado sobre as diferenzas entre as súas versións (confusamente, outros proxectos usan "patch" coma un sinónimo para "micro" nun sistema de tres compoñentes). Hai tamén proxectos que usan a última compoñente como &lt;firstterm&gt;build&amp;nbsp;número&lt;/firstterm&gt;, incrementado cada vez que o software é compilado e sen representar ningún outra mudanza. Isto axuda ao proxecto a enlazar calquera erro atopado cunha compilación específica, e é probablemente máis útil cando os pacotes binarios son o método por defecto de distribución.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Although there are many different conventions for how many components to use, and what the components mean, the differences tend to be minor&amp;mdash;you get a little leeway, but not a lot. The next two sections discuss some of the most widely used conventions.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Embora haxa moitas convencións diferentes sobre cantos compoñentes empregar, e sobre o que os compoñentes significan, as diferenzas tenden a ser pequenas&amp;mdash; podes ter un pouco de flexibilidade, mais non moita. As próximas dúas seccións tratan sobre as convencións máis empregadas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The Simple Strategy</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>A estratexia simple</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Most projects have rules about what kinds of changes are allowed into a release if one is only incrementing the micro number, different rules for the minor number, and still different ones for the major number. There is no set standard for these rules yet, but here I will describe a policy that has been used successfully by multiple projects. You may want to just adopt this policy in your own project, but even if you don't, it's still a good example of the kind of information release numbers should convey. This policy is adapted from the numbering system used by the APR project, see &lt;ulink url="http://apr.apache.org/versioning.html"&gt;&lt;/ulink&gt;.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>A maioría dos proxectos teñen regras sobre que tipo de mudanzas son permitidas nunha versión se só se incrementa o micro número, regras diferentes para o número menor, e diferentes tamén para o número maior. Non hai un estándar para estas regras aínda, mais aquí farei unha descrición da política que foi adoptada con éxito por moitos proxectos. Ti podes querer simplemente adoptar esta política no teu propio proxecto, mais mesmo se non, é un bo exemplo de que tipo de información deberían dar os números de versións. Esta política está adaptada dende o sistema de numeración usado polo proxecto APR, ver &lt;ulink url="http://apr.apache.org/versioning.html"&gt;&lt;/ulink&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Changes to the micro number only (that is, changes within the same minor line) must be both forward- and backward-compatible. That is, the changes should be bug fixes only, or very small enhancements to existing features. New features should not be introduced in a micro release.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Mudar o número micro só (isto é, mudanzas na liña menor) deben implicar compatibilidade tanto cara a adiante coma cara a atrás. Isto é, as mudanzas deberían resolver erros soamente, ou moi pequenas melloras en funcionalidades existentes. Novas funcionalidades non deberían ser introducidas nunha micro versión.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Changes to the minor number (that is, within the same major line) must be backward-compatible, but not necessarily forward-compatible. It's normal to introduce new features in a minor release, but usually not too many new features at once.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Mudanzas no número menor (isto é, dentro da mesma liña maior) deben ser compatibles cara a atrás, mais non necesariamente cara a adiante. É normal introducir novas funcionalidades nunha versión menor, mais xeralmente non moitas ao mesmo tempo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Changes to the major number mark compatibility boundaries. A new major release can be forward- and backward-incompatible. A major release is expected to have new features, and may even have entire new feature sets.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Mudanzas no número maior marcan unha fronteira na compatibilidade. Unha versión maior pode ser incompatible cara a adiante e cara a atrás. Dunha versión maior espérase que teña novas funcionalidades, e pode mesmo ter un novo xogo de funcionalidades.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>What &lt;firstterm&gt;backward-compatible&lt;/firstterm&gt; and &lt;firstterm&gt;forward-compatible&lt;/firstterm&gt; mean, exactly, depends on what your software does, but in context they are usually not open to much interpretation. For example, if your project is a client/server application, then "backward-compatible" means that upgrading the server to 2.6.0 should not cause any existing 2.5.4 clients to lose functionality or behave differently than they did before (except for bugs that were fixed, of course). On the other hand, upgrading one of those clients to 2.6.0, along with the server, might make &lt;emphasis&gt;new&lt;/emphasis&gt; functionality available for that client, functionality that 2.5.4 clients don't know how to take advantage of. If that happens, then the upgrade is &lt;emphasis&gt;not&lt;/emphasis&gt; "forward-compatible": clearly you can't now downgrade that client back to 2.5.4 and keep all the functionality it had at 2.6.0, since some of that functionality was new in 2.6.0.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>O que quere dicir ser &lt;firstterm&gt;compatible cara a atrás&lt;/firstterm&gt; e &lt;firstterm&gt;compatible cara a adiante&lt;/firstterm&gt; depende do que o software faga, mais en contexto xeralmente non están abertas a moita interpretación. Por exemplo, se o teu proxecto for unha aplicación tipo cliente/servidor, entón "compatibilidade cara a atrás" significa que actualizando o servidor á versión 2.6.0 non debería causar perda de funcionalidade ou comportamento diferente en clientes existentes 2.5.4 (excepto para os erros que fosen resoltos, por suposto). Por outra banda, actualizar un dos clientes á versión 2.6.0, xunto co servidor, poden ter &lt;emphasis&gt;novas&lt;/emphasis&gt; funcionalidades dispoñibles para ese cliente, funcionalidades das que os clientes 2.5.4 no saben como tirar partido. Se isto suceder, entón a actualización &lt;emphasis&gt;non&lt;/emphasis&gt; é "compatible cara a adiante": claramente ti non podes agora desactualizar o cliente de novo á 2.5.4 e manter toda a funcionalidade que tiña coa 2.6.9, xa que algunhas desas funcionalidades eran novas na 2.6.0.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This is why micro releases are essentially for bug fixes only. They must remain compatible in both directions: if you upgrade from 2.5.3 to 2.5.4, then change your mind and downgrade back to 2.5.3, no functionality should be lost. Of course, the bugs fixed in 2.5.4 would reappear after the downgrade, but you wouldn't lose any features, except insofar as the restored bugs prevent the use of some existing features.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Isto é polo que as micro versións son esencialmente para arranxar erros. Deben manter a compatibilidade en ambas direccións: se actualizares da 2.5.3 á 2.5.4, despois mudares de opinión en voltares a 2.5.3, non deberías perder ningunha funcionalidade, agás no caso de que os erros restaurados non posibilitaren o uso de algunhas funcionalidades existentes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Client/server protocols are just one of many possible compatibility domains. Another is data formats: does the software write data to permanent storage? If so, the formats it reads and writes need to follow the compatibility guidelines promised by the release number policy. Version 2.6.0 needs to be able to read the files written by 2.5.4, but may silently upgrade the format to something that 2.5.4 cannot read, because the ability to downgrade is not required across a minor number boundary. If your project distributes code libraries for other programs to use, then APIs are a compatibility domain too: you must make sure that source and binary compatibility rules are spelled out in such a way that the informed user need never wonder whether or not it's safe to upgrade in place. She will be able to look at the numbers and know instantly.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Os protocolos cliente/servidor son un dos moitos posibles dominios. Outro é o formato dos datos: o software escribe os datos nun almacenamento permanente? Se o fai, os formatos de lectura e escritura precisan seguir as liñas de compatibilidade prometidas pola política de numeración das versións. A versión 2.6.0 precisa ser capaz de ler os ficheiros escritos coa versión 2.5.4, mais pode silenciosamente actualizar o formato a algo que a 2.5.4 non pode ler, porque a habilidade de voltar a unha versión anterior non é requirida máis alá do límite que marca o número menor. Se o teu proxecto distribuír bibliotecas de código para que usen outros programas, entón as APIs serán un dominio compatible tamén: debes asegurarte de que as regras de compatibilidade de código e binaria son explicadas de forma que o usuario non precise preguntarse se a actualización vai ser segura ou non. Deberá ser capaz de ver os números de versións e sabelo ao instante.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In this system, you don't get a chance for a fresh start until you increment the major number. This can often be a real inconvenience: there may be features you wish to add, or protocols that you wish to redesign, that simply cannot be done while maintaining compatibility. There's no magic solution to this, except to try to design things in an extensible way in the first place (a topic easily worth its own book, and certainly outside the scope of this one). But publishing a release compatibility policy, and adhering to it, is an inescapable part of distributing software. One nasty surprise can alienate a lot of users. The policy just described is good partly because it's already quite widespread, but also because it's easy to explain and to remember, even for those not already familiar with it.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Neste sistema, non tes unha oportunidade de partir de cero ata que incrementas o número maior. Isto pode a miúdo ser un inconveniente: pode haber funcionalidades que desexes engadir, ou protocolos que desexes redeseñar, que simplemente non poden ser feitos mentres se mantén a compatibilidade. Non hai unha solución máxica para isto, agás tentar deseñar as cousas de xeito extensible ao principio (un tema que merecería un libro, e certamente se escapa do ámbito deste). Mais publicar unha política de compatibilidade de versións, e adherirse a ela, e unha parte imprescindible da distribución de software. Unha desagradable sorpresa pode distanciar unha chea de usuarios. A política descrita é boa parcialmente porque está bastante estendida, mais tamén porque é fácil de explicar e recordar, mesmo para aqueles que aínda non estiveren familiarizados con ela.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It is generally understood that these rules do not apply to pre-1.0 releases (although your release policy should probably state so explicitly, just to be clear). A project that is still in initial development can release 0.1, 0.2, 0.3, and so on in sequence, until it's ready for 1.0, and the differences between those releases can be arbitrarily large. Micro numbers in pre-1.0 releases are optional. Depending on the nature of your project and the differences between the releases, you might find it useful to have 0.1.0, 0.1.1, etc., or you might not. Conventions for pre-1.0 release numbers are fairly loose, mainly because people understand that strong compatibility constraints would hamper early development too much, and because early adopters tend to be forgiving anyway.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Habitualmente asúmese que estas regras non se aplican as versións previas a 1.0 (aínda que a túa política de versións debería probablemente ser explícita, simplemente para ser clara). Un proxecto que está aínda nun desenvolvemento inicial pode ter versións 0.1, 0.2, 0.3, e así en secuencia, ata que estiver listo para a 1.0, e as diferenzas entre esas versións poden ser arbitrariamente grandes. Os micro números en versións anteriores a 1.0 son opcionais. Dependendo da natureza do proxecto e das diferenzas entre as versións, podes atopar útil ter 0.1.0, 0.1.1, etc, ou pode que non. As convencións para as versións anteriores a 1.0 están bastante perdidas, probablemente porque a xente entende que manter unha forte compatibilidade pode comprometer demasiado o desenvolvemento inicial do proxecto, e porque os que as adoptan tenden a esquecelas de calquera xeito.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Remember that all these injunctions only apply to this particular three-component system. Your project could easily come up with a different three-component system, or even decide it doesn't need such fine granularity and use a two-component system instead. The important thing is to decide early, publish exactly what the components mean, and stick to it.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Lembra que todas estas regras son aplicables só a este particular sistema do terceiro compoñente. O teu proxecto podería facilmente empregar un sistema diferente de tres compoñentes, ou mesmo decidir que non precisa tanta atomización e empregar un sistema con dous compoñentes. O importante é decidir cedo, publicar exactamente o que os compoñentes queren dicir, e manter a decisión.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The Even/Odd Strategy</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>A estratexia par/impar</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Some projects use the parity of the minor number component to indicate the stability of the software: even means stable, odd means unstable. This applies only to the minor number, not the major and micro numbers. Increments in the micro number still indicate bug fixes (no new features), and increments in the major number still indicate big changes, new feature sets, etc.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Algúns proxectos usan a paridade do número menor para indicaren a estabilidade do software: par quere dicir estable, impar inestable. Isto aplícase só ao número menor, non ao maior e ao micro. Os incrementos no número micro indican aínda erros arranxados (non novas funcionalidades), e incrementos no número maior indican aínda grandes mudanzas, novos xogos de funcionalidades, etc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The advantage of the even/odd system, which has been used by the Linux kernel project among others, is that it offers a way to release new functionality for testing without subjecting production users to potentially unstable code. People can see from the numbers that "2.4.21" is okay to install on their live web server, but that "2.5.1" should probably stay confined to home workstation experiments. The development team handles the bug reports that come in from the unstable (odd-minor-numbered) series, and when things start to settle down after some number of micro releases in that series, they increment the minor number (thus making it even), reset the micro number back to "0", and release a presumably stable package.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>As vantaxes do sistema par/impar, o cal é empregado polo kernel de Linux entre outros, ofrece unha forma de liberar versións con novas funcionalidades para testar sen que os usuarios teñan que empregar código inestable. A xente pode ver polos números que "2.4.21" está ben para instalar no seu servidor web, mais a "2.5.1" debería probablemente permanecer confinada para os seus experimentos locais. O equipo de desenvolvemento manexa os informes de erros que veñen das series inestables (as que ten o número menor impar), e cando as cousas empezan a calmarse despois de varias micro versións nesas series, incrementan o número menor, resetean o número micro a "0", e liberan a versión presumiblemente estable do pacote.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This system preserves, or at least, does not conflict with, the compatibility guidelines given earlier. It simply overloads the minor number with some extra information. This forces the minor number to be incremented about twice as often as would otherwise be necessary, but there's no great harm in that. The even/odd system is probably best for projects that have very long release cycles, and which by their nature have a high proportion of conservative users who value stability above new features. It is not the only way to get new functionality tested in the wild, however. &lt;xref linkend="stabilizing-a-release"/&gt;&lt;phrase output="printed"&gt; later in this chapter&lt;/phrase&gt; describes another, perhaps more common, method of releasing potentially unstable code to the public, marked so that people have an idea of the risk/benefit trade-offs immediately on seeing the release's name.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Este sistema preserva, ou polo menos, non entra en conflito con, as liñas de compatibilidade dadas anteriormente. Simplemente sobrecarga o número menor con algo de información extra. Isto forza a incrementar o número menor dúas veces tan a miúdo como por outra parte sería necesario, mais non hai maior dano en iso. O sistema par/impar é probablemente mellor para proxectos que teñen ciclos de versións moi longos, os cales pola súa natureza teñen unha alta proporción de usuarios fixos que valoran máis a estabilidade que as novas funcionalidades. Esta non é a única forma de probar novas funcionalidades durante o proceso, porén &lt;xref linkend="stabilizing-a-release"/&gt;&lt;phrase output="printed"&gt; máis tarde neste capitulo&lt;/phrase&gt; describe outra forma, quizais máis común, un método de liberar versións potencialmente inestables ao público, avisando a xente para que saiban o risco/beneficio inmediatamente ao veren o nome da versión.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Release Branches</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Ramas de versións</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>From a developer's point of view, a free software project is in a state of continuous release. Developers usually run the latest available code at all times, because they want to spot bugs, and because they follow the project closely enough to be able to stay away from currently unstable areas of the feature space. They often update their copy of the software every day, sometimes more than once a day, and when they check in a change, they can reasonably expect that every other developer will have it within 24 hours.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Desde o punto de vista do desenvolvedor, un proxecto de software libre está sempre nun estado constante de liberación de novas versións. Os desenvolvedores normalmente executan sempre a última versión do código, porque queren descubrir erros, e porque seguen o proxecto o bastante de perto para seren quen de se manteren afastados das areas inestables. A miúdo actualizan a súa copia do software todos os días varias veces, e cando testan unha mudanza , esperan que todos os demais desenvolvedores a teñan en 24 horas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>How, then, should the project make a formal release? Should it simply take a snapshot of the tree at a moment in time, package it up, and hand it to the world as, say, version "3.5.0"? Common sense says no. First, there may be no moment in time when the entire development tree is clean and ready for release. Newly-started features could be lying around in various states of completion. Someone might have checked in a major change to fix a bug, but the change could be controversial and under debate at the moment the snapshot is taken. If so, it wouldn't work to simply delay the snapshot until the debate ends, because another, unrelated debate could start in the meantime, and then you'd have wait for &lt;emphasis&gt;that&lt;/emphasis&gt; one to end too. This process is not guaranteed to halt.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Como debería entón o proxecto facer unha nova versión formal? Debería tirar unha fotografía da árbore nun determinado momento, empacotala, e entregarlla ao mundo, como, por exemplo, versión "3.5.0"? O sentido común di que non. Primeiro, a árbore de desenvolvemento pode non chegar a estar nunca limpa e preparada para ser liberada. Funcionalidades novas que se están desenvolvendo poden estar en diferentes estados de desenvolvemento. Alguén puido facer unha mudanza grande para arranxar un erro, mais a mudanza podería ser controvertida e estar baixo debate no momento de liberar a versión. Se for así, deberíase simplemente atrasar a liberación ata que o debate rematase, porque outro debate non relacionado podería comezar na mesma altura, e entón esperar a que &lt;emphasis&gt;ese &lt;/emphasis&gt; debate rematase tamén. Este proceso pode non ter fin.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In any case, using full-tree snapshots for releases would interfere with ongoing development work, even if the tree could be put into a releasable state. Say this snapshot is going to be "3.5.0"; presumably, the next snapshot would be "3.5.1", and would contain mostly fixes for bugs found in the 3.5.0 release. But if both are snapshots from the same tree, what are the developers supposed to do in the time between the two releases? They can't be adding new features; the compatibility guidelines prevent that. But not everyone will be enthusiastic about fixing bugs in the 3.5.0 code. Some people may have new features they're trying to complete, and will become irate if they are forced to choose between sitting idle and working on things they're not interested in, just because the project's release processes demand that the development tree remain unnaturally quiescent.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>En calquera caso, empregar a árbore completa para as versións interferiría no proceso de desenvolvemento en marcha, mesmo se a árbore estiver nun punto adecuado para liberar a versión. Digamos que esta variante será a versión "3.5.0·; presumiblemente, a próxima sería a "3.5.1", e tería a maior parte dos erros atopados na 3.5.0 arranxados. Mais se ambas son estados da mesma árbore, que se supón que debería facer un desenvolvedor no período entre as dúas versións? Non poden engadir novas funcionalidades; as guías de compatibilidade o evitan. Mais non todo o mundo estará entusiasmado con arranxar erros no código da 3.5.0. Algunha xente pode ter novas funcionalidades que está tentando completar, e enfadaranse se os forzan a escoller entre non facer nada e traballar en cousas nas que non están interesados, só porque o proceso de lanzamento de versións do proxecto esixa que a árbore de desenvolvemento permaneza inactiva.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The solution to these problems is to always use a &lt;firstterm&gt;release branch&lt;/firstterm&gt;. A release branch is just a branch in the version control system (see &lt;xref linkend="vc-vocabulary-branch"/&gt;), on which the code destined for this release can be isolated from mainline development. The concept of release branches is certainly not original to free software; many commercial development organizations use them too. However, in commercial environments, release branches are sometimes considered a luxury&amp;mdash;a kind of formal "best practice" that can, in the heat of a major deadline, be dispensed with while everyone on the team scrambles to stabilize the main tree.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>A solución a estes problemas é empregar sempre unha &lt;firstterm&gt;rama para liberar as versións&lt;/firstterm&gt;. Unha rama para liberar as versións é simplemente unha rama no sistema de control de versións (ver &lt;xref linkend="vc-vocabulary-branch"/&gt;), na cal o código destinado para esta versión pode estar isolado do desenvolvemento principal. O concepto dunha rama para as versións certamente non é orixinal do software libre; moitas organizacións comerciais de desenvolvemento a empregan tamén. Porén, en entornos comerciais, as ramas para as versións son as veces consideradas un luxo&amp;mdash; un tipo de "boa práctica" formal que pode, baixo presión por unha data límite, ser prescindible mentres todo o mundo do equipo está traballando para estabilizar a árbore principal.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Release branches are pretty much required in open source projects, however. I have seen projects do releases without them, but it has always resulted in some developers sitting idle while others&amp;mdash;usually a minority&amp;mdash;work on getting the release out the door. The result is usually bad in several ways. First, overall development momentum is slowed. Second, the release is of poorer quality than it needed to be, because there were only a few people working on it, and they were hurrying to finish so everyone else could get back to work. Third, it divides the development team psychologically, by setting up a situation in which different types of work interfere with each other unnecessarily. The developers sitting idle would probably be happy to contribute &lt;emphasis&gt;some&lt;/emphasis&gt; of their attention to a release branch, as long as that were a choice they could make according to their own schedules and interests. But without the branch, their choice becomes "Do I participate in the project today or not?" instead of "Do I work on the release today, or work on that new feature I've been developing in the mainline code?"</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>As ramas para as versións son moito máis requiridas nos proxectos de software libre, porén, teño visto proxectos liberar versións sen elas, mais sempre hai algúns desenvolvedores que non fan nada mentres outros&amp;mdash;normalmente unha minoría&amp;mdash; traballa para liberar a versión. O resultado soe ser malo de varias maneiras. Primeiro, o desenvolvemento xeral é freado. Segundo, a versión ten menos calidade da que precisa ter, porque só un número pequeno de xente traballa nela, e están apurando para que o resto poida volver ao traballo. Terceiro, divide o equipo de desenvolvemento psicoloxicamente, creando una situación onde diferentes tipos de traballo interfiren con outros innecesariamente. Os desenvolvedores parados probablemente estarían máis contentos contribuíndo &lt;emphasis&gt;con algo&lt;/emphasis&gt; da súa atención á rama da versión, sempre que for unha escolla acorde co seu propio horario e intereses. Mais sen a rama, a súa escolla convértese en: "participo no proxecto hoxe ou non?" no canto de: "traballo na nova versión hoxe ou nunha nova funcionalidade que estou a desenvolver no código principal?"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Mechanics of Release Branches</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Mecanismos das ramas para as versións</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The exact mechanics of creating a release branch depend on your version control system, of course, but the general concepts are the same in most systems. A branch usually sprouts from another branch or from the trunk. Traditionally, the trunk is where mainline development goes on, unfettered by release constraints. The first release branch, the one leading to the "1.0" release, sprouts off the trunk. In CVS, the branch command would be something like this</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Os mecanismos exactos para a creación da rama para as versións dependen do teu sistema de control de versións, por suposto, mais en xeral os conceptos son iguais na maioría dos sistemas. Unha rama, normalmente brota doutra rama ou do trunk. Tradicionalmente, o trunk é onde se fai o desenvolvemento principal, sen as limitacións da versión. A primeira rama para as versións, a que conduce á "1.0", brota do trunk. En CVS, o comando branch sería algo coma isto</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>$ cd trunk-working-copy
+$ cvs tag -b RELEASE_1_0_X</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>$ cd trunk-working-copy
+$ cvs tag -b RELEASE_1_0_X</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>or in Subversion, like this:</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>ou en Subversion, así:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>$ svn copy http://.../repos/trunk http://.../repos/branches/1.0.x</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>$ svn copy http://.../repos/trunk http://.../repos/branches/1.0.x</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>(All these examples assume a three-component release numbering system. While I can't show the exact commands for every version control system, I'll give examples in CVS and Subversion and hope that the corresponding commands in other systems can be deduced from those two.)</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>(Todos estes exemplos asumen un sistema de numeración das versións de tres compoñentes. Embora non poida mostrar os comandos exactos para cada sistema de control de versións, darei exemplos en CVS e Subversion e espero que os correspondentes comandos en outros sistemas poidan ser deducidos destes dous.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Notice that we created branch "1.0.x" (with a literal "x") instead of "1.0.0". This is because the same minor line&amp;mdash;i.e., the same branch&amp;mdash;will be used for all the micro releases in that line. The actual process of stabilizing the branch for release is covered in &lt;xref linkend="stabilizing-a-release"/&gt;&lt;phrase output="printed"&gt; later in this chapter&lt;/phrase&gt;. Here we are concerned just with the interaction between the version control system and the release process. When the release branch is stabilized and ready, it is time to tag a snapshot from the branch:</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Nótese que creamos a rama "1.0.x" (cun literal "x") no canto de "1.0.0". Isto é porque a mesma liña menor&amp;mdash;i.e., a mesma rama&amp;mdash; será empregada por todas as micro versións nesa liña. O proceso actual de estabilizar a rama para as versións esta cuberto en &lt;xref linkend="stabilizing-a-release"/&gt;&lt;phrase output="printed"&gt; máis adiante neste capítulo&lt;/phrase&gt;. Aquí preocuparémonos coa interacción entre o sistema de control de versións e o proceso de sacar a versión. Cando a rama das versións está estabilizada e preparada, é hora de etiquetar o estado da rama:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>$ cd RELEASE_1_0_X-working-copy
+$ cvs tag RELEASE_1_0_0</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>$ cd RELEASE_1_0_X-working-copy
+$ cvs tag RELEASE_1_0_0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>&lt;para&gt;or&lt;/para&gt;</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>&lt;para&gt;ou&lt;/para&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>$ svn copy http://.../repos/branches/1.0.x http://.../repos/tags/1.0.0</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>$ svn copy http://.../repos/branches/1.0.x http://.../repos/tags/1.0.0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>That tag now represents the exact state of the project's source tree in the 1.0.0 release (this is useful in case anyone ever needs to get an old version after the packaged distributions and binaries have been taken down). The next micro release in the same line is likewise prepared on the 1.0.x branch, and when it is ready, a tag is made for 1.0.1. Lather, rinse, repeat for 1.0.2, and so on. When it's time to start thinking about a 1.1.x release, make a new branch from trunk:</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Esa tag representa agora exactamente o estado da árbore de código do proxecto na versión 1.0.0 (isto é útil no caso de que alguén precise obter unha versión vella despois de que os pacotes e binarios fosen eliminados). A seguinte micro versión na mesma liña é tamén preparada na rama 1.0, e cando estiver preparada, farase unha etiqueta para a 1.0.1. Enxaboar, enxaugar, repetir para a 1.0.2, e continuar. Cando sexa tempo de empezar a pensar sobre a serie 1.1.x, crear unha nova rama desde o trunk:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>$ cd trunk-working-copy
+$ cvs tag -b RELEASE_1_1_X</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>$ cd trunk-working-copy
+$ cvs tag -b RELEASE_1_1_X</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>$ svn copy http://.../repos/trunk http://.../repos/branches/1.1.x</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>$ svn copy http://.../repos/trunk http://.../repos/branches/1.1.x</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Maintenance can continue in parallel along both 1.0.x and 1.1.x, and releases can be made independently from both lines. In fact, it is not unusual to publish near-simultaneous releases from two different lines. The older series is recommended for more conservative site administrators, who may not want to make the big jump to (say) 1.1 without careful preparation. Meanwhile, more adventurous people usually take the most recent release on the highest line, to make sure they're getting the latest features, even at the risk of greater instability.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>O mantemento pode continuar en paralelo sobre a 1.0.x e a 1.1.x, e as versións poden ser feitas independentemente desde as dúas liñas. De feito, non é infrecuente publicar case simultaneamente desde dúas liñas diferentes. As vellas series están recomendadas para os administradores máis conservadores, os cales poden non querer dar o salto a 1.1 sen unha coidadosa preparación. Mentres tanto, a xente máis aventureira normalmente colle a versión máis recente da maior liña, para estar seguros de ter as últimas funcionalidades, mesmo co risco dunha maior inestabilidade.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This is not the only release branch strategy, of course. In some circumstances it may not even be the best, though it's worked out pretty well for projects I've been involved in. Use any strategy that seems to work, but remember the main points: the purpose of a release branch is to isolate release work from the fluctuations of daily development, and to give the project a physical entity around which to organize its release process. That process is described in detail in the next section.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Esta non é a única estratexia para facer ramas, por suposto. Nalgunhas circunstancias mesmo pode non ser a mellor, mais está funcionando bastante ben para proxectos nos que participei. Emprega calquera estratexia que pareza que funciona, mais recorda os puntos principais: o propósito das ramas é isolar a versión para liberar as mudanzas do desenvolvemento diario, e darlle ao proxecto unha entidade física coa que organizar os seus procesos de lanzamento de versións. Ese proceso é descrito con detalle na seguinte sección.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Stabilizing a Release</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Estabilizando unha versión</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>&lt;firstterm&gt;Stabilization&lt;/firstterm&gt; is the process of getting a release branch into a releasable state; that is, of deciding which changes will be in the release, which will not, and shaping the branch content accordingly.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>&lt;firstterm&gt;Estabilización&lt;/firstterm&gt; é o proceso de poñer a rama da nova versión nun estado axeitado para sacala; isto é, decidir que mudanzas irán na versión, cales non, e darlle forma ao contido da rama.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>There's a lot of potential grief contained in that word, "deciding". The last-minute feature rush is a familiar phenomenon in collaborative software projects: as soon as developers see that a release is about to happen, they scramble to finish their current changes, in order not to miss the boat. This, of course, is the exact opposite of what you want at release time. It would be much better for people to work on features at a comfortable pace, and not worry too much about whether their changes make it into this release or the next one. The more changes one tries to cram into a release at the last minute, the more the code is destabilized, and (usually) the more new bugs are created.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Hai unha chea de dor potencial contida nesa palabra, "decidir". As funcionalidades de último minuto son un fenómeno familiar en proxectos colaborativos de software: tan pronto como os desenvolvedores ven que unha versión está a punto de sacarse, apresúranse a remataren as mudanzas nas que están a traballar, para non perderen o tren. Isto, por suposto, é exactamente o oposto ao que ti queres nese momento. E moito mellor para a xente traballar nas funcionalidades do xeito máis confortable posible, e non preocuparse se as súas mudanzas van a ir nesta versión ou na seguinte. Cantas máis mudanzas de última hora intentarmos meter na versión, máis se desestabiliza o código, e (xeralmente) máis erros serán introducidos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Most software engineers agree in theory on rough criteria for what changes should be allowed into a release line during its stabilization period. Obviously, fixes for severe bugs can go in, especially for bugs without workarounds. Documentation updates are fine, as are fixes to error messages (except when they are considered part of the interface and must remain stable). Many projects also allow certain kinds of low-risk or non-core changes to go in during stabilization, and may have formal guidelines for measuring risk. But no amount of formalization can obviate the need for human judgement. There will always be cases where the project simply has to make a decision about whether a given change can go into a release. The danger is that since each person wants to see their own favorite changes admitted into the release, then there will be plenty of people motivated to allow changes, and not enough people motivated to bar them.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>A maioría dos enxeñeiros de software están de acordo en teoría con acordar os criterios sobre que mudanzas deberían ser permitidas dentro da liña da versión durante o período de estabilización. Obviamente, pódense incluír solucións a erros graves, especialmente a erros sen solucións parciais. Pódese actualizar a documentación, así como solucións a mensaxes de erro (excepto cando son consideradas parte da interface e deben permanecer estables). Moitos proxectos ademais permiten certos tipos de riscos baixos ou mudanzas que non sexan na parte central durante a estabilización, e poden ter pautas para minimizar o risco. Mais a cantidade de formalización non pode obviar a necesidade de xuízo humano. Sempre haberá casos onde o proxecto simplemente teña que tomar unha decisión sobre se unha mudanza debe ir na versión ou non. O perigo está en que cada persoa quere ver as súas mudanzas favoritas admitidas na versión, entón haberá milleiros de persoas motivadas para permitiren mudanzas, e non suficiente xente motivada para excluílas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Thus, the process of stabilizing a release is mostly about creating mechanisms for saying "no". The trick for open source projects, in particular, is to come up with ways of saying "no" that won't result in too many hurt feelings or disappointed developers, and also won't prevent deserving changes from getting into the release. There are many different ways to do this. It's pretty easy to design systems that satisfy these criteria, once the team has focused on them as the important criteria. Here I'll briefly describe two of the most popular systems, at the extreme ends of the spectrum, but don't let that discourage your project from being creative. Plenty of other arrangements are possible; these are just two that I've seen work in practice.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Por tanto, o proceso de estabilizar unha versión é máis sobre crear mecanismos para dicir "non". O truco para os proxectos de software libre, en particular, é atopar formas de dicir "non" sen que o resultado sexan moitos sentimentos feridos ou desenvolvedores decepcionados, e sen desmerecer mudanzas para a versión. Hai distintas formas de facer isto. É bastante sinxelo designar sistemas que satisfagan estes criterios, unha vez que o equipo está enfocado na importancia dos criterios. Aquí describirei brevemente dous dos sistemas máis populares, no estremo final do espectro, mais non permitas o desánimo no teu proxecto por ser creativo. Moitas outras alternativas son posibles; estas son só dúas que eu vin na practica.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Dictatorship by Release Owner</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Réxime ditatorial do mantedor</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The group agrees to let one person be the &lt;firstterm&gt;release owner&lt;/firstterm&gt;. This person has final say over what changes make it into the release. Of course, it is normal and expected for there to be discussions and arguments, but in the end the group must grant the release owner sufficient authority to make final decisions. For this system to work, it is necessary to choose someone with the technical competence to understand all the changes, and the social standing and people skills to navigate the discussions leading up to the release without causing too many hurt feelings.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>O grupo está de acordo con permitir unha persoa ser o &lt;firstterm&gt;propietario da versión&lt;/firstterm&gt;. Esta persoa ten a palabra final sobre as mudanzas que van na versión. Por suposto, é normal que haxa discusións, mais ao final o grupo debe garantirlle ao propietario da versión suficiente autoridade para tomar as decisións finais. Para que este sistema funcione, é preciso elixir alguén o suficientemente competente tecnicamente para comprender tódalas mudanzas, e con habilidades sociais para navegar nas discusións e sacar a versión sen ferir demasiados sentimentos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>A common pattern is for the release owner to say "I don't think there's anything wrong with this change, but we haven't had enough time to test it yet, so it shouldn't go into this release." It helps a lot if the release owner has broad technical knowledge of the project, and can give reasons why the change could be potentially destabilizing (for example, its interactions with other parts of the software, or portability concerns). People will sometimes ask such decisions to be justified, or will argue that a change is not as risky as it looks. These conversations need not be confrontational, as long as the release owner is able to consider all the arguments objectively and not reflexively dig in his heels.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Un padrón común para o propietario da versión é dicir "Non penso que haxa nada malo con esta mudanza, mais non temos suficiente tempo para probala, así que non debería ir nesta versión". Axuda moito se o propietario da versión ten un bo coñecemento técnico do proxecto, e pode dar razóns de por que a mudanza podería ser potencialmente desestabilizadora (por exemplo, as súas interaccións con outras partes do software, ou portabilidades). A xente pedirá algunhas veces que se xustifiquen as decisións, ou argumentará que unha mudanza non é tan arriscada como parece. Estas conversacións precisan non ser confrontacións, sempre e cando o propietario da versión poida considerar todos os argumentos obxectivamente e non ser intransixente.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Note that the release owner need not be the same person as the project leader (in cases where there is a project leader at all; see &lt;xref linkend="benevolent-dictator"/&gt;&lt;phrase output="printed"&gt; in &lt;xref linkend="social-infrastructure"/&gt;&lt;/phrase&gt;). In fact, sometimes it's good to make sure they're &lt;emphasis&gt;not&lt;/emphasis&gt; the same person. The skills that make a good development leader are not necessarily the same as those that make a good release owner. In something as important as the release process, it may be wise to have someone provide a counterbalance to the project leader's judgement.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Nótese que o propietario da versión non ten por que ser a mesma persoa que o líder do proxecto (en casos onde non hai líder do proxecto; ver &lt;xref linkend="benevolent-dictator"/&gt;&lt;phrase output="printed"&gt;en&lt;xref linkend="social-infrastructure"/&gt;). De feito, algunhas veces é bo asegurarse que eles &lt;/phrase&gt;non&lt;emphasis&gt; son a mesma persoa. As habilidades que fan a un desenvolvedor líder non teñen porque ser necesariamente as mesmas que o fan o propietario da versión. En algo tan importante como o lanzamento dunha versión, pode ser prudente ter alguén que poña un contrapeso á opinión do líder.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Contrast the release owner role with the less dictatorial role described in &lt;xref linkend="release-manager"/&gt;&lt;phrase output="printed"&gt; later in this chapter&lt;/phrase&gt;.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Contraste o rol do propietario da versión co de menos ditatorial descrito en &lt;xref linkend="release-manager"/&gt;&lt;phrase output="printed"&gt; mais adiante neste capítulo&lt;/phrase&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Change Voting</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Mudar o voto</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>At the opposite extreme from dictatorship by release owner, developers can simply vote on which changes to include in the release. However, since the most important function of release stabilization is to &lt;emphasis&gt;exclude&lt;/emphasis&gt; changes, it's important to design the voting system in such a way that getting a change into the release involves positive action by multiple developers. Including a change should need more than just a simple majority (see &lt;xref linkend="electorate"/&gt;&lt;phrase output="printed"&gt; in &lt;xref linkend="social-infrastructure"/&gt;&lt;/phrase&gt;). Otherwise, one vote for and none against a given change would suffice to get it into the release, and an unfortunate dynamic would be set up whereby each developer would vote for her own changes, yet would be reluctant to vote against others' changes, for fear of possible retaliation. To avoid this, the system should be arranged such that subgroups of developers must act in cooperation to get any change into the release. This not only means that more people review each change, it also makes any individual developer less hesitant to vote against a change, because she knows that no particular one among those who voted for it would take her vote against as a personal affront. The greater the number of people involved, the more the discussion becomes about the change and less about the individuals.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>No extremo oposto da ditadura do propietario da versión, os desenvolvedores poden simplemente votar que mudanzas incluír na versión. Sen embargo, xa que a función máis importante da estabilización da versión é &lt;emphasis&gt;excluír&lt;/emphasis&gt; mudanzas, é importante deseñar o sistema de votación de forma que poñer unha mudanza na versión implique accións positivas para moitos desenvolvedores. Incluír unha mudanza debería precisar máis dunha simple maioría (ver &lt;xref linkend="electorate"/&gt;&lt;phrase output="printed"&gt; en &lt;xref linkend="social-infrastructure"/&gt;&lt;/phrase&gt;). Doutro xeito, un voto a favor e ningún en contra para unha mudanza sería suficiente para poñer unha mudanza na versión, e unha desafortunada dinámica podería ser creada polo cal cada desenvolvedor votaría polas súa propias mudanzas, porén, serían relutantes a votar en contra das mudanzas de outros desenvolvedores por medo a posibles represalias. Para evitar isto, o sistema debería organizar que subgrupos de desenvolvedores deben actuar en cooperación para poñer calquera mudanza na versión. Isto non so quere dicir que moita xente revise cada mudanza, ademais fai que calquera desenvolvedor dubide menos para votar en contra dunha mudanza, porque non coñece particularmente ningún dos que votaron porque tomaría o voto en contra coma unha afronta persoal. Canto maior for o número de xente involucrada, máis se discutirá sobre as mudanzas e menos sobre os individuos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The system we use in the Subversion project seems to have struck a good balance, so I'll recommend it here. In order for a change to be applied to the release branch, at least three developers must vote in favor of it, and none against. A single "no" vote is enough to stop the change from being included; that is, a "no" vote in a release context is equivalent to a veto (see &lt;xref linkend="veto"/&gt;). Naturally, any such vote must be accompanied by a justification, and in theory the veto could be overridden if enough people feel it is unreasonable and force a special vote over it. In practice, this has never happened, and I don't expect that it ever will. People are conservative around releases anyway, and when someone feels strongly enough to veto the inclusion of a change, there's usually a good reason for it.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>O sistema que empregamos no proxecto Subversion parece que acadou un bo balance, polo que o recomendarei aquí. Co fin de que unha mudanza sexa aplicada na rama da versión, polo menos tres desenvolvedores deben votar a favor, e ningún en contra. Un simple voto "en contra" é suficiente para deter a aplicación dunha mudanza; iso é, un voto "en contra" no contexto da versión equivale a un veto (ver&lt;xref linkend="veto"/&gt;). Naturalmente, calquera voto debe ir acompañado dunha xustificación, e en teoría o veto podería ser invalidado se suficiente xente sentise que é razoable e forzase un voto especial sobre iso. Na práctica, isto nunca sucede, e non espero que pase. A xente é conservadora a respecto das versións de calquera modo, e cando alguén sente fortemente a necesidade de vetar a inclusión dunha mudanza, normalmente hai unha boa razón para iso.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Because the release procedure is deliberately biased toward conservatism, the justifications offered for vetoes are sometimes procedural rather than technical. For example, a person may feel that a change is well-written and unlikely to cause any new bugs, but vote against its inclusion in a micro release simply because it's too big&amp;mdash;perhaps it adds a new feature, or in some subtle way fails to fully follow the compatibility guidelines. I've occasionally even seen developers veto something because they simply had a gut feeling that the change needed more testing, even though they couldn't spot any bugs in it by inspection. People grumbled a little bit, but the vetoes stood and the change was not included in the release (I don't remember if any bugs were found in later testing or not, though).</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Debido a que o proceso de sacar unha versión está deliberadamente baseado no conservadorismo, as xustificación ofrecidas para os vetos son con máis frecuencia procedimentais que técnicas. Por exemplo, unha persoa pode sentir que unha mudanza está ben escrita e é pouco probable que cause novos bugs, mais vota en contra da súa inclusión nunha micro versión porque é demasiado grande&amp;mdash; quizais engade unha nova funcionalidade, ou de algunha forma sutil falla ao cubrir as liñas de compatibilidade. Ocasionalmente teño visto desenvolvedores vetar algo porque simplemente tiñan o presentimento de que a mudanza necesitaba máis testaxe, mesmo cando eles non puideron atopar erros nela inspeccionándoa. A xente refungou un pouco, mais os vetos resistiron e a mudanza non foi incluída na versión (Non lembro se foi atopado algún erro máis tarde testando ou non).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Managing collaborative release stabilization</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Manexando a estabilización das versións de xeito colaborativo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If your project chooses a change voting system, it is imperative that the physical mechanics of setting up ballots and casting votes be as convenient as possible. Although there is plenty of open source electronic voting software available, in practice the easiest thing to do is just to set up a text file in the release branch, called &lt;filename&gt;STATUS&lt;/filename&gt; or &lt;filename&gt;VOTES&lt;/filename&gt; or something like that. This file lists each proposed change&amp;mdash;any developer can propose a change for inclusion&amp;mdash;along with all the votes for and against it, plus any notes or comments. (Proposing a change doesn't necessarily mean voting for it, by the way, although the two often go together.) An entry in such a file might look like this:</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Se o teu proxecto elixe un sistema de voto sobre as mudanzas, é imperativo que o mecanismo físico de establecer votación e votos decisivos sexa o máis conveniente posible. Embora haxa moito software de código aberto para voto electrónico dispoñible, na practica o máis sinxelo e poñer un ficheiro de texto na rama da versión, chamado &lt;filename&gt;STATUS&lt;/filename&gt; ou &lt;filename&gt;VOTES&lt;/filename&gt; ou algo similar. Este ficheiro lista cada unha das mudanzas propostas&amp;mdash;calquera desenvolvedor pode propoñer unha mudanza para a súa inclusión&amp;mdash;xunto con todos os votos a favor e en contra, ademais de notas ou comentarios. (Propoñer unha mudanza non implica necesariamente votar para iso, por certo, aínda que as dúas cousas soen ir xuntas). Unha entrada neste ficheiro ten a seguinte forma:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>* r2401 (issue #49)
+  Prevent client/server handshake from happening twice.
+  Justification:
+    Avoids extra network turnaround; small change and easy to review.
+  Notes:
+    This was discussed in http://.../mailing-lists/message-7777.html
+    and other messages in that thread.
+  Votes:
+    +1: jsmith, kimf
+    -1: tmartin (breaks compatibility with some pre-1.0 servers;
+                 admittedly, those servers are buggy, but why be
+                 incompatible if we don't have to?)</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>* r2401 (issue #49)
+  Prevent client/server handshake from happening twice.
+  Justification:
+    Avoids extra network turnaround; small change and easy to review.
+  Notes:
+    This was discussed in http://.../mailing-lists/message-7777.html
+    and other messages in that thread.
+  Votes:
+    +1: jsmith, kimf
+    -1: tmartin (breaks compatibility with some pre-1.0 servers;
+                 admittedly, those servers are buggy, but why be
+                 incompatible if we don't have to?)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In this case, the change acquired two positive votes, but was vetoed by tmartin, who gave the reason for the veto in a parenthetical note. The exact format of the entry doesn't matter; whatever your project settles on is fine&amp;mdash;perhaps tmartin's explanation for the veto should go up in the "Notes:" section, or perhaps the change description should get a "Description:" header to match the other sections. The important thing is that all the information needed to evaluate the change be reachable, and that the mechanism for casting votes be as lightweight as possible. The proposed change is referred to by its revision number in the repository (in this case a single revision, r2401, although a proposed change could just as easily consist of multiple revisions). The revision is assumed to refer to a change made on the trunk; if the change were already on the release branch, there would be no need to vote on it. If your version control system doesn't have an obvious syntax for referring to individual changes, then the project should make one up. For voting to be practical, each change under consideration must be unambiguously identifiable.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Neste caso, a mudanza adquiriu dous votos positivos, mais foi vetada por tmartin, quen deu a razón para o seu veto nunha nota entre parénteses. O formato exacto da entrada non importa; sexa cal for o teu proxecto decidir está ben&amp;mdash; quizais a explicación de tmartin para o veto debería ir na sección "Notes:" ou quizais a descrición da mudanza debería ter un cabezallo "Description:" de acordo coas outras seccións. O importante é que toda a información necesaria para avaliar a mudanza estea dispoñible, e o mecanismo para votos decisivos sexa o máis lixeiro posible. A mudanza proposta está referenciada polo seu número de revisión no repositorio (neste caso unha simple revisión, r2401, embora unha mudanza proposta podería consistir en múltiples revisións). A revisión asúmese que está referida a unha mudanza feita no trunk; se a mudanza estivese na rama da versión, non habería que votar. Se o teu sistema de control de versións non ten unha sintaxe obvia para referirse a mudanzas individuais, o proxecto debería inventala. Para que o voto sexa práctico, cada mudanza baixo consideración debe ser identificable inequivocamente.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Those proposing or voting for a change are responsible for making sure it applies cleanly to the release branch, that is, applies without conflicts (see &lt;xref linkend="vc-vocabulary-conflict"/&gt;). If there are conflicts, then the entry should either point to an adjusted patch that does apply cleanly, or to a temporary branch that holds an adjusted version of the change, for example:</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Esas proposicións ou votos para aprobar unha mudanza encárganse de asegurar de que se corresponde coa rama da versión, iso é, que se corresponde sen conflitos (ver &lt;xref linkend="vc-vocabulary-conflict"/&gt;). Se houber conflitos, entón a entrada debería apuntar a un remendo que se corresponda limpamente, ou a unha rama temporal que teña a axustada versión da mudanza, por exemplo:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>* r13222, r13223, r13232
+  Rewrite libsvn_fs_fs's auto-merge algorithm
+  Justification:
+    unacceptable performance (&gt;50 minutes for a small commit) in
+    a repository with 300,000 revisions
+  Branch:
+    1.1.x-r13222@13517
+  Votes:
+    +1: epg, ghudson</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>* r13222, r13223, r13232
+  Rewrite libsvn_fs_fs's auto-merge algorithm
+  Justification:
+    unacceptable performance (&gt;50 minutes for a small commit) in
+    a repository with 300,000 revisions
+  Branch:
+    1.1.x-r13222@13517
+  Votes:
+    +1: epg, ghudson</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>That example is taken from real life; it comes from the &lt;filename&gt;STATUS&lt;/filename&gt; file for the Subversion 1.1.4 release process. Notice how it uses the original revisions as canonical handles on the change, even though there is also a branch with a conflict-adjusted version of the change (the branch also combines the three trunk revisions into one, r13517, to make it easier to merge the change into the release, should it get approval). The original revisions are provided because they're still the easiest entity to review, since they have the original log messages. The temporary branch wouldn't have those log messages; in order to avoid duplication of information (see &lt;xref linkend="vc-singularity"/&gt;&lt;phrase output="printed"&gt; in &lt;xref linkend="technical-infrastructure"/&gt;&lt;/phrase&gt;), the branch's log message for r13517 should simply say "Adjust r13222, r13223, and r13232 for backport to 1.1.x branch." All other information about the changes can be chased down at their original revisions.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Ese exemplo está tomado da vida real, vén do ficheiro &lt;filename&gt;STATUS&lt;/filename&gt; no proceso de lanzamento da versión de Subversion 1.1.4. Nótese como se empregan as revisións orixinais coma manexadoras canónicas das mudanzas, mesmo hai unha rama cunha versión da mudanza axustada a conflitos (a rama ademais combina tres revisións do trunk nunha, r13517, para facer máis sinxela a integración das mudanzas na versión, debería ser aprobada). As revisións orixinais aparecen porque se están a revisar aínda, xa que teñen as mensaxes de log orixinais. A rama temporal non tería esas mensaxes de log; para evitar a duplicación de información (ver &lt;xref linkend="vc-singularity"/&gt;&lt;phrase output="printed"&gt; en &lt;xref linkend="technical-infrastructure"/&gt;&lt;/phrase&gt;), As mensaxes de log para a rama da revisión r13517 deberían dicir simplemente "Axustar r13222, r13223, r13232 para backport a rama 1.1.x". Toda outra información acerca das mudanzas pode ser alcanzada nas súas revisións orixinais.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Release manager</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Manager das versións</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The actual process of merging (see &lt;xref linkend="vc-vocabulary-merge"/&gt;) approved changes into the release branch can be performed by any developer. There does not need to be one person whose job it is to merge changes; if there are a lot of changes, it can be better to spread the burden around.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>O actual proceso de fusionar (ver &lt;xref linkend="vc-vocabulary-merge"/&gt;) as mudanzas aprobadas na rama da versión poden ser realizadas por calquera desenvolvedor. Aquí non se precisa unha persoa para facer o traballo de fusionar as mudanzas; se houber moitas mudanzas, pode ser mellor repartir a carga.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>However, although both voting and merging happen in a decentralized fashion, in practice there are usually one or two people driving the release process. This role is sometimes formally blessed as &lt;firstterm&gt;release manager&lt;/firstterm&gt;, but it is quite different from a release owner (see &lt;xref linkend="release-owner"/&gt;&lt;phrase output="printed"&gt; earlier in this chapter&lt;/phrase&gt;) who has final say over the changes. Release managers keep track of how many changes are currently under consideration, how many have been approved, how many seem likely to be approved, etc. If they sense that important changes are not getting enough attention, and might be left out of the release for lack of votes, they will gently nag other developers to review and vote. When a batch of changes are approved, these people will often take it upon themselves to merge them into the release branch; it's fine if others leave that task to them, as long as everyone understands that they are not obligated to do all the work unless they have explicitly committed to it. When the time comes to put the release out the door (see &lt;xref linkend="testing-and-releasing"/&gt;&lt;phrase output="printed"&gt; later in this chapter&lt;/phrase&gt;), the release managers also take care of the logistics of creating the final release packages, collecting digital signatures, uploading the packages, and making the public announcement.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Porén, embora ámbolos dous, votación e fusionado, sucedan de forma descentralizada, na práctica normalmente hai unha ou dúas persoas conducindo o proceso de lanzamento da nova versión. Este rol e as veces bautizado como &lt;firstterm&gt;release manager&lt;/firstterm&gt;, mais é un pouco diferente do propietario da versión (ver &lt;xref linkend="release-owner"/&gt;&lt;phrase output="printed"&gt; máis atrás neste capítulo&lt;/phrase&gt;) quen ten a última palabra sobre as mudanzas. Os releases manager manteñen monitorizado cantas mudanzas están baixo consideración, cantas foron aprobadas, cantas parece que van ser aprobadas, etc. Se eles sentiren que algunhas mudanzas non están recibindo a atención precisa, e poden ficar fóra da versión por falta de votos, eles estarán encima de outros desenvolvedores para que voten. Cando unha manchea de mudanzas foren aprobadas, esta xente encargarase por si mesma de fusionalas na rama da versión; está ben se outros lles deixan esa tarefa a eles, sempre que todo o mundo entenda que eles non están obrigados a facer todo o traballo a non ser que eles explicitamente se prestasen a facelo. Cando a versión estiver a piques de saír (ver &lt;xref linkend="testing-and-releasing"/&gt;&lt;phrase output="printed"&gt;máis adiante neste capitulo&lt;/phrase&gt;), os releases manager preocuparanse tamén da loxística para a creación da versión, os pacotes, recoller as sinaturas dixitais, subir os pacotes, e facer os anuncios públicos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Packaging</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Empacotamento</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The canonical form for distribution of free software is as source code. This is true regardless of whether the software normally runs in source form (i.e., can be interpreted, like Perl, Python, PHP, etc.) or needs to be compiled first (like C, C++, Java, etc.). With compiled software, most users will probably not compile the sources themselves, but will instead install from pre-built binary packages (see &lt;xref linkend="binary-packages"/&gt;&lt;phrase output="printed"&gt; later in this chapter&lt;/phrase&gt;). However, those binary packages are still derived from a master source distribution. The point of the source package is to unambiguously define the release. When the project distributes "Scanley&amp;nbsp;2.5.0", what it means, specifically, is "The tree of source code files that, when compiled (if necessary) and installed, produces Scanley 2.5.0."</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>A forma tradicional para a distribución do software libre é como código fonte. Isto é así dependendo de se o software normalmente se executa desde o código (por exemplo, podendo ser interpretado, coma Perl, Python, PHP, etc.) o precisa ser compilado primeiro (coma C, C++, Java, etc). Con software compilado, moitos usuarios probablemente non compilen as fontes eles mesmos, polo que precisarán instalalos desde pacotes binarios (ver &lt;xref linkend="binary-packages"/&gt;&lt;phrase output="printed"&gt;máis adiante neste capitulo&lt;/phrase&gt;). Porén, eses pacotes binarios derivan das fontes da distribución. A cuestión é que as fontes son ambiguas para definir a versión. Cando o proxecto distribúe Scanley&amp;nbsp;2.5.0", o que quere dicir, especificamente, é: "a árbore de ficheiros de código fonte, cando se compilaren (se for necesario) e instalaren, producen Scanley 2.5.0."</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>There is a fairly strict standard for how source releases should look. One will occasionally see deviations from this standard, but they are the exception, not the rule. Unless there is a compelling reason to do otherwise, your project should follow this standard too.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Hai un estándar bastante estrito sobre como deberían ser as versións das fontes. Ocasionalmente poden verse desviacións deste estándar, mais son a excepción, non a regra. A menos que houber una razón xustificada para facelo de outra forma, o teu proxecto debería seguir este estándar tamén.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Format</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Formato</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The source code should be shipped in the standard formats for transporting directory trees. For Unix and Unix-like operating systems, the convention is to use TAR format, compressed by &lt;command&gt;compress&lt;/command&gt;, &lt;command&gt;gzip&lt;/command&gt;, &lt;command&gt;bzip&lt;/command&gt; or &lt;command&gt;bzip2&lt;/command&gt;. For MS Windows, the standard method for distributing directory trees is &lt;firstterm&gt;zip&lt;/firstterm&gt; format, which happens to do compression as well, so there is no need to compress the archive after creating it.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>O código fonte debería entregarse en formatos estándar para distribuír a árbore de directorios. Para Unix e sistemas operativos de tipo Unix, a convención é empregar o formato TAE, comprimido con &lt;command&gt;compress&lt;/command&gt;, &lt;command&gt;gzip&lt;/command&gt;, &lt;command&gt;bzip&lt;/command&gt; ou &lt;command&gt;bzip2&lt;/command&gt;. Para MS Windows, o método estándar para a distribución da árbore de directorios é o formato &lt;firstterm&gt;zip&lt;/firstterm&gt;, o cal xa fai a compresión tamén, polo que non é necesario comprimir o ficheiro despois de crealo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>TAR Files</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Ficheiros TAR</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>&lt;firstterm&gt;TAR&lt;/firstterm&gt; stands for "Tape&amp;nbsp;ARchive", because tar format represents a directory tree as a linear data stream, which makes it ideal for saving directory trees to tape. The same property also makes it the standard for distributing directory trees as a single file. Producing compressed tar files (or &lt;firstterm&gt;tarballs&lt;/firstterm&gt;) is pretty easy. On some systems, the &lt;command&gt;tar&lt;/command&gt; command can produce a compressed archive itself; on others, a separate compression program is used.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>&lt;firstterm&gt;TAR&lt;/firstterm&gt; abreviatura de "Tape&amp;nbsp;ARchive", porque o formato tar representa unha árbore de directorios coma un xacto de datos lineais, o cal o torna ideal para gardar árbores de directorios en cinta. A mesma propiedade tórnao tamén o estándar para distribuír árbores de directorios nun ficheiro. Producir ficheiros tar comprimidos (ou &lt;firstterm&gt;tarballs&lt;/firstterm&gt;) é bastante sinxelo. Nalgúns sistemas, o comando &lt;command&gt;tar&lt;/command&gt; pode producir ficheiros comprimidos por si mesmo; noutros, hai que empregar outro programa para comprimir.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Name and Layout</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Nome e aspecto</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The name of the package should consist of the software's name plus the release number, plus the format suffixes appropriate for the archive type. For example, Scanley 2.5.0, packaged for Unix using GNU Zip (gzip) compression, would look like this:</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>O nome do paquete debería consistir no nome do software máis o número da versión, máis o formato de sufixos apropiado para o tipo de ficheiro. Por exemplo, Scanley 2.5.0, empacotado para Unix empregando GNU Zip (gzip) para comprimir, quedaría así:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>scanley-2.5.0.tar.gz</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>scanley-2.5.0.tar.gz</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>or for Windows using zip compression:</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>ou para Windows usando compresión en zip:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>scanley-2.5.0.zip</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>scanley-2.5.0.zip</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Either of these archives, when unpacked, should create a single new directory tree named &lt;filename&gt;scanley-2.5.0&lt;/filename&gt; in the current directory. Underneath the new directory, the source code should be arranged in a layout ready for compilation (if compilation is needed) and installation. In the top level of new directory tree, there should be a plain text &lt;filename&gt;README&lt;/filename&gt; file explaining what the software does and what release this is, and giving pointers to other resources, such as the project's web site, other files of interest, etc. Among those other files should be an &lt;filename&gt;INSTALL&lt;/filename&gt; file, sibling to the &lt;filename&gt;README&lt;/filename&gt; file, giving instructions on how to build and install the software for all the operating systems it supports. As mentioned in &lt;xref linkend="license-quickstart-applying"/&gt;&lt;phrase output="printed"&gt; in &lt;xref linkend="getting-started"/&gt;&lt;/phrase&gt;, there should also be a &lt;filename&gt;COPYING&lt;/filename&gt; or &lt;filename&gt;LICENSE&lt;/filename&gt; file, giving the software's terms of distribution.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Algún destes ficheiros, cando son descomprimidos, deben crear unha nova árbore de directorios chamada &lt;filename&gt;scanley-2.5.0&lt;/filename&gt; no directorio actual. Baixo o novo directorio, o código fonte debe estar preparado para a compilación (se ha compilación é necesaria) e instalación. Na raíz do novo directorio, debería haber un ficheiro de texto plano &lt;filename&gt;README&lt;/filename&gt; explicando o que fai o software e que versión é, e dar ligazóns a outros recursos, como a páxina web do proxecto, outros ficheiros interesantes, etc. Entre eses outros ficheiros debería haber un &lt;filename&gt;INSTALL&lt;/filename&gt;, irmán do &lt;filename&gt;README&lt;/filename&gt;, dando instrucións sobre como compilar e instalar o software para todos os sistemas operativos soportados. Como se mencionaba &lt;xref linkend="license-quickstart-applying"/&gt;&lt;phrase output="printed"&gt; en &lt;xref linkend="getting-started"/&gt;&lt;/phrase&gt;, debería haber tamén un ficheiro &lt;filename&gt;COPYING&lt;/filename&gt; coas cláusulas de distribución do software.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>There should also be a &lt;filename&gt;CHANGES&lt;/filename&gt; file (sometimes called &lt;filename&gt;NEWS&lt;/filename&gt;), explaining what's new in this release. The &lt;filename&gt;CHANGES&lt;/filename&gt; file accumulates changelists for all releases, in reverse chronological order, so that the list for this release appears at the top of the file. Completing that list is usually the last thing done on a stabilizing release branch; some projects write the list piecemeal as they're developing, others prefer to save it all up for the end and have one person write it, getting information by combing the version control logs. The list looks something like this:</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Debe haber tamén un ficheiro &lt;filename&gt;CHANGES&lt;/filename&gt; (as veces chamado &lt;filename&gt;NEWS&lt;/filename&gt;) coas novidades da versión. O ficheiro &lt;filename&gt;CHANGES&lt;/filename&gt; acumula a lista de mudanzas para todas as versións, en orde cronolóxica inversa, para que a lista de mudanzas da versión apareza no principio do ficheiro. Completar esa lista é normalmente a última cousa que hai que facer para estabilizar a versión; algúns proxectos escriben a lista de vagar segundo se vai desenvolvendo, outros prefiren facelo ao final e ter una persoa para escribilos, recollendo información combinando os logs do control de versións. A lista é algo así:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Version 2.5.0
+(20 December 2004, from /branches/2.5.x)
+http://svn.scanley.org/repos/svn/tags/2.5.0/
+
+ New features, enhancements:
+    * Added regular expression queries (issue #53)
+    * Added support for UTF-8 and UTF-16 documents
+    * Documentation translated into Polish, Russian, Malagasy
+    * ...
+
+ Bugfixes:
+    * fixed reindexing bug (issue #945)
+    * fixed some query bugs (issues #815, #1007, #1008)
+    * ...</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Version 2.5.0
+(20 December 2004, from /branches/2.5.x)
+http://svn.scanley.org/repos/svn/tags/2.5.0/
+
+ New features, enhancements:
+    * Added regular expression queries (issue #53)
+    * Added support for UTF-8 and UTF-16 documents
+    * Documentation translated into Polish, Russian, Malagasy
+    * ...
+
+ Bugfixes:
+    * fixed reindexing bug (issue #945)
+    * fixed some query bugs (issues #815, #1007, #1008)
+    * ...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The list can be as long as necessary, but don't bother to include every little bugfix and feature enhancement. Its purpose is simply to give users an overview of what they would gain by upgrading to the new release. In fact, the changelist is customarily included in the announcement email (see &lt;xref linkend="testing-and-releasing"/&gt;&lt;phrase output="printed"&gt; later in this chapter&lt;/phrase&gt;), so write it with that audience in mind.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>A lista pode ser tan longa coma for necesario, mais non fai falta incluír cada pequeno erro resolto e funcionalidade. O seu propósito é simplemente darlle aos usuarios una visión sobre o que eles gañan actualizando á nova versión. De feito, a lista de mudanzas é incluída normalmente no email de anuncio (ver &lt;xref linkend="testing-and-releasing"/&gt;&lt;phrase output="printed"&gt; máis adiante neste capitulo&lt;/phrase&gt;), polo tanto escríbea coa audiencia en mente.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>CHANGES Versus ChangeLog</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>CHANGES versus ChangeLog</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Traditionally, a file named &lt;firstterm&gt;ChangeLog&lt;/firstterm&gt; lists every change ever made to a project&amp;mdash;that is, every revision committed to the version control system. There are various formats for ChangeLog files; the details of the formats aren't important here, as they all contain the same information: the date of the change, its author, and a brief summary (or just the log message for that change).</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Tradicionalmente, un ficheiro chamado &lt;firstterm&gt;ChangeLog&lt;/firstterm&gt; que lista cada mudanza feita no proxecto&amp;mdash; isto é, cada revisión sobre a que se fixo commit no sistema de control de versións. Hai varios formatos para os ficheiros ChangeLog; os detalles dos formatos non son importantes aquí, xa que todos eles conteñen a mesma información: a data da mudanza, o autor, e un breve resumo (ou simplemente a mensaxe de log para esa mudanza).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>A &lt;filename&gt;CHANGES&lt;/filename&gt; file is different. It too is a list of changes, but only the ones thought important for a certain audience to see, and often with metadata like the exact date and author stripped off. To avoid confusion, don't use the terms interchangeably. Some projects use "NEWS" instead of "CHANGES"; although this avoids the potential for confusion with "ChangeLog", it is a bit of a misnomer, since the CHANGES file retains change information for all releases, and thus has a lot of old news in addition to the new news at the top.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>O ficheiro &lt;filename&gt;CHANGES&lt;/filename&gt; é diferente. Tamén é unha lista de mudanzas, mais só as que son importantes para que certa audiencia as vexa, e a miúdo con metadata como a hora exacta e o autor. Para evitares confusións, non empregues termos intercambiables. Algúns proxectos empregan "NEWS" en lugar de "CHANGES"; aínda que isto evita a potencial confusión con "ChangeLog", é un termo un pouco errado xa que o ficheiro CHANGES ten información para todas as versións, e ten moitas noticias vellas ademais das novas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>ChangeLog files may be slowly disappearing anyway. They were helpful in the days when CVS was the only choice of version control system, because change data was not easy to extract from CVS. However, with more recent version control systems, the data that used to be kept in the ChangeLog can be requested from the version control repository at any time, making it pointless for the project to keep a static file containing that data&amp;mdash;in fact, worse than pointless, since the ChangeLog would merely duplicate the log messages already stored in the repository.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Contodo, os ficheiros ChangeLog poden estar desaparecendo. Eran de moita axuda cando CVS era a única opción de sistema de control de versións, porque a data non era sinxela de extraer. Porén, cos máis recentes sistemas de control de versións, a data que é empregada para manter no ChangeLog pode ser pedida desde o repositorio do sistema de control de versións en calquera momento, facendo que sea sinxelo para o proxecto manter un ficheiro estático que conteña a data&amp;mdash; de feito, o ChangeLog duplica as mensaxes de log que están no repositorio.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The actual layout of the source code inside the tree should be the same as, or as similar as possible to, the source code layout one would get by checking out the project directly from its version control repository. Usually there are a few differences, for example because the package contains some generated files needed for configuration and compilation (see &lt;xref linkend="packaging-build-install"/&gt;&lt;phrase output="printed"&gt; later in this chapter&lt;/phrase&gt;), or because it includes third-party software that is not maintained by the project, but that is required and that users are not likely to already have. But even if the distributed tree corresponds exactly to some development tree in the version control repository, the distribution itself should not be a working copy (see &lt;xref linkend="vc-vocabulary-working-copy"/&gt;). The release is supposed to represent a static reference point&amp;mdash;a particular, unchangeable configuration of source files. If it were a working copy, the danger would be that the user might update it, and afterward think that he still has the release when in fact he has something different.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>A distribución do código fonte dentro da árbore debería ser idéntica ou o máis similar posible á distribución do código fonte do proxecto que se obtería testando directamente desde o sistema de control de versións. Normalmente hai algunhas diferencias, por exemplo porque o pacote contén algúns ficheiros xerados necesarios para a configuración e compilación (ver &lt;xref linkend="packaging-build-install"/&gt;&lt;phrase output="printed"&gt; máis adiante neste capitulo&lt;/phrase&gt;, ou porque inclúe software de terceiros non mantido polo proxecto, mais requirido e que os usuarios probablemente non teñen. Mais mesmo se a árbore de directorios coincide exactamente con algunha árbore de desenvolvemento no repositorio do sistema de control de versións, a distribución non debería ser unha copia de traballo (ver &lt;xref linkend="vc-vocabulary-working-copy"/&gt;). A versión suponse que representa unha referencia estática&amp;mdash; en particular, unha configuración inmutable dos ficheiros fonte. Se for unha copia de traballo, o perigo sería que un usuario puidese actualizala,pensando que aínda ten a versión cando de feito ten algo distinto.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Remember that the package is the same regardless of the packaging. The release&amp;mdash;that is, the precise entity referred to when someone says "Scanley&amp;nbsp;2.5.0"&amp;mdash;is the tree created by unpacking a zip file or tarball. So the project might offer all of these for download:</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Recordar que o pacote é o mesmo a pesar do empacotamento. A versión&amp;mdash; iso é, a entidade precisa a que se remite cando alguén di "Scanley&amp;nbsp;2.5.0"&amp;mdash; é a árbore de directorio creada pola descompresión do ficheiro zip ou tarball. Polo tanto o proxecto debe ofrecer todo isto para descarregar:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>scanley-2.5.0.tar.bz2
+scanley-2.5.0.tar.gz
+scanley-2.5.0.zip</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>scanley-2.5.0.tar.bz2
+scanley-2.5.0.tar.gz
+scanley-2.5.0.zip</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>...but the source tree created by unpacking them must be the same. That source tree is the distribution; the form in which it is downloaded is merely a matter of convenience. Certain trivial differences between source packages are allowable: for example, in the Windows package, text files should have lines ending with CRLF (Carriage Return and Line Feed), while Unix packages should use just LF. The trees may be arranged slightly differently between source packages destined for different operating systems, too, if those operating systems require different sorts of layouts for compilation. However, these are all basically trivial transformations. The basic source files should be the same across all the packagings of a given release.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>...mais a árbore de fontes creada polo desempacotamento debe ser a mesma. Esa árbore de fontes é a distribución; a forma na cal é descarregado é simplemente unha conveniencia. Certas triviais diferenzas entre os pacotes fontes son permisibles: por exemplo, no pacote de Windows, os ficheiros de texto deben ter liñas finais con CRLF (Carriage Return and Line Feed), mentres que os pacotes Unix deben empregar simplemente LF. As árbores poden ser ordenadas lixeiramente de forma diferente entre pacotes software destinados para diferentes sistemas operativos, tamén, se eses sistemas operativos requiriren diferentes ordenacións para a compilación. Porén, son transformación basicamente triviais. Os ficheiros fonte básicos deberían ser os mesmos en todos os pacotes dunha distribución.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To capitalize or not to capitalize</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Maiúsculas ou minúsculas?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>When referring to a project by name, people generally capitalize it as a proper noun, and capitalize acronyms if there are any: "MySQL&amp;nbsp;5.0", "Scanley&amp;nbsp;2.5.0", etc. Whether this capitalization is reproduced in the package name is up to the project. Either &lt;filename&gt;Scanley-2.5.0.tar.gz&lt;/filename&gt; or &lt;filename&gt;scanley-2.5.0.tar.gz&lt;/filename&gt; would be fine, for example (I personally prefer the latter, because I don't like to make people hit the shift key, but plenty of projects ship capitalized packages). The important thing is that the directory created by unpacking the tarball use the same capitalization. There should be no surprises: the user must be able to predict with perfect accuracy the name of the directory that will be created when she unpacks a distribution.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Cando nos referimos a un proxecto polo nome, a xente normalmente o escribe en maiúsculas coma un nome propio, e escribe en maiúsculas os acrónimos se os houber: "MySQL&amp;nbsp;5.0", "Scanley&amp;nbsp;2.5.0", etc. Depende do proxecto que o nome do pacote se escriba tamén en maiúsculas. Tanto &lt;filename&gt;Scanley-2.5.0.tar.gz&lt;/filename&gt; como &lt;filename&gt;scanley-2.5.0.tar.gz&lt;/filename&gt; sería correcto, por exemplo (Eu persoalmente prefiro a última, porque non me gusta que a xente empregue a tecla shift, mais moitos proxectos escriben os pacotes en maiúsculas). O importante é que o directorio creado despois de desempacotar o tarball use a mesma grafía. Non debería haber sorpresas: o usuario debe ser capaz de predicir perfectamente o nome do directorio que será creado cando desempacote a distribución.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Pre-releases</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Pre-versións</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>When shipping a pre-release or candidate release, the qualifier is truly a part of the release number, so include it in the name of the package's name. For example, the ordered sequence of alpha and beta releases given earlier in &lt;xref linkend="release-number-components"/&gt; would result in package names like this:</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Cando se saca unha pre-versión ou versión candidata, o cualificador é verdadeiramente parte do número de versión, polo tanto inclúese no nome do pacote. Por exemplo, a secuencia ordenada das versións alpha e beta vista antes en &lt;xref linkend="release-number-components"/&gt; resultaría nos nomes de pacote:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>scanley-2.3.0-alpha1.tar.gz
+scanley-2.3.0-alpha2.tar.gz
+scanley-2.3.0-beta1.tar.gz
+scanley-2.3.0-beta2.tar.gz
+scanley-2.3.0-beta3.tar.gz
+scanley-2.3.0.tar.gz</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>scanley-2.3.0-alpha1.tar.gz
+scanley-2.3.0-alpha2.tar.gz
+scanley-2.3.0-beta1.tar.gz
+scanley-2.3.0-beta2.tar.gz
+scanley-2.3.0-beta3.tar.gz
+scanley-2.3.0.tar.gz</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The first would unpack into a directory named &lt;filename&gt;scanley-2.3.0-alpha1&lt;/filename&gt;, the second into &lt;filename&gt;scanley-2.3.0-alpha2&lt;/filename&gt;, and so on.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>O primeiro desempacotaríase nun directorio chamado &lt;filename&gt;scanley-2.3.0-alpha1&lt;/filename&gt;, o segundo dentro &lt;filename&gt;scanley-2.3-0-alpha2&lt;/filename&gt;, etc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Compilation and Installation</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Compilación e instalación</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For software requiring compilation or installation from source, there are usually standard procedures that experienced users expect to be able to follow. For example, for programs written in C, C++, or certain other compiled languages, the standard under Unix-like systems is for the user to type:</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Para software que require compilación ou instalación desde as fontes, hai normalmente varios procedementos estándar que usuarios experimentados esperan ser capaces de seguir. Por exemplo, para programas escritos en C, C++, ou outras certas linguaxes compiladas, o estándar baixo sistemas operativos tipo Unix é para o usuario dixitar:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>$ ./configure
+   $ make
+   # make install</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>$ ./configure
+   $ make
+   # make install</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The first command autodetects as much about the environment as it can and prepares for the build process, the second command builds the software in place (but does not install it), and the last command installs it on the system. The first two commands are done as a regular user, the third as root. For more details about setting up this system, see the excellent &lt;citetitle&gt;GNU Autoconf, Automake, and Libtool&lt;/citetitle&gt; book by Vaughan, Elliston, Tromey, and Taylor. It is published as treeware by New Riders, and its content is also freely available online at &lt;ulink url="http://sources.redhat.com/autobook/"&gt;&lt;/ulink&gt;.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>O primeiro comando tanto detecta o entorno como o pode preparar para o proceso de compilación, o segundo comando compila o software no sitio (mais non o instala), e o último comando instálao no sistema. Os dous primeiros comandos fanse como usuario normal, o terceiro como root. Para máis detalles a respecto da configuración deste sistema, le o excelente libro &lt;citetitle&gt;GNU Autoconf, Automake, and Libtool&lt;/citetitle&gt; escrito por Vaughan, Eliston, Tromey e Taylor. Está publicado en forma de treeware por New Riders, e o seu contido está dispoñible gratis online en &lt;ulink url="http://sources.redhat.com/autobook/"&gt;&lt;/ulink&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This is not the only standard, though it is one of the most widespread. The Ant (&lt;ulink url="http://ant.apache.org/"&gt;&lt;/ulink&gt;) build system is gaining popularity, especially with projects written in Java, and it has its own standard procedures for building and installing. Also, certain programming languages, such as Perl and Python, recommend that the same method be used for most programs written in that language (for example, Perl modules use the command &lt;command&gt;perl&amp;nbsp;Makefile.pl&lt;/command&gt;). If it's not obvious to you what the applicable standards are for your project, ask an experienced developer; you can safely assume that &lt;emphasis&gt;some&lt;/emphasis&gt; standard applies, even if you don't know what it is at first.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Este non é o único estándar, mais é un dos máis estendidos. O sistema de compilación Ant (&lt;ulink url="http://ant.apache.org/"&gt;&lt;/ulink&gt;) está gañando popularidade, especialmente nos proxectos escritos en Java, e ten os seus propios procesos de compilación e instalación. Ademais, certas linguaxes de programación como Perl e Pyton, recomendan que ese mesmo método sexa empregado por máis programas escritos nesa linguaxe (por exemplo, os módulos Perl empregan o comando &lt;command&gt;perl&amp;nbsp;Makefile.pl&lt;/command&gt;). Se non é obvio para ti que estándar empregar no teu proxecto, pregunta a un desenvolvedor experimentado; podes asumir con seguridade que se aplica &lt;emphasis&gt;algún&lt;/emphasis&gt; estándar, mesmo se non souberes cal é ao principio.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Whatever the appropriate standards for you project are, don't deviate from them unless you absolutely must. Standard installation procedures are practically spinal reflexes for a lot of system administrators now. If they see familiar invocations documented in your project's &lt;filename&gt;INSTALL&lt;/filename&gt; file, that instantly raises their faith that your project is generally aware of conventions, and that it is likely to have gotten other things right as well. Also, as discussed in &lt;xref linkend="downloads"/&gt;&lt;phrase output="printed"&gt; in &lt;xref linkend="getting-started"/&gt;&lt;/phrase&gt;, having a standard build procedure pleases potential developers.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Sexa cal for o estándar apropiado para o teu proxecto, non te desvíes del a menos que debas facelo. Os procesos estándar de instalación son practicamente a columna vertebral para moitos administradores de sistemas. Se viren invocacións familiares documentadas no ficheiro &lt;filename&gt;INSTALL&lt;/filename&gt; do teu proxecto, iso fará que instantaneamente incrementen a súa fe en que o teu proxecto segue as convencións, e que probablemente outras cousas tamén están ben. Ademais, como discutimos &lt;xref linkend="downloads"/&gt;&lt;phrase output="printed"&gt; en &lt;xref linkend="getting-started"/&gt;&lt;/phrase&gt;, ter un proceso estándar de compilación comprace os potenciais desenvolvedores.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>On Windows, the standards for building and installing are a bit less settled. For projects requiring compilation, the general convention seems to be to ship a tree that can fit into the workspace/project model of the standard Microsoft development environments (Developer Studio, Visual Studio, VS.NET, MSVC++, etc.). Depending on the nature of your software, it may be possible to offer a Unix-like build option on Windows via the Cygwin (&lt;ulink url="http://www.cygwin.com/"&gt;&lt;/ulink&gt;) environment. And of course, if you're using a language or programming framework that comes with its own build and install conventions&amp;mdash;e.g., Perl or Python&amp;mdash;you should simply use whatever the standard method is for that framework, whether on Windows, Unix, Mac OS X, or any other operating system.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>En Windows, os estándares para compilar e instalar están menos asentados. Para proxectos que requiren compilación, a convención xeral parece ser navegar por unha árbore que pode encaixar dentro do espazo de traballo/modelo do proxecto do entorno de desenvolvemento estándar de Microsoft (Developer Studio, Visual Studio, VS.NET, MSVC++, etc). Dependendo da natureza do teu software, pode ser posible ofrecer a opción dun sistema de compilación tipo Unix sobre Windows vía o entorno Cygwin (&lt;ulink url="http://www.cygwin.com/"&gt;&lt;/ulink&gt;). E por suposto, se estás empregando unha linguaxe ou framework de programación que veña coa súa propia convención&amp;mdash; para compilar e instalar;por exemplo, Perl ou Python&amp;mdash;simplemente deberías usar o método estándar para ese framework, for en Windows, Unix, Mac OS X, ou calquera outro sistema operativo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Be willing to put in a lot of extra effort in order to make your project conform to the relevant build or installation standards. Building and installing is an entry point: it's okay for things to get harder after that, if they absolutely must, but it would be a shame for the user's or developer's very first interaction with the software to require unexpected steps.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Anímate a faceres un esforzo extra para creares o teu proxecto conforme a un estándar de compilación ou instalación importante. A compilación e a instalación son un punto de entrada: é normal que as cousas que se tornen máis duras despois de iso, se deben, pero sería unha pena para os usuarios e desenvolvedores que a primeira interacción co software requirise de pasos inesperados.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Binary Packages</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Pacotes binarios</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Although the formal release is a source code package, most users will install from binary packages, either provided by their operating system's software distribution mechanism, or obtained manually from the project web site or from some third party. Here "binary" doesn't necessarily mean "compiled"; it just means any pre-configured form of the package that allows a user to install it on his computer without going through the usual source-based build and install procedures. On RedHat GNU/Linux, it is the RPM system; on Debian GNU/Linux, it is the APT (&lt;filename&gt;.deb&lt;/filename&gt;) system; on MS Windows, it's usually &lt;literal&gt;.MSI&lt;/literal&gt; files or self-installing &lt;literal&gt;.exe&lt;/literal&gt; files.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Embora a liberación formal dunha versión sexa un pacote de código fonte, moitos usuarios instalarana desde pacotes binarios, fornecidos polo mecanismo de distribución de software do seu sistema operativo, ou obtido manualmente desde a páxina web do proxecto ou a través de terceiros. Aquí "binario" non necesariamente quere dicir "compilado"; simplemente quere dicir algunha forma de pacote que permite o usuario instalalo no computador sen pasar polo proceso de compilar e instalar as fontes. En RedHat GNU/Linux, é o sistema RPM; en Debian GNU/Linux, é o sistema APT (&lt;filename&gt;.deb&lt;/filename&gt;); en MS Windows, xeralmente ficheiros &lt;literal&gt;.MSI&lt;/literal&gt; ou auto-instalables &lt;literal&gt;.exe&lt;/literal&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Whether these binary packages are assembled by people closely associated with the project, or by distant third parties, users are going to &lt;emphasis&gt;treat&lt;/emphasis&gt; them as equivalent to the project's official releases, and will file issues in the project's bug tracker based on the behavior of the binary packages. Therefore, it is in the project's interest to provide packagers with clear guidelines, and work closely with them to see to it that what they produce represents the software fairly and accurately.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Independentemente de se estes pacotes binarios son empacotados por xente vinculada ao proxecto, ou por terceiros, os usuarios &lt;emphasis&gt;trataranos&lt;/emphasis&gt; como se fosen oficiais, e avisarán de problemas no bug tracker do proxecto a respecto do comportamento deses pacotes binarios. Polo tanto, redunda no beneficio do proxecto fornecer guías claras para os empacotadores, e traballar con eles para ver se isto representa beneficios para o software.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The main thing packagers need to know is that they should always base their binary packages on an official source release. Sometimes packagers are tempted to pull a later incarnation of the code from the repository, or include selected changes that were committed after the release was made, in order to provide users with certain bug fixes or other improvements. The packager thinks he is doing his users a favor by giving them the more recent code, but actually this practice can cause a great deal of confusion. Projects are prepared to receive reports of bugs found in released versions, and bugs found in recent trunk and major branch code (that is, found by people who deliberately run bleeding edge code). When a bug report comes in from these sources, the responder will often be able to confirm that the bug is known to be present in that snapshot, and perhaps that it has since been fixed and that the user should upgrade or wait for the next release. If it is a previously unknown bug, having the precise release makes it easier to reproduce and easier to categorize in the tracker.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>O máis importante que os empacotadores precisan saber é que eles deben sempre basearse en versións oficiais para faceren os seus pacotes binarios. Algunhas veces os empacotadores teñen a tentación de facer mudanzas no código, ou incluír mudanzas sobre as que se fixo commit despois de estar feita a versión, para fornecer os usuarios de certas melloras. O empacotador pensa que lles está a facer un grande favor aos usuarios dándolles a última versión do código, mais de feito esta práctica causa unha grande confusión. Os proxectos están preparados para recibiren reportes de erros atopados en versións lanzadas, na rama principal e en recentes ramas (isto é, atopados por xente que deliberadamente executa este código). Cando un erro reportado vén destas fontes, o que responde a miúdo é capaz de confirmar se ese bug coñecido está presente nesa versión, e quizais xa foi arranxado e o usuario debería actualizar ou esperar a seguinte versión. Se for un erro descoñecido previamente, tendo a versión precisa fai máis sinxelo reproducilo e categorizalo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Projects are not prepared, however, to receive bug reports based on unspecified intermediate or hybrid versions. Such bugs can be hard to reproduce; also, they may be due to unexpected interactions in isolated changes pulled in from later development, and thereby cause misbehaviors that the project's developers should not have to take the blame for. I have even seen dismayingly large amounts of time wasted because a bug was &lt;emphasis&gt;absent&lt;/emphasis&gt; when it should have been present: someone was running a slightly patched up version, based on (but not identical to) an official release, and when the predicted bug did not happen, everyone had to dig around a lot to figure out why.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Os proxectos non están preparados, porén, para recibir erros reportados baseados en versións intermedias non especificadas ou híbridas. Moitos erros poden ser difíciles de reproducir; ademais, poden ser debidos a inesperadas iteracións en mudanzas incorporadas máis tarde no desenvolvemento, e dese modo causar malos comportamentos dos que os desenvolvedores do proxecto poden non ter culpa. Eu teño visto con consternación perderse moito tempo por culpa dun bug &lt;emphasis&gt;ausente&lt;/emphasis&gt; cando debería estar presente: alguén estaba executando unha versión remendada, baseada en (mais non idéntica) unha versión oficial, e cando o erro anunciado non sucedeu, todo o mundo tiña que escarvar arredor para adiviñar a causa.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Still, there will sometimes be circumstances when a packager insists that modifications to the source release are necessary. Packagers should be encouraged to bring this up with the project's developers and describe their plans. They may get approval, but failing that, they will at least have notified the project of their intentions, so the project can watch out for unusual bug reports. The developers may respond by putting a disclaimer on the project's web site, and may ask that the packager do the same thing in the appropriate place, so that users of that binary package know what they are getting is not exactly the same as what the project officially released. There need be no animosity in such a situation, though unfortunately there often is. It's just that packagers have a slightly different set of goals from developers. The packagers mainly want the best out-of-the-box experience for their users. The developers want that too, of course, but they also need to ensure that they know what versions of the software are out there, so they can receive coherent bug reports and make compatibility guarantees. Sometimes these goals conflict. When they do, it's good to keep in mind that the project has no control over the packagers, and that the bonds of obligation run both ways. It's true that the project is doing the packagers a favor simply by producing the software. But the packagers are also doing the project a favor, by taking on a mostly unglamorous job in order to make the software more widely available, often by orders of magnitude. It's fine to disagree with packagers, but don't flame them; just try to work things out as best you can.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Contodo, haberá as veces circunstancias nas que un empacotador insistirá en que é necesario modificar o código da versión. Os empacotadores deberían ser animados a suxeriren isto aos desenvolvedores do proxecto e describiren os seus plans. Poden obter aprobación, mais se non, polo menos notificarán ao proxecto as súas intencións, polo que o proxecto pode observar informes de erros infrecuentes. Os desenvolvedores poden responder poñendo unha nota de descargo de responsabilidade na páxina web do proxecto, e pedirlle ao empacotador que faga o mesmo no lugar adecuado, para que os usuarios do pacote binario saiban que o que están obtendo non é exactamente o mesmo que a versión oficial do proxecto. Non hai que ter carraxe por esta situación o que desafortunadamente pasa a miúdo. O que pasa simplemente é que o empacotador ten obxectivos lixeiramente distintos aos desenvolvedores. Normalmente os empacotadores queren a mellor experiencia de serie posible para os seus usuarios. Os desenvolvedores queren iso tamén, por suposto, mais necesitan asegurarse tamén de que coñecen o que contén a versión para poder recibir informes de bugs coherentes e asegurar a compatibilidade. Algunhas veces os obxectivos entran en conflito. Cando isto pasa, é bo ter en mente que o proxecto non ten control sobre os empacotadores. É certo que o proxecto fai un favor aos empacotadores producindo o software. Mais os empacotadores están tamén facendo un favor ao proxecto, tornando o software dispoñible, a miúdo en ordes de magnitude maiores. Está ben estar en desacordo cos empacotadores, mais non entrar en conflito con eles, simplemente trata de facer as cousas o mellor que poidas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Testing and Releasing</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Probas e publicación das versións</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Once the source tarball is produced from the stabilized release branch, the public part of the release process begins. But before the tarball is made available to the world at large, it should be tested and approved by some minimum number of developers, usually three or more. Approval is not simply a matter of inspecting the release for obvious flaws; ideally, the developers download the tarball, build and install it onto a clean system, run the regression test suite (see &lt;xref linkend="automated-testing"/&gt;)&lt;phrase output="printed"&gt; in &lt;xref linkend="managing-volunteers"/&gt;&lt;/phrase&gt;, and do some manual testing. Assuming it passes these checks, as well as any other release checklist criteria the project may have, the developers then digitally sign the tarball using GnuPG (&lt;ulink url="http://www.gnupg.org/"&gt;&lt;/ulink&gt;), PGP (&lt;ulink url="http://www.pgpi.org/"&gt;&lt;/ulink&gt;), or some other program capable of producing PGP-compatible signatures.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Unha vez que o tarball das fontes é producido desde a rama da versión establilizada, comeza a parte pública do proceso de sacar a versión. Mais antes de que o tarball estea dispoñible para o mundo, debería ser testado e aprobado por un mínimo de desenvolvedores, normalmente tres ou máis. Aprobado non é simplemente inspeccionar a versión en busca de simples defectos; idealmente, os desenvolvedores baixan o tarball, compílano e instálano nun sistema limpo, lanzan os test de regresión (ver &lt;xref linkend="automated-testing"/&gt;&lt;phrase output="printed"&gt; en &lt;xref linkend="managing-volunteers"/&gt;&lt;/phrase&gt;, e fan algo de test manual. Asumindo que supera eses tests, como calquera outro que a versión pode ter a criterio do proxecto, os desenvolvedores asinan o tarball empregando GnuPG (&lt;ulink url="http://www.gnupg.org/"&gt;&lt;/ulink&gt;), PGP (&lt;ulink url="http://www.pgpi.org/"&gt;&lt;/ulink&gt;), ou algún outro programa que produza sinaturas compatibles con PGP.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In most projects, the developers just use their personal digital signatures, instead of a shared project key, and as many developers as want to may sign (i.e., there is a minimum number, but not a maximum). The more developers sign, the more testing the release undergoes, and also the greater the likelihood that a security-conscious user can find a digital trust path from herself to the tarball.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>En moitos proxectos, os desenvolvedores simplemente usan as súas sinaturas dixitais, no canto de compartiren a chave do proxecto, e moitos desenvolvedores queren poder asinar (por exemplo, hai un número mínimo, masi non máximo). Cantos máis desenvolvedores asinen, máis testaxe se fai na versión, e ademais máis grande a posibilidade de que un usuario preocupado pola seguridade pode atopar un camiño dixitalmente seguro entre el e o tarball.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Once approved, the release (that is, all tarballs, zip files, and whatever other formats are being distributed) should be placed into the project's download area, accompanied by the digital signatures, and by MD5/SHA1 checksums (see &lt;ulink url="http://en.wikipedia.org/wiki/Cryptographic_hash_function"&gt;&lt;/ulink&gt;). There are various standards for doing this. One way is to accompany each released package with a file giving the corresponding digital signatures, and another file giving the checksum. For example, if one of the released packages is &lt;filename&gt;scanley-2.5.0.tar.gz&lt;/filename&gt;, place in the same directory a file &lt;filename&gt;scanley-2.5.0.tar.gz.asc&lt;/filename&gt; containing the digital signature for that tarball, another file &lt;filename&gt;scanley-2.5.0.tar.gz.md5&lt;/filename&gt; containing its MD5 checksum, and optionally another, &lt;filename&gt;scanley-2.5.0.tar.gz.sha1&lt;/filename&gt;, containing the SHA1 checksum. A different way to provide checking is to collect all the signatures for all the released packages into a single file, &lt;filename&gt;scanley-2.5.0.sigs&lt;/filename&gt;; the same may be done with the checksums.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Unha vez aprobada, a versión (isto é, todos os tarballs, ficheiros zip, e calquera outros formatos nos que for distribuída) deberían poñerse na zona de descargas dos proxectos, acompañada das sinaturas dixitais e o MD5/SHA1 checksums (ver &lt;ulink url="http://en.wikipedia.org/wiki/Cryptographic_hash_function"&gt;&lt;/ulink&gt;). Hai varios estándares para facer isto. Unha forma é acompañar a cada pacote lanzado cun ficheiro que contén as correspondencias das sinaturas dixitais, e outro ficheiro co checksum. Por exemplo, se un dos pacotes lanzados for &lt;filename&gt;scanley-2.5.0.tar.gz&lt;/filename&gt;, situaríase no mesmo directorio un ficheiro &lt;filename&gt;scanley-2.5.0.tar.gz.asc&lt;/filename&gt; coa sinatura dixital para o tarball, outro ficheiro &lt;filename&gt;scanley-2.5.0.tar.gz.mdz&lt;/filename&gt; co MD5 checksum, e opcionalmente outro, &lt;filename&gt;scanley-2.5.0.tar.gz.sha1&lt;/filename&gt;, co SHA1 checksum. Unha forma diferente de facelo sería poñendo todas a sinaturas para os pacotes lanzados nun único ficheiro, &lt;filename&gt;scanley-2.5.0.sigs&lt;/filename&gt;; o mesmo cos checksums.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It doesn't really matter which way you do it. Just keep to a simple scheme, describe it clearly, and be consistent from release to release. The purpose of all this signing and checksumming is to give users a way to verify that the copy they receive has not been maliciously tampered with. Users are about to run this code on their computers&amp;mdash;if the code has been tampered with, an attacker could suddenly have a back door to all their data. See &lt;xref linkend="security-releases"/&gt;&lt;phrase output="printed"&gt; later in this chapter&lt;/phrase&gt; for more about paranoia.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Non importa realmente a forma de facelo. Simplemente segue un esquema simple, descrito claramente, e coherente de versión a versión. O propósito de todo estas sinaturas e checksumming é darlle aos usuarios unha forma de verificaren que a copia que reciben non ten nada malicioso. Os usuarios executan ese código na súa computadora&amp;mdash;se o código foi manipulado, un atacante podería ter unha porta de atrás para acceder a todos os datos. Ver &lt;xref linkend="security-releases"/&gt;&lt;phrase output="printed"&gt;máis adiante neste capítulo&lt;/phrase&gt; para máis información sobre paranoias.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Candidate Releases</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Versións candidatas</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For important releases containing many changes, many projects prefer to put out &lt;firstterm&gt;release candidates&lt;/firstterm&gt; first, e.g., &lt;filename&gt;scanley-2.5.0-beta1&lt;/filename&gt; before &lt;filename&gt;scanley-2.5.0&lt;/filename&gt;. The purpose of a candidate is to subject the code to wide testing before blessing it as an official release. If problems are found, they are fixed on the release branch and a new candidate release is rolled out (&lt;filename&gt;scanley-2.5.0-beta2&lt;/filename&gt;). The cycle continues until no unacceptable bugs are left, at which point the last candidate release becomes the official release&amp;mdash;that is, the only difference between the last candidate release and the real release is the removal of the qualifier from the version number.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Para versións importantes que conteñen moitas mudanzas, moitos proxectos prefiren sacar &lt;firstterm&gt;versións candidatas&lt;/firstterm&gt; primeiro, p.e.,&lt;filename&gt;scanley-2.5.0-beta1&lt;/filename&gt; antes de &lt;filename&gt;scanley-2.5.0&lt;/filename&gt;. O propósito dunha candidata é probar ese código antes de darlle o status de versión oficial. Se se atopan problemas, son arranxados na rama da versión e unha nova versión candidata é estendida (&lt;filename&gt;scanley-2.5.0-beta2&lt;/filename&gt;). O ciclo continúa ata que non fiquen erros inaceptables, neste punto a última versión candidata convértese na versión oficial&amp;mdash;iso é, a única diferencia entre a última versión candidata e a versión real é a falta do cualificador do número de versión.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In most other respects, a candidate release should be treated the same as a real release. The &lt;emphasis&gt;alpha&lt;/emphasis&gt;, &lt;emphasis&gt;beta&lt;/emphasis&gt;, or &lt;emphasis&gt;rc&lt;/emphasis&gt; qualifier is enough to warn conservative users to wait until the real release, and of course the announcement emails for the candidate releases should point out that their purpose is to solicit feedback. Other than that, give candidate releases the same amount of care as regular releases. After all, you want people to use the candidates, because exposure is the best way to uncover bugs, and also because you never know which candidate release will end up becoming the official release.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>En moitos outros aspectos, unha versión candidata debería ser tratada como a versión real. O cualificador &lt;emphasis&gt;alpha&lt;/emphasis&gt;, &lt;emphasis&gt;beta&lt;/emphasis&gt; ou &lt;emphasis&gt;rc&lt;/emphasis&gt; é suficiente para advertir a usuarios conservadores que esperen ata a versión real, e por suposto o email de anuncio para versións candidatas debería apuntar que o seu propósito é solicitar feedback. Outra cousa, dá ás versións candidatas a mesma atención que ás regulares. Despois de todo, queres que a xente empregue as candidatas, porque é o mellor xeito de descubrir erros, e ademais porque nunca sabes que versión candidata se converterá na versión oficial.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Announcing Releases</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Anunciando as versións</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Announcing a release is like announcing any other event, and should use the procedures described in &lt;xref linkend="publicity"/&gt;&lt;phrase output="printed"&gt; in &lt;xref linkend="communications"/&gt;&lt;/phrase&gt;. There are a few specific things to do for releases, though.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Anunciar unha versión é como anunciar calquera outro evento, e debería empregar os procesos descritos &lt;xref linkend="publicity"/&gt;&lt;phrase output="printed"&gt; en &lt;xref linkend="communications"/&gt;. Hai algunhas cousas que facer especificamente para a versión.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Whenever you give the URL to the downloadable release tarball, make sure to also give the MD5/SHA1 checksums and pointers to the digital signatures file. Since the announcement happens in multiple forums (mailing list, news page, etc.), this means users can get the checksums from multiple sources, which gives the most security-conscious among them extra assurance that the checksums themselves have not been tampered with. Giving the link to the digital signature files multiple times doesn't make those signatures more secure, but it does reassure people (especially those who don't follow the project closely) that the project takes security seriously.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Cando deas a URL para descarregar o tarball da versión, asegúrate tamén de dares o MD5/SHA1 checksums e indicacións sobre o ficheiro da sinatura dixital. Xa que o anuncio ten lugar en múltiples foros (listas de correo, páxinas de novas, etc.), os usuarios poden obter o checksum de varias fontes, o cal lles dá a máxima seguridade de que os checksums nos foron alterados. Dar a ligazón aos ficheiros de firma dixital múltiples veces non fai esas sinaturas máis seguras, mais tranquiliza a xente (especialmente aqueles que non seguen o proxecto de perto) de que o proxecto se toma a seguridade en serio.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In the announcement email, and on news pages that contain more than just a blurb about the release, make sure to include the relevant portion of the CHANGES file, so people can see why it might be in their interests to upgrade. This is as important with candidate releases as with final releases; the presence of bugfixes and new features is important in tempting people to try out a candidate release.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Nese email de anuncio, e nas páxinas de noticias que conteñen máis que propaganda sobre a versión, asegúrate de incluíres a porción relevante do ficheiro CHANGES, para que a xente poida ver porque lles podería interesar a actualización. Isto é importante con versións candidatas e con versións finais; a presenza de erros arranxados e novas funcionalidades é importante e tentador para a xente para probaren a versión candidata.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Finally, don't forget to thank the development team, the testers, and all the people who took the time to file good bug reports. Don't single out anyone by name, though, unless there's someone who is individually responsible for a huge piece of work, the value of which is widely recognized by everyone in the project. Just be wary of sliding down the slippery slope of credit inflation (see &lt;xref linkend="credit"/&gt;&lt;phrase output="printed"&gt; in &lt;xref linkend="managing-volunteers"/&gt;&lt;/phrase&gt;).</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Finalmente, non esquezas agradecer o equipo de desenvolvemento, os probadores, e toda a xente que empregou tempo para facer bos informes de erros. Non empregues nomes, a non ser que houber alguén individualmente responsable dalgunha peza grande de traballo. Simplemente sé cauteloso para non caeres na inflación do crédito (ver &lt;xref linkend="credit"/&gt;&lt;phrase output="printed"&gt;en &lt;xref linkend="managing-volunteers"/&gt;&lt;/phrase&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Maintaining Multiple Release Lines</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Mantendo múltiples liñas de versións</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Most mature projects maintain multiple release lines in parallel. For example, after 1.0.0 comes out, that line should continue with micro (bugfix) releases 1.0.1, 1.0.2, etc., until the project explicitly decides to end the line. Note that merely releasing 1.1.0 is not sufficient reason to end the 1.0.x line. For example, some users make it a policy never to upgrade to the first release in a new minor or major series&amp;mdash;they let others shake the bugs out of, say 1.1.0, and wait until 1.1.1. This isn't necessarily selfish (remember, they're forgoing the bugfixes and new features too); it's just that, for whatever reason, they've decided to be very careful with upgrades. Accordingly, if the project learns of a major bug in 1.0.3 right before it's about to release 1.1.0, it would be a bit severe to just put the bugfix in 1.1.0 and tell all the old 1.0.x users they should upgrade. Why not release both 1.1.0 and 1.0.4, so everyone can be happy?</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>O proxectos máis maduros manteñen varias liñas de versións en paralelo. Por exemplo, despois de que saia a 1.0.0, esa liña debería continuar con micro versións 1.0.1, 1.0.2, etc., ata que o proxecto explicitamente decida o fin da liña. Nótese que lanzar a 1.1.0 non é razón suficiente para finalizar a liña 1.0.x. Por exemplo, moitos usuarios manteñen a política de non actualizaren a primeira versión cun novo número menor ou maior na serie&amp;mdash;permiten que outros se sacudan os bugs, da 1.1.0, e esperar ata a 1.1.1. Isto non é necesariamente egoísta (recorda, están renunciando a erros amañados e novas funcionalidades tamén); é simplemente iso, por calquera razón, eles decidiron ser coidadosos coas actualizacións. Consecuentemente, se o proxecto se decatar dun erro grave na 1.0.3 xusto antes de sacar a versión 1.1.0, debería ser un pouco severo e poñer o amaño na 1.1.0 e dicirlle a tódolos usuarios da 1.0.x que deberían actualizar. Por que non sacar ambas 1.1.0 1.0.4, para que todo o mundo sexa feliz?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>After the 1.1.x line is well under way, you can declare 1.0.x to be at &lt;firstterm&gt;end of life&lt;/firstterm&gt;. This should be announced officially. The announcement could stand alone, or it could be mentioned as part of a 1.1.x release announcement; however you do it, users need to know that the old line is being phased out, so they can make upgrade decisions accordingly.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Despois de que a liña 1.1.x estea ben avanzada, podes declarar a 1.0.x como&lt;firstterm&gt;finalizada&lt;/firstterm&gt;. Isto debería ser anunciado oficialmente. O anuncio podería ser independente ou podería ser mencionado como parte do anuncio da versión 1.1.x; porén, faino, os usuarios precisan saber que a liña vella está desfasada, para que eles poidan tomar a decisión de actualizar.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Some projects set a window of time during which they pledge to support the previous release line. In an open source context, "support" means accepting bug reports against that line, and making maintenance releases when significant bugs are found. Other projects don't give a definite amount of time, but watch incoming bug reports to gauge how many people are still using the older line. When the percentage drops below a certain point, they declare end of life for the line and stop supporting it.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Algúns proxectos poñen un prazo durante o cal prometen dar soporte a liña previa da versión. No contexto do software libre, "soporte" quere dicir aceptar informes de erros sobre esa liña, e facer versións de mantemento cando se atoparen erros importantes. Outros proxectos non poñen un límite definitivo, mais seguen aceptando informes de erros para calcular canta xente está empregando a liña vella. Cando a porcentaxe atinxe certo punto, declaran a finalización desa liña e do soporte.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For each release, make sure to have a &lt;firstterm&gt;target version&lt;/firstterm&gt; or &lt;firstterm&gt;target milestone&lt;/firstterm&gt; available in the bug tracker, so people filing bugs will be able to do so against the proper release. Don't forget to also have a target called "development" or "latest" for the most recent development sources, since some people&amp;mdash;not only active developers&amp;mdash;will often stay ahead of the official releases.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Para cada versión, asegúrate de teres unha &lt;firstterm&gt;versión obxectivo&lt;/firstterm&gt; ou &lt;firstterm&gt;fito&lt;/firstterm&gt; dispoñible no bug tracker, para que a xente poida informar de bugs nesa versión. Non esquezas ter tamén un obxectivo chamado "desenvolvemento" ou "última" para as fontes de desenvolvemento máis recentes, xa que algunha xente&amp;mdash; non só desenvolvedores&amp;mdash; activos; están atentos as versión oficias.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Security Releases</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Versións de seguridade</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Most of the details of handling security bugs were covered in &lt;xref linkend="security"/&gt;&lt;phrase output="printed"&gt; in &lt;xref linkend="communications"/&gt;&lt;/phrase&gt;, but there are some special details to discuss for doing security releases.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>A maioría dos detalles para manexar erros de seguridade están cubertos &lt;xref linkend="security"/&gt;&lt;phrase output="printed"&gt; en &lt;xref linkend="communications"/&gt;&lt;/phrase&gt;, mais hai algúns detalles especiais que discutir para facer versións de seguridade.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>A &lt;firstterm&gt;security release&lt;/firstterm&gt; is a release made solely to close a security vulnerability. The code that fixes the bug cannot be made public until the release is available, which means not only that the fixes cannot be committed to the repository until the day of the release, but also that the release cannot be publicly tested before it goes out the door. Obviously, the developers can examine the fix among themselves, and test the release privately, but widespread real-world testing is not possible.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Unha &lt;firstterm&gt;versión de seguridade&lt;/firstterm&gt; é unha versión feita para pechar unha vulnerabilidade de seguridade. O código que arranxa ese bug pode non facerse público ata que estiver dispoñible a versión. o cal significa que non só as solucións non poden ser engadidas ao repositorio ata o día da liberación, senón que non se pode publicar e ser testada antes de estar fóra. Obviamente, os desenvolvedores poden examinar o amaño entre eles, e testar a versión privadamente, mais sacala para ser testado publicamente non é posible.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Because of this lack of testing, a security release should always consist of some existing release plus the fixes for the security bug, with &lt;emphasis&gt;no other changes&lt;/emphasis&gt;. This is because the more changes you ship without testing, the more likely that one of them will cause a new bug, perhaps even a new security bug! This conservatism is also friendly to administrators who may need to deploy the security fix, but whose upgrade policy prefers that they not deploy any other changes at the same time.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Debido a esta falta de testaxe, unha versión de seguridade debería sempre consistir dunha versión existente máis os arranxos para o erro de seguridade, sen &lt;emphasis&gt;ningunha outra mudanza&lt;/emphasis&gt;. Isto é porque cantas máis mudanzas metes sen testar, máis probabilidades hai de que algún cause un novo erro, quizais mesmo un novo erro de seguridade!. Este conservadorismo é práctico para os administradores que poidan precisar implementar o remendo de seguridade, mais cuxa política de actualizacións pode recomendar que non se implementen máis mudanzas simultaneamente.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Making a security release sometimes involves some minor deception. For example, the project may have been working on a 1.1.3 release, with certain bug fixes to 1.1.2 already publicly declared, when a security report comes in. Naturally, the developers cannot talk about the security problem until they make the fix available; until then, they must continue to talk publicly as though 1.1.3 will be what it's always been planned to be. But when 1.1.3 actually comes out, it will differ from 1.1.2 only in the security fixes, and all those other fixes will have been deferred to 1.1.4 (which, of course, will now &lt;emphasis&gt;also&lt;/emphasis&gt; contain the security fix, as will all other future releases).</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Facer versións de seguridade as veces supón algunha pequena decepción. Por exemplo, o proxecto pode estar traballando na versión 1.1.3, con certos erros amañados da 1.1.2, cando un informe de seguridade aparece. Naturalmente, os desenvolvedores non poden falar do problema de seguridade ata que estiver amañado; teñen que seguir falando publicamente de que os seus plans son sacar a 1.1.3. Mais cando se vai a sacar a 1.1.3, só vai ser diferente da 1.1.2 no amaño de seguridade, a todos os demais erros amañados se deixan para a 1.1.4 (a que, por suposto terá &lt;emphasis&gt;tamén&lt;/emphasis&gt; o amaño de seguridade, igual que o resto de futuras versións).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You could add an extra component to an existing release to indicate that it contains security changes only. For example, people would be able to tell just from the numbers that 1.1.2.1 is a security release against 1.1.2, and they would know that any release "higher" than that (e.g., 1.1.3, 1.2.0, etc.) contains the same security fixes. For those in the know, this system conveys a lot of information. On the other hand, for those not following the project closely, it can be a bit confusing to see a three-component release number most of the time with an occasional four-component one thrown in seemingly at random. Most projects I've looked at choose consistency and simply use the next regularly scheduled number for security releases, even when it means shifting other planned releases by one.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Podes engadir unha compoñente extra a unha versión existente para indicares que contén mudanzas só por seguridade. Por exemplo, a xente podería ser capaz de dicir só polos números que 1.1.2.1 é unha versión de seguridade e non 1.1.2, e saberían que calquera versión "maior" que esa (e.x., 1.1.3, 1.2.0, etc.) contén os mesmos amaños de seguridade. Para eses, este sistema expresa moita información. Por outra banda, para aqueles que non seguen de perto o proxecto, pode ser un pouco confuso ver unha terceira compoñente no número da versión con ocasionalmente un cuarto compoñente aparentemente aleatorio. Moitos proxectos simplemente empregan o seguinte numero programado para as versións de seguridade, mesmo cando implica mudar os plans da versión.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Releases and Daily Development</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Versións e desenvolvemento diario</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Maintaining parallel releases simultaneously has implications for how daily development is done. In particular, it makes practically mandatory a discipline that would be recommended anyway: have each commit be a single logical change, and never mix unrelated changes in the same commit. If a change is too big or too disruptive to do in one commit, break it across N commits, where each commit is a well-partitioned subset of the overall change, and includes nothing unrelated to the overall change.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Manter versións paralelas simultaneamente ten implicacións para como se fai o desenvolvemento diario. En particular, torna practicamente obrigatoria unha disciplina que sería recomendable de calquera forma: ter cada commit como unha simple mudanza lóxica, e nunca mesturar mudanzas non relacionadas no mesmo commit. </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Here's an example of an ill-thought-out commit:</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Aquí hai un exemplo de commit mal concibido:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>------------------------------------------------------------------------
+r6228 | jrandom | 2004-06-30 22:13:07 -0500 (Wed, 30 Jun 2004) | 8 lines
+
+Fix Issue #1729: Make indexing gracefully warn the user when a file
+is changing as it is being indexed.
+
+* ui/repl.py
+  (ChangingFile): New exception class.
+  (DoIndex): Handle new exception.
+
+* indexer/index.py
+  (FollowStream): Raise new exception if file changes during indexing.
+  (BuildDir): Unrelatedly, remove some obsolete comments, reformat
+  some code, and fix the error check when creating a directory.
+
+Other unrelated cleanups:
+
+* www/index.html: Fix some typos, set next release date.
+------------------------------------------------------------------------</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>------------------------------------------------------------------------
+r6228 | jrandom | 2004-06-30 22:13:07 -0500 (Wed, 30 Jun 2004) | 8 lines
+
+Fix Issue #1729: Make indexing gracefully warn the user when a file
+is changing as it is being indexed.
+
+* ui/repl.py
+  (ChangingFile): New exception class.
+  (DoIndex): Handle new exception.
+
+* indexer/index.py
+  (FollowStream): Raise new exception if file changes during indexing.
+  (BuildDir): Unrelatedly, remove some obsolete comments, reformat
+  some code, and fix the error check when creating a directory.
+
+Other unrelated cleanups:
+
+* www/index.html: Fix some typos, set next release date.
+------------------------------------------------------------------------</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The problem with it becomes apparent as soon as someone needs to port the &lt;function&gt;BuildDir&lt;/function&gt; error check fix over to a branch for an upcoming maintenance release. The porter doesn't want any of the other changes&amp;mdash;for example, perhaps the fix to issue #1729 wasn't approved for the maintenance branch at all, and the &lt;filename&gt;index.html&lt;/filename&gt; tweaks would simply be irrelevant there. But she cannot easily grab just the &lt;function&gt;BuildDir&lt;/function&gt; change via the version control tool's merge functionality, because the version control system was told that that change is logically grouped with all these other unrelated things. In fact, the problem would become apparent even before the merge. Merely listing the change for voting would become problematic: instead of just giving the revision number, the proposer would have to make a special patch or change branch just to isolate the portion of the commit being proposed. That would be a lot of work for others to suffer through, and all because the original committer couldn't be bothered to break things into logical groups.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>O problema aparece tan pronto como alguén necesita portar o arranxo para comprobar os erros na función &lt;function&gt;BuildDir&lt;/function&gt; a outra rama para unha versión de mantemento. O portador non quere ningunha das outros mudanzas&amp;mdash;por exemplo, quizais o arranxo para o problema #1729 non foi de todo aprobado para a rama de mantemento, e o ficheiro &lt;filename&gt;index.html&lt;/filename&gt; sería simplemente irrelevante alí. Mais non pode facilmente coller xusto a mudanza &lt;function&gt;BuildDir&lt;/function&gt; a través da ferramenta de integración do sistema de control de versións xa que a mudanza está agrupada coas outras cousas non relacionadas. De feito, o problema aparecería mesmo antes da integración. Simplemente somenter a mudanza para votación sería problemático: en troca de dar o número de revisión, o que o propoño tería que facer un remendo especial ou mudar a rama para isolar a porción do commit proposto. Iso sería un montón de traballo sufrido por outros, e todo porque o commiter orixinal nun puido romper as cousas en grupos lóxicos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In fact, that commit really should have been &lt;emphasis&gt;four&lt;/emphasis&gt; separate commits: one to fix issue #1729, another to remove obsolete comments and reformat code in &lt;function&gt;BuildDir&lt;/function&gt;, another to fix the error check in &lt;function&gt;BuildDir&lt;/function&gt;, and finally, one to tweak &lt;filename&gt;index.html&lt;/filename&gt;. The third of those commits would be the one proposed for the maintenance release branch.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>De feito, ese commit realmente deberían ter sido &lt;emphasis&gt;catro&lt;/emphasis&gt; commits separados: un para resolver o problema #1729, outro para eliminar comentarios obsoletos e reformatar o código en &lt;function&gt;BuildDir&lt;/function&gt;, outro para arranxar o erro en &lt;function&gt;BuildDir&lt;/function&gt;, e finalmente, un para o &lt;filename&gt;index.html&lt;/filename&gt;. O terceiro deses commits seria o proposto para a rama de mantemento da versión.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Of course, release stabilization is not the only reason why having each commit be one logical change is desirable. Psychologically, a semantically unified commit is easier to review, and easier to revert if necessary (in some version control systems, reversion is really a special kind of merge anyway). A little up-front discipline on everyone's part can save the project a lot of headache later.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Por suposto, estabilizar unha versión non é a única razón de por que é desexable que cada commit sexa unha mudanza lóxica. Psicoloxicamente, un commit semanticamente unificado é fácil de revisar, e fácil de reverter se for necesario (nalgúns sistemas de control de versións, reversión é realmente unha especie de merge). Un pouco de disciplina por parte de todo o mundo pode evitarlle unha dor de cabeza ao proxecto a longo prazo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Planning Releases</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Planeando as versións</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>One area where open source projects have historically differed from proprietary projects is in release planning. Proprietary projects usually have firmer deadlines. Sometimes it's because customers were promised that an upgrade would be available by a certain date, because the new release needs to be coordinated with some other effort for marketing purposes, or because the venture capitalists who invested in the whole thing need to see some results before they put in any more funding. Free software projects, on the other hand, were until recently mostly motivated by amateurism in the most literal sense: they were written for the love of it. No one felt the need to ship before all the features were ready, and why should they? It wasn't as if anyone's job was on the line.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Unha área onde os proxectos de software libre son diferentes historicamente dos propietarios é nos plans de lanzamento de versións. Os proxectos propietarios normalmente teñen datas límite firmes. Ás veces porque se lles prometeu aos clientes que unha actualización estaría dispoñible nunha data concreta, porque a nova versión precisa coordinarse con algún outro esforzo por propósitos de marketing, ou porque os ousados capitalistas que invisten en todo precisan ver algúns resultados antes de arriscaren os seus cartos para financiaren algo máis. Os proxectos de software libre, por outra banda, foron ata hai pouco máis motivados polo amadorismo no senso máis literal: foron escritos por amor á arte. Ninguén sentía a necesidade de facer os lanzamentos antes de todas as funcionalidades estiveren listas, e por que deberían? Non era como se o traballo de alguén estivese en xogo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Nowadays, many open source projects are funded by corporations, and are correspondingly more and more influenced by deadline-conscious corporate culture. This is in many ways a good thing, but it can cause conflicts between the priorities of those developers who are being paid and those who are volunteering their time. These conflicts often happen around the issue of when and how to schedule releases. The salaried developers who are under pressure will naturally want to just pick a date when the releases will occur, and have everyone's activities fall into line. But the volunteers may have other agendas&amp;mdash;perhaps features they want to complete, or some testing they want to have done&amp;mdash;that they feel the release should wait on.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Hoxe en día, a maioría dos proxectos de software libre son fundados por corporacións, e cada vez están máis influenciados pola cultura das datas límite. Isto é en certa forma algo bo, mais pode causar conflitos entre as prioridades dos desenvolvedores que son pagados e quen o fai como voluntario. Estes conflitos a miúdo suceden cando se trata de deseñar o esquema de lanzamento de versións. Os desenvolvedores pagados que son os que están baixo presión queren establecer unha data para lanzar a versión, e que teñen as actividades de todo o mundo se preguen á súa vontade. Mais os voluntarios poden ter outras axendas&amp;mdash;quizais funcionalidades que queren completar, ou algún test que queren realizar&amp;mdash;eles senten que o lanzamento da versión debería esperar.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>There is no general solution to this problem except discussion and compromise, of course. But you can minimize the frequency and degree of friction caused, by decoupling the proposed &lt;emphasis&gt;existence&lt;/emphasis&gt; of a given release from the date when it would go out the door. That is, try to steer discussion toward the subject of which releases the project will be making in the near- to medium-term future, and what features will be in them, without at first mentioning anything about dates, except for rough guesses with wide margins of error&lt;footnote&gt;&lt;para&gt;For an alternative approach, you may wish to read Martin Michlmayr's Ph.D. thesis &lt;citetitle&gt;Quality Improvement in Volunteer Free and Open Source Software Projects: Exploring the Impact of Release Management&lt;/citetitle&gt; (&lt;ulink url="http://www.cyrius.com/publications/michlmayr-phd.html"&gt;&lt;/ulink&gt;). It is about using time-based release processes, as opposed to feature-based, in large free software projects. Michlmayr also gave a talk at Google on the subject, available on Google Video at &lt;ulink url="http://video.google.com/videoplay?docid=-5503858974016723264"&gt;&lt;/ulink&gt;.&lt;/para&gt;&lt;/footnote&gt;. By nailing down feature sets early, you reduce the complexity of the discussion centered on any individual release, and therefore improve predictability. This also creates a kind of inertial bias against anyone who proposes to expand the definition of a release by adding new features or other complications. If the release's contents are fairly well defined, the onus is on the proposer to justify the expansion, even though the date of the release may not have been set yet.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Non hai unha solución xeral para este problema excepto a discusión e o compromiso, por suposto. Mais non podes minimizar a frecuencia e o nivel de fricción causado, polo desacoplamento da proposta &lt;emphasis&gt;existente&lt;/emphasis&gt; dunha versión dada desde a data cando sairía. Isto é, tratar de levar a discusión cara a que versións do proxecto se farán nun futuro próximo, e que funcionalidades irán en cada unha, sen ningunha mención sobre datas, excepto con grande marxes de erro&lt;footnote&gt;&lt;para&gt;Para unha aproximación alternativa, podes ler a tese de Martin Michlmayr's Ph.D.&lt;citetitle&gt;Quality Improvement in Volunteer Free and Open Source Software Projects: Exploring the Impact of Release Management&lt;/citetitle&gt; (&lt;ulink url="http://www.cyrius.com/publications/michlmayr-phd.html"&gt;&lt;/ulink&gt;). E sobre o uso do tempo baseado en procesos de lanzamento de versións, coma contraposición as funcionalidades, e moitos proxectos de software. Michlmayr ademais deu unha charla en Google sobre o tema, dispoñible a través de Google Video en &lt;ulink url="http://video.google.com/videoplay?docid=-5503858974016723264"&gt;&lt;/ulink&gt;.&lt;/para&gt;&lt;/footnote&gt;. Dando logo un set de funcionalidades, reduces a complexidade da discusión centrada nunha versión individual, e por tanto melloras a previsibilidade. Isto ademais crea unha certa inercia contra alguén que propoñer expandir a definición da versión engadindo novas funcionalidades ou complicacións. Se os contidos da versión están máis ou menos ben definidos, a responsabilidade de xustificar a expansión vai ser de quen a propón, mesmo se a data de lanzamento non foi posta aínda.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In his multi-volume biography of Thomas Jefferson, &lt;citetitle&gt;Jefferson and His Time&lt;/citetitle&gt;, Dumas Malone tells the story of how Jefferson handled the first meeting held to decide the organization of the future University of Virginia. The University had been Jefferson's idea in the first place, but (as is the case everywhere, not just in open source projects) many other parties had climbed on board quickly, each with their own interests and agendas. When they gathered at that first meeting to hash things out, Jefferson made sure to show up with meticulously prepared architectural drawings, detailed budgets for construction and operation, a proposed curriculum, and the names of specific faculty he wanted to import from Europe. No one else in the room was even remotely as prepared; the group essentially had to capitulate to Jefferson's vision, and the University was eventually founded more or less in accordance with his plans. The facts that construction went far over budget, and that many of his ideas did not, for various reasons, work out in the end, were all things Jefferson probably knew perfectly well would happen. His purpose was strategic: to show up at the meeting with something so substantive that everyone else would have to fall into the role of simply proposing modifications to it, so that the overall shape, and therefore schedule, of the project would be roughly as he wanted.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>Na biografía de Thomas Jefferson, de varios volumes, &lt;citetitle&gt;Jefferson and His Time&lt;/citetitle&gt;, Dumas Malone conta a historia de como Jefferson xestionou a primeira reunión que tivo para decidir como organizar o futuro da Universidade de Virxinia. A Universidade estivera no primeiro lugar na mente de Jefferson, mais (como pasa en todas partes, non só nos proxectos de software libre) moitos outros grupos se subiron ao carro rapidamente, cada un cos seus propios intereses e axendas. Cando se reuniron por primeira vez para determinaren as cousas, Jefferson asegurouse de mostrar con meticulosidade planos arquitectónicos preparados, orzamentos detallados para construción e xestión, unha proposta de curriculum, e de nomes de facultades específicas que quería importar de Europa. Ninguén máis na sala estaba remotamente preparado; o grupo esencialmente tivo que capitular ante a visión de Jefferson, e a Universidade foi máis ou menos fundada segundo os seus plans. Os feito de que a construción ficara por riba do orzamento, e que moitas ideas non se fixeran, por varias razóns, eran cousas que probablemente Jefferson sabía que ían acontecer. O seu propósito era estratéxico: mostrar na reunión algo tan detallado que ninguén puidera propoñer modificacións, e que polo tanto as liñas, e o esquema, do proxecto fora coma el quería.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In the case of a free software project, there is no single "meeting", but instead a series of small proposals made mostly by means of the issue tracker. But if you have some credibility in the project to start with, and you start assigning various features, enhancements, and bugs to target releases in the issue tracker, according to some announced overall plan, people will mostly go along with you. Once you've got things laid out more or less as you want them, the conversations about actual release &lt;emphasis&gt;dates&lt;/emphasis&gt; will go much more smoothly.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>No caso dun proxecto de software libre, non hai unha soa "reunión", no canto diso hai unha serie de pequenas propostas polo seguimento do problema. Mais se tiveres certa credibilidade no proxecto para empezar, e comezares asignando varias funcionalidades, melloras, e erros ás versións obxectivo, de acordo co anunciado no plan xeral, a maioría da xente estará contigo. Unha vez tiveres as cousas ordenadas máis ou menos como quixeres, as conversas sobre as &lt;emphasis&gt;datas&lt;/emphasis&gt; da versión actual serán máis suaves.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It is crucial, of course, to never present any individual decision as written in stone. In the comments associated with each assignment of an issue to a specific future release, invite discussion, dissent, and be genuinely willing to be persuaded whenever possible. Never exercise control merely for the sake of exercising control: the more deeply others participate in the release planning process (see &lt;xref linkend="share-management"/&gt;&lt;phrase output="printed"&gt; in &lt;xref linkend="managing-volunteers"/&gt;&lt;/phrase&gt;), the easier it will be to persuade them to share your priorities on the issues that really count for you.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>É crucial, por suposto, non presentar nunca unha decisión individual como se estivese escrita en pedra. Nos comentarios asociados a cada asignación de temas a unha versión futura, invita á discusión, a disentir, e a estar xenuinamente disposto a ser persuadido na medida do posible. Nunca exerzas control simplemente co fin de exerceres control: Canto máis participen os demais no plan de lanzamento das versións (ver &lt;xref linkend="share-management"/&gt;&lt;phrase output="printed"&gt; en &lt;xref linkend="managing-volunteers"/&gt;), máis sinxelo será persuadilos para compartiren as túas prioridades nos asuntos que realmente teñen importancia para ti.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The other way the project can lower tensions around release planning is to make releases fairly often. When there's a long time between releases, the importance of any individual release is magnified in everyone's minds; people are that much more crushed when their code doesn't make it in, because they know how long it might be until the next chance. Depending on the complexity of the release process and the nature of your project, somewhere between every three and six months is usually about the right gap between releases, though maintenance lines may put out micro releases a bit faster, if there is demand for them.</seg>
+      </tuv>
+      <tuv xml:lang="gl">
+        <seg>A outra forma de conseguir que haxa menos tensión arredor do proceso de lanzamento de versións é facer versións a miúdo. Cando pasa moito tempo entre versións, a importancia de cada versión individual é magnificada pola mente de todos; a xente indígnase máis cando o seu código non vai nunha versión, xa que saben que pasará bastante tempo ata que teñan outra oportunidade. Dependendo da complexidade do proceso de lanzamento de versións e a natureza do proxecto, un período entre 3 e 6 meses soe ser o adecuado entre versións, ademais as liñas de mantemento poden facer micro versións máis rápido, se houber demanda.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>
