@@ -1,0 +1,7 @@
+Como producir software de código aberto
+
+Como xerir un proxecto de software libre con suceso
+
+<firstname>Karl</firstname><surname>Fogel</surname>
+
+Karl Fogel, baixo licenza CreativeCommons Attribution-ShareAlike (3.0)

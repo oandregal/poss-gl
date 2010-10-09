@@ -1,0 +1,59 @@
+Sistemas libres de xestión de bugs (Bug Trackers)
+
+Non importa que sistema de xestión de bugs ("bug tracker") empregue un proxecto, sempre hai desenvolvedores que teñen queixa deles. Isto é máis notorio nos sistemas de xestión de erros que en calquera outra ferramenta habitual de desenvolvemento. Na miña opinión é debido a que os "bug trackers" son tan visuais e interactivos que é fácil imaxinar as melloras que a un mesmo lle gustaría facer (se tiver tempo) e describir esas melloras abertamente. Acepta as inevitables queixas con filosofía,  moitos dos sistemas que van ser presentados a seguir son moi bos.
+
+Ao longo das seguintes listaxes a palabra "problema" ("issue" no orixinal) é empregada para referirse aos elementos que o sistema de notificación de erros rexistra. Mais recorda que cada sistema pode ter a súa propia terminoloxía sendo sinónimos "artefacto" ou "erro" ("artifact" ou "bug" no orixinal) entre outros.
+
+<emphasis role="bold">Bugzilla</emphasis>&nbsp;&mdash;&nbsp;<ulink url="http://www.bugzilla.org/"></ulink>
+
+Bugzilla é moi popular, conta con soporte activo e seus usuarios parecen estar satifeitos. Eu traballei cunha versión modificada durante catro anos e gústame. Non é demasiado personalizable, o que en certa maneira pode considerarse unha das súas características; as instalacións de Bugzilla adoitan ser moi semellantes en todas partes, polo que moitos desenvolvedores están xa afeitos á súa interface e vanse sentir nun terreo coñecido.
+
+<emphasis role="bold">GNATS</emphasis>&nbsp;&mdash;&nbsp;<ulink url="http://www.gnu.org/software/gnats/"></ulink>
+
+GNU GNATS é un dos sistemas máis vellos de xestión de bugs e é empregado amplamente. Os seus puntos fortes son a diversidade de interfaces (pode ser usado non só mediante un navigador web, senón tamén a través do correo electrónico ou de ferramentas de liña de comandos) e a almacenaxe dos erros en texto plano. Ter todos os erros en texto plano no disco facilita a tarefa de escribir ferramentas adaptadas para puxar e parsear os datos (por exemplo, para xerar informes estatísticos). GNATS pode tamén acceder a mensaxes de correo electrónico de diversas maneiras e anexalas aos temas correspondentes en función de patróns existentes nos cabezallos das mensaxes; isto facilita en gran medida o rexistro das conversacións entre usuarios e desenvolvedores. 
+
+<emphasis role="bold">RequestTracker (RT)</emphasis>&nbsp;&mdash;&nbsp;<ulink url="http://www.bestpractical.com/rt/"></ulink>
+
+A páxina web de RT di o seguinte: "RT é un sistema de tickets de nivel profesional que permite a un grupo de persoas xerir con eficacia e habilidade tarefas, problemas e peticións enviadas por unha comunidade de usuarios" e, resumindo, iso é o que fai. RT posúe unha interface web bastante polida e parece ter unha ampla base de instalacións. O seu aspecto visual é algo complexo, mais tórnase menos molesto cando estás afeito a empregalo. RT, está rexistrado baixo licenza GNU GPL (por algunha razón, o sitio web non aclara este punto).
+
+<emphasis role="bold">Trac</emphasis>&nbsp;&mdash;&nbsp;<ulink url="http://trac.edgewall.com/"></ulink>
+
+Trac é máis que un sistema de reporte de bugs, en realidade é un sistema que integra wiki e un "bug tracker". Emprega wiki links para ligar temas, arquivos, grupos de mudanzas de control de versións e páxinas wiki simples. É bastante sinxelo de configurar e pódese integrar con Subversion (ver <xref linkend="vc-systems"/>).
+
+<emphasis role="bold">Roundup</emphasis>&nbsp;&mdash;&nbsp;<ulink url="http://roundup.sourceforge.net/"></ulink>
+
+Roundup é bastante sinxelo de instalar (só é necesario un Python 2.1 o superior) e fácil de usar. Ten tanto interface web, coma interface e-mail e en liña de comandos. O molde ("template") de datos dos bugs e a interface web son personalizables, así como parte da lóxica de transición de estados.
+
+<emphasis role="bold">Mantis</emphasis>&nbsp;&mdash;&nbsp;<ulink url="http://www.mantisbt.org/"></ulink>
+
+Mantis é un sistema de xestión de bugs en web, escrito en PHP e que emprega MySQL como base de datos de almacenaxe. Presenta as características que calquera esperaría deste tipo de programas. Persoalmente, acho a súa interface web atractiva, elegante e intuitiva.
+
+<emphasis role="bold">Flyspray</emphasis>&nbsp;&mdash;&nbsp;<ulink url="http://www.flyspray.org/"></ulink>
+
+Flyspray é un sistema web de xestión de bugs escrito en PHP. Segundo a súa páxina web é un sistema "pouco complicado" que inclúe as seguintes funcionalidades: soporte para diferentes bases de datos (nesta altura MySQL e PGSQL), xestión de múltiples proxectos, monitoramento de tarefas con notificacións de mudanzas (vía email ou jabber), histórico de tarefas exaustivo, deseño CSS, ficheiros adxuntos, ferramentas avanzadas de procura (mais sinxelas de manexar), sindicación vía RSS/Atom, admite entradas en wiki ou texto plano, mecanismos de votacións e gráficos de dependencia.
+
+<emphasis role="bold">Scarab</emphasis>&nbsp;&mdash;&nbsp;<ulink url="http://scarab.tigris.org/"></ulink>
+
+A idea principal de Scarab é operar como un sistema completo de xestión de bugs, altamente adaptable, que ofrece, máis ou menos, a unión das ferramentas que ofrecen outros sistemas de este tipo: entrada de datos, consultas, informes, notificacións ás partes interesadas, almacenaxe de comentarios colaborativos e rexistro de dependencias.
+
+Pode ser personalizado mediante páxinas web de admistración. Permite ter activos, nunha única instalación de Scarab, varios "módulos" (proxectos) simultáneamente. Dentro de cada módulo é posible crear novos tipos de elementos (soporte de peticións, defectos, melloras, tarefas, etc.) e engadir outros atributos arbitrarios. Todo isto permite adaptar o sistema aos requisitos determinados de cada proxecto.
+
+A finais de 2004 estaba a punto de ser publicada a versión 1.0 de Scarab.
+
+<emphasis role="bold">Debian Bug Tracking System (DBTS)</emphasis>&nbsp;&mdash;&nbsp;<ulink url="http://www.chiark.greenend.org.uk/~ian/debbugs/"></ulink>
+
+O Debian Bug Tracking System é inusual en tanto que toda a introdución e manipulación de erros se fai vía e-mail: cada erro recibe o seu propio enderezo de e-mail. O DBTS escala bastante ben: por exemplo. <ulink url="http://bugs.debian.org/"></ulink> ten 277.741 erros.
+
+Dado que a interacción é feita mediante clientes de e-mail, un entorno fácilmente accesible e ao que están afeitos moitos usuarios, o DBTS é bo para manexar, clasificar e responder rapidamente a un gran volume de notificacións de erro. Por suposto, ten desvantaxes tamén. Os desenvolvedores deben investir tempo para aprenderen o sistema de comandos de e-mail e os usuarios deben escribir os informes de erro sen un formulario que os guíe na información que hai que incluír. Existen ferramentas para axudar os usuarios a escribiren mellores informes de erros tais como un programa en liña de comandos ou o paquete <systemitem>debbugs-el</systemitem> para Emacs. A maioría da xente non usa estas ferramentas xa que prefiren escribir os e-mails manualmente, e pode que cumpran ou non as regras sobre notificación do proxecto.
+
+O DBTS ten unha interface web exclusivamente de lectura para visualizar e consultar erros.
+
+<emphasis role="bold">Sistemas de rexistro de tickets de problemas (Trouble-Ticket Trackers)</emphasis>
+
+Estes sistemas están máis orientados á xestión de tickets de axuda que á xestión de erros en programas de software. A pesar de que un sistema "bugtracker" normal pode ser o máis adecuado, estes sistemas inclúense nesta obra en prol dun traballo o máis completo posible. Porén, en algúns proxectos poden ser máis axeitados que os tradicionais sistemas de xestión de erros.
+
+<emphasis role="bold">WebCall</emphasis>&nbsp;&mdash;&nbsp;<ulink url="http://myrapid.com/webcall/"></ulink>
+
+<emphasis role="bold">Bluetail Ticket Tracker (BTT)</emphasis>&nbsp;&mdash;&nbsp;<ulink url="http://btt.sourceforge.net/"></ulink>
+
+BTT é unha mestura entre un sistema de rexistro de tickets e un xestor de bugs. Ofrece mecanismos de privacidade que non son frecuentes entre os xestores de bugs. Os usuarios do sistema son clasificados en categorías: empregado (staff), amigo (friend), cliente (customer) ou anónimo. Esta clasificación define o nivel de acceso a máis ou menos datos en función da categoría de cada usuario. Ofrece unha certa integración co e-mail, unha interface de liña de comandos e mecanismos para a conversión de mensaxes de correo electrónico en tickets. Tamén pode xestionar certa información non vinculada directamente a un ticket específico, como documentación interna ou preguntas frecuentes.

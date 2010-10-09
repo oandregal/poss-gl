@@ -1,0 +1,87 @@
+Sistemas de Control de Versións Libres
+
+Estes son todos os sistemas de control de versións libres dos que tiña coñecemento ata a metade de 2007. O único que emprego de xeito habitual é Subversion. Teño pouca ou ningunha experiencia coa maioría destes sistemas, excepto con Subversion e CVS; a información que aquí mostro procede dos seus sitios web. Bótalle unha ollada tamén a <ulink url="http://en.wikipedia.org/wiki/List_of_revision_control_software"></ulink>.
+
+<emphasis role="bold">CVS</emphasis>&nbsp;&mdash;&nbsp;<ulink url="http://www.nongnu.org/cvs/"></ulink>
+
+CVS existe desde hai moito tempo, e moitos desenvolvedores están familiarizados con el. No seu día supuxo unha revolución: foi o primeiro sistema de control de versións de código aberto con acceso de rede para desenvolvedores desde redes de área extensa (ata onde eu sei), e tamén o primeiro en ofrecer "checkouts" (descargas) anónimos  só de lectura, funcionalidades que lle permitían aos novos desenvolvedores  participaren con facilidade en proxectos. CVS só versiona ficheiros, non directorios; ofrece ramificacións ("branching"), etiquetaxe ("tagging"), e bo rendemento no lado cliente, pero non manexa demasiado ben ficheiros grandes nin binarios. Para alén disto, tampouco soporta commits atómicos. <emphasis>[Nota: participei no desenvolvemento de CVS durante cinco anos, antes de axudar a botar a rolar o proxecto Subversion, que o ía substituír.]</emphasis>
+
+<emphasis role="bold">Subversion</emphasis>&nbsp;&mdash;&nbsp;<ulink url="http://subversion.tigris.org/"></ulink>
+
+Subversion foi escrito ante todo para ser o substituto de CVS&mdash; é dicir, para aproximarse ao control de versións do mesmo xeito que o fai CVS, pero sen os problemas e omisións de funcionalidades que anoxaban con frecuencia os usuarios de CVS. Un dos obxectivos de Subversion é fornecer unha transición suave para a xente acostumada a CVS. Non hai espazo aquí para entrar no detalle das funcionalidades de Subversion; bótalle unha ollada ao seu sitio web para obteres máis información. <emphasis>[Nota: Estou implicado no desenvolvemento de Subversion, e é o único destes sistemas que acostumo a empregar.]</emphasis>
+
+<emphasis role="bold">SVK</emphasis>&nbsp;&mdash;&nbsp;<ulink url="http://svk.elixus.org/"></ulink>
+
+Aínda que está construído sobre a base de Subversion, SVK probablemente se pareza máis a algúns dos sistemas descentralizados posteriores que ao propio Subversion. SVK soporta desenvolvemento distribuído, commits locais, mesturas sofisticadas de cambios, e a habilidade de facer espellos de árbores de desenvolvemento con orixe en sistemas de control de versións que non sexan o propio SVK. Bótalle unha ollada ao seu sitio web para máis detalles.
+
+<emphasis role="bold">Mercurial</emphasis>&nbsp;&mdash;&nbsp;<ulink url="http://www.selenic.com/mercurial/"></ulink>
+
+Mercurial é un sistema distribuído de control de versións que ofrece, entre outras cousas, "unha completa indexación cruzada de ficheiros e conxuntos de mudanzas; protocolos de sincronización HTTP e SSH eficientes dende o punto de vista do largo de banda e da CPU; fusión arbitraria entre ramas de desenvolvedores; unha interfaz web integrada autónoma; [portabilidade a] UNIX, MacOS X e Windows" e máis (a lista de funcionalidades precedente foi elaborada a partir do contido do sitio web de Mercurial).
+
+<emphasis role="bold">GIT</emphasis>&nbsp;&mdash;&nbsp;<ulink url="http://git.or.cz/"></ulink>
+
+GIT é un proxecto que iniciou Linus Torvalds para xestionar a árbore de desenvolvemento do código fonte do Kernel de Linux. No comezo GIT estaba claramente enfocado ás necesidades do desenvolvemento do kernel, pero expandiuse máis alá e agora mesmo é empregado por outros proxectos distintos do kernel de Linux. A súa páxina web di que está "...deseñado para manexar proxectos moi grandes con velocidade e eficiencia; está a ser empregado principalmente por varios proxectos de Software Libre, entre os que salienta o kernel de Linux. GIT atópase na categoría das ferramentas de xestión distribuída do código fonte, da mesma maneira que por exemplo GNU Arch ou Monotone (ou BitKeeper no mundo propietario). Cada directorio de traballo de GIT é un repositorio completo con capacidades completas de xestión de revisións, que non depende de acceso á rede ou a un servidor central."
+
+<emphasis role="bold">Bazaar</emphasis>&nbsp;&mdash;&nbsp;<ulink url="http://bazaar.canonical.com/"></ulink>
+
+Bazaar (ou bzr) é un sistema distribuído de control de versións que se centra na facilidade de uso e nun modelo de datos flexible. É un proxecto oficial de GNU, e é o sistema de control de versións nativo para o sitio de aloxamento de proxectos de softare libre "Launchpad.net". Bazaar fornece control de versións totalmente distribuído: todo o traballo ten lugar en "branches" (ramas), e tipicamente cada desenvolvedor ten unha copia completa da historia da rama. As ramas poden fusionarse dentro doutras de xeito descentralizado, pero Bazaar tamén pode configurarse para traballar de xeito centralizado. Bazaar botou a andar como unha división de GNU Arch, pero foi reescrito desde cero e agora non ten relación directa con GNU Arch.
+
+<emphasis role="bold">Darcs</emphasis>&nbsp;&mdash;&nbsp;<ulink url="http://darcs.net"></ulink>
+
+"O Sistema Avanzado de Control de Revisións de David (David's Advanced Revision Control System) é outro substituto de CVS. Está escrito en Haskell, e ten sido usado en Linux, MacOX, FreeBSD, Open BSD e Microsoft Windows. Darcs inclúe un ficheiro de comandos cgi, que podes empregar para veres os contidos de teu repositorio."
+
+<emphasis role="bold">Arch</emphasis>&nbsp;&mdash;&nbsp;<ulink url="http://www.gnu.org/software/gnu-arch/"></ulink>
+
+GNU Arch soporta tanto desenvolvemento distribuído como centralizado. Os desenvolvedores fan commit das súas mudanzas a un "ficheiro", que pode ser local, e as mudanzas poden ser inseridas ou removidas noutros ficheiros segundo os administradores deses ficheiros o consideren conveniente. Como esta metodoloxía implica, Arch ten un soporte de mesturas máis sofisticado que CVS. Arch tamén permite crear ramas dun xeito sinxelo para aqueles ficheiros dos que careces de acceso para faceres commit. Este é só un breve resumo; bótalle unha ollada ao sitio web de Arch para máis detalles.
+
+<emphasis role="bold">monotone</emphasis>&nbsp;&mdash;&nbsp;<ulink url="http://www.venge.net/monotone/"></ulink>
+
+"monotone é un sistema libre distribuído de control de versións. Fornece un sinxelo almacenamento transacional de versións a nivel de ficheiros individuais, con total operatividade baixo desconexión, e cun protocolo eficiente de sincronización entre pares. Entende a fusión sensible ao historial de cambios, ramas lixeiras, revisión integrada de código e testaxe por parte de terceiros. Emprega nomenclatura cifrada de versións e certificados RSA no lado cliente. Posúe un bo soporte de internacionalización, non ten dependencias externas, corre en linux, solaris, OSX e windows, e está publicado baixo licenza GNU/GPL."
+
+<emphasis role="bold">Codeville</emphasis>&nbsp;&mdash;&nbsp;<ulink url="http://codeville.org/"></ulink>
+
+"Por que outro sistema de control de versións? Todos os demais sistemas de control de versións esixen que manteñas unha xestión coidadosa das relacións entre as ramas para non mesturar constantemente os mesmos conflictos. Codeville é moito máis anárquico. Permite actualizar ou facer commits a calquera repositorio en calquera momento sen re-mesturas innecesarias".
+
+"Codeville funciona creando un identificador para cada mudanza feita, e recordando a lista de todos os cambios que foron aplicados a cada ficheiro e a última mudanza que modificou cada liña en cada ficheiro. Cando hai un conflicto, comproba se unha das dúas partes ten sido xa aplicada á outra, e se for así fai que esa parte automaticamente sexa a gañadora. Cando hai un conflicto de versións real que non pode ser mesturado automaticamente, Codeville compórtase case igual que CVS."
+
+<emphasis role="bold">Vesta</emphasis>&nbsp;&mdash;&nbsp;<ulink url="http://www.vestasys.org/"></ulink>
+
+"Vesta é un sistema portable de SCM [Xestión de Configuración de Software ou "Software Configuration Management" en inglés] orientado a dar soporte ao desenvolvemento de sistemas de software de case calquera tamaño, dende bastante pequenos (menos de 10.000 liñas de código fonte) ata moi grandes (10.000.000 de liñas de código fonte)."
+
+"Vesta é un sistema maduro. É o resultado de máis de 10 anos de investigación e desenvolvemento no Centro de Desenvolvemento de Sistemas de Compaq/Digital, e foi empregado en producción polo grupo de microprocesadores Alpha de Compaq durante máis de dous anos e medio. O grupo Alpha tivo máis de 150 desenvolvedores activos en dúas ubicacións a miles de kilómetros de distancia entre si, na costa leste e na costa oeste dos Estados Unidos. O grupo empregou Vesta para xestionar "builds" con 130 MB de datos fonte como máximo; cada un deles producía 1,5 GB de datos derivados. Os "builds" feitos na parte oeste nun día normal producían 10-15 GB de datos derivados, todos administrados por Vesta. Aínda que Vesta foi deseñado de cara ao desenvolvemento de software, o grupo Alpha demostrou a flexibilidade do sistema usándoo para desenvolvemento de hardware, comprobando os seus ficheiros de linguaxe de descrición de hardware dentro da funcionalidade de control de código fonte de Vesta e construíndo simuladores e outros obxectos derivados co "constructor" de Vesta. Os membros do antigo grupo Alpha, agora parte de Intel, continúan a empregar aínda hoxe Vesta nun proxecto dun novo microprocesador."
+
+<emphasis role="bold">Aegis</emphasis>&nbsp;&mdash;&nbsp;<ulink url="http://aegis.sourceforge.net/"></ulink>
+
+"Aegis é un sistema de xestión da configuración de software baseado en transaccións. Proporciona un marco dentro do que un equipo de desenvolvedores pode traballar independentemente en moitas mudanzas dun programa, e Aegis coordina a integración desas mudanzas dentro do código fonte mestre do programa, co menor transtorno posible."
+
+<emphasis role="bold">CVSNT</emphasis>&nbsp;&mdash;&nbsp;<ulink url="http://cvsnt.org/"></ulink>
+
+"CVSNT é un sistema avanzado e multiplataforma de control de versións. Compatible co protocolo estándar da industria CVS, agora soporta moitas máis funcionalidades... CVSNT é Código de Fontes Abertas, Software Libre adherido á Licenza Pública Xeral GNU." A súa lista de funcionalidades inclúe autenticación mediante todos os protocolos estándar de CVS, máis os SSPI e Active Directory específicos de Windows; soporte de transporte seguro, vía sserver ou SSPI cifrada; multiplataforma (corre en entornos Windows ou Unix); a versión NT está totalmente integrada co sistema Win32; o procesado MergePoint permite non ter máis etiquetado a fusionar nas mesturas; está en desenvolvemento activo.
+
+<emphasis role="bold">META-CVS</emphasis>&nbsp;&mdash;&nbsp;<ulink url="http://common-lisp.net/project/meta-cvs/"></ulink>
+
+"Meta-CVS é un sistema de control de versións construído sobre CVS. Aínda que conserva a maioría das funcionalidades de CVS, incluíndo todo o soporte ao traballo en rede, ten maior capacidade que CVS, e é máis fácil de empregar." As funcionalidades listadas no sitio web de META-CVS inclúen: versionado da estrutura de directorios, manexo de tipos de ficheiro mellorado, mesturado ("merging") e ramificado ("branching") máis simple e máis amigable, soporte para enlaces simbólicos, listas de propiedade anexadas aos datos versionados, importación mellorada de datos de terceiros, e unha sinxela actualización desde CVS.
+
+<emphasis role="bold">OpenCM</emphasis>&nbsp;&mdash;&nbsp;<ulink url="http://www.opencm.org/"></ulink>
+
+"OpenCM está deseñado como un substituto seguro e de alta integridade de CVS. Pódese atopar una lista das súas funcionalidades clave na páxina de características. Apesar de non ser tan  'rico en funcionalidades' como CVS, soporta algunhas cousas útiles das que carece CVS. En poucas palabras, OpenCM fornece soporte de primera clase para renomenclatura e configuración, autenticación criptográfica e control de acceso, e ramas de primeira clase."
+
+<emphasis role="bold">PRCS</emphasis>&nbsp;&mdash;&nbsp;<ulink url="http://prcs.sourceforge.net/"></ulink>
+
+"PRCS, o Sistema de Control de Revisión de Proxecto (Project Revision Control System), é a interface dun conxunto de ferramentas que (como CVS) fornece un xeito de tratar con conxuntos de ficheiros e directorios como unha unidade, preservando versións coherentes de todo o conxunto... O seu propósito é similar ao de SCCS, RCS, e CVS, pero (cando menos segundo os seus autores), é moito máis sinxelo que calquera deses sistemas."
+
+<emphasis role="bold">ArX</emphasis>&nbsp;&mdash;&nbsp;<ulink url="http://www.nongnu.org/arx/"></ulink>
+
+ArX é un sistema de control de versións distribuído que ofrece funcionalidades de ramificación e mestura, verificación criptográfica da integridade dos datos, e a capacidade de publicar ficheiros con facilidade en calquera servidor HTTP.
+
+<emphasis role="bold">SourceJammer</emphasis>&nbsp;&mdash;&nbsp;<ulink url="http://www.sourcejammer.org/"></ulink>
+
+"SourceJammer é un sistema de versionado e control de código fonte escrito en Java. Consiste nun compoñente na parte servidor que mantén os ficheiros maila historia das versións, e manexa subidas, descargas, etc. e outros comandos; e nun compoñente na parte cliente que fai peticións ao servidor e xestiona os ficheiros no sistema de ficheiros do lado cliente."
+
+<emphasis role="bold">FastCST</emphasis>&nbsp;&mdash;&nbsp;<ulink url="http://www.zedshaw.com/projects/fastcst/index.html"></ulink>
+
+"Un sistema 'moderno' que emprega conxuntos de mudanzas sobre revisións dos ficheiros, e operabilidade distribuída fronte a control centralizado. Se tes un enderezo de correo electrónico, podes empregar FastCST. Para unha distribución maior só precisas un servidor FTP e/ou un servidor HTTP ou empregar o comando embutido 'serve' para ofrecer directamente o teu material. Todos os conxuntos de mudanzas son únicos e teñen toneladas de metadatos, polo que podes rexeitar calquer material que non queiras antes de probalo. O mesturado faise comparando un conxunto mesturado de mudanzas  cos contidos actuais do directorio, en troca de tentar mesturalo con outro conxunto de mudanzas."
+
+<emphasis role="bold">Superversion</emphasis>&nbsp;&mdash;&nbsp;<ulink url="http://www.superversion.org/"></ulink>
+
+"Superversion é un sistema distribuído de control de versións e multiusuario baseado en conxuntos de mudanzas. Pretende ser unha alternativa de Software Libre con calidade industrial ás solucións privativas, con idéntica facilidade de uso (ou aínda máis sinxelo) e de potencia similar. De feito, intuitividade e eficiencia na usabilidade foron as principais prioridades no desenvolvemento de Superversion desde a súa orixe."
