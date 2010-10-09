@@ -1,5 +1,6 @@
 # Producing OSS - Translating project.
-# José Puente <jpuentefs@gmail.com>, 200, 2010.
+# José Puente <jpuentefs@gmail.com>, 2009.
+# José Puente <jpuentefs@gmail.com>, 2010.
 #, fuzzy
 msgid ""
 msgstr ""

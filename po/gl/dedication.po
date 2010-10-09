@@ -1,5 +1,4 @@
 # Producing OSS - Translating project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # Nacho Varela <nachouve@gmail.com>, 2009, 2010.
 #, fuzzy
 msgid ""

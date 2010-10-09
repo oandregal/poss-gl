@@ -1,7 +1,7 @@
 # Producing OSS - Translating project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
-# Roberto Vieito Raña <roberto.vieito@ghandalf.org>, 200, 2010., 2010.
+# Roberto Vieito Raña <roberto.vieito@ghandalf.org>, 2009.
+# Roberto Vieito Raña <roberto.vieito@ghandalf.org>, 2010.
 #, fuzzy
 msgid ""
 msgstr ""

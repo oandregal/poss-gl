@@ -1,5 +1,6 @@
 # Producing OSS - Translating project.
-# Andrés Maneiro <andres.maneiro@gmail.com>, 200, 2010.
+# Andrés Maneiro <andres.maneiro@gmail.com>, 2009.
+# Andrés Maneiro <andres.maneiro@gmail.com>, 2010.
 #, fuzzy
 msgid ""
 msgstr ""

@@ -1,12 +1,8 @@
 # Producing OSS - Translating project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 # Roberto Vieito Raña <roberto.vieito@ghandalf.org>, 2010.
-# Andrés Maneiro <andres.maneiro@gmail.com>, 2010.
 # Andrés Maneiro <andres.maneiro@gmail.com>, 2010.
 # Jorge López Fernández <lopez.fernandez.jorge@gmail.com>, 2010.
 # Xulio Coira <xulioc@gmail.com>, 2010.
-# Andrés Maneiro <andres.maneiro@gmail.com>, 2010.
 #, fuzzy
 msgid ""
 msgstr ""

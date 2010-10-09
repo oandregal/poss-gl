@@ -1,7 +1,6 @@
 # Producing OSS - Translating project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-# Pedro A. González <pedro.gonzalez@ghandalf.org>, 200, 2010.
+# Pedro A. González <pedro.gonzalez@ghandalf.org>, 2009.
+# Pedro A. González <pedro.gonzalez@ghandalf.org>, 2010.
 #, fuzzy
 msgid ""
 msgstr ""

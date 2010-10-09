@@ -1,5 +1,4 @@
 # Producing OSS - Translating project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # Francisco Puga <francisco.puga@ghandalf.org>, 2010.
 #, fuzzy
 msgid ""
