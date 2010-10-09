@@ -10,10 +10,11 @@ PASS=''
 USER='producingoss@outrafoto.net'
 DEBUG='True'
 
+totalPalabras=0
+palabrasLibro=0
 totalTraducidas=0
 totalFuzzy=0
 totalNoTraducidas=0
-
 
 usage() {
     echo -e "\n`basename $0` [-p password] [-h]\n"
@@ -40,7 +41,7 @@ done
 
 
 if [ $DEBUG == 'True' ] ; then
-    echo "fichero : traducidos : fuzzy : notraducidos"
+    echo "fichero : traducidos : fuzzy : notraducidos : totalpalabras"
 fi
 
 cp -f $TEMPLATE_PORCENTAXE_FILE $PORCENTAXE_FILE
@@ -50,8 +51,7 @@ for file in `find $DIR -iname '*.po'` ; do
     #Be aware: This will not work if the file have points in its filename
     code=`basename $file | cut -d'.' -f1 | tr '[:lower:]' '[:upper:]'` #used for identify the strings to substitute on TEMPLATE_PORCENTAXE_FILE
     pngPathFile=$IMG_DIR`basename $file | cut -d'.' -f1`.png
-
-
+    totalPalabras=`pocount --short-words $file|egrep '[0-9]*' -o|sed '2!d'`
     cadena=`msgfmt --statistics -o /dev/null $file 2>&1 `
 
     if [ $LANG = 'es_ES.UTF-8' ] ; then
@@ -68,30 +68,21 @@ for file in `find $DIR -iname '*.po'` ; do
     if [ -z $fuzzy ] ; then fuzzy=0 ; fi
     if [ -z $noTraducidas ] ; then noTraducidas=0 ; fi
 
-
-    # Workaround. Some po are not in the repo but they are translated
-    case $code
-        in
-        "CH00" )
-            traducidas=42 ; fuzzy=0; noTraducidas=0 ;;
-        "CH01" )
-            traducidas=58 ; fuzzy=0; noTraducidas=0 ;;
-        "CH06" )
-            traducidas=244; fuzay=0; noTraducidas=0 ;;
-    esac
-
     totalCadenas=$((traducidas + fuzzy + noTraducidas))
 
     sed -i "s/${code}_TRADUCIDAS/$traducidas/  " $PORCENTAXE_FILE
     sed -i "s/${code}_TOTAIS/$totalCadenas/" $PORCENTAXE_FILE
+    sed -i "s/${code}_PALABRAS/$totalPalabras/" $PORCENTAXE_FILE
 
     if [ $DEBUG = 'True' ] ; then
-        echo -e "\n$file : $traducidas - $fuzzy - $noTraducidas"
+        echo -e "\n$file : $traducidas - $fuzzy - $noTraducidas - $totalPalabras"
     fi;
 
     totalTraducidas=`echo $((traducidas + totalTraducidas))`
     totalFuzzy=`echo $((fuzzy + totalFuzzy))`
     totalNoTraducidas=`echo $((noTraducidas + totalNoTraducidas))`
+    palabrasLibro=`echo $((totalPalabras + palabrasLibro))`
+    echo "\n"+$palabrasLibro
 
     python $SCRIPT_PYTHON $traducidas $fuzzy $noTraducidas $pngPathFile
     convert $pngPathFile -crop 100x35+2-2 +repage $pngPathFile
@@ -102,7 +93,7 @@ for file in `find $DIR -iname '*.po'` ; do
 done
 
 if [ $DEBUG = 'True' ] ; then
-    echo -e "\nTotal : $totalTraducidas - $totalFuzzy - $totalNoTraducidas"
+    echo -e "\nTotal : $totalTraducidas - $totalFuzzy - $totalNoTraducidas - $palabrasLibro"
 fi;
 
 # Processing the statistics for the whole book
@@ -110,6 +101,7 @@ sed -i "s/LIBRO_TRADUCIDAS/$totalTraducidas/ " $PORCENTAXE_FILE
 totalCadenas=$((totalTraducidas + totalFuzzy + totalNoTraducidas))
 sed -i "s/LIBRO_TOTAIS/$totalCadenas/" $PORCENTAXE_FILE
 pngPathFile="${IMG_DIR}libro.png"
+sed -i "s/LIBRO_PALABRAS/$palabrasLibro/ " $PORCENTAXE_FILE
 python $SCRIPT_PYTHON $totalTraducidas $totalFuzzy $totalNoTraducidas $pngPathFile
 convert $pngPathFile -crop 100x35+2-2 +repage $pngPathFile
 
