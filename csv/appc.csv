@@ -1,7 +1,7 @@
-comment,original,translation
-appc.xml:2,Why Should I Care What Color the Bikeshed Is?,
-appc.xml:6,"You shouldn't; it doesn't really matter, and you have better things to spend your time on.",
-appc.xml:9,"Poul-Henning Kamp's famous ""bikeshed"" post (an excerpt from which appears in <xref linkend=""communications""/>) is an eloquent disquisition on what tends to go wrong in group discussions. It is reprinted here with his permission. The orginal URL is <ulink url=""http://www.freebsd.org/cgi/getmsg.cgi?fetch=506636+517178+/usr/local/www/db/text/1999/freebsd-hackers/19991003.freebsd-hackers""></ulink>.",
+location,source,target
+appc.xml:2,Why Should I Care What Color the Bikeshed Is?,Por que me debería preocupar pola cor do garaxe da bicicleta?
+appc.xml:6,"You shouldn't; it doesn't really matter, and you have better things to spend your time on.",O certo é que non deberías. Seguro que tes mellores cousas coas que perder o tempo.
+appc.xml:9,"Poul-Henning Kamp's famous ""bikeshed"" post (an excerpt from which appears in <xref linkend=""communications""/>) is an eloquent disquisition on what tends to go wrong in group discussions. It is reprinted here with his permission. The orginal URL is <ulink url=""http://www.freebsd.org/cgi/getmsg.cgi?fetch=506636+517178+/usr/local/www/db/text/1999/freebsd-hackers/19991003.freebsd-hackers""></ulink>.","O famoso artigo de Poul Henning Kamp sobre ""o garaxe da bicicleta"" (un resumo do mesmo pode atoparse en <xref linkend=""communications""/>) é unha excelente disquisición sobre o que adoita a ir mal nas conversas en listas de correo. O texto completo é reproducido aquí co seu permiso. A URL orixinal é <ulink url=""http://www.freebsd.org/cgi/getmsg.cgi?fetch=506636+517178+/usr/local/www/db/text/1999/freebsd-hackers/19991003.freebsd-hackers""></ulink>."
 appc.xml:21,"Subject: A bike shed (any colour will do) on greener grass...
 From: Poul-Henning Kamp &lt;phk@freebsd.org&gt;
 Date: Sat, 02 Oct 1999 16:14:10 +0200
@@ -207,4 +207,204 @@ participating by the gargoyles:  I can only apologise and encourage
 you to try anyway, this is not the way I want the environment in
 the project to be.
 
-Poul-Henning",
+Poul-Henning","Asunto: A cor do garaxe da bicicleta (calquera que sexa a súa cor) na herba máis verde...
+De: Poul-Henning Kamp &lt;phk@freebsd.org&gt;
+Data: sab, 02 out 1999 16:14:10 +0200
+ID da mensaxe: &lt;18238.938873650@critter.freebsd.dk&gt;
+Remitente: phk@critter.freebsd.dk
+Copia oculta: Blind Distribution List: ;
+MIME-Version: 1.0
+
+[bcc'ed to committers, hackers]
+
+O meu último panfleto tivo unha acollida o bastante boa como para non ter medo 
+de enviar outro, e hoxe teño tempo e motivación
+para facelo
+
+Non foi fácil decidir a quen enviar este tipo de mensaxes,
+nesta ocasión vai con copia oculta para committers e hackers, que é
+probablemente o mellor que podo facer... Eu non estou subscrito a hackers
+pero xa falarei sobre isto despois.
+
+O que me provocou nesta ocasión foi o fío ""debería sleep(1) admitir
+segundos fraccionarios"", que xa leva amolando tempo de 
+abondo, probablemente un par semanas xa, pero nin sequera me vou molestar en
+comprobalo.
+
+Para aqueles que non seguisedes ese fío en particular: parabéns
+
+Era unha proposta para que sleep(1) ""fixera o correcto"" se se lle pasaba
+un argumento non enteiro que prendese a mecha deste problema. Non vou dicir
+nada máis ao respecto, porque é un asunto moito menos importante do que un
+podería esperarse dada a lonxitude do fío e xa recibiu moita máis atención
+que algúns dos *problemas* que temos por aquí.
+
+A saga do ""sleep""(1) é o exemplo máis patente dunha típica ""discusión sobre o garaxe da 
+bicicleta"" que vin en FreeBSD. A proposta estaba ben pensada, gañariamos
+compatibilidade con OpenBSD e NetBSD e, con todo, seguiriamos tendo compatibilidade
+con calquera código que xa estivese escrito.
+
+Pero foron formuladas e enviadas tantas obxeccións, propostas e mudanzas que
+un podería pensar que a mudanza acabaría cos buracos do queixo suízo, ou que
+mudaría o sabor da Coca Cola ou que atinxiría algo de igual magnitude.
+
+""De que vai esta discusión sobre a cor do garaxe?"", preguntástesme algúns.
+
+É unha longa historia, ou mellor dito, unha vella historia que en
+realidade é bastante curta. C. Northcote Parkinson escribiu un libro a
+principios dos anos 60 chamado ""As leis de Parkinson"" que afonda nas
+dinámicas da xestión.
+
+Podedes atopalo en Amazon, e talvez na biblioteca dos vosos pais. Está
+ben de prezo e lese rápido. Se che gusta Dilbert, gustarache Parkinson.
+
+Alguén díxome hai pouco que o lera e que se decatou de que soamente 
+máis ou menos 50% era aplicable hoxe en día. Iso é asombroso, diría eu, a maioría
+dos libros de xestión modernos teñen porcentaxes de acerto moi por debaixo
+diso, e este ten máis de 35 anos.
+
+No exemplo concreto referido ao garaxe da bicicleta, o outro compoñente
+vital é una central nuclear, supoño que isto dá unha idea da antigüidade do libro.
+
+Parkinson mostra como podes falar cun consello directivo e conseguir que 
+aproben a construción dunha central
+nuclear de centos, mesmo de miles de millóns, pero se o que queres 
+é construír un garaxe veraste enredado nunha discusión sen fin.
+
+Parkinson explica que isto sucede porque unha central nuclear é tan enorme,
+cara e complicada que fica fóra da capacidade de comprensión da xente,
+e en lugar de tentaren entender o asunto
+dan por sentado que alguén xa revisou todos os detalles con anterioridade. 
+Richard P. Feynman dá unha serie de exemplos referidos a ""Los Alamos"" nos seus libros,
+exemplos máis interesantes e máis relacionados co tema.
+
+Por outra banda temos o garaxe da bicicleta. Calquera pode construír un destes nun fin de
+semana e aínda vai ter tempo para ver o partido na TV. Xa que logo, non importa
+se a túa proposta é razoable ou está ben preparada, alguén 
+aproveitará a oportunidade para demostrar que está facendo o seu traballo, que está
+prestando atención, que está *presente*.
+
+En Dinamarca chamámolo ""deixar a impresión dactilar"". É unha cuestión de orgullo persoal
+e prestixio, de poder sinalar algo e dicir, ""Ei, *eu* fixen iso"" É un
+trazo moi marcado nos políticos, e presente na maioría da xente cando aparece a
+oportunidade. Non tedes máis que pensar nas pegadas no cemento fresco.
+
+Sinto moito respecto por quen fixo a proposta inicial, porque se mantivo firme
+a pesar de todo o que choveu sobre el, conseguindo que mudanza sexa
+hoxe unha realidade no noso código.
+
+E isto lévame, como prometín antes, a explicar por que non estou subscrito a hackers:
+
+Dinme de baixa de hackers hai varios anos porque o número de correos non me 
+permitía manterme ao día. Desde entón deixei varias listas máis pola mesma
+razón.
+
+E, contodo, recibo unha morea de correo. Unha gran parte é encamiñado directamente a /dev/null por medio de
+filtros: Xente como [omitido] nunca terá acceso á miña pantalla,
+así como commits a documentos en linguaxes que non entendo, ou commits a ports que non
+me interesan. Todo isto, e máis, vai parar ao fondo do caixón
+sen que chegue a saber que existen.
+
+Mais a pesar desta trituradora sigo a recibir demasiadas mensaxes na
+miña caixa de correo.
+
+E aquí é onde comeza o que quería dicir.
+
+Oxalá puideramos diminuír o ruído nas nosas listas, e oxalá puideramos
+deixar a xente construíren un garaxe de cando en vez, e non me importaría de
+que cor o pintasen.
+
+O primeiro destes desexos é sermos cívicos, sensibles e intelixentes no uso do
+correo electrónico.
+
+Se eu puidese, de forma concisa e precisa, establecer un conxunto de criterios
+de cando se debe e cando non se debe responder a un correo electrónico que todos
+acordaran e respectaran, sería feliz, pero son demasiado intelixente
+sequera para intentalo.
+
+
+Pero permitídeme suxerir algunhas xanelas emerxentes que me gustaría que os clientes
+de correo lanzasen sempre que alguén enviara ou respondera un e-mail a unha lista
+de correo á que estiver subscrito.
+
+      +------------------------------------------------------------+
+      | O seu e-mail está a punto de ser enviado a centos de    |
+      | miles de persoas, que terán que perder polo menos 10       |
+      | segundos para decidir se é           |
+      | interesante. Polo menos dúas semanas de traballo vanse          |
+      | perder en ler o seu correo. Moitos dos receptores terán |
+      | que pagar para descarregar o seu correo                         |
+      |                                                            |
+      | Está absolutamente seguro de que o seu correo electrónico é|
+      | suficientemente importante como para molestar a todas esas |
+      | persoas?                                                   |
+      |                                                            |
+      |               [Si] [Revisar] [Cancelar]                    |
+      +------------------------------------------------------------+
+
+
+      +------------------------------------------------------------+
+      | Aviso: Todavía non leu todos os correos deste fío. Pode que   |
+      | alguén xa dixera o que vostede está a piques de        |
+      | escribir. Pór favor, lea todo o fío antes de responder a   |
+      | unha mensaxe do mesmo                                       |
+      |                      [Cancelar]                            |
+      +------------------------------------------------------------+
+
+
+      +------------------------------------------------------------+
+      | Aviso: O seu cliente de correo todavía non mostrou a mensaxe  |
+      | enteira. Loxicamente, pódese deducir que probablemente vostede  |
+      | non o leu de principio a fin e o comprendeu                        |
+      |                                                            |
+      | Non é de boa educacón responder a un correo ata que o lea enteiro  |
+      | e reflexione                                             |
+      |                                                            |
+      | Un temporizador vai impedir que  responda      |
+      | a calquera correo deste fío durante a próxima hora      |
+      |                                                            |
+      |                      [Cancelar]                            |
+      +------------------------------------------------------------+
+
+
+      +------------------------------------------------------------+
+      | Escribiu este correo a un ritmo superior a N.NN ppm        |
+      | Xeralmente non é posible pensar e teclear a un ratio       |
+      | superior a A.AA ppm, e, polo tanto, é probable que a súa     |
+      | resposta sexa incoherente, estea mal pensada e/ou sexa emocional      |
+      |                                                            |
+      | Un temporizador impediralle o envío de calquera  |
+      | correo durante a seguinte hora                             |
+      |                                                            |
+      | [Cancelar]                                                 |
+      +------------------------------------------------------------+
+
+A segunda parte do meu desexo é máis emocional. Obviamente, nunca fixemos 
+uso das capacidades que mostramos no desagradable debate sobre sleep(1) para 
+tomarmos esta pequena iniciativa, a pesar dos moitos anos que leva 
+no proxecto. Entón, por que se enfadan de súpeto cando alguén con moita
+menos experiencia trata agora de solucionalo?
+
+Oxalá o soubera
+
+Sei que o meu razoamento non poderá impedir este ""conservadorismo
+reaccionario"". Talvez esas persoas estean frustradas porque non fixeron 
+contribucións tanxibles recentemente, ou pode tratarse dun caso grave de ""estamos vellos e
+de mal humor, NÓS sabemos como se ten que comportar a xuventude"".
+
+De calquera xeito, é algo moi improdutivo para o proxecto, mais non teño suxestións de
+como paralo. O mellor que podo suxerir é que se absteñan de alimentar os monstros
+que espreitan nas listas de correo: ignorádeos, non lles respondades, esquecede que
+están aí.
+
+
+Espero que poidamos ter unha base máis forte e máis ampla de colaboradores en
+FreeBSD, e espero que xuntos poidamos impedir que os vellos rosmóns e os [omitido]
+do mundo lles dean tralla e os asusten antes que poidan pór un pe no chan.
+
+
+Para as persoas que estiveron á espreita, temerosos de colaboraren por culpa das gárgolas:
+Soamente podo pedirvos desculpas e animarvos a participardes de todas maneiras. Este non é
+o ambiente que quero para o proxecto.
+
+Poul-Henning"

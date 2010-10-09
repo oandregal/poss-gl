@@ -1,5 +1,5 @@
-comment,original,translation
-book.xml:23,Producing Open Source Software,
-book.xml:24,How to Run a Successful Free Software Project,
-book.xml:30,<firstname>Karl</firstname><surname>Fogel</surname>,
-book.xml:35,"Karl Fogel, under a CreativeCommons Attribution-ShareAlike (3.0) license",
+location,source,target
+book.xml:23,Producing Open Source Software,Como producir software de código aberto
+book.xml:24,How to Run a Successful Free Software Project,Como xerir un proxecto de software libre con suceso
+book.xml:30,<firstname>Karl</firstname><surname>Fogel</surname>,<firstname>Karl</firstname><surname>Fogel</surname>
+book.xml:35,"Karl Fogel, under a CreativeCommons Attribution-ShareAlike (3.0) license","Karl Fogel, baixo licenza CreativeCommons Attribution-ShareAlike (3.0)"
