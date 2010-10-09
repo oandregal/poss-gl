@@ -28,7 +28,7 @@
 
   <h5>Do proxecto</h5>
   <ul>
-    <li><a href="seccion-porcentaxe.html">Porcentaxe de tradución</a></li>
+    <li><a href="seccion-porcentaxe.html">Estado da tradución</a></li>
     <li><a href="seccion-colaboracions.html">Colaboracións</a></li>
   </ul>
 
@@ -41,13 +41,14 @@
 </div>
 
 <div id="seccion-contido" class="col8 bordred last">
-  <h3>Porcentaxe de tradución</h3>
+  <h3>Estado da tradución</h3>
 
   <table>
     <thead>
       <tr>
-        <th>AVANCE (%)</th>
-        <th>NRO CADEAS</th>
+        <th>COMPLETITUDE (%)</th>
+        <th>CADEAS TOTAIS</th>
+        <th>PALABRAS TOTAIS</th>
         <th>T&Iacute;TULO</th>
         <th>TRADUTORES</th>
       </tr>
@@ -55,159 +56,160 @@
 
     <tr>
       <th><img src="img/libro.png"></th>
-      <th>LIBRO_TRADUCIDAS / LIBRO_TOTAIS</th>
+      <th>LIBRO_TOTAIS</th>
+      <th>LIBRO_PALABRAS</th>
       <th>Libro completo</th>
       <th>Ver listado inferior</th>
     </tr>
 
     <tr>
       <th><img src="img/book.png"></th>
-      <th>BOOK_TRADUCIDAS / BOOK_TOTAIS</th>
-      <th>cover
-        <a href="http://gitorious.org/poss-gl/poss-gl/blobs/master/zip/book.zip">[ZIP]</a>
+      <th>BOOK_TOTAIS</th>
+      <th>BOOK_PALABRAS</th>
+      <th>cover <a href="http://gitorious.org/poss-gl/poss-gl/blobs/master/po/gl/book.po">[po]</a>
       <th>Nacho Varela</th>
     </tr>
 
     <tr>
       <th><img src="img/ch00.png"></th>
-      <th>CH00_TRADUCIDAS / CH00_TOTAIS</th>
-      <th>ch00
-        <a href="http://gitorious.org/poss-gl/poss-gl/blobs/master/zip/ch00.zip">[ZIP]</a>
+      <th>CH00_TOTAIS</th>
+      <th>CH00_PALABRAS</th>
+      <th>ch00 <a href="http://gitorious.org/poss-gl/poss-gl/blobs/master/po/gl/ch00.po">[po]</a>
       </th>
       <th>Juan &Aacute;lvarez</th>
     </tr>
 
     <tr>
       <th><img src="img/ch01.png"></th>
-      <th>CH01_TRADUCIDAS / CH01_TOTAIS</th>
-      <th>ch01
-        <a href="http://gitorious.org/poss-gl/poss-gl/blobs/master/zip/ch01.zip">[ZIP]</a>
+      <th>CH01_TOTAIS</th>
+      <th>CH01_PALABRAS</th>
+      <th>ch01 <a href="http://gitorious.org/poss-gl/poss-gl/blobs/master/po/gl/ch01.po">[po]</a>
       </th>
       <th>Juan &Aacute;lvarez</th>
     </tr>
 
     <tr>
       <th><img src="img/ch02.png"></th>
-      <th>CH02_TRADUCIDAS / CH02_TOTAIS</th>
-      <th>ch02
-        <a href="http://gitorious.org/poss-gl/poss-gl/blobs/master/zip/ch02.zip">[ZIP]</a>
+      <th>CH02_TOTAIS</th>
+      <th>CH02_PALABRAS</th>
+      <th>ch02 <a href="http://gitorious.org/poss-gl/poss-gl/blobs/master/po/gl/ch02.po">[po]</a>
       </th>
       <th>Andr&eacute;s Maneiro</th>
     </tr>
 
     <tr>
       <th><img src="img/ch03.png"></th>
-      <th>CH03_TRADUCIDAS / CH03_TOTAIS</th>
-      <th>ch03
-        <a href="http://gitorious.org/poss-gl/poss-gl/blobs/master/zip/ch03.zip">[ZIP]</a>
+      <th>CH03_TOTAIS</th>
+      <th>CH03_PALABRAS</th>
+      <th>ch03 <a href="http://gitorious.org/poss-gl/poss-gl/blobs/master/zip/po/gl/ch03.po">[po]</a>
       </th>
       <th>Pedro Gonz&aacute;lez</th>
     </tr>
 
     <tr>
       <th><img src="img/ch04.png"></th>
-      <th>CH04_TRADUCIDAS / CH04_TOTAIS</th>
-      <th>ch04
-        <a href="http://gitorious.org/poss-gl/poss-gl/blobs/master/zip/ch04.zip">[ZIP]</a>
+      <th>CH04_TOTAIS</th>
+      <th>CH04_PALABRAS</th>
+      <th>ch04 <a href="http://gitorious.org/poss-gl/poss-gl/blobs/master/zip/po/gl/ch04.po">[po]</a>
       </th>
       <th>José Puente</th>
     </tr>
 
     <tr>
       <th><img src="img/ch05.png"></th>
-      <th>CH05_TRADUCIDAS / CH05_TOTAIS</th>
-      <th>ch05
-        <a href="http://gitorious.org/poss-gl/poss-gl/blobs/master/zip/ch05.zip">[ZIP]</a>
+      <th>CH05_TOTAIS</th>
+      <th>CH05_PALABRAS</th>
+      <th>ch05 <a href="http://gitorious.org/poss-gl/poss-gl/blobs/master/zip/po/gl/ch05.po">[po]</a>
       </th>
       <th>Roberto Vieito</th>
     </tr>
 
     <tr>
       <th><img src="img/ch06.png"></th>
-      <th>CH06_TRADUCIDAS / CH06_TOTAIS</th>
-      <th>ch06
-        <a href="http://gitorious.org/poss-gl/poss-gl/blobs/master/zip/ch06.zip">[ZIP]</a>
+      <th>CH06_TOTAIS</th>
+      <th>CH06_PALABRAS</th>
+      <th>ch06 <a href="http://gitorious.org/poss-gl/poss-gl/blobs/master/zip/po/gl/ch06.po">[po]</a>
       </th>
-      <th>varios</th>
+      <th>Roberto, Andrés, Jorge, Lucía</th>
     </tr>
 
     <tr>
       <th><img src="img/ch07.png"></th>
-      <th>CH07_TRADUCIDAS / CH07_TOTAIS</th>
-      <th>ch07
-        <a href="http://gitorious.org/poss-gl/poss-gl/blobs/master/zip/ch07.zip">[ZIP]</a>
+      <th>CH07_TOTAIS</th>
+      <th>CH07_PALABRAS</th>
+      <th>ch07 <a href="http://gitorious.org/poss-gl/poss-gl/blobs/master/zip/po/gl/ch07.po">[po]</a>
       </th>
       <th>Pablo Sanxiao</th>
     </tr>
 
     <tr>
       <th><img src="img/ch08.png"></th>
-      <th>CH08_TRADUCIDAS / CH08_TOTAIS</th>
-      <th>ch08
-        <a href="http://gitorious.org/poss-gl/poss-gl/blobs/master/zip/ch08.zip">[ZIP]</a>
+      <th>CH08_TOTAIS</th>
+      <th>CH08_PALABRAS</th>
+      <th>ch08 <a href="http://gitorious.org/poss-gl/poss-gl/blobs/master/zip/po/gl/ch08.po">[po]</a>
       </th>
-      <th>varios</th>
+      <th>Xulio, Jorge, Andrés, Roberto</th>
     </tr>
 
     <tr>
       <th><img src="img/ch09.png"></th>
-      <th>CH09_TRADUCIDAS / CH09_TOTAIS</th>
-      <th>ch09
-        <a href="http://gitorious.org/poss-gl/poss-gl/blobs/master/zip/ch09.zip">[ZIP]</a>
+      <th>CH09_TOTAIS</th>
+      <th>CH09_PALABRAS</th>
+      <th>ch09 <a href="http://gitorious.org/poss-gl/poss-gl/blobs/master/zip/po/gl/ch09.po">[po]</a>
       </th>
       <th>Roberto Vieito</th>
     </tr>
 
     <tr>
       <th><img src="img/appa.png"></th>
-      <th>APPA_TRADUCIDAS / APPA_TOTAIS</th>
-      <th>appa
-        <a href="http://gitorious.org/poss-gl/poss-gl/blobs/master/zip/appa.zip">[ZIP]</a>
+      <th>APPA_TOTAIS</th>
+      <th>APPA_PALABRAS</th>
+      <th>appa <a href="http://gitorious.org/poss-gl/poss-gl/blobs/master/zip/po/gl/appa.po">[po]</a>
       </th>
       <th>Roberto Vieito</th>
     </tr>
 
     <tr>
       <th><img src="img/appb.png"></th>
-      <th>APPB_TRADUCIDAS / APPB_TOTAIS</th>
-      <th>appb
-        <a href="http://gitorious.org/poss-gl/poss-gl/blobs/master/zip/appb.zip">[ZIP]</a>
+      <th>APPB_TOTAIS</th>
+      <th>APPB_PALABRAS</th>
+      <th>appb <a href="http://gitorious.org/poss-gl/poss-gl/blobs/master/zip/po/gl/appb.po">[po]</a>
       </th>
       <th>Nacho Varela</th>
     </tr>
 
     <tr>
       <th><img src="img/appc.png"></th>
-      <th>APPC_TRADUCIDAS / APPC_TOTAIS</th>
-      <th>appc
-        <a href="http://gitorious.org/poss-gl/poss-gl/blobs/master/zip/appc.zip">[ZIP]</a>
+      <th>APPC_TOTAIS</th>
+      <th>APPC_PALABRAS</th>
+      <th>appc <a href="http://gitorious.org/poss-gl/poss-gl/blobs/master/po/gl/appc.po">[po]</a>
       </th>
       <th>Francisco Puga</th>
     </tr>
 
     <tr>
       <th><img src="img/appd.png"></th>
-      <th>APPD_TRADUCIDAS / APPD_TOTAIS</th>
-      <th>appd
-        <a href="http://gitorious.org/poss-gl/poss-gl/blobs/master/zip/appd.zip">[ZIP]</a>
+      <th>APPD_TOTAIS</th>
+      <th>APPD_PALABRAS</th>
+      <th>appd <a href="http://gitorious.org/poss-gl/poss-gl/blobs/master/po/gl/appd.po">[po]</a>
       </th>
       <th>Francisco Puga</th>
     </tr>
 
     <tr>
       <th><img src="img/copy.png"></th>
-      <th>COPY_TRADUCIDAS / COPY_TOTAIS</th>
-      <th>copy
-        <a href="http://gitorious.org/poss-gl/poss-gl/blobs/master/zip/copy.zip">[ZIP]</a>
+      <th>COPY_TOTAIS</th>
+      <th>COPY_PALABRAS</th>
+      <th>copy <a href="http://gitorious.org/poss-gl/poss-gl/blobs/master/po/gl/copy.po">[po]</a>
       </th>
       <th>Francisco Puga</th>
     </tr>
 
     <tr>
       <th><img src="img/dedication.png"></th>
-      <th>DEDICATION_TRADUCIDAS / DEDICATION_TOTAIS</th>
-      <th>Dedication
-        <a href="http://gitorious.org/poss-gl/poss-gl/blobs/master/zip/dedication.zip">[ZIP]</a>
+      <th>DEDICATION_TOTAIS</th>
+      <th>DEDICATION_PALABRAS</th>
+      <th>Dedication <a href="http://gitorious.org/poss-gl/poss-gl/blobs/master/po/gl/dedication.po">[po]</a>
       </th>
       <th>Nacho Varela</th>
     </tr>
