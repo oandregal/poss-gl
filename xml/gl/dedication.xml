@@ -1,0 +1,14 @@
+<dedication id="dedication">
+
+<para
+><emphasis
+>Este libro está dedicado a dous queridos amigos sen os que este libro non sería posible: Karen Underhill e Jim Blandy.</emphasis
+></para>
+
+</dedication>
+
+<!--
+local variables: 
+sgml-parent-document: ("book.xml" "dedication")
+end:
+-->

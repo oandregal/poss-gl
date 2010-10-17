@@ -1,100 +1,169 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE article
-  PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd">
-<article lang="">
-   <para>Preámbulo</para>
-   <para/>
-   <para>Por que escribín este libro?</para>
-   <para/>
-   <para>Nas festas, a xente xa non fica con expresión de dúbida cando lles digo que traballo con software libre. «Ah, si, código aberto, como Linux?» din, tras o que aceno con emoción:  «si, iso mesmo!».  É agradable deixar de ser un becho raro. Hai tempo, o que preguntarían a seguir era bastante predecible: «e como ganhas a vida con iso?». Para responder a esta pregunta, facíalles un resumo dos aspectos económicos do código aberto; nomeadamente, que hai organizacións ás que lles interesa que exista un determinado software, mais que non precisan vender copias do mesmo, o que lles interesa é asegurarse de que ese software se mantén e de que está á súa disposición; ven nel   unha ferramenta antes que un producto. </para>
-   <para/>
-   <para/>
-   <para>Ultimamente, porén, as preguntas que fan a seguir non son sempre de carácter pecuniario. O modelo económico do software libre perdeu boa parte do seu misterio, e moitas persoas alleas á programación xa comprenden (ou ao menos non se sorprenden ao escoitaren) que hai quen traballa con software libre a tempo enteiro. Antes ben, a pregunta que máis tenho escoitado é a seguinte: «e como é que funciona iso?»</para>
-   <para/>
-   <para>Todavía non dei cunha resposta satisfactoria, e canto máis trato de atopar unha, máis me decato de que se trata dun tema moi complexo. Xerir un proxecto de software libre non é exactamente como xerir un negocio (imaxinade como sería ter que negociar constantemente a natureza do voso producto cunha turma de voluntarios, moitos dos cales non conheceriades persoalmente), mais tampouco é exactamente como xerir unha organización non gubernamental clásica, nin tampouco un governo.  Ten analoxías con todo iso, mais, co tempo, cheguei á conclusión de que o software libre constitúe un xénero per se. Pode ser comparado con maior ou menor suceso con multitude de cousas, mais nunca en  relación de igualdade. Mesmo a presunción de que os proxectos de software libre poden ser «xeridos» é unha esaxeración: un proxecto de software libre pode ser iniciado, e pode ser influenciado polas partes interesadas, frecuentemente de maneira considerable, mais o material non pode pasar a mans dun único propietario e, sempre que houber alguén (en calquera lugar) interesado en continuar co proxecto, este non pode ser cancelado de maneira unilateral. Todos os membros tenhen poder ilimitado e todos son impotentes, o que crea unha dinámica interesante. </para>
-   <para/>
-   <para>Eses son os motivos que me impulsaron a redactar este libro. Os proxectos de software libre tornáronse nunha cultura característica, un etos que ten como dogma central a liberdade de lograr que o software faga o que un quixer, sen que isto suponha a disgregación dos programadores, antes ben, que  colaboren con máis forza. A capacidade de cooperación é, de facto, unha das habilidades máis cotizadas no ámbito do software libre.  Xerir un proxecto desta índole implica mergullarse nunha especie de cooperacion hipertrofiada, e a capacidade de descubrir novas vías de cooperación, para alén da capacidade de traballo en equipo, pode repercutir de maneira moi positiva sobre o producto. A finalidade deste libro é describir as técnicas que poden axudar a conseguilo.  Non é unha obra exhaustiva, mais serve polo menos como punto de partida. </para>
-   <para/>
-   <para>O software libre de calidade constitúe un obxectivo en si mesmo, e espero que esta obra satisfaga os lectores que se sirvan dela para o atinxiren.  Para alén diso, espero tamén que participen do pracer que se obtén ao traballar nun equipo de desenvolvedores de código aberto motivados,  e da relación directa co usuario que alenta o código aberto. Participar nun proxecto de software libre ben sucedido é divertido, e é, en definitiva, a causa de que o proceso non se detenha.</para>
-   <para/>
-   <para/>
-   <para>A quen está orientado este libro?</para>
-   <para/>
-   <para>A presente obra está orientada a desenvolvedores de software e xerentes que tenhen en mente iniciar un proxecto de software libre, ou que xa o iniciaran e non saben como continuar; tamén pode ser de utilidade a quen quixer participar nun proxecto de software libre pola primeira vez.  </para>
-   <para/>
-   <para>O lector non ten por que saber programar, porén, debería pusuír nocións básicas de conceptos de enxenharía de software tales como código fonte, compiladores e remendos (patches).</para>
-   <para/>
-   <para>Non é necesario posuír experiencia previa como usuario ou desenvolvedor de software libre. É posible que quen tiver traballado con anterioridade en proxectos de software libre pense que certas partes da obra son obvias de mais, e talvez desexe evitar esas seccións; mais o grao de experiencia dos lectores é tan variable que fixen un esforzo para etiquetar as seccións con claridade, e indiquei  cales poden ser ignoradas se xa se dominan os conceptos que nelas se tratan. </para>
-   <para/>
-   <para>Fontes</para>
-   <para/>
-   <para>Gran parte do material que forma a obra é debido aos cinco anos que traballei co proxecto Subversion (<ulink url="http://subversion.tigris.org/">http://subversion.tigris.org/</ulink>) . Subversion é un sistema de control de versións de código aberto escrtio desde cero, e preténdese que substitúa CVS para tornarse no sistema de control de versións de preferencia na comunidade de código aberto. O proxecto foi iniciado pola empresa para a que traballaba, CollabNet (<ulink url="http://www.collab.net/">http://www.collab.net/</ulink>), a comezos de 2000 e, afortunadamente, souberon administralo desde o inicio como un proxecto de colaboración de múltiples partes. Un elevado número de desenvolvedores voluntarios aderíronse ao proxecto desde o inicio, que conta na actualidade con máis de 50 desenvolvedores, dos que unicamente unha pequena parte traballan para CollabNet.</para>
-   <para/>
-   <para>Subversion é un exemplo case perfecto do que debe ser un proxecto de software libre, e finalmente baseeime nel máis do que pensaba facer inicialmente; en parte polas vantaxes que ofrecía, xa que me fornecía de inesgotables exemplos para ilustrar determinados fenómenos, mais tamén por cuestións de fidelidade. Embora colaboro con outros proxectos de software libre en maior ou menor grao, e tenho amigos e conhecidos que traballan en moitos outros, un decátase logo de que, ao ponher as cousas sobre o papel,  é necesario procurar referentes reais de todo o que se afirma. Non quería facer referencias a outros proxectos baseándome exclusivamente no que lía nas listas públicas de correo, xa que se alguén actuase deste xeito con Subversion acertaría só a metade das veces. Así, sempre que me mergullei en proxectos cos que non tinha experiencia de primeira man á procura de inspiración ou exemplos,  tratei de falar con algún membro dos mesmos para que me explicase a situación real dos mesmos. </para>
-   <para/>
-   <para>Traballei en Subversion os últimos 5 anos, mais xa levo 12 anos no mundo do software libre. Outros proxectos que deron forma a esta obra son:</para>
-   <para/>
-   <orderedlist>
-      <listitem>
-         <para>O proxecto de editor de texto GNU Emacs da Fundación para o Software Libre (Free Software Foundation), no que mantenho uns poucos pacotes. </para>
-      </listitem>
-      <listitem>
-         <para>Concurrent Version System (CVS, Sistema de Versións Concorrentes), no que traballei a fondo en 1994-95 con Jim Bandy, mais co que colaboro só esporádicamente desde entón. </para>
-      </listitem>
-      <listitem>
-         <para>A colección de proxectos de código aberto conhecida como Apache Software Foundation, en particular o Apache Portable Runtime (APR) e o Servidor HTTP Apache (Apache HTTP Server). </para>
-      </listitem>
-      <listitem>
-         <para>OpenOffice.org, a base de datos de Berkeley de Sleepycat, e a base de datos MySQL; non formei parte deses proxectos persoalmente, mais os seguín de perto e en ocasións falei con algúns dos seus membros.</para>
-      </listitem>
-      <listitem>
-         <para>GNU Debugger (GDB) (ídem)</para>
-      </listitem>
-      <listitem>
-         <para>O proxecto Debian (ídem).</para>
-      </listitem>
-   </orderedlist>
-   <para>A lista apenas está completa, dado que, como a maior parte dos programadores de código aberto, non mantenho unha memoria exhaustiva dos proxectos nos que colaboro, o xusto para ter unha idea global de como están as cousas. Non os vou enumerar todos nesta sección, mais si están citados en outras partes da obra. </para>
-   <para/>
-   <para>Reconhecementos </para>
-   <para/>
-   <para>Tardei catro veces máis do que tinha previsto en redactar a presente obra, e durante a maior parte dese tempo o traballo pendente producíame un gran desacougo. Se non tivese recibido a axuda de numerosos colaboradores, non daría rematado o libro sen perder o xuízo.</para>
-   <para/>
-   <para>Andy Oram, de O'Reilly, é o editor que todo autor desexaría ter. Para alén dun fondo conhecemento do campo (suxeriume moitos dos temas), posúe o escaso don de comprender o que un quere dicir e de axudarlle a atopar a mellor maneira de dicilo. Tamén quero agradecerlle a Chuck Toporek o terlle trasladado esta proxecto a Andy de maneira inmediata. </para>
-   <para/>
-   <para>Brian Fitzpatrick revisou a maior parte do material a medida que o redactaba, algo que non só mellorou a obra, senón que tamén me obrigou a escribir mesmo cando o último que quería facer era sentarme diante do computador. Ben Collins-Sussman e Mike Pilato tamén supervisaban o avance da obra, e sempre estaban prontos a debatir (ás veces durante horas) calquera tema no que estivese a traballar na altura. Tamén vixiaban o meu ritmo de traballo, e animábanme a seguir cando se ralentizaba. Desde aquí agradézolles a súa axuda.</para>
-   <para/>
-   <para>Biella Coleman estaba a redactar a súa tese na altura na que eu estaba a redactar este libro, e sabe o que é sentarse a escribir un día si e outro tamén, tamén foi unha fonte de inspiración e un gran apoio. A súa formación como antropóloga fai que posúa unha fascinante visión do movemento do software libre, e achegou ideas e referencias que empreguei nesta obra. Alex Golub (outro antropólogo que ten un pé no mundo do software libre, e quen tamén estaba a rematar a súa tese na altura) apoioume moito nas fases iniciais, o que foi unha gran axuda. </para>
-   <para/>
-   <para>Agradecementos tamén a Micah Anderson, que nunca deixou que o atormentase a presión de redactar as súas obras, o que me serviu de inspiración (e me deu algo de envexa  tamén). Porén, sempre estaba pronto a axudar, conversar e, polo menos nunha ocasión, prestar apoio técnico.</para>
-   <para/>
-   <para>Jon Trowbridge e Sander Striker animáronme na minha empresa e brindáronse a colaborar nela, sen a súa experiencia en productos de software libre nunca tería rematado a obra.</para>
-   <para/>
-   <para>Quero agradecerlle tamén a Greg Stein non só a súa amizade e os seus ánimos no momento adecuado, senón tamén terlle mostrado ao proxecto Subversive a importancia de revisar o código con frecuencia cando se quere crear unha comunidade de programadores. Estendo o meu agradecemento tamén a Brian Behlendorf, quen con gran tacto nos gravou na mente a importancia de debatir as cousas en público, espero que o libro recolla ese principio.</para>
-   <para/>
-   <para>Agradézolle a Benjamin «Mako» Hill e a Seth Schoen as conversacións sobre software libre e a súa política, a Zack Urlocker e a Louis Suarez-Potts térense deixado entrevistar a pesar de estaren moi atarefados, a Shane da lista de Slashcode  permitirme citar os seus posts, e a Haggen So as comparacións que fixo de aloxamentos web estándar.</para>
-   <para/>
-   <para>Agradézolle a Alla Dekthyar, a Polina e a Sonya térenme animado con carinho e paciencia. Alégrame que a partir de agora  non tenhamos que rematar (ou debería dicir tratar de rematar) prematuramente as nosas veladas para voltar a casa a traballar no «Libro».  </para>
-   <para/>
-   <para>Agradézolle a Jack Repenning a súa amizade, as conversacións que mantivemos e a súa teimuda negativa a aceptar unha análise fácil, mais errada, se for posible facer unha análise correcta, mais difícil. Espero que esta obra se impreganse de parte da súa larga experiencia no desenvolvemento de software libre e a industria do software.</para>
-   <para/>
-   <para>CollabNet fixo gala dunha gran xenerosidade ao facilitarme un horario flexible para poder escribir, e non protestaron cando a redacción do libro demorou máis do previsto. Ignoro os complicados métodos de xestión que existen tras ese tipo de decisións, mais sospeito que Sandra Klute, e máis tarde Mahesh Murthy, tiveron algo que ver. Agradézolle a ambos a súa axuda.</para>
-   <para/>
-   <para>O equipo de desenvolvemento de Subversion serviume de inspiración durante os últimos cinco anos, e unha gran parte do que escribín neste libro aprendino deles. Non vou redactar os meus agradecementos un por un, xa que son demasiados, mais prégolle ao lector que, se coincidir cun membro de Subversion, o invite a unha copa (eu penso facelo).</para>
-   <para/>
-   <para>Queixeime a Rachel Scollon de como levaba a redacción do libro en numerosas ocasións; nunca se negou a escoitarme e de algunha maneira conseguía que os problemas parecesen menos problemas. Agradézolle desde aquí a súa inestimable axuda.</para>
-   <para/>
-   <para>Transmítolle (mais unha vez) o meu agradecemento a Noel Taylor, quen con certeza se ten preguntado por que quixen escribir outro libro despois de queixarme tanto a primeira vez, mais cuxa amizade e xestión de Golosá contribuíron a que non me faltase nin música nin boa companhía mesmo cando estaba moi atrarefado. Agradézolle tamén a Matthew Dean e a Dorothea Samtleben, amigos e companheiros de desventuras musicais, a súa comprensión ante as minhas cada vez máis frecuentes excusas para non ensaiar. Megan Jennings apoioume en todo momento, e sempre mostrou un grande interese pola obra a pesar de non conhecer o tema de perto, o que é unha gran axuda para un autor inseguro. Agradézolle a súa axuda a ela tamén.</para>
-   <para/>
-   <para>Esta obra foi revisada por catro persoas eruditas e dilixentes: Yoav Shapira, Andrew Stellman, Davanum Srinivas, and Ben Hyde. Este libro ganharía moito se puider inserir todas as súas brillantes suxestións, mais a escaseza de tempo obrigoume a facer unha escolma; contodo, a mellora foi significativa. Calquera erro que houber é responsabilidade exclusiva minha.</para>
-   <para/>
-   <para>Os meus pais, Frances e Henry, ofrecéronme o seu apoio, como sempre, e dado que este libro é menos técnico que o anterior, espero que atopen a súa lectura máis agradable.</para>
-   <para/>
-   <para>Para rematar, gustaríame estender o meu agradecemento ás persoas a quen está dedicada esta obra, Karen Underhill e Jim Blandy. A amizade e o apoio de Karen son todo para min, non só durante a redacción deste libro, senón tamén durante os últimos sete anos. Non o tería rematado se non for por ela. Ídem a respecto de Jim, un grande amigo e hacker entre hackers, e a persoa que me introduciu no software libre pola primeira vez, algo en certa maneira semellante a un paxaro que lle aprendese a voar a un avión. </para>
-   <para/>
-   <para/>
-   <para>Renuncia de responsabilidade</para>
-   <para/>
-   <para>As reflexións e opinións reflectidas nesta obra son exclusivamente do autor. Non representan necesariamente a postura de CollabNet ou do proxecto Subversion.</para>
-   <para/>
-</article>
+<preface id="preface">
+<title
+>Preámbulo</title>
+  
+<!-- ======================== SECTION ============================== -->
+<sect1 id="why">
+<title
+>Por que escribín este libro?</title>
+
+<para
+>Nas festas, a xente xa non fica con expresión de dúbida cando lles digo que traballo con software libre. «Ah, si, código aberto, como Linux?» din, tras o que aceno con emoción:  «si, iso mesmo!».  É agradable deixar de ser un becho raro. Hai tempo, o que preguntarían a seguir era bastante predecible: «e como ganhas a vida con iso?». Para responder a esta pregunta, facíalles un resumo dos aspectos económicos do código aberto; nomeadamente, que hai organizacións ás que lles interesa que exista un determinado software, mais que non precisan vender copias do mesmo, o que lles interesa é asegurarse de que ese software se mantén e de que está á súa disposición; ven nel   unha ferramenta antes que un producto. </para>
+
+<para
+>Ultimamente, porén, as preguntas que fan a seguir non son sempre de carácter pecuniario. O modelo económico do software libre perdeu boa parte do seu misterio, e moitas persoas alleas á programación xa comprenden (ou ao menos non se sorprenden ao escoitaren) que hai quen traballa con software libre a tempo enteiro. Antes ben, a pregunta que máis tenho escoitado é a seguinte: «e como é que funciona iso?»</para>
+
+<para
+>Todavía non dei cunha resposta satisfactoria, e canto máis trato de atopar unha, máis me decato de que se trata dun tema moi complexo. Xerir un proxecto de software libre non é exactamente como xerir un negocio (imaxinade como sería ter que negociar constantemente a natureza do voso producto cunha turma de voluntarios, moitos dos cales non conheceriades persoalmente), mais tampouco é exactamente como xerir unha organización non gubernamental clásica, nin tampouco un governo.  Ten analoxías con todo iso, mais, co tempo, cheguei á conclusión de que o software libre constitúe un xénero per se. Pode ser comparado con maior ou menor suceso con multitude de cousas, mais nunca en  relación de igualdade. Mesmo a presunción de que os proxectos de software libre poden ser «xeridos» é unha esaxeración: un proxecto de software libre pode ser iniciado, e pode ser influenciado polas partes interesadas, frecuentemente de maneira considerable, mais o material non pode pasar a mans dun único propietario e, sempre que houber alguén (en calquera lugar) interesado en continuar co proxecto, este non pode ser cancelado de maneira unilateral. Todos os membros tenhen poder ilimitado e todos son impotentes, o que crea unha dinámica interesante. </para>
+
+<para
+>Eses son os motivos que me impulsaron a redactar este libro. Os proxectos de software libre tornáronse nunha cultura característica, un etos que ten como dogma central a liberdade de lograr que o software faga o que un quixer, sen que isto suponha a disgregación dos programadores, antes ben, que  colaboren con máis forza. A capacidade de cooperación é, de facto, unha das habilidades máis cotizadas no ámbito do software libre.  Xerir un proxecto desta índole implica mergullarse nunha especie de cooperacion hipertrofiada, e a capacidade de descubrir novas vías de cooperación, para alén da capacidade de traballo en equipo, pode repercutir de maneira moi positiva sobre o producto. A finalidade deste libro é describir as técnicas que poden axudar a conseguilo.  Non é unha obra exhaustiva, mais serve polo menos como punto de partida. </para>
+
+<para
+>O software libre de calidade constitúe un obxectivo en si mesmo, e espero que esta obra satisfaga os lectores que se sirvan dela para o atinxiren.  Para alén diso, espero tamén que participen do pracer que se obtén ao traballar nun equipo de desenvolvedores de código aberto motivados,  e da relación directa co usuario que alenta o código aberto. Participar nun proxecto de software libre ben sucedido é divertido, e é, en definitiva, a causa de que o proceso non se detenha.</para>
+
+</sect1>
+
+<!-- ======================== SECTION ============================== -->
+<sect1 id="audience">
+<title
+>A quen está orientado este libro?</title>
+
+<para
+>A presente obra está orientada a desenvolvedores de software e xerentes que tenhen en mente iniciar un proxecto de software libre, ou que xa o iniciaran e non saben como continuar; tamén pode ser de utilidade a quen quixer participar nun proxecto de software libre pola primeira vez.  </para>
+
+<para
+>O lector non ten por que saber programar, porén, debería pusuír nocións básicas de conceptos de enxenharía de software tales como código fonte, compiladores e remendos (patches).</para>
+
+<para
+>Non é necesario posuír experiencia previa como usuario ou desenvolvedor de software libre. É posible que quen tiver traballado con anterioridade en proxectos de software libre pense que certas partes da obra son obvias de mais, e talvez desexe evitar esas seccións; mais o grao de experiencia dos lectores é tan variable que fixen un esforzo para etiquetar as seccións con claridade, e indiquei  cales poden ser ignoradas se xa se dominan os conceptos que nelas se tratan. </para>
+
+</sect1>
+
+<!-- ======================== SECTION ============================== -->
+<sect1 id="sources">
+<title
+>Fontes</title>
+
+<para
+>Gran parte do material que forma a obra é debido aos cinco anos que traballei co proxecto Subversion (<ulink url="http://subversion.tigris.org/"
+></ulink
+>) . Subversion é un sistema de control de versións de código aberto escrtio desde cero, e preténdese que substitúa CVS para tornarse no sistema de control de versións de preferencia na comunidade de código aberto. O proxecto foi iniciado pola empresa para a que traballaba, CollabNet (<ulink url="http://www.collab.net/"
+></ulink
+>), a comezos de 2000 e, afortunadamente, souberon administralo desde o inicio como un proxecto de colaboración de múltiples partes. Un elevado número de desenvolvedores voluntarios aderíronse ao proxecto desde o inicio, que conta na actualidade con máis de 50 desenvolvedores, dos que unicamente unha pequena parte traballan para CollabNet.</para>
+
+<para
+>Subversion é un exemplo case perfecto do que debe ser un proxecto de software libre, e finalmente baseeime nel máis do que pensaba facer inicialmente; en parte polas vantaxes que ofrecía, xa que me fornecía de inesgotables exemplos para ilustrar determinados fenómenos, mais tamén por cuestións de fidelidade. Embora colaboro con outros proxectos de software libre en maior ou menor grao, e tenho amigos e conhecidos que traballan en moitos outros, un decátase logo de que, ao ponher as cousas sobre o papel,  é necesario procurar referentes reais de todo o que se afirma. Non quería facer referencias a outros proxectos baseándome exclusivamente no que lía nas listas públicas de correo, xa que se alguén actuase deste xeito con Subversion acertaría só a metade das veces. Así, sempre que me mergullei en proxectos cos que non tinha experiencia de primeira man á procura de inspiración ou exemplos,  tratei de falar con algún membro dos mesmos para que me explicase a situación real dos mesmos. </para>
+
+<para
+>Traballei en Subversion os últimos 5 anos, mais xa levo 12 anos no mundo do software libre. Outros proxectos que deron forma a esta obra son:</para>
+
+<itemizedlist>
+  <listitem
+><para
+>O proxecto de editor de texto GNU Emacs da Fundación para o Software Libre (Free Software Foundation), no que mantenho uns poucos pacotes. </para>
+  </listitem>
+  <listitem
+><para
+>Concurrent Version System (CVS, Sistema de Versións Concorrentes), no que traballei a fondo en 1994-95 con Jim Bandy, mais co que colaboro só esporádicamente desde entón. </para>
+  </listitem>
+  <listitem
+><para
+>A colección de proxectos de código aberto conhecida como Apache Software Foundation, en particular o Apache Portable Runtime (APR) e o Servidor HTTP Apache (Apache HTTP Server). </para
+> 
+  </listitem>
+  <listitem
+><para
+>OpenOffice.org, a base de datos de Berkeley de Sleepycat, e a base de datos MySQL; non formei parte deses proxectos persoalmente, mais os seguín de perto e en ocasións falei con algúns dos seus membros.</para
+> 
+  </listitem>
+  <listitem
+><para
+>GNU Debugger (GDB) (ídem)</para>
+  </listitem>
+  <listitem
+><para
+>O proxecto Debian (ídem).</para>
+  </listitem>
+</itemizedlist>
+
+<para
+>A lista apenas está completa, dado que, como a maior parte dos programadores de código aberto, non mantenho unha memoria exhaustiva dos proxectos nos que colaboro, o xusto para ter unha idea global de como están as cousas. Non os vou enumerar todos nesta sección, mais si están citados en outras partes da obra. </para>
+
+</sect1>
+
+<!-- ======================== SECTION ============================== -->
+<sect1 id="acknowledgments">
+<title
+>Recoñecementos </title>
+
+<para
+>Tardei catro veces máis do que tinha previsto en redactar a presente obra, e durante a maior parte dese tempo o traballo pendente producíame un gran desacougo. Se non tivese recibido a axuda de numerosos colaboradores, non daría rematado o libro sen perder o xuízo.</para>
+
+<para
+>Andy Oram, de O'Reilly, é o editor que todo autor desexaría ter. Para alén dun fondo conhecemento do campo (suxeriume moitos dos temas), posúe o escaso don de comprender o que un quere dicir e de axudarlle a atopar a mellor maneira de dicilo. Tamén quero agradecerlle a Chuck Toporek o terlle trasladado esta proxecto a Andy de maneira inmediata. </para>
+
+<para
+>Brian Fitzpatrick revisou a maior parte do material a medida que o redactaba, algo que non só mellorou a obra, senón que tamén me obrigou a escribir mesmo cando o último que quería facer era sentarme diante do computador. Ben Collins-Sussman e Mike Pilato tamén supervisaban o avance da obra, e sempre estaban prontos a debatir (ás veces durante horas) calquera tema no que estivese a traballar na altura. Tamén vixiaban o meu ritmo de traballo, e animábanme a seguir cando se ralentizaba. Desde aquí agradézolles a súa axuda.</para>
+
+<para
+>Biella Coleman estaba a redactar a súa tese na altura na que eu estaba a redactar este libro, e sabe o que é sentarse a escribir un día si e outro tamén, tamén foi unha fonte de inspiración e un gran apoio. A súa formación como antropóloga fai que posúa unha fascinante visión do movemento do software libre, e achegou ideas e referencias que empreguei nesta obra. Alex Golub (outro antropólogo que ten un pé no mundo do software libre, e quen tamén estaba a rematar a súa tese na altura) apoioume moito nas fases iniciais, o que foi unha gran axuda. </para>
+
+<para
+>Agradecementos tamén a Micah Anderson, que nunca deixou que o atormentase a presión de redactar as súas obras, o que me serviu de inspiración (e me deu algo de envexa  tamén). Porén, sempre estaba pronto a axudar, conversar e, polo menos nunha ocasión, prestar apoio técnico.</para>
+
+<para
+>Jon Trowbridge e Sander Striker animáronme na minha empresa e brindáronse a colaborar nela, sen a súa experiencia en productos de software libre nunca tería rematado a obra.</para>
+
+<para
+>Quero agradecerlle tamén a Greg Stein non só a súa amizade e os seus ánimos no momento adecuado, senón tamén terlle mostrado ao proxecto Subversive a importancia de revisar o código con frecuencia cando se quere crear unha comunidade de programadores. Estendo o meu agradecemento tamén a Brian Behlendorf, quen con gran tacto nos gravou na mente a importancia de debatir as cousas en público, espero que o libro recolla ese principio.</para>
+
+<para
+>Agradézolle a Benjamin «Mako» Hill e a Seth Schoen as conversacións sobre software libre e a súa política, a Zack Urlocker e a Louis Suarez-Potts térense deixado entrevistar a pesar de estaren moi atarefados, a Shane da lista de Slashcode  permitirme citar os seus posts, e a Haggen So as comparacións que fixo de aloxamentos web estándar.</para>
+
+<para
+>Agradézolle a Alla Dekthyar, a Polina e a Sonya térenme animado con carinho e paciencia. Alégrame que a partir de agora  non tenhamos que rematar (ou debería dicir tratar de rematar) prematuramente as nosas veladas para voltar a casa a traballar no «Libro».  </para>
+
+<para
+>Agradézolle a Jack Repenning a súa amizade, as conversacións que mantivemos e a súa teimuda negativa a aceptar unha análise fácil, mais errada, se for posible facer unha análise correcta, mais difícil. Espero que esta obra se impreganse de parte da súa larga experiencia no desenvolvemento de software libre e a industria do software.</para>
+
+<para
+>CollabNet fixo gala dunha gran xenerosidade ao facilitarme un horario flexible para poder escribir, e non protestaron cando a redacción do libro demorou máis do previsto. Ignoro os complicados métodos de xestión que existen tras ese tipo de decisións, mais sospeito que Sandra Klute, e máis tarde Mahesh Murthy, tiveron algo que ver. Agradézolle a ambos a súa axuda.</para>
+
+<para
+>O equipo de desenvolvemento de Subversion serviume de inspiración durante os últimos cinco anos, e unha gran parte do que escribín neste libro aprendino deles. Non vou redactar os meus agradecementos un por un, xa que son demasiados, mais prégolle ao lector que, se coincidir cun membro de Subversion, o invite a unha copa (eu penso facelo).</para>
+
+<para
+>Queixeime a Rachel Scollon de como levaba a redacción do libro en numerosas ocasións; nunca se negou a escoitarme e de algunha maneira conseguía que os problemas parecesen menos problemas. Agradézolle desde aquí a súa inestimable axuda.</para>
+
+<para
+>Transmítolle (mais unha vez) o meu agradecemento a Noel Taylor, quen con certeza se ten preguntado por que quixen escribir outro libro despois de queixarme tanto a primeira vez, mais cuxa amizade e xestión de Golosá contribuíron a que non me faltase nin música nin boa companhía mesmo cando estaba moi atrarefado. Agradézolle tamén a Matthew Dean e a Dorothea Samtleben, amigos e companheiros de desventuras musicais, a súa comprensión ante as minhas cada vez máis frecuentes excusas para non ensaiar. Megan Jennings apoioume en todo momento, e sempre mostrou un grande interese pola obra a pesar de non conhecer o tema de perto, o que é unha gran axuda para un autor inseguro. Agradézolle a súa axuda a ela tamén.</para>
+
+<para
+>Esta obra foi revisada por catro persoas eruditas e dilixentes: Yoav Shapira, Andrew Stellman, Davanum Srinivas, and Ben Hyde. Este libro ganharía moito se puider inserir todas as súas brillantes suxestións, mais a escaseza de tempo obrigoume a facer unha escolma; contodo, a mellora foi significativa. Calquera erro que houber é responsabilidade exclusiva minha.</para>
+
+<para
+>Os meus pais, Frances e Henry, ofrecéronme o seu apoio, como sempre, e dado que este libro é menos técnico que o anterior, espero que atopen a súa lectura máis agradable.</para>
+
+<para
+>Para rematar, gustaríame estender o meu agradecemento ás persoas a quen está dedicada esta obra, Karen Underhill e Jim Blandy. A amizade e o apoio de Karen son todo para min, non só durante a redacción deste libro, senón tamén durante os últimos sete anos. Non o tería rematado se non for por ela. Ídem a respecto de Jim, un grande amigo e hacker entre hackers, e a persoa que me introduciu no software libre pola primeira vez, algo en certa maneira semellante a un paxaro que lle aprendese a voar a un avión. </para>
+
+</sect1>
+
+<!-- ======================== SECTION ============================== -->
+<sect1 id="disclaimer">
+<title
+>Renuncia de responsabilidade</title>
+
+<para
+>As reflexións e opinións reflectidas nesta obra son exclusivamente do autor. Non representan necesariamente a postura de CollabNet ou do proxecto Subversion.</para>
+
+</sect1>
+
+</preface>
+
+<!--
+local variables: 
+sgml-parent-document: ("book.xml" "chapter")
+end:
+-->

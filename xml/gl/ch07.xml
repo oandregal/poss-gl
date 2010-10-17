@@ -1,0 +1,990 @@
+<chapter id="development-cycle">
+
+<title
+>Empacotamento, liberación e dia a dia no desenvolvemento</title>
+
+<simplesect>
+
+<para
+>Este capítulo trata sobre como os proxectos de software libre empacotan e liberan o seu software e de como os padróns de desenvolvemento globais se organizan en torno a eses obxectivos.</para>
+
+<para
+>A maior diferenza entre os proxectos de software libre e os propietarios e a falta de control centralizado sobre o equipo de desenvolvemento. Cando unha nova versión está a ser preparada, esta diferencia é especialmente notable: unha corporación pode pedir a todo o seu equipo de desenvolvemento que se centre na versión que está a piques de ser lanzada, deixando de lado as novas funcionalidades e os erros que non son críticos ata que finalmente se lance a nova versión. Os grupos de voluntarios non son monolíticos. A xente traballa nun proxecto por moitas razóns diferentes, e aqueles que non están interesados en axudar no proceso de lanzamento da nova versión poden querer seguir colaborando no desenvolvemento mentres a nova versión está a piques de saír. Debido a que o desenvolvemento non para, o proceso de lanzamento de novas versión no software libre tende ser longo mais menos problemático que nos procesos comerciais. E similar a reparar unha autopista. Hai dúas maneiras de arranxar unha estrada, pódese pechar por completo de xeito que os operarios poidan traballar en toda ela por completo ata reparala toda ou pódese traballar nun par de faixas deixando outras abertas ao tránsito. A primeira forma é moi eficiente <emphasis
+>para os operarios</emphasis
+>, mais para ninguén máis; a estrada fica totalmente pechada ata a finalización dos traballos. A segunda forma require moito máis tempo e dificultades para os operarios (agora eles teñen que traballar con menos xente e menos equipamento, con estreiteces, con sinais para reducir a velocidade do tránsito e dirixilo, etc.), mais polo menos a estrada permanece aberta, embora non por completo.</para>
+
+<para
+>Os proxectos de software libre tenden a traballar da segunda maneira. De feito, para un proxecto maduro con varias liñas diferentes de versións mantidas simultaneamente, o proxecto atópase permanentemente nun estado de reparacións menores na estrada. Hai sempre un par de faixas pechadas; un constante pero baixo nivel de inconvenientes é sempre soportado polo grupo de desenvolvemento coma unha molestia, para que a liberación das versións siga un ciclo regular.</para>
+
+<para
+>O modelo que posibilita isto xeneralízase a algo máis que só a liberación de versións. É o principio de paralelización de tarefas que non son interdependentes&mdash; un principio que de ningún modo é exclusivo para o desenvolvemento de software libre, por suposto, mais que é implementado no software libre dun xeito particular. Non se pode asumir molestar demasiado os homes que traballan na estrada nin o tránsito, mais tampouco se pode permitir ter xente tras os conos laranxas dirixindo o tráfico con bandeiras. Así, gravitan en torno a procesos que teñen niveis planos e constantes de esforzo de administración en troca de altos e baixos. Os voluntarios xeralmente están dispostos a traballar con cantidades de inconvenientes pequenas mais coherentes; a previsibilidade permítelles ir e vir sen se preocuparen de se as súas planificacións entran en conflito co que ocorre no proxecto. Mais se o proxecto estiver suxeito a unha planificación mestra na cal unhas actividades exclúen a outras, o resultado sería desenvolvedores perdendo tempo &mdash; que sería, non só ineficiente, senón aburrido, e por tanto perigoso, xa que un desenvolvedor aburrido está perto de se converter nun ex-desenvolvedor.</para>
+
+<para
+>O traballo de lanzamento de novas versións é xeralmente a tarefa de non desenvolvemento máis perceptible que sucede en paralelo co desenvolvemento, polo tanto os métodos que se describen nas seguintes seccións están concibidos maioritariamente para posibilitar as novas versións. Porén, nótese que estes deben ser aplicados paralelamente con outras tarefas, como a tradución e internacionalización, mudanzas claras na API feitos gradualmente a través do código base, etc.</para>
+
+</simplesect>
+
+<!-- ========================== SECTION =========================== -->
+
+<sect1 id="release-numbering">
+<title
+>Numeración de versións</title>
+
+<para
+>Antes de falar sobre como facer unha versión, imos ver como nomear as versións, o cal require coñecer o que as versións queren dicir para os usuarios. Unha versión quere dicir que:</para>
+
+<itemizedlist>
+
+  <listitem
+><para
+>Vellos erros foron resoltos. Isto é probablemente unha das cousas que os usuarios esperan en cada versión.</para>
+  </listitem>
+
+  <listitem
+><para
+>Novos erros foron engadidos. Con isto sóese contar tamén, excepto algunhas veces no caso de versións de seguridade ou outras que só saen unha vez (ver <xref linkend="security-releases"/><phrase output="printed"
+> máis adiante neste capítulo</phrase
+>).</para>
+  </listitem>
+
+  <listitem
+><para
+>Novas funcionalidades puideron ser engadidas.</para>
+  </listitem>
+
+  <listitem
+><para
+>Novas opcións de configuración puideron ser engadidas, ou o significado de vellas opcións puido mudar sutilmente. A instalación de procedementos puido mudar lixeiramente desde a última versión tamén, embora sempre se espere que non.</para>
+  </listitem>
+
+  <listitem
+><para
+>Mudanzas incompatibles poden ser introducidas, por exemplo o formato dos datos usados por versións anteriores do software xa non son usables sen ningún tipo de conversión (posiblemente manual).</para>
+  </listitem>
+
+</itemizedlist>
+
+<para
+>Como se pode ver, non todas estas cousas son boas. Isto é polo que os usuarios experimentados solicitan novas versións con algo de inquietude, especialmente cando o software é maduro e xa fai case todo o que eles queren (ou pensan que queren). Mesmo a chegada de novas funcionalidades é unha beizón a medias, xa que pode causar que o software se comporte agora de xeito inesperado. </para>
+
+<para
+>O propósito da numeración de versións, polo tanto, é dupla: obviamente os números deben comunicar sen ambigüidade a orde das versións (por exemplo, ollando os números de dúas versións, un debe poder saber cal vén despois), mais ademais deben indicar do xeito máis compacto posible o nivel e natureza das mudanzas na versión.</para>
+
+<para
+>Todo iso nun número? Ben, máis ou menos, si. As estratexias de numeración de versións son unha das vellas discusións (ver <xref linkend="bikeshed"/><phrase output="printed"
+> en <xref linkend="communications"/></phrase
+>), e é pouco probable que se atope unha solución sinxela, completa e estándar. Porén, existen unhas poucas boas estratexias, xunto cun principio universal: <emphasis
+>ser coherente</emphasis
+>. Escoler un esquema numérico, documentalo e mantelo. Os usuarios agradecerano.</para>
+
+<!-- ========================== subsection =========================== -->
+<sect2 id="release-number-components">
+<title
+>Compoñentes numéricos da versión</title>
+
+<para
+>Esta sección describe as convencións formais da numeración das versións en detalle, e asume moi poucos coñecementos previos. Está prevista principalmente coma unha referencia. Se xa estás familiarizado con estas convencións, podes saltar esta sección.</para>
+
+<para
+>A numeración de versións son grupos de díxitos separados por puntos:</para>
+
+<informalexample>
+<literallayout
+>Scanley 2.3
+Singer 5.11.4</literallayout>
+</informalexample>
+
+<para
+>...etc. Os puntos <emphasis
+>non</emphasis
+> representan decimais, son meros separadores; "5.3.9" iría seguido de "5.3.10". Uns poucos proxectos son etiquetados de forma diferente, o máis famoso é o kernel de Linux coas súas secuencias "0.95", "0.96"... "0.99" ata Linux 1.0, mais a convención de que eses puntos non son decimais é agora firmemente establecida e debería ser considerada estándar. Non hai límites sobre o número de compoñentes (porción de díxitos que non conteñen puntos), mais a maioría dos proxectos non teñen máis de tres ou catro. A razón é para que sexan máis comprensibles.</para>
+
+<para
+>Ademais dos compoñentes numéricos, os proxectos ás veces engaden unha etiqueta descritiva como "Alpha" ou "Beta" (ver <xref linkend="alpha-and-beta"/>), por exemplo:</para>
+
+<informalexample>
+<literallayout
+>Scanley 2.3.0 (Alpha)
+Singer 5.11.4 (Beta)</literallayout>
+</informalexample>
+
+<para
+>Unha cualificación Alpha ou Beta quere dicir que esta versión <emphasis
+>precede</emphasis
+> a unha futura versión que terá o mesmo número mais sen o cualificador. De esta maneira, "2.3.0&nbsp;(Alpha)" conduce finalmente a "2.3.0". Para permitir tanta cantidade de versións distintas, os cualificadores teñen eles mesmos meta-cualificadores. Por exemplo, aquí hai unha serie de versións que estarían dispoñibles para o público:</para>
+
+<informalexample>
+<literallayout
+>Scanley 2.3.0 (Alpha 1)
+Scanley 2.3.0 (Alpha 2)
+Scanley 2.3.0 (Beta 1)
+Scanley 2.3.0 (Beta 2)
+Scanley 2.3.0 (Beta 3)
+Scanley 2.3.0</literallayout>
+</informalexample>
+
+<para
+>Nótese que cando ten o cualificador "Alpha", Scanley "2.3" escríbese como "2.3.0". Os dous números son equivalentes&mdas; os compoñentes que son ceros poden ser eliminados por brevidade&mdash; mais cando un cualificador está presente, a brevidade non serve para nada, polo que debe poñerse completo.</para>
+
+<para
+>Outros cualificadores que soen ser empregados son "Estable", "Inestable", "Desenvolvemento", e "RC" (para "Versión Candidata"). Os máis comunmente empregados son "Alpha" e "Beta", con "RC" moi perto no terceiro posto, mais nótese que "RC" sempre inclúe un meta-cualificador numérico. Isto é, non liberas a versión "Scanley&nbsp;2.3.0&nbsp;(RC)" liberas "Scanley&nbsp;2.3.0&nbsp;(RC&nbsp;1)"), seguido da RC2, etc.</para>
+
+<para
+>Esas tres etiquetas, "Alpha", "Beta", e "RC", son bastante máis coñecidas agora, e non recomendo usar ningunha outra, mesmo pensando que as outras poden parecer mellores a primeira vista porque son palabras normais, non xíria. Mais a xente que instala software desde versións está xa familiarizado coas tres, e non hai razón para facer as cousas de maneira distinta daquela que a xente coñece porque si.</para>
+
+<para
+>Embora os puntos nos números da versión non sexan puntos decimais, a súa posición ten significado. Todas as versións "0.X.Y" preceden á "1.0" (a cal equivale a "1.0.0", por suposto). "3.14.158" inmediatamente preceden á "3.14.159", e non inmediatamente precede á "3.14.160" así como tamén á "3.15.algo", e así.</para>
+
+<para
+>Unha política de numeración de versións coherente permite o usuario ver dous números de versión para a mesma peza de software e detectar, en base aos números, as importantes diferenzas entre esas dúas versións. Nun típico sistema de tres compoñentes, o primeiro é o número <firstterm
+>maior&nbsp;</firstterm
+>, o segundo e o número <firstterm
+>menor&nbsp;</firstterm
+>, e o terceiro é o número <firstterm
+>micro&nbsp</firstterm
+>. Por exemplo, a versión "2.10.17" é a décimo sétima micro versión na décima liña de versión menor dentro da segunda serie de versións maiores. As palabras "liña" e "series" son empregadas informalmente aquí, mais teñen o significado que un esperaría. A serie maior é simplemente todas as versións que comparten o mesmo número maior, e a serie menor (ou liña menor) componse de todas as versións que comparten o número menor <emphasis
+>e</emphasis
+> o número maior. Isto é, "2.4.0" e "3.4.1" non están na mesma serie menor, embora compartan o "4" como número menor; por outra banda, "2.4.0" e "2.4.2" están na mesma liña menor, pensando que non son adxacentes se a "2.4.1" foi lanzada entre elas.</para>
+
+<para
+>O significados de estes números son exactamente o que se esperaría: un incremento do número maior indica que ocorreron mudanzas maiores; un incremento do número menor indica mudanzas menores; e un incremento do número micro indica mudanzas realmente triviais. Algúns proxectos engaden un cuarto compoñente, chamado habitualmente o <firstterm
+>patch&nbsp;número</firstterm
+>, para un control moi especializado sobre as diferenzas entre as súas versións (confusamente, outros proxectos usan "patch" coma un sinónimo para "micro" nun sistema de tres compoñentes). Hai tamén proxectos que usan a última compoñente como <firstterm
+>build&nbsp;número</firstterm
+>, incrementado cada vez que o software é compilado e sen representar ningún outra mudanza. Isto axuda ao proxecto a enlazar calquera erro atopado cunha compilación específica, e é probablemente máis útil cando os pacotes binarios son o método por defecto de distribución.</para>
+
+<para
+>Embora haxa moitas convencións diferentes sobre cantos compoñentes empregar, e sobre o que os compoñentes significan, as diferenzas tenden a ser pequenas&mdash; podes ter un pouco de flexibilidade, mais non moita. As próximas dúas seccións tratan sobre as convencións máis empregadas.</para>
+
+</sect2>
+
+<!-- ========================== subsection =========================== -->
+<sect2 id="release-number-simple-strategy">
+<title
+>A estratexia simple</title>
+
+<para
+>A maioría dos proxectos teñen regras sobre que tipo de mudanzas son permitidas nunha versión se só se incrementa o micro número, regras diferentes para o número menor, e diferentes tamén para o número maior. Non hai un estándar para estas regras aínda, mais aquí farei unha descrición da política que foi adoptada con éxito por moitos proxectos. Ti podes querer simplemente adoptar esta política no teu propio proxecto, mais mesmo se non, é un bo exemplo de que tipo de información deberían dar os números de versións. Esta política está adaptada dende o sistema de numeración usado polo proxecto APR, ver <ulink url="http://apr.apache.org/versioning.html"
+></ulink
+>.</para>
+
+<orderedlist>
+
+  <listitem
+><para
+>Mudar o número micro só (isto é, mudanzas na liña menor) deben implicar compatibilidade tanto cara a adiante coma cara a atrás. Isto é, as mudanzas deberían resolver erros soamente, ou moi pequenas melloras en funcionalidades existentes. Novas funcionalidades non deberían ser introducidas nunha micro versión.</para>
+  </listitem>
+
+  <listitem
+><para
+>Mudanzas no número menor (isto é, dentro da mesma liña maior) deben ser compatibles cara a atrás, mais non necesariamente cara a adiante. É normal introducir novas funcionalidades nunha versión menor, mais xeralmente non moitas ao mesmo tempo.</para>
+  </listitem>
+
+  <listitem
+><para
+>Mudanzas no número maior marcan unha fronteira na compatibilidade. Unha versión maior pode ser incompatible cara a adiante e cara a atrás. Dunha versión maior espérase que teña novas funcionalidades, e pode mesmo ter un novo xogo de funcionalidades.</para>
+  </listitem>
+
+</orderedlist>
+
+<para
+>O que quere dicir ser <firstterm
+>compatible cara a atrás</firstterm
+> e <firstterm
+>compatible cara a adiante</firstterm
+> depende do que o software faga, mais en contexto xeralmente non están abertas a moita interpretación. Por exemplo, se o teu proxecto for unha aplicación tipo cliente/servidor, entón "compatibilidade cara a atrás" significa que actualizando o servidor á versión 2.6.0 non debería causar perda de funcionalidade ou comportamento diferente en clientes existentes 2.5.4 (excepto para os erros que fosen resoltos, por suposto). Por outra banda, actualizar un dos clientes á versión 2.6.0, xunto co servidor, poden ter <emphasis
+>novas</emphasis
+> funcionalidades dispoñibles para ese cliente, funcionalidades das que os clientes 2.5.4 no saben como tirar partido. Se isto suceder, entón a actualización <emphasis
+>non</emphasis
+> é "compatible cara a adiante": claramente ti non podes agora desactualizar o cliente de novo á 2.5.4 e manter toda a funcionalidade que tiña coa 2.6.9, xa que algunhas desas funcionalidades eran novas na 2.6.0.</para>
+
+<para
+>Isto é polo que as micro versións son esencialmente para arranxar erros. Deben manter a compatibilidade en ambas direccións: se actualizares da 2.5.3 á 2.5.4, despois mudares de opinión en voltares a 2.5.3, non deberías perder ningunha funcionalidade, agás no caso de que os erros restaurados non posibilitaren o uso de algunhas funcionalidades existentes.</para>
+
+<para
+>Os protocolos cliente/servidor son un dos moitos posibles dominios. Outro é o formato dos datos: o software escribe os datos nun almacenamento permanente? Se o fai, os formatos de lectura e escritura precisan seguir as liñas de compatibilidade prometidas pola política de numeración das versións. A versión 2.6.0 precisa ser capaz de ler os ficheiros escritos coa versión 2.5.4, mais pode silenciosamente actualizar o formato a algo que a 2.5.4 non pode ler, porque a habilidade de voltar a unha versión anterior non é requirida máis alá do límite que marca o número menor. Se o teu proxecto distribuír bibliotecas de código para que usen outros programas, entón as APIs serán un dominio compatible tamén: debes asegurarte de que as regras de compatibilidade de código e binaria son explicadas de forma que o usuario non precise preguntarse se a actualización vai ser segura ou non. Deberá ser capaz de ver os números de versións e sabelo ao instante.</para>
+
+<para
+>Neste sistema, non tes unha oportunidade de partir de cero ata que incrementas o número maior. Isto pode a miúdo ser un inconveniente: pode haber funcionalidades que desexes engadir, ou protocolos que desexes redeseñar, que simplemente non poden ser feitos mentres se mantén a compatibilidade. Non hai unha solución máxica para isto, agás tentar deseñar as cousas de xeito extensible ao principio (un tema que merecería un libro, e certamente se escapa do ámbito deste). Mais publicar unha política de compatibilidade de versións, e adherirse a ela, e unha parte imprescindible da distribución de software. Unha desagradable sorpresa pode distanciar unha chea de usuarios. A política descrita é boa parcialmente porque está bastante estendida, mais tamén porque é fácil de explicar e recordar, mesmo para aqueles que aínda non estiveren familiarizados con ela.</para>
+
+<para
+>Habitualmente asúmese que estas regras non se aplican as versións previas a 1.0 (aínda que a túa política de versións debería probablemente ser explícita, simplemente para ser clara). Un proxecto que está aínda nun desenvolvemento inicial pode ter versións 0.1, 0.2, 0.3, e así en secuencia, ata que estiver listo para a 1.0, e as diferenzas entre esas versións poden ser arbitrariamente grandes. Os micro números en versións anteriores a 1.0 son opcionais. Dependendo da natureza do proxecto e das diferenzas entre as versións, podes atopar útil ter 0.1.0, 0.1.1, etc, ou pode que non. As convencións para as versións anteriores a 1.0 están bastante perdidas, probablemente porque a xente entende que manter unha forte compatibilidade pode comprometer demasiado o desenvolvemento inicial do proxecto, e porque os que as adoptan tenden a esquecelas de calquera xeito.</para>
+
+<para
+>Lembra que todas estas regras son aplicables só a este particular sistema do terceiro compoñente. O teu proxecto podería facilmente empregar un sistema diferente de tres compoñentes, ou mesmo decidir que non precisa tanta atomización e empregar un sistema con dous compoñentes. O importante é decidir cedo, publicar exactamente o que os compoñentes queren dicir, e manter a decisión.</para>
+
+</sect2>
+
+<!-- ========================== subsection =========================== -->
+<sect2 id="release-number-even-odd-strategy">
+<title
+>A estratexia par/impar</title>
+
+<para
+>Algúns proxectos usan a paridade do número menor para indicaren a estabilidade do software: par quere dicir estable, impar inestable. Isto aplícase só ao número menor, non ao maior e ao micro. Os incrementos no número micro indican aínda erros arranxados (non novas funcionalidades), e incrementos no número maior indican aínda grandes mudanzas, novos xogos de funcionalidades, etc.</para>
+
+<para
+>As vantaxes do sistema par/impar, o cal é empregado polo kernel de Linux entre outros, ofrece unha forma de liberar versións con novas funcionalidades para testar sen que os usuarios teñan que empregar código inestable. A xente pode ver polos números que "2.4.21" está ben para instalar no seu servidor web, mais a "2.5.1" debería probablemente permanecer confinada para os seus experimentos locais. O equipo de desenvolvemento manexa os informes de erros que veñen das series inestables (as que ten o número menor impar), e cando as cousas empezan a calmarse despois de varias micro versións nesas series, incrementan o número menor, resetean o número micro a "0", e liberan a versión presumiblemente estable do pacote.</para>
+
+<para
+>Este sistema preserva, ou polo menos, non entra en conflito con, as liñas de compatibilidade dadas anteriormente. Simplemente sobrecarga o número menor con algo de información extra. Isto forza a incrementar o número menor dúas veces tan a miúdo como por outra parte sería necesario, mais non hai maior dano en iso. O sistema par/impar é probablemente mellor para proxectos que teñen ciclos de versións moi longos, os cales pola súa natureza teñen unha alta proporción de usuarios fixos que valoran máis a estabilidade que as novas funcionalidades. Esta non é a única forma de probar novas funcionalidades durante o proceso, porén <xref linkend="stabilizing-a-release"/><phrase output="printed"
+> máis tarde neste capitulo</phrase
+> describe outra forma, quizais máis común, un método de liberar versións potencialmente inestables ao público, avisando a xente para que saiban o risco/beneficio inmediatamente ao veren o nome da versión.</para>
+
+</sect2>
+
+</sect1>
+
+<!-- ======================== SECTION ============================== -->
+<sect1 id="release-branches">
+<title
+>Ramas de versións</title>
+
+<para
+>Desde o punto de vista do desenvolvedor, un proxecto de software libre está sempre nun estado constante de liberación de novas versións. Os desenvolvedores normalmente executan sempre a última versión do código, porque queren descubrir erros, e porque seguen o proxecto o bastante de perto para seren quen de se manteren afastados das areas inestables. A miúdo actualizan a súa copia do software todos os días varias veces, e cando testan unha mudanza , esperan que todos os demais desenvolvedores a teñan en 24 horas.</para>
+
+<para
+>Como debería entón o proxecto facer unha nova versión formal? Debería tirar unha fotografía da árbore nun determinado momento, empacotala, e entregarlla ao mundo, como, por exemplo, versión "3.5.0"? O sentido común di que non. Primeiro, a árbore de desenvolvemento pode non chegar a estar nunca limpa e preparada para ser liberada. Funcionalidades novas que se están desenvolvendo poden estar en diferentes estados de desenvolvemento. Alguén puido facer unha mudanza grande para arranxar un erro, mais a mudanza podería ser controvertida e estar baixo debate no momento de liberar a versión. Se for así, deberíase simplemente atrasar a liberación ata que o debate rematase, porque outro debate non relacionado podería comezar na mesma altura, e entón esperar a que <emphasis
+>ese </emphasis
+> debate rematase tamén. Este proceso pode non ter fin.</para>
+
+<para
+>En calquera caso, empregar a árbore completa para as versións interferiría no proceso de desenvolvemento en marcha, mesmo se a árbore estiver nun punto adecuado para liberar a versión. Digamos que esta variante será a versión "3.5.0·; presumiblemente, a próxima sería a "3.5.1", e tería a maior parte dos erros atopados na 3.5.0 arranxados. Mais se ambas son estados da mesma árbore, que se supón que debería facer un desenvolvedor no período entre as dúas versións? Non poden engadir novas funcionalidades; as guías de compatibilidade o evitan. Mais non todo o mundo estará entusiasmado con arranxar erros no código da 3.5.0. Algunha xente pode ter novas funcionalidades que está tentando completar, e enfadaranse se os forzan a escoller entre non facer nada e traballar en cousas nas que non están interesados, só porque o proceso de lanzamento de versións do proxecto esixa que a árbore de desenvolvemento permaneza inactiva.</para>
+
+<para
+>A solución a estes problemas é empregar sempre unha <firstterm
+>rama para liberar as versións</firstterm
+>. Unha rama para liberar as versións é simplemente unha rama no sistema de control de versións (ver <xref linkend="vc-vocabulary-branch"/>), na cal o código destinado para esta versión pode estar isolado do desenvolvemento principal. O concepto dunha rama para as versións certamente non é orixinal do software libre; moitas organizacións comerciais de desenvolvemento a empregan tamén. Porén, en entornos comerciais, as ramas para as versións son as veces consideradas un luxo&mdash; un tipo de "boa práctica" formal que pode, baixo presión por unha data límite, ser prescindible mentres todo o mundo do equipo está traballando para estabilizar a árbore principal.</para>
+
+<para
+>As ramas para as versións son moito máis requiridas nos proxectos de software libre, porén, teño visto proxectos liberar versións sen elas, mais sempre hai algúns desenvolvedores que non fan nada mentres outros&mdash;normalmente unha minoría&mdash; traballa para liberar a versión. O resultado soe ser malo de varias maneiras. Primeiro, o desenvolvemento xeral é freado. Segundo, a versión ten menos calidade da que precisa ter, porque só un número pequeno de xente traballa nela, e están apurando para que o resto poida volver ao traballo. Terceiro, divide o equipo de desenvolvemento psicoloxicamente, creando una situación onde diferentes tipos de traballo interfiren con outros innecesariamente. Os desenvolvedores parados probablemente estarían máis contentos contribuíndo <emphasis
+>con algo</emphasis
+> da súa atención á rama da versión, sempre que for unha escolla acorde co seu propio horario e intereses. Mais sen a rama, a súa escolla convértese en: "participo no proxecto hoxe ou non?" no canto de: "traballo na nova versión hoxe ou nunha nova funcionalidade que estou a desenvolver no código principal?"</para>
+
+<!-- ======================== subsection ============================== -->
+<sect2 id="release-branch-mechanics">
+<title
+>Mecanismos das ramas para as versións</title>
+
+<para
+>Os mecanismos exactos para a creación da rama para as versións dependen do teu sistema de control de versións, por suposto, mais en xeral os conceptos son iguais na maioría dos sistemas. Unha rama, normalmente brota doutra rama ou do trunk. Tradicionalmente, o trunk é onde se fai o desenvolvemento principal, sen as limitacións da versión. A primeira rama para as versións, a que conduce á "1.0", brota do trunk. En CVS, o comando branch sería algo coma isto</para>
+
+<screen
+>$ cd trunk-working-copy
+$ cvs tag -b RELEASE_1_0_X
+</screen>
+
+<para
+>ou en Subversion, así:</para>
+
+<screen
+>$ svn copy http://.../repos/trunk http://.../repos/branches/1.0.x
+</screen>
+
+<para
+>(Todos estes exemplos asumen un sistema de numeración das versións de tres compoñentes. Embora non poida mostrar os comandos exactos para cada sistema de control de versións, darei exemplos en CVS e Subversion e espero que os correspondentes comandos en outros sistemas poidan ser deducidos destes dous.</para>
+
+<para
+>Nótese que creamos a rama "1.0.x" (cun literal "x") no canto de "1.0.0". Isto é porque a mesma liña menor&mdash;i.e., a mesma rama&mdash; será empregada por todas as micro versións nesa liña. O proceso actual de estabilizar a rama para as versións esta cuberto en <xref linkend="stabilizing-a-release"/><phrase output="printed"
+> máis adiante neste capítulo</phrase
+>. Aquí preocuparémonos coa interacción entre o sistema de control de versións e o proceso de sacar a versión. Cando a rama das versións está estabilizada e preparada, é hora de etiquetar o estado da rama:</para>
+
+<screen
+>$ cd RELEASE_1_0_X-working-copy
+$ cvs tag RELEASE_1_0_0
+</screen>
+
+<para
+>ou</para>
+
+<screen
+>$ svn copy http://.../repos/branches/1.0.x http://.../repos/tags/1.0.0
+</screen>
+
+<para
+>Esa tag representa agora exactamente o estado da árbore de código do proxecto na versión 1.0.0 (isto é útil no caso de que alguén precise obter unha versión vella despois de que os pacotes e binarios fosen eliminados). A seguinte micro versión na mesma liña é tamén preparada na rama 1.0, e cando estiver preparada, farase unha etiqueta para a 1.0.1. Enxaboar, enxaugar, repetir para a 1.0.2, e continuar. Cando sexa tempo de empezar a pensar sobre a serie 1.1.x, crear unha nova rama desde o trunk:</para>
+
+<screen
+>$ cd trunk-working-copy
+$ cvs tag -b RELEASE_1_1_X
+</screen>
+
+<para
+>ou</para>
+
+<screen
+>$ svn copy http://.../repos/trunk http://.../repos/branches/1.1.x
+</screen>
+
+<para
+>O mantemento pode continuar en paralelo sobre a 1.0.x e a 1.1.x, e as versións poden ser feitas independentemente desde as dúas liñas. De feito, non é infrecuente publicar case simultaneamente desde dúas liñas diferentes. As vellas series están recomendadas para os administradores máis conservadores, os cales poden non querer dar o salto a 1.1 sen unha coidadosa preparación. Mentres tanto, a xente máis aventureira normalmente colle a versión máis recente da maior liña, para estar seguros de ter as últimas funcionalidades, mesmo co risco dunha maior inestabilidade.</para>
+
+</sect2>
+
+<para
+>Esta non é a única estratexia para facer ramas, por suposto. Nalgunhas circunstancias mesmo pode non ser a mellor, mais está funcionando bastante ben para proxectos nos que participei. Emprega calquera estratexia que pareza que funciona, mais recorda os puntos principais: o propósito das ramas é isolar a versión para liberar as mudanzas do desenvolvemento diario, e darlle ao proxecto unha entidade física coa que organizar os seus procesos de lanzamento de versións. Ese proceso é descrito con detalle na seguinte sección.</para>
+
+</sect1>
+
+<!-- ======================== SECTION ============================== -->
+<sect1 id="stabilizing-a-release">
+<title
+>Estabilizando unha versión</title>
+
+<para
+><firstterm
+>Estabilización</firstterm
+> é o proceso de poñer a rama da nova versión nun estado axeitado para sacala; isto é, decidir que mudanzas irán na versión, cales non, e darlle forma ao contido da rama.</para>
+
+<para
+>Hai unha chea de dor potencial contida nesa palabra, "decidir". As funcionalidades de último minuto son un fenómeno familiar en proxectos colaborativos de software: tan pronto como os desenvolvedores ven que unha versión está a punto de sacarse, apresúranse a remataren as mudanzas nas que están a traballar, para non perderen o tren. Isto, por suposto, é exactamente o oposto ao que ti queres nese momento. E moito mellor para a xente traballar nas funcionalidades do xeito máis confortable posible, e non preocuparse se as súas mudanzas van a ir nesta versión ou na seguinte. Cantas máis mudanzas de última hora intentarmos meter na versión, máis se desestabiliza o código, e (xeralmente) máis erros serán introducidos.</para>
+
+<para
+>A maioría dos enxeñeiros de software están de acordo en teoría con acordar os criterios sobre que mudanzas deberían ser permitidas dentro da liña da versión durante o período de estabilización. Obviamente, pódense incluír solucións a erros graves, especialmente a erros sen solucións parciais. Pódese actualizar a documentación, así como solucións a mensaxes de erro (excepto cando son consideradas parte da interface e deben permanecer estables). Moitos proxectos ademais permiten certos tipos de riscos baixos ou mudanzas que non sexan na parte central durante a estabilización, e poden ter pautas para minimizar o risco. Mais a cantidade de formalización non pode obviar a necesidade de xuízo humano. Sempre haberá casos onde o proxecto simplemente teña que tomar unha decisión sobre se unha mudanza debe ir na versión ou non. O perigo está en que cada persoa quere ver as súas mudanzas favoritas admitidas na versión, entón haberá milleiros de persoas motivadas para permitiren mudanzas, e non suficiente xente motivada para excluílas.</para>
+
+<para
+>Por tanto, o proceso de estabilizar unha versión é máis sobre crear mecanismos para dicir "non". O truco para os proxectos de software libre, en particular, é atopar formas de dicir "non" sen que o resultado sexan moitos sentimentos feridos ou desenvolvedores decepcionados, e sen desmerecer mudanzas para a versión. Hai distintas formas de facer isto. É bastante sinxelo designar sistemas que satisfagan estes criterios, unha vez que o equipo está enfocado na importancia dos criterios. Aquí describirei brevemente dous dos sistemas máis populares, no estremo final do espectro, mais non permitas o desánimo no teu proxecto por ser creativo. Moitas outras alternativas son posibles; estas son só dúas que eu vin na practica.</para>
+
+<!-- ======================== subsection ============================== -->
+<sect2 id="release-owner">
+<title
+>Réxime ditatorial do mantedor</title>
+
+<para
+>O grupo está de acordo con permitir unha persoa ser o <firstterm
+>propietario da versión</firstterm
+>. Esta persoa ten a palabra final sobre as mudanzas que van na versión. Por suposto, é normal que haxa discusións, mais ao final o grupo debe garantirlle ao propietario da versión suficiente autoridade para tomar as decisións finais. Para que este sistema funcione, é preciso elixir alguén o suficientemente competente tecnicamente para comprender tódalas mudanzas, e con habilidades sociais para navegar nas discusións e sacar a versión sen ferir demasiados sentimentos.</para>
+
+<para
+>Un padrón común para o propietario da versión é dicir "Non penso que haxa nada malo con esta mudanza, mais non temos suficiente tempo para probala, así que non debería ir nesta versión". Axuda moito se o propietario da versión ten un bo coñecemento técnico do proxecto, e pode dar razóns de por que a mudanza podería ser potencialmente desestabilizadora (por exemplo, as súas interaccións con outras partes do software, ou portabilidades). A xente pedirá algunhas veces que se xustifiquen as decisións, ou argumentará que unha mudanza non é tan arriscada como parece. Estas conversacións precisan non ser confrontacións, sempre e cando o propietario da versión poida considerar todos os argumentos obxectivamente e non ser intransixente.</para>
+
+<para
+>Nótese que o propietario da versión non ten por que ser a mesma persoa que o líder do proxecto (en casos onde non hai líder do proxecto; ver <xref linkend="benevolent-dictator"/><phrase output="printed"
+>en<xref linkend="social-infrastructure"/>). De feito, algunhas veces é bo asegurarse que eles </phrase
+>non<emphasis
+> son a mesma persoa. As habilidades que fan a un desenvolvedor líder non teñen porque ser necesariamente as mesmas que o fan o propietario da versión. En algo tan importante como o lanzamento dunha versión, pode ser prudente ter alguén que poña un contrapeso á opinión do líder.</para>
+
+<para
+>Contraste o rol do propietario da versión co de menos ditatorial descrito en <xref linkend="release-manager"/><phrase output="printed"
+> mais adiante neste capítulo</phrase
+>.</para>
+
+</sect2>
+
+<!-- ======================== subsection ============================== -->
+<sect2 id="release-voting">
+<title
+>Mudar o voto</title>
+
+<para
+>No extremo oposto da ditadura do propietario da versión, os desenvolvedores poden simplemente votar que mudanzas incluír na versión. Sen embargo, xa que a función máis importante da estabilización da versión é <emphasis
+>excluír</emphasis
+> mudanzas, é importante deseñar o sistema de votación de forma que poñer unha mudanza na versión implique accións positivas para moitos desenvolvedores. Incluír unha mudanza debería precisar máis dunha simple maioría (ver <xref linkend="electorate"/><phrase output="printed"
+> en <xref linkend="social-infrastructure"/></phrase
+>). Doutro xeito, un voto a favor e ningún en contra para unha mudanza sería suficiente para poñer unha mudanza na versión, e unha desafortunada dinámica podería ser creada polo cal cada desenvolvedor votaría polas súa propias mudanzas, porén, serían relutantes a votar en contra das mudanzas de outros desenvolvedores por medo a posibles represalias. Para evitar isto, o sistema debería organizar que subgrupos de desenvolvedores deben actuar en cooperación para poñer calquera mudanza na versión. Isto non so quere dicir que moita xente revise cada mudanza, ademais fai que calquera desenvolvedor dubide menos para votar en contra dunha mudanza, porque non coñece particularmente ningún dos que votaron porque tomaría o voto en contra coma unha afronta persoal. Canto maior for o número de xente involucrada, máis se discutirá sobre as mudanzas e menos sobre os individuos.</para>
+
+<para
+>O sistema que empregamos no proxecto Subversion parece que acadou un bo balance, polo que o recomendarei aquí. Co fin de que unha mudanza sexa aplicada na rama da versión, polo menos tres desenvolvedores deben votar a favor, e ningún en contra. Un simple voto "en contra" é suficiente para deter a aplicación dunha mudanza; iso é, un voto "en contra" no contexto da versión equivale a un veto (ver<xref linkend="veto"/>). Naturalmente, calquera voto debe ir acompañado dunha xustificación, e en teoría o veto podería ser invalidado se suficiente xente sentise que é razoable e forzase un voto especial sobre iso. Na práctica, isto nunca sucede, e non espero que pase. A xente é conservadora a respecto das versións de calquera modo, e cando alguén sente fortemente a necesidade de vetar a inclusión dunha mudanza, normalmente hai unha boa razón para iso.</para>
+
+<para
+>Debido a que o proceso de sacar unha versión está deliberadamente baseado no conservadorismo, as xustificación ofrecidas para os vetos son con máis frecuencia procedimentais que técnicas. Por exemplo, unha persoa pode sentir que unha mudanza está ben escrita e é pouco probable que cause novos bugs, mais vota en contra da súa inclusión nunha micro versión porque é demasiado grande&mdash; quizais engade unha nova funcionalidade, ou de algunha forma sutil falla ao cubrir as liñas de compatibilidade. Ocasionalmente teño visto desenvolvedores vetar algo porque simplemente tiñan o presentimento de que a mudanza necesitaba máis testaxe, mesmo cando eles non puideron atopar erros nela inspeccionándoa. A xente refungou un pouco, mais os vetos resistiron e a mudanza non foi incluída na versión (Non lembro se foi atopado algún erro máis tarde testando ou non).</para>
+
+<sect3 id="release-stabilization-collaboration">
+<title
+>Manexando a estabilización das versións de xeito colaborativo</title>
+
+<para
+>Se o teu proxecto elixe un sistema de voto sobre as mudanzas, é imperativo que o mecanismo físico de establecer votación e votos decisivos sexa o máis conveniente posible. Embora haxa moito software de código aberto para voto electrónico dispoñible, na practica o máis sinxelo e poñer un ficheiro de texto na rama da versión, chamado <filename
+>STATUS</filename
+> ou <filename
+>VOTES</filename
+> ou algo similar. Este ficheiro lista cada unha das mudanzas propostas&mdash;calquera desenvolvedor pode propoñer unha mudanza para a súa inclusión&mdash;xunto con todos os votos a favor e en contra, ademais de notas ou comentarios. (Propoñer unha mudanza non implica necesariamente votar para iso, por certo, aínda que as dúas cousas soen ir xuntas). Unha entrada neste ficheiro ten a seguinte forma:</para>
+
+<screen
+>* r2401 (issue #49)
+  Prevent client/server handshake from happening twice.
+  Justification:
+    Avoids extra network turnaround; small change and easy to review.
+  Notes:
+    This was discussed in http://.../mailing-lists/message-7777.html
+    and other messages in that thread.
+  Votes:
+    +1: jsmith, kimf
+    -1: tmartin (breaks compatibility with some pre-1.0 servers;
+                 admittedly, those servers are buggy, but why be
+                 incompatible if we don't have to?)
+</screen>
+
+<para
+>Neste caso, a mudanza adquiriu dous votos positivos, mais foi vetada por tmartin, quen deu a razón para o seu veto nunha nota entre parénteses. O formato exacto da entrada non importa; sexa cal for o teu proxecto decidir está ben&mdash; quizais a explicación de tmartin para o veto debería ir na sección "Notes:" ou quizais a descrición da mudanza debería ter un cabezallo "Description:" de acordo coas outras seccións. O importante é que toda a información necesaria para avaliar a mudanza estea dispoñible, e o mecanismo para votos decisivos sexa o máis lixeiro posible. A mudanza proposta está referenciada polo seu número de revisión no repositorio (neste caso unha simple revisión, r2401, embora unha mudanza proposta podería consistir en múltiples revisións). A revisión asúmese que está referida a unha mudanza feita no trunk; se a mudanza estivese na rama da versión, non habería que votar. Se o teu sistema de control de versións non ten unha sintaxe obvia para referirse a mudanzas individuais, o proxecto debería inventala. Para que o voto sexa práctico, cada mudanza baixo consideración debe ser identificable inequivocamente.</para>
+
+<para
+>Esas proposicións ou votos para aprobar unha mudanza encárganse de asegurar de que se corresponde coa rama da versión, iso é, que se corresponde sen conflitos (ver <xref linkend="vc-vocabulary-conflict"/>). Se houber conflitos, entón a entrada debería apuntar a un remendo que se corresponda limpamente, ou a unha rama temporal que teña a axustada versión da mudanza, por exemplo:</para>
+
+<screen
+>* r13222, r13223, r13232
+  Rewrite libsvn_fs_fs's auto-merge algorithm
+  Justification:
+    unacceptable performance (
+>50 minutes for a small commit) in
+    a repository with 300,000 revisions
+  Branch:
+    1.1.x-r13222@13517
+  Votes:
+    +1: epg, ghudson
+</screen>
+
+<para
+>Ese exemplo está tomado da vida real, vén do ficheiro <filename
+>STATUS</filename
+> no proceso de lanzamento da versión de Subversion 1.1.4. Nótese como se empregan as revisións orixinais coma manexadoras canónicas das mudanzas, mesmo hai unha rama cunha versión da mudanza axustada a conflitos (a rama ademais combina tres revisións do trunk nunha, r13517, para facer máis sinxela a integración das mudanzas na versión, debería ser aprobada). As revisións orixinais aparecen porque se están a revisar aínda, xa que teñen as mensaxes de log orixinais. A rama temporal non tería esas mensaxes de log; para evitar a duplicación de información (ver <xref linkend="vc-singularity"/><phrase output="printed"
+> en <xref linkend="technical-infrastructure"/></phrase
+>), As mensaxes de log para a rama da revisión r13517 deberían dicir simplemente "Axustar r13222, r13223, r13232 para backport a rama 1.1.x". Toda outra información acerca das mudanzas pode ser alcanzada nas súas revisións orixinais.</para>
+
+</sect3>
+
+<sect3 id="release-manager">
+<title
+>Manager das versións</title>
+
+<para
+>O actual proceso de fusionar (ver <xref linkend="vc-vocabulary-merge"/>) as mudanzas aprobadas na rama da versión poden ser realizadas por calquera desenvolvedor. Aquí non se precisa unha persoa para facer o traballo de fusionar as mudanzas; se houber moitas mudanzas, pode ser mellor repartir a carga.</para>
+
+<para
+>Porén, embora ámbolos dous, votación e fusionado, sucedan de forma descentralizada, na práctica normalmente hai unha ou dúas persoas conducindo o proceso de lanzamento da nova versión. Este rol e as veces bautizado como <firstterm
+>release manager</firstterm
+>, mais é un pouco diferente do propietario da versión (ver <xref linkend="release-owner"/><phrase output="printed"
+> máis atrás neste capítulo</phrase
+>) quen ten a última palabra sobre as mudanzas. Os releases manager manteñen monitorizado cantas mudanzas están baixo consideración, cantas foron aprobadas, cantas parece que van ser aprobadas, etc. Se eles sentiren que algunhas mudanzas non están recibindo a atención precisa, e poden ficar fóra da versión por falta de votos, eles estarán encima de outros desenvolvedores para que voten. Cando unha manchea de mudanzas foren aprobadas, esta xente encargarase por si mesma de fusionalas na rama da versión; está ben se outros lles deixan esa tarefa a eles, sempre que todo o mundo entenda que eles non están obrigados a facer todo o traballo a non ser que eles explicitamente se prestasen a facelo. Cando a versión estiver a piques de saír (ver <xref linkend="testing-and-releasing"/><phrase output="printed"
+>máis adiante neste capitulo</phrase
+>), os releases manager preocuparanse tamén da loxística para a creación da versión, os pacotes, recoller as sinaturas dixitais, subir os pacotes, e facer os anuncios públicos.</para>
+
+</sect3>
+
+</sect2>
+
+</sect1>
+
+<!-- ========================== SECTION =========================== -->
+<sect1 id="packaging">
+<title
+>Empacotamento</title>
+
+<para
+>A forma tradicional para a distribución do software libre é como código fonte. Isto é así dependendo de se o software normalmente se executa desde o código (por exemplo, podendo ser interpretado, coma Perl, Python, PHP, etc.) o precisa ser compilado primeiro (coma C, C++, Java, etc). Con software compilado, moitos usuarios probablemente non compilen as fontes eles mesmos, polo que precisarán instalalos desde pacotes binarios (ver <xref linkend="binary-packages"/><phrase output="printed"
+>máis adiante neste capitulo</phrase
+>). Porén, eses pacotes binarios derivan das fontes da distribución. A cuestión é que as fontes son ambiguas para definir a versión. Cando o proxecto distribúe Scanley&nbsp;2.5.0", o que quere dicir, especificamente, é: "a árbore de ficheiros de código fonte, cando se compilaren (se for necesario) e instalaren, producen Scanley 2.5.0."</para>
+
+<para
+>Hai un estándar bastante estrito sobre como deberían ser as versións das fontes. Ocasionalmente poden verse desviacións deste estándar, mais son a excepción, non a regra. A menos que houber una razón xustificada para facelo de outra forma, o teu proxecto debería seguir este estándar tamén.</para>
+
+<!-- ========================== subsection =========================== -->
+<sect2 id="packaging-format">
+<title
+>Formato</title>
+
+<para
+>O código fonte debería entregarse en formatos estándar para distribuír a árbore de directorios. Para Unix e sistemas operativos de tipo Unix, a convención é empregar o formato TAE, comprimido con <command
+>compress</command
+>, <command
+>gzip</command
+>, <command
+>bzip</command
+> ou <command
+>bzip2</command
+>. Para MS Windows, o método estándar para a distribución da árbore de directorios é o formato <firstterm
+>zip</firstterm
+>, o cal xa fai a compresión tamén, polo que non é necesario comprimir o ficheiro despois de crealo.</para>
+
+   <sidebar id="packaging-tar">
+   <title
+>Ficheiros TAR</title>
+
+   <para
+><firstterm
+>TAR</firstterm
+> abreviatura de "Tape&nbsp;ARchive", porque o formato tar representa unha árbore de directorios coma un xacto de datos lineais, o cal o torna ideal para gardar árbores de directorios en cinta. A mesma propiedade tórnao tamén o estándar para distribuír árbores de directorios nun ficheiro. Producir ficheiros tar comprimidos (ou <firstterm
+>tarballs</firstterm
+>) é bastante sinxelo. Nalgúns sistemas, o comando <command
+>tar</command
+> pode producir ficheiros comprimidos por si mesmo; noutros, hai que empregar outro programa para comprimir.</para>
+
+   </sidebar>
+
+</sect2>
+
+<!-- ========================== subsection =========================== -->
+<sect2 id="packaging-name-and-layout">
+<title
+>Nome e aspecto</title>
+
+<para
+>O nome do paquete debería consistir no nome do software máis o número da versión, máis o formato de sufixos apropiado para o tipo de ficheiro. Por exemplo, Scanley 2.5.0, empacotado para Unix empregando GNU Zip (gzip) para comprimir, quedaría así:</para>
+
+<informalexample>
+<literallayout
+>scanley-2.5.0.tar.gz</literallayout>
+</informalexample>
+
+<para
+>ou para Windows usando compresión en zip:</para>
+
+<informalexample>
+<literallayout
+>scanley-2.5.0.zip</literallayout>
+</informalexample>
+
+<para
+>Algún destes ficheiros, cando son descomprimidos, deben crear unha nova árbore de directorios chamada <filename
+>scanley-2.5.0</filename
+> no directorio actual. Baixo o novo directorio, o código fonte debe estar preparado para a compilación (se ha compilación é necesaria) e instalación. Na raíz do novo directorio, debería haber un ficheiro de texto plano <filename
+>README</filename
+> explicando o que fai o software e que versión é, e dar ligazóns a outros recursos, como a páxina web do proxecto, outros ficheiros interesantes, etc. Entre eses outros ficheiros debería haber un <filename
+>INSTALL</filename
+>, irmán do <filename
+>README</filename
+>, dando instrucións sobre como compilar e instalar o software para todos os sistemas operativos soportados. Como se mencionaba <xref linkend="license-quickstart-applying"/><phrase output="printed"
+> en <xref linkend="getting-started"/></phrase
+>, debería haber tamén un ficheiro <filename
+>COPYING</filename
+> coas cláusulas de distribución do software.</para>
+
+<para
+>Debe haber tamén un ficheiro <filename
+>CHANGES</filename
+> (as veces chamado <filename
+>NEWS</filename
+>) coas novidades da versión. O ficheiro <filename
+>CHANGES</filename
+> acumula a lista de mudanzas para todas as versións, en orde cronolóxica inversa, para que a lista de mudanzas da versión apareza no principio do ficheiro. Completar esa lista é normalmente a última cousa que hai que facer para estabilizar a versión; algúns proxectos escriben a lista de vagar segundo se vai desenvolvendo, outros prefiren facelo ao final e ter una persoa para escribilos, recollendo información combinando os logs do control de versións. A lista é algo así:</para>
+
+<screen
+>Version 2.5.0
+(20 December 2004, from /branches/2.5.x)
+http://svn.scanley.org/repos/svn/tags/2.5.0/
+
+ New features, enhancements:
+    * Added regular expression queries (issue #53)
+    * Added support for UTF-8 and UTF-16 documents
+    * Documentation translated into Polish, Russian, Malagasy
+    * ...
+
+ Bugfixes:
+    * fixed reindexing bug (issue #945)
+    * fixed some query bugs (issues #815, #1007, #1008)
+    * ...
+</screen>
+
+<para
+>A lista pode ser tan longa coma for necesario, mais non fai falta incluír cada pequeno erro resolto e funcionalidade. O seu propósito é simplemente darlle aos usuarios una visión sobre o que eles gañan actualizando á nova versión. De feito, a lista de mudanzas é incluída normalmente no email de anuncio (ver <xref linkend="testing-and-releasing"/><phrase output="printed"
+> máis adiante neste capitulo</phrase
+>), polo tanto escríbea coa audiencia en mente.</para>
+
+   <sidebar id="changelog">
+   <title
+>CHANGES versus ChangeLog</title>
+   <para
+>Tradicionalmente, un ficheiro chamado <firstterm
+>ChangeLog</firstterm
+> que lista cada mudanza feita no proxecto&mdash; isto é, cada revisión sobre a que se fixo commit no sistema de control de versións. Hai varios formatos para os ficheiros ChangeLog; os detalles dos formatos non son importantes aquí, xa que todos eles conteñen a mesma información: a data da mudanza, o autor, e un breve resumo (ou simplemente a mensaxe de log para esa mudanza).</para>
+
+   <para
+>O ficheiro <filename
+>CHANGES</filename
+> é diferente. Tamén é unha lista de mudanzas, mais só as que son importantes para que certa audiencia as vexa, e a miúdo con metadata como a hora exacta e o autor. Para evitares confusións, non empregues termos intercambiables. Algúns proxectos empregan "NEWS" en lugar de "CHANGES"; aínda que isto evita a potencial confusión con "ChangeLog", é un termo un pouco errado xa que o ficheiro CHANGES ten información para todas as versións, e ten moitas noticias vellas ademais das novas.</para>
+
+   <para
+>Contodo, os ficheiros ChangeLog poden estar desaparecendo. Eran de moita axuda cando CVS era a única opción de sistema de control de versións, porque a data non era sinxela de extraer. Porén, cos máis recentes sistemas de control de versións, a data que é empregada para manter no ChangeLog pode ser pedida desde o repositorio do sistema de control de versións en calquera momento, facendo que sea sinxelo para o proxecto manter un ficheiro estático que conteña a data&mdash; de feito, o ChangeLog duplica as mensaxes de log que están no repositorio.</para>
+   </sidebar>
+
+<para
+>A distribución do código fonte dentro da árbore debería ser idéntica ou o máis similar posible á distribución do código fonte do proxecto que se obtería testando directamente desde o sistema de control de versións. Normalmente hai algunhas diferencias, por exemplo porque o pacote contén algúns ficheiros xerados necesarios para a configuración e compilación (ver <xref linkend="packaging-build-install"/><phrase output="printed"
+> máis adiante neste capitulo</phrase
+>, ou porque inclúe software de terceiros non mantido polo proxecto, mais requirido e que os usuarios probablemente non teñen. Mais mesmo se a árbore de directorios coincide exactamente con algunha árbore de desenvolvemento no repositorio do sistema de control de versións, a distribución non debería ser unha copia de traballo (ver <xref linkend="vc-vocabulary-working-copy"/>). A versión suponse que representa unha referencia estática&mdash; en particular, unha configuración inmutable dos ficheiros fonte. Se for unha copia de traballo, o perigo sería que un usuario puidese actualizala,pensando que aínda ten a versión cando de feito ten algo distinto.</para>
+
+<para
+>Recordar que o pacote é o mesmo a pesar do empacotamento. A versión&mdash; iso é, a entidade precisa a que se remite cando alguén di "Scanley&nbsp;2.5.0"&mdash; é a árbore de directorio creada pola descompresión do ficheiro zip ou tarball. Polo tanto o proxecto debe ofrecer todo isto para descarregar:</para>
+
+<informalexample>
+<literallayout
+>scanley-2.5.0.tar.bz2
+scanley-2.5.0.tar.gz
+scanley-2.5.0.zip</literallayout>
+</informalexample>
+
+<para
+>...mais a árbore de fontes creada polo desempacotamento debe ser a mesma. Esa árbore de fontes é a distribución; a forma na cal é descarregado é simplemente unha conveniencia. Certas triviais diferenzas entre os pacotes fontes son permisibles: por exemplo, no pacote de Windows, os ficheiros de texto deben ter liñas finais con CRLF (Carriage Return and Line Feed), mentres que os pacotes Unix deben empregar simplemente LF. As árbores poden ser ordenadas lixeiramente de forma diferente entre pacotes software destinados para diferentes sistemas operativos, tamén, se eses sistemas operativos requiriren diferentes ordenacións para a compilación. Porén, son transformación basicamente triviais. Os ficheiros fonte básicos deberían ser os mesmos en todos os pacotes dunha distribución.</para>
+
+<sect3 id="release-capitalization">
+<title
+>Maiúsculas ou minúsculas?</title>
+
+<para
+>Cando nos referimos a un proxecto polo nome, a xente normalmente o escribe en maiúsculas coma un nome propio, e escribe en maiúsculas os acrónimos se os houber: "MySQL&nbsp;5.0", "Scanley&nbsp;2.5.0", etc. Depende do proxecto que o nome do pacote se escriba tamén en maiúsculas. Tanto <filename
+>Scanley-2.5.0.tar.gz</filename
+> como <filename
+>scanley-2.5.0.tar.gz</filename
+> sería correcto, por exemplo (Eu persoalmente prefiro a última, porque non me gusta que a xente empregue a tecla shift, mais moitos proxectos escriben os pacotes en maiúsculas). O importante é que o directorio creado despois de desempacotar o tarball use a mesma grafía. Non debería haber sorpresas: o usuario debe ser capaz de predicir perfectamente o nome do directorio que será creado cando desempacote a distribución.</para>
+
+</sect3>
+<sect3 id="release-prereleases">
+<title
+>Pre-versións</title>
+
+<para
+>Cando se saca unha pre-versión ou versión candidata, o cualificador é verdadeiramente parte do número de versión, polo tanto inclúese no nome do pacote. Por exemplo, a secuencia ordenada das versións alpha e beta vista antes en <xref linkend="release-number-components"/> resultaría nos nomes de pacote:</para>
+
+<informalexample>
+<literallayout
+>scanley-2.3.0-alpha1.tar.gz
+scanley-2.3.0-alpha2.tar.gz
+scanley-2.3.0-beta1.tar.gz
+scanley-2.3.0-beta2.tar.gz
+scanley-2.3.0-beta3.tar.gz
+scanley-2.3.0.tar.gz</literallayout>
+</informalexample>
+
+<para
+>O primeiro desempacotaríase nun directorio chamado <filename
+>scanley-2.3.0-alpha1</filename
+>, o segundo dentro <filename
+>scanley-2.3-0-alpha2</filename
+>, etc.</para>
+
+</sect3>
+
+</sect2>
+
+<!-- ========================== subsection =========================== -->
+<sect2 id="packaging-build-install">
+<title
+>Compilación e instalación</title>
+
+<para
+>Para software que require compilación ou instalación desde as fontes, hai normalmente varios procedementos estándar que usuarios experimentados esperan ser capaces de seguir. Por exemplo, para programas escritos en C, C++, ou outras certas linguaxes compiladas, o estándar baixo sistemas operativos tipo Unix é para o usuario dixitar:</para>
+
+<screen
+>$ ./configure
+   $ make
+   # make install
+</screen>
+
+<para
+>O primeiro comando tanto detecta o entorno como o pode preparar para o proceso de compilación, o segundo comando compila o software no sitio (mais non o instala), e o último comando instálao no sistema. Os dous primeiros comandos fanse como usuario normal, o terceiro como root. Para máis detalles a respecto da configuración deste sistema, le o excelente libro <citetitle
+>GNU Autoconf, Automake, and Libtool</citetitle
+> escrito por Vaughan, Eliston, Tromey e Taylor. Está publicado en forma de treeware por New Riders, e o seu contido está dispoñible gratis online en <ulink url="http://sources.redhat.com/autobook/"
+></ulink
+>.</para>
+
+<para
+>Este non é o único estándar, mais é un dos máis estendidos. O sistema de compilación Ant (<ulink url="http://ant.apache.org/"
+></ulink
+>) está gañando popularidade, especialmente nos proxectos escritos en Java, e ten os seus propios procesos de compilación e instalación. Ademais, certas linguaxes de programación como Perl e Pyton, recomendan que ese mesmo método sexa empregado por máis programas escritos nesa linguaxe (por exemplo, os módulos Perl empregan o comando <command
+>perl&nbsp;Makefile.pl</command
+>). Se non é obvio para ti que estándar empregar no teu proxecto, pregunta a un desenvolvedor experimentado; podes asumir con seguridade que se aplica <emphasis
+>algún</emphasis
+> estándar, mesmo se non souberes cal é ao principio.</para>
+
+<para
+>Sexa cal for o estándar apropiado para o teu proxecto, non te desvíes del a menos que debas facelo. Os procesos estándar de instalación son practicamente a columna vertebral para moitos administradores de sistemas. Se viren invocacións familiares documentadas no ficheiro <filename
+>INSTALL</filename
+> do teu proxecto, iso fará que instantaneamente incrementen a súa fe en que o teu proxecto segue as convencións, e que probablemente outras cousas tamén están ben. Ademais, como discutimos <xref linkend="downloads"/><phrase output="printed"
+> en <xref linkend="getting-started"/></phrase
+>, ter un proceso estándar de compilación comprace os potenciais desenvolvedores.</para>
+
+<para
+>En Windows, os estándares para compilar e instalar están menos asentados. Para proxectos que requiren compilación, a convención xeral parece ser navegar por unha árbore que pode encaixar dentro do espazo de traballo/modelo do proxecto do entorno de desenvolvemento estándar de Microsoft (Developer Studio, Visual Studio, VS.NET, MSVC++, etc). Dependendo da natureza do teu software, pode ser posible ofrecer a opción dun sistema de compilación tipo Unix sobre Windows vía o entorno Cygwin (<ulink url="http://www.cygwin.com/"
+></ulink
+>). E por suposto, se estás empregando unha linguaxe ou framework de programación que veña coa súa propia convención&mdash; para compilar e instalar;por exemplo, Perl ou Python&mdash;simplemente deberías usar o método estándar para ese framework, for en Windows, Unix, Mac OS X, ou calquera outro sistema operativo.</para>
+
+<para
+>Anímate a faceres un esforzo extra para creares o teu proxecto conforme a un estándar de compilación ou instalación importante. A compilación e a instalación son un punto de entrada: é normal que as cousas que se tornen máis duras despois de iso, se deben, pero sería unha pena para os usuarios e desenvolvedores que a primeira interacción co software requirise de pasos inesperados.</para>
+
+</sect2>
+
+<!-- ========================== subsection =========================== -->
+<sect2 id="binary-packages">
+<title
+>Pacotes binarios</title>
+
+<para
+>Embora a liberación formal dunha versión sexa un pacote de código fonte, moitos usuarios instalarana desde pacotes binarios, fornecidos polo mecanismo de distribución de software do seu sistema operativo, ou obtido manualmente desde a páxina web do proxecto ou a través de terceiros. Aquí "binario" non necesariamente quere dicir "compilado"; simplemente quere dicir algunha forma de pacote que permite o usuario instalalo no computador sen pasar polo proceso de compilar e instalar as fontes. En RedHat GNU/Linux, é o sistema RPM; en Debian GNU/Linux, é o sistema APT (<filename
+>.deb</filename
+>); en MS Windows, xeralmente ficheiros <literal
+>.MSI</literal
+> ou auto-instalables <literal
+>.exe</literal
+>.</para>
+
+<para
+>Independentemente de se estes pacotes binarios son empacotados por xente vinculada ao proxecto, ou por terceiros, os usuarios <emphasis
+>trataranos</emphasis
+> como se fosen oficiais, e avisarán de problemas no bug tracker do proxecto a respecto do comportamento deses pacotes binarios. Polo tanto, redunda no beneficio do proxecto fornecer guías claras para os empacotadores, e traballar con eles para ver se isto representa beneficios para o software.</para>
+
+<para
+>O máis importante que os empacotadores precisan saber é que eles deben sempre basearse en versións oficiais para faceren os seus pacotes binarios. Algunhas veces os empacotadores teñen a tentación de facer mudanzas no código, ou incluír mudanzas sobre as que se fixo commit despois de estar feita a versión, para fornecer os usuarios de certas melloras. O empacotador pensa que lles está a facer un grande favor aos usuarios dándolles a última versión do código, mais de feito esta práctica causa unha grande confusión. Os proxectos están preparados para recibiren reportes de erros atopados en versións lanzadas, na rama principal e en recentes ramas (isto é, atopados por xente que deliberadamente executa este código). Cando un erro reportado vén destas fontes, o que responde a miúdo é capaz de confirmar se ese bug coñecido está presente nesa versión, e quizais xa foi arranxado e o usuario debería actualizar ou esperar a seguinte versión. Se for un erro descoñecido previamente, tendo a versión precisa fai máis sinxelo reproducilo e categorizalo.</para>
+
+<para
+>Os proxectos non están preparados, porén, para recibir erros reportados baseados en versións intermedias non especificadas ou híbridas. Moitos erros poden ser difíciles de reproducir; ademais, poden ser debidos a inesperadas iteracións en mudanzas incorporadas máis tarde no desenvolvemento, e dese modo causar malos comportamentos dos que os desenvolvedores do proxecto poden non ter culpa. Eu teño visto con consternación perderse moito tempo por culpa dun bug <emphasis
+>ausente</emphasis
+> cando debería estar presente: alguén estaba executando unha versión remendada, baseada en (mais non idéntica) unha versión oficial, e cando o erro anunciado non sucedeu, todo o mundo tiña que escarvar arredor para adiviñar a causa.</para>
+
+<para
+>Contodo, haberá as veces circunstancias nas que un empacotador insistirá en que é necesario modificar o código da versión. Os empacotadores deberían ser animados a suxeriren isto aos desenvolvedores do proxecto e describiren os seus plans. Poden obter aprobación, mais se non, polo menos notificarán ao proxecto as súas intencións, polo que o proxecto pode observar informes de erros infrecuentes. Os desenvolvedores poden responder poñendo unha nota de descargo de responsabilidade na páxina web do proxecto, e pedirlle ao empacotador que faga o mesmo no lugar adecuado, para que os usuarios do pacote binario saiban que o que están obtendo non é exactamente o mesmo que a versión oficial do proxecto. Non hai que ter carraxe por esta situación o que desafortunadamente pasa a miúdo. O que pasa simplemente é que o empacotador ten obxectivos lixeiramente distintos aos desenvolvedores. Normalmente os empacotadores queren a mellor experiencia de serie posible para os seus usuarios. Os desenvolvedores queren iso tamén, por suposto, mais necesitan asegurarse tamén de que coñecen o que contén a versión para poder recibir informes de bugs coherentes e asegurar a compatibilidade. Algunhas veces os obxectivos entran en conflito. Cando isto pasa, é bo ter en mente que o proxecto non ten control sobre os empacotadores. É certo que o proxecto fai un favor aos empacotadores producindo o software. Mais os empacotadores están tamén facendo un favor ao proxecto, tornando o software dispoñible, a miúdo en ordes de magnitude maiores. Está ben estar en desacordo cos empacotadores, mais non entrar en conflito con eles, simplemente trata de facer as cousas o mellor que poidas.</para>
+
+</sect2>
+
+</sect1>
+
+<!-- ======================== SECTION ============================== -->
+<sect1 id="testing-and-releasing">
+<title
+>Probas e publicación das versións</title>
+
+<para
+>Unha vez que o tarball das fontes é producido desde a rama da versión establilizada, comeza a parte pública do proceso de sacar a versión. Mais antes de que o tarball estea dispoñible para o mundo, debería ser testado e aprobado por un mínimo de desenvolvedores, normalmente tres ou máis. Aprobado non é simplemente inspeccionar a versión en busca de simples defectos; idealmente, os desenvolvedores baixan o tarball, compílano e instálano nun sistema limpo, lanzan os test de regresión (ver <xref linkend="automated-testing"/><phrase output="printed"
+> en <xref linkend="managing-volunteers"/></phrase
+>, e fan algo de test manual. Asumindo que supera eses tests, como calquera outro que a versión pode ter a criterio do proxecto, os desenvolvedores asinan o tarball empregando GnuPG (<ulink url="http://www.gnupg.org/"
+></ulink
+>), PGP (<ulink url="http://www.pgpi.org/"
+></ulink
+>), ou algún outro programa que produza sinaturas compatibles con PGP.</para>
+
+<para
+>En moitos proxectos, os desenvolvedores simplemente usan as súas sinaturas dixitais, no canto de compartiren a chave do proxecto, e moitos desenvolvedores queren poder asinar (por exemplo, hai un número mínimo, masi non máximo). Cantos máis desenvolvedores asinen, máis testaxe se fai na versión, e ademais máis grande a posibilidade de que un usuario preocupado pola seguridade pode atopar un camiño dixitalmente seguro entre el e o tarball.</para>
+
+<para
+>Unha vez aprobada, a versión (isto é, todos os tarballs, ficheiros zip, e calquera outros formatos nos que for distribuída) deberían poñerse na zona de descargas dos proxectos, acompañada das sinaturas dixitais e o MD5/SHA1 checksums (ver <ulink url="http://en.wikipedia.org/wiki/Cryptographic_hash_function"
+></ulink
+>). Hai varios estándares para facer isto. Unha forma é acompañar a cada pacote lanzado cun ficheiro que contén as correspondencias das sinaturas dixitais, e outro ficheiro co checksum. Por exemplo, se un dos pacotes lanzados for <filename
+>scanley-2.5.0.tar.gz</filename
+>, situaríase no mesmo directorio un ficheiro <filename
+>scanley-2.5.0.tar.gz.asc</filename
+> coa sinatura dixital para o tarball, outro ficheiro <filename
+>scanley-2.5.0.tar.gz.mdz</filename
+> co MD5 checksum, e opcionalmente outro, <filename
+>scanley-2.5.0.tar.gz.sha1</filename
+>, co SHA1 checksum. Unha forma diferente de facelo sería poñendo todas a sinaturas para os pacotes lanzados nun único ficheiro, <filename
+>scanley-2.5.0.sigs</filename
+>; o mesmo cos checksums.</para>
+
+<para
+>Non importa realmente a forma de facelo. Simplemente segue un esquema simple, descrito claramente, e coherente de versión a versión. O propósito de todo estas sinaturas e checksumming é darlle aos usuarios unha forma de verificaren que a copia que reciben non ten nada malicioso. Os usuarios executan ese código na súa computadora&mdash;se o código foi manipulado, un atacante podería ter unha porta de atrás para acceder a todos os datos. Ver <xref linkend="security-releases"/><phrase output="printed"
+>máis adiante neste capítulo</phrase
+> para máis información sobre paranoias.</para>
+
+<sect2 id="candidate-releases">
+<title
+>Versións candidatas</title>
+
+<para
+>Para versións importantes que conteñen moitas mudanzas, moitos proxectos prefiren sacar <firstterm
+>versións candidatas</firstterm
+> primeiro, p.e.,<filename
+>scanley-2.5.0-beta1</filename
+> antes de <filename
+>scanley-2.5.0</filename
+>. O propósito dunha candidata é probar ese código antes de darlle o status de versión oficial. Se se atopan problemas, son arranxados na rama da versión e unha nova versión candidata é estendida (<filename
+>scanley-2.5.0-beta2</filename
+>). O ciclo continúa ata que non fiquen erros inaceptables, neste punto a última versión candidata convértese na versión oficial&mdash;iso é, a única diferencia entre a última versión candidata e a versión real é a falta do cualificador do número de versión.</para>
+
+<para
+>En moitos outros aspectos, unha versión candidata debería ser tratada como a versión real. O cualificador <emphasis
+>alpha</emphasis
+>, <emphasis
+>beta</emphasis
+> ou <emphasis
+>rc</emphasis
+> é suficiente para advertir a usuarios conservadores que esperen ata a versión real, e por suposto o email de anuncio para versións candidatas debería apuntar que o seu propósito é solicitar feedback. Outra cousa, dá ás versións candidatas a mesma atención que ás regulares. Despois de todo, queres que a xente empregue as candidatas, porque é o mellor xeito de descubrir erros, e ademais porque nunca sabes que versión candidata se converterá na versión oficial.</para>
+
+</sect2>
+
+<sect2 id="release-announcement">
+<title
+>Anunciando as versións</title>
+
+<para
+>Anunciar unha versión é como anunciar calquera outro evento, e debería empregar os procesos descritos <xref linkend="publicity"/><phrase output="printed"
+> en <xref linkend="communications"/>. Hai algunhas cousas que facer especificamente para a versión.</para>
+
+<para
+>Cando deas a URL para descarregar o tarball da versión, asegúrate tamén de dares o MD5/SHA1 checksums e indicacións sobre o ficheiro da sinatura dixital. Xa que o anuncio ten lugar en múltiples foros (listas de correo, páxinas de novas, etc.), os usuarios poden obter o checksum de varias fontes, o cal lles dá a máxima seguridade de que os checksums nos foron alterados. Dar a ligazón aos ficheiros de firma dixital múltiples veces non fai esas sinaturas máis seguras, mais tranquiliza a xente (especialmente aqueles que non seguen o proxecto de perto) de que o proxecto se toma a seguridade en serio.</para>
+
+<para
+>Nese email de anuncio, e nas páxinas de noticias que conteñen máis que propaganda sobre a versión, asegúrate de incluíres a porción relevante do ficheiro CHANGES, para que a xente poida ver porque lles podería interesar a actualización. Isto é importante con versións candidatas e con versións finais; a presenza de erros arranxados e novas funcionalidades é importante e tentador para a xente para probaren a versión candidata.</para>
+
+<para
+>Finalmente, non esquezas agradecer o equipo de desenvolvemento, os probadores, e toda a xente que empregou tempo para facer bos informes de erros. Non empregues nomes, a non ser que houber alguén individualmente responsable dalgunha peza grande de traballo. Simplemente sé cauteloso para non caeres na inflación do crédito (ver <xref linkend="credit"/><phrase output="printed"
+>en <xref linkend="managing-volunteers"/></phrase
+>).</para>
+
+</sect2>
+
+</sect1>
+
+<!-- ======================== SECTION ============================== -->
+<sect1 id="release-lines">
+<title
+>Mantendo múltiples liñas de versións</title>
+
+<para
+>O proxectos máis maduros manteñen varias liñas de versións en paralelo. Por exemplo, despois de que saia a 1.0.0, esa liña debería continuar con micro versións 1.0.1, 1.0.2, etc., ata que o proxecto explicitamente decida o fin da liña. Nótese que lanzar a 1.1.0 non é razón suficiente para finalizar a liña 1.0.x. Por exemplo, moitos usuarios manteñen a política de non actualizaren a primeira versión cun novo número menor ou maior na serie&mdash;permiten que outros se sacudan os bugs, da 1.1.0, e esperar ata a 1.1.1. Isto non é necesariamente egoísta (recorda, están renunciando a erros amañados e novas funcionalidades tamén); é simplemente iso, por calquera razón, eles decidiron ser coidadosos coas actualizacións. Consecuentemente, se o proxecto se decatar dun erro grave na 1.0.3 xusto antes de sacar a versión 1.1.0, debería ser un pouco severo e poñer o amaño na 1.1.0 e dicirlle a tódolos usuarios da 1.0.x que deberían actualizar. Por que non sacar ambas 1.1.0 1.0.4, para que todo o mundo sexa feliz?</para>
+
+<para
+>Despois de que a liña 1.1.x estea ben avanzada, podes declarar a 1.0.x como<firstterm
+>finalizada</firstterm
+>. Isto debería ser anunciado oficialmente. O anuncio podería ser independente ou podería ser mencionado como parte do anuncio da versión 1.1.x; porén, faino, os usuarios precisan saber que a liña vella está desfasada, para que eles poidan tomar a decisión de actualizar.</para>
+
+<para
+>Algúns proxectos poñen un prazo durante o cal prometen dar soporte a liña previa da versión. No contexto do software libre, "soporte" quere dicir aceptar informes de erros sobre esa liña, e facer versións de mantemento cando se atoparen erros importantes. Outros proxectos non poñen un límite definitivo, mais seguen aceptando informes de erros para calcular canta xente está empregando a liña vella. Cando a porcentaxe atinxe certo punto, declaran a finalización desa liña e do soporte.</para>
+
+<para
+>Para cada versión, asegúrate de teres unha <firstterm
+>versión obxectivo</firstterm
+> ou <firstterm
+>fito</firstterm
+> dispoñible no bug tracker, para que a xente poida informar de bugs nesa versión. Non esquezas ter tamén un obxectivo chamado "desenvolvemento" ou "última" para as fontes de desenvolvemento máis recentes, xa que algunha xente&mdash; non só desenvolvedores&mdash; activos; están atentos as versión oficias.</para>
+
+<!-- ======================== subsection ============================== -->
+<sect2 id="security-releases">
+<title
+>Versións de seguridade</title>
+
+<para
+>A maioría dos detalles para manexar erros de seguridade están cubertos <xref linkend="security"/><phrase output="printed"
+> en <xref linkend="communications"/></phrase
+>, mais hai algúns detalles especiais que discutir para facer versións de seguridade.</para>
+
+<para
+>Unha <firstterm
+>versión de seguridade</firstterm
+> é unha versión feita para pechar unha vulnerabilidade de seguridade. O código que arranxa ese bug pode non facerse público ata que estiver dispoñible a versión. o cal significa que non só as solucións non poden ser engadidas ao repositorio ata o día da liberación, senón que non se pode publicar e ser testada antes de estar fóra. Obviamente, os desenvolvedores poden examinar o amaño entre eles, e testar a versión privadamente, mais sacala para ser testado publicamente non é posible.</para>
+
+<para
+>Debido a esta falta de testaxe, unha versión de seguridade debería sempre consistir dunha versión existente máis os arranxos para o erro de seguridade, sen <emphasis
+>ningunha outra mudanza</emphasis
+>. Isto é porque cantas máis mudanzas metes sen testar, máis probabilidades hai de que algún cause un novo erro, quizais mesmo un novo erro de seguridade!. Este conservadorismo é práctico para os administradores que poidan precisar implementar o remendo de seguridade, mais cuxa política de actualizacións pode recomendar que non se implementen máis mudanzas simultaneamente.</para>
+
+<para
+>Facer versións de seguridade as veces supón algunha pequena decepción. Por exemplo, o proxecto pode estar traballando na versión 1.1.3, con certos erros amañados da 1.1.2, cando un informe de seguridade aparece. Naturalmente, os desenvolvedores non poden falar do problema de seguridade ata que estiver amañado; teñen que seguir falando publicamente de que os seus plans son sacar a 1.1.3. Mais cando se vai a sacar a 1.1.3, só vai ser diferente da 1.1.2 no amaño de seguridade, a todos os demais erros amañados se deixan para a 1.1.4 (a que, por suposto terá <emphasis
+>tamén</emphasis
+> o amaño de seguridade, igual que o resto de futuras versións).</para>
+
+<para
+>Podes engadir unha compoñente extra a unha versión existente para indicares que contén mudanzas só por seguridade. Por exemplo, a xente podería ser capaz de dicir só polos números que 1.1.2.1 é unha versión de seguridade e non 1.1.2, e saberían que calquera versión "maior" que esa (e.x., 1.1.3, 1.2.0, etc.) contén os mesmos amaños de seguridade. Para eses, este sistema expresa moita información. Por outra banda, para aqueles que non seguen de perto o proxecto, pode ser un pouco confuso ver unha terceira compoñente no número da versión con ocasionalmente un cuarto compoñente aparentemente aleatorio. Moitos proxectos simplemente empregan o seguinte numero programado para as versións de seguridade, mesmo cando implica mudar os plans da versión.</para>
+
+</sect2>
+
+</sect1>
+
+<!-- ======================== SECTION ============================== -->
+<sect1 id="releases-and-daily-development">
+<title
+>Versións e desenvolvemento diario</title>
+
+<para
+>Manter versións paralelas simultaneamente ten implicacións para como se fai o desenvolvemento diario. En particular, torna practicamente obrigatoria unha disciplina que sería recomendable de calquera forma: ter cada commit como unha simple mudanza lóxica, e nunca mesturar mudanzas non relacionadas no mesmo commit. </para>
+
+<para
+>Aquí hai un exemplo de commit mal concibido:</para>
+
+<screen
+>------------------------------------------------------------------------
+r6228 | jrandom | 2004-06-30 22:13:07 -0500 (Wed, 30 Jun 2004) | 8 lines
+
+Fix Issue #1729: Make indexing gracefully warn the user when a file
+is changing as it is being indexed.
+
+* ui/repl.py
+  (ChangingFile): New exception class.
+  (DoIndex): Handle new exception.
+
+* indexer/index.py
+  (FollowStream): Raise new exception if file changes during indexing.
+  (BuildDir): Unrelatedly, remove some obsolete comments, reformat
+  some code, and fix the error check when creating a directory.
+
+Other unrelated cleanups:
+
+* www/index.html: Fix some typos, set next release date.
+------------------------------------------------------------------------
+</screen>
+
+<para
+>O problema aparece tan pronto como alguén necesita portar o arranxo para comprobar os erros na función <function
+>BuildDir</function
+> a outra rama para unha versión de mantemento. O portador non quere ningunha das outros mudanzas&mdash;por exemplo, quizais o arranxo para o problema #1729 non foi de todo aprobado para a rama de mantemento, e o ficheiro <filename
+>index.html</filename
+> sería simplemente irrelevante alí. Mais non pode facilmente coller xusto a mudanza <function
+>BuildDir</function
+> a través da ferramenta de integración do sistema de control de versións xa que a mudanza está agrupada coas outras cousas non relacionadas. De feito, o problema aparecería mesmo antes da integración. Simplemente somenter a mudanza para votación sería problemático: en troca de dar o número de revisión, o que o propoño tería que facer un remendo especial ou mudar a rama para isolar a porción do commit proposto. Iso sería un montón de traballo sufrido por outros, e todo porque o commiter orixinal nun puido romper as cousas en grupos lóxicos.</para>
+
+<para
+>De feito, ese commit realmente deberían ter sido <emphasis
+>catro</emphasis
+> commits separados: un para resolver o problema #1729, outro para eliminar comentarios obsoletos e reformatar o código en <function
+>BuildDir</function
+>, outro para arranxar o erro en <function
+>BuildDir</function
+>, e finalmente, un para o <filename
+>index.html</filename
+>. O terceiro deses commits seria o proposto para a rama de mantemento da versión.</para>
+
+<para
+>Por suposto, estabilizar unha versión non é a única razón de por que é desexable que cada commit sexa unha mudanza lóxica. Psicoloxicamente, un commit semanticamente unificado é fácil de revisar, e fácil de reverter se for necesario (nalgúns sistemas de control de versións, reversión é realmente unha especie de merge). Un pouco de disciplina por parte de todo o mundo pode evitarlle unha dor de cabeza ao proxecto a longo prazo.</para>
+
+<!-- ======================== subsection ============================== -->
+<sect2 id="planning">
+<title
+>Planeando as versións</title>
+
+<para
+>Unha área onde os proxectos de software libre son diferentes historicamente dos propietarios é nos plans de lanzamento de versións. Os proxectos propietarios normalmente teñen datas límite firmes. Ás veces porque se lles prometeu aos clientes que unha actualización estaría dispoñible nunha data concreta, porque a nova versión precisa coordinarse con algún outro esforzo por propósitos de marketing, ou porque os ousados capitalistas que invisten en todo precisan ver algúns resultados antes de arriscaren os seus cartos para financiaren algo máis. Os proxectos de software libre, por outra banda, foron ata hai pouco máis motivados polo amadorismo no senso máis literal: foron escritos por amor á arte. Ninguén sentía a necesidade de facer os lanzamentos antes de todas as funcionalidades estiveren listas, e por que deberían? Non era como se o traballo de alguén estivese en xogo.</para>
+
+<para
+>Hoxe en día, a maioría dos proxectos de software libre son fundados por corporacións, e cada vez están máis influenciados pola cultura das datas límite. Isto é en certa forma algo bo, mais pode causar conflitos entre as prioridades dos desenvolvedores que son pagados e quen o fai como voluntario. Estes conflitos a miúdo suceden cando se trata de deseñar o esquema de lanzamento de versións. Os desenvolvedores pagados que son os que están baixo presión queren establecer unha data para lanzar a versión, e que teñen as actividades de todo o mundo se preguen á súa vontade. Mais os voluntarios poden ter outras axendas&mdash;quizais funcionalidades que queren completar, ou algún test que queren realizar&mdash;eles senten que o lanzamento da versión debería esperar.</para>
+
+<para
+>Non hai unha solución xeral para este problema excepto a discusión e o compromiso, por suposto. Mais non podes minimizar a frecuencia e o nivel de fricción causado, polo desacoplamento da proposta <emphasis
+>existente</emphasis
+> dunha versión dada desde a data cando sairía. Isto é, tratar de levar a discusión cara a que versións do proxecto se farán nun futuro próximo, e que funcionalidades irán en cada unha, sen ningunha mención sobre datas, excepto con grande marxes de erro<footnote
+><para
+>Para unha aproximación alternativa, podes ler a tese de Martin Michlmayr's Ph.D.<citetitle
+>Quality Improvement in Volunteer Free and Open Source Software Projects: Exploring the Impact of Release Management</citetitle
+> (<ulink url="http://www.cyrius.com/publications/michlmayr-phd.html"
+></ulink
+>). E sobre o uso do tempo baseado en procesos de lanzamento de versións, coma contraposición as funcionalidades, e moitos proxectos de software. Michlmayr ademais deu unha charla en Google sobre o tema, dispoñible a través de Google Video en <ulink url="http://video.google.com/videoplay?docid=-5503858974016723264"
+></ulink
+>.</para
+></footnote
+>. Dando logo un set de funcionalidades, reduces a complexidade da discusión centrada nunha versión individual, e por tanto melloras a previsibilidade. Isto ademais crea unha certa inercia contra alguén que propoñer expandir a definición da versión engadindo novas funcionalidades ou complicacións. Se os contidos da versión están máis ou menos ben definidos, a responsabilidade de xustificar a expansión vai ser de quen a propón, mesmo se a data de lanzamento non foi posta aínda.</para>
+
+<para
+>Na biografía de Thomas Jefferson, de varios volumes, <citetitle
+>Jefferson and His Time</citetitle
+>, Dumas Malone conta a historia de como Jefferson xestionou a primeira reunión que tivo para decidir como organizar o futuro da Universidade de Virxinia. A Universidade estivera no primeiro lugar na mente de Jefferson, mais (como pasa en todas partes, non só nos proxectos de software libre) moitos outros grupos se subiron ao carro rapidamente, cada un cos seus propios intereses e axendas. Cando se reuniron por primeira vez para determinaren as cousas, Jefferson asegurouse de mostrar con meticulosidade planos arquitectónicos preparados, orzamentos detallados para construción e xestión, unha proposta de curriculum, e de nomes de facultades específicas que quería importar de Europa. Ninguén máis na sala estaba remotamente preparado; o grupo esencialmente tivo que capitular ante a visión de Jefferson, e a Universidade foi máis ou menos fundada segundo os seus plans. Os feito de que a construción ficara por riba do orzamento, e que moitas ideas non se fixeran, por varias razóns, eran cousas que probablemente Jefferson sabía que ían acontecer. O seu propósito era estratéxico: mostrar na reunión algo tan detallado que ninguén puidera propoñer modificacións, e que polo tanto as liñas, e o esquema, do proxecto fora coma el quería.</para>
+
+<para
+>No caso dun proxecto de software libre, non hai unha soa "reunión", no canto diso hai unha serie de pequenas propostas polo seguimento do problema. Mais se tiveres certa credibilidade no proxecto para empezar, e comezares asignando varias funcionalidades, melloras, e erros ás versións obxectivo, de acordo co anunciado no plan xeral, a maioría da xente estará contigo. Unha vez tiveres as cousas ordenadas máis ou menos como quixeres, as conversas sobre as <emphasis
+>datas</emphasis
+> da versión actual serán máis suaves.</para>
+
+<para
+>É crucial, por suposto, non presentar nunca unha decisión individual como se estivese escrita en pedra. Nos comentarios asociados a cada asignación de temas a unha versión futura, invita á discusión, a disentir, e a estar xenuinamente disposto a ser persuadido na medida do posible. Nunca exerzas control simplemente co fin de exerceres control: Canto máis participen os demais no plan de lanzamento das versións (ver <xref linkend="share-management"/><phrase output="printed"
+> en <xref linkend="managing-volunteers"/>), máis sinxelo será persuadilos para compartiren as túas prioridades nos asuntos que realmente teñen importancia para ti.</para>
+
+<para
+>A outra forma de conseguir que haxa menos tensión arredor do proceso de lanzamento de versións é facer versións a miúdo. Cando pasa moito tempo entre versións, a importancia de cada versión individual é magnificada pola mente de todos; a xente indígnase máis cando o seu código non vai nunha versión, xa que saben que pasará bastante tempo ata que teñan outra oportunidade. Dependendo da complexidade do proceso de lanzamento de versións e a natureza do proxecto, un período entre 3 e 6 meses soe ser o adecuado entre versións, ademais as liñas de mantemento poden facer micro versións máis rápido, se houber demanda.</para>
+
+</sect2>
+
+</sect1>
+
+</chapter>
+
+<!--
+local variables: 
+sgml-parent-document: ("book.xml" "chapter")
+end:
+-->
+
